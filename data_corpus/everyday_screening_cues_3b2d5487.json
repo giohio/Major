@@ -1,0 +1,26 @@
+{
+  "id": "everyday#screening_cues_3b2d5487",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "62 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6C41.4 Cannabis withdrawal 6C41.5 Cannabis-induced delirium 6C41.6 Cannabis-induced psychotic disorder 6C41.70 Cannabis-induced mood disorder Specify clinical presentation: 6C41.700 … with depressive symptoms 6C41.701 … with manic symptoms 6C41.702 … with mixed depressive and manic symptoms 6C41.70Z … unspecified 6C41.71 Cannabis-induced anxiety disorder 6C41.Y Other specified disorder due to use of cannabis 6C41.Z Disorder due to use of cannabis, unspecified 6C42 Disorders due to use of synthetic cannabinoids 6C42.0 Episode of harmful use of synthetic cannabinoids 6C42.1 Harmful pattern of use of synthetic cannabinoids Specify pattern: 6C42.10 … episodic 6C42.11 … continuous 6C42.1Z … unspecified 6C42.2 Synthetic cannabinoid dependence Specify pattern of substance use or remission: 6C42.20 … current use 6C42.21 … early full remission 6C42.22 … sustained partial remission 6C42.23 … sustained full remission 6C42.2Z … unspecified 6C42.3 Synthetic cannabinoid intoxication Specify severity: 6C42.3&XS5W Synthetic cannabinoid intoxication, mild 6C42.3&XS0T Synthetic cannabinoid intoxication, moderate 6C42.3&XS25 Synthetic cannabinoid intoxication, severe 6C42.4 Synthetic cannabinoid withdrawal 6C42.5 Synthetic cannabinoid-induced delirium 6C42.6 Synthetic cannabinoid-induced psychotic disorder 6C42.70 Synthetic cannabinoid-induced mood disorder Specify clinical presentation: 6C42.700 … with depressive symptoms 6C42.701 … with manic symptoms 6C42.702 … with mixed depressive and manic symptoms 6C42.70Z … unspecified 6C42.71 Synthetic cannabinoid-induced anxiety disorder 6C42.Y Other specified disorder due to",
+  "gloss_vi": "62 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders 6c41.4 cannabis withdrawal 6c41.5 cannabis-induced delirium 6c41.6 cannabis-induced psychotic disorder 6...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 62 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6C41.4 Cannabis withdrawal 6C41.5 Cannabis-induced delirium 6C41.6 Cannabis-induced psychotic disorder 6C41.70 Cannabis-induced mood disorder Specify clinical presentation: 6C41.700 … with depressive symptoms 6C41.701 … with manic symptoms 6C41.702 … with mixed depressive and manic symptoms 6C41.70Z … unspecified 6C41.71 Cannabis-induced anxiety disorder 6C41.Y Other specified disorder due to use of cannabis 6C41.Z Disorder due to use of cannabis, unspecified 6C42 Disorders due to use of synthetic cannabinoids 6C42.0 Episode of harmful use of synthetic cannabinoids 6C42.1 Harmful pattern of use of synthetic cannabinoids Specify pattern: 6C42.10 … episodic 6C42.11 … continuous 6C42.1Z … unspecified 6C42.2 Synthetic cannabinoid dependence Specify pattern of substance use or remission: 6C42.20 … current use 6C42.21 … early full remission 6C42.22 … sustained partial remission 6C42.23 … sustained full remission 6C42.2Z … unspecified 6C42.3 Synthetic cannabinoid intoxication Specify severity: 6C42.3&XS5W Synthetic cannabinoid intoxication, mild 6C42.3&XS0T Synthetic cannabinoid intoxication, moderate 6C42.3&XS25 Synthetic cannabinoid intoxication, severe 6C42.4 Synthetic cannabinoid withdrawal 6C42.5 Synthetic cannabinoid-induced delirium 6C42.6 Synthetic cannabinoid-induced psychotic disorder 6C42.70 Synthetic cannabinoid-induced mood disorder Specify clinical presentation: 6C42.700 … with depressive symptoms 6C42.701 … with manic symptoms 6C42.702 … with mixed depressive and manic symptoms 6C42.70Z … unspecified 6C42.71 Synthetic cannabinoid-induced anxiety disorder 6C42.Y Other specified disorder due to 62 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders 6c41.4 cannabis withdrawal 6c41.5 cannabis-induced delirium 6c41.6 cannabis-induced psychotic disorder 6..."
+}

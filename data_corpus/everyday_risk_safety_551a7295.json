@@ -1,0 +1,30 @@
+{
+  "id": "everyday#risk_safety_551a7295",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "List of categories 57 Dissociative disorders 6B60 Dissociative neurological symptom disorder Specify clinical presentation: 6B60.0 … with visual disturbance 6B60.1 … with auditory disturbance 6B60.2 … with vertigo or dizziness 6B60.3 … with other sensory disturbance 6B60.4 … with non-epileptic seizures 6B60.5 … with speech disturbance 6B60.6 … with paresis or weakness 6B60.7 … with gait disturbance 6B60.8 … with movement disturbance 6B60.80 … with chorea 6B60.81 … with myoclonus 6B60.82 … with tremor 6B60.83 … with dystonia 6B60.84 … with facial spasm 6B60.85 … with parkinsonism 6B60.8Y … with other specified movement disturbance 6B60.8Z … with unspecified movement disturbance 6B60.9 … with cognitive symptoms 6B60.Y … with other specified symptoms 6B60.Z … with unspecified symptoms 6B61 Dissociative amnesia Specify presence of dissociative fugue: 6B61.0 … with dissociative fugue 6B61.1 … without dissociative fugue 6B61.Z … unspecified 6B62 Trance disorder 6B63 Possession trance disorder 6B64 Dissociative identity disorder 6B65 Partial dissociative identity disorder 58 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6B66 Depersonalization-derealization disorder 6B6Y Other specified dissociative disorder 6B84 6B6Z Dissociative disorder, unspecified Secondary-parented category From secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere: 6E65 Secondary dissociative syndrome 6C00 Feeding and eating disorders 6B80 Anorexia nervosa Specify underweight status: 6B80.0 Anorexia nervosa with significantly low body weight Specify pattern of weight-related behaviours: 6B80.00 … restricting pattern 6C01 6B80.01 … binge-purge pattern 6B80.0Z … unspecified 6B80.1 Anorexia nervosa with dangerously low body weight Specify pattern of weight-related behaviours: 6B80.10 … restricting pattern 6B80.11 … binge-purge pattern 6B80.1Z … unspecified 6B80.2 Anorexia nervosa in recovery with normal body weight 6B80.Y Other specified anorexia nervosa 6B80 6B80.Z Anorexia nervosa, unspecified 6B81 Bulimia nervosa 6B82 Binge-eating disorder",
+  "gloss_vi": "List of categories 57 dissociative disorders 6b60 dissociative neurological symptom disorder specify clinical presentation: 6b60.0 … with visual disturbance 6b60.1 … with auditory disturbance 6b60.2 … with vertigo or diz...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [
+      "work_habits"
+    ],
+    "audience": [],
+    "risk_band": "high"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn List of categories 57 Dissociative disorders 6B60 Dissociative neurological symptom disorder Specify clinical presentation: 6B60.0 … with visual disturbance 6B60.1 … with auditory disturbance 6B60.2 … with vertigo or dizziness 6B60.3 … with other sensory disturbance 6B60.4 … with non-epileptic seizures 6B60.5 … with speech disturbance 6B60.6 … with paresis or weakness 6B60.7 … with gait disturbance 6B60.8 … with movement disturbance 6B60.80 … with chorea 6B60.81 … with myoclonus 6B60.82 … with tremor 6B60.83 … with dystonia 6B60.84 … with facial spasm 6B60.85 … with parkinsonism 6B60.8Y … with other specified movement disturbance 6B60.8Z … with unspecified movement disturbance 6B60.9 … with cognitive symptoms 6B60.Y … with other specified symptoms 6B60.Z … with unspecified symptoms 6B61 Dissociative amnesia Specify presence of dissociative fugue: 6B61.0 … with dissociative fugue 6B61.1 … without dissociative fugue 6B61.Z … unspecified 6B62 Trance disorder 6B63 Possession trance disorder 6B64 Dissociative identity disorder 6B65 Partial dissociative identity disorder 58 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6B66 Depersonalization-derealization disorder 6B6Y Other specified dissociative disorder 6B84 6B6Z Dissociative disorder, unspecified Secondary-parented category From secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere: 6E65 Secondary dissociative syndrome 6C00 Feeding and eating disorders 6B80 Anorexia nervosa Specify underweight status: 6B80.0 Anorexia nervosa with significantly low body weight Specify pattern of weight-related behaviours: 6B80.00 … restricting pattern 6C01 6B80.01 … binge-purge pattern 6B80.0Z … unspecified 6B80.1 Anorexia nervosa with dangerously low body weight Specify pattern of weight-related behaviours: 6B80.10 … restricting pattern 6B80.11 … binge-purge pattern 6B80.1Z … unspecified 6B80.2 Anorexia nervosa in recovery with normal body weight 6B80.Y Other specified anorexia nervosa 6B80 6B80.Z Anorexia nervosa, unspecified 6B81 Bulimia nervosa 6B82 Binge-eating disorder List of categories 57 dissociative disorders 6b60 dissociative neurological symptom disorder specify clinical presentation: 6b60.0 … with visual disturbance 6b60.1 … with auditory disturbance 6b60.2 … with vertigo or diz..."
+}

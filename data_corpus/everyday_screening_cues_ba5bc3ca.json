@@ -1,0 +1,31 @@
+{
+  "id": "everyday#screening_cues_ba5bc3ca",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "336 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Disorders specifically associated with stress 337 Disorders specifically associated with stress Disorders specifically associated with stress are directly related to exposure to a stressful or traumatic event, or to a series of such events or adverse experiences. For each of the disorders in this grouping, an identifiable stressor is a necessary, though not sufficient, causal factor. Most people who experience stressors do not develop a disorder. Stressful events for some disorders in this grouping are within the normal range of life experiences (e.g. divorce, socioeconomic problems, bereavement). Other disorders require exposure to a stressor that is extremely threatening or horrific in nature (i.e. potentially traumatic events). With all disorders in this grouping, it is the nature, pattern and duration of the symptoms that arise in response to the stressful events – together with associated functional impairment – that distinguishes the disorders. Disorders specifically associated with stress include the following: 6B40 Post-traumatic stress disorder 6B41 Complex post-traumatic stress disorder 6B42 Prolonged grief disorder 6B43 Adjustment disorder 6B44 Reactive attachment disorder 6B45 Disinhibited social engagement disorder 6B4Y Other specified disorder specifically associated with stress 6B4Z Disorder specifically associated with stress, unspecified. The categories in the grouping of disorders specifically associated with stress should not be used to classify normal responses to recent stressful or traumatic events. To assist in differential diagnosis, also listed here is: QE84 Acute stress reaction Normal responses to recent traumatic events may be classifiable under acute stress reaction. Acute stress reaction is not considered to be a mental disorder but rather appears in Chapter 24 on factors influencing health status or contact with health services. Disorders specifically associated with stress",
+  "gloss_vi": "336 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders disorders specifically associated with căng thẳng 337 disorders specifically associated with căng thẳng...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "stress",
+      "grief"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 336 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Disorders specifically associated with stress 337 Disorders specifically associated with stress Disorders specifically associated with stress are directly related to exposure to a stressful or traumatic event, or to a series of such events or adverse experiences. For each of the disorders in this grouping, an identifiable stressor is a necessary, though not sufficient, causal factor. Most people who experience stressors do not develop a disorder. Stressful events for some disorders in this grouping are within the normal range of life experiences (e.g. divorce, socioeconomic problems, bereavement). Other disorders require exposure to a stressor that is extremely threatening or horrific in nature (i.e. potentially traumatic events). With all disorders in this grouping, it is the nature, pattern and duration of the symptoms that arise in response to the stressful events – together with associated functional impairment – that distinguishes the disorders. Disorders specifically associated with stress include the following: 6B40 Post-traumatic stress disorder 6B41 Complex post-traumatic stress disorder 6B42 Prolonged grief disorder 6B43 Adjustment disorder 6B44 Reactive attachment disorder 6B45 Disinhibited social engagement disorder 6B4Y Other specified disorder specifically associated with stress 6B4Z Disorder specifically associated with stress, unspecified. The categories in the grouping of disorders specifically associated with stress should not be used to classify normal responses to recent stressful or traumatic events. To assist in differential diagnosis, also listed here is: QE84 Acute stress reaction Normal responses to recent traumatic events may be classifiable under acute stress reaction. Acute stress reaction is not considered to be a mental disorder but rather appears in Chapter 24 on factors influencing health status or contact with health services. Disorders specifically associated with stress 336 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders disorders specifically associated with căng thẳng 337 disorders specifically associated with căng thẳng..."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "everyday#screening_cues_f81dc4a3",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "including ketamine and PCP Specify pattern: 6C4D.10 … episodic 6C4D.11 … continuous 6C4D.1Z … unspecified List of categories 71 6C4D.2 Dissociative drug dependence, including ketamine and PCP Specify pattern of substance use or remission: 6C4D.20 … current use 6C4D.21 … early full remission 6C4D.22 … sustained partial remission 6C4D.23 … sustained full remission 6C4D.2Z … unspecified 6C4D.3 Dissociative drug intoxication, including ketamine and PCP Specify severity: 6C4D.3&XS5W Dissociative drug intoxication, including ketamine and PCP, mild 6C4D.3&XS0T Dissociative drug intoxication, including ketamine and PCP, moderate 6C4D.3&XS25 Dissociative drug intoxication, including ketamine and PCP, severe 6C4D.4 Dissociative drug-induced delirium, including ketamine and PCP 6C4D.5 Dissociative drug-induced psychotic disorder, including ketamine and PCP 6C4D.60 Dissociative drug-induced mood disorder, including ketamine and PCP Specify clinical presentation: 6C4D.600 … with depressive symptoms 6C4D.601 … with manic symptoms 6C4D.602 … with mixed depressive and manic symptoms 6C4D.60Z … unspecified 6C4D.61 Dissociative drug-induced anxiety disorder, including ketamine and PCP 6C4D.Y Other specified disorder due to use of dissociative drugs, including ketamine and PCP 6C4D.Z Disorder due to use of dissociative drugs, including ketamine and PCP, unspecified 6C4E Disorders due to use of other specified psychoactive substances, including medications 6C4E.0 Episode of harmful use of other specified psychoactive substance, including medications 6C4E.1 Harmful pattern of use of other specified psychoactive substance, including medications Specify pattern: 6C4E.10 … episodic 6C4E.11 … continuous 6C4E.1Z … unspecified 6C4E.2 Other specified psychoactive substance dependence Specify pattern of substance use or remission: 6C4E.20 … current use 6C4E.21 … early full remission 6C4E.22 … sustained partial remission 6C4E.23 … sustained full remission 6C4E.2Z … unspecified",
+  "gloss_vi": "Including ketamine and pcp specify pattern: 6c4d.10 … episodic 6c4d.11 … continuous 6c4d.1z … unspecified list of categories 71 6c4d.2 dissociative drug dependence, including ketamine and pcp specify pattern of substance...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc including ketamine and PCP Specify pattern: 6C4D.10 … episodic 6C4D.11 … continuous 6C4D.1Z … unspecified List of categories 71 6C4D.2 Dissociative drug dependence, including ketamine and PCP Specify pattern of substance use or remission: 6C4D.20 … current use 6C4D.21 … early full remission 6C4D.22 … sustained partial remission 6C4D.23 … sustained full remission 6C4D.2Z … unspecified 6C4D.3 Dissociative drug intoxication, including ketamine and PCP Specify severity: 6C4D.3&XS5W Dissociative drug intoxication, including ketamine and PCP, mild 6C4D.3&XS0T Dissociative drug intoxication, including ketamine and PCP, moderate 6C4D.3&XS25 Dissociative drug intoxication, including ketamine and PCP, severe 6C4D.4 Dissociative drug-induced delirium, including ketamine and PCP 6C4D.5 Dissociative drug-induced psychotic disorder, including ketamine and PCP 6C4D.60 Dissociative drug-induced mood disorder, including ketamine and PCP Specify clinical presentation: 6C4D.600 … with depressive symptoms 6C4D.601 … with manic symptoms 6C4D.602 … with mixed depressive and manic symptoms 6C4D.60Z … unspecified 6C4D.61 Dissociative drug-induced anxiety disorder, including ketamine and PCP 6C4D.Y Other specified disorder due to use of dissociative drugs, including ketamine and PCP 6C4D.Z Disorder due to use of dissociative drugs, including ketamine and PCP, unspecified 6C4E Disorders due to use of other specified psychoactive substances, including medications 6C4E.0 Episode of harmful use of other specified psychoactive substance, including medications 6C4E.1 Harmful pattern of use of other specified psychoactive substance, including medications Specify pattern: 6C4E.10 … episodic 6C4E.11 … continuous 6C4E.1Z … unspecified 6C4E.2 Other specified psychoactive substance dependence Specify pattern of substance use or remission: 6C4E.20 … current use 6C4E.21 … early full remission 6C4E.22 … sustained partial remission 6C4E.23 … sustained full remission 6C4E.2Z … unspecified Including ketamine and pcp specify pattern: 6c4d.10 … episodic 6c4d.11 … continuous 6c4d.1z … unspecified list of categories 71 6c4d.2 dissociative drug dependence, including ketamine and pcp specify pattern of substance..."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "everyday#risk_safety_2b9910f3",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "714 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders PJ20 / Physical maltreatment, spouse or partner, or history of spouse or QE51.10 partner violence, physical Essential (required) features • At least one non-accidental act of physical force (e.g. pushing or shoving, scratching, slapping, throwing something that could cause injury, punching, biting) is required for diagnosis. • The act causes (or exacerbates) at least one of the following: • any physical injury; • significant fear; • reasonable potential for significant physical injury. • The act was not for physical protection of the individual (e.g. to ward off a partner’s punches) or partner (e.g. to prevent a partner from attempting suicide). Note: these categories are assigned to the victim, not the perpetrator. In cases of mutual violence in which the couple is being evaluated, they may be assigned to both parties if applicable. If PJ20 Physical maltreatment is diagnosed, the perpetrator should be specified as a spouse or partner using the extension code XE454 (PJ20&XE454). On the ICD-11 platform, the option to specify the perpetrator–victim relationship appears in the context of the assault field. Additional clinical features • Intimate partner physical abuse is, by definition, associated with an increased risk of physical injury and need for medical attention. • Intimate partner physical abuse is associated with an increased risk of poor physical health and the development of a chronic disease. • Intimate partner physical abuse is associated with higher rates of depressive disorders, post-traumatic stress disorder and disorders due to substance use, as well as suicidality. • A pattern of recurrent acts, or the intent to assert control or power, are not required features for assigning a diagnosis of intimate partner physical abuse. The diagnosis only requires at least one act of violence that causes or exacerbates at least one negative impact. • Most children (i.e. approximately 75%) living in households with",
+  "gloss_vi": "714 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders pj20 / physical maltreatment, spouse or partner, or history of spouse or qe51.10 partner violence, phys...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "screening_cues"
+    ],
+    "life_topics": [
+      "stress",
+      "relationships"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "high"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn 714 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders PJ20 / Physical maltreatment, spouse or partner, or history of spouse or QE51.10 partner violence, physical Essential (required) features • At least one non-accidental act of physical force (e.g. pushing or shoving, scratching, slapping, throwing something that could cause injury, punching, biting) is required for diagnosis. • The act causes (or exacerbates) at least one of the following: • any physical injury; • significant fear; • reasonable potential for significant physical injury. • The act was not for physical protection of the individual (e.g. to ward off a partner’s punches) or partner (e.g. to prevent a partner from attempting suicide). Note: these categories are assigned to the victim, not the perpetrator. In cases of mutual violence in which the couple is being evaluated, they may be assigned to both parties if applicable. If PJ20 Physical maltreatment is diagnosed, the perpetrator should be specified as a spouse or partner using the extension code XE454 (PJ20&XE454). On the ICD-11 platform, the option to specify the perpetrator–victim relationship appears in the context of the assault field. Additional clinical features • Intimate partner physical abuse is, by definition, associated with an increased risk of physical injury and need for medical attention. • Intimate partner physical abuse is associated with an increased risk of poor physical health and the development of a chronic disease. • Intimate partner physical abuse is associated with higher rates of depressive disorders, post-traumatic stress disorder and disorders due to substance use, as well as suicidality. • A pattern of recurrent acts, or the intent to assert control or power, are not required features for assigning a diagnosis of intimate partner physical abuse. The diagnosis only requires at least one act of violence that causes or exacerbates at least one negative impact. • Most children (i.e. approximately 75%) living in households with 714 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders pj20 / physical maltreatment, spouse or partner, or history of spouse or qe51.10 partner violence, phys..."
+}

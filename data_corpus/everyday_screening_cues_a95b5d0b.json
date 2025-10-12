@@ -1,0 +1,26 @@
+{
+  "id": "everyday#screening_cues_a95b5d0b",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "74 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6C4G.2 Unknown or unspecified psychoactive substance dependence Specify pattern of substance use or remission: 6C4G.20 … current use 6C4G.21 … early full remission 6C4G.22 … sustained partial remission 6C4G.23 … sustained full remission 6C4G.2Z … unspecified 6C4G.3 Intoxication due to unknown or unspecified psychoactive substance Specify severity: 6C4G.3&XS5W Intoxication due to unknown or unspecified psychoactive substance, mild 6C4G.3&XS0T Intoxication due to unknown or unspecified psychoactive substance, moderate 6C4G.3&XS25 Intoxication due to unknown or unspecified psychoactive substance, severe 6C4G.4 Withdrawal due to unknown or unspecified psychoactive substance Specify clinical presentation: 6C4G.40 … uncomplicated 6C4G.41 … with perceptual disturbances 6C4G.42 … with seizures 6C4G.43 … with perceptual disturbances and seizures 6C4G.4Z … unspecified 6C4G.5 Delirium induced by unknown or unspecified psychoactive substance 6C4G.6 Psychotic disorder induced by unknown or unspecified psychoactive substance 6C4G.70 Mood disorder induced by unknown or unspecified psychoactive substance Specify clinical presentation: 6C4G.700 … with depressive symptoms 6C4G.701 … with manic symptoms 6C4G.702 … with mixed depressive and",
+  "gloss_vi": "74 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders 6c4g.2 unknown or unspecified psychoactive substance dependence specify pattern of substance use or remi...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 74 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6C4G.2 Unknown or unspecified psychoactive substance dependence Specify pattern of substance use or remission: 6C4G.20 … current use 6C4G.21 … early full remission 6C4G.22 … sustained partial remission 6C4G.23 … sustained full remission 6C4G.2Z … unspecified 6C4G.3 Intoxication due to unknown or unspecified psychoactive substance Specify severity: 6C4G.3&XS5W Intoxication due to unknown or unspecified psychoactive substance, mild 6C4G.3&XS0T Intoxication due to unknown or unspecified psychoactive substance, moderate 6C4G.3&XS25 Intoxication due to unknown or unspecified psychoactive substance, severe 6C4G.4 Withdrawal due to unknown or unspecified psychoactive substance Specify clinical presentation: 6C4G.40 … uncomplicated 6C4G.41 … with perceptual disturbances 6C4G.42 … with seizures 6C4G.43 … with perceptual disturbances and seizures 6C4G.4Z … unspecified 6C4G.5 Delirium induced by unknown or unspecified psychoactive substance 6C4G.6 Psychotic disorder induced by unknown or unspecified psychoactive substance 6C4G.70 Mood disorder induced by unknown or unspecified psychoactive substance Specify clinical presentation: 6C4G.700 … with depressive symptoms 6C4G.701 … with manic symptoms 6C4G.702 … with mixed depressive and 74 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders 6c4g.2 unknown or unspecified psychoactive substance dependence specify pattern of substance use or remi..."
+}

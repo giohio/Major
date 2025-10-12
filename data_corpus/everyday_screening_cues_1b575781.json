@@ -1,0 +1,31 @@
+{
+  "id": "everyday#screening_cues_1b575781",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "from caregiver–child relationship problem, which – unlike psychological maltreatment – is characterized by parenting behaviours that are within the normal range for the sociocultural context but may still have a negative impact on the child. PF1B / Assault by neglect or personal history of neglect as a child QE82.3 Essential (required) features • At least one confirmed or suspected egregious act or omission by a child or adolescent’s caregiver that deprives the child of needed age-appropriate care is required for diagnosis (e.g. abandonment, lack of appropriate supervision; exposure to physical hazard; failure to provide necessary education, health care, nourishment, shelter, clothing). • The act or omission causes or exacerbates at least one of the following impacts: • significant physical injury or reasonable potential for significant injury; • other significant negative consequences to health (e.g. development of an illness directly linked to the neglect, malnutrition) or reasonable potential for significant negative consequences to health; • significant fear or psychological distress; • reasonable potential for significant psychological harm (e.g. development of a mental disorder) or for significant disruption of the child’s physical, psychological, cognitive or social development); • somatic symptoms that interfere with normal functioning. Note: this category is assigned to the victim, not the perpetrator. If PF1B Assault by neglect is diagnosed, the perpetrator–victim relationship (e.g. parent, other relative, stranger) should be specified using the extension codes provided on the ICD-11 platform in the context of the assault field. Perpetrator should be specified as a parent, other relative, unrelated caregiver, or official or legal authority using the available extension codes. Depending on the specific situation, PB5B Unintentional neglect or PH7B Neglect with undetermined intent may be diagnosed rather than PF1B Assault by neglect. If QE82.3 Personal history of neglect is diagnosed, the time of life for current or past episodes (e.g. child aged under 5 years, early adolescence) can be specified using the extension codes provided. Problems in relationship between child and current former caregiver and current or past child maltreatment Problems in relationship between child and current former caregiver and current or past child maltreatment",
+  "gloss_vi": "From caregiver–child relationship problem, which – unlike psychological maltreatment – is characterized by parenting behaviours that are within the normal range for the sociocultural context but may still have a negative...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "psychoeducation"
+    ],
+    "life_topics": [
+      "stress",
+      "relationships"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc from caregiver–child relationship problem, which – unlike psychological maltreatment – is characterized by parenting behaviours that are within the normal range for the sociocultural context but may still have a negative impact on the child. PF1B / Assault by neglect or personal history of neglect as a child QE82.3 Essential (required) features • At least one confirmed or suspected egregious act or omission by a child or adolescent’s caregiver that deprives the child of needed age-appropriate care is required for diagnosis (e.g. abandonment, lack of appropriate supervision; exposure to physical hazard; failure to provide necessary education, health care, nourishment, shelter, clothing). • The act or omission causes or exacerbates at least one of the following impacts: • significant physical injury or reasonable potential for significant injury; • other significant negative consequences to health (e.g. development of an illness directly linked to the neglect, malnutrition) or reasonable potential for significant negative consequences to health; • significant fear or psychological distress; • reasonable potential for significant psychological harm (e.g. development of a mental disorder) or for significant disruption of the child’s physical, psychological, cognitive or social development); • somatic symptoms that interfere with normal functioning. Note: this category is assigned to the victim, not the perpetrator. If PF1B Assault by neglect is diagnosed, the perpetrator–victim relationship (e.g. parent, other relative, stranger) should be specified using the extension codes provided on the ICD-11 platform in the context of the assault field. Perpetrator should be specified as a parent, other relative, unrelated caregiver, or official or legal authority using the available extension codes. Depending on the specific situation, PB5B Unintentional neglect or PH7B Neglect with undetermined intent may be diagnosed rather than PF1B Assault by neglect. If QE82.3 Personal history of neglect is diagnosed, the time of life for current or past episodes (e.g. child aged under 5 years, early adolescence) can be specified using the extension codes provided. Problems in relationship between child and current former caregiver and current or past child maltreatment Problems in relationship between child and current former caregiver and current or past child maltreatment From caregiver–child relationship problem, which – unlike psychological maltreatment – is characterized by parenting behaviours that are within the normal range for the sociocultural context but may still have a negative..."
+}

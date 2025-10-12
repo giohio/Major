@@ -1,0 +1,30 @@
+{
+  "id": "everyday#psychoeducation_a149296e",
+  "title_en": "General — Psychoeducation",
+  "title_vi": "General — Giáo dục tâm lý",
+  "text_en": "Factors influencing health status or contact with health services particularly relevant to mental health services 733 Reasons for contact with mental health services 734 Problems associated with relationships 734 Problems associated with absence, loss or death of others 735 Problems related to primary support group, including family circumstances 736 Problems associated with upbringing 737 Problems associated with harmful or traumatic events 738 Problems associated with social or cultural environment 739 Problems associated with employment or unemployment 740 Problems associated with education 741 Other reasons for contact with mental health services 741 Problems associated with health behaviours 742 Contact with health services for counselling 745 Contact with health services for reasons associated with reproduction 747 Problems associated with social insurance or welfare 747 xiv Problems associated with the justice system 748 Problems associated with finances 748 Problems associated with inadequate drinking-water or nutrition 749 Problems associated with the environment 749 Crosswalk from ICD-11 mental, behavioural and neurodevelopmental disorders to ICD-10 for clinician use 753 Contributors 811",
+  "gloss_vi": "Factors influencing health status or contact with health services particularly relevant to mental health services 733 reasons for contact with mental health services 734 problems associated with relationships 734 problem...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "psychoeducation"
+    ],
+    "life_topics": [
+      "relationships",
+      "grief"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Psychoeducation General — Giáo dục tâm lý Factors influencing health status or contact with health services particularly relevant to mental health services 733 Reasons for contact with mental health services 734 Problems associated with relationships 734 Problems associated with absence, loss or death of others 735 Problems related to primary support group, including family circumstances 736 Problems associated with upbringing 737 Problems associated with harmful or traumatic events 738 Problems associated with social or cultural environment 739 Problems associated with employment or unemployment 740 Problems associated with education 741 Other reasons for contact with mental health services 741 Problems associated with health behaviours 742 Contact with health services for counselling 745 Contact with health services for reasons associated with reproduction 747 Problems associated with social insurance or welfare 747 xiv Problems associated with the justice system 748 Problems associated with finances 748 Problems associated with inadequate drinking-water or nutrition 749 Problems associated with the environment 749 Crosswalk from ICD-11 mental, behavioural and neurodevelopmental disorders to ICD-10 for clinician use 753 Contributors 811 Factors influencing health status or contact with health services particularly relevant to mental health services 733 reasons for contact with mental health services 734 problems associated with relationships 734 problem..."
+}

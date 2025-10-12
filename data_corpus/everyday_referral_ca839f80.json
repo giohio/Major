@@ -1,0 +1,29 @@
+{
+  "id": "everyday#referral_ca839f80",
+  "title_en": "General — Referral",
+  "title_vi": "General — Chuyển tuyến",
+  "text_en": "Crosswalk from ICD-11 mental, behavioural and neurodevelopmental disorders to ICD-10 for clinician use 805 ICD-11 ICD-10 Notes 6D70.1 Delirium due to psychoactive substances, F1x.03 Mental and behavioural disorders due to psychoactive The x in the middle including medications substance use: acute intoxication with delirium column is a placeholder for the digit indicating 4-character code: F1x.0 Mental and behavioural disorders the substance class in due to psychoactive substance use: acute intoxication ICD-10: OR • 0 = alcohol F1x.4 Mental and behavioural disorders due to psychoactive • 1 = opioids substance use: withdrawal state with delirium • 2 = cannabinoids OR • 3 = sedatives or hypnotics F1x.8 Mental and behavioural disorders due to psychoactive • 4 = cocaine substance use: other mental and behavioural disorders • 5 = stimulants, including caffeine • 6 = hallucinogens • 7 = tobacco • 8 = volatile solvents • 9 = multiple or other psychoactive substances. Use F1x.8 if intoxication/ withdrawal status is unknown. 6D70.2 Delirium due to multiple etiological factors F05 Delirium, not induced by alcohol and other psychoactive Use F05 or F05.8 unless substances multiple etiological factors refer entirely to multiple psychoactive substances, in which case F19.4 should be 4-character code: F05.8 Other delirium used. OR F19.4 Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances withdrawal state with delirium 6D70.Y Delirium, other specified cause F05.8 Other delirium 6D70.Z Delirium, unknown or unspecified cause F05.9 Delirium, unspecified 6D71 Mild neurocognitive disorder F06.7 Mild cognitive disorder 6D72 Amnestic disorder Etiology must be specified (see below). 6D72.0 Amnestic disorder due to diseases classified F04 Organic amnesic syndrome, not induced by alcohol and elsewhere other psychoactive substances No 4-character code available 6D72.1 Amnestic disorder due to psychoactive Substance must be specified (see below). substances, including medications 6D72.10 Amnestic disorder due to use of alcohol F10.6 Mental and behavioural disorders due to use of alcohol: amnesic syndrome 6D72.11 Amnestic disorder due to use of sedatives, F13.6 Mental and behavioural disorders due to",
+  "gloss_vi": "Crosswalk from icd-11 mental, behavioural and neurodevelopmental disorders to icd-10 for clinician use 805 icd-11 icd-10 notes 6d70.1 delirium due to psychoactive substances, f1x.03 mental and behavioural disorders due t...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "referral"
+    ],
+    "life_topics": [],
+    "advice_section": [
+      "sleep_hygiene"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Referral General — Chuyển tuyến Crosswalk from ICD-11 mental, behavioural and neurodevelopmental disorders to ICD-10 for clinician use 805 ICD-11 ICD-10 Notes 6D70.1 Delirium due to psychoactive substances, F1x.03 Mental and behavioural disorders due to psychoactive The x in the middle including medications substance use: acute intoxication with delirium column is a placeholder for the digit indicating 4-character code: F1x.0 Mental and behavioural disorders the substance class in due to psychoactive substance use: acute intoxication ICD-10: OR • 0 = alcohol F1x.4 Mental and behavioural disorders due to psychoactive • 1 = opioids substance use: withdrawal state with delirium • 2 = cannabinoids OR • 3 = sedatives or hypnotics F1x.8 Mental and behavioural disorders due to psychoactive • 4 = cocaine substance use: other mental and behavioural disorders • 5 = stimulants, including caffeine • 6 = hallucinogens • 7 = tobacco • 8 = volatile solvents • 9 = multiple or other psychoactive substances. Use F1x.8 if intoxication/ withdrawal status is unknown. 6D70.2 Delirium due to multiple etiological factors F05 Delirium, not induced by alcohol and other psychoactive Use F05 or F05.8 unless substances multiple etiological factors refer entirely to multiple psychoactive substances, in which case F19.4 should be 4-character code: F05.8 Other delirium used. OR F19.4 Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances withdrawal state with delirium 6D70.Y Delirium, other specified cause F05.8 Other delirium 6D70.Z Delirium, unknown or unspecified cause F05.9 Delirium, unspecified 6D71 Mild neurocognitive disorder F06.7 Mild cognitive disorder 6D72 Amnestic disorder Etiology must be specified (see below). 6D72.0 Amnestic disorder due to diseases classified F04 Organic amnesic syndrome, not induced by alcohol and elsewhere other psychoactive substances No 4-character code available 6D72.1 Amnestic disorder due to psychoactive Substance must be specified (see below). substances, including medications 6D72.10 Amnestic disorder due to use of alcohol F10.6 Mental and behavioural disorders due to use of alcohol: amnesic syndrome 6D72.11 Amnestic disorder due to use of sedatives, F13.6 Mental and behavioural disorders due to Crosswalk from icd-11 mental, behavioural and neurodevelopmental disorders to icd-10 for clinician use 805 icd-11 icd-10 notes 6d70.1 delirium due to psychoactive substances, f1x.03 mental and behavioural disorders due t..."
+}

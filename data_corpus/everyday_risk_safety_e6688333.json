@@ -1,0 +1,35 @@
+{
+  "id": "everyday#risk_safety_e6688333",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "the disorder. The following specifiers may be applied to 6B80.0 Anorexia nervosa with significantly low body weight and 6B80.1 Anorexia nervosa with dangerously low body weight. (The x below corresponds to the fifth-character code 0 or 1, indicating the individual’s underweight status.) 6B80.x0 restricting pattern The restricting pattern specifier should be assigned to individuals with anorexia nervosa who induce weight loss and maintain low body weight through restricted food intake or fasting, alone or in combination with increased energy expenditure (e.g. through excessive exercise), but who do not engage in binge-eating or purging behaviours. 6B80.x1 binge-purge pattern The binge-purge pattern specifier should be assigned to individuals with anorexia nervosa who present with episodes of binge-eating or purging behaviours aimed at getting rid of ingested food (e.g. self-induced vomiting, laxative abuse or enemas). This type of anorexia nervosa also includes individuals who exhibit binge-eating episodes but do not purge. 6B80.xZ unspecified Additional clinical features • Signs of low body weight may include visible or measurable signs of starvation, such as emaciation (lack of fat and muscle mass), extremities that feel cold to the touch or appear blue, hair loss, growth of fine “lanugo” hair, oedema, proximal muscle weakness, amenorrhea, osteopenia or osteoporosis, slow heart rate and low blood pressure. • An explicitly stated fear of weight gain is not an absolute requirement for the diagnosis of anorexia nervosa, as long as the behaviours maintaining underweight status appear to be intentional, and there are other behavioural indicators of preoccupation with body weight or shape (e.g. repeated checking or monitoring, or extreme avoidance behaviours). • Individuals with anorexia nervosa often show a persistent lack of recognition that they are underweight or excessively thin, and dismiss objective evidence regarding their actual weight or shape and the seriousness of their condition. • Medical risk among individuals with anorexia nervosa is not solely dependent on weight status. Medical assessment should take into account other important medical risk factors as part of a comprehensive physical examination. Other risk factors include, but are not limited to, rapid weight loss (especially in children), orthostatic hypotension, bradycardia or postural tachycardia, hypothermia, cardiac arrhythmia and biochemical disturbance. Feeding and eating disorders | Anorexia nervosa",
+  "gloss_vi": "The disorder. the following specifiers may be applied to 6b80.0 anorexia nervosa with significantly low body weight and 6b80.1 anorexia nervosa with dangerously low body weight.",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "stress",
+      "study",
+      "grief"
+    ],
+    "advice_section": [
+      "work_habits"
+    ],
+    "audience": [],
+    "risk_band": "high"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn the disorder. The following specifiers may be applied to 6B80.0 Anorexia nervosa with significantly low body weight and 6B80.1 Anorexia nervosa with dangerously low body weight. (The x below corresponds to the fifth-character code 0 or 1, indicating the individual’s underweight status.) 6B80.x0 restricting pattern The restricting pattern specifier should be assigned to individuals with anorexia nervosa who induce weight loss and maintain low body weight through restricted food intake or fasting, alone or in combination with increased energy expenditure (e.g. through excessive exercise), but who do not engage in binge-eating or purging behaviours. 6B80.x1 binge-purge pattern The binge-purge pattern specifier should be assigned to individuals with anorexia nervosa who present with episodes of binge-eating or purging behaviours aimed at getting rid of ingested food (e.g. self-induced vomiting, laxative abuse or enemas). This type of anorexia nervosa also includes individuals who exhibit binge-eating episodes but do not purge. 6B80.xZ unspecified Additional clinical features • Signs of low body weight may include visible or measurable signs of starvation, such as emaciation (lack of fat and muscle mass), extremities that feel cold to the touch or appear blue, hair loss, growth of fine “lanugo” hair, oedema, proximal muscle weakness, amenorrhea, osteopenia or osteoporosis, slow heart rate and low blood pressure. • An explicitly stated fear of weight gain is not an absolute requirement for the diagnosis of anorexia nervosa, as long as the behaviours maintaining underweight status appear to be intentional, and there are other behavioural indicators of preoccupation with body weight or shape (e.g. repeated checking or monitoring, or extreme avoidance behaviours). • Individuals with anorexia nervosa often show a persistent lack of recognition that they are underweight or excessively thin, and dismiss objective evidence regarding their actual weight or shape and the seriousness of their condition. • Medical risk among individuals with anorexia nervosa is not solely dependent on weight status. Medical assessment should take into account other important medical risk factors as part of a comprehensive physical examination. Other risk factors include, but are not limited to, rapid weight loss (especially in children), orthostatic hypotension, bradycardia or postural tachycardia, hypothermia, cardiac arrhythmia and biochemical disturbance. Feeding and eating disorders | Anorexia nervosa The disorder. the following specifiers may be applied to 6b80.0 anorexia nervosa with significantly low body weight and 6b80.1 anorexia nervosa with dangerously low body weight."
+}

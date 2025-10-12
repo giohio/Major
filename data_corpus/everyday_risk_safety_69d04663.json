@@ -1,0 +1,31 @@
+{
+  "id": "everyday#risk_safety_69d04663",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "severity of manic mood symptoms during the past week. Specifier scales for symptomatic manifestations of primary psychotic disorders | Manic mood symptoms Specifier scales for symptomatic manifestations of primary psychotic disorders 197 Table 6.10. Rating scale for manic mood symptoms in primary psychotic disorders Severity Anchor points None No significant manic mood symptoms have been present during the past week. 6A25.3&XS8H Mild Hypomanic elevation of mood or increased irritability is present. The hypomanic 6A25.3&XS5W symptoms do not cause marked impairment in personal, social or occupational functioning. Moderate Marked elevation of mood, irritability or subjective energy level is present. 6A25.3&XS0T The manic symptoms cause considerable difficulty with personal, social or occupational functioning. Severe Extreme elevation of mood or irritability is present that results in hazardous, 6A25.3&XS25 dangerous or markedly inappropriate behaviour to a degree that intensive supervision is required. Severity unspecified Manic mood symptoms have been present during the past week, but it is not possible to make a severity rating based on the available information. 6A25.3 6A25.4 Psychomotor symptoms This specifier may be used together with a diagnosis from the grouping of schizophrenia and other primary psychotic disorders to indicate the degree to which psychomotor symptoms are a prominent part of the clinical presentation (see Table 6.11). Psychomotor symptoms include psychomotor agitation or increased motor activity, usually manifested in purposeless behaviours such as fidgeting, shifting, fiddling, inability to sit or stand still, wringing of the hands, stereotypy and grimacing. Psychomotor symptoms also include psychomotor retardation (a visible generalized slowing of movements and speech), as well as catatonic symptoms such as extreme restlessness with purposeless motor activity to the point of exhaustion, posturing, waxy flexibility, negativism, mutism or stupor. To be considered psychomotor symptoms for the purpose of this specifier rating, symptoms should not be attributable to a neurodevelopmental disorder or disease of the nervous system, or to the direct physiological effects of substances or medications, including withdrawal effects. If the full syndrome of catatonia is present, the diagnosis of 6A40 Catatonia associated with another mental disorder (p. 202) should also be assigned. The rating should be made based on the severity of psychomotor symptoms during the past week. Specifier scales for symptomatic manifestations of primary psychotic disorders | Psychomotor symptoms",
+  "gloss_vi": "Severity of manic mood symptoms during the past week. specifier scales for symptomatic manifestations of primary psychotic disorders | manic mood symptoms specifier scales for symptomatic manifestations of primary psycho...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [],
+    "advice_section": [
+      "work_habits"
+    ],
+    "audience": [],
+    "risk_band": "high"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn severity of manic mood symptoms during the past week. Specifier scales for symptomatic manifestations of primary psychotic disorders | Manic mood symptoms Specifier scales for symptomatic manifestations of primary psychotic disorders 197 Table 6.10. Rating scale for manic mood symptoms in primary psychotic disorders Severity Anchor points None No significant manic mood symptoms have been present during the past week. 6A25.3&XS8H Mild Hypomanic elevation of mood or increased irritability is present. The hypomanic 6A25.3&XS5W symptoms do not cause marked impairment in personal, social or occupational functioning. Moderate Marked elevation of mood, irritability or subjective energy level is present. 6A25.3&XS0T The manic symptoms cause considerable difficulty with personal, social or occupational functioning. Severe Extreme elevation of mood or irritability is present that results in hazardous, 6A25.3&XS25 dangerous or markedly inappropriate behaviour to a degree that intensive supervision is required. Severity unspecified Manic mood symptoms have been present during the past week, but it is not possible to make a severity rating based on the available information. 6A25.3 6A25.4 Psychomotor symptoms This specifier may be used together with a diagnosis from the grouping of schizophrenia and other primary psychotic disorders to indicate the degree to which psychomotor symptoms are a prominent part of the clinical presentation (see Table 6.11). Psychomotor symptoms include psychomotor agitation or increased motor activity, usually manifested in purposeless behaviours such as fidgeting, shifting, fiddling, inability to sit or stand still, wringing of the hands, stereotypy and grimacing. Psychomotor symptoms also include psychomotor retardation (a visible generalized slowing of movements and speech), as well as catatonic symptoms such as extreme restlessness with purposeless motor activity to the point of exhaustion, posturing, waxy flexibility, negativism, mutism or stupor. To be considered psychomotor symptoms for the purpose of this specifier rating, symptoms should not be attributable to a neurodevelopmental disorder or disease of the nervous system, or to the direct physiological effects of substances or medications, including withdrawal effects. If the full syndrome of catatonia is present, the diagnosis of 6A40 Catatonia associated with another mental disorder (p. 202) should also be assigned. The rating should be made based on the severity of psychomotor symptoms during the past week. Specifier scales for symptomatic manifestations of primary psychotic disorders | Psychomotor symptoms Severity of manic mood symptoms during the past week. specifier scales for symptomatic manifestations of primary psychotic disorders | manic mood symptoms specifier scales for symptomatic manifestations of primary psycho..."
+}

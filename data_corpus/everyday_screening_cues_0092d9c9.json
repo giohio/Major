@@ -1,0 +1,26 @@
+{
+  "id": "everyday#screening_cues_0092d9c9",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "70 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6C4C Disorders due to use of MDMA or related drugs, including MDA 6C4C.0 Episode of harmful use of MDMA or related drugs, including MDA 6C4C.1 Harmful pattern of use of MDMA or related drugs, including MDA Specify pattern: 6C4C.10 … episodic 6C4C.11 … continuous 6C4C.1Z … unspecified 6C4C.2 MDMA or related drug dependence, including MDA Specify pattern of substance use or remission: 6C4C.20 … current use 6C4C.21 … early full remission 6C4C.22 … sustained partial remission 6C4C.23 … sustained full remission 6C4C.2Z … unspecified 6C4C.3 MDMA or related drug intoxication, including MDA Specify severity: 6C4C.3&XS5W MDMA or related drug intoxication, including MDA, mild 6C4C.3&XS0T MDMA or related drug intoxication, including MDA, moderate 6C4C.3&XS25 MDMA or related drug intoxication, including MDA, severe 6C4C.4 MDMA or related drug withdrawal, including MDA 6C4C.5 MDMA or related drug-induced delirium, including MDA 6C4C.6 MDMA or related drug-induced psychotic disorder, including MDA 6C4C.70 MDMA or related drug-induced mood disorder, including MDA Specify clinical presentation: 6C4C.700 … with depressive symptoms 6C4C.701 … with manic symptoms 6C4C.702 … with mixed depressive and manic symptoms 6C4C.70Z … unspecified 6C4C.71 MDMA or related drug-induced anxiety disorder, including MDA 6C4C.Y Other specified disorder due to use of MDMA or related drugs, including MDA 6C4C.Z Disorder due to use of MDMA or related drugs, including MDA, unspecified 6C4D Disorders due to use of dissociative drugs, including ketamine and phencyclidine (PCP) 6C4D.0 Episode of harmful use of dissociative drugs, including ketamine and PCP 6C4D.1 Harmful pattern of use of dissociative drugs,",
+  "gloss_vi": "70 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders 6c4c disorders due to use of mdma or related drugs, including mda 6c4c.0 episode of harmful use of mdma ...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 70 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6C4C Disorders due to use of MDMA or related drugs, including MDA 6C4C.0 Episode of harmful use of MDMA or related drugs, including MDA 6C4C.1 Harmful pattern of use of MDMA or related drugs, including MDA Specify pattern: 6C4C.10 … episodic 6C4C.11 … continuous 6C4C.1Z … unspecified 6C4C.2 MDMA or related drug dependence, including MDA Specify pattern of substance use or remission: 6C4C.20 … current use 6C4C.21 … early full remission 6C4C.22 … sustained partial remission 6C4C.23 … sustained full remission 6C4C.2Z … unspecified 6C4C.3 MDMA or related drug intoxication, including MDA Specify severity: 6C4C.3&XS5W MDMA or related drug intoxication, including MDA, mild 6C4C.3&XS0T MDMA or related drug intoxication, including MDA, moderate 6C4C.3&XS25 MDMA or related drug intoxication, including MDA, severe 6C4C.4 MDMA or related drug withdrawal, including MDA 6C4C.5 MDMA or related drug-induced delirium, including MDA 6C4C.6 MDMA or related drug-induced psychotic disorder, including MDA 6C4C.70 MDMA or related drug-induced mood disorder, including MDA Specify clinical presentation: 6C4C.700 … with depressive symptoms 6C4C.701 … with manic symptoms 6C4C.702 … with mixed depressive and manic symptoms 6C4C.70Z … unspecified 6C4C.71 MDMA or related drug-induced anxiety disorder, including MDA 6C4C.Y Other specified disorder due to use of MDMA or related drugs, including MDA 6C4C.Z Disorder due to use of MDMA or related drugs, including MDA, unspecified 6C4D Disorders due to use of dissociative drugs, including ketamine and phencyclidine (PCP) 6C4D.0 Episode of harmful use of dissociative drugs, including ketamine and PCP 6C4D.1 Harmful pattern of use of dissociative drugs, 70 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders 6c4c disorders due to use of mdma or related drugs, including mda 6c4c.0 episode of harmful use of mdma ..."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "everyday#screening_cues_3a4dcb9f",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "List of categories 35 List of categories ICD-11 Mental, behavioural and neurodevelopmental disorders Note: the following list contains all the available codes in the ICD-11 chapter on mental, behavioural and neurodevelopmental disorders. As described in the section of this manual on using the CDDR for ICD-11 mental, behavioural and neurodevelopmental disorders (p. 2 1), ICD-11 uses secondary parenting to cross-list categories from other parts of the classification that share important primary clinical features or other linkages with the disorders contained in a particular grouping. This most commonly involves substance- induced mental disorders and secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere, which are also classified in Chapter 6. In several cases, however, this involves categories from other chapters of ICD-11 (e.g. the inclusion of primary tics and tic disorders from Chapter 8 on disorders of the nervous system with neurodevelopmental disorders). These secondary-parented categories also appear in the list below with the groupings to which they are cross-listed, in grey font. In ICD-11, postcoordination is a mechanism for allowing additional codes to be linked to the initial diagnostic code to identify additional clinically significant features of the clinical presentation. See the section on using the CDDR for ICD-11 mental, behavioural and neurodevelopmental disorders (p. 21). Postcoordination options for each disorder grouping appear also appear in the list below, in boxes. In some cases, ellipses (…) are used to improve the readability of the list by avoiding repetition of the disorder name. When used, ellipses signify the category name that appears in the level immediately above. For example, below 6A01.2 Developmental language disorder, the title for 6A01.20 appears as “… with impairment of receptive and expressive language” rather using the full name of the category, “6A01.20 Developmental language disorder with impairment of receptive and expressive language”. Neurodevelopmental disorders",
+  "gloss_vi": "List of categories 35 list of categories icd-11 mental, behavioural and neurodevelopmental disorders note: the following list contains all the available codes in the icd-11 chapter on mental, behavioural and neurodevelop...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc List of categories 35 List of categories ICD-11 Mental, behavioural and neurodevelopmental disorders Note: the following list contains all the available codes in the ICD-11 chapter on mental, behavioural and neurodevelopmental disorders. As described in the section of this manual on using the CDDR for ICD-11 mental, behavioural and neurodevelopmental disorders (p. 2 1), ICD-11 uses secondary parenting to cross-list categories from other parts of the classification that share important primary clinical features or other linkages with the disorders contained in a particular grouping. This most commonly involves substance- induced mental disorders and secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere, which are also classified in Chapter 6. In several cases, however, this involves categories from other chapters of ICD-11 (e.g. the inclusion of primary tics and tic disorders from Chapter 8 on disorders of the nervous system with neurodevelopmental disorders). These secondary-parented categories also appear in the list below with the groupings to which they are cross-listed, in grey font. In ICD-11, postcoordination is a mechanism for allowing additional codes to be linked to the initial diagnostic code to identify additional clinically significant features of the clinical presentation. See the section on using the CDDR for ICD-11 mental, behavioural and neurodevelopmental disorders (p. 21). Postcoordination options for each disorder grouping appear also appear in the list below, in boxes. In some cases, ellipses (…) are used to improve the readability of the list by avoiding repetition of the disorder name. When used, ellipses signify the category name that appears in the level immediately above. For example, below 6A01.2 Developmental language disorder, the title for 6A01.20 appears as “… with impairment of receptive and expressive language” rather using the full name of the category, “6A01.20 Developmental language disorder with impairment of receptive and expressive language”. Neurodevelopmental disorders List of categories 35 list of categories icd-11 mental, behavioural and neurodevelopmental disorders note: the following list contains all the available codes in the icd-11 chapter on mental, behavioural and neurodevelop..."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "everyday#screening_cues_2d5cb84f",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "Factors influencing health status or contact with health services particularly relevant to mental health services 733 Factors influencing health status or contact with health services particularly relevant to mental health services This section includes a selection of categories from Chapter 24 on factors influencing health status or contact with health services that may be especially relevant to mental health professionals and mental health services, but that do not represent mental disorders or a disease or disorder classified elsewhere in ICD-11. This listing is not comprehensive, and other available Chapter 24 groupings may be relevant.6 This listing is also not intended to suggest that these are the only categories from Chapter 24 that should be used by mental health professionals. One set of categories in Chapter 24 makes it possible to record the reason for a particular health service encounter other than a disease, a disorder or a specific symptom. For example, QE51.0 Relationship distress with spouse or partner is included in this section and is discussed in the section on relationship problems and maltreatment (p. 707). Other examples include QE62 Uncomplicated bereavement and QD3Z Concerns about body appearance that do not meet the diagnostic requirements for body dysmorphic disorder or another mental disorder. These categories can be used on their own without an accompanying disorder diagnosis to describe the reason for a health encounter. For example, a person with no mental disorder diagnosis might present with QD85 Burnout, a syndrome resulting from chronic workplace stress that has not been successfully managed but that is not considered a mental disorder. These categories can also be used in conjunction with a diagnosis from this mental, behavioural and neurodevelopmental disorders chapter to highlight an issue for other health professionals or for the health system. For example, for an individual diagnosed with 6A20.10 Schizophrenia, multiple episodes, currently symptomatic, QE70.0 Inadequate family support could also be coded if it is relevant for discharge planning. Chapter 24 also includes problems related to health behaviours that do not represent diagnosable mental disorders, such as QE10 Hazardous alcohol use or QE23 Problems with inappropriate diet or eating habits. A second set of categories in Chapter 24 are those that document health services involving different types of counselling that may be provided to individuals living with a mental disorder but also to individuals",
+  "gloss_vi": "Factors influencing health status or contact with health services particularly relevant to mental health services 733 factors influencing health status or contact with health services particularly relevant to mental heal...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "psychoeducation",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "stress",
+      "study",
+      "work",
+      "relationships",
+      "grief"
+    ],
+    "advice_section": [
+      "work_habits"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc Factors influencing health status or contact with health services particularly relevant to mental health services 733 Factors influencing health status or contact with health services particularly relevant to mental health services This section includes a selection of categories from Chapter 24 on factors influencing health status or contact with health services that may be especially relevant to mental health professionals and mental health services, but that do not represent mental disorders or a disease or disorder classified elsewhere in ICD-11. This listing is not comprehensive, and other available Chapter 24 groupings may be relevant.6 This listing is also not intended to suggest that these are the only categories from Chapter 24 that should be used by mental health professionals. One set of categories in Chapter 24 makes it possible to record the reason for a particular health service encounter other than a disease, a disorder or a specific symptom. For example, QE51.0 Relationship distress with spouse or partner is included in this section and is discussed in the section on relationship problems and maltreatment (p. 707). Other examples include QE62 Uncomplicated bereavement and QD3Z Concerns about body appearance that do not meet the diagnostic requirements for body dysmorphic disorder or another mental disorder. These categories can be used on their own without an accompanying disorder diagnosis to describe the reason for a health encounter. For example, a person with no mental disorder diagnosis might present with QD85 Burnout, a syndrome resulting from chronic workplace stress that has not been successfully managed but that is not considered a mental disorder. These categories can also be used in conjunction with a diagnosis from this mental, behavioural and neurodevelopmental disorders chapter to highlight an issue for other health professionals or for the health system. For example, for an individual diagnosed with 6A20.10 Schizophrenia, multiple episodes, currently symptomatic, QE70.0 Inadequate family support could also be coded if it is relevant for discharge planning. Chapter 24 also includes problems related to health behaviours that do not represent diagnosable mental disorders, such as QE10 Hazardous alcohol use or QE23 Problems with inappropriate diet or eating habits. A second set of categories in Chapter 24 are those that document health services involving different types of counselling that may be provided to individuals living with a mental disorder but also to individuals Factors influencing health status or contact with health services particularly relevant to mental health services 733 factors influencing health status or contact with health services particularly relevant to mental heal..."
+}

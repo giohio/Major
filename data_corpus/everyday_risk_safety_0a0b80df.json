@@ -1,0 +1,34 @@
+{
+  "id": "everyday#risk_safety_0a0b80df",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "extracted from one systematic review: to ensure that digital interventions are provided Sutori et al. (4 RCTs).15 under conditions of safety/security, confidentiality, informed consent and privacy of data. This can y The few studies using direct measures to evaluate include the establishment of standard operating the critical outcomes of interest of suicides and procedures that describe protocols for ensuring suicide attempts are underpowered and show no consent, data protection and storage, and verifying effects. provider licensing and credentials. Further y There are small, pooled effects favouring the guidance can be found in the 2019 WHO guideline: intervention in studies using the important outcome recommendations on digital interventions for health of suicidal thoughts. system strengthening (31). Remarks Research gaps y Stand-alone digital interventions hold promise for y All studies were conducted in HICs (Australia, increased scalability and sustainability for the self- Europe, United States of America). Further research management of suicidal thoughts (and of self-harm is needed in LMICs. once evidence of effectiveness was available), which y Only one RCT was identified that included data on could be especially valuable for LMICs. the critical outcome of death by suicide, but it was y The applicability and health outcomes may be underpowered to detect an effect. Further studies on affected by individuals’ preferences for human or the outcome of death by suicide are required. digital contact. y Non-specialized health workers can encourage Implementation considerations people to use evidence-based digital interventions. y Costs pertain largely to the technical development y In situations where no treatment is available at all, phase of setting up and sustaining digital the benefits of technology-based suicide preventive interventions online. Once available on a digital interventions may outweigh the risks. One risk may platform, cost of delivery is likely to be low (or lower be the loss of resources that could instead be used to than interventions delivered by health workers) and implement other, more effective interventions. there is a high potential to reach a large portion of y There are concerns regarding potentially sensitive the population. content and data privacy while using digital 15 Sutori S, Hadlaczky G, Eliasson E, Wasserman D, Carli V. Systematic review and meta-analysis: effectiveness of stand-alone digital suicide preventive interventions for the self-management of suicidality. J Technol Behav Sci (under review). 110",
+  "gloss_vi": "Extracted from one systematic review: to ensure that digital interventions are provided sutori et al. (4 rcts).15 under conditions of an toàn/security, confidentiality, informed consent and privacy of data.",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "screening_cues",
+      "referral"
+    ],
+    "life_topics": [
+      "work",
+      "grief"
+    ],
+    "advice_section": [
+      "work_habits"
+    ],
+    "audience": [],
+    "risk_band": "high"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn extracted from one systematic review: to ensure that digital interventions are provided Sutori et al. (4 RCTs).15 under conditions of safety/security, confidentiality, informed consent and privacy of data. This can y The few studies using direct measures to evaluate include the establishment of standard operating the critical outcomes of interest of suicides and procedures that describe protocols for ensuring suicide attempts are underpowered and show no consent, data protection and storage, and verifying effects. provider licensing and credentials. Further y There are small, pooled effects favouring the guidance can be found in the 2019 WHO guideline: intervention in studies using the important outcome recommendations on digital interventions for health of suicidal thoughts. system strengthening (31). Remarks Research gaps y Stand-alone digital interventions hold promise for y All studies were conducted in HICs (Australia, increased scalability and sustainability for the self- Europe, United States of America). Further research management of suicidal thoughts (and of self-harm is needed in LMICs. once evidence of effectiveness was available), which y Only one RCT was identified that included data on could be especially valuable for LMICs. the critical outcome of death by suicide, but it was y The applicability and health outcomes may be underpowered to detect an effect. Further studies on affected by individuals’ preferences for human or the outcome of death by suicide are required. digital contact. y Non-specialized health workers can encourage Implementation considerations people to use evidence-based digital interventions. y Costs pertain largely to the technical development y In situations where no treatment is available at all, phase of setting up and sustaining digital the benefits of technology-based suicide preventive interventions online. Once available on a digital interventions may outweigh the risks. One risk may platform, cost of delivery is likely to be low (or lower be the loss of resources that could instead be used to than interventions delivered by health workers) and implement other, more effective interventions. there is a high potential to reach a large portion of y There are concerns regarding potentially sensitive the population. content and data privacy while using digital 15 Sutori S, Hadlaczky G, Eliasson E, Wasserman D, Carli V. Systematic review and meta-analysis: effectiveness of stand-alone digital suicide preventive interventions for the self-management of suicidality. J Technol Behav Sci (under review). 110 Extracted from one systematic review: to ensure that digital interventions are provided sutori et al. (4 rcts).15 under conditions of an toàn/security, confidentiality, informed consent and privacy of data."
+}

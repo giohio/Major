@@ -1,0 +1,29 @@
+{
+  "id": "everyday#psychoeducation_ccf5e35e",
+  "title_en": "General — Psychoeducation",
+  "title_vi": "General — Giáo dục tâm lý",
+  "text_en": "Factors influencing health status or contact with health services particularly relevant to mental health services 747 Contact with health services for reasons associated with reproduction8 QA20 Contact with health services for concerns about pregnancy QA21 Contact with health services for contraceptive management QA30 Contact with health services for medically assisted reproduction Problems associated with social insurance or welfare QE30 Insufficient social insurance support QE30.0 Insufficient social insurance support, aged QE30.1 Insufficient social insurance support, disability QE30.2 Insufficient social insurance support, unemployment QE30.4 Insufficient social insurance support, family support QE31 Insufficient social welfare support QE31.0 Insufficient social welfare support, child protection QE31.1 Insufficient social welfare support, protection against domestic violence QE31.2 Insufficient social welfare support, protection against homelessness QE31.3 Insufficient social welfare support, post prison services 8 A detailed listing of categories in this section can be found at ICD-11 for Mortality and Morbidity Statistics (ICD-11 MMS) [website]. Geneva: World Health Organization; 2023 (https://ICD.who.int/browse11/l-m/en#/). Reasons for contact with mental health services | Problems associated with social insurance or welfare 748 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders QE3Y Other specified problems associated with social insurance or welfare QE3Z Problems associated with social insurance or welfare, unspecified Problems associated with the justice system QE40 Problems associated with conviction in civil or criminal proceedings without imprisonment QE41 Problems associated with imprisonment and other incarceration QE42 Problems associated with release from prison QE4Y Other specified problems associated with the justice system QE4Z Problems associated with the justice system, unspecified Problems associated with finances QD50 Poverty QD51 Low income QD5Y Other specified problems associated with finances QD5Z Problems associated with finances, unspecified Reasons for contact with mental health services | Problems associated with the justice system/with finances",
+  "gloss_vi": "Factors influencing health status or contact with health services particularly relevant to mental health services 747 contact with health services for reasons associated with reproduction8 qa20 contact with health servic...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "psychoeducation"
+    ],
+    "life_topics": [
+      "relationships"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Psychoeducation General — Giáo dục tâm lý Factors influencing health status or contact with health services particularly relevant to mental health services 747 Contact with health services for reasons associated with reproduction8 QA20 Contact with health services for concerns about pregnancy QA21 Contact with health services for contraceptive management QA30 Contact with health services for medically assisted reproduction Problems associated with social insurance or welfare QE30 Insufficient social insurance support QE30.0 Insufficient social insurance support, aged QE30.1 Insufficient social insurance support, disability QE30.2 Insufficient social insurance support, unemployment QE30.4 Insufficient social insurance support, family support QE31 Insufficient social welfare support QE31.0 Insufficient social welfare support, child protection QE31.1 Insufficient social welfare support, protection against domestic violence QE31.2 Insufficient social welfare support, protection against homelessness QE31.3 Insufficient social welfare support, post prison services 8 A detailed listing of categories in this section can be found at ICD-11 for Mortality and Morbidity Statistics (ICD-11 MMS) [website]. Geneva: World Health Organization; 2023 (https://ICD.who.int/browse11/l-m/en#/). Reasons for contact with mental health services | Problems associated with social insurance or welfare 748 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders QE3Y Other specified problems associated with social insurance or welfare QE3Z Problems associated with social insurance or welfare, unspecified Problems associated with the justice system QE40 Problems associated with conviction in civil or criminal proceedings without imprisonment QE41 Problems associated with imprisonment and other incarceration QE42 Problems associated with release from prison QE4Y Other specified problems associated with the justice system QE4Z Problems associated with the justice system, unspecified Problems associated with finances QD50 Poverty QD51 Low income QD5Y Other specified problems associated with finances QD5Z Problems associated with finances, unspecified Reasons for contact with mental health services | Problems associated with the justice system/with finances Factors influencing health status or contact with health services particularly relevant to mental health services 747 contact with health services for reasons associated with reproduction8 qa20 contact with health servic..."
+}

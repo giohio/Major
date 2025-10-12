@@ -1,0 +1,26 @@
+{
+  "id": "everyday#screening_cues_ebdbcbce",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "mixed, with psychotic symptoms 6A60.B … currently in partial remission, most recent episode manic or hypomanic 6A60.C … currently in partial remission, most recent episode depressive 6A60.D … currently in partial remission, most recent episode mixed 6A60.E … currently in partial remission, most recent episode unspecified 6A60.F … currently in full remission 6A60.Y Other specified bipolar type I disorder 6A60.Z Bipolar type I disorder, unspecified Postcoordination for bipolar type I disorder: For all above bipolar type I disorder categories, specify additional features of current presentation or course by using additional code(s) if applicable: 6A80.0 with prominent anxiety symptoms 6A80.1 with panic attacks 6A80.2 current depressive episode persistent 6A80.3 current depressive episode with melancholia 6A80.4 with seasonal pattern of mood episode onset 6A80.5 with rapid cycling For all above bipolar type I disorder current or most recent episodes, specify if episode onset was during pregnancy or within 6 weeks after delivery by using additional code: 6E20 Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, without psychotic symptoms 6E21 Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, with psychotic symptoms 6E2Z Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, unspecified",
+  "gloss_vi": "Mixed, with psychotic symptoms 6a60.b … currently in partial remission, most recent episode manic or hypomanic 6a60.c … currently in partial remission, most recent episode depressive 6a60.d … currently in partial remissi...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc mixed, with psychotic symptoms 6A60.B … currently in partial remission, most recent episode manic or hypomanic 6A60.C … currently in partial remission, most recent episode depressive 6A60.D … currently in partial remission, most recent episode mixed 6A60.E … currently in partial remission, most recent episode unspecified 6A60.F … currently in full remission 6A60.Y Other specified bipolar type I disorder 6A60.Z Bipolar type I disorder, unspecified Postcoordination for bipolar type I disorder: For all above bipolar type I disorder categories, specify additional features of current presentation or course by using additional code(s) if applicable: 6A80.0 with prominent anxiety symptoms 6A80.1 with panic attacks 6A80.2 current depressive episode persistent 6A80.3 current depressive episode with melancholia 6A80.4 with seasonal pattern of mood episode onset 6A80.5 with rapid cycling For all above bipolar type I disorder current or most recent episodes, specify if episode onset was during pregnancy or within 6 weeks after delivery by using additional code: 6E20 Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, without psychotic symptoms 6E21 Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, with psychotic symptoms 6E2Z Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, unspecified Mixed, with psychotic symptoms 6a60.b … currently in partial remission, most recent episode manic or hypomanic 6a60.c … currently in partial remission, most recent episode depressive 6a60.d … currently in partial remissi..."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "everyday#screening_cues_3590d1cb",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "partial remission F22.0 Delusional disorder 6A24.2 Delusional disorder, in full remission F22.0 Delusional disorder 6A24.Z Delusional disorder, unspecified F22.0 Delusional disorder 6A2Y Other specified primary psychotic disorder F28 Other nonorganic psychotic disorders No 4-character code available 6A2Z Schizophrenia or other primary psychotic F29 Unspecified nonorganic psychosis disorder, unspecified No 4-character code available Catatonia 6A40 Catatonia associated with another mental F20.2 Catatonic schizophrenia F20.2 should only disorder be used when OR the associated mental disorder is schizophrenia. F99 Mental disorder, not otherwise specified 6A41 Catatonia induced by substances or F19.8 Other mental and behavioural disorders due to multiple medications drug use and use of other psychoactive substances 6A4Z Catatonia, unspecified F99 Mental disorder, not otherwise specified Mood disorders Bipolar and related disorders 6A60 Bipolar type I disorder F31 Bipolar affective disorder 4-character code: F31.9 Bipolar affective disorder, unspecified 6A60.0 Bipolar type I disorder, current episode manic, F31.1 Bipolar affective disorder, current episode manic without without psychotic symptoms psychotic symptoms 6A60.1 Bipolar type I disorder, current episode manic, F31.2 Bipolar affective disorder, current episode manic with with psychotic symptoms psychotic symptoms 6A60.2 Bipolar type I disorder, current episode F31.0 Bipolar affective disorder, current episode hypomanic hypomanic 6A60.3 Bipolar type I disorder, current episode F31.3 Bipolar affective disorder, current episode mild or depressive, mild moderate depression 6A60.4 Bipolar type I disorder, current episode F31.3 Bipolar affective disorder, current episode mild or depressive, moderate without psychotic symptoms moderate depression 6A60.5 Bipolar type I disorder, current episode F31.5 Bipolar affective disorder, current episode severe In ICD-10, the presence depressive, moderate with psychotic symptoms depression with psychotic symptoms of psychotic symptoms in the context of a depressive episode means that the episode is automatically rated as severe.",
+  "gloss_vi": "Partial remission f22.0 delusional disorder 6a24.2 delusional disorder, in full remission f22.0 delusional disorder 6a24.z delusional disorder, unspecified f22.0 delusional disorder 6a2y other specified primary psychotic...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc partial remission F22.0 Delusional disorder 6A24.2 Delusional disorder, in full remission F22.0 Delusional disorder 6A24.Z Delusional disorder, unspecified F22.0 Delusional disorder 6A2Y Other specified primary psychotic disorder F28 Other nonorganic psychotic disorders No 4-character code available 6A2Z Schizophrenia or other primary psychotic F29 Unspecified nonorganic psychosis disorder, unspecified No 4-character code available Catatonia 6A40 Catatonia associated with another mental F20.2 Catatonic schizophrenia F20.2 should only disorder be used when OR the associated mental disorder is schizophrenia. F99 Mental disorder, not otherwise specified 6A41 Catatonia induced by substances or F19.8 Other mental and behavioural disorders due to multiple medications drug use and use of other psychoactive substances 6A4Z Catatonia, unspecified F99 Mental disorder, not otherwise specified Mood disorders Bipolar and related disorders 6A60 Bipolar type I disorder F31 Bipolar affective disorder 4-character code: F31.9 Bipolar affective disorder, unspecified 6A60.0 Bipolar type I disorder, current episode manic, F31.1 Bipolar affective disorder, current episode manic without without psychotic symptoms psychotic symptoms 6A60.1 Bipolar type I disorder, current episode manic, F31.2 Bipolar affective disorder, current episode manic with with psychotic symptoms psychotic symptoms 6A60.2 Bipolar type I disorder, current episode F31.0 Bipolar affective disorder, current episode hypomanic hypomanic 6A60.3 Bipolar type I disorder, current episode F31.3 Bipolar affective disorder, current episode mild or depressive, mild moderate depression 6A60.4 Bipolar type I disorder, current episode F31.3 Bipolar affective disorder, current episode mild or depressive, moderate without psychotic symptoms moderate depression 6A60.5 Bipolar type I disorder, current episode F31.5 Bipolar affective disorder, current episode severe In ICD-10, the presence depressive, moderate with psychotic symptoms depression with psychotic symptoms of psychotic symptoms in the context of a depressive episode means that the episode is automatically rated as severe. Partial remission f22.0 delusional disorder 6a24.2 delusional disorder, in full remission f22.0 delusional disorder 6a24.z delusional disorder, unspecified f22.0 delusional disorder 6a2y other specified primary psychotic..."
+}

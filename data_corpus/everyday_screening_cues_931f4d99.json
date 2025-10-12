@@ -1,0 +1,27 @@
+{
+  "id": "everyday#screening_cues_931f4d99",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "676 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Mental or behavioural symptoms, signs or clinical findings Mental or behavioural symptoms, signs or clinical findings 677 Mental or behavioural symptoms, signs or clinical findings This section comprises mental or behavioural symptoms that may be an important aspect of an individual’s clinical presentation, or may be a reason for a clinical encounter or for treatment. It replicates one section of Chapter 21 on symptoms, signs or clinical findings, not elsewhere classified. These categories may be used when a more precise diagnosis has not been established for various reasons (e.g. they describe transient symptoms at the time of initial encounter whose causes could not be determined; the individual was referred for investigation or treatment before a diagnosis was made; the patient failed to return for further investigation or follow-up; a more specific diagnosis could not be determined even after investigation). In these cases, the categories from this section can be used to describe the clinical presentation in the absence of a diagnosis for the underlying disorder or condition. These categories may also be used to describe clinically important aspects of the individual’s presentation when a mental disorder diagnosis has been assigned.",
+  "gloss_vi": "676 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders mental or behavioural symptoms, signs or clinical findings mental or behavioural symptoms, signs or cli...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "referral"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 676 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Mental or behavioural symptoms, signs or clinical findings Mental or behavioural symptoms, signs or clinical findings 677 Mental or behavioural symptoms, signs or clinical findings This section comprises mental or behavioural symptoms that may be an important aspect of an individual’s clinical presentation, or may be a reason for a clinical encounter or for treatment. It replicates one section of Chapter 21 on symptoms, signs or clinical findings, not elsewhere classified. These categories may be used when a more precise diagnosis has not been established for various reasons (e.g. they describe transient symptoms at the time of initial encounter whose causes could not be determined; the individual was referred for investigation or treatment before a diagnosis was made; the patient failed to return for further investigation or follow-up; a more specific diagnosis could not be determined even after investigation). In these cases, the categories from this section can be used to describe the clinical presentation in the absence of a diagnosis for the underlying disorder or condition. These categories may also be used to describe clinically important aspects of the individual’s presentation when a mental disorder diagnosis has been assigned. 676 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders mental or behavioural symptoms, signs or clinical findings mental or behavioural symptoms, signs or cli..."
+}

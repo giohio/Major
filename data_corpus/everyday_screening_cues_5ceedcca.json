@@ -1,0 +1,26 @@
+{
+  "id": "everyday#screening_cues_5ceedcca",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "current use 6C4F.21 … early full remission List of categories 73 6C4F.22 … sustained partial remission 6C4F.23 … sustained full remission 6C4F.2Z … unspecified 6C4F.3 Intoxication due to multiple specified psychoactive substances Specify severity: 6C4F.3&XS5W Intoxication due to multiple specified psychoactive substances, mild 6C4F.3&XS0T Intoxication due to multiple specified psychoactive substances, moderate 6C4F.3&XS25 Intoxication due to multiple specified psychoactive substances, severe 6C4F.4 Multiple specified psychoactive substances withdrawal Specify clinical presentation: 6C4F.40 … uncomplicated 6C4F.41 … with perceptual disturbances 6C4F.42 … with seizures 6C4F.43 … with perceptual disturbances and seizures 6C4F.4Z … unspecified 6C4F.5 Delirium induced by multiple specified psychoactive substances, including medications 6C4F.6 Psychotic disorder induced by multiple specified psychoactive substances 6C4F.70 Mood disorder induced by multiple specified psychoactive substances Specify clinical presentation: 6C4F.700 … with depressive symptoms 6C4F.701 … with manic symptoms 6C4F.702 … with mixed depressive and manic symptoms 6C4F.70Z … unspecified 6C4F.71 Anxiety disorder induced by multiple specified psychoactive substances 6C4F.72 Obsessive-compulsive or related disorder induced by multiple specified psychoactive substances 6C4F.73 Impulse control disorder induced by multiple specified psychoactive substances 6C4F.Y Other specified disorder due to use of multiple specified psychoactive substances, including medications 6C4F.Z Disorder due to use of multiple specified psychoactive substances, including medications, unspecified 6C4G Disorders due to use of unknown or unspecified psychoactive substances 6C4G.0 Episode of harmful use of unknown or unspecified psychoactive substance 6C4G.1 Harmful pattern of use of unknown or unspecified psychoactive substance Specify pattern: 6C4G.10 … episodic 6C4G.11 … continuous 6C4G.1Z … unspecified",
+  "gloss_vi": "Current use 6c4f.21 … early full remission list of categories 73 6c4f.22 … sustained partial remission 6c4f.23 … sustained full remission 6c4f.2z … unspecified 6c4f.3 intoxication due to multiple specified psychoactive s...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc current use 6C4F.21 … early full remission List of categories 73 6C4F.22 … sustained partial remission 6C4F.23 … sustained full remission 6C4F.2Z … unspecified 6C4F.3 Intoxication due to multiple specified psychoactive substances Specify severity: 6C4F.3&XS5W Intoxication due to multiple specified psychoactive substances, mild 6C4F.3&XS0T Intoxication due to multiple specified psychoactive substances, moderate 6C4F.3&XS25 Intoxication due to multiple specified psychoactive substances, severe 6C4F.4 Multiple specified psychoactive substances withdrawal Specify clinical presentation: 6C4F.40 … uncomplicated 6C4F.41 … with perceptual disturbances 6C4F.42 … with seizures 6C4F.43 … with perceptual disturbances and seizures 6C4F.4Z … unspecified 6C4F.5 Delirium induced by multiple specified psychoactive substances, including medications 6C4F.6 Psychotic disorder induced by multiple specified psychoactive substances 6C4F.70 Mood disorder induced by multiple specified psychoactive substances Specify clinical presentation: 6C4F.700 … with depressive symptoms 6C4F.701 … with manic symptoms 6C4F.702 … with mixed depressive and manic symptoms 6C4F.70Z … unspecified 6C4F.71 Anxiety disorder induced by multiple specified psychoactive substances 6C4F.72 Obsessive-compulsive or related disorder induced by multiple specified psychoactive substances 6C4F.73 Impulse control disorder induced by multiple specified psychoactive substances 6C4F.Y Other specified disorder due to use of multiple specified psychoactive substances, including medications 6C4F.Z Disorder due to use of multiple specified psychoactive substances, including medications, unspecified 6C4G Disorders due to use of unknown or unspecified psychoactive substances 6C4G.0 Episode of harmful use of unknown or unspecified psychoactive substance 6C4G.1 Harmful pattern of use of unknown or unspecified psychoactive substance Specify pattern: 6C4G.10 … episodic 6C4G.11 … continuous 6C4G.1Z … unspecified Current use 6c4f.21 … early full remission list of categories 73 6c4f.22 … sustained partial remission 6c4f.23 … sustained full remission 6c4f.2z … unspecified 6c4f.3 intoxication due to multiple specified psychoactive s..."
+}

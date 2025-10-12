@@ -1,0 +1,26 @@
+{
+  "id": "everyday#screening_cues_4a81a3ff",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "clinical presentation: 6C40.40 … uncomplicated 6C40.41 … with perceptual disturbances 6C40.42 … with seizures 6C40.43 … with perceptual disturbances and seizures 6C40.4Z … unspecified 6C40.5 Alcohol-induced delirium 6C40.6 Alcohol-induced psychotic disorder Specify clinical presentation: 6C40.60 … with hallucinations 6C40.61 … with delusions 6C40.62 … with mixed psychotic symptoms 6C40.6Z … unspecified 6C40.70 Alcohol-induced mood disorder Specify clinical presentation: 6C40.700 … with depressive symptoms 6C40.701 … with manic symptoms 6C40.702 … with mixed depressive and manic symptoms 6C40.70Z … unspecified 6C40.71 Alcohol-induced anxiety disorder 6C40.Y Other specified disorder due to use of alcohol 6C40.Z Disorders due to use of alcohol, unspecified 6C41 Disorders due to use of cannabis 6C41.0 Episode of harmful use of cannabis 6C41.1 Harmful pattern of use of cannabis Specify pattern: 6C41.10 … episodic 6C41.11 … continuous 6C41.1Z … unspecified 6C41.2 Cannabis dependence Specify pattern of substance use or remission: 6C41.20 … current use 6C41.21 … early full remission 6C41.22 … sustained partial remission 6C41.23 … sustained full remission 6C41.2Z … unspecified 6C41.3 Cannabis intoxication Specify severity: 6C41.3&XS5W Cannabis intoxication, mild 6C41.3&XS0T Cannabis intoxication, moderate 6C41.3&XS25 Cannabis intoxication, severe",
+  "gloss_vi": "Clinical presentation: 6c40.40 … uncomplicated 6c40.41 … with perceptual disturbances 6c40.42 … with seizures 6c40.43 … with perceptual disturbances and seizures 6c40.4z … unspecified 6c40.5 alcohol-induced delirium 6c40...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc clinical presentation: 6C40.40 … uncomplicated 6C40.41 … with perceptual disturbances 6C40.42 … with seizures 6C40.43 … with perceptual disturbances and seizures 6C40.4Z … unspecified 6C40.5 Alcohol-induced delirium 6C40.6 Alcohol-induced psychotic disorder Specify clinical presentation: 6C40.60 … with hallucinations 6C40.61 … with delusions 6C40.62 … with mixed psychotic symptoms 6C40.6Z … unspecified 6C40.70 Alcohol-induced mood disorder Specify clinical presentation: 6C40.700 … with depressive symptoms 6C40.701 … with manic symptoms 6C40.702 … with mixed depressive and manic symptoms 6C40.70Z … unspecified 6C40.71 Alcohol-induced anxiety disorder 6C40.Y Other specified disorder due to use of alcohol 6C40.Z Disorders due to use of alcohol, unspecified 6C41 Disorders due to use of cannabis 6C41.0 Episode of harmful use of cannabis 6C41.1 Harmful pattern of use of cannabis Specify pattern: 6C41.10 … episodic 6C41.11 … continuous 6C41.1Z … unspecified 6C41.2 Cannabis dependence Specify pattern of substance use or remission: 6C41.20 … current use 6C41.21 … early full remission 6C41.22 … sustained partial remission 6C41.23 … sustained full remission 6C41.2Z … unspecified 6C41.3 Cannabis intoxication Specify severity: 6C41.3&XS5W Cannabis intoxication, mild 6C41.3&XS0T Cannabis intoxication, moderate 6C41.3&XS25 Cannabis intoxication, severe Clinical presentation: 6c40.40 … uncomplicated 6c40.41 … with perceptual disturbances 6c40.42 … with seizures 6c40.43 … with perceptual disturbances and seizures 6c40.4z … unspecified 6c40.5 alcohol-induced delirium 6c40..."
+}
