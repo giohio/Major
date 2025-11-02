@@ -1,0 +1,31 @@
+{
+  "id": "everyday#screening_cues_570c1be2",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "and persists past the acute post-injury period. Coding note: For major neurocognitive disorder due to traumatic brain injury, with behavioral disturbance: For ICD-9-CM, first code 907.0 late effect of intracranial injury without skull fracture, followed by 294.11 major neurocognitive disorder due to traumatic brain injury, with behavioral disturbance. For ICD-10-CM, first code S06.2X9S dif- fuse traumatic brain injury with loss of consciousness of unspecified duration, sequela; followed by F02.81 major neurocognitive disorder due to traumatic brain injury, with behavioral disturbance. For major neurocognitive disorder due to traumatic brain injury, without behavioral disturbance: For ICD-9-CM, first code 907.0 late effect of intracranial injury without skull fracture, followed by 294.10 major neurocognitive disorder due to traumatic brain injury, without behavioral disturbance. For ICD-10-CM, first code S06.2X9S diffuse traumatic brain injury with loss of consciousness of unspecified dura- tion, sequela; followed by F02.80 major neurocognitive disorder due to traumatic brain injury, without behavioral disturbance. For mild neurocognitive disorder due to traumatic brain injury, code 331.83 (G31.84). (Note: Do not use the additional code for traumatic brain injury. Behavioral disturbance cannot be coded but should still be indicated in writing.) Substance/Medication-Induced Major or Mild Neurocognitive Disorder A. The criteria are met for major or mild neurocognitive disorder. B. The neurocognitive impairments do not occur exclusively during the course of a delirium and persist beyond the usual duration of intoxication and acute withdrawal. C. The involved substance or medication and duration and extent of use are capable of producing the neurocognitive impairment. D. The temporal course of the neurocognitive deficits is consistent with the timing of substance or medication use and abstinence (e.g., the deficits remain stable or improve after a period of abstinence).",
+  "gloss_vi": "And persists past the acute post-injury period. coding note: for major neurocognitive disorder due to traumatic brain injury, with behavioral disturbance: for icd-9-cm, first code 907.0 late effect of intracranial injury...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do",
+      "management"
+    ],
+    "life_topics": [
+      "grief"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc and persists past the acute post-injury period. Coding note: For major neurocognitive disorder due to traumatic brain injury, with behavioral disturbance: For ICD-9-CM, first code 907.0 late effect of intracranial injury without skull fracture, followed by 294.11 major neurocognitive disorder due to traumatic brain injury, with behavioral disturbance. For ICD-10-CM, first code S06.2X9S dif- fuse traumatic brain injury with loss of consciousness of unspecified duration, sequela; followed by F02.81 major neurocognitive disorder due to traumatic brain injury, with behavioral disturbance. For major neurocognitive disorder due to traumatic brain injury, without behavioral disturbance: For ICD-9-CM, first code 907.0 late effect of intracranial injury without skull fracture, followed by 294.10 major neurocognitive disorder due to traumatic brain injury, without behavioral disturbance. For ICD-10-CM, first code S06.2X9S diffuse traumatic brain injury with loss of consciousness of unspecified dura- tion, sequela; followed by F02.80 major neurocognitive disorder due to traumatic brain injury, without behavioral disturbance. For mild neurocognitive disorder due to traumatic brain injury, code 331.83 (G31.84). (Note: Do not use the additional code for traumatic brain injury. Behavioral disturbance cannot be coded but should still be indicated in writing.) Substance/Medication-Induced Major or Mild Neurocognitive Disorder A. The criteria are met for major or mild neurocognitive disorder. B. The neurocognitive impairments do not occur exclusively during the course of a delirium and persist beyond the usual duration of intoxication and acute withdrawal. C. The involved substance or medication and duration and extent of use are capable of producing the neurocognitive impairment. D. The temporal course of the neurocognitive deficits is consistent with the timing of substance or medication use and abstinence (e.g., the deficits remain stable or improve after a period of abstinence). And persists past the acute post-injury period. coding note: for major neurocognitive disorder due to traumatic brain injury, with behavioral disturbance: for icd-9-cm, first code 907.0 late effect of intracranial injury..."
+}

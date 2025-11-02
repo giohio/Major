@@ -1,0 +1,26 @@
+{
+  "id": "everyday#management_8f86c40c",
+  "title_en": "General — Management",
+  "title_vi": "General — Management",
+  "text_en": "or medication use and abstinence (e.g., the deficits remain stable or improve after a period of abstinence). 312 Neurocognitive Disorders E. The neurocognitive disorder is not attributable to another medical condition or is not better explained by another mental disorder. Coding note: The ICD-9-CM and ICD-10-CM codes for the [specific substance/medication]-induced neurocognitive disorders are indicat- ed in the table below. Note that the ICD-10-CM code depends on whether or not there is a comorbid substance use disorder present for the same class of substance. If a mild substance use disorder is comorbid with the substance-induced neurocognitive disorder, the 4th position character is “1,” and the clinician should record “mild [substance] use disorder” before the substance-induced neurocogni- tive disorder (e.g., “mild inhalant use disorder with inhalant-induced major neurocognitive disorder”). If a moderate or severe substance use disorder is comorbid with the substance-induced neurocognitive disorder, the 4th position character is “2,” and the clinician should re- cord “moderate [substance] use disorder” or “severe [substance] use disorder,” depending on the severity of the comorbid substance use disorder. If there is no comorbid substance use disorder, then the 4th position character is “9,” and the clinician should record only the sub- stance-induced neurocognitive disorder. For some classes of sub- stances (i.e., alcohol; sedatives, hypnotics, anxiolytics), it is not permissible to code a comorbid mild substance use disorder with a substance-induced neurocognitive disorder; only a comorbid moder- ate or severe substance use disorder, or no substance use disorder, can be diagnosed. Behavioral disturbance cannot be coded but should still be indicated in writing. ICD-10-CM With use With use dis- Without ICD-9- disorder, order, moder- use CM mild ate or severe disorder Alcohol (major neu- 291.2 NA F10.27 F10.97 rocognitive disor- der), nonamnestic- confabulatory type",
+  "gloss_vi": "Or medication use and abstinence (e.g., the deficits remain stable or improve after a period of abstinence). 312 neurocognitive disorders e.",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "management"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Management General — Management or medication use and abstinence (e.g., the deficits remain stable or improve after a period of abstinence). 312 Neurocognitive Disorders E. The neurocognitive disorder is not attributable to another medical condition or is not better explained by another mental disorder. Coding note: The ICD-9-CM and ICD-10-CM codes for the [specific substance/medication]-induced neurocognitive disorders are indicat- ed in the table below. Note that the ICD-10-CM code depends on whether or not there is a comorbid substance use disorder present for the same class of substance. If a mild substance use disorder is comorbid with the substance-induced neurocognitive disorder, the 4th position character is “1,” and the clinician should record “mild [substance] use disorder” before the substance-induced neurocogni- tive disorder (e.g., “mild inhalant use disorder with inhalant-induced major neurocognitive disorder”). If a moderate or severe substance use disorder is comorbid with the substance-induced neurocognitive disorder, the 4th position character is “2,” and the clinician should re- cord “moderate [substance] use disorder” or “severe [substance] use disorder,” depending on the severity of the comorbid substance use disorder. If there is no comorbid substance use disorder, then the 4th position character is “9,” and the clinician should record only the sub- stance-induced neurocognitive disorder. For some classes of sub- stances (i.e., alcohol; sedatives, hypnotics, anxiolytics), it is not permissible to code a comorbid mild substance use disorder with a substance-induced neurocognitive disorder; only a comorbid moder- ate or severe substance use disorder, or no substance use disorder, can be diagnosed. Behavioral disturbance cannot be coded but should still be indicated in writing. ICD-10-CM With use With use dis- Without ICD-9- disorder, order, moder- use CM mild ate or severe disorder Alcohol (major neu- 291.2 NA F10.27 F10.97 rocognitive disor- der), nonamnestic- confabulatory type Or medication use and abstinence (e.g., the deficits remain stable or improve after a period of abstinence). 312 neurocognitive disorders e."
+}

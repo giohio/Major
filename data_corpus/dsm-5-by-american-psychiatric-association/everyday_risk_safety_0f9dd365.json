@@ -1,0 +1,31 @@
+{
+  "id": "everyday#risk_safety_0f9dd365",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "Specific Phobia 117 C. The phobic object or situation is actively avoided or endured with intense fear or anxiety. D. The fear or anxiety is out of proportion to the actual danger posed by the specific object or situation and to the sociocultural context. E. The fear, anxiety, or avoidance is persistent, typically lasting for 6 months or more. F. The fear, anxiety, or avoidance causes clinically significant dis- tress or impairment in social, occupational, or other important ar- eas of functioning. G. The disturbance is not better explained by the symptoms of an- other mental disorder, including fear, anxiety, and avoidance of situations associated with panic-like symptoms or other inca- pacitating symptoms (as in agoraphobia); objects or situations related to obsessions (as in obsessive-compulsive disorder); reminders of traumatic events (as in posttraumatic stress disor- der); separation from home or attachment figures (as in separa- tion anxiety disorder); or social situations (as in social anxiety disorder). Specify if: Code based on the phobic stimulus: 300.29 (F40.218) Animal (e.g., spiders, insects, dogs) 300.29 (F40.228) Natural environment (e.g., heights, storms, water) 300.29 (F40.23x) Blood-injection-injury (e.g., needles, inva- sive medical procedures) Coding note: Select specific ICD-10-CM code as follows: F40.230 fear of blood; F40.231 fear of injections and trans- fusions; F40.232 fear of other medical care; or F40.233 fear of injury. 300.29 (F40.248) Situational (e.g., airplanes, elevators, en- closed places) 300.29 (F40.298) Other (e.g., situations that may lead to choking or vomiting; in children, e.g., loud sounds or costumed characters) Coding note. When more than one phobic stimulus is present, code all ICD-10-CM codes that apply (e.g., for fear of snakes and flying, F40.218 specific phobia, animal, and F40.248 specific phobia, situational). 118 Anxiety Disorders Social Anxiety Disorder (Social Phobia) 300.23 (F40.10) A. Marked fear",
+  "gloss_vi": "Specific phobia 117 c. the phobic object or situation is actively avoided or endured with intense fear or lo âu.",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "stress"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "high"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn Specific Phobia 117 C. The phobic object or situation is actively avoided or endured with intense fear or anxiety. D. The fear or anxiety is out of proportion to the actual danger posed by the specific object or situation and to the sociocultural context. E. The fear, anxiety, or avoidance is persistent, typically lasting for 6 months or more. F. The fear, anxiety, or avoidance causes clinically significant dis- tress or impairment in social, occupational, or other important ar- eas of functioning. G. The disturbance is not better explained by the symptoms of an- other mental disorder, including fear, anxiety, and avoidance of situations associated with panic-like symptoms or other inca- pacitating symptoms (as in agoraphobia); objects or situations related to obsessions (as in obsessive-compulsive disorder); reminders of traumatic events (as in posttraumatic stress disor- der); separation from home or attachment figures (as in separa- tion anxiety disorder); or social situations (as in social anxiety disorder). Specify if: Code based on the phobic stimulus: 300.29 (F40.218) Animal (e.g., spiders, insects, dogs) 300.29 (F40.228) Natural environment (e.g., heights, storms, water) 300.29 (F40.23x) Blood-injection-injury (e.g., needles, inva- sive medical procedures) Coding note: Select specific ICD-10-CM code as follows: F40.230 fear of blood; F40.231 fear of injections and trans- fusions; F40.232 fear of other medical care; or F40.233 fear of injury. 300.29 (F40.248) Situational (e.g., airplanes, elevators, en- closed places) 300.29 (F40.298) Other (e.g., situations that may lead to choking or vomiting; in children, e.g., loud sounds or costumed characters) Coding note. When more than one phobic stimulus is present, code all ICD-10-CM codes that apply (e.g., for fear of snakes and flying, F40.218 specific phobia, animal, and F40.248 specific phobia, situational). 118 Anxiety Disorders Social Anxiety Disorder (Social Phobia) 300.23 (F40.10) A. Marked fear Specific phobia 117 c. the phobic object or situation is actively avoided or endured with intense fear or lo âu."
+}

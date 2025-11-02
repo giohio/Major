@@ -1,0 +1,26 @@
+{
+  "id": "icd11#screening_cues_f768e7b0",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "unknown or unspecified psychoactive substances Specify clinical presentation: 6C4G.700 … with depressive symptoms 6C4G.701 … with manic symptoms List of categories 51 6C4G.702 … with mixed depressive and manic symptoms 6C4G.70Z … unspecified From secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere: 6E62 Secondary mood syndrome Specify clinical presentation: 6E62.0 … with depressive symptoms 6E62.1 … with manic symptoms 6E62.2 … with mixed symptoms 6E62.3 … with unspecified symptoms Anxiety and fear-related disorders 6B00 Generalized anxiety disorder Specify presence of panic attacks without co-occurring panic disorder diagnosis 6B00/MB23.H Generalized anxiety disorder with panic attacks 6B01 Panic disorder 6B02 Agoraphobia Specify presence of panic attacks without co-occurring panic disorder diagnosis 6B02/MB23.H Agoraphobia with panic attacks 6B03 Specific phobia Specify presence of panic attacks without co-occurring panic disorder diagnosis 6B03/MB23.H Specific phobia with panic attacks 6B04 Social anxiety disorder Specify presence of panic attacks without co-occurring panic disorder diagnosis 6B04/MB23.H Social anxiety disorder with panic attacks 6B05 Separation anxiety disorder Specify presence of panic attacks without co-occurring panic disorder diagnosis 6B05/MB23.H Separation anxiety disorder with panic attacks",
+  "gloss_vi": "Unknown or unspecified psychoactive substances specify clinical presentation: 6c4g.700 … with depressive symptoms 6c4g.701 … with manic symptoms list of categories 51 6c4g.702 … with mixed depressive and manic symptoms 6...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc unknown or unspecified psychoactive substances Specify clinical presentation: 6C4G.700 … with depressive symptoms 6C4G.701 … with manic symptoms List of categories 51 6C4G.702 … with mixed depressive and manic symptoms 6C4G.70Z … unspecified From secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere: 6E62 Secondary mood syndrome Specify clinical presentation: 6E62.0 … with depressive symptoms 6E62.1 … with manic symptoms 6E62.2 … with mixed symptoms 6E62.3 … with unspecified symptoms Anxiety and fear-related disorders 6B00 Generalized anxiety disorder Specify presence of panic attacks without co-occurring panic disorder diagnosis 6B00/MB23.H Generalized anxiety disorder with panic attacks 6B01 Panic disorder 6B02 Agoraphobia Specify presence of panic attacks without co-occurring panic disorder diagnosis 6B02/MB23.H Agoraphobia with panic attacks 6B03 Specific phobia Specify presence of panic attacks without co-occurring panic disorder diagnosis 6B03/MB23.H Specific phobia with panic attacks 6B04 Social anxiety disorder Specify presence of panic attacks without co-occurring panic disorder diagnosis 6B04/MB23.H Social anxiety disorder with panic attacks 6B05 Separation anxiety disorder Specify presence of panic attacks without co-occurring panic disorder diagnosis 6B05/MB23.H Separation anxiety disorder with panic attacks Unknown or unspecified psychoactive substances specify clinical presentation: 6c4g.700 … with depressive symptoms 6c4g.701 … with manic symptoms list of categories 51 6c4g.702 … with mixed depressive and manic symptoms 6..."
+}

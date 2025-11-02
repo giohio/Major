@@ -1,0 +1,26 @@
+{
+  "id": "icd11#screening_cues_b088eaf9",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "Crosswalk from ICD-11 mental, behavioural and neurodevelopmental disorders to ICD-10 for clinician use 809 ICD-11 ICD-10 Notes 6E40.Z Psychological or behavioural factor affecting F54 Psychological and behavioural factors associated with disorders and diseases classified elsewhere, disorders or diseases classified elsewhere unspecified No 4-character code available Secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere 6E60 Secondary neurodevelopmental syndrome F06.8 Other specified mental disorders due to brain damage and dysfunction and to physical disease 6E60.0 Secondary speech or language syndrome F06.8 Other specified mental disorders due to brain damage and dysfunction and to physical disease 6E60.Y Other specified secondary neurodevelopmental F06.8 Other specified mental disorders due to brain damage syndrome and dysfunction and to physical disease 6E60.Z Secondary neurodevelopmental syndrome, F06.8 Other specified mental disorders due to brain damage unspecified and dysfunction and to physical disease 6E61 Secondary psychotic syndrome F06.0 Organic hallucinosis Select F06.0 or F06.2 based on whether OR hallucinations or delusions predominate, F06.2 Organic delusional [schizophrenia-like] disorder although both may occur in either category. 6E61.0 Secondary psychotic syndrome with F06.0 Organic hallucinosis hallucinations 6E61.1 Secondary psychotic syndrome with delusions F06.2 Organic delusional [schizophrenia-like] disorder 6E61.2 Secondary psychotic syndrome with F06.2 Organic delusional [schizophrenia-like] disorder hallucinations and delusions 6E61.3 Secondary psychotic syndrome with F09 Unspecified organic or symptomatic mental disorder unspecified symptoms 6E62 Secondary mood syndrome",
+  "gloss_vi": "Crosswalk from icd-11 mental, behavioural and neurodevelopmental disorders to icd-10 for clinician use 809 icd-11 icd-10 notes 6e40.z psychological or behavioural factor affecting f54 psychological and behavioural factor...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc Crosswalk from ICD-11 mental, behavioural and neurodevelopmental disorders to ICD-10 for clinician use 809 ICD-11 ICD-10 Notes 6E40.Z Psychological or behavioural factor affecting F54 Psychological and behavioural factors associated with disorders and diseases classified elsewhere, disorders or diseases classified elsewhere unspecified No 4-character code available Secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere 6E60 Secondary neurodevelopmental syndrome F06.8 Other specified mental disorders due to brain damage and dysfunction and to physical disease 6E60.0 Secondary speech or language syndrome F06.8 Other specified mental disorders due to brain damage and dysfunction and to physical disease 6E60.Y Other specified secondary neurodevelopmental F06.8 Other specified mental disorders due to brain damage syndrome and dysfunction and to physical disease 6E60.Z Secondary neurodevelopmental syndrome, F06.8 Other specified mental disorders due to brain damage unspecified and dysfunction and to physical disease 6E61 Secondary psychotic syndrome F06.0 Organic hallucinosis Select F06.0 or F06.2 based on whether OR hallucinations or delusions predominate, F06.2 Organic delusional [schizophrenia-like] disorder although both may occur in either category. 6E61.0 Secondary psychotic syndrome with F06.0 Organic hallucinosis hallucinations 6E61.1 Secondary psychotic syndrome with delusions F06.2 Organic delusional [schizophrenia-like] disorder 6E61.2 Secondary psychotic syndrome with F06.2 Organic delusional [schizophrenia-like] disorder hallucinations and delusions 6E61.3 Secondary psychotic syndrome with F09 Unspecified organic or symptomatic mental disorder unspecified symptoms 6E62 Secondary mood syndrome Crosswalk from icd-11 mental, behavioural and neurodevelopmental disorders to icd-10 for clinician use 809 icd-11 icd-10 notes 6e40.z psychological or behavioural factor affecting f54 psychological and behavioural factor..."
+}

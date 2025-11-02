@@ -1,0 +1,33 @@
+{
+  "id": "icd11#screening_cues_bccb46b1",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "conjunction with a diagnosis from this mental, behavioural and neurodevelopmental disorders chapter to highlight an issue for other health professionals or for the health system. For example, for an individual diagnosed with 6A20.10 Schizophrenia, multiple episodes, currently symptomatic, QE70.0 Inadequate family support could also be coded if it is relevant for discharge planning. Chapter 24 also includes problems related to health behaviours that do not represent diagnosable mental disorders, such as QE10 Hazardous alcohol use or QE23 Problems with inappropriate diet or eating habits. A second set of categories in Chapter 24 are those that document health services involving different types of counselling that may be provided to individuals living with a mental disorder but also to individuals with no diagnosis. Examples include QA15 Counselling related to sexuality and QA18 Family counselling. These can also be considered interventions or procedures, but they are included in Chapter 24 because they may represent reasons for a particular health encounter. A third set of categories in Chapter 24 represent broader factors that influence the person’s health status and care but are not mental disorders (e.g. QD71.0 Homelessness). Inclusion of this type of category in addition to the diagnosis of a mental disorder can provide important contextual information to improve the personalization of care. For example, QE04 Target of perceived adverse discrimination or persecution could be coded when the experience of racial discrimination is deemed a contributory factor to a depressive disorder. Many of these categories 6 A complete listing can be found at ICD-11 for Mortality and Morbidity Statistics (ICD-11 MMS) [website]. Geneva: World Health Organization; 2023 (https://ICD.who.int/browse11/l-m/en#/). Factors influencing health status or contact with health services particularly relevant to mental health services",
+  "gloss_vi": "Conjunction with a diagnosis from this mental, behavioural and neurodevelopmental disorders chapter to highlight an issue for other health professionals or for the health system. for example, for an individual diagnosed ...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "psychoeducation",
+      "do_not_do",
+      "caregiver"
+    ],
+    "life_topics": [
+      "study",
+      "relationships"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc conjunction with a diagnosis from this mental, behavioural and neurodevelopmental disorders chapter to highlight an issue for other health professionals or for the health system. For example, for an individual diagnosed with 6A20.10 Schizophrenia, multiple episodes, currently symptomatic, QE70.0 Inadequate family support could also be coded if it is relevant for discharge planning. Chapter 24 also includes problems related to health behaviours that do not represent diagnosable mental disorders, such as QE10 Hazardous alcohol use or QE23 Problems with inappropriate diet or eating habits. A second set of categories in Chapter 24 are those that document health services involving different types of counselling that may be provided to individuals living with a mental disorder but also to individuals with no diagnosis. Examples include QA15 Counselling related to sexuality and QA18 Family counselling. These can also be considered interventions or procedures, but they are included in Chapter 24 because they may represent reasons for a particular health encounter. A third set of categories in Chapter 24 represent broader factors that influence the person’s health status and care but are not mental disorders (e.g. QD71.0 Homelessness). Inclusion of this type of category in addition to the diagnosis of a mental disorder can provide important contextual information to improve the personalization of care. For example, QE04 Target of perceived adverse discrimination or persecution could be coded when the experience of racial discrimination is deemed a contributory factor to a depressive disorder. Many of these categories 6 A complete listing can be found at ICD-11 for Mortality and Morbidity Statistics (ICD-11 MMS) [website]. Geneva: World Health Organization; 2023 (https://ICD.who.int/browse11/l-m/en#/). Factors influencing health status or contact with health services particularly relevant to mental health services Conjunction with a diagnosis from this mental, behavioural and neurodevelopmental disorders chapter to highlight an issue for other health professionals or for the health system. for example, for an individual diagnosed ..."
+}

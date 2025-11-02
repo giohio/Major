@@ -1,0 +1,34 @@
+{
+  "id": "mhgap#risk_safety_7f707bfc",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "2 Are there other possible explanations for the symptoms? IS THIS A PHYSICAL CONDITION THAT CAN RESEMBLE OR EXACERBATE DEPRESSION? Are there signs and symptoms suggesting anaemia, malnutrition, hypothyroidism, mood changes from substance use and medication side-effects (e.g. mood changes from steroids)? MANAGE THE PHYSICAL CONDITION Do depressive symptoms remain after treatment? No treatment needed. DEPRESSION 23 24 DEP 1 DEPRESSION Assessment IS THERE A HISTORY OF MANIA? Have several of the following symptoms occurred simultaneously, lasting for at least 1 week, and severely enough to interfere significantly with work and social activities or requiring hospitalization or confinement? – Elevation of mood and/or irritability – Loss of normal social inhibitions resulting in inappropriate – Decreased need for sleep behaviours – Increased activity, feeling of increased energy, increased – Being easily distracted talkativeness or rapid speech – Unrealistically inflated self-esteem – Impulsive or reckless behaviours such as excessive spending, making important decisions without planning and sexual indiscretion CLINICAL TIP: DEPRESSIVE EPISODE People with depressive episode in IN BIPOLAR bipolar disorder are at risk for mania. Treatment is different from depres- DISORDER is likely sion. Protocol 2 must be applied. Go to STEP 1 30 then to PROTOCOL 2 HAS THERE BEEN A MAJOR LOSS (E.G. BEREAVEMENT) WITHIN THE LAST 6 MONTHS? DEPRESSION is likely G o to STEP 1 30 then to PROTOCOL 1",
+  "gloss_vi": "2 are there other possible explanations for the symptoms? is this a physical condition that can resemble or exacerbate trầm cảm?",
+  "source": "WHO mhGAP-IG 2023",
+  "url": "https://www.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "screening_cues",
+      "management"
+    ],
+    "life_topics": [
+      "sleep",
+      "work",
+      "self_esteem",
+      "grief"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn 2 Are there other possible explanations for the symptoms? IS THIS A PHYSICAL CONDITION THAT CAN RESEMBLE OR EXACERBATE DEPRESSION? Are there signs and symptoms suggesting anaemia, malnutrition, hypothyroidism, mood changes from substance use and medication side-effects (e.g. mood changes from steroids)? MANAGE THE PHYSICAL CONDITION Do depressive symptoms remain after treatment? No treatment needed. DEPRESSION 23 24 DEP 1 DEPRESSION Assessment IS THERE A HISTORY OF MANIA? Have several of the following symptoms occurred simultaneously, lasting for at least 1 week, and severely enough to interfere significantly with work and social activities or requiring hospitalization or confinement? – Elevation of mood and/or irritability – Loss of normal social inhibitions resulting in inappropriate – Decreased need for sleep behaviours – Increased activity, feeling of increased energy, increased – Being easily distracted talkativeness or rapid speech – Unrealistically inflated self-esteem – Impulsive or reckless behaviours such as excessive spending, making important decisions without planning and sexual indiscretion CLINICAL TIP: DEPRESSIVE EPISODE People with depressive episode in IN BIPOLAR bipolar disorder are at risk for mania. Treatment is different from depres- DISORDER is likely sion. Protocol 2 must be applied. Go to STEP 1 30 then to PROTOCOL 2 HAS THERE BEEN A MAJOR LOSS (E.G. BEREAVEMENT) WITHIN THE LAST 6 MONTHS? DEPRESSION is likely G o to STEP 1 30 then to PROTOCOL 1 2 are there other possible explanations for the symptoms? is this a physical condition that can resemble or exacerbate trầm cảm?"
+}

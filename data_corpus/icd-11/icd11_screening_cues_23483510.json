@@ -1,0 +1,26 @@
+{
+  "id": "icd11#screening_cues_23483510",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "Introduction 19 69. Oltmanns JR, Widiger TA. A self-report 63. The ICD-10 classification of mental and measure for the ICD-11 dimensional trait model behavioural disorders: diagnostic criteria proposal: the personality inventory for ICD-11. for research. Geneva: World Health Psychol Assess. 2018;30(2):154–69. doi:10.1037/ Organization; 1993 (https://apps.who.int/iris/ pas0000459. handle/10665/37108). 70. Bach B, Brown TA, Mulder RT, Newton-Howes 64. First MB. Harmonisation of ICD-11 and DSM-V: G, Simonsen E, Sellbom M. Development and opportunities and challenges. Br J Psychiatry. initial evaluation of the ICD-11 personality 2009;195(5):382–90. doi:10.1192/bjp. disorder severity scale: PDS-ICD-11. Personal bp.108.060822. Ment Health. 2021;15(3):223–36. doi:10.1002/ 65. Wing JK, Babor T, Brugha T, Burke J, Cooper pmh.1510. JE, Giel R et al. SCAN. Schedules for Clinical 71. Olajide K, Munjiza J, Moran P, O’Connell L, Assessment in Neuropsychiatry. Arch Gen Newton-Howes G, Bassett P et al. Development Psychiatry. 1990;47(6):589–93. doi:10.1001/ and psychometric properties of the Standardized archpsyc.1990.01810180089012. Assessment of Severity of Personality Disorder 66. Rijnders CA, van den Berg JF, Hodiamont (SASPD). J Pers Disord. 2018;32(1):44–56. PP, Nienhuis FJ, Furer JW, Mulder J et al. doi:10.1521/pedi_2017_31_285. Psychometric properties of the Schedules 72. Cloitre M, Shevlin M, Brewin CR, Bisson JI, for Clinical Assessment in Neuropsychiatry Roberts",
+  "gloss_vi": "Introduction 19 69. oltmanns jr, widiger ta.",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc Introduction 19 69. Oltmanns JR, Widiger TA. A self-report 63. The ICD-10 classification of mental and measure for the ICD-11 dimensional trait model behavioural disorders: diagnostic criteria proposal: the personality inventory for ICD-11. for research. Geneva: World Health Psychol Assess. 2018;30(2):154–69. doi:10.1037/ Organization; 1993 (https://apps.who.int/iris/ pas0000459. handle/10665/37108). 70. Bach B, Brown TA, Mulder RT, Newton-Howes 64. First MB. Harmonisation of ICD-11 and DSM-V: G, Simonsen E, Sellbom M. Development and opportunities and challenges. Br J Psychiatry. initial evaluation of the ICD-11 personality 2009;195(5):382–90. doi:10.1192/bjp. disorder severity scale: PDS-ICD-11. Personal bp.108.060822. Ment Health. 2021;15(3):223–36. doi:10.1002/ 65. Wing JK, Babor T, Brugha T, Burke J, Cooper pmh.1510. JE, Giel R et al. SCAN. Schedules for Clinical 71. Olajide K, Munjiza J, Moran P, O’Connell L, Assessment in Neuropsychiatry. Arch Gen Newton-Howes G, Bassett P et al. Development Psychiatry. 1990;47(6):589–93. doi:10.1001/ and psychometric properties of the Standardized archpsyc.1990.01810180089012. Assessment of Severity of Personality Disorder 66. Rijnders CA, van den Berg JF, Hodiamont (SASPD). J Pers Disord. 2018;32(1):44–56. PP, Nienhuis FJ, Furer JW, Mulder J et al. doi:10.1521/pedi_2017_31_285. Psychometric properties of the Schedules 72. Cloitre M, Shevlin M, Brewin CR, Bisson JI, for Clinical Assessment in Neuropsychiatry Roberts Introduction 19 69. oltmanns jr, widiger ta."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "icd11#screening_cues_053008bd",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "List of categories 69 6C4A.2 Nicotine dependence Specify pattern of substance use or remission: 6C4A.20 … current use 6C4A.21 … early full remission 6C4A.22 … sustained partial remission 6C4A.23 … sustained full remission 6C4A.2Z … unspecified 6C4A.3 Nicotine intoxication Specify severity: 6C4A.3&XS5W Nicotine intoxication, mild 6C4A.3&XS0T Nicotine intoxication, moderate 6C4A.3&XS25 Nicotine intoxication, severe 6C4A.4 Nicotine withdrawal 6C4A.Y Other specified disorder due to use of nicotine 6C4A.Z Disorder due to use of nicotine, unspecified 6C4B Disorders due to use of volatile inhalants 6C4B.0 Episode of harmful use of volatile inhalants 6C4B.1 Harmful pattern of use of volatile inhalants Specify pattern: 6C4B.10 … episodic 6C4B.11 … continuous 6C4B.1Z … unspecified 6C4B.2 Volatile inhalant dependence Specify pattern of substance use or remission: 6C4B.20 … current use 6C4B.21 … early full remission 6C4B.22 … sustained partial remission 6C4B.23 … sustained full remission 6C4B.2Z … unspecified 6C4B.3 Volatile inhalant intoxication Specify severity: 6C4B.3&XS5W Volatile inhalant intoxication, mild 6C4B.3&XS0T Volatile inhalant intoxication, moderate 6C4B.3&XS25 Volatile inhalant intoxication, severe 6C4B.4 Volatile inhalant withdrawal 6C4B.5 Volatile inhalant-induced delirium 6C4B.6 Volatile inhalant-induced psychotic disorder 6C4B.70 Volatile inhalant-induced mood disorder Specify clinical presentation: 6C4B.700 … with depressive symptoms 6C4B.701 … with manic symptoms 6C4B.702 … with mixed depressive and manic symptoms 6C4B.70Z …unspecified 6C4B.71 Volatile inhalant-induced anxiety disorder 6C4B.Y Other specified disorder due to use of volatile inhalants 6C4B.Z Disorder due to use of volatile inhalants, unspecified 70 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6C4C Disorders due to use of MDMA or related drugs, including",
+  "gloss_vi": "List of categories 69 6c4a.2 nicotine dependence specify pattern of substance use or remission: 6c4a.20 … current use 6c4a.21 … early full remission 6c4a.22 … sustained partial remission 6c4a.23 … sustained full remissio...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc List of categories 69 6C4A.2 Nicotine dependence Specify pattern of substance use or remission: 6C4A.20 … current use 6C4A.21 … early full remission 6C4A.22 … sustained partial remission 6C4A.23 … sustained full remission 6C4A.2Z … unspecified 6C4A.3 Nicotine intoxication Specify severity: 6C4A.3&XS5W Nicotine intoxication, mild 6C4A.3&XS0T Nicotine intoxication, moderate 6C4A.3&XS25 Nicotine intoxication, severe 6C4A.4 Nicotine withdrawal 6C4A.Y Other specified disorder due to use of nicotine 6C4A.Z Disorder due to use of nicotine, unspecified 6C4B Disorders due to use of volatile inhalants 6C4B.0 Episode of harmful use of volatile inhalants 6C4B.1 Harmful pattern of use of volatile inhalants Specify pattern: 6C4B.10 … episodic 6C4B.11 … continuous 6C4B.1Z … unspecified 6C4B.2 Volatile inhalant dependence Specify pattern of substance use or remission: 6C4B.20 … current use 6C4B.21 … early full remission 6C4B.22 … sustained partial remission 6C4B.23 … sustained full remission 6C4B.2Z … unspecified 6C4B.3 Volatile inhalant intoxication Specify severity: 6C4B.3&XS5W Volatile inhalant intoxication, mild 6C4B.3&XS0T Volatile inhalant intoxication, moderate 6C4B.3&XS25 Volatile inhalant intoxication, severe 6C4B.4 Volatile inhalant withdrawal 6C4B.5 Volatile inhalant-induced delirium 6C4B.6 Volatile inhalant-induced psychotic disorder 6C4B.70 Volatile inhalant-induced mood disorder Specify clinical presentation: 6C4B.700 … with depressive symptoms 6C4B.701 … with manic symptoms 6C4B.702 … with mixed depressive and manic symptoms 6C4B.70Z …unspecified 6C4B.71 Volatile inhalant-induced anxiety disorder 6C4B.Y Other specified disorder due to use of volatile inhalants 6C4B.Z Disorder due to use of volatile inhalants, unspecified 70 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6C4C Disorders due to use of MDMA or related drugs, including List of categories 69 6c4a.2 nicotine dependence specify pattern of substance use or remission: 6c4a.20 … current use 6c4a.21 … early full remission 6c4a.22 … sustained partial remission 6c4a.23 … sustained full remissio..."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "mhgap#risk_safety_acab380a",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "144 OTH 1 OTHER SIGNIFICANT MENTAL HEALTH COMPLAINTS Assessment 3 Is the person seeking help to relieve symptoms or having considerable difficulty with daily functioning because of their symptoms? No treatment needed. OTHER SIGNIFICANT MENTAL HEALTH COMPLAINTS are likely 4 Has the person been exposed to extreme stressors? (e.g. physical or sexual violence, major accidents, bereavement or other major losses) Go to PROTOCOL 1 and 2 Go to PROTOCOL 1 IF THERE IS IMMINENT RISK OF SUICIDE, ASSESS AND MANAGE before continuing to Protocol 1 and 2 (Go to » SUI). OTH 2 Management PROTOCOL 1 OTHER SIGNIFICANT MENTAL HEALTH COMPLAINTS » DO NOT prescribe anti-anxiety or antidepressant medicines – Inform the person that no serious disease has been identified. Communicate the (unless advised by a specialist). normal clinical and test findings. » – If the person insists on further investigations, consider saying that performing DO NOT give vitamin injections or other ineffective treatments. unnecessary investigations can be harmful because they can cause unnecessary » In all cases, reduce stress and strengthen social supports as worry and side-effects. described in Essential care and practice (ECP). – Acknowledge that the symptoms are not imaginary and that it is still important to address symptoms",
+  "gloss_vi": "144 oth 1 other significant mental health complaints đánh giá 3 is the person seeking help to relieve symptoms or having considerable difficulty with daily functioning because of their symptoms? no treatment needed.",
+  "source": "WHO mhGAP-IG 2023",
+  "url": "https://www.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "screening_cues",
+      "referral",
+      "psychoeducation",
+      "do_not_do",
+      "management"
+    ],
+    "life_topics": [
+      "stress",
+      "grief"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "high"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn 144 OTH 1 OTHER SIGNIFICANT MENTAL HEALTH COMPLAINTS Assessment 3 Is the person seeking help to relieve symptoms or having considerable difficulty with daily functioning because of their symptoms? No treatment needed. OTHER SIGNIFICANT MENTAL HEALTH COMPLAINTS are likely 4 Has the person been exposed to extreme stressors? (e.g. physical or sexual violence, major accidents, bereavement or other major losses) Go to PROTOCOL 1 and 2 Go to PROTOCOL 1 IF THERE IS IMMINENT RISK OF SUICIDE, ASSESS AND MANAGE before continuing to Protocol 1 and 2 (Go to » SUI). OTH 2 Management PROTOCOL 1 OTHER SIGNIFICANT MENTAL HEALTH COMPLAINTS » DO NOT prescribe anti-anxiety or antidepressant medicines – Inform the person that no serious disease has been identified. Communicate the (unless advised by a specialist). normal clinical and test findings. » – If the person insists on further investigations, consider saying that performing DO NOT give vitamin injections or other ineffective treatments. unnecessary investigations can be harmful because they can cause unnecessary » In all cases, reduce stress and strengthen social supports as worry and side-effects. described in Essential care and practice (ECP). – Acknowledge that the symptoms are not imaginary and that it is still important to address symptoms 144 oth 1 other significant mental health complaints đánh giá 3 is the person seeking help to relieve symptoms or having considerable difficulty with daily functioning because of their symptoms? no treatment needed."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "icd11#screening_cues_9ca21f1a",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Table 6.11. Rating scale for psychomotor symptoms in primary psychotic disorders Severity Anchor points None No significant psychomotor symptoms have been present during the past week 6A25.4&XS8H Mild The majority of the time the person exhibits a normal level of activity, but there 6A25.4&XS5W are occasional periods of psychomotor excitation or slowing. Psychomotor symptoms do not interfere significantly with important personal, social or occupational functioning. Moderate The person experiences frequent periods of marked psychomotor agitation 6A25.4&XS0T or retardation, but psychomotor symptoms are not continuous. Psychomotor symptoms interfere significantly with important personal, social or occupational functioning. Severe The individual experiences severe and nearly continuous psychomotor agitation 6A25.4&XS25 or slowing, which may include the full syndrome of catatonia (see p. 202). The psychomotor symptoms are sufficiently severe to be potentially harmful to the person or others (e.g. agitation to the point of severe physical exhaustion, stupor that prevents the person from feeding themselves). Severity unspecified Psychomotor symptoms have been present during the past week, but it is not possible to make a severity rating based on the available information. 6A25.4 6A25.5 Cognitive symptoms This specifier may be used together with a diagnosis from the grouping of schizophrenia and other primary psychotic disorders to indicate the degree to which cognitive impairment is a prominent aspect of the clinical presentation (see Table 6.12). Deficits may appear in any of the following cognitive domains: speed of processing, attention/concentration, orientation, judgement, abstraction, verbal or visual learning, or working memory. The cognitive impairment is not attributable to a neurodevelopmental disorder, to delirium or another neurocognitive disorder, or to the direct effects of a substance or medication on the central nervous system, including withdrawal effects. When available, the severity rating for this domain should be based on the results of locally validated, standardized neuropsychological assessments, but such measures are not available in all settings and are not required to provide a rating. The rating should be made based on the severity of cognitive symptoms during the past week. Specifier scales for symptomatic manifestations of primary psychotic disorders | Cognitive symptoms",
+  "gloss_vi": "And diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders table 6.11. rating scale for psychomotor symptoms in primary psychotic disorders severity anchor points none no significant psych...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do",
+      "management"
+    ],
+    "life_topics": [
+      "work"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Table 6.11. Rating scale for psychomotor symptoms in primary psychotic disorders Severity Anchor points None No significant psychomotor symptoms have been present during the past week 6A25.4&XS8H Mild The majority of the time the person exhibits a normal level of activity, but there 6A25.4&XS5W are occasional periods of psychomotor excitation or slowing. Psychomotor symptoms do not interfere significantly with important personal, social or occupational functioning. Moderate The person experiences frequent periods of marked psychomotor agitation 6A25.4&XS0T or retardation, but psychomotor symptoms are not continuous. Psychomotor symptoms interfere significantly with important personal, social or occupational functioning. Severe The individual experiences severe and nearly continuous psychomotor agitation 6A25.4&XS25 or slowing, which may include the full syndrome of catatonia (see p. 202). The psychomotor symptoms are sufficiently severe to be potentially harmful to the person or others (e.g. agitation to the point of severe physical exhaustion, stupor that prevents the person from feeding themselves). Severity unspecified Psychomotor symptoms have been present during the past week, but it is not possible to make a severity rating based on the available information. 6A25.4 6A25.5 Cognitive symptoms This specifier may be used together with a diagnosis from the grouping of schizophrenia and other primary psychotic disorders to indicate the degree to which cognitive impairment is a prominent aspect of the clinical presentation (see Table 6.12). Deficits may appear in any of the following cognitive domains: speed of processing, attention/concentration, orientation, judgement, abstraction, verbal or visual learning, or working memory. The cognitive impairment is not attributable to a neurodevelopmental disorder, to delirium or another neurocognitive disorder, or to the direct effects of a substance or medication on the central nervous system, including withdrawal effects. When available, the severity rating for this domain should be based on the results of locally validated, standardized neuropsychological assessments, but such measures are not available in all settings and are not required to provide a rating. The rating should be made based on the severity of cognitive symptoms during the past week. Specifier scales for symptomatic manifestations of primary psychotic disorders | Cognitive symptoms And diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders table 6.11. rating scale for psychomotor symptoms in primary psychotic disorders severity anchor points none no significant psych..."
+}

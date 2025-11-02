@@ -1,0 +1,30 @@
+{
+  "id": "everyday#screening_cues_acb8569d",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "DSM-5 Classification xxi 300.89 (F45.8) Other Specified Somatic Symptom and Related Disorder (166) 300.82 (F45.9) Unspecified Somatic Symptom and Related Disorder (167) Feeding and Eating Disorders (169) The following specifiers apply to Feeding and Eating Disorders where in- dicated: aSpecify if: In remission bSpecify if: In partial remission, In full remission cSpecify current severity: Mild, Moderate, Severe, Extreme 307.52 (___.__) Picaa (169) (F98.3) In children (F50.8) In adults 307.53 (F98.21) Rumination Disordera (169) 307.59 (F50.8) Avoidant/Restrictive Food Intake Disordera (170) 307.1 (___.__) Anorexia Nervosab, c (171) Specify whether: (F50.01) Restricting type (F50.02) Binge-eating/purging type 307.51 (F50.2) Bulimia Nervosab, c (172) 307.51 (F50.8) Binge-Eating Disorderb, c (174) 307.59 (F50.8) Other Specified Feeding or Eating Disorder (175) 307.50 (F50.9) Unspecified Feeding or Eating Disorder (176) Elimination Disorders (177) 307.6 (F98.0) Enuresis (177) Specify whether: Nocturnal only, Diurnal only, Nocturnal and diurnal 307.7 (F98.1) Encopresis (178) Specify whether: With constipation and overflow incontinence, Without constipation and over- flow incontinence xxii DSM-5 Classification ___.__ (___.__) Other Specified",
+  "gloss_vi": "Dsm-5 classification xxi 300.89 (f45.8) other specified somatic symptom and related disorder (166) 300.82 (f45.9) unspecified somatic symptom and related disorder (167) feeding and eating disorders (169) the following sp...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [],
+    "advice_section": [
+      "work_habits"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc DSM-5 Classification xxi 300.89 (F45.8) Other Specified Somatic Symptom and Related Disorder (166) 300.82 (F45.9) Unspecified Somatic Symptom and Related Disorder (167) Feeding and Eating Disorders (169) The following specifiers apply to Feeding and Eating Disorders where in- dicated: aSpecify if: In remission bSpecify if: In partial remission, In full remission cSpecify current severity: Mild, Moderate, Severe, Extreme 307.52 (___.__) Picaa (169) (F98.3) In children (F50.8) In adults 307.53 (F98.21) Rumination Disordera (169) 307.59 (F50.8) Avoidant/Restrictive Food Intake Disordera (170) 307.1 (___.__) Anorexia Nervosab, c (171) Specify whether: (F50.01) Restricting type (F50.02) Binge-eating/purging type 307.51 (F50.2) Bulimia Nervosab, c (172) 307.51 (F50.8) Binge-Eating Disorderb, c (174) 307.59 (F50.8) Other Specified Feeding or Eating Disorder (175) 307.50 (F50.9) Unspecified Feeding or Eating Disorder (176) Elimination Disorders (177) 307.6 (F98.0) Enuresis (177) Specify whether: Nocturnal only, Diurnal only, Nocturnal and diurnal 307.7 (F98.1) Encopresis (178) Specify whether: With constipation and overflow incontinence, Without constipation and over- flow incontinence xxii DSM-5 Classification ___.__ (___.__) Other Specified Dsm-5 classification xxi 300.89 (f45.8) other specified somatic symptom and related disorder (166) 300.82 (f45.9) unspecified somatic symptom and related disorder (167) feeding and eating disorders (169) the following sp..."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "everyday#screening_cues_477835db",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "severe cocaine use disorder is co- morbid, the ICD-10-CM code is F14.222. If there is no comorbid cocaine use disorder, then the ICD-10-CM code is F14.922. 272 Substance-Related and Addictive Disorders Stimulant Withdrawal A. Cessation of (or reduction in) prolonged amphetamine-type sub- stance, cocaine, or other stimulant use. B. Dysphoric mood and two (or more) of the following physiological changes, developing within a few hours to several days after Cri- terion A: 1. Fatigue. 2. Vivid, unpleasant dreams. 3. Insomnia or hypersomnia. 4. Increased appetite. 5. Psychomotor retardation or agitation. C. The signs or symptoms in Criterion B cause clinically significant distress or impairment in social, occupational, or other important areas of functioning. D. The signs or symptoms are not attributable to another medical condition and are not better explained by another mental disor- der, including intoxication or withdrawal from another substance. Specify the specific substance that causes the withdrawal syn- drome (i.e., amphetamine-type substance, cocaine, or other stimulant). Coding note: The ICD-9-CM code is 292.0. The ICD-10-CM code depends on whether the stimulant is an amphetamine, cocaine, or another stimulant. The ICD-10-CM code for amphetamine or other stimulant withdrawal is F15.23, and the ICD-10-CM for cocaine with- drawal is F14.23. Note that the ICD-10-CM code indicates the comor- bid presence of a moderate or severe amphetamine, cocaine, or other stimulant use disorder, reflecting the fact that amphetamine, cocaine, or other stimulant withdrawal can only occur in the presence of a moderate or severe amphetamine, cocaine, or other stimulant use disorder. It is not permissible to code a comorbid mild amphet- amine, cocaine, or other stimulant use disorder with amphetamine, cocaine, or other stimulant withdrawal.",
+  "gloss_vi": "Severe cocaine use disorder is co- morbid, the icd-10-cm code is f14.222. if there is no comorbid cocaine use disorder, then the icd-10-cm code is f14.922.",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [
+      "sleep",
+      "stress"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc severe cocaine use disorder is co- morbid, the ICD-10-CM code is F14.222. If there is no comorbid cocaine use disorder, then the ICD-10-CM code is F14.922. 272 Substance-Related and Addictive Disorders Stimulant Withdrawal A. Cessation of (or reduction in) prolonged amphetamine-type sub- stance, cocaine, or other stimulant use. B. Dysphoric mood and two (or more) of the following physiological changes, developing within a few hours to several days after Cri- terion A: 1. Fatigue. 2. Vivid, unpleasant dreams. 3. Insomnia or hypersomnia. 4. Increased appetite. 5. Psychomotor retardation or agitation. C. The signs or symptoms in Criterion B cause clinically significant distress or impairment in social, occupational, or other important areas of functioning. D. The signs or symptoms are not attributable to another medical condition and are not better explained by another mental disor- der, including intoxication or withdrawal from another substance. Specify the specific substance that causes the withdrawal syn- drome (i.e., amphetamine-type substance, cocaine, or other stimulant). Coding note: The ICD-9-CM code is 292.0. The ICD-10-CM code depends on whether the stimulant is an amphetamine, cocaine, or another stimulant. The ICD-10-CM code for amphetamine or other stimulant withdrawal is F15.23, and the ICD-10-CM for cocaine with- drawal is F14.23. Note that the ICD-10-CM code indicates the comor- bid presence of a moderate or severe amphetamine, cocaine, or other stimulant use disorder, reflecting the fact that amphetamine, cocaine, or other stimulant withdrawal can only occur in the presence of a moderate or severe amphetamine, cocaine, or other stimulant use disorder. It is not permissible to code a comorbid mild amphet- amine, cocaine, or other stimulant use disorder with amphetamine, cocaine, or other stimulant withdrawal. Severe cocaine use disorder is co- morbid, the icd-10-cm code is f14.222. if there is no comorbid cocaine use disorder, then the icd-10-cm code is f14.922."
+}

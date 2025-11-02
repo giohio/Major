@@ -1,0 +1,27 @@
+{
+  "id": "icd11#screening_cues_9d33baa4",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "40 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Postcoordination for schizophrenia and other primary psychotic disorders For all above categories in the schizophrenia and other primary psychotic disorders grouping, specify symptomatic manifestations of primary psychotic disorders to describe current clinical presentation: 6A25.0 Positive symptoms Specify severity: 6A25.0&XS8H None 6A25.0&XS5W Mild 6A25.0&XS0T Moderate 6A25.0&XS25 Severe 6A25.1 Negative symptoms Specify severity: 6A25.1&XS8H None 6A25.1&XS5W Mild 6A25.1&XS0T Moderate 6A25.1&XS25 Severe 6A25.2 Depressive mood symptoms Specify severity: 6A25.2&XS8H None 6A25.2&XS5W Mild 6A25.2&XS0T Moderate 6A25.2&XS25 Severe 6A25.3 Manic mood symptoms Specify severity: 6A25.3&XS8H None 6A25.3&XS5W Mild 6A25.3&XS0T Moderate 6A25.3&XS25 Severe 6A25.4 Psychomotor symptoms Specify severity: 6A25.4&XS8H None 6A25.4&XS5W Mild 6A25.4&XS0T Moderate 6A25.4&XS25 Severe 6A25.5 Cognitive symptoms Specify severity: 6A25.5&XS8H None 6A25.5&XS5W Mild 6A25.5&XS0T Moderate 6A25.5&XS25 Severe List of categories 41 Secondary-parented categories From disorders due to substance use: Substance-induced psychotic disorders Specify substance class: 6C40.6 Alcohol-induced psychotic disorder Specify clinical presentation: 6C40.60 … with hallucinations 6C40.61 … with delusions 6C40.62 … with mixed psychotic symptoms 6C40.6Z … unspecified 6C41.6 Cannabis-induced psychotic disorder 6C42.6 Synthetic cannabinoid-induced psychotic disorder 6C43.6 Opioid-induced psychotic disorder 6C44.6 Sedative, hypnotic or anxiolytic-induced psychotic disorder 6C45.6 Cocaine-induced psychotic disorder Specify clinical presentation: 6C45.60 … with hallucinations 6C45.61 … with delusions 6C45.62 … with mixed psychotic symptoms 6C45.6Z … unspecified",
+  "gloss_vi": "40 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders postcoordination for schizophrenia and other primary psychotic disorders for all above categories in the...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "management"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 40 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Postcoordination for schizophrenia and other primary psychotic disorders For all above categories in the schizophrenia and other primary psychotic disorders grouping, specify symptomatic manifestations of primary psychotic disorders to describe current clinical presentation: 6A25.0 Positive symptoms Specify severity: 6A25.0&XS8H None 6A25.0&XS5W Mild 6A25.0&XS0T Moderate 6A25.0&XS25 Severe 6A25.1 Negative symptoms Specify severity: 6A25.1&XS8H None 6A25.1&XS5W Mild 6A25.1&XS0T Moderate 6A25.1&XS25 Severe 6A25.2 Depressive mood symptoms Specify severity: 6A25.2&XS8H None 6A25.2&XS5W Mild 6A25.2&XS0T Moderate 6A25.2&XS25 Severe 6A25.3 Manic mood symptoms Specify severity: 6A25.3&XS8H None 6A25.3&XS5W Mild 6A25.3&XS0T Moderate 6A25.3&XS25 Severe 6A25.4 Psychomotor symptoms Specify severity: 6A25.4&XS8H None 6A25.4&XS5W Mild 6A25.4&XS0T Moderate 6A25.4&XS25 Severe 6A25.5 Cognitive symptoms Specify severity: 6A25.5&XS8H None 6A25.5&XS5W Mild 6A25.5&XS0T Moderate 6A25.5&XS25 Severe List of categories 41 Secondary-parented categories From disorders due to substance use: Substance-induced psychotic disorders Specify substance class: 6C40.6 Alcohol-induced psychotic disorder Specify clinical presentation: 6C40.60 … with hallucinations 6C40.61 … with delusions 6C40.62 … with mixed psychotic symptoms 6C40.6Z … unspecified 6C41.6 Cannabis-induced psychotic disorder 6C42.6 Synthetic cannabinoid-induced psychotic disorder 6C43.6 Opioid-induced psychotic disorder 6C44.6 Sedative, hypnotic or anxiolytic-induced psychotic disorder 6C45.6 Cocaine-induced psychotic disorder Specify clinical presentation: 6C45.60 … with hallucinations 6C45.61 … with delusions 6C45.62 … with mixed psychotic symptoms 6C45.6Z … unspecified 40 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders postcoordination for schizophrenia and other primary psychotic disorders for all above categories in the..."
+}

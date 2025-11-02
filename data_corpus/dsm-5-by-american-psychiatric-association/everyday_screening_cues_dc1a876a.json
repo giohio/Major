@@ -1,0 +1,29 @@
+{
+  "id": "everyday#screening_cues_dc1a876a",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "Other Specified Personality Disorder 331 Specify whether: Labile type: If the predominant feature is affective lability. Disinhibited type: If the predominant feature is poor impulse control as evidenced by sexual indiscretions, etc. Aggressive type: If the predominant feature is aggressive behavior. Apathetic type: If the predominant feature is marked apathy and indifference. Paranoid type: If the predominant feature is suspiciousness or paranoid ideation. Other type: If the presentation is not characterized by any of the above subtypes. Combined type: If more than one feature predominates in the clinical picture. Unspecified type Coding note: Include the name of the other medical condition (e.g., 310.1 [F07.0] personality change due to temporal lobe epilepsy). The other medical condition should be coded and listed separately imme- diately before the personality disorder due to another medical condi- tion (e.g., 345.40 [G40.209] temporal lobe epilepsy; 310.1 [F07.0] personality change due to temporal lobe epilepsy). Other Specified Personality Disorder 301.89 (F60.89) This category applies to presentations in which symptoms character- istic of a personality disorder that cause clinically significant distress or impairment in social, occupational, or other important",
+  "gloss_vi": "Other specified personality disorder 331 specify whether: labile type: if the predominant feature is affective lability. disinhibited type: if the predominant feature is poor impulse control as evidenced by sexual indisc...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [
+      "stress"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc Other Specified Personality Disorder 331 Specify whether: Labile type: If the predominant feature is affective lability. Disinhibited type: If the predominant feature is poor impulse control as evidenced by sexual indiscretions, etc. Aggressive type: If the predominant feature is aggressive behavior. Apathetic type: If the predominant feature is marked apathy and indifference. Paranoid type: If the predominant feature is suspiciousness or paranoid ideation. Other type: If the presentation is not characterized by any of the above subtypes. Combined type: If more than one feature predominates in the clinical picture. Unspecified type Coding note: Include the name of the other medical condition (e.g., 310.1 [F07.0] personality change due to temporal lobe epilepsy). The other medical condition should be coded and listed separately imme- diately before the personality disorder due to another medical condi- tion (e.g., 345.40 [G40.209] temporal lobe epilepsy; 310.1 [F07.0] personality change due to temporal lobe epilepsy). Other Specified Personality Disorder 301.89 (F60.89) This category applies to presentations in which symptoms character- istic of a personality disorder that cause clinically significant distress or impairment in social, occupational, or other important Other specified personality disorder 331 specify whether: labile type: if the predominant feature is affective lability. disinhibited type: if the predominant feature is poor impulse control as evidenced by sexual indisc..."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "everyday#screening_cues_f704ae82",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "xii DSM-5 Classification Other Neurodevelopmental Disorders (43) 315.8 (F88) Other Specified Neurodevelopmental Disorder (43) 315.9 (F89) Unspecified Neurodevelopmental Disorder (44) Schizophrenia Spectrum and Other Psychotic Disorders (45) The following specifiers apply to Schizophrenia Spectrum and Other Psy- chotic Disorders where indicated: aSpecify if: The following course specifiers are only to be used after a 1-year duration of the disorder: First episode, currently in acute epi- sode; First episode, currently in partial remission; First episode, cur- rently in full remission; Multiple episodes, currently in acute episode; Multiple episodes, currently in partial remission; Multiple episodes, currently in full remission; Continuous; Unspecified bSpecify if: With catatonia (use additional code 293.89 [F06.1]) cSpecify current severity of delusions, hallucinations, disorganized speech, abnormal psychomotor behavior, negative symptoms, im- paired cognition, depression, and mania symptoms 301.22 (F21) Schizotypal (Personality) Disorder (45) 297.1 (F22) Delusional Disordera, c (45) Specify whether: Erotomanic type, Grandiose type, Jealous type, Persecutory type, Somatic type, Mixed type, Unspecified type Specify if: With bizarre content 298.8 (F23) Brief Psychotic Disorderb, c (47) Specify if: With marked stressor(s), Without marked stressor(s), With postpartum onset 295.40 (F20.81) Schizophreniform Disorderb, c (49) Specify if: With good prognostic features, Without good prognostic features 295.90 (F20.9) Schizophreniaa, b,",
+  "gloss_vi": "Xii dsm-5 classification other neurodevelopmental disorders (43) 315.8 (f88) other specified neurodevelopmental disorder (43) 315.9 (f89) unspecified neurodevelopmental disorder (44) schizophrenia spectrum and other psyc...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [
+      "stress"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc xii DSM-5 Classification Other Neurodevelopmental Disorders (43) 315.8 (F88) Other Specified Neurodevelopmental Disorder (43) 315.9 (F89) Unspecified Neurodevelopmental Disorder (44) Schizophrenia Spectrum and Other Psychotic Disorders (45) The following specifiers apply to Schizophrenia Spectrum and Other Psy- chotic Disorders where indicated: aSpecify if: The following course specifiers are only to be used after a 1-year duration of the disorder: First episode, currently in acute epi- sode; First episode, currently in partial remission; First episode, cur- rently in full remission; Multiple episodes, currently in acute episode; Multiple episodes, currently in partial remission; Multiple episodes, currently in full remission; Continuous; Unspecified bSpecify if: With catatonia (use additional code 293.89 [F06.1]) cSpecify current severity of delusions, hallucinations, disorganized speech, abnormal psychomotor behavior, negative symptoms, im- paired cognition, depression, and mania symptoms 301.22 (F21) Schizotypal (Personality) Disorder (45) 297.1 (F22) Delusional Disordera, c (45) Specify whether: Erotomanic type, Grandiose type, Jealous type, Persecutory type, Somatic type, Mixed type, Unspecified type Specify if: With bizarre content 298.8 (F23) Brief Psychotic Disorderb, c (47) Specify if: With marked stressor(s), Without marked stressor(s), With postpartum onset 295.40 (F20.81) Schizophreniform Disorderb, c (49) Specify if: With good prognostic features, Without good prognostic features 295.90 (F20.9) Schizophreniaa, b, Xii dsm-5 classification other neurodevelopmental disorders (43) 315.8 (f88) other specified neurodevelopmental disorder (43) 315.9 (f89) unspecified neurodevelopmental disorder (44) schizophrenia spectrum and other psyc..."
+}

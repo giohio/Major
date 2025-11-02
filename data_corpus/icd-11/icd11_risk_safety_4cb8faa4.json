@@ -1,0 +1,33 @@
+{
+  "id": "icd11#risk_safety_4cb8faa4",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "belief that the individual is inherently deserving of privileges or special treatment. MB28.4 Hostility • Hostility refers to a tendency to experience persistent or frequent angry feelings – especially in response to minor slights and insults – and to adopt an unfriendly or threatening attitude in interactions with others. MB28.5 Impulsivity • Impulsivity refers to a tendency to act on the spur of the moment in response to immediate stimuli, characterized by lack of deliberation and failure to consider risks and consequences before acting. Impulsivity may reflect a desire for immediate rewards or an inability to delay gratification. MB28.6 Indecisiveness • Indecisiveness refers to a tendency to have difficulty making decisions or committing to a course of action. MB28.7 Irresponsibility • Irresponsibility refers to a pattern of disregard for and failure to honour obligations or commitments, a lack of respect for and follow-through on agreements or promises, or carelessness with others’ property. MB28.8 Low frustration tolerance • Low frustration tolerance refers to a diminished ability to regulate one’s emotions and behaviour in response to frustrating circumstances. MB28.9 Low self-esteem • Low self-esteem refers to a low appraisal of the individual’s self-worth. MB28.A Negative affectivity • Negative affectivity refers to a tendency to experience a broad range of distressing emotions (e.g. anxiety, anger irritability, depression, other negative emotional states), often in response to even relatively minor actual or perceived stressors. Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs related to personality features Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs related to personality features",
+  "gloss_vi": "Belief that the individual is inherently deserving of privileges or special treatment. mb28.4 hostility • hostility refers to a tendency to experience persistent or frequent angry feelings – especially in response to min...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "screening_cues",
+      "referral",
+      "management"
+    ],
+    "life_topics": [
+      "stress",
+      "self_esteem"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn belief that the individual is inherently deserving of privileges or special treatment. MB28.4 Hostility • Hostility refers to a tendency to experience persistent or frequent angry feelings – especially in response to minor slights and insults – and to adopt an unfriendly or threatening attitude in interactions with others. MB28.5 Impulsivity • Impulsivity refers to a tendency to act on the spur of the moment in response to immediate stimuli, characterized by lack of deliberation and failure to consider risks and consequences before acting. Impulsivity may reflect a desire for immediate rewards or an inability to delay gratification. MB28.6 Indecisiveness • Indecisiveness refers to a tendency to have difficulty making decisions or committing to a course of action. MB28.7 Irresponsibility • Irresponsibility refers to a pattern of disregard for and failure to honour obligations or commitments, a lack of respect for and follow-through on agreements or promises, or carelessness with others’ property. MB28.8 Low frustration tolerance • Low frustration tolerance refers to a diminished ability to regulate one’s emotions and behaviour in response to frustrating circumstances. MB28.9 Low self-esteem • Low self-esteem refers to a low appraisal of the individual’s self-worth. MB28.A Negative affectivity • Negative affectivity refers to a tendency to experience a broad range of distressing emotions (e.g. anxiety, anger irritability, depression, other negative emotional states), often in response to even relatively minor actual or perceived stressors. Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs related to personality features Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs related to personality features Belief that the individual is inherently deserving of privileges or special treatment. mb28.4 hostility • hostility refers to a tendency to experience persistent or frequent angry feelings – especially in response to min..."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "everyday#screening_cues_1502d11e",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "9 and neglect, problems with adherence to treatment regimens, obesity, antisocial behavior, and malingering. Principal Diagnosis When more than one diagnosis for an individual is given in an inpa- tient setting, the principal diagnosis is the condition established after study to be chiefly responsible for occasioning the admission of the individual. When more than one diagnosis is given for an individual in an outpatient setting, the reason for visit is the condition that is chiefly responsible for the ambulatory care medical services received during the visit. In most cases, the principal diagnosis or the reason for visit is also the main focus of attention or treatment. It is often dif- ficult (and somewhat arbitrary) to determine which diagnosis is the principal diagnosis or the reason for visit, especially when, for exam- ple, a substance-related diagnosis such as alcohol use disorder is accompanied by a non-substance-related diagnosis such as schizo- phrenia. For example, it may be unclear which diagnosis should be considered “principal” for an individual hospitalized with both schizophrenia and alcohol use disorder, because each condition may have contributed equally to the need for admission and treatment. The principal diagnosis is indicated by listing it first, and the remain- ing disorders are listed in order of focus of attention and treatment. When the principal diagnosis or reason for visit is a mental disorder due to another medical condition (e.g., major neurocognitive disor- der due to Alzheimer’s disease, psychotic disorder due to malignant lung neoplasm), ICD coding rules require that the etiological medi- cal condition be listed first. In that case, the principal diagnosis or reason for visit would be the mental disorder due to the medical con- dition, the second listed diagnosis. In most cases, the disorder listed as the principal diagnosis or the reason for visit is followed by the qualifying phrase “(principal diagnosis)” or “(reason for visit).” Provisional Diagnosis The specifier “provisional” can be used when there is a strong pre- sumption that the full criteria will ultimately be met for a disorder but not enough information is available to make a firm diagnosis. The clinician can indicate the diagnostic uncertainty by recording “(pro- visional)” following the diagnosis. For example, this diagnosis might be used when an individual who appears to have a major depressive",
+  "gloss_vi": "9 and neglect, problems with adherence to treatment regimens, obesity, antisocial behavior, and malingering. principal diagnosis when more than one diagnosis for an individual is given in an inpa- tient setting, the prin...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "management"
+    ],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 9 and neglect, problems with adherence to treatment regimens, obesity, antisocial behavior, and malingering. Principal Diagnosis When more than one diagnosis for an individual is given in an inpa- tient setting, the principal diagnosis is the condition established after study to be chiefly responsible for occasioning the admission of the individual. When more than one diagnosis is given for an individual in an outpatient setting, the reason for visit is the condition that is chiefly responsible for the ambulatory care medical services received during the visit. In most cases, the principal diagnosis or the reason for visit is also the main focus of attention or treatment. It is often dif- ficult (and somewhat arbitrary) to determine which diagnosis is the principal diagnosis or the reason for visit, especially when, for exam- ple, a substance-related diagnosis such as alcohol use disorder is accompanied by a non-substance-related diagnosis such as schizo- phrenia. For example, it may be unclear which diagnosis should be considered “principal” for an individual hospitalized with both schizophrenia and alcohol use disorder, because each condition may have contributed equally to the need for admission and treatment. The principal diagnosis is indicated by listing it first, and the remain- ing disorders are listed in order of focus of attention and treatment. When the principal diagnosis or reason for visit is a mental disorder due to another medical condition (e.g., major neurocognitive disor- der due to Alzheimer’s disease, psychotic disorder due to malignant lung neoplasm), ICD coding rules require that the etiological medi- cal condition be listed first. In that case, the principal diagnosis or reason for visit would be the mental disorder due to the medical con- dition, the second listed diagnosis. In most cases, the disorder listed as the principal diagnosis or the reason for visit is followed by the qualifying phrase “(principal diagnosis)” or “(reason for visit).” Provisional Diagnosis The specifier “provisional” can be used when there is a strong pre- sumption that the full criteria will ultimately be met for a disorder but not enough information is available to make a firm diagnosis. The clinician can indicate the diagnostic uncertainty by recording “(pro- visional)” following the diagnosis. For example, this diagnosis might be used when an individual who appears to have a major depressive 9 and neglect, problems with adherence to treatment regimens, obesity, antisocial behavior, and malingering. principal diagnosis when more than one diagnosis for an individual is given in an inpa- tient setting, the prin..."
+}

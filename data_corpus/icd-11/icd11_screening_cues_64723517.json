@@ -1,0 +1,37 @@
+{
+  "id": "icd11#screening_cues_64723517",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "640 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6E20 Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, without psychotic symptoms Essential (required) features • Onset of a syndrome involving significant mental and behavioural features occurring during pregnancy or the puerperium (i.e. up to about 6 weeks following delivery) is required for diagnosis. • The syndrome does not include delusions, hallucinations or other psychotic symptoms. • The symptoms are not a manifestation of another medical condition (e.g. a brain tumour), and are not due to the effects of a substance or medication on the central nervous system (e.g. benzodiazepines), including withdrawal effects (e.g. from stimulants). • The disturbance results in significant impairment in personal, family, social, educational, occupational or other important areas of functioning. If functioning is maintained, it is only through significant additional effort. Note: if the symptoms meet the diagnostic requirements for a specific mental disorder (e.g. a mood disorder, an anxiety or fear-related disorder, obsessive-compulsive disorder, adjustment disorder), that diagnosis should also be assigned. If the symptoms do not meet the diagnostic requirements for a specific mental disorder, the presentation can be described using codes from the section on mental or behavioural symptoms, signs or clinical findings (p. 677). Additional clinical features • This diagnosis may be assigned regardless of whether biological factors related pregnancy, childbirth or the puerperium are known to be etiologically related to the syndrome. • Common presentations of mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, without psychotic symptoms, include the following. Depressive symptoms These may include depressed mood, excessive crying; difficulty bonding with the baby; withdrawing from family and friends; loss of appetite or eating much more than usual; inability to sleep (insomnia) or sleeping too much; overwhelming fatigue or loss of energy; reduced interest and pleasure in usually enjoyable activities, intense irritability and anger; fears of not being a good mother, feelings of worthlessness, shame, guilt or inadequacy; diminished ability to think clearly, concentrate or make decisions; thoughts of harming oneself or the baby. Anxiety symptoms These may include",
+  "gloss_vi": "640 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders 6e20 mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, without ...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "psychoeducation",
+      "do_not_do",
+      "caregiver"
+    ],
+    "life_topics": [
+      "sleep",
+      "stress",
+      "relationships",
+      "grief"
+    ],
+    "advice_section": [
+      "work_habits"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 640 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6E20 Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, without psychotic symptoms Essential (required) features • Onset of a syndrome involving significant mental and behavioural features occurring during pregnancy or the puerperium (i.e. up to about 6 weeks following delivery) is required for diagnosis. • The syndrome does not include delusions, hallucinations or other psychotic symptoms. • The symptoms are not a manifestation of another medical condition (e.g. a brain tumour), and are not due to the effects of a substance or medication on the central nervous system (e.g. benzodiazepines), including withdrawal effects (e.g. from stimulants). • The disturbance results in significant impairment in personal, family, social, educational, occupational or other important areas of functioning. If functioning is maintained, it is only through significant additional effort. Note: if the symptoms meet the diagnostic requirements for a specific mental disorder (e.g. a mood disorder, an anxiety or fear-related disorder, obsessive-compulsive disorder, adjustment disorder), that diagnosis should also be assigned. If the symptoms do not meet the diagnostic requirements for a specific mental disorder, the presentation can be described using codes from the section on mental or behavioural symptoms, signs or clinical findings (p. 677). Additional clinical features • This diagnosis may be assigned regardless of whether biological factors related pregnancy, childbirth or the puerperium are known to be etiologically related to the syndrome. • Common presentations of mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, without psychotic symptoms, include the following. Depressive symptoms These may include depressed mood, excessive crying; difficulty bonding with the baby; withdrawing from family and friends; loss of appetite or eating much more than usual; inability to sleep (insomnia) or sleeping too much; overwhelming fatigue or loss of energy; reduced interest and pleasure in usually enjoyable activities, intense irritability and anger; fears of not being a good mother, feelings of worthlessness, shame, guilt or inadequacy; diminished ability to think clearly, concentrate or make decisions; thoughts of harming oneself or the baby. Anxiety symptoms These may include 640 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders 6e20 mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, without ..."
+}

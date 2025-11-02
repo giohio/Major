@@ -1,0 +1,27 @@
+{
+  "id": "everyday#screening_cues_50067ac2",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "70 Bipolar and Related Disorders Coding and Recording Procedures The diagnostic code for bipolar I disorder is based on type of current or most recent episode and its status with respect to current severity, presence of psychotic features, and remission status. Current severity and psychotic features are only indicated if full criteria are currently met for a manic or major depressive episode. Remission specifiers are only indicated if the full criteria are not currently met for a manic, hypo- manic, or major depressive episode. Codes are as follows: Current or Current or Current or Current or most recent most recent most recent most recent Bipolar I episode episode episode episode disorder manic hypomanic* depressed unspecified** Mild 296.41 NA 296.51 NA (p. 92) (F31.11) (F31.31) Moderate 296.42 NA 296.52 NA (p. 92) (F31.12) (F31.32) Severe 296.43 NA 296.53 NA (p. 92) (F31.13) (F31.4) With 296.44 NA 296.54 NA psychotic (F31.2) (F31.5) features*** (pp. 88–89) In partial 296.45 296.45 296.55 NA remission (F31.73) (F31.71) (F31.75) (p. 92) In full 296.46 296.46 296.56 NA remission (F31.74) (F31.72) (F31.76) (p. 92) Unspeci- 296.40 296.40 296.50 NA fied (F31.9) (F31.9) (F31.9) *Severity and psychotic specifiers do not apply; code 296.40 (F31.0) for cases not in remission. **Severity, psychotic, and remission specifiers do not apply. Code 296.7 (F31.9). ***If psychotic features are present, code the “with psychotic features” specifier irrespective of episode severity. Bipolar",
+  "gloss_vi": "70 bipolar and related disorders coding and recording procedures the diagnostic code for bipolar i disorder is based on type of current or most recent episode and its status with respect to current severity, presence of ...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 70 Bipolar and Related Disorders Coding and Recording Procedures The diagnostic code for bipolar I disorder is based on type of current or most recent episode and its status with respect to current severity, presence of psychotic features, and remission status. Current severity and psychotic features are only indicated if full criteria are currently met for a manic or major depressive episode. Remission specifiers are only indicated if the full criteria are not currently met for a manic, hypo- manic, or major depressive episode. Codes are as follows: Current or Current or Current or Current or most recent most recent most recent most recent Bipolar I episode episode episode episode disorder manic hypomanic* depressed unspecified** Mild 296.41 NA 296.51 NA (p. 92) (F31.11) (F31.31) Moderate 296.42 NA 296.52 NA (p. 92) (F31.12) (F31.32) Severe 296.43 NA 296.53 NA (p. 92) (F31.13) (F31.4) With 296.44 NA 296.54 NA psychotic (F31.2) (F31.5) features*** (pp. 88–89) In partial 296.45 296.45 296.55 NA remission (F31.73) (F31.71) (F31.75) (p. 92) In full 296.46 296.46 296.56 NA remission (F31.74) (F31.72) (F31.76) (p. 92) Unspeci- 296.40 296.40 296.50 NA fied (F31.9) (F31.9) (F31.9) *Severity and psychotic specifiers do not apply; code 296.40 (F31.0) for cases not in remission. **Severity, psychotic, and remission specifiers do not apply. Code 296.7 (F31.9). ***If psychotic features are present, code the “with psychotic features” specifier irrespective of episode severity. Bipolar 70 bipolar and related disorders coding and recording procedures the diagnostic code for bipolar i disorder is based on type of current or most recent episode and its status with respect to current severity, presence of ..."
+}

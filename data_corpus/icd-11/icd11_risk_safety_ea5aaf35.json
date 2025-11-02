@@ -1,0 +1,29 @@
+{
+  "id": "icd11#risk_safety_ea5aaf35",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "encephalitis • Infectious diseases • Typhoid fever • Infectious mononucleosis • Paediatric autoimmune neuropsychiatric disorders associated with streptococcal infections (PANDAS) • HIV/AIDS Catatonia | Secondary catatonia syndrome Catatonia 207 • Genetic conditions • Prader-Willi syndrome • Fatal familial insomnia • Tay-Sachs disease • Wilson disease • Metabolic conditions • Hypercalcaemia from a parathyroid adenoma • Hepatic encephalopathy • Homocystinuria • Diabetic ketoacidosis • Acute intermittent porphyria • Membranous glomerulonephritis • Hyponatraemia • Hypo- and hyperthyroidism • Hypo- and hyperadrenalism • Nutritional deficiencies • Pellagra • Nicotinic acid deficiency • Wernicke’s encephalopathy (thiamine deficiency) • Vitamin B deficiency 12 6A4Z Catatonia, unspecified Developmental presentations for catatonia (all types) • Catatonia may occur throughout the entire lifespan, but rarely develops before adolescence. However, severe cases in children aged 8–11 years have been reported. • Early onset of catatonia (before age 20) is associated with underlying medical conditions, particularly diseases of the nervous system, or neurodevelopmental disorders (e.g. autism spectrum disorder). • Secondary catatonia syndrome or catatonia induced by substances or medications is more likely to occur after age 40; risk increases considerably after age 65. • In medically ill adults, the prevalence of secondary catatonia syndrome increases with age and is strongly associated with co-occurring delirium or coma. Catatonia | Catatonia, unspecified",
+  "gloss_vi": "Encephalitis • infectious diseases • typhoid fever • infectious mononucleosis • paediatric autoimmune neuropsychiatric disorders associated with streptococcal infections (pandas) • hiv/aids catatonia | secondary catatoni...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety"
+    ],
+    "life_topics": [
+      "sleep"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn encephalitis • Infectious diseases • Typhoid fever • Infectious mononucleosis • Paediatric autoimmune neuropsychiatric disorders associated with streptococcal infections (PANDAS) • HIV/AIDS Catatonia | Secondary catatonia syndrome Catatonia 207 • Genetic conditions • Prader-Willi syndrome • Fatal familial insomnia • Tay-Sachs disease • Wilson disease • Metabolic conditions • Hypercalcaemia from a parathyroid adenoma • Hepatic encephalopathy • Homocystinuria • Diabetic ketoacidosis • Acute intermittent porphyria • Membranous glomerulonephritis • Hyponatraemia • Hypo- and hyperthyroidism • Hypo- and hyperadrenalism • Nutritional deficiencies • Pellagra • Nicotinic acid deficiency • Wernicke’s encephalopathy (thiamine deficiency) • Vitamin B deficiency 12 6A4Z Catatonia, unspecified Developmental presentations for catatonia (all types) • Catatonia may occur throughout the entire lifespan, but rarely develops before adolescence. However, severe cases in children aged 8–11 years have been reported. • Early onset of catatonia (before age 20) is associated with underlying medical conditions, particularly diseases of the nervous system, or neurodevelopmental disorders (e.g. autism spectrum disorder). • Secondary catatonia syndrome or catatonia induced by substances or medications is more likely to occur after age 40; risk increases considerably after age 65. • In medically ill adults, the prevalence of secondary catatonia syndrome increases with age and is strongly associated with co-occurring delirium or coma. Catatonia | Catatonia, unspecified Encephalitis • infectious diseases • typhoid fever • infectious mononucleosis • paediatric autoimmune neuropsychiatric disorders associated with streptococcal infections (pandas) • hiv/aids catatonia | secondary catatoni..."
+}

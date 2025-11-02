@@ -1,0 +1,26 @@
+{
+  "id": "everyday#screening_cues_f67a6199",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "56 Schizophrenia Spectrum and Other Psychotic Disorders same class of substance. If a mild substance use disorder is comor- bid with the substance-induced psychotic disorder, the 4th position character is “1,” and the clinician should record “mild [substance] use disorder” before the substance-induced psychotic disorder (e.g., “mild cocaine use disorder with cocaine-induced psychotic disorder”). If a moderate or severe substance use disorder is comorbid with the substance-induced psychotic disorder, the 4th position character is “2,” and the clinician should record “moderate [substance] use disor- der” or “severe [substance] use disorder” depending on the severity of the comorbid substance use disorder. If there is no comorbid sub- stance use disorder (e.g., after a one-time heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the substance-induced psychotic disorder. ICD-10-CM With use With use disorder, Without disorder, moderate use ICD-9-CM mild or severe disorder Alcohol 291.9 F10.159 F10.259 F10.959 Cannabis 292.9 F12.159 F12.259 F12.959 Phencyclidine 292.9 F16.159 F16.259 F16.959 Other hallucinogen 292.9 F16.159 F16.259 F16.959 Inhalant 292.9 F18.159 F18.259 F18.959 Sedative, hypnotic, or 292.9 F13.159 F13.259 F13.959 anxiolytic Amphetamine 292.9 F15.159 F15.259 F15.959 (or other stimulant) Cocaine 292.9 F14.159 F14.259 F14.959 Other (or unknown) 292.9 F19.159 F19.259 F19.959 substance Substance/Medication-Induced Psychotic Disorder 57 Specify if (see Table 1 in the chapter “Substance-Related and Addic- tive Disorders” for diagnoses associated with substance class): With onset during intoxication: If the criteria are met for intox- ication with the substance and the symptoms develop during in- toxication. With onset during withdrawal: If the criteria are met for",
+  "gloss_vi": "56 schizophrenia spectrum and other psychotic disorders same class of substance. if a mild substance use disorder is comor- bid with the substance-induced psychotic disorder, the 4th position character is “1,” and the cl...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 56 Schizophrenia Spectrum and Other Psychotic Disorders same class of substance. If a mild substance use disorder is comor- bid with the substance-induced psychotic disorder, the 4th position character is “1,” and the clinician should record “mild [substance] use disorder” before the substance-induced psychotic disorder (e.g., “mild cocaine use disorder with cocaine-induced psychotic disorder”). If a moderate or severe substance use disorder is comorbid with the substance-induced psychotic disorder, the 4th position character is “2,” and the clinician should record “moderate [substance] use disor- der” or “severe [substance] use disorder” depending on the severity of the comorbid substance use disorder. If there is no comorbid sub- stance use disorder (e.g., after a one-time heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the substance-induced psychotic disorder. ICD-10-CM With use With use disorder, Without disorder, moderate use ICD-9-CM mild or severe disorder Alcohol 291.9 F10.159 F10.259 F10.959 Cannabis 292.9 F12.159 F12.259 F12.959 Phencyclidine 292.9 F16.159 F16.259 F16.959 Other hallucinogen 292.9 F16.159 F16.259 F16.959 Inhalant 292.9 F18.159 F18.259 F18.959 Sedative, hypnotic, or 292.9 F13.159 F13.259 F13.959 anxiolytic Amphetamine 292.9 F15.159 F15.259 F15.959 (or other stimulant) Cocaine 292.9 F14.159 F14.259 F14.959 Other (or unknown) 292.9 F19.159 F19.259 F19.959 substance Substance/Medication-Induced Psychotic Disorder 57 Specify if (see Table 1 in the chapter “Substance-Related and Addic- tive Disorders” for diagnoses associated with substance class): With onset during intoxication: If the criteria are met for intox- ication with the substance and the symptoms develop during in- toxication. With onset during withdrawal: If the criteria are met for 56 schizophrenia spectrum and other psychotic disorders same class of substance. if a mild substance use disorder is comor- bid with the substance-induced psychotic disorder, the 4th position character is “1,” and the cl..."
+}

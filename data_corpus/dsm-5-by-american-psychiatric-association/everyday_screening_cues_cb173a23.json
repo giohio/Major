@@ -1,0 +1,32 @@
+{
+  "id": "everyday#screening_cues_cb173a23",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "eating disturbance ex- ceeds that routinely associated with the condition or disorder and warrants additional clinical attention. Specify if: In remission: After full criteria for avoidant/restrictive food intake disorder were previously met, the criteria have not been met for a sustained period of time. Anorexia Nervosa A. Restriction of energy intake relative to requirements, leading to a significantly low body weight in the context of age, sex, devel- opmental trajectory, and physical health. Significantly low weight is defined as a weight that is less than minimally normal or, for chil- dren and adolescents, less than that minimally expected. B. Intense fear of gaining weight or of becoming fat, or persistent behavior that interferes with weight gain, even though at a signif- icantly low weight. C. Disturbance in the way in which one’s body weight or shape is experienced, undue influence of body weight or shape on self- evaluation, or persistent lack of recognition of the seriousness of the current low body weight. Coding note: The ICD-9-CM code for anorexia nervosa is 307.1, which is assigned regardless of the subtype. The ICD-10-CM code depends on the subtype (see below). Specify whether: (F50.01) Restricting type: During the last 3 months, the individ- ual has not engaged in recurrent episodes of binge eating or purging behavior (i.e., self-induced vomiting or the misuse of lax- atives, diuretics, or enemas). This subtype describes presenta- tions in which weight loss is accomplished primarily through dieting, fasting, and/or excessive exercise. (F50.02) Binge-eating/purging type: During the last 3 months, the individual has engaged in recurrent episodes of binge eating or purging behavior (i.e., self-induced vomiting or the misuse of laxatives, diuretics, or enemas).",
+  "gloss_vi": "Eating disturbance ex- ceeds that routinely associated with the condition or disorder and warrants additional clinical attention. specify if: in remission: after full criteria for avoidant/restrictive food intake disorde...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "grief"
+    ],
+    "advice_section": [
+      "work_habits"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc eating disturbance ex- ceeds that routinely associated with the condition or disorder and warrants additional clinical attention. Specify if: In remission: After full criteria for avoidant/restrictive food intake disorder were previously met, the criteria have not been met for a sustained period of time. Anorexia Nervosa A. Restriction of energy intake relative to requirements, leading to a significantly low body weight in the context of age, sex, devel- opmental trajectory, and physical health. Significantly low weight is defined as a weight that is less than minimally normal or, for chil- dren and adolescents, less than that minimally expected. B. Intense fear of gaining weight or of becoming fat, or persistent behavior that interferes with weight gain, even though at a signif- icantly low weight. C. Disturbance in the way in which one’s body weight or shape is experienced, undue influence of body weight or shape on self- evaluation, or persistent lack of recognition of the seriousness of the current low body weight. Coding note: The ICD-9-CM code for anorexia nervosa is 307.1, which is assigned regardless of the subtype. The ICD-10-CM code depends on the subtype (see below). Specify whether: (F50.01) Restricting type: During the last 3 months, the individ- ual has not engaged in recurrent episodes of binge eating or purging behavior (i.e., self-induced vomiting or the misuse of lax- atives, diuretics, or enemas). This subtype describes presenta- tions in which weight loss is accomplished primarily through dieting, fasting, and/or excessive exercise. (F50.02) Binge-eating/purging type: During the last 3 months, the individual has engaged in recurrent episodes of binge eating or purging behavior (i.e., self-induced vomiting or the misuse of laxatives, diuretics, or enemas). Eating disturbance ex- ceeds that routinely associated with the condition or disorder and warrants additional clinical attention. specify if: in remission: after full criteria for avoidant/restrictive food intake disorde..."
+}

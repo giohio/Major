@@ -1,0 +1,26 @@
+{
+  "id": "everyday#screening_cues_ebb87152",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "296.26 (F32.5) In full remission 296.20 (F32.9) Unspecified xvi DSM-5 Classification ___.__ (___.__) Recurrent episode 296.31 (F33.0) Mild 296.32 (F33.1) Moderate 296.33 (F33.2) Severe 296.34 (F33.3) With psychotic features 296.35 (F33.41) In partial remission 296.36 (F33.42) In full remission 296.30 (F33.9) Unspecified 300.4 (F34.1) Persistent Depressive Disorder (Dysthymia)a (97) Specify if: In partial remission, In full remission Specify if: Early onset, Late onset Specify if: With pure dysthymic syndrome; With persistent major depressive episode; With inter- mittent major depressive episodes, with current episode; With intermittent major depressive ep- isodes, without current episode Specify current severity: Mild, Moderate, Severe 625.4 (N94.3) Premenstrual Dysphoric Disorder (100) ___.__ (___.__) Substance/Medication-Induced Depressive Disorder (101) Note: See the criteria set and corresponding record- ing procedures for substance-specific codes and ICD-9-CM and ICD-10-CM coding. Specify if: With onset during intoxication, With on- set during withdrawal 293.83 (___.__) Depressive Disorder Due to Another Medical Condition (105) Specify if: (F06.31) With depressive features (F06.32) With major depressive-like episode (F06.34) With mixed features 311 (F32.8) Other Specified Depressive Disorder (106) 311 (F32.9) Unspecified Depressive Disorder (107)",
+  "gloss_vi": "296.26 (f32.5) in full remission 296.20 (f32.9) unspecified xvi dsm-5 classification ___.__ (___.__) recurrent episode 296.31 (f33.0) mild 296.32 (f33.1) moderate 296.33 (f33.2) severe 296.34 (f33.3) with psychotic featu...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 296.26 (F32.5) In full remission 296.20 (F32.9) Unspecified xvi DSM-5 Classification ___.__ (___.__) Recurrent episode 296.31 (F33.0) Mild 296.32 (F33.1) Moderate 296.33 (F33.2) Severe 296.34 (F33.3) With psychotic features 296.35 (F33.41) In partial remission 296.36 (F33.42) In full remission 296.30 (F33.9) Unspecified 300.4 (F34.1) Persistent Depressive Disorder (Dysthymia)a (97) Specify if: In partial remission, In full remission Specify if: Early onset, Late onset Specify if: With pure dysthymic syndrome; With persistent major depressive episode; With inter- mittent major depressive episodes, with current episode; With intermittent major depressive ep- isodes, without current episode Specify current severity: Mild, Moderate, Severe 625.4 (N94.3) Premenstrual Dysphoric Disorder (100) ___.__ (___.__) Substance/Medication-Induced Depressive Disorder (101) Note: See the criteria set and corresponding record- ing procedures for substance-specific codes and ICD-9-CM and ICD-10-CM coding. Specify if: With onset during intoxication, With on- set during withdrawal 293.83 (___.__) Depressive Disorder Due to Another Medical Condition (105) Specify if: (F06.31) With depressive features (F06.32) With major depressive-like episode (F06.34) With mixed features 311 (F32.8) Other Specified Depressive Disorder (106) 311 (F32.9) Unspecified Depressive Disorder (107) 296.26 (f32.5) in full remission 296.20 (f32.9) unspecified xvi dsm-5 classification ___.__ (___.__) recurrent episode 296.31 (f33.0) mild 296.32 (f33.1) moderate 296.33 (f33.2) severe 296.34 (f33.3) with psychotic featu..."
+}

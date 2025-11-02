@@ -1,0 +1,32 @@
+{
+  "id": "icd11#screening_cues_7a48848a",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "Psychological or behavioural factors affecting disorders and diseases classified elsewhere 649 manifestations, course or treatment of the medical condition. In cases where the excessive attention paid to the bodily symptoms does adversely affect the medical condition (e.g. repeated contact with medical professionals that result in medically unwarranted investigative procedures that have made the medical condition worse), both diagnoses may be assigned if it is clinically useful to do so. Boundary with secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere In secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere, a medical condition is judged to be causing mental or behavioural symptoms through a direct physiological mechanism. In contrast, in psychological or behavioural factors affecting disorders and diseases classified elsewhere, the psychological or behavioural factors are judged to affect the manifestations, course or treatment of the medical condition. In both cases, there is a temporal relationship between the psychological and behavioural manifestations and the medical condition, but the presumed causal relationship is in the opposite direction in each. Boundary with other co-occurring mental disorders and medical conditions Whereas co-occurrence of a mental, behavioural or neurodevelopmental disorder and a medical condition may have an impact on the management of the medical condition (e.g. medications used in the treatment of the mental disorder interacting with medications used to treat the",
+  "gloss_vi": "Psychological or behavioural factors affecting disorders and diseases classified elsewhere 649 manifestations, course or treatment of the medical condition. in cases where the excessive attention paid to the bodily sympt...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "management"
+    ],
+    "life_topics": [
+      "relationships"
+    ],
+    "advice_section": [
+      "communication_tips"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc Psychological or behavioural factors affecting disorders and diseases classified elsewhere 649 manifestations, course or treatment of the medical condition. In cases where the excessive attention paid to the bodily symptoms does adversely affect the medical condition (e.g. repeated contact with medical professionals that result in medically unwarranted investigative procedures that have made the medical condition worse), both diagnoses may be assigned if it is clinically useful to do so. Boundary with secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere In secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere, a medical condition is judged to be causing mental or behavioural symptoms through a direct physiological mechanism. In contrast, in psychological or behavioural factors affecting disorders and diseases classified elsewhere, the psychological or behavioural factors are judged to affect the manifestations, course or treatment of the medical condition. In both cases, there is a temporal relationship between the psychological and behavioural manifestations and the medical condition, but the presumed causal relationship is in the opposite direction in each. Boundary with other co-occurring mental disorders and medical conditions Whereas co-occurrence of a mental, behavioural or neurodevelopmental disorder and a medical condition may have an impact on the management of the medical condition (e.g. medications used in the treatment of the mental disorder interacting with medications used to treat the Psychological or behavioural factors affecting disorders and diseases classified elsewhere 649 manifestations, course or treatment of the medical condition. in cases where the excessive attention paid to the bodily sympt..."
+}

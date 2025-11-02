@@ -1,0 +1,32 @@
+{
+  "id": "everyday#screening_cues_6a1aa04e",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "be causing the sleep disturbance. The diagnostic code is selected from the table included in the criteria set, which is based on the drug class and presence or absence of a comorbid sub- stance use disorder. For substances that do not fit into any of the classes (e.g., bupropion), the code for “other substance” should be used; and in cases in which a substance is judged to be an etiological factor but the specific class of substance is unknown, the category “un- known substance” should be used. When recording the name of the disorder, the comorbid sub- stance use disorder (if any) is listed first, followed by the word “with,” followed by the name of the substance-induced sleep disor- der, followed by the specification of onset (i.e., onset during intoxi- cation, onset during discontinuation/withdrawal), followed by the subtype designation (i.e., insomnia type, daytime sleepiness type, parasomnia type, mixed type). For example, in the case of insomnia occurring during withdrawal in a man with a severe lorazepam use disorder, the diagnosis is F13.282 severe lorazepam use disorder with lorazepam-induced sleep disorder, with onset during withdrawal, insomnia type. A separate diagnosis of the comorbid severe loraze- pam use disorder is not given. If the substance-induced sleep disor- der occurs without a comorbid substance use disorder (e.g., with medication use), no accompanying substance use disorder is noted (e.g., F19.982 bupropion-induced sleep disorder, with onset during medication use, insomnia type). When more than one substance is judged to play a significant role in the development of the sleep dis- turbance, each should be listed separately (e.g., F10.282 severe alco- hol use disorder with alcohol-induced sleep disorder, with onset during intoxication, insomnia type; F14.282 severe cocaine use disor- der with cocaine-induced sleep disorder, with onset during intoxica- tion, insomnia type). Other Specified Insomnia Disorder 780.52 (G47.09) This category applies to presentations in which symptoms character- istic of insomnia disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of func- tioning predominate but do not meet the full criteria for insomnia dis-",
+  "gloss_vi": "Be causing the giấc ngủ disturbance. the diagnostic code is selected from the table included in the criteria set, which is based on the drug class and presence or absence of a comorbid sub- stance use disorder.",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "sleep",
+      "stress",
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc be causing the sleep disturbance. The diagnostic code is selected from the table included in the criteria set, which is based on the drug class and presence or absence of a comorbid sub- stance use disorder. For substances that do not fit into any of the classes (e.g., bupropion), the code for “other substance” should be used; and in cases in which a substance is judged to be an etiological factor but the specific class of substance is unknown, the category “un- known substance” should be used. When recording the name of the disorder, the comorbid sub- stance use disorder (if any) is listed first, followed by the word “with,” followed by the name of the substance-induced sleep disor- der, followed by the specification of onset (i.e., onset during intoxi- cation, onset during discontinuation/withdrawal), followed by the subtype designation (i.e., insomnia type, daytime sleepiness type, parasomnia type, mixed type). For example, in the case of insomnia occurring during withdrawal in a man with a severe lorazepam use disorder, the diagnosis is F13.282 severe lorazepam use disorder with lorazepam-induced sleep disorder, with onset during withdrawal, insomnia type. A separate diagnosis of the comorbid severe loraze- pam use disorder is not given. If the substance-induced sleep disor- der occurs without a comorbid substance use disorder (e.g., with medication use), no accompanying substance use disorder is noted (e.g., F19.982 bupropion-induced sleep disorder, with onset during medication use, insomnia type). When more than one substance is judged to play a significant role in the development of the sleep dis- turbance, each should be listed separately (e.g., F10.282 severe alco- hol use disorder with alcohol-induced sleep disorder, with onset during intoxication, insomnia type; F14.282 severe cocaine use disor- der with cocaine-induced sleep disorder, with onset during intoxica- tion, insomnia type). Other Specified Insomnia Disorder 780.52 (G47.09) This category applies to presentations in which symptoms character- istic of insomnia disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of func- tioning predominate but do not meet the full criteria for insomnia dis- Be causing the giấc ngủ disturbance. the diagnostic code is selected from the table included in the criteria set, which is based on the drug class and presence or absence of a comorbid sub- stance use disorder."
+}

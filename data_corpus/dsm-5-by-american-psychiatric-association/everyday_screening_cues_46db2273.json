@@ -1,0 +1,30 @@
+{
+  "id": "everyday#screening_cues_46db2273",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "in cases in which a substance is judged to be an etiological factor but the specific class of substance is unknown, the category “unknown sub- stance” should be used. Major or Mild Neurocognitive Disorder Due to HIV Infection 315 When recording the name of the disorder, the comorbid substance use disorder (if any) is listed first, followed by the word “with,” fol- lowed by the name of the disorder (i.e., [specific substance]-induced major neurocognitive disorder or [specific substance]-induced mild neurocognitive disorder), followed by the type in the case of alcohol (i.e., nonamnestic-confabulatory type, amnestic-confabulatory type), followed by specification of duration (i.e., persistent). For example, in the case of persistent amnestic-confabulatory symptoms in a man with a severe alcohol use disorder, the diagnosis is F10.26 severe al- cohol use disorder with alcohol-induced major neurocognitive disor- der, amnestic-confabulatory type, persistent. A separate diagnosis of the comorbid severe alcohol use disorder is not given. If the substance- induced neurocognitive disorder occurs without a comorbid sub- stance use disorder (e.g., after a sporadic heavy use of inhalants), no accompanying substance use disorder is noted (e.g., F18.988 inhal- ant-induced mild neurocognitive disorder). Major or Mild Neurocognitive Disorder Due to HIV Infection A. The criteria are met for major or mild neurocognitive disorder. B. There is documented infection with human immunodeficiency vi- rus (HIV). C. The neurocognitive disorder is not better explained by non-HIV conditions, including secondary brain diseases such as progres- sive multifocal leukoencephalopathy or cryptococcal meningitis. D. The neurocognitive disorder is not attributable to another medi- cal condition and is not better explained by a mental disorder. Coding note: For major neurocognitive disorder due to HIV infection, with behavioral disturbance, code first 042 (B20) HIV infection, fol- lowed by 294.11 (F02.81) major neurocognitive disorder due to HIV in- fection, with behavioral disturbance. For major neurocognitive disorder due to HIV infection, without behavioral disturbance, code first 042 (B20) HIV infection, followed by 294.10 (F02.80) major neurocognitive disorder due to HIV infection, without behavioral disturbance.",
+  "gloss_vi": "In cases in which a substance is judged to be an etiological factor but the specific class of substance is unknown, the category “unknown sub- stance” should be used. major or mild neurocognitive disorder due to hiv infe...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "management"
+    ],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc in cases in which a substance is judged to be an etiological factor but the specific class of substance is unknown, the category “unknown sub- stance” should be used. Major or Mild Neurocognitive Disorder Due to HIV Infection 315 When recording the name of the disorder, the comorbid substance use disorder (if any) is listed first, followed by the word “with,” fol- lowed by the name of the disorder (i.e., [specific substance]-induced major neurocognitive disorder or [specific substance]-induced mild neurocognitive disorder), followed by the type in the case of alcohol (i.e., nonamnestic-confabulatory type, amnestic-confabulatory type), followed by specification of duration (i.e., persistent). For example, in the case of persistent amnestic-confabulatory symptoms in a man with a severe alcohol use disorder, the diagnosis is F10.26 severe al- cohol use disorder with alcohol-induced major neurocognitive disor- der, amnestic-confabulatory type, persistent. A separate diagnosis of the comorbid severe alcohol use disorder is not given. If the substance- induced neurocognitive disorder occurs without a comorbid sub- stance use disorder (e.g., after a sporadic heavy use of inhalants), no accompanying substance use disorder is noted (e.g., F18.988 inhal- ant-induced mild neurocognitive disorder). Major or Mild Neurocognitive Disorder Due to HIV Infection A. The criteria are met for major or mild neurocognitive disorder. B. There is documented infection with human immunodeficiency vi- rus (HIV). C. The neurocognitive disorder is not better explained by non-HIV conditions, including secondary brain diseases such as progres- sive multifocal leukoencephalopathy or cryptococcal meningitis. D. The neurocognitive disorder is not attributable to another medi- cal condition and is not better explained by a mental disorder. Coding note: For major neurocognitive disorder due to HIV infection, with behavioral disturbance, code first 042 (B20) HIV infection, fol- lowed by 294.11 (F02.81) major neurocognitive disorder due to HIV in- fection, with behavioral disturbance. For major neurocognitive disorder due to HIV infection, without behavioral disturbance, code first 042 (B20) HIV infection, followed by 294.10 (F02.80) major neurocognitive disorder due to HIV infection, without behavioral disturbance. In cases in which a substance is judged to be an etiological factor but the specific class of substance is unknown, the category “unknown sub- stance” should be used. major or mild neurocognitive disorder due to hiv infe..."
+}

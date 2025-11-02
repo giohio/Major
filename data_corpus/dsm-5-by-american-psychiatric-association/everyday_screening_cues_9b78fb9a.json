@@ -1,0 +1,30 @@
+{
+  "id": "everyday#screening_cues_9b78fb9a",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "severe Substance-Related and Addictive Disorders 231 state of chronically relapsing, compulsive drug taking. Some clini- cians will choose to use the word addiction to describe more extreme presentations, but the word is omitted from the official DSM-5 sub- stance use disorder diagnostic terminology because of its uncertain definition and its potentially negative connotation. Substance-Induced Disorders Recording Procedures for Intoxication and Withdrawal The clinician should use the code that applies to the class of substances but record the name of the specific substance. For example, the clinician should record 292.0 (F13.239) secobarbital withdrawal (rather than sedative, hypnotic, or anxiolytic withdrawal) or 292.89 (F15.129) meth- amphetamine intoxication (rather than stimulant intoxication). Note that the appropriate ICD-10-CM diagnostic code for intoxication de- pends on whether there is a comorbid substance use disorder. In this case, the F15.129 code for methamphetamine indicates the presence of a comorbid mild methamphetamine use disorder. If there had been no comorbid methamphetamine use disorder, the diagnostic code would have been F15.929. ICD-10-CM coding rules require that all with- drawal codes imply a comorbid moderate to severe substance use dis- order for that substance. In the above case, the code for secobarbital withdrawal (F13.239) indicates the comorbid presence of a moderate to severe secobarbital use disorder. See the coding note for the sub- stance-specific intoxication and withdrawal syndromes for the actual coding options. For substances that do not fit into any of the classes (e.g., anabolic steroids), the appropriate code for “other substance intoxication” should be used and the specific substance indicated (e.g., 292.89 [F19.929] anabolic steroid intoxication). If the substance taken by the individual is unknown, the code for the class “other (or unknown)” should be used (e.g., 292.89 [F19.929] unknown substance intoxica- tion). If there are symptoms or problems associated with a particular substance but criteria are not met for any of the substance-specific disorders, the unspecified category can be used (e.g., 292.9 [F12.99] unspecified cannabis-related disorder).",
+  "gloss_vi": "Severe substance-related and addictive disorders 231 state of chronically relapsing, compulsive drug taking. some clini- cians will choose to use the word addiction to describe more extreme presentations, but the word is...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc severe Substance-Related and Addictive Disorders 231 state of chronically relapsing, compulsive drug taking. Some clini- cians will choose to use the word addiction to describe more extreme presentations, but the word is omitted from the official DSM-5 sub- stance use disorder diagnostic terminology because of its uncertain definition and its potentially negative connotation. Substance-Induced Disorders Recording Procedures for Intoxication and Withdrawal The clinician should use the code that applies to the class of substances but record the name of the specific substance. For example, the clinician should record 292.0 (F13.239) secobarbital withdrawal (rather than sedative, hypnotic, or anxiolytic withdrawal) or 292.89 (F15.129) meth- amphetamine intoxication (rather than stimulant intoxication). Note that the appropriate ICD-10-CM diagnostic code for intoxication de- pends on whether there is a comorbid substance use disorder. In this case, the F15.129 code for methamphetamine indicates the presence of a comorbid mild methamphetamine use disorder. If there had been no comorbid methamphetamine use disorder, the diagnostic code would have been F15.929. ICD-10-CM coding rules require that all with- drawal codes imply a comorbid moderate to severe substance use dis- order for that substance. In the above case, the code for secobarbital withdrawal (F13.239) indicates the comorbid presence of a moderate to severe secobarbital use disorder. See the coding note for the sub- stance-specific intoxication and withdrawal syndromes for the actual coding options. For substances that do not fit into any of the classes (e.g., anabolic steroids), the appropriate code for “other substance intoxication” should be used and the specific substance indicated (e.g., 292.89 [F19.929] anabolic steroid intoxication). If the substance taken by the individual is unknown, the code for the class “other (or unknown)” should be used (e.g., 292.89 [F19.929] unknown substance intoxica- tion). If there are symptoms or problems associated with a particular substance but criteria are not met for any of the substance-specific disorders, the unspecified category can be used (e.g., 292.9 [F12.99] unspecified cannabis-related disorder). Severe substance-related and addictive disorders 231 state of chronically relapsing, compulsive drug taking. some clini- cians will choose to use the word addiction to describe more extreme presentations, but the word is..."
+}

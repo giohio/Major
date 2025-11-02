@@ -1,0 +1,33 @@
+{
+  "id": "icd11#screening_cues_f5838860",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "symptoms of schizophrenia are present concurrently with mood symptoms that meet the full diagnostic requirements of a mood episode and last for at least 1 month, and the onsets of the psychotic and mood symptoms are either simultaneous or occur within a few days of one another. In schizophrenia, co-occurring mood symptoms, if any, either do not persist for as long as 1 month or are not of sufficient severity to meet the requirements of a moderate or severe depressive episode, a manic episode or a mixed episode. (See mood episode descriptions, p. 212.) An episode that initially meets the diagnostic requirements for schizoaffective disorder in which only the mood symptoms remit, so that the duration of psychotic symptoms without mood symptoms is much longer than the duration of concurrent symptoms, may be best characterized as an episode of schizophrenia. Boundary with mood episodes with psychotic symptoms Schizoaffective disorder, schizophrenia, moderate or severe depressive episodes, manic episodes and mixed episodes are all intended to describe the current episode of the disorder. In schizoaffective disorder, the duration and symptom requirements for schizophrenia are fully met during the mood episode. In a depressive disorder with psychotic symptoms or a bipolar type I disorder with psychotic symptoms, psychotic symptoms occur simultaneously with the mood episodes but do not meet the diagnostic requirements for schizophrenia (e.g. hallucinations without any other psychotic symptoms). It is possible for an individual to meet the diagnostic requirements for each during different periods. Boundary with acute and transient psychotic disorder In schizoaffective disorder, the psychotic symptoms persist for at least 1 month in their full, florid form. In contrast, in acute and transient psychotic disorder, the symptom requirements for schizophrenia or a depressive, manic or mixed episode are not met. Moreover, the symptoms in acute and transient psychotic disorder tend to fluctuate rapidly in intensity and type across time, such that the content and focus of delusions or hallucinations often shift, even on a daily basis. Negative symptoms may be present in schizoaffective disorder, but do not occur in acute transient psychotic disorder. The duration of acute and transient psychotic disorder does not exceed 3 months, and most often lasts from a few days to 1 month, compared to a much longer typical course for schizoaffective disorder. Schizophrenia and other primary psychotic disorders | Schizoaffective disorder",
+  "gloss_vi": "Symptoms of schizophrenia are present concurrently with mood symptoms that meet the full diagnostic requirements of a mood episode and last for at least 1 month, and the onsets of the psychotic and mood symptoms are eith...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "study",
+      "relationships"
+    ],
+    "advice_section": [
+      "communication_tips"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc symptoms of schizophrenia are present concurrently with mood symptoms that meet the full diagnostic requirements of a mood episode and last for at least 1 month, and the onsets of the psychotic and mood symptoms are either simultaneous or occur within a few days of one another. In schizophrenia, co-occurring mood symptoms, if any, either do not persist for as long as 1 month or are not of sufficient severity to meet the requirements of a moderate or severe depressive episode, a manic episode or a mixed episode. (See mood episode descriptions, p. 212.) An episode that initially meets the diagnostic requirements for schizoaffective disorder in which only the mood symptoms remit, so that the duration of psychotic symptoms without mood symptoms is much longer than the duration of concurrent symptoms, may be best characterized as an episode of schizophrenia. Boundary with mood episodes with psychotic symptoms Schizoaffective disorder, schizophrenia, moderate or severe depressive episodes, manic episodes and mixed episodes are all intended to describe the current episode of the disorder. In schizoaffective disorder, the duration and symptom requirements for schizophrenia are fully met during the mood episode. In a depressive disorder with psychotic symptoms or a bipolar type I disorder with psychotic symptoms, psychotic symptoms occur simultaneously with the mood episodes but do not meet the diagnostic requirements for schizophrenia (e.g. hallucinations without any other psychotic symptoms). It is possible for an individual to meet the diagnostic requirements for each during different periods. Boundary with acute and transient psychotic disorder In schizoaffective disorder, the psychotic symptoms persist for at least 1 month in their full, florid form. In contrast, in acute and transient psychotic disorder, the symptom requirements for schizophrenia or a depressive, manic or mixed episode are not met. Moreover, the symptoms in acute and transient psychotic disorder tend to fluctuate rapidly in intensity and type across time, such that the content and focus of delusions or hallucinations often shift, even on a daily basis. Negative symptoms may be present in schizoaffective disorder, but do not occur in acute transient psychotic disorder. The duration of acute and transient psychotic disorder does not exceed 3 months, and most often lasts from a few days to 1 month, compared to a much longer typical course for schizoaffective disorder. Schizophrenia and other primary psychotic disorders | Schizoaffective disorder Symptoms of schizophrenia are present concurrently with mood symptoms that meet the full diagnostic requirements of a mood episode and last for at least 1 month, and the onsets of the psychotic and mood symptoms are eith..."
+}

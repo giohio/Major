@@ -1,0 +1,35 @@
+{
+  "id": "icd11#risk_safety_89a62f89",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "Relationship problems and maltreatment 719 Boundaries with other disorders and conditions (differential diagnosis) Boundary with relationship distress with spouse or partner Intimate partner psychological abuse may be, but is not always, associated with relationship distress with spouse or partner. If all diagnostic requirements are met for both relationship distress with spouse or partner and maltreatment or history of spouse or partner violence, both may be assigned. PF1B / Assault by neglect or history of spouse or partner violence, QE51.13 neglect Essential (required) features • At least one egregious act or omission by an adult’s caregiver that deprives an intimate partner who is incapable of self-care of needed or adequate food, shelter, hygiene or necessary services is required for diagnosis. Examples of self-care incapacity include physical, psychological, intellectual and cultural (e.g. inability to manage activities of rudimentary daily living due to living in a foreign culture) limitations. • The act or omission causes significant physical injury or other significant negative consequences to health (e.g. development of an illness directly linked to the neglect, malnutrition) or reasonable potential for significant injury or negative consequences to health. Note: this category is assigned to the victim, not the perpetrator. If PF1B Assault by neglect is diagnosed, the perpetrator should be specified as a spouse or partner using the extension code XE454 (PF1B&XE454). On the ICD-11 platform, the option to specify the perpetrator–victim relationship appears in the context of the assault field. Depending on the specific situation, PB5B Unintentional neglect or PH7B Neglect with undetermined intent may be diagnosed rather than PF1B Assault by neglect. Additional clinical features • Neglect at a clinically significant level is associated with increased risk of various mental disorders (e.g. depressive disorders, anxiety and fear-related disorders, post-traumatic stress disorder), suicidality and various medical conditions (e.g. bed sores, malnutrition). Relationship problems and maltreatment | Relationship distress and current or past maltreatment by spouse or partner Relationship problems",
+  "gloss_vi": "Relationship problems and maltreatment 719 boundaries with other disorders and conditions (differential diagnosis) ranh giới with relationship distress with spouse or partner intimate partner psychological abuse may be, ...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "management",
+      "caregiver"
+    ],
+    "life_topics": [
+      "stress",
+      "study",
+      "relationships"
+    ],
+    "advice_section": [
+      "communication_tips"
+    ],
+    "audience": [],
+    "risk_band": "high"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn Relationship problems and maltreatment 719 Boundaries with other disorders and conditions (differential diagnosis) Boundary with relationship distress with spouse or partner Intimate partner psychological abuse may be, but is not always, associated with relationship distress with spouse or partner. If all diagnostic requirements are met for both relationship distress with spouse or partner and maltreatment or history of spouse or partner violence, both may be assigned. PF1B / Assault by neglect or history of spouse or partner violence, QE51.13 neglect Essential (required) features • At least one egregious act or omission by an adult’s caregiver that deprives an intimate partner who is incapable of self-care of needed or adequate food, shelter, hygiene or necessary services is required for diagnosis. Examples of self-care incapacity include physical, psychological, intellectual and cultural (e.g. inability to manage activities of rudimentary daily living due to living in a foreign culture) limitations. • The act or omission causes significant physical injury or other significant negative consequences to health (e.g. development of an illness directly linked to the neglect, malnutrition) or reasonable potential for significant injury or negative consequences to health. Note: this category is assigned to the victim, not the perpetrator. If PF1B Assault by neglect is diagnosed, the perpetrator should be specified as a spouse or partner using the extension code XE454 (PF1B&XE454). On the ICD-11 platform, the option to specify the perpetrator–victim relationship appears in the context of the assault field. Depending on the specific situation, PB5B Unintentional neglect or PH7B Neglect with undetermined intent may be diagnosed rather than PF1B Assault by neglect. Additional clinical features • Neglect at a clinically significant level is associated with increased risk of various mental disorders (e.g. depressive disorders, anxiety and fear-related disorders, post-traumatic stress disorder), suicidality and various medical conditions (e.g. bed sores, malnutrition). Relationship problems and maltreatment | Relationship distress and current or past maltreatment by spouse or partner Relationship problems Relationship problems and maltreatment 719 boundaries with other disorders and conditions (differential diagnosis) ranh giới with relationship distress with spouse or partner intimate partner psychological abuse may be, ..."
+}

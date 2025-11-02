@@ -1,0 +1,27 @@
+{
+  "id": "icd11#screening_cues_f39baead",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "requirements for dementia 618 Specific types of dementia 621 6D80 Dementia due to alzheimer disease 621 6D81 Dementia due to cerebrovascular disease 623 6D82 Dementia due to lewy body disease 624 6D83 Frontotemporal dementia 625 6D84 Dementia due to psychoactive substances, including medications 626 6D85 Dementia due to diseases classified elsewhere 626 6D8Y Dementia, other specified cause 633 6D8Z Dementia, unknown or unspecified cause 634 Specifier for dementia severity 634 Specifiers for behavioural or psychological disturbances in dementia 635 6E0Y Other specified neurocognitive disorder 637 6E0Z Neurocognitive disorder, unspecified 637 Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium 639 6E20 Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, without psychotic symptoms 640 6E21 Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, with psychotic symptoms 642 6E2Z Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, unspecified 643 Psychological or behavioural factors affecting disorders and diseases classified elsewhere 645 6E40 Psychological or behavioural factors affecting disorders and diseases classified elsewhere 645",
+  "gloss_vi": "Requirements for dementia 618 specific types of dementia 621 6d80 dementia due to alzheimer disease 621 6d81 dementia due to cerebrovascular disease 623 6d82 dementia due to lewy body disease 624 6d83 frontotemporal deme...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "management"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc requirements for dementia 618 Specific types of dementia 621 6D80 Dementia due to alzheimer disease 621 6D81 Dementia due to cerebrovascular disease 623 6D82 Dementia due to lewy body disease 624 6D83 Frontotemporal dementia 625 6D84 Dementia due to psychoactive substances, including medications 626 6D85 Dementia due to diseases classified elsewhere 626 6D8Y Dementia, other specified cause 633 6D8Z Dementia, unknown or unspecified cause 634 Specifier for dementia severity 634 Specifiers for behavioural or psychological disturbances in dementia 635 6E0Y Other specified neurocognitive disorder 637 6E0Z Neurocognitive disorder, unspecified 637 Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium 639 6E20 Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, without psychotic symptoms 640 6E21 Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, with psychotic symptoms 642 6E2Z Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, unspecified 643 Psychological or behavioural factors affecting disorders and diseases classified elsewhere 645 6E40 Psychological or behavioural factors affecting disorders and diseases classified elsewhere 645 Requirements for dementia 618 specific types of dementia 621 6d80 dementia due to alzheimer disease 621 6d81 dementia due to cerebrovascular disease 623 6d82 dementia due to lewy body disease 624 6d83 frontotemporal deme..."
+}

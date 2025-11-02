@@ -1,0 +1,30 @@
+{
+  "id": "icd11#screening_cues_8b1daffa",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "course of a disorder or disease classified in another chapter is required for diagnosis (e.g. overeating, lack of exercise). Psychological or behavioural factors affecting disorders and diseases classified elsewhere Psychological or behavioural factors affecting disorders and diseases classified elsewhere 647 6E40.4 Stress-related physiological response affecting disorders and diseases classified elsewhere • The presence of stress-related physiological responses that adversely affect the manifestation, treatment or course of a disorder or disease classified in another chapter is required for diagnosis (e.g. stress-related exacerbation of ulcer, hypertension, arrhythmia or tension headache). 6E40.Y Other specified psychological or behavioural factor affecting disorders and diseases classified elsewhere • The presence of other psychological or behavioural factors that adversely affect the manifestation, treatment or course of a disorder or disease classified in another chapter is required for diagnosis (e.g. interpersonal, cultural, or religious factors). 6E40.Z Psychological or behavioural factor affecting disorders and diseases classified elsewhere, unspecified Additional clinical features • The adverse effects can range from acute, with immediate medical consequences (e.g. anxiety precipitating a cardiac arrhythmia), to chronic, occurring over a long period of time (e.g. chronic occupational stress aggravating diabetes). The adverse effects may be time-limited, episodic, or chronic and persistent. The disorders or diseases potentially affected by psychological or behavioural factors include those with clear pathophysiology (e.g. hypertension, HIV infection, coronary disease), functional syndromes (e.g. chronic fatigue syndrome, irritable bowel syndrome, fibromyalgia) and idiopathic symptoms (e.g. dizziness, tinnitus). Developmental presentations • Psychological or behavioural factors affecting disorders and diseases classified elsewhere can occur across the lifespan. Particularly with young children, collateral history from parents or school personnel can assist in diagnosis. Some psychological or behavioural factors are more prevalent at particular stages of life (e.g. body-image concerns in adolescents). Psychological or behavioural factors affecting disorders and diseases classified elsewhere",
+  "gloss_vi": "Course of a disorder or disease classified in another chapter is required for diagnosis (e.g. overeating, lack of exercise).",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "management"
+    ],
+    "life_topics": [
+      "stress"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc course of a disorder or disease classified in another chapter is required for diagnosis (e.g. overeating, lack of exercise). Psychological or behavioural factors affecting disorders and diseases classified elsewhere Psychological or behavioural factors affecting disorders and diseases classified elsewhere 647 6E40.4 Stress-related physiological response affecting disorders and diseases classified elsewhere • The presence of stress-related physiological responses that adversely affect the manifestation, treatment or course of a disorder or disease classified in another chapter is required for diagnosis (e.g. stress-related exacerbation of ulcer, hypertension, arrhythmia or tension headache). 6E40.Y Other specified psychological or behavioural factor affecting disorders and diseases classified elsewhere • The presence of other psychological or behavioural factors that adversely affect the manifestation, treatment or course of a disorder or disease classified in another chapter is required for diagnosis (e.g. interpersonal, cultural, or religious factors). 6E40.Z Psychological or behavioural factor affecting disorders and diseases classified elsewhere, unspecified Additional clinical features • The adverse effects can range from acute, with immediate medical consequences (e.g. anxiety precipitating a cardiac arrhythmia), to chronic, occurring over a long period of time (e.g. chronic occupational stress aggravating diabetes). The adverse effects may be time-limited, episodic, or chronic and persistent. The disorders or diseases potentially affected by psychological or behavioural factors include those with clear pathophysiology (e.g. hypertension, HIV infection, coronary disease), functional syndromes (e.g. chronic fatigue syndrome, irritable bowel syndrome, fibromyalgia) and idiopathic symptoms (e.g. dizziness, tinnitus). Developmental presentations • Psychological or behavioural factors affecting disorders and diseases classified elsewhere can occur across the lifespan. Particularly with young children, collateral history from parents or school personnel can assist in diagnosis. Some psychological or behavioural factors are more prevalent at particular stages of life (e.g. body-image concerns in adolescents). Psychological or behavioural factors affecting disorders and diseases classified elsewhere Course of a disorder or disease classified in another chapter is required for diagnosis (e.g. overeating, lack of exercise)."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "everyday#screening_cues_02b811f1",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "Alcohol Intoxication 235 Alcohol Intoxication A. Recent ingestion of alcohol. B. Clinically significant problematic behavioral or psychological changes (e.g., inappropriate sexual or aggressive behavior, mood lability, impaired judgment) that developed during, or shortly af- ter, alcohol ingestion. C. One (or more) of the following signs or symptoms developing during, or shortly after, alcohol use: 1. Slurred speech. 2. Incoordination. 3. Unsteady gait. 4. Nystagmus. 5. Impairment in attention or memory. 6. Stupor or coma. D. The signs or symptoms are not attributable to another medical condition and are not better explained by another mental disor- der, including intoxication with another substance. Coding note: The ICD-9-CM code is 303.00. The ICD-10-CM code depends on whether there is a comorbid alcohol use disorder. If a mild alcohol use disorder is comorbid, the ICD-10-CM code is F10.129, and if a moderate or severe alcohol use disorder is comor- bid, the ICD-10-CM code is F10.229. If there is no comorbid alcohol use disorder, then the ICD-10-CM code is F10.929. Alcohol Withdrawal A. Cessation of (or reduction in) alcohol use that has been heavy and prolonged. B. Two (or more) of the following, developing within several hours to a few days after the cessation of (or reduction in) alcohol use described in Criterion A: 1. Autonomic hyperactivity (e.g., sweating or pulse rate greater than 100 bpm). 2. Increased hand tremor. 236 Substance-Related and Addictive Disorders 3. Insomnia. 4. Nausea or vomiting. 5. Transient visual,",
+  "gloss_vi": "Alcohol intoxication 235 alcohol intoxication a. recent ingestion of alcohol.",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [
+      "sleep"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc Alcohol Intoxication 235 Alcohol Intoxication A. Recent ingestion of alcohol. B. Clinically significant problematic behavioral or psychological changes (e.g., inappropriate sexual or aggressive behavior, mood lability, impaired judgment) that developed during, or shortly af- ter, alcohol ingestion. C. One (or more) of the following signs or symptoms developing during, or shortly after, alcohol use: 1. Slurred speech. 2. Incoordination. 3. Unsteady gait. 4. Nystagmus. 5. Impairment in attention or memory. 6. Stupor or coma. D. The signs or symptoms are not attributable to another medical condition and are not better explained by another mental disor- der, including intoxication with another substance. Coding note: The ICD-9-CM code is 303.00. The ICD-10-CM code depends on whether there is a comorbid alcohol use disorder. If a mild alcohol use disorder is comorbid, the ICD-10-CM code is F10.129, and if a moderate or severe alcohol use disorder is comor- bid, the ICD-10-CM code is F10.229. If there is no comorbid alcohol use disorder, then the ICD-10-CM code is F10.929. Alcohol Withdrawal A. Cessation of (or reduction in) alcohol use that has been heavy and prolonged. B. Two (or more) of the following, developing within several hours to a few days after the cessation of (or reduction in) alcohol use described in Criterion A: 1. Autonomic hyperactivity (e.g., sweating or pulse rate greater than 100 bpm). 2. Increased hand tremor. 236 Substance-Related and Addictive Disorders 3. Insomnia. 4. Nausea or vomiting. 5. Transient visual, Alcohol intoxication 235 alcohol intoxication a. recent ingestion of alcohol."
+}

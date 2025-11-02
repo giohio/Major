@@ -1,0 +1,110 @@
+.page-header-modern {
+  padding: 60px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.page-header-modern::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.page-header-modern.teal {
+  background: linear-gradient(135deg, #D4E8E4 0%, #E8F0EE 50%, #F0F4F3 100%);
+}
+
+.page-header-modern.teal::before {
+  background: linear-gradient(90deg, #00A6A6 0%, #00CED1 100%);
+}
+
+.page-header-modern.purple {
+  background: linear-gradient(135deg, #F3E8FF 0%, #E9D5FF 50%, #F5E7FF 100%);
+}
+
+.page-header-modern.purple::before {
+  background: linear-gradient(90deg, #9A7FF0 0%, #A78BFA 100%);
+}
+
+.page-header-modern.blue {
+  background: linear-gradient(135deg, #E0F2FE 0%, #BAE6FD 50%, #E0F2FE 100%);
+}
+
+.page-header-modern.blue::before {
+  background: linear-gradient(90deg, #0EA5E9 0%, #38BDF8 100%);
+}
+
+.page-header-modern.red {
+  background: linear-gradient(135deg, #FEE2E2 0%, #FECACA 50%, #FEE2E2 100%);
+}
+
+.page-header-modern.red::before {
+  background: linear-gradient(90deg, #EF4444 0%, #F87171 100%);
+}
+
+.page-header-modern.green {
+  background: linear-gradient(135deg, #D1FAE5 0%, #A7F3D0 50%, #D1FAE5 100%);
+}
+
+.page-header-modern.green::before {
+  background: linear-gradient(90deg, #10B981 0%, #34D399 100%);
+}
+
+.page-header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page-header-icon {
+  font-size: 4rem;
+  margin-bottom: var(--spacing-md);
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.page-header-title {
+  font-size: 2.75rem;
+  font-weight: 800;
+  color: #0F172A;
+  margin-bottom: var(--spacing-md);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.page-header-subtitle {
+  font-size: 1.25rem;
+  color: #475569;
+  line-height: 1.8;
+  font-weight: 500;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .page-header-modern {
+    padding: 40px 0;
+  }
+
+  .page-header-title {
+    font-size: 2rem;
+  }
+
+  .page-header-subtitle {
+    font-size: 1rem;
+  }
+
+  .page-header-icon {
+    font-size: 3rem;
+  }
+}

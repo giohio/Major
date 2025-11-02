@@ -1,0 +1,32 @@
+{
+  "id": "everyday#screening_cues_31b2ed42",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "254 Substance-Related and Addictive Disorders Specify if: In a controlled environment: This additional specifier is used if the individual is in an environment where access to inhalant sub- stances is restricted. Coding based on current severity: Note for ICD-10-CM codes: If an inhalant intoxication or another inhalant-induced mental disorder is also present, do not use the codes below for inhalant use disorder. Instead, the comorbid inhalant use disorder is indicated in the 4th character of the inhalant-induced disorder code (see the coding note for inhalant intoxication or a specific inhalant-induced mental disor- der). For example, if there is comorbid inhalant-induced depressive disorder and inhalant use disorder, only the inhalant-induced depres- sive disorder code is given, with the 4th character indicating whether the comorbid inhalant use disorder is mild, moderate, or severe: F18.14 for mild inhalant use disorder with inhalant-induced depres- sive disorder or F18.24 for a moderate or severe inhalant use disor- der with inhalant-induced depressive disorder. Specify current severity: 305.90 (F18.10) Mild: Presence of 2–3 symptoms. 304.60 (F18.20) Moderate: Presence of 4–5 symptoms. 304.60 (F18.20) Severe: Presence of 6 or more symptoms. Inhalant Intoxication A. Recent intended or unintended short-term, high-dose exposure to inhalant substances, including volatile hydrocarbons such as toluene or gasoline. B. Clinically significant problematic behavioral or psychological changes (e.g., belligerence, assaultiveness, apathy, impaired judgment) that developed during, or shortly after, exposure to in- halants. C. Two (or more) of the following signs or symptoms",
+  "gloss_vi": "254 substance-related and addictive disorders specify if: in a controlled environment: this additional specifier is used if the individual is in an environment where access to inhalant sub- stances is restricted. coding ...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [
+      "work_habits"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 254 Substance-Related and Addictive Disorders Specify if: In a controlled environment: This additional specifier is used if the individual is in an environment where access to inhalant sub- stances is restricted. Coding based on current severity: Note for ICD-10-CM codes: If an inhalant intoxication or another inhalant-induced mental disorder is also present, do not use the codes below for inhalant use disorder. Instead, the comorbid inhalant use disorder is indicated in the 4th character of the inhalant-induced disorder code (see the coding note for inhalant intoxication or a specific inhalant-induced mental disor- der). For example, if there is comorbid inhalant-induced depressive disorder and inhalant use disorder, only the inhalant-induced depres- sive disorder code is given, with the 4th character indicating whether the comorbid inhalant use disorder is mild, moderate, or severe: F18.14 for mild inhalant use disorder with inhalant-induced depres- sive disorder or F18.24 for a moderate or severe inhalant use disor- der with inhalant-induced depressive disorder. Specify current severity: 305.90 (F18.10) Mild: Presence of 2–3 symptoms. 304.60 (F18.20) Moderate: Presence of 4–5 symptoms. 304.60 (F18.20) Severe: Presence of 6 or more symptoms. Inhalant Intoxication A. Recent intended or unintended short-term, high-dose exposure to inhalant substances, including volatile hydrocarbons such as toluene or gasoline. B. Clinically significant problematic behavioral or psychological changes (e.g., belligerence, assaultiveness, apathy, impaired judgment) that developed during, or shortly after, exposure to in- halants. C. Two (or more) of the following signs or symptoms 254 substance-related and addictive disorders specify if: in a controlled environment: this additional specifier is used if the individual is in an environment where access to inhalant sub- stances is restricted. coding ..."
+}

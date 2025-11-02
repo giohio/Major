@@ -1,0 +1,31 @@
+{
+  "id": "icd11#screening_cues_260d3fc1",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "NP, Maercker A et al. The International (SCAN-2.1). Soc Psychiatry Psychiatr Epidemiol. Trauma Questionnaire: development of a self‐ 2000;35(8):348–52. doi:10.1007/s001270050249. report measure of ICD‐11 PTSD and complex 67. Carragher N, Billieux J, Bowden-Jones H, Achab PTSD. Acta Psychiatr Scand. 2018;138(6):536– S, Potenza MN, Rumpf HJ et al. Brief overview 46. doi:10.1111/acps.12956. of the WHO Collaborative Project on the 73. Bőthe B, Potenza MN, Griffiths MD, Kraus Development of New International Screening SW, Klein V, Fuss J et al. The development of and Diagnostic Instruments for Gaming the Compulsive Sexual Behavior Disorder Disorder and Gambling Disorder. Addiction. Scale (CSBD-19): an ICD-11 based screening 2021;117(7):2119–21. doi:10.1111/add.15780. measure across three languages. J Behav Addict. 2020;9(2):247–58. doi:10.1556/2006.2020.00034. 68. Clark LA, Corona-Espinosa A, Khoo S, Kotelnikova Y, Levin-Aspenson HF, Serapio- 74. Bőthe B, Koós M, Nagy L, Kraus SW, García G et al. Preliminary scales for ICD-11 Potenza MN, Demetrovics Z. International personality disorder: self and interpersonal Sex Survey: study protocol of a large, dysfunction plus five personality disorder cross-cultural collaborative study in 45 trait domains. Front Psychol. 2021;12:668724. countries. J Behav Addict. 2021;10(3):632–45. doi:10.3389/fpsyg.2021.668724. doi:10.1556/2006.2021.00063. 20 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders",
+  "gloss_vi": "Np, maercker a et al. the international (scan-2.1).",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [
+      "sleep_hygiene"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc NP, Maercker A et al. The International (SCAN-2.1). Soc Psychiatry Psychiatr Epidemiol. Trauma Questionnaire: development of a self‐ 2000;35(8):348–52. doi:10.1007/s001270050249. report measure of ICD‐11 PTSD and complex 67. Carragher N, Billieux J, Bowden-Jones H, Achab PTSD. Acta Psychiatr Scand. 2018;138(6):536– S, Potenza MN, Rumpf HJ et al. Brief overview 46. doi:10.1111/acps.12956. of the WHO Collaborative Project on the 73. Bőthe B, Potenza MN, Griffiths MD, Kraus Development of New International Screening SW, Klein V, Fuss J et al. The development of and Diagnostic Instruments for Gaming the Compulsive Sexual Behavior Disorder Disorder and Gambling Disorder. Addiction. Scale (CSBD-19): an ICD-11 based screening 2021;117(7):2119–21. doi:10.1111/add.15780. measure across three languages. J Behav Addict. 2020;9(2):247–58. doi:10.1556/2006.2020.00034. 68. Clark LA, Corona-Espinosa A, Khoo S, Kotelnikova Y, Levin-Aspenson HF, Serapio- 74. Bőthe B, Koós M, Nagy L, Kraus SW, García G et al. Preliminary scales for ICD-11 Potenza MN, Demetrovics Z. International personality disorder: self and interpersonal Sex Survey: study protocol of a large, dysfunction plus five personality disorder cross-cultural collaborative study in 45 trait domains. Front Psychol. 2021;12:668724. countries. J Behav Addict. 2021;10(3):632–45. doi:10.3389/fpsyg.2021.668724. doi:10.1556/2006.2021.00063. 20 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Np, maercker a et al. the international (scan-2.1)."
+}

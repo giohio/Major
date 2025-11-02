@@ -1,0 +1,32 @@
+{
+  "id": "everyday#screening_cues_9afba9fa",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "is “2,” and the clinician should record “moderate [substance] use disorder” or “severe [substance] use disor- der” depending on the severity of the comorbid substance use disor- der. If there is no comorbid substance use disorder (e.g., after a one- time heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the substance-induced sleep dis- order. A moderate or severe tobacco use disorder is required in order to code a tobacco-induced sleep disorder; it is not permissible to code a comorbid mild tobacco use disorder or no tobacco use disorder with a tobacco-induced sleep disorder. Substance/Medication-Induced Sleep Disorder 195 ICD-10-CM With use With use disorder, Without disorder, moderate use ICD-9-CM mild or severe disorder Alcohol 291.82 F10.182 F10.282 F10.982 Caffeine 292.85 F15.182 F15.282 F15.982 Cannabis 292.85 F12.188 F12.288 F12.988 Opioid 292.85 F11.182 F11.282 F11.982 Sedative, hypnotic, 292.85 F13.182 F13.282 F13.982 or anxiolytic Amphetamine (or 292.85 F15.182 F15.282 F15.982 other stimulant) Cocaine 292.85 F14.182 F14.282 F14.982 Tobacco 292.85 NA F17.208 NA Other (or unknown) 292.85 F19.182 F19.282 F19.982 substance Specify whether: Insomnia type: Characterized by difficulty falling asleep or maintaining sleep, frequent nocturnal awakenings, or nonrestor- ative sleep. Daytime sleepiness type: Characterized by predominant com- plaint of excessive sleepiness/fatigue during waking hours or, less commonly, a long sleep period. Parasomnia type: Characterized by abnormal behavioral events during sleep. Mixed type: Characterized by a substance/medication-induced sleep problem characterized by multiple types of sleep symp- toms, but no symptom clearly predominates. Specify if (see Table 1 in the chapter “Substance-Related and Addic- tive Disorders” for diagnoses associated with substance class):",
+  "gloss_vi": "Is “2,” and the clinician should record “moderate [substance] use disorder” or “severe [substance] use disor- der” depending on the severity of the comorbid substance use disor- der. if there is no comorbid substance use...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [
+      "sleep"
+    ],
+    "advice_section": [
+      "sleep_hygiene",
+      "work_habits"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc is “2,” and the clinician should record “moderate [substance] use disorder” or “severe [substance] use disor- der” depending on the severity of the comorbid substance use disor- der. If there is no comorbid substance use disorder (e.g., after a one- time heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the substance-induced sleep dis- order. A moderate or severe tobacco use disorder is required in order to code a tobacco-induced sleep disorder; it is not permissible to code a comorbid mild tobacco use disorder or no tobacco use disorder with a tobacco-induced sleep disorder. Substance/Medication-Induced Sleep Disorder 195 ICD-10-CM With use With use disorder, Without disorder, moderate use ICD-9-CM mild or severe disorder Alcohol 291.82 F10.182 F10.282 F10.982 Caffeine 292.85 F15.182 F15.282 F15.982 Cannabis 292.85 F12.188 F12.288 F12.988 Opioid 292.85 F11.182 F11.282 F11.982 Sedative, hypnotic, 292.85 F13.182 F13.282 F13.982 or anxiolytic Amphetamine (or 292.85 F15.182 F15.282 F15.982 other stimulant) Cocaine 292.85 F14.182 F14.282 F14.982 Tobacco 292.85 NA F17.208 NA Other (or unknown) 292.85 F19.182 F19.282 F19.982 substance Specify whether: Insomnia type: Characterized by difficulty falling asleep or maintaining sleep, frequent nocturnal awakenings, or nonrestor- ative sleep. Daytime sleepiness type: Characterized by predominant com- plaint of excessive sleepiness/fatigue during waking hours or, less commonly, a long sleep period. Parasomnia type: Characterized by abnormal behavioral events during sleep. Mixed type: Characterized by a substance/medication-induced sleep problem characterized by multiple types of sleep symp- toms, but no symptom clearly predominates. Specify if (see Table 1 in the chapter “Substance-Related and Addic- tive Disorders” for diagnoses associated with substance class): Is “2,” and the clinician should record “moderate [substance] use disorder” or “severe [substance] use disor- der” depending on the severity of the comorbid substance use disor- der. if there is no comorbid substance use..."
+}

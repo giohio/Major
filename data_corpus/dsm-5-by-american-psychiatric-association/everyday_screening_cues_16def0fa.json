@@ -1,0 +1,28 @@
+{
+  "id": "everyday#screening_cues_16def0fa",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "320 Neurocognitive Disorders order due to both Alzheimer’s disease and vascular disease, with be- havioral disturbance, code the following: 331.0 (G30.9) Alzheimer’s disease; 294.11 (F02.81) major neurocognitive disorder due to multi- ple etiologies, with behavioral disturbance; 290.40 (F01.51) major vas- cular neurocognitive disorder, with behavioral disturbance. For mild neurocognitive disorder due to multiple etiologies, code 331.83 (G31.84). (Note: Do not use the additional codes for the eti- ologies. Behavioral disturbance cannot be coded but should still be indicated in writing.) Unspecified Neurocognitive Disorder 799.59 (R41.9) This category applies to presentations in which symptoms character- istic of a neurocognitive disorder that cause clinically significant dis- tress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any of the disorders in the neurocognitive disorders diagnostic class. The unspecified neurocognitive disorder category is used in situations in which the precise etiology cannot be determined with sufficient cer- tainty to make an etiological attribution. Coding note: For unspecified major or mild neurocognitive disorder, code 799.59 (R41.9). (Note: Do not use additional codes for any pre- sumed etiological medical conditions. Behavioral",
+  "gloss_vi": "320 neurocognitive disorders order due to both alzheimer’s disease and vascular disease, with be- havioral disturbance, code the following: 331.0 (g30.9) alzheimer’s disease; 294.11 (f02.81) major neurocognitive disorder...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do",
+      "management"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 320 Neurocognitive Disorders order due to both Alzheimer’s disease and vascular disease, with be- havioral disturbance, code the following: 331.0 (G30.9) Alzheimer’s disease; 294.11 (F02.81) major neurocognitive disorder due to multi- ple etiologies, with behavioral disturbance; 290.40 (F01.51) major vas- cular neurocognitive disorder, with behavioral disturbance. For mild neurocognitive disorder due to multiple etiologies, code 331.83 (G31.84). (Note: Do not use the additional codes for the eti- ologies. Behavioral disturbance cannot be coded but should still be indicated in writing.) Unspecified Neurocognitive Disorder 799.59 (R41.9) This category applies to presentations in which symptoms character- istic of a neurocognitive disorder that cause clinically significant dis- tress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any of the disorders in the neurocognitive disorders diagnostic class. The unspecified neurocognitive disorder category is used in situations in which the precise etiology cannot be determined with sufficient cer- tainty to make an etiological attribution. Coding note: For unspecified major or mild neurocognitive disorder, code 799.59 (R41.9). (Note: Do not use additional codes for any pre- sumed etiological medical conditions. Behavioral 320 neurocognitive disorders order due to both alzheimer’s disease and vascular disease, with be- havioral disturbance, code the following: 331.0 (g30.9) alzheimer’s disease; 294.11 (f02.81) major neurocognitive disorder..."
+}

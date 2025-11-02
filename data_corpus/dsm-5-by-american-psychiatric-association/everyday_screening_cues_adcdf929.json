@@ -1,0 +1,26 @@
+{
+  "id": "everyday#screening_cues_adcdf929",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "264 Substance-Related and Addictive Disorders Specify current severity: 305.40 (F13.10) Mild: Presence of 2–3 symptoms. 304.10 (F13.20) Moderate: Presence of 4–5 symptoms. 304.10 (F13.20) Severe: Presence of 6 or more symptoms. Sedative, Hypnotic, or Anxiolytic Intoxication A. Recent use of a sedative, hypnotic, or anxiolytic. B. Clinically significant maladaptive behavioral or psychological changes (e.g., inappropriate sexual or aggressive behavior, mood lability, impaired judgment) that developed during, or shortly after, sedative, hypnotic, or anxiolytic use. C. One (or more) of the following signs or symptoms developing during, or shortly after, sedative, hypnotic, or anxiolytic use: 1. Slurred speech. 2. Incoordination. 3. Unsteady gait. 4. Nystagmus. 5. Impairment in cognition (e.g., attention, memory). 6. Stupor or coma. D. The signs or symptoms are not attributable to another medical condition and are not better explained by another mental disor- der, including intoxication with another substance. Coding note: The ICD-9-CM code is 292.89. The ICD-10-CM code depends on whether there is a comorbid sedative, hypnotic, or anx- iolytic use disorder. If a mild sedative, hypnotic, or anxiolytic use dis- order is comorbid, the ICD-10-CM code is F13.129, and if a moderate or severe sedative, hypnotic, or anxiolytic use disorder is comorbid, the ICD-10-CM code is F13.229. If there is no comorbid sedative, hypnotic, or anxiolytic use disorder, then the ICD-10-CM code is F13.929. Sedative, Hypnotic, or Anxiolytic Withdrawal 265 Sedative, Hypnotic, or Anxiolytic Withdrawal A. Cessation of (or reduction in) sedative, hypnotic, or anxiolytic use that",
+  "gloss_vi": "264 substance-related and addictive disorders specify current severity: 305.40 (f13.10) mild: presence of 2–3 symptoms. 304.10 (f13.20) moderate: presence of 4–5 symptoms.",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 264 Substance-Related and Addictive Disorders Specify current severity: 305.40 (F13.10) Mild: Presence of 2–3 symptoms. 304.10 (F13.20) Moderate: Presence of 4–5 symptoms. 304.10 (F13.20) Severe: Presence of 6 or more symptoms. Sedative, Hypnotic, or Anxiolytic Intoxication A. Recent use of a sedative, hypnotic, or anxiolytic. B. Clinically significant maladaptive behavioral or psychological changes (e.g., inappropriate sexual or aggressive behavior, mood lability, impaired judgment) that developed during, or shortly after, sedative, hypnotic, or anxiolytic use. C. One (or more) of the following signs or symptoms developing during, or shortly after, sedative, hypnotic, or anxiolytic use: 1. Slurred speech. 2. Incoordination. 3. Unsteady gait. 4. Nystagmus. 5. Impairment in cognition (e.g., attention, memory). 6. Stupor or coma. D. The signs or symptoms are not attributable to another medical condition and are not better explained by another mental disor- der, including intoxication with another substance. Coding note: The ICD-9-CM code is 292.89. The ICD-10-CM code depends on whether there is a comorbid sedative, hypnotic, or anx- iolytic use disorder. If a mild sedative, hypnotic, or anxiolytic use dis- order is comorbid, the ICD-10-CM code is F13.129, and if a moderate or severe sedative, hypnotic, or anxiolytic use disorder is comorbid, the ICD-10-CM code is F13.229. If there is no comorbid sedative, hypnotic, or anxiolytic use disorder, then the ICD-10-CM code is F13.929. Sedative, Hypnotic, or Anxiolytic Withdrawal 265 Sedative, Hypnotic, or Anxiolytic Withdrawal A. Cessation of (or reduction in) sedative, hypnotic, or anxiolytic use that 264 substance-related and addictive disorders specify current severity: 305.40 (f13.10) mild: presence of 2–3 symptoms. 304.10 (f13.20) moderate: presence of 4–5 symptoms."
+}

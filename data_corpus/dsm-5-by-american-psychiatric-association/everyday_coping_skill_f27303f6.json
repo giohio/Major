@@ -1,0 +1,29 @@
+{
+  "id": "everyday#coping_skill_f27303f6",
+  "title_en": "General — Coping Skill",
+  "title_vi": "General — Coping Skill",
+  "text_en": "Sleep-Related Hypoventilation 187 caused by variability in respiratory effort but without evidence of airway obstruction. 786.04 (R06.3) Cheyne-Stokes breathing: A pattern of periodic crescendo-decrescendo variation in tidal volume that results in central apneas and hypopneas at a frequency of at least five events per hour, accompanied by frequent arousal. 780.57 (G47.37) Central sleep apnea comorbid with opioid use: The pathogenesis of this subtype is attributed to the effects of opioids on the respiratory rhythm generators in the medulla as well as the differential effects on hypoxic versus hypercapnic re- spiratory drive. Coding note (for 780.57 [G47.37] code only): When an opioid use disorder is present, first code the opioid use disorder: 305.50 (F11.10) mild opioid use disorder or 304.00 (F11.20) moderate or se- vere opioid use disorder; then code 780.57 (G47.37) central sleep apnea comorbid with opioid use. When an opioid use disorder is not present (e.g., after a one-time heavy use of the substance), code only 780.57 (G47.37) central sleep apnea comorbid with opioid use. Specify current severity: Severity of central sleep apnea is graded according to the fre- quency of the breathing disturbances as well as the extent of as- sociated oxygen desaturation and sleep fragmentation that occur as a consequence of repetitive respiratory disturbances. Sleep-Related Hypoventilation A. Polysomnograpy demonstrates episodes of decreased respira- tion associated with elevated CO levels. (Note: In the absence 2 of objective measurement of CO , persistent low levels of hemo- 2 globin oxygen saturation unassociated with apneic/hypopneic events may indicate hypoventilation.) B. The disturbance is not better explained by another current sleep disorder. Specify whether: 327.24 (G47.34) Idiopathic hypoventilation: This subtype is not attributable to any readily identified condition. 188 Sleep-Wake",
+  "gloss_vi": "Giấc ngủ-related hypoventilation 187 caused by variability in respiratory effort but without evidence of airway obstruction. 786.04 (r06.3) cheyne-stokes hít thở: a pattern of periodic crescendo-decrescendo variation in ...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [],
+    "life_topics": [
+      "sleep",
+      "stress"
+    ],
+    "advice_section": [
+      "coping_skill"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Coping Skill General — Coping Skill Sleep-Related Hypoventilation 187 caused by variability in respiratory effort but without evidence of airway obstruction. 786.04 (R06.3) Cheyne-Stokes breathing: A pattern of periodic crescendo-decrescendo variation in tidal volume that results in central apneas and hypopneas at a frequency of at least five events per hour, accompanied by frequent arousal. 780.57 (G47.37) Central sleep apnea comorbid with opioid use: The pathogenesis of this subtype is attributed to the effects of opioids on the respiratory rhythm generators in the medulla as well as the differential effects on hypoxic versus hypercapnic re- spiratory drive. Coding note (for 780.57 [G47.37] code only): When an opioid use disorder is present, first code the opioid use disorder: 305.50 (F11.10) mild opioid use disorder or 304.00 (F11.20) moderate or se- vere opioid use disorder; then code 780.57 (G47.37) central sleep apnea comorbid with opioid use. When an opioid use disorder is not present (e.g., after a one-time heavy use of the substance), code only 780.57 (G47.37) central sleep apnea comorbid with opioid use. Specify current severity: Severity of central sleep apnea is graded according to the fre- quency of the breathing disturbances as well as the extent of as- sociated oxygen desaturation and sleep fragmentation that occur as a consequence of repetitive respiratory disturbances. Sleep-Related Hypoventilation A. Polysomnograpy demonstrates episodes of decreased respira- tion associated with elevated CO levels. (Note: In the absence 2 of objective measurement of CO , persistent low levels of hemo- 2 globin oxygen saturation unassociated with apneic/hypopneic events may indicate hypoventilation.) B. The disturbance is not better explained by another current sleep disorder. Specify whether: 327.24 (G47.34) Idiopathic hypoventilation: This subtype is not attributable to any readily identified condition. 188 Sleep-Wake Giấc ngủ-related hypoventilation 187 caused by variability in respiratory effort but without evidence of airway obstruction. 786.04 (r06.3) cheyne-stokes hít thở: a pattern of periodic crescendo-decrescendo variation in ..."
+}

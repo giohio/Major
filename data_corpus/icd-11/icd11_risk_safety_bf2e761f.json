@@ -1,0 +1,33 @@
+{
+  "id": "icd11#risk_safety_bf2e761f",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "686 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders MB23.E Non-suicidal self-injury • Non-suicidal self-injury refers to intentional self-inflicted injury to the body – most commonly cutting, scraping, burning, biting or hitting – with the expectation that the injury will lead to only minor physical harm. MB23.F Odd or peculiar appearance • Odd or peculiar appearance refers to grooming, clothing or other aspects of personal appearance that are eccentric, unusual or peculiar, and inconsistent with cultural or subcultural norms. MB23.G Odd or peculiar behaviour • Odd or peculiar behaviour refers to behaviour including posture and gait that is eccentric, unusual or peculiar, and is inconsistent with cultural or subcultural norms. MB23.H Panic attack • Panic attack refers to a discrete episode of intense fear or apprehension accompanied by the rapid and concurrent onset of a number of characteristic symptoms. These symptoms may include – but are not limited to – palpitations or increased heart rate, sweating, trembling, sensations of shortness of breath, feelings of choking, chest pain, nausea or abdominal distress, feelings of dizziness or lightheadedness, chills or hot flushes, tingling or lack of sensation in extremities (i.e. paraesthesias), depersonalization or derealization, fear of losing control or going mad, and fear of imminent death. Panic attacks can appear “out of the blue” or can be triggered by particular situations. MB23.J Poor personal hygiene • Poor personal hygiene refers to unwillingness or inability to maintain a level of personal cleanliness that is in keeping with the standards of the person’s culture, society or setting, such as not washing or brushing one’s teeth. MB23.K Poverty of speech • Poverty of speech refers to a general lack of the unprompted content and elaboration normally seen in speech that is attributed to poverty of thought. It is one of the negative symptoms of schizophrenia. MB23.L Pressured speech • Pressured speech refers to speech in which the person feels undue pressure to get the words out.",
+  "gloss_vi": "686 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders mb23.e non-suicidal self-injury • non-suicidal self-injury refers to intentional self-inflicted injury ...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "screening_cues",
+      "referral"
+    ],
+    "life_topics": [
+      "stress"
+    ],
+    "advice_section": [
+      "coping_skill"
+    ],
+    "audience": [],
+    "risk_band": "high"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn 686 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders MB23.E Non-suicidal self-injury • Non-suicidal self-injury refers to intentional self-inflicted injury to the body – most commonly cutting, scraping, burning, biting or hitting – with the expectation that the injury will lead to only minor physical harm. MB23.F Odd or peculiar appearance • Odd or peculiar appearance refers to grooming, clothing or other aspects of personal appearance that are eccentric, unusual or peculiar, and inconsistent with cultural or subcultural norms. MB23.G Odd or peculiar behaviour • Odd or peculiar behaviour refers to behaviour including posture and gait that is eccentric, unusual or peculiar, and is inconsistent with cultural or subcultural norms. MB23.H Panic attack • Panic attack refers to a discrete episode of intense fear or apprehension accompanied by the rapid and concurrent onset of a number of characteristic symptoms. These symptoms may include – but are not limited to – palpitations or increased heart rate, sweating, trembling, sensations of shortness of breath, feelings of choking, chest pain, nausea or abdominal distress, feelings of dizziness or lightheadedness, chills or hot flushes, tingling or lack of sensation in extremities (i.e. paraesthesias), depersonalization or derealization, fear of losing control or going mad, and fear of imminent death. Panic attacks can appear “out of the blue” or can be triggered by particular situations. MB23.J Poor personal hygiene • Poor personal hygiene refers to unwillingness or inability to maintain a level of personal cleanliness that is in keeping with the standards of the person’s culture, society or setting, such as not washing or brushing one’s teeth. MB23.K Poverty of speech • Poverty of speech refers to a general lack of the unprompted content and elaboration normally seen in speech that is attributed to poverty of thought. It is one of the negative symptoms of schizophrenia. MB23.L Pressured speech • Pressured speech refers to speech in which the person feels undue pressure to get the words out. 686 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders mb23.e non-suicidal self-injury • non-suicidal self-injury refers to intentional self-inflicted injury ..."
+}

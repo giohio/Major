@@ -1,0 +1,26 @@
+{
+  "id": "icd11#screening_cues_4947f134",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "List of categories 65 6C45.3 Cocaine intoxication Specify severity: 6C45.3&XS5W Cocaine intoxication, mild 6C45.3&XS0T Cocaine intoxication, moderate 6C45.3&XS25 Cocaine intoxication, severe 6C45.4 Cocaine withdrawal 6C45.5 Cocaine-induced delirium 6C45.6 Cocaine-induced psychotic disorder Specify clinical presentation: 6C45.60 … with hallucinations 6C45.61 … with delusions 6C45.62 … with mixed psychotic symptoms 6C45.6Z … unspecified 6C45.70 Cocaine-induced mood disorder Specify clinical presentation: 6C45.700 … with depressive symptoms 6C45.701 … with manic symptoms 6C45.702 … with mixed depressive and manic symptoms 6C45.70Z … unspecified 6C45.71 Cocaine-induced anxiety disorder 6C45.72 Cocaine-induced obsessive-compulsive or related disorder 6C45.73 Cocaine-induced impulse control disorder 6C45.Y Other specified disorder due to use of cocaine 6C45.Z Disorder due to use of cocaine, unspecified 6C46 Disorders due to use of stimulants, including amfetamines, methamfetamine and methcathinone 6C46.0 Episode of harmful use of stimulants, including amfetamines, methamfetamine and methcathinone 6C46.1 Harmful pattern of use of stimulants, including amfetamines, methamfetamine and methcathinone Specify pattern: 6C46.10 … episodic 6C46.11 … continuous 6C46.1Z … unspecified 6C46.2 Stimulant dependence, including amfetamines, methamfetamine and methcathinone Specify pattern of substance use or remission: 6C46.20 … current use 6C46.21 … early full remission 6C46.22 … sustained partial remission 6C46.23 … sustained full remission 6C46.2Z … unspecified 6C46.3 Stimulant intoxication, including amfetamines, methamfetamine and methcathinone 66 Clinical Descriptions and",
+  "gloss_vi": "List of categories 65 6c45.3 cocaine intoxication specify severity: 6c45.3&xs5w cocaine intoxication, mild 6c45.3&xs0t cocaine intoxication, moderate 6c45.3&xs25 cocaine intoxication, severe 6c45.4 cocaine withdrawal 6c4...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc List of categories 65 6C45.3 Cocaine intoxication Specify severity: 6C45.3&XS5W Cocaine intoxication, mild 6C45.3&XS0T Cocaine intoxication, moderate 6C45.3&XS25 Cocaine intoxication, severe 6C45.4 Cocaine withdrawal 6C45.5 Cocaine-induced delirium 6C45.6 Cocaine-induced psychotic disorder Specify clinical presentation: 6C45.60 … with hallucinations 6C45.61 … with delusions 6C45.62 … with mixed psychotic symptoms 6C45.6Z … unspecified 6C45.70 Cocaine-induced mood disorder Specify clinical presentation: 6C45.700 … with depressive symptoms 6C45.701 … with manic symptoms 6C45.702 … with mixed depressive and manic symptoms 6C45.70Z … unspecified 6C45.71 Cocaine-induced anxiety disorder 6C45.72 Cocaine-induced obsessive-compulsive or related disorder 6C45.73 Cocaine-induced impulse control disorder 6C45.Y Other specified disorder due to use of cocaine 6C45.Z Disorder due to use of cocaine, unspecified 6C46 Disorders due to use of stimulants, including amfetamines, methamfetamine and methcathinone 6C46.0 Episode of harmful use of stimulants, including amfetamines, methamfetamine and methcathinone 6C46.1 Harmful pattern of use of stimulants, including amfetamines, methamfetamine and methcathinone Specify pattern: 6C46.10 … episodic 6C46.11 … continuous 6C46.1Z … unspecified 6C46.2 Stimulant dependence, including amfetamines, methamfetamine and methcathinone Specify pattern of substance use or remission: 6C46.20 … current use 6C46.21 … early full remission 6C46.22 … sustained partial remission 6C46.23 … sustained full remission 6C46.2Z … unspecified 6C46.3 Stimulant intoxication, including amfetamines, methamfetamine and methcathinone 66 Clinical Descriptions and List of categories 65 6c45.3 cocaine intoxication specify severity: 6c45.3&xs5w cocaine intoxication, mild 6c45.3&xs0t cocaine intoxication, moderate 6c45.3&xs25 cocaine intoxication, severe 6c45.4 cocaine withdrawal 6c4..."
+}

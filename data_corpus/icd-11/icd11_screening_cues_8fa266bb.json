@@ -1,0 +1,35 @@
+{
+  "id": "icd11#screening_cues_8fa266bb",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "300Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders The level of insight an individual has with respect to disorder-specific beliefs varies, and can be specified for those obsessive-compulsive and related disorders in which cognitive phenomena are a key aspect of clinical phenomenology. These include obsessive-compulsive disorder, body dysmorphic disorder, olfactory reference disorder, hypochondriasis and hoarding disorder. The level of insight may be specified as fair to good or poor to absent, as described for each of these disorders. In addition, Tourette syndrome, classified in the grouping primary tics and tic disorders in Chapter 8 on diseases of the nervous system, is cross-listed here because of its high co-occurrence, familial association and analogous phenomenology (i.e. premonitory urges and repetitive behaviours) with obsessive-compulsive disorder: 6B20 Obsessive-compulsive disorder Essential (required) features • The presence of persistent obsessions and/or compulsions is required for diagnosis. • Obsessions are repetitive and persistent thoughts (e.g. of contamination), images (e.g. of violent scenes) or impulses/urges (e.g. to stab someone) that are experienced as intrusive and unwanted, and are commonly associated with anxiety. The individual typically attempts to ignore or suppress obsessions or to neutralize them by performing compulsions. • Compulsions are repetitive behaviours or rituals, including repetitive mental acts, that the individual feels driven to perform in response to an obsession, according to rigid rules, or to achieve a sense of “completeness”. Examples of overt behaviours include repetitive washing, checking and ordering of objects. Examples of analogous mental acts include mentally repeating specific phrases in order to prevent negative outcomes, reviewing a memory to make sure that one has caused no harm, and mentally counting objects. Compulsions are either not connected in a realistic way to the feared event (e.g. arranging items symmetrically to prevent harm to a loved one) or are clearly excessive (e.g. showering daily for hours to prevent illness). • Obsessions and compulsions are time-consuming (e.g. take more than 1 hour per day) or result in significant distress or significant impairment in personal, family, social, educational, occupational or other important areas of functioning. If functioning is maintained, it is only through significant additional effort. • The symptoms or behaviours are not a manifestation of another medical condition (e.g. basal ganglia ischaemic stroke), and are not due to the effects of a substance or medication on the central nervous system (e.g. amfetamine), including withdrawal effects.",
+  "gloss_vi": "300clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders the level of insight an individual has with respect to disorder-specific beliefs varies, and can be spec...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "referral",
+      "psychoeducation",
+      "management",
+      "caregiver"
+    ],
+    "life_topics": [
+      "stress",
+      "study",
+      "relationships"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 300Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders The level of insight an individual has with respect to disorder-specific beliefs varies, and can be specified for those obsessive-compulsive and related disorders in which cognitive phenomena are a key aspect of clinical phenomenology. These include obsessive-compulsive disorder, body dysmorphic disorder, olfactory reference disorder, hypochondriasis and hoarding disorder. The level of insight may be specified as fair to good or poor to absent, as described for each of these disorders. In addition, Tourette syndrome, classified in the grouping primary tics and tic disorders in Chapter 8 on diseases of the nervous system, is cross-listed here because of its high co-occurrence, familial association and analogous phenomenology (i.e. premonitory urges and repetitive behaviours) with obsessive-compulsive disorder: 6B20 Obsessive-compulsive disorder Essential (required) features • The presence of persistent obsessions and/or compulsions is required for diagnosis. • Obsessions are repetitive and persistent thoughts (e.g. of contamination), images (e.g. of violent scenes) or impulses/urges (e.g. to stab someone) that are experienced as intrusive and unwanted, and are commonly associated with anxiety. The individual typically attempts to ignore or suppress obsessions or to neutralize them by performing compulsions. • Compulsions are repetitive behaviours or rituals, including repetitive mental acts, that the individual feels driven to perform in response to an obsession, according to rigid rules, or to achieve a sense of “completeness”. Examples of overt behaviours include repetitive washing, checking and ordering of objects. Examples of analogous mental acts include mentally repeating specific phrases in order to prevent negative outcomes, reviewing a memory to make sure that one has caused no harm, and mentally counting objects. Compulsions are either not connected in a realistic way to the feared event (e.g. arranging items symmetrically to prevent harm to a loved one) or are clearly excessive (e.g. showering daily for hours to prevent illness). • Obsessions and compulsions are time-consuming (e.g. take more than 1 hour per day) or result in significant distress or significant impairment in personal, family, social, educational, occupational or other important areas of functioning. If functioning is maintained, it is only through significant additional effort. • The symptoms or behaviours are not a manifestation of another medical condition (e.g. basal ganglia ischaemic stroke), and are not due to the effects of a substance or medication on the central nervous system (e.g. amfetamine), including withdrawal effects. 300clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders the level of insight an individual has with respect to disorder-specific beliefs varies, and can be spec..."
+}

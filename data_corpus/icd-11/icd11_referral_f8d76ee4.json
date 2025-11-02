@@ -1,0 +1,30 @@
+{
+  "id": "icd11#referral_f8d76ee4",
+  "title_en": "General — Referral",
+  "title_vi": "General — Chuyển tuyến",
+  "text_en": "health services 739 autonomic signs of anxiety (e.g. tachycardia, sweating, flushing), being in a daze, confusion, sadness, anxiety, anger, despair, overactivity, inactivity, social withdrawal or stupor. The response to the stressor is considered to be normal given the severity of the stressor, and usually begins to subside within a few days after the event or following removal from the threatening situation. QE9Y Other specified problems associated with harmful or traumatic events QE9Z Problems associated with harmful or traumatic events, unspecified Problems associated with social or cultural environment QE00 Acculturation difficulty • Acculturation difficulty refers to problems resulting from the inability to adjust to a different culture or environment. QE02 Social role conflict QE03 Social exclusion or rejection • Social exclusion or rejection refers to exclusion and rejection on the basis of personal characteristics such as physical appearance, sexual orientation, gender identity and expression, illness or behaviour. QE04 Personal experience of being a target of perceived adverse discrimination or persecution • Target of perceived adverse discrimination or persecution refers to persecution or discrimination – real or perceived as reality by an individual – on the basis of membership in some group (such as defined by skin colour, religion, ethnic origin, sexual orientation, gender identity and expression) rather than personal characteristics. Reasons for contact with mental health services | Problems associated with social or cultural environment",
+  "gloss_vi": "Health services 739 autonomic signs of lo âu (e.g. tachycardia, sweating, flushing), being in a daze, confusion, sadness, lo âu, anger, despair, overactivity, inactivity, social withdrawal or stupor.",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "referral"
+    ],
+    "life_topics": [
+      "stress",
+      "relationships"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Referral General — Chuyển tuyến health services 739 autonomic signs of anxiety (e.g. tachycardia, sweating, flushing), being in a daze, confusion, sadness, anxiety, anger, despair, overactivity, inactivity, social withdrawal or stupor. The response to the stressor is considered to be normal given the severity of the stressor, and usually begins to subside within a few days after the event or following removal from the threatening situation. QE9Y Other specified problems associated with harmful or traumatic events QE9Z Problems associated with harmful or traumatic events, unspecified Problems associated with social or cultural environment QE00 Acculturation difficulty • Acculturation difficulty refers to problems resulting from the inability to adjust to a different culture or environment. QE02 Social role conflict QE03 Social exclusion or rejection • Social exclusion or rejection refers to exclusion and rejection on the basis of personal characteristics such as physical appearance, sexual orientation, gender identity and expression, illness or behaviour. QE04 Personal experience of being a target of perceived adverse discrimination or persecution • Target of perceived adverse discrimination or persecution refers to persecution or discrimination – real or perceived as reality by an individual – on the basis of membership in some group (such as defined by skin colour, religion, ethnic origin, sexual orientation, gender identity and expression) rather than personal characteristics. Reasons for contact with mental health services | Problems associated with social or cultural environment Health services 739 autonomic signs of lo âu (e.g. tachycardia, sweating, flushing), being in a daze, confusion, sadness, lo âu, anger, despair, overactivity, inactivity, social withdrawal or stupor."
+}

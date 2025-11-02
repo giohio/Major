@@ -1,0 +1,36 @@
+{
+  "id": "icd11#risk_safety_e5a0c069",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "620 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Culture-related features for dementia • Performance during clinical assessment may vary according to cultural and/or linguistic factors. When assessing impairment in neurocognitive functioning and activities of daily living, cultural and linguistic factors should be considered and accounted for when possible. • When standardized neuropsychological/cognitive testing is utilized for determination of neurocognitive impairment, performance should be measured with appropriately normed, standardized tests. In situations where appropriately normed and standardized tests are not available, assessment of neurocognitive functioning requires greater reliance on clinical judgement. (See the section on general cultural considerations for neurocognitive disorders above for additional information and examples.) Boundaries with other disorders and conditions (differential diagnosis) for dementia Boundary with delirium Delirium is differentiated from dementia in that delirium is characterized by global neurocognitive impairment and confusion that have a precipitous onset, are transient, and fluctuate depending on the underlying causal condition or etiology. Dementia is more typically characterized by impairment in specific cognitive skills, and is often progressive and more gradual in onset. Individuals with dementia are at increased risk of delirium, and those who develop acute disturbances in attention, orientation and awareness should be assigned an additional diagnosis of delirium and evaluated to determine its specific etiology. Boundary with mild neurocognitive disorder Dementia is characterized by marked impairment in two or more cognitive domains that is severe enough to cause significant impairment in personal, family, social, educational, occupational or other important areas of functioning. Neurocognitive deficits in mild neurocognitive disorder may be in similar cognitive domains, but are not severe enough to cause significant impairment in functioning. Boundary with amnestic disorder Amnestic disorder is characterized by prominent memory impairment relative to expectations for age and general level of premorbid neurocognitive functioning, in the absence of other significant neurocognitive impairment. In contrast, dementia is characterized by impairment in two or more cognitive domains, which often but not invariably include memory. Boundary with disorders of intellectual development Disorders of intellectual development are characterized by significant limitations in both intellectual functioning and adaptive behaviour, with onset during the developmental period. By convention, cases that meet the diagnostic requirements for disorders of intellectual development are diagnosed as such unless the neurocognitive impairments are",
+  "gloss_vi": "620 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders culture-related features for dementia • performance during clinical đánh giá may vary according to cult...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "screening_cues",
+      "psychoeducation",
+      "management",
+      "caregiver"
+    ],
+    "life_topics": [
+      "study",
+      "relationships"
+    ],
+    "advice_section": [
+      "communication_tips"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn 620 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Culture-related features for dementia • Performance during clinical assessment may vary according to cultural and/or linguistic factors. When assessing impairment in neurocognitive functioning and activities of daily living, cultural and linguistic factors should be considered and accounted for when possible. • When standardized neuropsychological/cognitive testing is utilized for determination of neurocognitive impairment, performance should be measured with appropriately normed, standardized tests. In situations where appropriately normed and standardized tests are not available, assessment of neurocognitive functioning requires greater reliance on clinical judgement. (See the section on general cultural considerations for neurocognitive disorders above for additional information and examples.) Boundaries with other disorders and conditions (differential diagnosis) for dementia Boundary with delirium Delirium is differentiated from dementia in that delirium is characterized by global neurocognitive impairment and confusion that have a precipitous onset, are transient, and fluctuate depending on the underlying causal condition or etiology. Dementia is more typically characterized by impairment in specific cognitive skills, and is often progressive and more gradual in onset. Individuals with dementia are at increased risk of delirium, and those who develop acute disturbances in attention, orientation and awareness should be assigned an additional diagnosis of delirium and evaluated to determine its specific etiology. Boundary with mild neurocognitive disorder Dementia is characterized by marked impairment in two or more cognitive domains that is severe enough to cause significant impairment in personal, family, social, educational, occupational or other important areas of functioning. Neurocognitive deficits in mild neurocognitive disorder may be in similar cognitive domains, but are not severe enough to cause significant impairment in functioning. Boundary with amnestic disorder Amnestic disorder is characterized by prominent memory impairment relative to expectations for age and general level of premorbid neurocognitive functioning, in the absence of other significant neurocognitive impairment. In contrast, dementia is characterized by impairment in two or more cognitive domains, which often but not invariably include memory. Boundary with disorders of intellectual development Disorders of intellectual development are characterized by significant limitations in both intellectual functioning and adaptive behaviour, with onset during the developmental period. By convention, cases that meet the diagnostic requirements for disorders of intellectual development are diagnosed as such unless the neurocognitive impairments are 620 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders culture-related features for dementia • performance during clinical đánh giá may vary according to cult..."
+}

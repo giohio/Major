@@ -1,0 +1,27 @@
+{
+  "id": "icd11#screening_cues_c5731bdb",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "refers to unpleasant thoughts that are difficult to control, related to anticipated potential negative events. MB24.Y Other specified symptoms or signs involving mood or affect MB24.Z Symptoms or signs involving mood or affect, unspecified MB25 Symptoms or signs involving form of thought This grouping includes symptoms or signs involving the logical sequence and coherence of thought, typically manifested in speech or writing, including thought disorder (circumstantiality, tangentiality, disorganized thinking and incoherence), flight of ideas, neologisms and thought blocking. MB25.0 Symptoms or signs of thought disorder • Symptoms or signs of thought disorder refer to disturbances in the associative thought process, typically manifested in speech or writing, that range from circumstantiality to incoherence. These may be indicative of schizophrenia and other primary psychotic disorders, but can also occur in other mental disorders (e.g. delirium). It includes the following subcategories. MB25.00 Circumstantiality • Circumstantiality refers to a relatively mild disturbance in the associative thought process, typically manifested in speech or writing, exemplified by delay in getting to the point because of the interpolation of unnecessary details and irrelevant parenthetical remarks. MB25.01 Tangentiality • Tangentiality refers to a disturbance in the associative thought process, typically manifested in speech, in which the person tends to digress readily from the topic under discussion to other topics through associations, without ever returning to the original topic. Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs involving mood or affect Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs involving form of thought",
+  "gloss_vi": "Refers to unpleasant thoughts that are difficult to control, related to anticipated potential negative events. mb24.y other specified symptoms or signs involving mood or affect mb24.z symptoms or signs involving mood or ...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "referral"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc refers to unpleasant thoughts that are difficult to control, related to anticipated potential negative events. MB24.Y Other specified symptoms or signs involving mood or affect MB24.Z Symptoms or signs involving mood or affect, unspecified MB25 Symptoms or signs involving form of thought This grouping includes symptoms or signs involving the logical sequence and coherence of thought, typically manifested in speech or writing, including thought disorder (circumstantiality, tangentiality, disorganized thinking and incoherence), flight of ideas, neologisms and thought blocking. MB25.0 Symptoms or signs of thought disorder • Symptoms or signs of thought disorder refer to disturbances in the associative thought process, typically manifested in speech or writing, that range from circumstantiality to incoherence. These may be indicative of schizophrenia and other primary psychotic disorders, but can also occur in other mental disorders (e.g. delirium). It includes the following subcategories. MB25.00 Circumstantiality • Circumstantiality refers to a relatively mild disturbance in the associative thought process, typically manifested in speech or writing, exemplified by delay in getting to the point because of the interpolation of unnecessary details and irrelevant parenthetical remarks. MB25.01 Tangentiality • Tangentiality refers to a disturbance in the associative thought process, typically manifested in speech, in which the person tends to digress readily from the topic under discussion to other topics through associations, without ever returning to the original topic. Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs involving mood or affect Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs involving form of thought Refers to unpleasant thoughts that are difficult to control, related to anticipated potential negative events. mb24.y other specified symptoms or signs involving mood or affect mb24.z symptoms or signs involving mood or ..."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "icd11#screening_cues_eda223e6",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "Mental or behavioural symptoms, signs or clinical findings 677 Mental or behavioural symptoms, signs or clinical findings This section comprises mental or behavioural symptoms that may be an important aspect of an individual’s clinical presentation, or may be a reason for a clinical encounter or for treatment. It replicates one section of Chapter 21 on symptoms, signs or clinical findings, not elsewhere classified. These categories may be used when a more precise diagnosis has not been established for various reasons (e.g. they describe transient symptoms at the time of initial encounter whose causes could not be determined; the individual was referred for investigation or treatment before a diagnosis was made; the patient failed to return for further investigation or follow-up; a more specific diagnosis could not be determined even after investigation). In these cases, the categories from this section can be used to describe the clinical presentation in the absence of a diagnosis for the underlying disorder or condition. These categories may also be used to describe clinically important aspects of the individual’s presentation when a mental disorder diagnosis has been assigned. They may be especially useful when the symptom being described has implications for treatment but is not an essential feature of the disorder itself, and does not meet the requirements for another diagnosable disorder (e.g. duration, severity, situational specificity). For example, an individual with autism spectrum disorder may be experiencing significant anxiety related to a transition to an unfamiliar environment that does not by itself meet the diagnostic requirements for any anxiety or fear- related disorder. In this case, the symptom category MB24.3 Anxiety could be assigned together with the diagnosis 6A02 Autism spectrum disorder. (The resulting diagnostic code would be 6A02/MB24.3.) Thus, additional symptom codes may be used together with the underlying diagnosis if they convey clinically important additional information. Symptom categories should not be applied in circumstances where they do not convey any additional meaningful information. For example, applying the symptom code MB24.3 Anxiety together with a diagnosis of 6B00 Generalized anxiety disorder would be redundant because anxiety is an essential feature of the disorder itself. Mental or behavioural symptoms, signs",
+  "gloss_vi": "Mental or behavioural symptoms, signs or clinical findings 677 mental or behavioural symptoms, signs or clinical findings this section comprises mental or behavioural symptoms that may be an important aspect of an indivi...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "referral",
+      "do_not_do",
+      "management"
+    ],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc Mental or behavioural symptoms, signs or clinical findings 677 Mental or behavioural symptoms, signs or clinical findings This section comprises mental or behavioural symptoms that may be an important aspect of an individual’s clinical presentation, or may be a reason for a clinical encounter or for treatment. It replicates one section of Chapter 21 on symptoms, signs or clinical findings, not elsewhere classified. These categories may be used when a more precise diagnosis has not been established for various reasons (e.g. they describe transient symptoms at the time of initial encounter whose causes could not be determined; the individual was referred for investigation or treatment before a diagnosis was made; the patient failed to return for further investigation or follow-up; a more specific diagnosis could not be determined even after investigation). In these cases, the categories from this section can be used to describe the clinical presentation in the absence of a diagnosis for the underlying disorder or condition. These categories may also be used to describe clinically important aspects of the individual’s presentation when a mental disorder diagnosis has been assigned. They may be especially useful when the symptom being described has implications for treatment but is not an essential feature of the disorder itself, and does not meet the requirements for another diagnosable disorder (e.g. duration, severity, situational specificity). For example, an individual with autism spectrum disorder may be experiencing significant anxiety related to a transition to an unfamiliar environment that does not by itself meet the diagnostic requirements for any anxiety or fear- related disorder. In this case, the symptom category MB24.3 Anxiety could be assigned together with the diagnosis 6A02 Autism spectrum disorder. (The resulting diagnostic code would be 6A02/MB24.3.) Thus, additional symptom codes may be used together with the underlying diagnosis if they convey clinically important additional information. Symptom categories should not be applied in circumstances where they do not convey any additional meaningful information. For example, applying the symptom code MB24.3 Anxiety together with a diagnosis of 6B00 Generalized anxiety disorder would be redundant because anxiety is an essential feature of the disorder itself. Mental or behavioural symptoms, signs Mental or behavioural symptoms, signs or clinical findings 677 mental or behavioural symptoms, signs or clinical findings this section comprises mental or behavioural symptoms that may be an important aspect of an indivi..."
+}
