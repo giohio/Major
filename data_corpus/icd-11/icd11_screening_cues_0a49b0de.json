@@ -1,0 +1,32 @@
+{
+  "id": "icd11#screening_cues_0a49b0de",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "608 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6D70.Y Delirium, other specified cause Essential (required) features • All diagnostic requirements for delirium are met. • The delirium is presumed to be attributable to an identified cause that is not adequately captured by any of the other available delirium categories. • This judgement depends on establishing the following: • The specified cause is known to be capable of producing delirium. • The course of the delirium (e.g. onset, trajectory of symptoms, response to treatment) is consistent with the specified cause. Note: the ICD-11 diagnosis corresponding to the presumed etiology should also be assigned. 6D70.Z Delirium, unknown or unspecified cause 6D71 Mild neurocognitive disorder Essential (required) features • The presence of mild impairment in one more or cognitive domains (e.g. attention, executive function, language, memory, perceptual-motor abilities, social cognition) relative to expectations for age and general premorbid level of neurocognitive functioning is required for diagnosis. • Impairment represents a decline from the individual’s previous level of functioning. • Neurocognitive impairment is not severe enough to interfere significantly with an individual’s ability to perform activities related to personal, family, social, educational and/ or occupational functioning or other important functional areas. • Evidence of mild neurocognitive impairment is based on: • information obtained from the individual, an informant or clinical observation; • objective evidence of impairment as demonstrated by standardized neuropsychological/ cognitive testing or, in its absence, another quantified clinical assessment. • Neurocognitive impairment is not attributable to normal ageing. • Neurocognitive impairment may be attributable to an underlying acquired disease of the nervous system, a trauma, an infection or other disease process affecting the brain, use of specific substances or medications, nutritional deficiency or exposure to toxins, or the etiology may be undetermined. Neurocognitive disorders | Mild neurocognitive disorder Neurocognitive disorders | Mild neurocognitive disorder Neurocognitive",
+  "gloss_vi": "608 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders 6d70.y delirium, other specified cause essential (required) features • all diagnostic requirements for ...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "psychoeducation",
+      "management",
+      "caregiver"
+    ],
+    "life_topics": [
+      "relationships"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 608 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6D70.Y Delirium, other specified cause Essential (required) features • All diagnostic requirements for delirium are met. • The delirium is presumed to be attributable to an identified cause that is not adequately captured by any of the other available delirium categories. • This judgement depends on establishing the following: • The specified cause is known to be capable of producing delirium. • The course of the delirium (e.g. onset, trajectory of symptoms, response to treatment) is consistent with the specified cause. Note: the ICD-11 diagnosis corresponding to the presumed etiology should also be assigned. 6D70.Z Delirium, unknown or unspecified cause 6D71 Mild neurocognitive disorder Essential (required) features • The presence of mild impairment in one more or cognitive domains (e.g. attention, executive function, language, memory, perceptual-motor abilities, social cognition) relative to expectations for age and general premorbid level of neurocognitive functioning is required for diagnosis. • Impairment represents a decline from the individual’s previous level of functioning. • Neurocognitive impairment is not severe enough to interfere significantly with an individual’s ability to perform activities related to personal, family, social, educational and/ or occupational functioning or other important functional areas. • Evidence of mild neurocognitive impairment is based on: • information obtained from the individual, an informant or clinical observation; • objective evidence of impairment as demonstrated by standardized neuropsychological/ cognitive testing or, in its absence, another quantified clinical assessment. • Neurocognitive impairment is not attributable to normal ageing. • Neurocognitive impairment may be attributable to an underlying acquired disease of the nervous system, a trauma, an infection or other disease process affecting the brain, use of specific substances or medications, nutritional deficiency or exposure to toxins, or the etiology may be undetermined. Neurocognitive disorders | Mild neurocognitive disorder Neurocognitive disorders | Mild neurocognitive disorder Neurocognitive 608 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders 6d70.y delirium, other specified cause essential (required) features • all diagnostic requirements for ..."
+}

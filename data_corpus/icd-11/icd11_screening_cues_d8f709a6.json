@@ -1,0 +1,29 @@
+{
+  "id": "icd11#screening_cues_d8f709a6",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "Disorders due to substance use or addictive behaviours 479 Substance withdrawal Available categories by substance class 6C40.4 Alcohol withdrawal 6C41.4 Cannabis withdrawal 6C42.4 Synthetic cannabinoid withdrawal 6C43.4 Opioid withdrawal 6C44.4 Sedative, hypnotic or anxiolytic withdrawal 6C45.4 Cocaine withdrawal 6C46.4 Stimulant withdrawal, including amfetamines, methamfetamine and methcathinone 6C47.4 Synthetic cathinone withdrawal 6C48.3 Caffeine withdrawal 6C4A.4 Nicotine withdrawal 6C4B.4 Volatile inhalant withdrawal 6C4C.4 MDMA or related drug withdrawal, including MDA 6C4E.4 Other specified psychoactive substance withdrawal 6C4F.4 Multiple specified psychoactive substances withdrawal 6C4G.4 Withdrawal due to unknown or unspecified psychoactive substances Essential (required) features • The presentation is characterized by a clinically significant cluster of symptoms, behaviours and/or physiological features that occurs upon cessation or reduction in the use of a substance in individuals who have developed dependence on that substance, or have used the substance for a prolonged period or in large amounts. Note: substance withdrawal can occur when prescribed psychoactive medications (e.g. opioids, anxiolytics, stimulants) have been used in standard therapeutic doses. • The specific features of substance withdrawal depend on the pharmacological properties of the specified substance (see Table 6.16, p. 484), and are consistent with those recognized as occurring upon cessation or reduction of the particular substance or other members of the same pharmacological group of substances. The symptoms also vary in degree of severity and duration, depending on the substance and the amount and pattern of prior use. • The symptoms are not better accounted for by another medical condition or another mental disorder. Note: substance withdrawal is only applicable for some substances or substance classes (see the list above and Table 6.13, p. 450). Table 6.16 (p. 484) lists the most common symptoms, behaviours and",
+  "gloss_vi": "Disorders due to substance use or addictive behaviours 479 substance withdrawal available categories by substance class 6c40.4 alcohol withdrawal 6c41.4 cannabis withdrawal 6c42.4 synthetic cannabinoid withdrawal 6c43.4 ...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [
+      "sleep_hygiene"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc Disorders due to substance use or addictive behaviours 479 Substance withdrawal Available categories by substance class 6C40.4 Alcohol withdrawal 6C41.4 Cannabis withdrawal 6C42.4 Synthetic cannabinoid withdrawal 6C43.4 Opioid withdrawal 6C44.4 Sedative, hypnotic or anxiolytic withdrawal 6C45.4 Cocaine withdrawal 6C46.4 Stimulant withdrawal, including amfetamines, methamfetamine and methcathinone 6C47.4 Synthetic cathinone withdrawal 6C48.3 Caffeine withdrawal 6C4A.4 Nicotine withdrawal 6C4B.4 Volatile inhalant withdrawal 6C4C.4 MDMA or related drug withdrawal, including MDA 6C4E.4 Other specified psychoactive substance withdrawal 6C4F.4 Multiple specified psychoactive substances withdrawal 6C4G.4 Withdrawal due to unknown or unspecified psychoactive substances Essential (required) features • The presentation is characterized by a clinically significant cluster of symptoms, behaviours and/or physiological features that occurs upon cessation or reduction in the use of a substance in individuals who have developed dependence on that substance, or have used the substance for a prolonged period or in large amounts. Note: substance withdrawal can occur when prescribed psychoactive medications (e.g. opioids, anxiolytics, stimulants) have been used in standard therapeutic doses. • The specific features of substance withdrawal depend on the pharmacological properties of the specified substance (see Table 6.16, p. 484), and are consistent with those recognized as occurring upon cessation or reduction of the particular substance or other members of the same pharmacological group of substances. The symptoms also vary in degree of severity and duration, depending on the substance and the amount and pattern of prior use. • The symptoms are not better accounted for by another medical condition or another mental disorder. Note: substance withdrawal is only applicable for some substances or substance classes (see the list above and Table 6.13, p. 450). Table 6.16 (p. 484) lists the most common symptoms, behaviours and Disorders due to substance use or addictive behaviours 479 substance withdrawal available categories by substance class 6c40.4 alcohol withdrawal 6c41.4 cannabis withdrawal 6c42.4 synthetic cannabinoid withdrawal 6c43.4 ..."
+}

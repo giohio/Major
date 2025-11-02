@@ -1,0 +1,29 @@
+{
+  "id": "icd11#screening_cues_1fe01884",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "68 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6C48.3 Caffeine withdrawal 6C48.71 Caffeine-induced anxiety disorder 6C48.Y Other specified disorder due to use of caffeine 6C48.Z Disorder due to use of caffeine, unspecified 6C49 Disorders due to use of hallucinogens 6C49.0 Episode of harmful use of hallucinogens 6C49.1 Harmful pattern of use of hallucinogens Specify pattern: 6C49.10 … episodic 6C49.11 … continuous 6C49.1Z … unspecified 6C49.2 Hallucinogen dependence Specify pattern of substance use or remission: 6C49.20 … current use 6C49.21 … early full remission 6C49.22 … sustained partial remission 6C49.23 … sustained full remission 6C49.2Z … unspecified 6C49.3 Hallucinogen intoxication Specify severity: 6C49.3&XS5W Hallucinogen intoxication, mild 6C49.3&XS0T Hallucinogen intoxication, moderate 6C49.3&XS25 Hallucinogen intoxication, severe 6C49.4 Hallucinogen-induced delirium 6C49.5 Hallucinogen-induced psychotic disorder 6C49.60 Hallucinogen-induced mood disorder Specify clinical presentation: 6C49.600 … with depressive symptoms 6C49.601 … with manic symptoms 6C49.602 … with mixed depressive and manic symptoms 6C49.60Z … unspecified 6C49.61 Hallucinogen-induced anxiety disorder 6C49.Y Other specified disorder due to use of hallucinogens 6C49.Z Disorder due to use of hallucinogens, unspecified 6C4A Disorders due to use of nicotine 6C4A.0 Episode of harmful use of nicotine 6C4A.1 Harmful pattern of use of nicotine Specify pattern: 6C4A.10 … episodic 6C4A.11 … continuous 6C4A.1Z … unspecified List of categories 69 6C4A.2 Nicotine dependence Specify pattern of",
+  "gloss_vi": "68 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders 6c48.3 caffeine withdrawal 6c48.71 caffeine-induced lo âu disorder 6c48.y other specified disorder due t...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [
+      "sleep_hygiene"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 68 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6C48.3 Caffeine withdrawal 6C48.71 Caffeine-induced anxiety disorder 6C48.Y Other specified disorder due to use of caffeine 6C48.Z Disorder due to use of caffeine, unspecified 6C49 Disorders due to use of hallucinogens 6C49.0 Episode of harmful use of hallucinogens 6C49.1 Harmful pattern of use of hallucinogens Specify pattern: 6C49.10 … episodic 6C49.11 … continuous 6C49.1Z … unspecified 6C49.2 Hallucinogen dependence Specify pattern of substance use or remission: 6C49.20 … current use 6C49.21 … early full remission 6C49.22 … sustained partial remission 6C49.23 … sustained full remission 6C49.2Z … unspecified 6C49.3 Hallucinogen intoxication Specify severity: 6C49.3&XS5W Hallucinogen intoxication, mild 6C49.3&XS0T Hallucinogen intoxication, moderate 6C49.3&XS25 Hallucinogen intoxication, severe 6C49.4 Hallucinogen-induced delirium 6C49.5 Hallucinogen-induced psychotic disorder 6C49.60 Hallucinogen-induced mood disorder Specify clinical presentation: 6C49.600 … with depressive symptoms 6C49.601 … with manic symptoms 6C49.602 … with mixed depressive and manic symptoms 6C49.60Z … unspecified 6C49.61 Hallucinogen-induced anxiety disorder 6C49.Y Other specified disorder due to use of hallucinogens 6C49.Z Disorder due to use of hallucinogens, unspecified 6C4A Disorders due to use of nicotine 6C4A.0 Episode of harmful use of nicotine 6C4A.1 Harmful pattern of use of nicotine Specify pattern: 6C4A.10 … episodic 6C4A.11 … continuous 6C4A.1Z … unspecified List of categories 69 6C4A.2 Nicotine dependence Specify pattern of 68 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders 6c48.3 caffeine withdrawal 6c48.71 caffeine-induced lo âu disorder 6c48.y other specified disorder due t..."
+}

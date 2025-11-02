@@ -1,0 +1,33 @@
+{
+  "id": "everyday#screening_cues_99df2152",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "intoxication, onset during withdrawal). For example, in the case of depressive symp- toms occurring during withdrawal in a man with a severe cocaine use disorder, the diagnosis is F14.24 severe cocaine use disorder with co- caine-induced depressive disorder, with onset during withdrawal. A separate diagnosis of the comorbid severe cocaine use disorder is not Depressive Disorder Due to Another Medical Condition 105 given. If the substance-induced depressive disorder occurs without a comorbid substance use disorder (e.g., after a one-time heavy use of the substance), no accompanying substance use disorder is noted (e.g., F16.94 phencyclidine-induced depressive disorder, with onset during intoxication). When more than one substance is judged to play a sig- nificant role in the development of depressive mood symptoms, each should be listed separately (e.g., F15.24 severe methylphenidate use disorder with methylphenidate-induced depressive disorder, with onset during withdrawal; F19.94 dexamethasone-induced depressive disorder, with onset during intoxication). Depressive Disorder Due to Another Medical Condition A. A prominent and persistent period of depressed mood or mark- edly diminished interest or pleasure in all, or almost all, activities that predominates in the clinical picture. B. There is evidence from the history, physical examination, or lab- oratory findings that the disturbance is the direct pathophysiolog- ical consequence of another medical condition. C. The disturbance is not better explained by another mental disor- der (e.g., adjustment disorder, with depressed mood, in which the stressor is a serious medical condition). D. The disturbance does not occur exclusively during the course of a delirium. E. The disturbance causes clinically significant distress or impairment in social, occupational, or other important areas of functioning. Coding note: The ICD-9-CM code for depressive disorder due to an- other medical condition is 293.83, which is assigned regardless of the specifier. The ICD-10-CM code depends on the specifier (see below). Specify if: (F06.31) With depressive features: Full criteria are not met for a major depressive episode. (F06.32) With major depressive–like episode: Full criteria are met (except Criterion C) for a major depressive episode. (F06.34) With mixed features: Symptoms of mania or hypoma- nia are also present but do not predominate in the clinical picture.",
+  "gloss_vi": "Intoxication, onset during withdrawal). for example, in the case of depressive symp- toms occurring during withdrawal in a man with a severe cocaine use disorder, the diagnosis is f14.24 severe cocaine use disorder with ...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "stress",
+      "study"
+    ],
+    "advice_section": [
+      "work_habits"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc intoxication, onset during withdrawal). For example, in the case of depressive symp- toms occurring during withdrawal in a man with a severe cocaine use disorder, the diagnosis is F14.24 severe cocaine use disorder with co- caine-induced depressive disorder, with onset during withdrawal. A separate diagnosis of the comorbid severe cocaine use disorder is not Depressive Disorder Due to Another Medical Condition 105 given. If the substance-induced depressive disorder occurs without a comorbid substance use disorder (e.g., after a one-time heavy use of the substance), no accompanying substance use disorder is noted (e.g., F16.94 phencyclidine-induced depressive disorder, with onset during intoxication). When more than one substance is judged to play a sig- nificant role in the development of depressive mood symptoms, each should be listed separately (e.g., F15.24 severe methylphenidate use disorder with methylphenidate-induced depressive disorder, with onset during withdrawal; F19.94 dexamethasone-induced depressive disorder, with onset during intoxication). Depressive Disorder Due to Another Medical Condition A. A prominent and persistent period of depressed mood or mark- edly diminished interest or pleasure in all, or almost all, activities that predominates in the clinical picture. B. There is evidence from the history, physical examination, or lab- oratory findings that the disturbance is the direct pathophysiolog- ical consequence of another medical condition. C. The disturbance is not better explained by another mental disor- der (e.g., adjustment disorder, with depressed mood, in which the stressor is a serious medical condition). D. The disturbance does not occur exclusively during the course of a delirium. E. The disturbance causes clinically significant distress or impairment in social, occupational, or other important areas of functioning. Coding note: The ICD-9-CM code for depressive disorder due to an- other medical condition is 293.83, which is assigned regardless of the specifier. The ICD-10-CM code depends on the specifier (see below). Specify if: (F06.31) With depressive features: Full criteria are not met for a major depressive episode. (F06.32) With major depressive–like episode: Full criteria are met (except Criterion C) for a major depressive episode. (F06.34) With mixed features: Symptoms of mania or hypoma- nia are also present but do not predominate in the clinical picture. Intoxication, onset during withdrawal). for example, in the case of depressive symp- toms occurring during withdrawal in a man with a severe cocaine use disorder, the diagnosis is f14.24 severe cocaine use disorder with ..."
+}

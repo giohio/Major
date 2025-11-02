@@ -1,0 +1,33 @@
+{
+  "id": "icd11#screening_cues_41f7f830",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "14 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders grandiose delusions, delusions of guilt, somatic delusions). Given that it is a semi-structured rather than a fully structured interview, the interviewing clinician also has the option of following up on particular responses or asking additional questions in order to assess the relevant phenomena fully. WHO plans to make available a list of the operational decisions implemented in the SCII-11 as a resource in the development of other instruments to encourage greater cross-instrument agreement. In addition, WHO is developing a fully structured diagnostic interview to be used in epidemiological studies and in other situations in which the SCII-11 is not feasible owing to time constraints or because it is not feasible to use trained clinicians as interviewers. The Flexible Interview for ICD-11 (FLII-11) covers common and high-burden mental disorders, but is less comprehensive than the SCII-11. It is based on the algorithms and operationalizations developed for the SCII-11 but consists entirely of closed-ended (primarily yes/no questions), and is designed for use by lay interviewers with a limited amount of training. It will also be available for electronic administration as an open-access tool for WHO member states. The Schedules for Clinical Assessment in Neuropsychiatry (SCAN) (65,66) is a semi-structured clinical interview used by trained clinicians to assess and diagnose mental disorders among adults, originally developed as a part of a joint project of WHO and the United States National Institute of Mental Health. The SCAN comprises a set of instruments, supported by manuals, and was originally developed around the Present State Examination, which assesses a wide range of symptoms likely to be manifested during a psychotic episode. The SCAN is designed to yield both ICD and DSM diagnoses, and has been translated into more than 35 languages. It requires extensive training by an approved training centre to administer. Its approach is different from that of the SCII-11, which attempts to assess the diagnostic requirements of mental disorders more directly via direct self-report of their essential features. Version 3 of the SCAN is currently being developed and will be fully compatible with the ICD-11. It will refer to the SCII-11 operationalizations in the formulation of its diagnostic algorithms, although its assessment methodology will remain distinct. In addition, instruments focused on particular diagnoses as formulated in ICD-11 are being developed by WHO as well as by researchers external to WHO. For example, WHO is supporting the development of screening and diagnostic tools for gaming disorder (67).",
+  "gloss_vi": "14 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders grandiose delusions, delusions of guilt, somatic delusions). given that it is a semi-structured rather t...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "referral",
+      "psychoeducation"
+    ],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [
+      "sleep_hygiene"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 14 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders grandiose delusions, delusions of guilt, somatic delusions). Given that it is a semi-structured rather than a fully structured interview, the interviewing clinician also has the option of following up on particular responses or asking additional questions in order to assess the relevant phenomena fully. WHO plans to make available a list of the operational decisions implemented in the SCII-11 as a resource in the development of other instruments to encourage greater cross-instrument agreement. In addition, WHO is developing a fully structured diagnostic interview to be used in epidemiological studies and in other situations in which the SCII-11 is not feasible owing to time constraints or because it is not feasible to use trained clinicians as interviewers. The Flexible Interview for ICD-11 (FLII-11) covers common and high-burden mental disorders, but is less comprehensive than the SCII-11. It is based on the algorithms and operationalizations developed for the SCII-11 but consists entirely of closed-ended (primarily yes/no questions), and is designed for use by lay interviewers with a limited amount of training. It will also be available for electronic administration as an open-access tool for WHO member states. The Schedules for Clinical Assessment in Neuropsychiatry (SCAN) (65,66) is a semi-structured clinical interview used by trained clinicians to assess and diagnose mental disorders among adults, originally developed as a part of a joint project of WHO and the United States National Institute of Mental Health. The SCAN comprises a set of instruments, supported by manuals, and was originally developed around the Present State Examination, which assesses a wide range of symptoms likely to be manifested during a psychotic episode. The SCAN is designed to yield both ICD and DSM diagnoses, and has been translated into more than 35 languages. It requires extensive training by an approved training centre to administer. Its approach is different from that of the SCII-11, which attempts to assess the diagnostic requirements of mental disorders more directly via direct self-report of their essential features. Version 3 of the SCAN is currently being developed and will be fully compatible with the ICD-11. It will refer to the SCII-11 operationalizations in the formulation of its diagnostic algorithms, although its assessment methodology will remain distinct. In addition, instruments focused on particular diagnoses as formulated in ICD-11 are being developed by WHO as well as by researchers external to WHO. For example, WHO is supporting the development of screening and diagnostic tools for gaming disorder (67). 14 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders grandiose delusions, delusions of guilt, somatic delusions). given that it is a semi-structured rather t..."
+}

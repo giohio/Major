@@ -1,52 +1,53 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* App-specific styles - base styles are in theme.css */
+
+/* Form styles */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  line-height: 1.6;
-  color: #ffffff;
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
 }
 
-.app {
-  background: linear-gradient(135deg, #1a1d29 0%, #2d3748 100%);
-  min-height: 100vh;
+.form-label {
+  font-weight: 500;
+  color: var(--text-primary);
+  font-size: var(--font-size-sm);
 }
 
+.form-input {
+  padding: var(--spacing-md);
+  border: 2px solid var(--color-gray-200);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-base);
+  transition: all var(--transition-fast);
+  background: var(--bg-primary);
+}
+
+.form-input:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(0, 166, 166, 0.1);
+}
+
+textarea.form-input {
+  resize: vertical;
+  min-height: 100px;
+  font-family: var(--font-family);
+}
+
+select.form-input {
+  cursor: pointer;
+}
+
+/* Legacy container override if needed */
 .container {
-  width: 100%;
-  margin: 0;
-  padding: 0 4vw;
-}
-
-@media (max-width: 768px) {
-  .container {
-    padding: 0 1rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    padding: 0 6vw;
-  }
-}
-
-@media (min-width: 1600px) {
-  .container {
-    padding: 0 8vw;
-  }
-}
-
-@media (min-width: 2000px) {
-  .container {
-    padding: 0 10vw;
-  }
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
 }
 
 /* Header */

@@ -1,0 +1,33 @@
+{
+  "id": "icd11#screening_cues_a087c52c",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "660 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders • The symptoms are judged to be the direct pathophysiological consequence of a medical condition, based on evidence from the history, physical examination or laboratory findings. This judgement depends on establishing the following. • The medical condition is known to be capable of producing the symptoms. • The course of the mood symptoms (e.g. onset, remission, response of the mood symptoms to treatment of the etiological medical condition) is consistent with causation by the medical condition. • The symptoms are not better accounted for by delirium, dementia, another mental disorder (e.g. a depressive disorder, bipolar type I or bipolar type II disorder, cyclothymic disorder, catatonia) or the effects of a medication or substance, including withdrawal effects. • The symptoms are sufficiently severe to be a specific focus of clinical attention. 6E62.0 Secondary mood syndrome, with depressive symptoms Essential (required) features • All diagnostic requirements for secondary mood syndrome are met. • The presentation is characterized by prominent depressive symptoms without prominent manic symptoms. 6E62.1 Secondary mood syndrome, with manic symptoms Essential (required) features • All diagnostic requirements for secondary mood syndrome are met. • The presentation is characterized by prominent manic symptoms without prominent depressive symptoms. 6E62.2 Secondary mood syndrome, with mixed symptoms Essential (required) features • All diagnostic requirements for secondary mood syndrome are met. • The presentation is characterized by both prominent depressive and prominent manic symptoms. Secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere Secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere 661 6E62.3 Secondary mood syndrome, with unspecified symptoms Boundaries with other disorders and conditions (differential diagnosis) Boundary with mood disorders Determining whether mood symptoms are due to a medical condition as opposed to manifestations of a primary mental disorder is often difficult because the clinical presentations may be similar. Establishing the presence of a potentially explanatory medical condition that can cause mood symptoms and the temporal relationship between the medical condition and the mood symptoms is critical in diagnosing secondary mood syndrome. If the clinical features are atypical for mood disorders (e.g. atypical age of onset or course,",
+  "gloss_vi": "660 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders • the symptoms are judged to be the direct pathophysiological consequence of a medical condition, based...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "management"
+    ],
+    "life_topics": [
+      "study",
+      "relationships"
+    ],
+    "advice_section": [
+      "communication_tips"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 660 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders • The symptoms are judged to be the direct pathophysiological consequence of a medical condition, based on evidence from the history, physical examination or laboratory findings. This judgement depends on establishing the following. • The medical condition is known to be capable of producing the symptoms. • The course of the mood symptoms (e.g. onset, remission, response of the mood symptoms to treatment of the etiological medical condition) is consistent with causation by the medical condition. • The symptoms are not better accounted for by delirium, dementia, another mental disorder (e.g. a depressive disorder, bipolar type I or bipolar type II disorder, cyclothymic disorder, catatonia) or the effects of a medication or substance, including withdrawal effects. • The symptoms are sufficiently severe to be a specific focus of clinical attention. 6E62.0 Secondary mood syndrome, with depressive symptoms Essential (required) features • All diagnostic requirements for secondary mood syndrome are met. • The presentation is characterized by prominent depressive symptoms without prominent manic symptoms. 6E62.1 Secondary mood syndrome, with manic symptoms Essential (required) features • All diagnostic requirements for secondary mood syndrome are met. • The presentation is characterized by prominent manic symptoms without prominent depressive symptoms. 6E62.2 Secondary mood syndrome, with mixed symptoms Essential (required) features • All diagnostic requirements for secondary mood syndrome are met. • The presentation is characterized by both prominent depressive and prominent manic symptoms. Secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere Secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere 661 6E62.3 Secondary mood syndrome, with unspecified symptoms Boundaries with other disorders and conditions (differential diagnosis) Boundary with mood disorders Determining whether mood symptoms are due to a medical condition as opposed to manifestations of a primary mental disorder is often difficult because the clinical presentations may be similar. Establishing the presence of a potentially explanatory medical condition that can cause mood symptoms and the temporal relationship between the medical condition and the mood symptoms is critical in diagnosing secondary mood syndrome. If the clinical features are atypical for mood disorders (e.g. atypical age of onset or course, 660 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders • the symptoms are judged to be the direct pathophysiological consequence of a medical condition, based..."
+}

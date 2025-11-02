@@ -1,0 +1,26 @@
+{
+  "id": "icd11#screening_cues_9162d380",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "with pregnancy, childbirth or the puerperium, with psychotic symptoms 6E2Z Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, unspecified List of categories 45 6A61 Bipolar type II disorder Specify type of current or most recent episode and/or remission: 6A61.0 … current episode hypomanic 6A61.1 … current episode depressive, mild 6A61.2 … current episode depressive, moderate, without psychotic symptoms 6A61.3 … current episode depressive, moderate, with psychotic symptoms 6A61.4 … current episode depressive, severe, without psychotic symptoms 6A61.5 … current episode depressive, severe, with psychotic symptoms 6A61.6 … current episode depressive, unspecified severity 6A61.7 … currently in partial remission, most recent episode hypomanic 6A61.8 … currently in partial remission, most recent episode depressive 6A61.9 … currently in partial remission, most recent episode unspecified 6A61.A … currently in full remission 6A61.Y Other specified bipolar type II disorder 6A61.Z Bipolar type II disorder, unspecified Postcoordination for bipolar type II disorder For all above bipolar type II disorder categories, specify additional features of current presentation or course by using additional code(s) if applicable: 6A80.0 with prominent anxiety symptoms 6A80.1 with panic attacks 6A80.2 current depressive episode persistent 6A80.3 current depressive episode with melancholia 6A80.4 with seasonal pattern of mood episode onset 6A80.5 with rapid cycling For all above bipolar type II disorder current or most recent episodes, specify if episode onset was during pregnancy or within 6 weeks after delivery by using additional code: 6E20 Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, without psychotic symptoms 6E21 Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, with psychotic symptoms 6E2Z Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, unspecified 6A62 Cyclothymic disorder 6A6Y Other specified bipolar or related disorder 6A6Z Bipolar or related disorder, unspecified",
+  "gloss_vi": "With pregnancy, childbirth or the puerperium, with psychotic symptoms 6e2z mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, unspecified list of categories 45 6a61 bipolar type ii ...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc with pregnancy, childbirth or the puerperium, with psychotic symptoms 6E2Z Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, unspecified List of categories 45 6A61 Bipolar type II disorder Specify type of current or most recent episode and/or remission: 6A61.0 … current episode hypomanic 6A61.1 … current episode depressive, mild 6A61.2 … current episode depressive, moderate, without psychotic symptoms 6A61.3 … current episode depressive, moderate, with psychotic symptoms 6A61.4 … current episode depressive, severe, without psychotic symptoms 6A61.5 … current episode depressive, severe, with psychotic symptoms 6A61.6 … current episode depressive, unspecified severity 6A61.7 … currently in partial remission, most recent episode hypomanic 6A61.8 … currently in partial remission, most recent episode depressive 6A61.9 … currently in partial remission, most recent episode unspecified 6A61.A … currently in full remission 6A61.Y Other specified bipolar type II disorder 6A61.Z Bipolar type II disorder, unspecified Postcoordination for bipolar type II disorder For all above bipolar type II disorder categories, specify additional features of current presentation or course by using additional code(s) if applicable: 6A80.0 with prominent anxiety symptoms 6A80.1 with panic attacks 6A80.2 current depressive episode persistent 6A80.3 current depressive episode with melancholia 6A80.4 with seasonal pattern of mood episode onset 6A80.5 with rapid cycling For all above bipolar type II disorder current or most recent episodes, specify if episode onset was during pregnancy or within 6 weeks after delivery by using additional code: 6E20 Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, without psychotic symptoms 6E21 Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, with psychotic symptoms 6E2Z Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, unspecified 6A62 Cyclothymic disorder 6A6Y Other specified bipolar or related disorder 6A6Z Bipolar or related disorder, unspecified With pregnancy, childbirth or the puerperium, with psychotic symptoms 6e2z mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, unspecified list of categories 45 6a61 bipolar type ii ..."
+}

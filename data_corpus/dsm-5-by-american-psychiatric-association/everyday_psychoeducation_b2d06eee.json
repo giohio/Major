@@ -1,0 +1,26 @@
+{
+  "id": "everyday#psychoeducation_b2d06eee",
+  "title_en": "General — Psychoeducation",
+  "title_vi": "General — Giáo dục tâm lý",
+  "text_en": "(368) xlvi DSM-5 Classification V60.0 (Z59.0) Homelessness (368) V60.1 (Z59.1) Inadequate Housing (368) V60.89 (Z59.2) Discord With Neighbor, Lodger, or Landlord (369) V60.6 (Z59.3) Problem Related to Living in a Residential Institution (369) Economic Problems (369) V60.2 (Z59.4) Lack of Adequate Food or Safe Drinking Water (369) V60.2 (Z59.5) Extreme Poverty (369) V60.2 (Z59.6) Low Income (369) V60.2 (Z59.7) Insufficient Social Insurance or Welfare Support (369) V60.9 (Z59.9) Unspecified Housing or Economic Problem (369) Other Problems Related to the Social Environment (370) V62.89 (Z60.0) Phase of Life Problem (370) V60.3 (Z60.2) Problem Related to Living Alone (370) V62.4 (Z60.3) Acculturation Difficulty (370) V62.4 (Z60.4) Social Exclusion or Rejection (370) V62.4 (Z60.5) Target of (Perceived) Adverse Discrimination or Persecution (370) V62.9 (Z60.9) Unspecified Problem Related to Social Environment (371) Problems Related to Crime or Interaction With the Legal System (371) V62.89 (Z65.4) Victim of Crime (371) V62.5 (Z65.0) Conviction in Civil or Criminal Proceedings Without Imprisonment (371) V62.5 (Z65.1) Imprisonment or Other Incarceration (371) V62.5 (Z65.2) Problems Related to Release From Prison (371)",
+  "gloss_vi": "(368) xlvi dsm-5 classification v60.0 (z59.0) homelessness (368) v60.1 (z59.1) inadequate housing (368) v60.89 (z59.2) discord with neighbor, lodger, or landlord (369) v60.6 (z59.3) problem related to living in a residen...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "psychoeducation"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Psychoeducation General — Giáo dục tâm lý (368) xlvi DSM-5 Classification V60.0 (Z59.0) Homelessness (368) V60.1 (Z59.1) Inadequate Housing (368) V60.89 (Z59.2) Discord With Neighbor, Lodger, or Landlord (369) V60.6 (Z59.3) Problem Related to Living in a Residential Institution (369) Economic Problems (369) V60.2 (Z59.4) Lack of Adequate Food or Safe Drinking Water (369) V60.2 (Z59.5) Extreme Poverty (369) V60.2 (Z59.6) Low Income (369) V60.2 (Z59.7) Insufficient Social Insurance or Welfare Support (369) V60.9 (Z59.9) Unspecified Housing or Economic Problem (369) Other Problems Related to the Social Environment (370) V62.89 (Z60.0) Phase of Life Problem (370) V60.3 (Z60.2) Problem Related to Living Alone (370) V62.4 (Z60.3) Acculturation Difficulty (370) V62.4 (Z60.4) Social Exclusion or Rejection (370) V62.4 (Z60.5) Target of (Perceived) Adverse Discrimination or Persecution (370) V62.9 (Z60.9) Unspecified Problem Related to Social Environment (371) Problems Related to Crime or Interaction With the Legal System (371) V62.89 (Z65.4) Victim of Crime (371) V62.5 (Z65.0) Conviction in Civil or Criminal Proceedings Without Imprisonment (371) V62.5 (Z65.1) Imprisonment or Other Incarceration (371) V62.5 (Z65.2) Problems Related to Release From Prison (371) (368) xlvi dsm-5 classification v60.0 (z59.0) homelessness (368) v60.1 (z59.1) inadequate housing (368) v60.89 (z59.2) discord with neighbor, lodger, or landlord (369) v60.6 (z59.3) problem related to living in a residen..."
+}

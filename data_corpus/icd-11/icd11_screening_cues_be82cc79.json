@@ -1,0 +1,26 @@
+{
+  "id": "icd11#screening_cues_be82cc79",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "638 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium 639 Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium are syndromes associated with pregnancy or the puerperium (commencing within about 6 weeks after delivery) that involve significant mental and behavioural features. These diagnoses may be assigned regardless of whether biological factors related to pregnancy, childbirth or the puerperium are known to be etiologically related to the syndrome. If the symptoms meet the diagnostic requirements for another mental disorder, that diagnosis should also be assigned. These diagnoses may be assigned even if the syndrome represents a recurrence or exacerbation of a pre-existing disorder. Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium include the following: Mental and behavioural disorders associated with 6E20 pregnancy, childbirth or the puerperium, without psychotic symptoms Mental and behavioural disorders associated with 6E21 pregnancy, childbirth or the puerperium, with psychotic symptoms Mental and behavioural disorders associated with 6E2Z pregnancy, childbirth or the puerperium, unspecified. Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium",
+  "gloss_vi": "638 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders mental and behavioural disorders associated with pregnancy, childbirth or the puerperium 639 mental and...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 638 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium 639 Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium are syndromes associated with pregnancy or the puerperium (commencing within about 6 weeks after delivery) that involve significant mental and behavioural features. These diagnoses may be assigned regardless of whether biological factors related to pregnancy, childbirth or the puerperium are known to be etiologically related to the syndrome. If the symptoms meet the diagnostic requirements for another mental disorder, that diagnosis should also be assigned. These diagnoses may be assigned even if the syndrome represents a recurrence or exacerbation of a pre-existing disorder. Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium include the following: Mental and behavioural disorders associated with 6E20 pregnancy, childbirth or the puerperium, without psychotic symptoms Mental and behavioural disorders associated with 6E21 pregnancy, childbirth or the puerperium, with psychotic symptoms Mental and behavioural disorders associated with 6E2Z pregnancy, childbirth or the puerperium, unspecified. Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium 638 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders mental and behavioural disorders associated with pregnancy, childbirth or the puerperium 639 mental and..."
+}

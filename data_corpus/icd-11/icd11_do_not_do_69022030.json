@@ -1,0 +1,32 @@
+{
+  "id": "icd11#do_not_do_69022030",
+  "title_en": "General — Do Not Do",
+  "title_vi": "General — Do Not Do",
+  "text_en": "co-occurring and mutually exclusive diagnoses; • other specified and unspecified categories; • other ICD-11 chapters relevant to diagnostic formulation of mental, behavioural and neurodevelopmental disorders; and • ICD-11 diagnostic coding. Components of the CDDR A major improvement in the ICD-11 CDDR compared to the ICD-10 CDDG is the consistency of structure and information across major categories. The information provided for the main disorder categories in the CDDR is organized under the following headings: • Essential (required) features • Additional clinical features • Boundary with normality (threshold) • Course features • Developmental presentations • Culture-related features • Sex- and/or gender-related features • Boundaries with other disorders and conditions (differential diagnosis). The information provided is based on reviews of the available evidence, and is intended to be useful in making diagnostic judgements about individual patients. These sections do not provide a summary of all available information about the topic in question, but rather focus on issues that may be specifically relevant to assigning a diagnosis to an individual patient. If a particular heading (e.g. developmental presentations, sex- and/or gender-related information) is not provided for a specific disorder, this is because insufficient evidence was identified as a basis for making clinically",
+  "gloss_vi": "Co-occurring and mutually exclusive diagnoses; • other specified and unspecified categories; • other icd-11 chapters relevant to diagnostic formulation of mental, behavioural and neurodevelopmental disorders; and • icd-1...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "do_not_do"
+    ],
+    "life_topics": [
+      "study",
+      "relationships"
+    ],
+    "advice_section": [
+      "communication_tips"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Do Not Do General — Do Not Do co-occurring and mutually exclusive diagnoses; • other specified and unspecified categories; • other ICD-11 chapters relevant to diagnostic formulation of mental, behavioural and neurodevelopmental disorders; and • ICD-11 diagnostic coding. Components of the CDDR A major improvement in the ICD-11 CDDR compared to the ICD-10 CDDG is the consistency of structure and information across major categories. The information provided for the main disorder categories in the CDDR is organized under the following headings: • Essential (required) features • Additional clinical features • Boundary with normality (threshold) • Course features • Developmental presentations • Culture-related features • Sex- and/or gender-related features • Boundaries with other disorders and conditions (differential diagnosis). The information provided is based on reviews of the available evidence, and is intended to be useful in making diagnostic judgements about individual patients. These sections do not provide a summary of all available information about the topic in question, but rather focus on issues that may be specifically relevant to assigning a diagnosis to an individual patient. If a particular heading (e.g. developmental presentations, sex- and/or gender-related information) is not provided for a specific disorder, this is because insufficient evidence was identified as a basis for making clinically Co-occurring and mutually exclusive diagnoses; • other specified and unspecified categories; • other icd-11 chapters relevant to diagnostic formulation of mental, behavioural and neurodevelopmental disorders; and • icd-1..."
+}

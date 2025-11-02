@@ -1,0 +1,34 @@
+{
+  "id": "icd11#risk_safety_01dda8cb",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "be added to the dementia diagnosis as necessary to describe the relevant aspects of the current clinical picture. 6D86.0 Psychotic symptoms in dementia The current clinical picture includes clinically significant delusions or hallucinations. 6D86.1 Mood symptoms in dementia The current clinical picture includes clinically significant mood symptoms such as depressed mood, elevated mood or irritable mood. 6D86.2 Anxiety symptoms in dementia The current clinical picture includes clinically significant symptoms of anxiety or worry. Neurocognitive disorders | Dementia, unknown or unspecified cause 636 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6D86.3 Apathy in dementia The current clinical picture includes clinically significant indifference or lack of interest. 6D86.4 Agitation or aggression in dementia The current clinical picture includes clinically significant excessive psychomotor activity accompanied by increased tension, and/or hostile or violent behaviour. 6D86.5 Disinhibition in dementia The current clinical picture includes clinically significant lack of restraint manifested in disregard for social conventions, impulsivity and poor risk assessment. 6D86.6 Wandering in dementia The current clinical picture includes clinically significant wandering that puts the person at risk of harm. 6D86.Y Other specified behavioural or psychological disturbance in dementia The current clinical picture includes other behavioural or psychological symptoms as a part of the dementia that are severe enough to represent a focus of clinical intervention. 6D86.Z Behavioural or psychological disturbance in dementia, unspecified Neurocognitive disorders | Dementia, unknown or unspecified cause Neurocognitive disorders | Other specified neurocognitive disorder",
+  "gloss_vi": "Be added to the dementia diagnosis as necessary to describe the relevant aspects of the current clinical picture. 6d86.0 psychotic symptoms in dementia the current clinical picture includes clinically significant delusio...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "screening_cues",
+      "management"
+    ],
+    "life_topics": [
+      "stress",
+      "study"
+    ],
+    "advice_section": [
+      "work_habits"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn be added to the dementia diagnosis as necessary to describe the relevant aspects of the current clinical picture. 6D86.0 Psychotic symptoms in dementia The current clinical picture includes clinically significant delusions or hallucinations. 6D86.1 Mood symptoms in dementia The current clinical picture includes clinically significant mood symptoms such as depressed mood, elevated mood or irritable mood. 6D86.2 Anxiety symptoms in dementia The current clinical picture includes clinically significant symptoms of anxiety or worry. Neurocognitive disorders | Dementia, unknown or unspecified cause 636 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6D86.3 Apathy in dementia The current clinical picture includes clinically significant indifference or lack of interest. 6D86.4 Agitation or aggression in dementia The current clinical picture includes clinically significant excessive psychomotor activity accompanied by increased tension, and/or hostile or violent behaviour. 6D86.5 Disinhibition in dementia The current clinical picture includes clinically significant lack of restraint manifested in disregard for social conventions, impulsivity and poor risk assessment. 6D86.6 Wandering in dementia The current clinical picture includes clinically significant wandering that puts the person at risk of harm. 6D86.Y Other specified behavioural or psychological disturbance in dementia The current clinical picture includes other behavioural or psychological symptoms as a part of the dementia that are severe enough to represent a focus of clinical intervention. 6D86.Z Behavioural or psychological disturbance in dementia, unspecified Neurocognitive disorders | Dementia, unknown or unspecified cause Neurocognitive disorders | Other specified neurocognitive disorder Be added to the dementia diagnosis as necessary to describe the relevant aspects of the current clinical picture. 6d86.0 psychotic symptoms in dementia the current clinical picture includes clinically significant delusio..."
+}

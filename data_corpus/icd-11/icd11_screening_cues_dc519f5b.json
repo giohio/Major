@@ -1,0 +1,27 @@
+{
+  "id": "icd11#screening_cues_dc519f5b",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "This grouping includes symptoms or signs involving the behavioural components of defecation (soiling, faecal elimination) and urination. MB2A.0 Soiling • Soiling refers to the passage of faeces in clothing, bed or other inappropriate places in an individual who has reached a developmental age where faecal continence is ordinarily expected. Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs involving eating and related behaviour Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs involving elimination 704 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders MB2A.1 Wetting • Wetting refers to the voiding of urine into clothes or bed, which may occur during the day or night in an individual who has reached a developmental age where urinary continence is ordinarily expected. MB2A.Y Other specified symptoms or signs involving elimination MB2A.Z Symptoms or signs involving elimination, unspecified MB2Y Other specified mental or behavioural symptoms, signs or clinical findings Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs involving elimination Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs involving eating and related behaviour",
+  "gloss_vi": "This grouping includes symptoms or signs involving the behavioural components of defecation (soiling, faecal elimination) and urination. mb2a.0 soiling • soiling refers to the passage of faeces in clothing, bed or other ...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "referral"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc This grouping includes symptoms or signs involving the behavioural components of defecation (soiling, faecal elimination) and urination. MB2A.0 Soiling • Soiling refers to the passage of faeces in clothing, bed or other inappropriate places in an individual who has reached a developmental age where faecal continence is ordinarily expected. Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs involving eating and related behaviour Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs involving elimination 704 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders MB2A.1 Wetting • Wetting refers to the voiding of urine into clothes or bed, which may occur during the day or night in an individual who has reached a developmental age where urinary continence is ordinarily expected. MB2A.Y Other specified symptoms or signs involving elimination MB2A.Z Symptoms or signs involving elimination, unspecified MB2Y Other specified mental or behavioural symptoms, signs or clinical findings Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs involving elimination Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs involving eating and related behaviour This grouping includes symptoms or signs involving the behavioural components of defecation (soiling, faecal elimination) and urination. mb2a.0 soiling • soiling refers to the passage of faeces in clothing, bed or other ..."
+}

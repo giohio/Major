@@ -1,0 +1,25 @@
+.dashboard-layout,
+.doctor-layout,
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+  background: var(--bg-secondary);
+}
+
+.dashboard-content,
+.doctor-content,
+.admin-content {
+  flex: 1;
+  margin-left: 280px;
+  padding: var(--spacing-xl);
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .dashboard-content,
+  .doctor-content,
+  .admin-content {
+    margin-left: 0;
+    padding: var(--spacing-md);
+  }
+}

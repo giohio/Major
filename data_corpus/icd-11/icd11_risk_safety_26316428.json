@@ -1,0 +1,31 @@
+{
+  "id": "icd11#risk_safety_26316428",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "746 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders QA14 Contact with health services for human immunodeficiency virus counselling • Human immunodeficiency virus counselling can be defined as accessible HIV counselling services that meet the needs of clients and providers in an equitable and acceptable manner, within the resources available and in line with national guidelines. Counselling should increase knowledge of HIV prevention and should help the client to focus on solutions to risk reduction. QA15 Counselling related to sexuality QA15.0 Counselling related to sexual attitudes QA15.1 Counselling related to sexual behaviour and orientation or sexual relationships of the person QA15.2 Counselling related to sexual behaviour and orientation or sexual relationships of the person of third party QA15.3 Counselling related to combined sexual attitudes, sexual behaviour and sexual relationships QA15.Y Other specified counselling related to sexuality QA15.Z Counselling related to sexuality, unspecified QA16 Individual psychological or behavioural counselling QA17 Marital or couples counselling QA18 Family counselling QA19 Group counselling QA1Y Contact with health services for other specified counselling QA1Z Contact with health services for unspecified counselling Reasons",
+  "gloss_vi": "746 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders qa14 contact with health services for human immunodeficiency virus counselling • human immunodeficiency...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "caregiver"
+    ],
+    "life_topics": [
+      "study",
+      "relationships"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn 746 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders QA14 Contact with health services for human immunodeficiency virus counselling • Human immunodeficiency virus counselling can be defined as accessible HIV counselling services that meet the needs of clients and providers in an equitable and acceptable manner, within the resources available and in line with national guidelines. Counselling should increase knowledge of HIV prevention and should help the client to focus on solutions to risk reduction. QA15 Counselling related to sexuality QA15.0 Counselling related to sexual attitudes QA15.1 Counselling related to sexual behaviour and orientation or sexual relationships of the person QA15.2 Counselling related to sexual behaviour and orientation or sexual relationships of the person of third party QA15.3 Counselling related to combined sexual attitudes, sexual behaviour and sexual relationships QA15.Y Other specified counselling related to sexuality QA15.Z Counselling related to sexuality, unspecified QA16 Individual psychological or behavioural counselling QA17 Marital or couples counselling QA18 Family counselling QA19 Group counselling QA1Y Contact with health services for other specified counselling QA1Z Contact with health services for unspecified counselling Reasons 746 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders qa14 contact with health services for human immunodeficiency virus counselling • human immunodeficiency..."
+}

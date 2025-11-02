@@ -1,0 +1,31 @@
+{
+  "id": "everyday#screening_cues_e681ed3f",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "106 Depressive Disorders Coding note: Include the name of the other medical condition in the name of the mental disorder (e.g., 293.83 [F06.31] depressive disor- der due to hypothyroidism, with depressive features). The other med- ical condition should also be coded and listed separately immediately before the depressive disorder due to the medical condition (e.g., 244.9 [E03.9] hypothyroidism; 293.83 [F06.31] depressive disorder due to hypothyroidism, with depressive features). Other Specified Depressive Disorder 311 (F32.8) This category applies to presentations in which symptoms character- istic of a depressive disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any of the disorders in the depressive disorders diagnostic class. The other specified depressive disorder category is used in situations in which the clinician chooses to communicate the specific reason that the presentation does not meet the criteria for any specific depressive disorder. This is done by recording “other specified depressive disor- der” followed by the specific reason (e.g., “short-duration depressive episode”). Examples of presentations that can be specified using the “other specified” designation include the following: 1. Recurrent brief depression: Concurrent presence of depressed mood and at least four other symptoms of depression for 2–13 days at least once per month (not associated with the menstrual cycle) for at least 12 consecutive months in an individual whose presentation has never met criteria for any other depressive or bipolar disorder and does not currently meet active or residual criteria for any psychotic disorder. 2. Short-duration depressive episode (4–13 days): Depressed affect and at least four of the other eight symptoms of a major de- pressive episode associated with clinically significant distress or impairment that persists for more",
+  "gloss_vi": "106 depressive disorders coding note: include the name of the other medical condition in the name of the mental disorder (e.g., 293.83 [f06.31] depressive disor- der due to hypothyroidism, with depressive features). the ...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "stress",
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 106 Depressive Disorders Coding note: Include the name of the other medical condition in the name of the mental disorder (e.g., 293.83 [F06.31] depressive disor- der due to hypothyroidism, with depressive features). The other med- ical condition should also be coded and listed separately immediately before the depressive disorder due to the medical condition (e.g., 244.9 [E03.9] hypothyroidism; 293.83 [F06.31] depressive disorder due to hypothyroidism, with depressive features). Other Specified Depressive Disorder 311 (F32.8) This category applies to presentations in which symptoms character- istic of a depressive disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any of the disorders in the depressive disorders diagnostic class. The other specified depressive disorder category is used in situations in which the clinician chooses to communicate the specific reason that the presentation does not meet the criteria for any specific depressive disorder. This is done by recording “other specified depressive disor- der” followed by the specific reason (e.g., “short-duration depressive episode”). Examples of presentations that can be specified using the “other specified” designation include the following: 1. Recurrent brief depression: Concurrent presence of depressed mood and at least four other symptoms of depression for 2–13 days at least once per month (not associated with the menstrual cycle) for at least 12 consecutive months in an individual whose presentation has never met criteria for any other depressive or bipolar disorder and does not currently meet active or residual criteria for any psychotic disorder. 2. Short-duration depressive episode (4–13 days): Depressed affect and at least four of the other eight symptoms of a major de- pressive episode associated with clinically significant distress or impairment that persists for more 106 depressive disorders coding note: include the name of the other medical condition in the name of the mental disorder (e.g., 293.83 [f06.31] depressive disor- der due to hypothyroidism, with depressive features). the ..."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "icd11#screening_cues_d5d7a47b",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium 643 Boundary with normality (threshold) • Psychotic-like symptoms or unusual subjective experiences may occur in the general population, but these are usually fleeting in nature and do not interfere with functioning, and the person is typically aware that they are illusions. Such phenomena should not be diagnosed as mental and behavioural disorders associated with pregnancy, childbirth or the puerperium. Boundaries with other disorders and conditions (differential diagnosis) • This diagnosis may be assigned even if the syndrome represents a recurrence or exacerbation of a pre-existing disorder (e.g. a mood disorder, schizophrenia or another primary psychotic disorder). 6E2Z Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, unspecified Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium 644 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders",
+  "gloss_vi": "Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium 643 ranh giới with normality (threshold) • psychotic-like symptoms or unusual subjective experiences may occur in the general popul...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "relationships"
+    ],
+    "advice_section": [
+      "communication_tips"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium 643 Boundary with normality (threshold) • Psychotic-like symptoms or unusual subjective experiences may occur in the general population, but these are usually fleeting in nature and do not interfere with functioning, and the person is typically aware that they are illusions. Such phenomena should not be diagnosed as mental and behavioural disorders associated with pregnancy, childbirth or the puerperium. Boundaries with other disorders and conditions (differential diagnosis) • This diagnosis may be assigned even if the syndrome represents a recurrence or exacerbation of a pre-existing disorder (e.g. a mood disorder, schizophrenia or another primary psychotic disorder). 6E2Z Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium, unspecified Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium 644 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Mental and behavioural disorders associated with pregnancy, childbirth or the puerperium 643 ranh giới with normality (threshold) • psychotic-like symptoms or unusual subjective experiences may occur in the general popul..."
+}

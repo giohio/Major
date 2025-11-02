@@ -1,0 +1,32 @@
+{
+  "id": "icd11#risk_safety_7086032e",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "diagnosis of a disruptive behaviour or dissocial disorder is not warranted if the disruptive behaviour is limited to symptomatic episodes of another mental disorder (e.g. defiant and noncompliant behaviour during a depressive episode), or if the behaviour is due to the effects of a substance or to another medical condition. Disruptive behaviour and dissocial disorders are frequently associated with psychosocial environments that include family dysfunction; problems with peers, co-workers and romantic partners; and failure at school or work. Other psychosocial risk factors are common, such as peer rejection, deviant peer-group influences and parental mental disorder. Behaviours that are adaptive given the individual’s environmental circumstances (e.g. running away from an abusive home; stealing in order to survive) should not be used as the sole basis for these diagnoses. Disruptive behaviour and dissocial disorders include the following: 6C90 Oppositional defiant disorder 6C90.0 Oppositional defiant disorder, with chronic irritability-anger 6C90.1 Oppositional defiant disorder, without chronic irritability-anger 6C90.Z Oppositional defiant disorder, unspecified 6C91 Conduct-dissocial disorder 6C91.0 Conduct-dissocial disorder, childhood onset 6C91.1 Conduct-dissocial disorder, adolescent onset 6C91.Z Conduct-dissocial disorder, unspecified Disruptive behaviour and dissocial disorders",
+  "gloss_vi": "Diagnosis of a disruptive behaviour or dissocial disorder is not warranted if the disruptive behaviour is limited to symptomatic episodes of another mental disorder (e.g. defiant and noncompliant behaviour during a depre...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "screening_cues",
+      "caregiver"
+    ],
+    "life_topics": [
+      "work",
+      "relationships"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn diagnosis of a disruptive behaviour or dissocial disorder is not warranted if the disruptive behaviour is limited to symptomatic episodes of another mental disorder (e.g. defiant and noncompliant behaviour during a depressive episode), or if the behaviour is due to the effects of a substance or to another medical condition. Disruptive behaviour and dissocial disorders are frequently associated with psychosocial environments that include family dysfunction; problems with peers, co-workers and romantic partners; and failure at school or work. Other psychosocial risk factors are common, such as peer rejection, deviant peer-group influences and parental mental disorder. Behaviours that are adaptive given the individual’s environmental circumstances (e.g. running away from an abusive home; stealing in order to survive) should not be used as the sole basis for these diagnoses. Disruptive behaviour and dissocial disorders include the following: 6C90 Oppositional defiant disorder 6C90.0 Oppositional defiant disorder, with chronic irritability-anger 6C90.1 Oppositional defiant disorder, without chronic irritability-anger 6C90.Z Oppositional defiant disorder, unspecified 6C91 Conduct-dissocial disorder 6C91.0 Conduct-dissocial disorder, childhood onset 6C91.1 Conduct-dissocial disorder, adolescent onset 6C91.Z Conduct-dissocial disorder, unspecified Disruptive behaviour and dissocial disorders Diagnosis of a disruptive behaviour or dissocial disorder is not warranted if the disruptive behaviour is limited to symptomatic episodes of another mental disorder (e.g. defiant and noncompliant behaviour during a depre..."
+}

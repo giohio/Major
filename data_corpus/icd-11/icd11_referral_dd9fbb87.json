@@ -1,0 +1,32 @@
+{
+  "id": "icd11#referral_dd9fbb87",
+  "title_en": "General — Referral",
+  "title_vi": "General — Chuyển tuyến",
+  "text_en": "Mental, Behavioural or Neurodevelopmental Disorders Specifiers for nocturnal or diurnal occurrence 6C00.0 Nocturnal enuresis • Inappropriate voiding of urine occurs only during the night. This is the most common form of enuresis, and typically occurs during the first part of the night soon after the individual has gone to sleep. 6C00.1 Diurnal enuresis • Inappropriate voiding of urine occurs only during waking hours. This form of enuresis is also referred to as “urinary incontinence”. 6C00.2 Nocturnal and diurnal enuresis • Inappropriate voiding of urine occurs both during the night and during waking hours. 6C00.Z Enuresis, unspecified Additional clinical features • Voiding of urine is typically involuntary but, in some cases, may appear to be voluntary. The diagnosis can be assigned in either case. • Voiding of urine during sleep may take place during rapid eye movement (REM) sleep, leading some individuals to report having dreamt of urinating. • Diurnal enuresis may occur in children who avoid urination due to social anxiety about using a public bathroom or due to refusal to cease an activity that is enjoyable (e.g. playing a game). • Enuresis may lead to the development of psychological problems due to associated distress or stigma. Enuresis may be an aspect of another mental, behavioural or neurodevelopmental disorder, or both enuresis and another emotional/behavioural disturbance may arise in parallel due to related etiological factors. A diagnosis of enuresis may be assigned together with other mental, behavioural or neurodevelopmental disorder diagnoses if the enuresis is a distinct focus of clinical attention. Elimination disorders | Enuresis",
+  "gloss_vi": "Mental, behavioural or neurodevelopmental disorders specifiers for nocturnal or diurnal occurrence 6c00.0 nocturnal enuresis • inappropriate voiding of urine occurs only during the night. this is the most common form of ...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "referral",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "sleep",
+      "stress",
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Referral General — Chuyển tuyến Mental, Behavioural or Neurodevelopmental Disorders Specifiers for nocturnal or diurnal occurrence 6C00.0 Nocturnal enuresis • Inappropriate voiding of urine occurs only during the night. This is the most common form of enuresis, and typically occurs during the first part of the night soon after the individual has gone to sleep. 6C00.1 Diurnal enuresis • Inappropriate voiding of urine occurs only during waking hours. This form of enuresis is also referred to as “urinary incontinence”. 6C00.2 Nocturnal and diurnal enuresis • Inappropriate voiding of urine occurs both during the night and during waking hours. 6C00.Z Enuresis, unspecified Additional clinical features • Voiding of urine is typically involuntary but, in some cases, may appear to be voluntary. The diagnosis can be assigned in either case. • Voiding of urine during sleep may take place during rapid eye movement (REM) sleep, leading some individuals to report having dreamt of urinating. • Diurnal enuresis may occur in children who avoid urination due to social anxiety about using a public bathroom or due to refusal to cease an activity that is enjoyable (e.g. playing a game). • Enuresis may lead to the development of psychological problems due to associated distress or stigma. Enuresis may be an aspect of another mental, behavioural or neurodevelopmental disorder, or both enuresis and another emotional/behavioural disturbance may arise in parallel due to related etiological factors. A diagnosis of enuresis may be assigned together with other mental, behavioural or neurodevelopmental disorder diagnoses if the enuresis is a distinct focus of clinical attention. Elimination disorders | Enuresis Mental, behavioural or neurodevelopmental disorders specifiers for nocturnal or diurnal occurrence 6c00.0 nocturnal enuresis • inappropriate voiding of urine occurs only during the night. this is the most common form of ..."
+}

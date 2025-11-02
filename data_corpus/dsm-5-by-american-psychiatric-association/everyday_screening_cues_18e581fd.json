@@ -1,0 +1,29 @@
+{
+  "id": "everyday#screening_cues_18e581fd",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "Disorder (76) Note: See the criteria set and corresponding record- ing procedures for substance-specific codes and ICD-9-CM and ICD-10-CM coding. Specify if: With onset during intoxication, With on- set during withdrawal 293.83 (___.__) Bipolar and Related Disorder Due to Another Medical Condition (80) Specify if: (F06.33) With manic features (F06.33) With manic- or hypomanic-like episode (F06.34) With mixed features 296.89 (F31.89) Other Specified Bipolar and Related Disorder (81) 296.80 (F31.9) Unspecified Bipolar and Related Disorder (83) Depressive Disorders (93) The following specifiers apply to Depressive Disorders where indicated: aSpecify: With anxious distress (specify current severity: mild, moderate, moderate-severe, severe); With mixed features; With melancholic fea- tures; With atypical features; With mood-congruent psychotic features; With mood-incongruent psychotic features; With catatonia (use addi- tional code 293.89 [F06.1]); With peripartum onset; With seasonal pattern 296.99 (F34.8) Disruptive Mood Dysregulation Disorder (93) ___.__ (___.__) Major Depressive Disordera (94) ___.__ (___.__) Single episode 296.21 (F32.0) Mild 296.22 (F32.1) Moderate 296.23 (F32.2) Severe 296.24 (F32.3) With psychotic features 296.25 (F32.4) In partial remission 296.26 (F32.5) In full remission 296.20 (F32.9) Unspecified",
+  "gloss_vi": "Disorder (76) note: see the criteria set and corresponding record- ing procedures for substance-specific codes and icd-9-cm and icd-10-cm coding. specify if: with onset during intoxication, with on- set during withdrawal...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [
+      "stress"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc Disorder (76) Note: See the criteria set and corresponding record- ing procedures for substance-specific codes and ICD-9-CM and ICD-10-CM coding. Specify if: With onset during intoxication, With on- set during withdrawal 293.83 (___.__) Bipolar and Related Disorder Due to Another Medical Condition (80) Specify if: (F06.33) With manic features (F06.33) With manic- or hypomanic-like episode (F06.34) With mixed features 296.89 (F31.89) Other Specified Bipolar and Related Disorder (81) 296.80 (F31.9) Unspecified Bipolar and Related Disorder (83) Depressive Disorders (93) The following specifiers apply to Depressive Disorders where indicated: aSpecify: With anxious distress (specify current severity: mild, moderate, moderate-severe, severe); With mixed features; With melancholic fea- tures; With atypical features; With mood-congruent psychotic features; With mood-incongruent psychotic features; With catatonia (use addi- tional code 293.89 [F06.1]); With peripartum onset; With seasonal pattern 296.99 (F34.8) Disruptive Mood Dysregulation Disorder (93) ___.__ (___.__) Major Depressive Disordera (94) ___.__ (___.__) Single episode 296.21 (F32.0) Mild 296.22 (F32.1) Moderate 296.23 (F32.2) Severe 296.24 (F32.3) With psychotic features 296.25 (F32.4) In partial remission 296.26 (F32.5) In full remission 296.20 (F32.9) Unspecified Disorder (76) note: see the criteria set and corresponding record- ing procedures for substance-specific codes and icd-9-cm and icd-10-cm coding. specify if: with onset during intoxication, with on- set during withdrawal..."
+}

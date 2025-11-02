@@ -1,0 +1,27 @@
+{
+  "id": "icd11#general_df061b9b",
+  "title_en": "General — General",
+  "title_vi": "General — General",
+  "text_en": "List of categories 75 6C4H Disorders due to use of non-psychoactive substances 6C4H.0 Episode of harmful use of non-psychoactive substance 6C4H.1 Harmful pattern of use of non-psychoactive substance Specify pattern: 6C4H.10 … episodic 6C4H.11 … continuous 6C4H.1Z … unspecified 6C4H.Z Disorder due to use of non-psychoactive substances, unspecified 6C4Z Disorder due to substance use, unspecified Disorders due to addictive behaviours 6C50 Gambling disorder Specify context: 6C50.0 … predominantly offline 6C50.1 … predominantly online 6C50.Z … unspecified 6C51 Gaming disorder Specify context: 6C51.0 … predominantly online 6C51.1 … predominantly offline 6C51.Z … unspecified 6C5Y Other specified disorder due to addictive behaviours 6C5Z Disorder due to addictive behaviours, unspecified 76 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Impulse control disorders 6C70 Pyromania 6C71 Kleptomania 6C72 Compulsive sexual behaviour disorder 6C73 Intermittent explosive disorder 6C7Y Other specified impulse control disorder 6C7Z Impulse control disorder, unspecified Secondary-parented categories From obsessive-compulsive and related disorders: 6B25 Body-focused repetitive behaviour disorders 6B25.0 Trichotillomania (hair-pulling disorder) 6B25.1 Excoriation (skin-picking) disorder 6B25.Y Other specified body-focused repetitive behaviour disorder 6B25.Z Body-focused repetitive behaviour disorder, unspecified From disorders due to addictive behaviours: 6C50 Gambling disorder Specify predominantly online or offline: 6C50.0 … predominantly offline 6C50.1 … predominantly online 6C50.Z … unspecified",
+  "gloss_vi": "List of categories 75 6c4h disorders due to use of non-psychoactive substances 6c4h.0 episode of harmful use of non-psychoactive substance 6c4h.1 harmful pattern of use of non-psychoactive substance specify pattern: 6c4h...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — General General — General List of categories 75 6C4H Disorders due to use of non-psychoactive substances 6C4H.0 Episode of harmful use of non-psychoactive substance 6C4H.1 Harmful pattern of use of non-psychoactive substance Specify pattern: 6C4H.10 … episodic 6C4H.11 … continuous 6C4H.1Z … unspecified 6C4H.Z Disorder due to use of non-psychoactive substances, unspecified 6C4Z Disorder due to substance use, unspecified Disorders due to addictive behaviours 6C50 Gambling disorder Specify context: 6C50.0 … predominantly offline 6C50.1 … predominantly online 6C50.Z … unspecified 6C51 Gaming disorder Specify context: 6C51.0 … predominantly online 6C51.1 … predominantly offline 6C51.Z … unspecified 6C5Y Other specified disorder due to addictive behaviours 6C5Z Disorder due to addictive behaviours, unspecified 76 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Impulse control disorders 6C70 Pyromania 6C71 Kleptomania 6C72 Compulsive sexual behaviour disorder 6C73 Intermittent explosive disorder 6C7Y Other specified impulse control disorder 6C7Z Impulse control disorder, unspecified Secondary-parented categories From obsessive-compulsive and related disorders: 6B25 Body-focused repetitive behaviour disorders 6B25.0 Trichotillomania (hair-pulling disorder) 6B25.1 Excoriation (skin-picking) disorder 6B25.Y Other specified body-focused repetitive behaviour disorder 6B25.Z Body-focused repetitive behaviour disorder, unspecified From disorders due to addictive behaviours: 6C50 Gambling disorder Specify predominantly online or offline: 6C50.0 … predominantly offline 6C50.1 … predominantly online 6C50.Z … unspecified List of categories 75 6c4h disorders due to use of non-psychoactive substances 6c4h.0 episode of harmful use of non-psychoactive substance 6c4h.1 harmful pattern of use of non-psychoactive substance specify pattern: 6c4h..."
+}

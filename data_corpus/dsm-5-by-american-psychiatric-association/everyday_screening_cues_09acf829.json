@@ -1,0 +1,30 @@
+{
+  "id": "everyday#screening_cues_09acf829",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "coded within the ICD-9-CM and ICD-10-CM sys- tems and are indicated only by including the subtype or specifier af- ter the name of the disorder (e.g., social anxiety disorder [social phobia], performance type). Note that in some cases, a specifier or sub- type is codable in ICD-10-CM but not in ICD-9-CM. Accordingly, in some cases the 4th or 5th character codes for the subtypes or specifi- ers are provided only for the ICD-10-CM coding designations. A DSM-5 diagnosis is usually applied to the individual’s current presentation; previous diagnoses from which the individual has re- covered should be clearly noted as such. Specifiers indicating course (e.g., in partial remission, in full remission) may be listed after the di- agnosis and are indicated in a number of criteria sets. Where avail- able, severity specifiers are provided to guide clinicians in rating the intensity, frequency, duration, symptom count, or other severity indicator of a disorder. Severity specifiers are indicated by the in- struction “Specify current severity” in the criteria set and include dis- order-specific definitions. Descriptive features specifiers have also been provided in the criteria set and convey additional information that can inform treatment planning (e.g., obsessive-compulsive disorder, with poor insight). Not all disorders include course, severity, and/or descriptive features specifiers. Medication-Induced Movement Disorders and Other Conditions That May Be a Focus of Clinical Attention In addition to important psychosocial and environmental factors, conditions that are not mental disorders but may be encountered by mental health clinicians are included. These conditions may be listed as a reason for clinical visit in addition to, or in place of, the mental disorders listed in Section II. A separate chapter is devoted to medi- cation-induced disorders and other adverse effects of medication that may be assessed and treated by clinicians in mental health prac- tice, such as akathisia, tardive dyskinesia, and dystonia. The descrip- tion of neuroleptic malignant syndrome is expanded from that provided in DSM-IV-TR to highlight the emergent and potentially life-threatening nature of this condition, and a new entry on anti- depressant discontinuation syndrome is provided. An additional chapter discusses other conditions that may be a focus of clinical at- tention. These include relational problems, problems related to abuse",
+  "gloss_vi": "Coded within the icd-9-cm and icd-10-cm sys- tems and are indicated only by including the subtype or specifier af- ter the name of the disorder (e.g., social lo âu disorder [social phobia], performance type). note that i...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "management"
+    ],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc coded within the ICD-9-CM and ICD-10-CM sys- tems and are indicated only by including the subtype or specifier af- ter the name of the disorder (e.g., social anxiety disorder [social phobia], performance type). Note that in some cases, a specifier or sub- type is codable in ICD-10-CM but not in ICD-9-CM. Accordingly, in some cases the 4th or 5th character codes for the subtypes or specifi- ers are provided only for the ICD-10-CM coding designations. A DSM-5 diagnosis is usually applied to the individual’s current presentation; previous diagnoses from which the individual has re- covered should be clearly noted as such. Specifiers indicating course (e.g., in partial remission, in full remission) may be listed after the di- agnosis and are indicated in a number of criteria sets. Where avail- able, severity specifiers are provided to guide clinicians in rating the intensity, frequency, duration, symptom count, or other severity indicator of a disorder. Severity specifiers are indicated by the in- struction “Specify current severity” in the criteria set and include dis- order-specific definitions. Descriptive features specifiers have also been provided in the criteria set and convey additional information that can inform treatment planning (e.g., obsessive-compulsive disorder, with poor insight). Not all disorders include course, severity, and/or descriptive features specifiers. Medication-Induced Movement Disorders and Other Conditions That May Be a Focus of Clinical Attention In addition to important psychosocial and environmental factors, conditions that are not mental disorders but may be encountered by mental health clinicians are included. These conditions may be listed as a reason for clinical visit in addition to, or in place of, the mental disorders listed in Section II. A separate chapter is devoted to medi- cation-induced disorders and other adverse effects of medication that may be assessed and treated by clinicians in mental health prac- tice, such as akathisia, tardive dyskinesia, and dystonia. The descrip- tion of neuroleptic malignant syndrome is expanded from that provided in DSM-IV-TR to highlight the emergent and potentially life-threatening nature of this condition, and a new entry on anti- depressant discontinuation syndrome is provided. An additional chapter discusses other conditions that may be a focus of clinical at- tention. These include relational problems, problems related to abuse Coded within the icd-9-cm and icd-10-cm sys- tems and are indicated only by including the subtype or specifier af- ter the name of the disorder (e.g., social lo âu disorder [social phobia], performance type). note that i..."
+}

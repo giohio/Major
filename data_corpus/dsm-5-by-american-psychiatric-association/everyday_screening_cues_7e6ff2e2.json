@@ -1,0 +1,32 @@
+{
+  "id": "everyday#screening_cues_7e6ff2e2",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "avoid withdrawal symptoms. Specify if: In early remission: After full criteria for alcohol use disorder were previously met, none of the criteria for alcohol use disorder have been met for at least 3 months but for less than 12 months (with the exception that Criterion A4, “Craving, or a strong desire or urge to use alcohol,” may be met). In sustained remission: After full criteria for alcohol use disor- der were previously met, none of the criteria for alcohol use dis- order have been met at any time during a period of 12 months or longer (with the exception that Criterion A4, “Craving, or a strong desire or urge to use alcohol,” may be met). Specify if: In a controlled environment: This additional specifier is used if the individual is in an environment where access to alcohol is restricted. Code based on current severity: Note for ICD-10-CM codes: If an al- cohol intoxication, alcohol withdrawal, or another alcohol-induced mental disorder is also present, do not use the codes below for alcohol use disorder. Instead, the comorbid alcohol use disorder is indicated in the 4th character of the alcohol-induced disorder code (see the coding note for alcohol intoxication, alcohol withdrawal, or a specific alcohol- induced mental disorder). For example, if there is comorbid alcohol in- toxication and alcohol use disorder, only the alcohol intoxication code is given, with the 4th character indicating whether the comorbid alcohol use disorder is mild, moderate, or severe: F10.129 for mild alcohol use disorder with alcohol intoxication or F10.229 for a moderate or severe alcohol use disorder with alcohol intoxication. Specify current severity: 305.00 (F10.10) Mild: Presence of 2–3 symptoms. 303.90 (F10.20) Moderate: Presence of 4–5 symptoms. 303.90 (F10.20) Severe: Presence of 6 or more symptoms.",
+  "gloss_vi": "Avoid withdrawal symptoms. specify if: in early remission: after full criteria for alcohol use disorder were previously met, none of the criteria for alcohol use disorder have been met for at least 3 months but for less ...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [
+      "work_habits"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc avoid withdrawal symptoms. Specify if: In early remission: After full criteria for alcohol use disorder were previously met, none of the criteria for alcohol use disorder have been met for at least 3 months but for less than 12 months (with the exception that Criterion A4, “Craving, or a strong desire or urge to use alcohol,” may be met). In sustained remission: After full criteria for alcohol use disor- der were previously met, none of the criteria for alcohol use dis- order have been met at any time during a period of 12 months or longer (with the exception that Criterion A4, “Craving, or a strong desire or urge to use alcohol,” may be met). Specify if: In a controlled environment: This additional specifier is used if the individual is in an environment where access to alcohol is restricted. Code based on current severity: Note for ICD-10-CM codes: If an al- cohol intoxication, alcohol withdrawal, or another alcohol-induced mental disorder is also present, do not use the codes below for alcohol use disorder. Instead, the comorbid alcohol use disorder is indicated in the 4th character of the alcohol-induced disorder code (see the coding note for alcohol intoxication, alcohol withdrawal, or a specific alcohol- induced mental disorder). For example, if there is comorbid alcohol in- toxication and alcohol use disorder, only the alcohol intoxication code is given, with the 4th character indicating whether the comorbid alcohol use disorder is mild, moderate, or severe: F10.129 for mild alcohol use disorder with alcohol intoxication or F10.229 for a moderate or severe alcohol use disorder with alcohol intoxication. Specify current severity: 305.00 (F10.10) Mild: Presence of 2–3 symptoms. 303.90 (F10.20) Moderate: Presence of 4–5 symptoms. 303.90 (F10.20) Severe: Presence of 6 or more symptoms. Avoid withdrawal symptoms. specify if: in early remission: after full criteria for alcohol use disorder were previously met, none of the criteria for alcohol use disorder have been met for at least 3 months but for less ..."
+}

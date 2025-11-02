@@ -1,0 +1,28 @@
+{
+  "id": "everyday#screening_cues_ac2d2a06",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "not accompanied by any clinically significant behavioral distur- bance. With behavioral disturbance (specify disturbance): If the cog- nitive disturbance is accompanied by a clinically significant behavioral disturbance (e.g., psychotic symptoms, mood distur- bance, agitation, apathy, or other behavioral symptoms). 302 Neurocognitive Disorders Associated etiological medical code for major neurocognitive Major neurocognitive Mild neurocognitive disorder Etiological subtype disordera disorder codeb codec Alzheimer’s disease Probable: 331.0 (G30.9) Probable: 294.1x (F02.8x) 331.83 (G31.84) Possible: no additional medical Possible: 331.9 (G31.9)c (Do not use additional code for code Alzheimer’s disease.) Frontotemporal Probable: 331.19 (G31.09) Probable: 294.1x (F02.8x) 331.83 (G31.84) lobar degeneration Possible: no additional medical Possible: 331.9 (G31.9)c (Do not use additional code for code frontotemporal disease.) Lewy body disease Probable: 331.82 (G31.83) Probable: 294.1x (F02.8x) 331.83 (G31.84) Possible: no additional medical Possible: 331.9 (G31.9)c (Do not use additional code for code Lewy body disease.) Vascular disease No additional medical code Probable: 290.40 (F01.5x) 331.83 (G31.84) Possible: 331.9 (G31.9)c (Do not use additional code for the vascular disease.) Traumatic brain 907.0 (S06.2X9S) 294.1x (F02.8x) 331.83 (G31.84) injury (Do not use additional code for the traumatic brain injury.)",
+  "gloss_vi": "Not accompanied by any clinically significant behavioral distur- bance. with behavioral disturbance (specify disturbance): if the cog- nitive disturbance is accompanied by a clinically significant behavioral disturbance ...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do",
+      "management"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc not accompanied by any clinically significant behavioral distur- bance. With behavioral disturbance (specify disturbance): If the cog- nitive disturbance is accompanied by a clinically significant behavioral disturbance (e.g., psychotic symptoms, mood distur- bance, agitation, apathy, or other behavioral symptoms). 302 Neurocognitive Disorders Associated etiological medical code for major neurocognitive Major neurocognitive Mild neurocognitive disorder Etiological subtype disordera disorder codeb codec Alzheimer’s disease Probable: 331.0 (G30.9) Probable: 294.1x (F02.8x) 331.83 (G31.84) Possible: no additional medical Possible: 331.9 (G31.9)c (Do not use additional code for code Alzheimer’s disease.) Frontotemporal Probable: 331.19 (G31.09) Probable: 294.1x (F02.8x) 331.83 (G31.84) lobar degeneration Possible: no additional medical Possible: 331.9 (G31.9)c (Do not use additional code for code frontotemporal disease.) Lewy body disease Probable: 331.82 (G31.83) Probable: 294.1x (F02.8x) 331.83 (G31.84) Possible: no additional medical Possible: 331.9 (G31.9)c (Do not use additional code for code Lewy body disease.) Vascular disease No additional medical code Probable: 290.40 (F01.5x) 331.83 (G31.84) Possible: 331.9 (G31.9)c (Do not use additional code for the vascular disease.) Traumatic brain 907.0 (S06.2X9S) 294.1x (F02.8x) 331.83 (G31.84) injury (Do not use additional code for the traumatic brain injury.) Not accompanied by any clinically significant behavioral distur- bance. with behavioral disturbance (specify disturbance): if the cog- nitive disturbance is accompanied by a clinically significant behavioral disturbance ..."
+}

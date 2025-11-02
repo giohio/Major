@@ -1,0 +1,26 @@
+{
+  "id": "icd11#referral_b6d6ff3d",
+  "title_en": "General — Referral",
+  "title_vi": "General — Chuyển tuyến",
+  "text_en": "Factors influencing health status or contact with health services particularly relevant to mental health services 749 Problems associated with inadequate drinking-water or nutrition QD60 Problems associated with inadequate drinking-water QD61 Inadequate food QD6Z Problems associated with drinking-water or nutrition, unspecified Problems associated with the environment QD70 Problems associated with the natural environment or human-made changes to the environment QD70.0 Problem associated with exposure to noise QD70.1 Problem associated with exposure to air pollution QD70.2 Problem associated with exposure to water pollution QD70.3 Problem associated with exposure to soil pollution QD70.4 Problem associated with exposure to exposure to radiation QD70.5 Problem associated with exposure to exposure to tobacco smoke Note: this refers to second-hand smoke, and not to tobacco use by the individual. QD70.6 Problem associated with inadequate access to electricity QD70.Z Problem associated with the natural environment or human-made changes to the environment, unspecified Problems associated with inadequate drinking-water, nutrition or the environment 750 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or",
+  "gloss_vi": "Factors influencing health status or contact with health services particularly relevant to mental health services 749 problems associated with inadequate drinking-water or nutrition qd60 problems associated with inadequa...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "referral"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Referral General — Chuyển tuyến Factors influencing health status or contact with health services particularly relevant to mental health services 749 Problems associated with inadequate drinking-water or nutrition QD60 Problems associated with inadequate drinking-water QD61 Inadequate food QD6Z Problems associated with drinking-water or nutrition, unspecified Problems associated with the environment QD70 Problems associated with the natural environment or human-made changes to the environment QD70.0 Problem associated with exposure to noise QD70.1 Problem associated with exposure to air pollution QD70.2 Problem associated with exposure to water pollution QD70.3 Problem associated with exposure to soil pollution QD70.4 Problem associated with exposure to exposure to radiation QD70.5 Problem associated with exposure to exposure to tobacco smoke Note: this refers to second-hand smoke, and not to tobacco use by the individual. QD70.6 Problem associated with inadequate access to electricity QD70.Z Problem associated with the natural environment or human-made changes to the environment, unspecified Problems associated with inadequate drinking-water, nutrition or the environment 750 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Factors influencing health status or contact with health services particularly relevant to mental health services 749 problems associated with inadequate drinking-water or nutrition qd60 problems associated with inadequa..."
+}

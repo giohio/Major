@@ -1,0 +1,35 @@
+{
+  "id": "everyday#risk_safety_f62f0823",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "to an organized church or religious in- stitution. V61.7 (Z64.0) Problems Related to Unwanted Pregnancy V61.5 (Z64.1) Problems Related to Multiparity V62.89 (Z64.4) Discord With Social Service Provider, Includ- ing Probation Officer, Case Manager, or Social Services Worker V62.89 (Z65.4) Victim of Terrorism or Torture V62.22 (Z65.5) Exposure to Disaster, War, or Other Hostilities V62.89 (Z65.8) Other Problem Related to Psychosocial Cir- cumstances V62.9 (Z65.9) Unspecified Problem Related to Unspecified Psychosocial Circumstances Other Circumstances of Personal History V15.49 (Z91.49) Other Personal History of Psychological Trauma V15.59 (Z91.5) Personal History of Self-Harm V62.22 (Z91.82) Personal History of Military Deployment V15.89 (Z91.89) Other Personal Risk Factors V69.9 (Z72.9) Problem Related to Lifestyle This category should be used when a lifestyle problem is a specific fo- cus of treatment or directly affects the course, prognosis, or treatment of a mental or other medical disorder. Examples of lifestyle problems include lack of physical exercise, inappropriate diet, high-risk sexual behavior, and poor sleep hygiene. A problem that is attributable to a symptom of a mental disorder should not be coded unless that prob- lem is a specific focus of treatment or directly affects the course, prog- nosis, or treatment of the individual. In such cases, both the mental disorder and the lifestyle problem should be coded. V71.01 (Z72.811) Adult Antisocial Behavior This category can be used when the focus of clinical attention is adult an- tisocial behavior that is not due to a mental disorder (e.g., conduct dis- order, antisocial personality disorder). Examples include the behavior of some professional thieves, racketeers, or dealers in illegal substances.",
+  "gloss_vi": "To an organized church or religious in- stitution. v61.7 (z64.0) problems related to unwanted pregnancy v61.5 (z64.1) problems related to multiparity v62.89 (z64.4) discord with social service provider, includ- ing proba...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "screening_cues",
+      "management"
+    ],
+    "life_topics": [
+      "sleep",
+      "study",
+      "work"
+    ],
+    "advice_section": [
+      "sleep_hygiene"
+    ],
+    "audience": [],
+    "risk_band": "high"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn to an organized church or religious in- stitution. V61.7 (Z64.0) Problems Related to Unwanted Pregnancy V61.5 (Z64.1) Problems Related to Multiparity V62.89 (Z64.4) Discord With Social Service Provider, Includ- ing Probation Officer, Case Manager, or Social Services Worker V62.89 (Z65.4) Victim of Terrorism or Torture V62.22 (Z65.5) Exposure to Disaster, War, or Other Hostilities V62.89 (Z65.8) Other Problem Related to Psychosocial Cir- cumstances V62.9 (Z65.9) Unspecified Problem Related to Unspecified Psychosocial Circumstances Other Circumstances of Personal History V15.49 (Z91.49) Other Personal History of Psychological Trauma V15.59 (Z91.5) Personal History of Self-Harm V62.22 (Z91.82) Personal History of Military Deployment V15.89 (Z91.89) Other Personal Risk Factors V69.9 (Z72.9) Problem Related to Lifestyle This category should be used when a lifestyle problem is a specific fo- cus of treatment or directly affects the course, prognosis, or treatment of a mental or other medical disorder. Examples of lifestyle problems include lack of physical exercise, inappropriate diet, high-risk sexual behavior, and poor sleep hygiene. A problem that is attributable to a symptom of a mental disorder should not be coded unless that prob- lem is a specific focus of treatment or directly affects the course, prog- nosis, or treatment of the individual. In such cases, both the mental disorder and the lifestyle problem should be coded. V71.01 (Z72.811) Adult Antisocial Behavior This category can be used when the focus of clinical attention is adult an- tisocial behavior that is not due to a mental disorder (e.g., conduct dis- order, antisocial personality disorder). Examples include the behavior of some professional thieves, racketeers, or dealers in illegal substances. To an organized church or religious in- stitution. v61.7 (z64.0) problems related to unwanted pregnancy v61.5 (z64.1) problems related to multiparity v62.89 (z64.4) discord with social service provider, includ- ing proba..."
+}

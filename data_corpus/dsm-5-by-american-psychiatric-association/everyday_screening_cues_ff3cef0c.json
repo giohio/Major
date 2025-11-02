@@ -1,0 +1,33 @@
+{
+  "id": "everyday#screening_cues_ff3cef0c",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "246 Substance-Related and Addictive Disorders Specify if: In a controlled environment: This additional specifier is used if the individual is in an environment where access to phencycli- dines is restricted. Coding based on current severity: Note for ICD-10-CM codes: If a phencyclidine intoxication or another phencyclidine-induced mental dis- order is also present, do not use the codes below for phencyclidine use disorder. Instead, the comorbid phencyclidine use disorder is indicated in the 4th character of the phencyclidine-induced disorder code (see the coding note for phencyclidine intoxication or a specific phencyclidine- induced mental disorder). For example, if there is comorbid phencycli- dine-induced psychotic disorder, only the phencyclidine-induced psy- chotic disorder code is given, with the 4th character indicating whether the comorbid phencyclidine use disorder is mild, moderate, or severe: F16.159 for mild phencyclidine use disorder with phencyclidine-induced psychotic disorder or F16.259 for a moderate or severe phencyclidine use disorder with phencyclidine-induced psychotic disorder. Specify current severity: 305.90 (F16.10) Mild: Presence of 2–3 symptoms 304.60 (F16.20) Moderate: Presence of 4–5 symptoms 304.60 (F16.20) Severe: Presence of 6 or more symptoms Other Hallucinogen Use Disorder A. A problematic pattern of hallucinogen (other than phencyclidine) use leading to clinically significant impairment or distress, as manifested by at least two of the following, occurring within a 12- month period: 1. The hallucinogen is often taken in larger amounts or over a longer period than was intended. 2. There is a persistent desire or unsuccessful efforts to cut down or control hallucinogen use. 3. A great deal of time is spent in activities necessary to obtain the hallucinogen, use the hallucinogen, or recover from its effects. 4. Craving, or a strong desire or urge to use the hallucinogen. Other Hallucinogen Use Disorder 247 5. Recurrent hallucinogen use resulting in a failure to",
+  "gloss_vi": "246 substance-related and addictive disorders specify if: in a controlled environment: this additional specifier is used if the individual is in an environment where access to phencycli- dines is restricted. coding based...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "stress",
+      "study"
+    ],
+    "advice_section": [
+      "work_habits"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 246 Substance-Related and Addictive Disorders Specify if: In a controlled environment: This additional specifier is used if the individual is in an environment where access to phencycli- dines is restricted. Coding based on current severity: Note for ICD-10-CM codes: If a phencyclidine intoxication or another phencyclidine-induced mental dis- order is also present, do not use the codes below for phencyclidine use disorder. Instead, the comorbid phencyclidine use disorder is indicated in the 4th character of the phencyclidine-induced disorder code (see the coding note for phencyclidine intoxication or a specific phencyclidine- induced mental disorder). For example, if there is comorbid phencycli- dine-induced psychotic disorder, only the phencyclidine-induced psy- chotic disorder code is given, with the 4th character indicating whether the comorbid phencyclidine use disorder is mild, moderate, or severe: F16.159 for mild phencyclidine use disorder with phencyclidine-induced psychotic disorder or F16.259 for a moderate or severe phencyclidine use disorder with phencyclidine-induced psychotic disorder. Specify current severity: 305.90 (F16.10) Mild: Presence of 2–3 symptoms 304.60 (F16.20) Moderate: Presence of 4–5 symptoms 304.60 (F16.20) Severe: Presence of 6 or more symptoms Other Hallucinogen Use Disorder A. A problematic pattern of hallucinogen (other than phencyclidine) use leading to clinically significant impairment or distress, as manifested by at least two of the following, occurring within a 12- month period: 1. The hallucinogen is often taken in larger amounts or over a longer period than was intended. 2. There is a persistent desire or unsuccessful efforts to cut down or control hallucinogen use. 3. A great deal of time is spent in activities necessary to obtain the hallucinogen, use the hallucinogen, or recover from its effects. 4. Craving, or a strong desire or urge to use the hallucinogen. Other Hallucinogen Use Disorder 247 5. Recurrent hallucinogen use resulting in a failure to 246 substance-related and addictive disorders specify if: in a controlled environment: this additional specifier is used if the individual is in an environment where access to phencycli- dines is restricted. coding based..."
+}

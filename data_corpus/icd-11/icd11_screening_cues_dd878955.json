@@ -1,0 +1,30 @@
+{
+  "id": "icd11#screening_cues_dd878955",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "judgement depends on establishing the following. • The medical condition is known to be capable of producing the symptoms. • The course of the hallucinations and/or delusions (e.g. onset, remission, response of the psychotic symptoms to treatment of the etiological medical condition) is consistent with causation by the medical condition. Secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere Secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere 657 • The symptoms are not better accounted for by delirium, dementia, another mental disorder (e.g. schizophrenia or another primary psychotic disorder, a mood disorder) or the effects of a medication or substance, including withdrawal effects. • The symptoms are sufficiently severe to be a specific focus of clinical attention. 6E61.0 Secondary psychotic syndrome, with hallucinations Essential (required) features • All diagnostic requirements for secondary psychotic syndrome are met. • The presentation is characterized by prominent hallucinations without prominent delusions. 6E61.1 Secondary psychotic syndrome, with delusions Essential (required) features • All diagnostic requirements for secondary psychotic syndrome are met. • The presentation is characterized by prominent delusions without prominent hallucinations. 6E61.2 Secondary psychotic syndrome, with hallucinations and delusions Essential (required) features • All diagnostic requirements for secondary psychotic syndrome are met. • The presentation is characterized by both prominent hallucinations and prominent delusions. 6E61.3 Secondary psychotic syndrome, with unspecified symptoms Secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere",
+  "gloss_vi": "Judgement depends on establishing the following. • the medical condition is known to be capable of producing the symptoms.",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "management"
+    ],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc judgement depends on establishing the following. • The medical condition is known to be capable of producing the symptoms. • The course of the hallucinations and/or delusions (e.g. onset, remission, response of the psychotic symptoms to treatment of the etiological medical condition) is consistent with causation by the medical condition. Secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere Secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere 657 • The symptoms are not better accounted for by delirium, dementia, another mental disorder (e.g. schizophrenia or another primary psychotic disorder, a mood disorder) or the effects of a medication or substance, including withdrawal effects. • The symptoms are sufficiently severe to be a specific focus of clinical attention. 6E61.0 Secondary psychotic syndrome, with hallucinations Essential (required) features • All diagnostic requirements for secondary psychotic syndrome are met. • The presentation is characterized by prominent hallucinations without prominent delusions. 6E61.1 Secondary psychotic syndrome, with delusions Essential (required) features • All diagnostic requirements for secondary psychotic syndrome are met. • The presentation is characterized by prominent delusions without prominent hallucinations. 6E61.2 Secondary psychotic syndrome, with hallucinations and delusions Essential (required) features • All diagnostic requirements for secondary psychotic syndrome are met. • The presentation is characterized by both prominent hallucinations and prominent delusions. 6E61.3 Secondary psychotic syndrome, with unspecified symptoms Secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere Judgement depends on establishing the following. • the medical condition is known to be capable of producing the symptoms."
+}

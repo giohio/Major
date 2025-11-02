@@ -1,0 +1,30 @@
+{
+  "id": "icd11#screening_cues_e10b5670",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "Note: visual hallucinations must be distinguished from illusions, which are visual misperceptions of real external stimuli. Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs involving perceptual disturbance Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs related to personality features Mental or behavioural symptoms, signs or clinical findings 699 MB27.2Y Other specified hallucinations MB27.2Z Hallucinations, unspecified MB27.3 Disturbance of body image • Disturbance of body image refers to excessively negative, distorted or inaccurate perception of the individual’s own body or parts of it. MB27.4 Illusions • Illusions refer to misinterpretation of a true sensation (e.g. hearing voices in the sound of running water, the perception of figures in shadows). MB27.Y Other specified symptoms or signs of perceptual disturbances MB27.Z Symptoms or signs of perceptual disturbance, unspecified MB28 Symptoms or signs related to personality features This grouping includes symptoms or signs involving the characteristics or qualities possessed by a person that uniquely influence their cognition, motivations and behaviours in various situations. MB28.0 Attention seeking • Attention seeking refers to a tendency to engage in behaviour designed to attract notice and to make oneself the focus of others’ attention. MB28.1 Callousness • Callousness refers to a lack of concern for the feelings or problems of others, or a lack of guilt or remorse about the negative or harmful effects of one’s actions on others. MB28.2 Eccentricity • Eccentricity refers to a tendency towards appearance or behaviour that is odd, unusual, peculiar or unconventional, and is inconsistent with cultural or subcultural norms. Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs involving perceptual disturbance Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs related to personality features",
+  "gloss_vi": "Note: visual hallucinations must be distinguished from illusions, which are visual misperceptions of real external stimuli. mental or behavioural symptoms, signs or clinical findings | symptoms or signs involving percept...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "referral"
+    ],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc Note: visual hallucinations must be distinguished from illusions, which are visual misperceptions of real external stimuli. Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs involving perceptual disturbance Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs related to personality features Mental or behavioural symptoms, signs or clinical findings 699 MB27.2Y Other specified hallucinations MB27.2Z Hallucinations, unspecified MB27.3 Disturbance of body image • Disturbance of body image refers to excessively negative, distorted or inaccurate perception of the individual’s own body or parts of it. MB27.4 Illusions • Illusions refer to misinterpretation of a true sensation (e.g. hearing voices in the sound of running water, the perception of figures in shadows). MB27.Y Other specified symptoms or signs of perceptual disturbances MB27.Z Symptoms or signs of perceptual disturbance, unspecified MB28 Symptoms or signs related to personality features This grouping includes symptoms or signs involving the characteristics or qualities possessed by a person that uniquely influence their cognition, motivations and behaviours in various situations. MB28.0 Attention seeking • Attention seeking refers to a tendency to engage in behaviour designed to attract notice and to make oneself the focus of others’ attention. MB28.1 Callousness • Callousness refers to a lack of concern for the feelings or problems of others, or a lack of guilt or remorse about the negative or harmful effects of one’s actions on others. MB28.2 Eccentricity • Eccentricity refers to a tendency towards appearance or behaviour that is odd, unusual, peculiar or unconventional, and is inconsistent with cultural or subcultural norms. Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs involving perceptual disturbance Mental or behavioural symptoms, signs or clinical findings | Symptoms or signs related to personality features Note: visual hallucinations must be distinguished from illusions, which are visual misperceptions of real external stimuli. mental or behavioural symptoms, signs or clinical findings | symptoms or signs involving percept..."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "icd11#screening_cues_b122a81f",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "6A72 Dysthymic disorder 6A73 Mixed depressive and anxiety disorder 6A7Y Other specified depressive disorder 6A7Z Depressive disorder, unspecified 6A8Y Other specified mood disorder 6A8Z Mood disorder, unspecified 48 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Secondary-parented categories From disorders due to substance use: Substance-induced mood disorders Specify substance class: 6C40.70 Alcohol-induced mood disorder Specify clinical presentation: 6C40.700 … with depressive symptoms 6C40.701 … with manic symptoms 6C40.702 … with mixed depressive and manic symptoms 6C40.70Z … unspecified 6C41.70 Cannabis-induced mood disorder Specify clinical presentation: 6C41.700 … with depressive symptoms 6C41.701 … with manic symptoms 6C41.702 … with mixed depressive and manic symptoms 6C41.70Z … unspecified 6C42.70 Synthetic cannabinoid-induced mood disorder Specify clinical presentation: 6C42.700 … with depressive symptoms 6C42.701 … with manic symptoms 6C42.702 … with mixed depressive and manic symptoms 6C42.70Z … unspecified 6C43.70 Opioid-induced mood disorder Specify clinical presentation: 6C43.700 … with depressive symptoms 6C43.701 … with manic symptoms 6C43.702 … with mixed depressive and manic symptoms 6C43.70Z … unspecified",
+  "gloss_vi": "6a72 dysthymic disorder 6a73 mixed depressive and lo âu disorder 6a7y other specified depressive disorder 6a7z depressive disorder, unspecified 6a8y other specified mood disorder 6a8z mood disorder, unspecified 48 clinic...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 6A72 Dysthymic disorder 6A73 Mixed depressive and anxiety disorder 6A7Y Other specified depressive disorder 6A7Z Depressive disorder, unspecified 6A8Y Other specified mood disorder 6A8Z Mood disorder, unspecified 48 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Secondary-parented categories From disorders due to substance use: Substance-induced mood disorders Specify substance class: 6C40.70 Alcohol-induced mood disorder Specify clinical presentation: 6C40.700 … with depressive symptoms 6C40.701 … with manic symptoms 6C40.702 … with mixed depressive and manic symptoms 6C40.70Z … unspecified 6C41.70 Cannabis-induced mood disorder Specify clinical presentation: 6C41.700 … with depressive symptoms 6C41.701 … with manic symptoms 6C41.702 … with mixed depressive and manic symptoms 6C41.70Z … unspecified 6C42.70 Synthetic cannabinoid-induced mood disorder Specify clinical presentation: 6C42.700 … with depressive symptoms 6C42.701 … with manic symptoms 6C42.702 … with mixed depressive and manic symptoms 6C42.70Z … unspecified 6C43.70 Opioid-induced mood disorder Specify clinical presentation: 6C43.700 … with depressive symptoms 6C43.701 … with manic symptoms 6C43.702 … with mixed depressive and manic symptoms 6C43.70Z … unspecified 6a72 dysthymic disorder 6a73 mixed depressive and lo âu disorder 6a7y other specified depressive disorder 6a7z depressive disorder, unspecified 6a8y other specified mood disorder 6a8z mood disorder, unspecified 48 clinic..."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "everyday#screening_cues_8b432baf",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "disorder is also given. If the intoxication delirium occurs without a comorbid substance use disorder (e.g., after a one-time heavy use of the substance), no accompanying substance use disor- der is noted (e.g., 292.81 phencyclidine intoxication delirium, acute, hypoactive). ICD-10-CM. The name of the substance/medication intoxication de- lirium begins with the specific substance (e.g., cocaine, dexametha- sone) that is presumed to be causing the delirium. The diagnostic code is selected from the table included in the criteria set, which is based on the drug class and presence or absence of a comorbid sub- stance use disorder. For substances that do not fit into any of the classes (e.g., dexamethasone), the code for “other substance” should be used; and in cases in which a substance is judged to be an etiolog- ical factor but the specific class of substance is unknown, the cate- gory “unknown substance” should be used. When recording the name of the disorder, the comorbid substance use disorder (if any) is listed first, followed by the word “with,” fol- lowed by the name of the substance intoxication delirium, followed by the course (i.e., acute, persistent), followed by the specifier indi- cating level of psychomotor activity (i.e., hyperactive, hypoactive, mixed level of activity). For example, in the case of acute hyperactive intoxication delirium occurring in a man with a severe cocaine use disorder, the diagnosis is F14.221 severe cocaine use disorder with cocaine intoxication delirium, acute, hyperactive. A separate diagno- sis of the comorbid severe cocaine use disorder is not given. If the intoxication delirium occurs without a comorbid substance use dis- order (e.g., after a one-time heavy use of the substance), no accompa- nying substance use disorder is noted (e.g., F16.921 phencyclidine in- toxication delirium, acute, hypoactive). Substance withdrawal delirium ICD-9-CM. The name of the substance/medication withdrawal de- lirium begins with the specific substance (e.g., alcohol) that is pre- sumed to be causing the withdrawal delirium. The diagnostic code is",
+  "gloss_vi": "Disorder is also given. if the intoxication delirium occurs without a comorbid substance use disorder (e.g., after a one-time heavy use of the substance), no accompanying substance use disor- der is noted (e.g., 292.81 p...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc disorder is also given. If the intoxication delirium occurs without a comorbid substance use disorder (e.g., after a one-time heavy use of the substance), no accompanying substance use disor- der is noted (e.g., 292.81 phencyclidine intoxication delirium, acute, hypoactive). ICD-10-CM. The name of the substance/medication intoxication de- lirium begins with the specific substance (e.g., cocaine, dexametha- sone) that is presumed to be causing the delirium. The diagnostic code is selected from the table included in the criteria set, which is based on the drug class and presence or absence of a comorbid sub- stance use disorder. For substances that do not fit into any of the classes (e.g., dexamethasone), the code for “other substance” should be used; and in cases in which a substance is judged to be an etiolog- ical factor but the specific class of substance is unknown, the cate- gory “unknown substance” should be used. When recording the name of the disorder, the comorbid substance use disorder (if any) is listed first, followed by the word “with,” fol- lowed by the name of the substance intoxication delirium, followed by the course (i.e., acute, persistent), followed by the specifier indi- cating level of psychomotor activity (i.e., hyperactive, hypoactive, mixed level of activity). For example, in the case of acute hyperactive intoxication delirium occurring in a man with a severe cocaine use disorder, the diagnosis is F14.221 severe cocaine use disorder with cocaine intoxication delirium, acute, hyperactive. A separate diagno- sis of the comorbid severe cocaine use disorder is not given. If the intoxication delirium occurs without a comorbid substance use dis- order (e.g., after a one-time heavy use of the substance), no accompa- nying substance use disorder is noted (e.g., F16.921 phencyclidine in- toxication delirium, acute, hypoactive). Substance withdrawal delirium ICD-9-CM. The name of the substance/medication withdrawal de- lirium begins with the specific substance (e.g., alcohol) that is pre- sumed to be causing the withdrawal delirium. The diagnostic code is Disorder is also given. if the intoxication delirium occurs without a comorbid substance use disorder (e.g., after a one-time heavy use of the substance), no accompanying substance use disor- der is noted (e.g., 292.81 p..."
+}

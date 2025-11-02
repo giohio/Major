@@ -1,0 +1,30 @@
+{
+  "id": "everyday#screening_cues_01fce61e",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "194 Sleep-Wake Disorders C. The disturbance is not better explained by a sleep disorder that is not substance/medication-induced. Such evidence of an inde- pendent sleep disorder could include the following: The symptoms precede the onset of the substance/medica- tion use; the symptoms persist for a substantial period of time (e.g., about 1 month) after the cessation of acute with- drawal or severe intoxication; or there is other evidence sug- gesting the existence of an independent non-substance/ medication-induced sleep disorder (e.g., a history of recur- rent non-substance/medication-related episodes). D. The disturbance does not occur exclusively during the course of a delirium. E. The disturbance causes clinically significant distress or impairment in social, occupational, or other important areas of functioning. Note: This diagnosis should be made instead of a diagnosis of sub- stance intoxication or substance withdrawal only when the symptom in Criterion A predominate in the clinical picture and when they are sufficiently severe to warrant clinical attention. Coding note: The ICD-9-CM and ICD-10-CM codes for the [specific substance/medication]-induced sleep disorders are indicated in the ta- ble below. Note that the ICD-10-CM code depends on whether or not there is a comorbid substance use disorder present for the same class of substance. If a mild substance use disorder is comorbid with the substance-induced sleep disorder, the 4th position character is “1,” and the clinician should record “mild [substance] use disorder” before the substance-induced sleep disorder (e.g., “mild cocaine use disorder with cocaine-induced sleep disorder”). If a moderate or severe sub- stance use disorder is comorbid with the substance-induced sleep dis- order, the 4th position character",
+  "gloss_vi": "194 giấc ngủ-wake disorders c. the disturbance is not better explained by a giấc ngủ disorder that is not substance/medication-induced.",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [
+      "sleep",
+      "stress"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 194 Sleep-Wake Disorders C. The disturbance is not better explained by a sleep disorder that is not substance/medication-induced. Such evidence of an inde- pendent sleep disorder could include the following: The symptoms precede the onset of the substance/medica- tion use; the symptoms persist for a substantial period of time (e.g., about 1 month) after the cessation of acute with- drawal or severe intoxication; or there is other evidence sug- gesting the existence of an independent non-substance/ medication-induced sleep disorder (e.g., a history of recur- rent non-substance/medication-related episodes). D. The disturbance does not occur exclusively during the course of a delirium. E. The disturbance causes clinically significant distress or impairment in social, occupational, or other important areas of functioning. Note: This diagnosis should be made instead of a diagnosis of sub- stance intoxication or substance withdrawal only when the symptom in Criterion A predominate in the clinical picture and when they are sufficiently severe to warrant clinical attention. Coding note: The ICD-9-CM and ICD-10-CM codes for the [specific substance/medication]-induced sleep disorders are indicated in the ta- ble below. Note that the ICD-10-CM code depends on whether or not there is a comorbid substance use disorder present for the same class of substance. If a mild substance use disorder is comorbid with the substance-induced sleep disorder, the 4th position character is “1,” and the clinician should record “mild [substance] use disorder” before the substance-induced sleep disorder (e.g., “mild cocaine use disorder with cocaine-induced sleep disorder”). If a moderate or severe sub- stance use disorder is comorbid with the substance-induced sleep dis- order, the 4th position character 194 giấc ngủ-wake disorders c. the disturbance is not better explained by a giấc ngủ disorder that is not substance/medication-induced."
+}

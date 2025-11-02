@@ -1,0 +1,34 @@
+{
+  "id": "icd11#screening_cues_98b93522",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "Secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere 667 6E65 Secondary dissociative syndrome Essential (required) features • The presence of prominent dissociative symptoms (e.g. depersonalization, derealization, dissociative amnesia, a marked alteration in the individual’s normal sense of personal identity) is required for diagnosis. • The symptoms are judged to be the direct pathophysiological consequence of a medical condition, based on evidence from the history, physical examination or laboratory findings. This judgement depends on establishing the following. • The medical condition is known to be capable of producing the observed symptoms. • The course of dissociative symptoms (e.g. onset, remission, response of the dissociative symptoms to treatment of the etiological medical condition) is consistent with causation by the medical condition. • The symptoms are not better accounted for by delirium, dementia, another mental disorder (e.g. dissociative disorders, disorders specifically associated with stress, schizophrenia and other primary psychotic disorders) or the effects of a medication or substance, including withdrawal effects. • The symptoms are sufficiently severe to be a specific focus of clinical attention. Boundaries with other disorders and conditions (differential diagnosis) Boundary with dissociative disorders Determining whether dissociative symptoms are due to a medical condition as opposed to manifestations of a primary mental disorder is often difficult because the clinical presentations may be similar. Establishing the presence of a potentially explanatory medical condition that can cause dissociative symptoms and the temporal relationship between the medical condition and the dissociative symptoms is critical in diagnosing secondary dissociative syndrome. Boundary with dissociative symptoms caused by substances or medications, including withdrawal effects When establishing a diagnosis of secondary dissociative syndrome, it is important to rule out the possibility that a medication or substance is causing the dissociative symptoms instead of – or in addition to – an underlying medical condition. This involves first considering whether any of the medications being used to treat the medical condition are known to cause dissociative symptoms at the dose and duration at which it has been administered. Second, a temporal relationship between the medication use and the onset of the dissociative symptoms should be established (i.e. the dissociative symptoms began after administration of the medication and/or remitted once the medication was discontinued). The same reasoning applies to individuals with a medical condition and dissociative symptoms who are also using a psychoactive substance known to cause dissociative symptoms, in the context of either",
+  "gloss_vi": "Secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere 667 6e65 secondary dissociative syndrome essential (required) features • the presence of prominent dissociative sympto...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "management"
+    ],
+    "life_topics": [
+      "stress",
+      "study",
+      "relationships"
+    ],
+    "advice_section": [
+      "communication_tips"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc Secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere 667 6E65 Secondary dissociative syndrome Essential (required) features • The presence of prominent dissociative symptoms (e.g. depersonalization, derealization, dissociative amnesia, a marked alteration in the individual’s normal sense of personal identity) is required for diagnosis. • The symptoms are judged to be the direct pathophysiological consequence of a medical condition, based on evidence from the history, physical examination or laboratory findings. This judgement depends on establishing the following. • The medical condition is known to be capable of producing the observed symptoms. • The course of dissociative symptoms (e.g. onset, remission, response of the dissociative symptoms to treatment of the etiological medical condition) is consistent with causation by the medical condition. • The symptoms are not better accounted for by delirium, dementia, another mental disorder (e.g. dissociative disorders, disorders specifically associated with stress, schizophrenia and other primary psychotic disorders) or the effects of a medication or substance, including withdrawal effects. • The symptoms are sufficiently severe to be a specific focus of clinical attention. Boundaries with other disorders and conditions (differential diagnosis) Boundary with dissociative disorders Determining whether dissociative symptoms are due to a medical condition as opposed to manifestations of a primary mental disorder is often difficult because the clinical presentations may be similar. Establishing the presence of a potentially explanatory medical condition that can cause dissociative symptoms and the temporal relationship between the medical condition and the dissociative symptoms is critical in diagnosing secondary dissociative syndrome. Boundary with dissociative symptoms caused by substances or medications, including withdrawal effects When establishing a diagnosis of secondary dissociative syndrome, it is important to rule out the possibility that a medication or substance is causing the dissociative symptoms instead of – or in addition to – an underlying medical condition. This involves first considering whether any of the medications being used to treat the medical condition are known to cause dissociative symptoms at the dose and duration at which it has been administered. Second, a temporal relationship between the medication use and the onset of the dissociative symptoms should be established (i.e. the dissociative symptoms began after administration of the medication and/or remitted once the medication was discontinued). The same reasoning applies to individuals with a medical condition and dissociative symptoms who are also using a psychoactive substance known to cause dissociative symptoms, in the context of either Secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere 667 6e65 secondary dissociative syndrome essential (required) features • the presence of prominent dissociative sympto..."
+}

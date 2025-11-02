@@ -1,0 +1,36 @@
+{
+  "id": "icd11#screening_cues_6e3c5efd",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "262 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders • The symptoms are not a manifestation of another medical condition (e.g. endometriosis, polycystic ovary disease, adrenal system disorders or hyperprolactinemia), and are not due to the effects of a substance or medication on the central nervous system (e.g. hormone treatment, alcohol), including withdrawal effects (e.g. from stimulants). • The symptoms result in significant distress or significant impairment in personal, family, social, educational, occupational or other important areas of functioning. Boundary with normality (threshold) • Mild mood changes (e.g. increased emotional lability, irritability, subjective tension) that occur during late luteal or menstrual phase of the cycle for many women should not be labelled as premenstrual dysphoric disorder. In contrast to premenstrual dysphoric disorder, these symptoms are less intense and do not typically result in significant distress or impairment. Boundaries with other disorders and conditions (differential diagnosis) Boundary with premenstrual tension syndrome Many women may experience cyclic emotional, physical or behavioural symptoms that interfere with their lifestyles during the luteal phase of the menstrual cycle that are appropriately diagnosed and treated as premenstrual tension syndrome. This is in contrast to premenstrual dysphoric disorder, in which the symptoms are considerably more severe and cause significant distress or significant impairment in personal, family, social, educational, occupational or other important areas of functioning. Boundary with other mental, behavioural and neurodevelopmental disorders, including mood disorders that are exacerbated premenstrually Mood symptoms characteristic of premenstrual dysphoric disorder – including depressed mood, irritability and anxiety – can be present in other mental, behavioural and neurodevelopmental disorders (e.g. depressive disorders, bipolar disorders, generalized anxiety disorder). Although symptoms of these disorders may be exacerbated during the late luteal and menstrual phases, premenstrual dysphoric disorder is differentiated by the absence of symptoms 1 week following the onset of menses. Because of the difficulty in accurate recall of the relationship between menstrual cycle and the course of symptoms, prospective",
+  "gloss_vi": "262 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders • the symptoms are not a manifestation of another medical condition (e.g. endometriosis, polycystic ova...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "psychoeducation",
+      "do_not_do",
+      "management",
+      "caregiver"
+    ],
+    "life_topics": [
+      "stress",
+      "relationships"
+    ],
+    "advice_section": [
+      "communication_tips"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 262 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders • The symptoms are not a manifestation of another medical condition (e.g. endometriosis, polycystic ovary disease, adrenal system disorders or hyperprolactinemia), and are not due to the effects of a substance or medication on the central nervous system (e.g. hormone treatment, alcohol), including withdrawal effects (e.g. from stimulants). • The symptoms result in significant distress or significant impairment in personal, family, social, educational, occupational or other important areas of functioning. Boundary with normality (threshold) • Mild mood changes (e.g. increased emotional lability, irritability, subjective tension) that occur during late luteal or menstrual phase of the cycle for many women should not be labelled as premenstrual dysphoric disorder. In contrast to premenstrual dysphoric disorder, these symptoms are less intense and do not typically result in significant distress or impairment. Boundaries with other disorders and conditions (differential diagnosis) Boundary with premenstrual tension syndrome Many women may experience cyclic emotional, physical or behavioural symptoms that interfere with their lifestyles during the luteal phase of the menstrual cycle that are appropriately diagnosed and treated as premenstrual tension syndrome. This is in contrast to premenstrual dysphoric disorder, in which the symptoms are considerably more severe and cause significant distress or significant impairment in personal, family, social, educational, occupational or other important areas of functioning. Boundary with other mental, behavioural and neurodevelopmental disorders, including mood disorders that are exacerbated premenstrually Mood symptoms characteristic of premenstrual dysphoric disorder – including depressed mood, irritability and anxiety – can be present in other mental, behavioural and neurodevelopmental disorders (e.g. depressive disorders, bipolar disorders, generalized anxiety disorder). Although symptoms of these disorders may be exacerbated during the late luteal and menstrual phases, premenstrual dysphoric disorder is differentiated by the absence of symptoms 1 week following the onset of menses. Because of the difficulty in accurate recall of the relationship between menstrual cycle and the course of symptoms, prospective 262 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders • the symptoms are not a manifestation of another medical condition (e.g. endometriosis, polycystic ova..."
+}

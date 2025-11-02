@@ -1,0 +1,30 @@
+{
+  "id": "icd11#screening_cues_71421d8f",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "318 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Insight specifiers Individuals with hypochondriasis vary in the degree of insight they have about the accuracy of the beliefs that underlie their health concerns. Although many can acknowledge that their thoughts or behaviours are untrue or excessive, some cannot, and the beliefs of a small minority of individuals with hypochondriasis may at times appear to be delusional in the degree of conviction or fixity with which these beliefs are held (e.g. an individual is convinced that they have a terminal illness). Insight may vary substantially even over short periods of time – for example, depending on the level of current anxiety or distress – and should be assessed with respect to a time period that is sufficient to allow for such fluctuation (e.g. a few days or a week). The degree of insight that an individual exhibits in the context of hypochondriasis can be specified as follows. 6B23.0 Hypochondriasis with fair to good insight • Much of the time, the individual is able to entertain the possibility that their disorder- specific beliefs may not be true, and they are willing to accept an alternative explanation for their experience. This specifier level may still be applied if, at circumscribed times (e.g. when highly anxious), the individual demonstrates no insight. 6B23.1 Hypochondriasis with poor to absent insight • Most or all of the time, the individual is convinced that the disorder-specific beliefs are true, and they cannot accept an alternative explanation for their experience. The lack of insight exhibited by the individual does not vary markedly as a function of anxiety level. 6B23.Z Hypochondriasis, unspecified Additional clinical features • Individuals with hypochondriasis often make catastrophic misinterpretations of bodily signs or symptoms, including normal or commonplace sensations (e.g. worrying that a tension headache is indicative of a brain tumour). • Individuals with hypochondriasis typically have a high level of anxiety about health, are often hypervigilant of bodily sensations and symptoms, and may become easily alarmed about their personal health status, to the extent that the experience of anxiety – including panic attacks – may be a significant presenting feature. For this reason, health anxiety disorder is included as an alternative name for the",
+  "gloss_vi": "318 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders insight specifiers individuals with hypochondriasis vary in the degree of insight they have about the a...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [
+      "stress",
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 318 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Insight specifiers Individuals with hypochondriasis vary in the degree of insight they have about the accuracy of the beliefs that underlie their health concerns. Although many can acknowledge that their thoughts or behaviours are untrue or excessive, some cannot, and the beliefs of a small minority of individuals with hypochondriasis may at times appear to be delusional in the degree of conviction or fixity with which these beliefs are held (e.g. an individual is convinced that they have a terminal illness). Insight may vary substantially even over short periods of time – for example, depending on the level of current anxiety or distress – and should be assessed with respect to a time period that is sufficient to allow for such fluctuation (e.g. a few days or a week). The degree of insight that an individual exhibits in the context of hypochondriasis can be specified as follows. 6B23.0 Hypochondriasis with fair to good insight • Much of the time, the individual is able to entertain the possibility that their disorder- specific beliefs may not be true, and they are willing to accept an alternative explanation for their experience. This specifier level may still be applied if, at circumscribed times (e.g. when highly anxious), the individual demonstrates no insight. 6B23.1 Hypochondriasis with poor to absent insight • Most or all of the time, the individual is convinced that the disorder-specific beliefs are true, and they cannot accept an alternative explanation for their experience. The lack of insight exhibited by the individual does not vary markedly as a function of anxiety level. 6B23.Z Hypochondriasis, unspecified Additional clinical features • Individuals with hypochondriasis often make catastrophic misinterpretations of bodily signs or symptoms, including normal or commonplace sensations (e.g. worrying that a tension headache is indicative of a brain tumour). • Individuals with hypochondriasis typically have a high level of anxiety about health, are often hypervigilant of bodily sensations and symptoms, and may become easily alarmed about their personal health status, to the extent that the experience of anxiety – including panic attacks – may be a significant presenting feature. For this reason, health anxiety disorder is included as an alternative name for the 318 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders insight specifiers individuals with hypochondriasis vary in the degree of insight they have about the a..."
+}

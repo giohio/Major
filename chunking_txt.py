@@ -4,7 +4,7 @@ from typing import List, Tuple
 
 # ========= CẤU HÌNH =========
 RAW_TXT_DIR = Path("raw_txt")           # tất cả .txt nằm ở đây
-OUT_DIR     = Path("data_corpus")       # nơi xuất snippets .json
+OUT_DIR     = Path("data_corpus_2")       # nơi xuất snippets .json
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Kích thước & overlap
@@ -12,8 +12,14 @@ MIN_WORDS   = 120
 MAX_WORDS   = 220
 OVERLAP_FR  = 0.20    # 20%
 
+CHUNK_CONFIG = {
+    "clinical":  (120, 220, 0.20),
+    "everyday":  (80, 160, 0.15),
+    "advice":    (80, 140, 0.10),
+}
+
 # Nếu muốn chỉ giữ 1 số condition (để MVP gọn). Để set() nếu giữ tất cả.
-ALLOW_CONDITIONS = {"Depression", "Anxiety", "SuicideRisk"}  # hoặc set()
+ALLOW_CONDITIONS = set()   # giữ trống để lấy tất cả
 
 # Nhận diện nguồn theo tên file hoặc nội dung
 def detect_source_from_file(name: str, content_sample: str) -> Tuple[str, str]:
@@ -55,6 +61,10 @@ CLINICAL_SECTIONS = {
     "psychoeducation": ["psychoeducation", "advice", "support", "self-help", "education"],
     "do_not_do": ["do not", "avoid", "contraindicat", "not recommended"]
 }
+CLINICAL_SECTIONS.update({
+    "management": ["management", "treatment", "therapy", "cognitive", "antidepressant", "follow-up"],
+    "caregiver": ["family", "caregiver", "support person", "guardian"]
+})
 EVERYDAY_TOPICS = {
     "sleep": ["sleep", "insomnia", "sleep hygiene", "bedtime", "circadian"],
     "stress": ["stress", "tension", "overwhelm", "relaxation", "breathing"],
@@ -195,7 +205,12 @@ def main():
             pass
 
         paras  = split_paragraphs(raw)
-        chunks = chunk_paragraphs(paras, MIN_WORDS, MAX_WORDS, OVERLAP_FR)
+        chunk_type = (
+            "clinical" if "who" in source.lower() or "icd" in source.lower()
+            else "everyday"
+        )
+        min_w, max_w, overlap_fr = CHUNK_CONFIG[chunk_type]
+        chunks = chunk_paragraphs(paras, min_w, max_w, overlap_fr)
 
         for ch in chunks:
             # gán axes
@@ -249,7 +264,9 @@ def main():
                 item["title_en"], item["title_vi"], item["text_en"], item["gloss_vi"]
             ]).strip()
 
-            out_path = OUT_DIR / f"{sid.replace('#','_')}.json"
+            subdir = OUT_DIR / path.stem.lower()
+            subdir.mkdir(exist_ok=True)
+            out_path = subdir / f"{sid.replace('#','_')}.json"
             out_path.write_text(json.dumps(item, ensure_ascii=False, indent=2), "utf-8")
             total_snips += 1
 

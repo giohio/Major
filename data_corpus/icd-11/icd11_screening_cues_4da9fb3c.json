@@ -1,0 +1,26 @@
+{
+  "id": "icd11#screening_cues_4da9fb3c",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "symptoms • All diagnostic requirements for a severe depressive episode (see p. 217) are currently met. • There are delusions or hallucinations during the current depressive episode. 6A61.6 Bipolar type II disorder, current episode depressive, unspecified severity • All diagnostic requirements for a depressive episode (see p. 212) are currently met. • There is insufficient information to determine the severity of the current depressive episode. 6A61.7 Bipolar type II disorder, currently in partial remission, most recent episode hypomanic • The most recent mood episode was a hypomanic episode (see p. 222). • The full diagnostic requirements for a hypomanic episode are no longer met, but some significant hypomanic symptoms remain. (Note that in some cases, residual mood symptoms may be of opposite polarity to the symptoms of the most recent episode.) Note: this category may also be used to designate the re-emergence of subthreshold mood symptoms following an asymptomatic period in a person who has previously met the diagnostic requirements for bipolar type II disorder. 6A61.9 Bipolar type II disorder, currently in partial remission, most recent episode depressive • The most recent mood episode was a depressive episode (see p. 212). • The full diagnostic requirements for a depressive episode are no longer met, but some significant depressive symptoms remain. (Note that in some cases, residual mood symptoms may be of opposite polarity to the symptoms of the most recent episode.) Note: this category may also be used to designate the re-emergence of subthreshold mood symptoms following an asymptomatic period in a person who has previously met the diagnostic requirements for bipolar type II disorder. 6A61.A Bipolar type II disorder, currently in partial remission, most recent episode unspecified • The full diagnostic requirements for a mood episode are no longer met, but some significant mood symptoms remain. Mood disorders | Bipolar type II disorder",
+  "gloss_vi": "Symptoms • all diagnostic requirements for a severe depressive episode (see p. 217) are currently met.",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc symptoms • All diagnostic requirements for a severe depressive episode (see p. 217) are currently met. • There are delusions or hallucinations during the current depressive episode. 6A61.6 Bipolar type II disorder, current episode depressive, unspecified severity • All diagnostic requirements for a depressive episode (see p. 212) are currently met. • There is insufficient information to determine the severity of the current depressive episode. 6A61.7 Bipolar type II disorder, currently in partial remission, most recent episode hypomanic • The most recent mood episode was a hypomanic episode (see p. 222). • The full diagnostic requirements for a hypomanic episode are no longer met, but some significant hypomanic symptoms remain. (Note that in some cases, residual mood symptoms may be of opposite polarity to the symptoms of the most recent episode.) Note: this category may also be used to designate the re-emergence of subthreshold mood symptoms following an asymptomatic period in a person who has previously met the diagnostic requirements for bipolar type II disorder. 6A61.9 Bipolar type II disorder, currently in partial remission, most recent episode depressive • The most recent mood episode was a depressive episode (see p. 212). • The full diagnostic requirements for a depressive episode are no longer met, but some significant depressive symptoms remain. (Note that in some cases, residual mood symptoms may be of opposite polarity to the symptoms of the most recent episode.) Note: this category may also be used to designate the re-emergence of subthreshold mood symptoms following an asymptomatic period in a person who has previously met the diagnostic requirements for bipolar type II disorder. 6A61.A Bipolar type II disorder, currently in partial remission, most recent episode unspecified • The full diagnostic requirements for a mood episode are no longer met, but some significant mood symptoms remain. Mood disorders | Bipolar type II disorder Symptoms • all diagnostic requirements for a severe depressive episode (see p. 217) are currently met."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "icd11#risk_safety_ea71a0f6",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "58 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6B66 Depersonalization-derealization disorder 6B6Y Other specified dissociative disorder 6B84 6B6Z Dissociative disorder, unspecified Secondary-parented category From secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere: 6E65 Secondary dissociative syndrome 6C00 Feeding and eating disorders 6B80 Anorexia nervosa Specify underweight status: 6B80.0 Anorexia nervosa with significantly low body weight Specify pattern of weight-related behaviours: 6B80.00 … restricting pattern 6C01 6B80.01 … binge-purge pattern 6B80.0Z … unspecified 6B80.1 Anorexia nervosa with dangerously low body weight Specify pattern of weight-related behaviours: 6B80.10 … restricting pattern 6B80.11 … binge-purge pattern 6B80.1Z … unspecified 6B80.2 Anorexia nervosa in recovery with normal body weight 6B80.Y Other specified anorexia nervosa 6B80 6B80.Z Anorexia nervosa, unspecified 6B81 Bulimia nervosa 6B82 Binge-eating disorder List of categories 59 6B83 Avoidant-restrictive food intake disorder 6B84 Pica 6B85 Rumination-regurgitation disorder 6B8Y Other specified feeding or eating disorder 6B83 6B8Z Feeding or eating disorder, unspecified 6B84 Elimination disorders 6C00 Enuresis Specify night-time or daytime occurrence: 6C00.0 Nocturnal enuresis 6C00.1 Diurnal enuresis 6C00.2 Nocturnal and diurnal enuresis 6C00.Z Enuresis, unspecified 6C01 Encopresis Specify pattern of faecal soiling: 6C01.0 …with constipation and overflow incontinence 6C01.1 …without constipation and overflow incontinence 6C01.Z …unspecified 6B80 Elimination disorder, unspecified",
+  "gloss_vi": "58 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders 6b66 depersonalization-derealization disorder 6b6y other specified dissociative disorder 6b84 6b6z disso...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "do_not_do"
+    ],
+    "life_topics": [],
+    "advice_section": [
+      "work_habits"
+    ],
+    "audience": [],
+    "risk_band": "high"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn 58 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6B66 Depersonalization-derealization disorder 6B6Y Other specified dissociative disorder 6B84 6B6Z Dissociative disorder, unspecified Secondary-parented category From secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere: 6E65 Secondary dissociative syndrome 6C00 Feeding and eating disorders 6B80 Anorexia nervosa Specify underweight status: 6B80.0 Anorexia nervosa with significantly low body weight Specify pattern of weight-related behaviours: 6B80.00 … restricting pattern 6C01 6B80.01 … binge-purge pattern 6B80.0Z … unspecified 6B80.1 Anorexia nervosa with dangerously low body weight Specify pattern of weight-related behaviours: 6B80.10 … restricting pattern 6B80.11 … binge-purge pattern 6B80.1Z … unspecified 6B80.2 Anorexia nervosa in recovery with normal body weight 6B80.Y Other specified anorexia nervosa 6B80 6B80.Z Anorexia nervosa, unspecified 6B81 Bulimia nervosa 6B82 Binge-eating disorder List of categories 59 6B83 Avoidant-restrictive food intake disorder 6B84 Pica 6B85 Rumination-regurgitation disorder 6B8Y Other specified feeding or eating disorder 6B83 6B8Z Feeding or eating disorder, unspecified 6B84 Elimination disorders 6C00 Enuresis Specify night-time or daytime occurrence: 6C00.0 Nocturnal enuresis 6C00.1 Diurnal enuresis 6C00.2 Nocturnal and diurnal enuresis 6C00.Z Enuresis, unspecified 6C01 Encopresis Specify pattern of faecal soiling: 6C01.0 …with constipation and overflow incontinence 6C01.1 …without constipation and overflow incontinence 6C01.Z …unspecified 6B80 Elimination disorder, unspecified 58 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders 6b66 depersonalization-derealization disorder 6b6y other specified dissociative disorder 6b84 6b6z disso..."
+}

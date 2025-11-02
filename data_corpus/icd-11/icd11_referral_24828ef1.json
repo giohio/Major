@@ -1,0 +1,30 @@
+{
+  "id": "icd11#referral_24828ef1",
+  "title_en": "General — Referral",
+  "title_vi": "General — Chuyển tuyến",
+  "text_en": "498 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Substance-induced mental disorders listed in other groupings The following categories are included in other mental disorder groupings, and CDDR are provided in those sections, but they are cross-listed here for reference. The following category is included in the ICD-11 grouping of catatonia: Substance-induced catatonia • 6A41 Catatonia induced by substances or medications (p. 204) The following categories are included in the ICD-11 grouping of neurocognitive disorders: Substance-induced amnestic disorder • 6D72.1 Amnestic disorder due to psychoactive substances, including medications (p. 616) • 6D72.10 Amnestic disorder due to use of alcohol • 6D72.11 Amnestic disorder due to use of sedatives, hypnotics or anxiolytics • 6D72.12 Amnestic disorder due to other specified psychoactive substance, including medications • 6D72.13 Amnestic disorder due to use of volatile inhalants Note: the order of the categories above is different from that of other parallel entities (e.g. substance- induced dementia, below), in which the “other specified” category is listed last. This difference is not meaningful; the categories should be used in the same way. Substance-induced dementia • 6D84 Dementia due to psychoactive substances, including medications (p. 626) • 6D84.0 Dementia due to use of alcohol • 6D84.1 Dementia due to use of sedatives, hypnotics or anxiolytics • 6D84.2 Dementia due to use of volatile inhalants • 6D84.Y Dementia due to other specified psychoactive substance Other specified disorder due to psychoactive substance use Available categories by substance class 6C40.Y Other specified disorder due to use of alcohol 6C41.Y Other specified disorder due to use of cannabis 6C42.Y Other specified disorder due to use of synthetic cannabinoids 6C43.Y Other specified disorder due to use of opioids 6C44.Y Other specified disorder due to use of sedatives, hypnotics or anxiolytics 6C45.Y Other specified disorder due to use of cocaine 6C46.Y Other specified disorder due to use of stimulants, including amfetamines, methamfetamine and methcathinone 6C47.Y Other specified disorder due to use of synthetic cathinones Substance-induced mental disorders listed in other groupings Disorders due to substance use or addictive behaviours 499 6C48.Y Other specified disorder due to use of caffeine 6C49.Y Other specified disorder due to",
+  "gloss_vi": "498 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders substance-induced mental disorders listed in other groupings the following categories are included in o...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "referral",
+      "management"
+    ],
+    "life_topics": [],
+    "advice_section": [
+      "sleep_hygiene"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Referral General — Chuyển tuyến 498 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Substance-induced mental disorders listed in other groupings The following categories are included in other mental disorder groupings, and CDDR are provided in those sections, but they are cross-listed here for reference. The following category is included in the ICD-11 grouping of catatonia: Substance-induced catatonia • 6A41 Catatonia induced by substances or medications (p. 204) The following categories are included in the ICD-11 grouping of neurocognitive disorders: Substance-induced amnestic disorder • 6D72.1 Amnestic disorder due to psychoactive substances, including medications (p. 616) • 6D72.10 Amnestic disorder due to use of alcohol • 6D72.11 Amnestic disorder due to use of sedatives, hypnotics or anxiolytics • 6D72.12 Amnestic disorder due to other specified psychoactive substance, including medications • 6D72.13 Amnestic disorder due to use of volatile inhalants Note: the order of the categories above is different from that of other parallel entities (e.g. substance- induced dementia, below), in which the “other specified” category is listed last. This difference is not meaningful; the categories should be used in the same way. Substance-induced dementia • 6D84 Dementia due to psychoactive substances, including medications (p. 626) • 6D84.0 Dementia due to use of alcohol • 6D84.1 Dementia due to use of sedatives, hypnotics or anxiolytics • 6D84.2 Dementia due to use of volatile inhalants • 6D84.Y Dementia due to other specified psychoactive substance Other specified disorder due to psychoactive substance use Available categories by substance class 6C40.Y Other specified disorder due to use of alcohol 6C41.Y Other specified disorder due to use of cannabis 6C42.Y Other specified disorder due to use of synthetic cannabinoids 6C43.Y Other specified disorder due to use of opioids 6C44.Y Other specified disorder due to use of sedatives, hypnotics or anxiolytics 6C45.Y Other specified disorder due to use of cocaine 6C46.Y Other specified disorder due to use of stimulants, including amfetamines, methamfetamine and methcathinone 6C47.Y Other specified disorder due to use of synthetic cathinones Substance-induced mental disorders listed in other groupings Disorders due to substance use or addictive behaviours 499 6C48.Y Other specified disorder due to use of caffeine 6C49.Y Other specified disorder due to 498 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders substance-induced mental disorders listed in other groupings the following categories are included in o..."
+}
