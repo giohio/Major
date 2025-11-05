@@ -21,8 +21,13 @@ const Header = () => {
 
           <nav className="nav-links">
             <Link to="/" className="nav-link">Trang chủ</Link>
+<<<<<<< HEAD
             <Link to="/#features" className="nav-link">Dịch vụ</Link>
             <Link to="/#how-it-works" className="nav-link">Về chúng tôi</Link>
+=======
+            <Link to="/plans" className="nav-link">Dịch vụ</Link>
+            <Link to="/about" className="nav-link">Về chúng tôi</Link>
+>>>>>>> 89f2b86b3ec12af45c68d1d95aaa12497dd62e81
             <Link to="/contact" className="nav-link">Liên hệ</Link>
           </nav>
 
@@ -47,7 +52,11 @@ const Header = () => {
             ) : (
               <>
                 <Link to="/login" className="btn btn-ghost">Đăng nhập</Link>
+<<<<<<< HEAD
                 <Link to="/register" className="btn btn-primary-teal">Đăng ký cho Bác sĩ</Link>
+=======
+                <Link to="/register" className="btn btn-primary-teal">Dành cho Bác sĩ</Link>
+>>>>>>> 89f2b86b3ec12af45c68d1d95aaa12497dd62e81
               </>
             )}
           </div>

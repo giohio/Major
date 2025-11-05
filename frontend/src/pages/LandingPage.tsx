@@ -1,10 +1,15 @@
 import { Link } from 'react-router-dom';
 import './LandingPage.css';
+<<<<<<< HEAD
+=======
+import heroImage from '../assets/z7181096252558_04827206b9f87aa9e4467abf5907eb6d.jpg';
+>>>>>>> 89f2b86b3ec12af45c68d1d95aaa12497dd62e81
 
 const LandingPage = () => {
   return (
     <div className="landing-page">
       {/* Hero Section */}
+<<<<<<< HEAD
       <section className="hero-section">
         <div className="container">
           <div className="hero-content">
@@ -45,6 +50,221 @@ const LandingPage = () => {
                 <div className="bunny-mascot">🐰</div>
               </div>
             </div> */}
+=======
+      <section 
+        style={{
+          position: 'relative',
+          minHeight: '350px',
+          display: 'flex',
+          alignItems: 'center',
+          overflow: 'hidden',
+          padding: '30px 0 20px',
+          marginTop: '80px'
+        }}
+      >
+        <div 
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            zIndex: 0
+          }}
+        >
+          <img 
+            src={heroImage} 
+            alt="MindCare AI Background" 
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              objectPosition: 'center',
+              filter: 'brightness(1.1)'
+            }}
+          />
+          <div 
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: '100%',
+              background: 'linear-gradient(to right, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.3) 35%, rgba(255, 255, 255, 0.1) 65%, transparent 100%)'
+            }}
+          />
+        </div>
+        <div className="container">
+          <div 
+            style={{
+              position: 'relative',
+              zIndex: 2,
+              maxWidth: '500px'
+            }}
+          >
+            <h1 
+              style={{
+                fontSize: '2.5rem',
+                fontWeight: 900,
+                lineHeight: 1.1,
+                color: '#1F2937',
+                marginBottom: '14px',
+                textShadow: '0 2px 8px rgba(255, 255, 255, 0.95), 0 1px 4px rgba(0, 0, 0, 0.15)'
+              }}
+            >
+              Chăm sóc <span 
+                style={{
+                  color: '#4FD1C7',
+                  display: 'block',
+                  fontWeight: 900,
+                  textShadow: '0 2px 8px rgba(255, 255, 255, 0.95), 0 1px 4px rgba(79, 209, 199, 0.3)'
+                }}
+              >
+                sức khỏe<br />
+                tinh thần
+              </span> <span 
+                style={{
+                  color: '#1F2937',
+                  fontWeight: 900,
+                  textShadow: '0 2px 8px rgba(255, 255, 255, 0.95), 0 1px 4px rgba(0, 0, 0, 0.15)'
+                }}
+              >
+                với AI
+              </span>
+            </h1>
+            <p 
+              style={{
+                fontSize: '0.9rem',
+                lineHeight: 1.5,
+                color: '#374151',
+                marginBottom: '18px',
+                fontWeight: 500,
+                textShadow: '0 2px 6px rgba(255, 255, 255, 0.9), 0 1px 3px rgba(0, 0, 0, 0.1)'
+              }}
+            >
+              Nền tảng AI tâm lý học tiên tiến, kết nối bạn với các chuyên gia hàng đầu. 
+              Hỗ trợ 24/7, phát hiện sớm các dấu hiệu rủi ro và đưa ra can thiệp kịp thời.
+            </p>
+            <div 
+              style={{
+                display: 'flex',
+                gap: '10px',
+                marginBottom: '16px',
+                flexWrap: 'wrap'
+              }}
+            >
+              <Link 
+                to="/chat" 
+                style={{
+                  padding: '10px 20px',
+                  fontSize: '0.9rem',
+                  fontWeight: 600,
+                  borderRadius: '6px',
+                  textDecoration: 'none',
+                  display: 'inline-block',
+                  transition: 'all 0.3s ease',
+                  background: '#4FD1C7',
+                  color: 'white',
+                  border: 'none',
+                  boxShadow: '0 2px 8px rgba(79, 209, 199, 0.3)'
+                }}
+              >
+                💬 Trò chuyện với AI ngay
+              </Link>
+              <Link 
+                to="/about" 
+                style={{
+                  padding: '10px 20px',
+                  fontSize: '0.9rem',
+                  fontWeight: 600,
+                  borderRadius: '6px',
+                  textDecoration: 'none',
+                  display: 'inline-block',
+                  transition: 'all 0.3s ease',
+                  background: 'rgba(255, 255, 255, 0.2)',
+                  color: '#4FD1C7',
+                  border: '2px solid #4FD1C7',
+                  backdropFilter: 'blur(6px)'
+                }}
+              >
+                Tìm hiểu thêm
+              </Link>
+            </div>
+            <div 
+              style={{
+                display: 'flex',
+                gap: '16px',
+                flexWrap: 'wrap'
+              }}
+            >
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <span 
+                  style={{
+                    color: '#4FD1C7',
+                    fontSize: '0.95rem',
+                    fontWeight: 700,
+                    textShadow: '0 2px 6px rgba(255, 255, 255, 0.9)'
+                  }}
+                >
+                  ✓
+                </span>
+                <span 
+                  style={{
+                    color: '#374151',
+                    fontSize: '0.8rem',
+                    fontWeight: 600,
+                    textShadow: '0 2px 6px rgba(255, 255, 255, 0.9)'
+                  }}
+                >
+                  Hỗ trợ 24/7
+                </span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <span 
+                  style={{
+                    color: '#4FD1C7',
+                    fontSize: '0.95rem',
+                    fontWeight: 700,
+                    textShadow: '0 2px 6px rgba(255, 255, 255, 0.9)'
+                  }}
+                >
+                  ✓
+                </span>
+                <span 
+                  style={{
+                    color: '#374151',
+                    fontSize: '0.8rem',
+                    fontWeight: 600,
+                    textShadow: '0 2px 6px rgba(255, 255, 255, 0.9)'
+                  }}
+                >
+                  Tư vấn 24/7
+                </span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <span 
+                  style={{
+                    color: '#4FD1C7',
+                    fontSize: '0.95rem',
+                    fontWeight: 700,
+                    textShadow: '0 2px 6px rgba(255, 255, 255, 0.9)'
+                  }}
+                >
+                  ✓
+                </span>
+                <span 
+                  style={{
+                    color: '#374151',
+                    fontSize: '0.8rem',
+                    fontWeight: 600,
+                    textShadow: '0 2px 6px rgba(255, 255, 255, 0.9)'
+                  }}
+                >
+                  Miễn phí dùng thử
+                </span>
+              </div>
+            </div>
+>>>>>>> 89f2b86b3ec12af45c68d1d95aaa12497dd62e81
           </div>
         </div>
       </section>

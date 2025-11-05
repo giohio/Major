@@ -13,6 +13,10 @@ import Login from './pages/Auth/Login';
 import Register from './pages/Auth/Register';
 import SubscriptionPlans from './pages/SubscriptionPlans';
 import Contact from './pages/Contact';
+<<<<<<< HEAD
+=======
+import About from './pages/About';
+>>>>>>> 89f2b86b3ec12af45c68d1d95aaa12497dd62e81
 
 // User Pages
 import ChatBot from './pages/User/ChatBot';
@@ -119,11 +123,20 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/plans" element={<SubscriptionPlans />} />
+<<<<<<< HEAD
             <Route path="/contact" element={<Contact />} />
           </Route>
 
           {/* User Routes */}
           <Route path="/chat" element={<ChatBot />} />
+=======
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/chat" element={<ChatBot />} />
+          </Route>
+
+          {/* User Routes */}
+>>>>>>> 89f2b86b3ec12af45c68d1d95aaa12497dd62e81
           
           <Route
             path="/user"
