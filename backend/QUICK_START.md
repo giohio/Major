@@ -30,17 +30,17 @@ pip install -r requirements.txt
 - Download từ: https://www.postgresql.org/download/
 - Hoặc dùng Docker:
 ```bash
-docker run --name mindcare-postgres -e POSTGRES_PASSWORD=password -e POSTGRES_DB=mindcare_db -p 5432:5432 -d postgres:14
+docker run --name mindcare-postgres -e POSTGRES_PASSWORD=postgres_db_metal_health_care -e POSTGRES_DB=mental_care_db -p 5432:5432 -d postgres:14
 ```
 
 ### 2.2 Tạo database
 ```bash
 # Nếu dùng PostgreSQL local
-createdb mindcare_db
+createdb mental_care_db
 
 # Hoặc dùng psql
 psql -U postgres
-CREATE DATABASE mindcare_db;
+CREATE DATABASE mental_care_db;
 \q
 ```
 
@@ -57,7 +57,7 @@ Mở file `.env` và update:
 
 ```env
 # Database - đổi password nếu cần
-DATABASE_URL=postgresql://postgres:password@localhost:5432/mindcare_db
+DATABASE_URL=postgresql://postgres:postgres_db_metal_health_care@localhost:5432/mental_care_db
 
 # JWT - tạo secret key mới
 SECRET_KEY=your-random-secret-key-here-min-32-chars
@@ -188,7 +188,7 @@ pip install -r requirements.txt --force-reinstall
 
 ### Lỗi: "Database does not exist"
 ```bash
-createdb mindcare_db
+createdb mental_care_db
 flask db upgrade
 ```
 

@@ -53,7 +53,7 @@ Copy `.env.example` to `.env` và cập nhật:
 
 ```env
 # Database
-DATABASE_URL=postgresql://postgres:password@localhost:5432/mindcare_db
+DATABASE_URL=postgresql://postgres:postgres_db_metal_health_care@localhost:5432/mental_care_db
 
 # Flask
 SECRET_KEY=your-secret-key-here
@@ -71,7 +71,7 @@ CORS_ORIGINS=http://localhost:5173,http://localhost:3000
 
 ```bash
 # Create database
-createdb mindcare_db
+createdb mental_care_db
 
 # Run migrations
 flask db upgrade

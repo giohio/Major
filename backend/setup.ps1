@@ -77,7 +77,7 @@ Write-Host "✅ Setup completed!" -ForegroundColor Green
 Write-Host ""
 Write-Host "📝 Next steps:" -ForegroundColor Cyan
 Write-Host "1. Edit .env file with your settings" -ForegroundColor White
-Write-Host "2. Create database: psql -U postgres -c 'CREATE DATABASE mindcare_db;'" -ForegroundColor White
+Write-Host "2. Create database: psql -U postgres -c 'CREATE DATABASE mental_care_db;'" -ForegroundColor White
 Write-Host "3. Run migrations: flask db upgrade" -ForegroundColor White
 Write-Host "4. Seed data: python -m app.seeds.seed_data" -ForegroundColor White
 Write-Host "5. Start server: python wsgi.py" -ForegroundColor White

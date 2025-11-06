@@ -6,18 +6,28 @@ import './Auth.css';
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [role, setRole] = useState<'user' | 'doctor' | 'admin'>('user');
   const { login } = useAuth();
   const navigate = useNavigate();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    login(email, password, role);
+    
+    // Backend will determine role from user data
+    const user = await login(email, password);
     
     // Redirect based on role
-    if (role === 'admin') navigate('/admin/dashboard');
-    else if (role === 'doctor') navigate('/doctor/dashboard');
-    else navigate('/user/profile');
+    switch (user.role) {
+      case 'admin':
+        navigate('/admin/dashboard');
+        break;
+      case 'doctor':
+        navigate('/doctor/dashboard');
+        break;
+      case 'user':
+      default:
+        navigate('/user/profile');
+        break;
+    }
   };
 
   return (
@@ -52,19 +62,6 @@ const Login = () => {
                 onChange={(e) => setPassword(e.target.value)}
                 required
               />
-            </div>
-
-            <div className="form-group">
-              <label className="form-label">Đăng nhập với vai trò</label>
-              <select 
-                className="form-input"
-                value={role}
-                onChange={(e) => setRole(e.target.value as 'user' | 'doctor' | 'admin')}
-              >
-                <option value="user">Người dùng</option>
-                <option value="doctor">Bác sĩ</option>
-                <option value="admin">Quản trị viên</option>
-              </select>
             </div>
 
             <div className="form-footer">

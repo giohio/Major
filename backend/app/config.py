@@ -3,7 +3,7 @@ from datetime import timedelta
 
 class Config:
     # Database
-    SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL', 'postgresql://postgres:password@localhost:5432/mindcare_db')
+    SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL', 'postgresql://postgres:postgres_db_metal_health_care@localhost:5432/mental_care_db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_ECHO = os.getenv('DEBUG', 'False') == 'True'
     
@@ -47,7 +47,7 @@ class ProductionConfig(Config):
 
 class TestingConfig(Config):
     TESTING = True
-    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:password@localhost:5432/mindcare_test_db'
+    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:postgres_db_metal_health_care@localhost:5432/mental_care_test_db'
 
 
 config = {

@@ -215,11 +215,15 @@ body:has(.chatbot-page) footer {
   flex: 1;
   padding: 2rem 1.5rem;
   overflow-y: auto;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   gap: 1rem;
   background: #FAFBFC;
-  max-height: 500px;
+  height: 100%;
+  min-height: 400px;
+  max-height: calc(100vh - 400px);
+  scroll-behavior: smooth;
 }
 
 .chatbot-messages::-webkit-scrollbar {
@@ -275,23 +279,10 @@ body:has(.chatbot-page) footer {
   margin-top: 0.25rem;
 }
 
-.message-bubble {
-  max-width: 70%;
-  background: #F0F0F0;
-  padding: 0.625rem 0.875rem;
-  border-radius: 18px;
-  box-shadow: none;
-  border: none;
-}
-
-.message.user .message-bubble {
-  background: #4FD1C7;
-  color: white;
-  border: none;
-}
+/* .message-bubble removed - using flat design */
 
 .message.user .message-content {
-  color: white !important;
+  color: #4FD1C7 !important;
 }
 
 .message-content {
@@ -719,9 +710,7 @@ body:has(.chatbot-page) footer {
     border-radius: 8px;
   }
   
-  .message-bubble {
-    max-width: 80%;
-  }
+  /* .message-bubble removed */
   
   .chatbot-sidebar {
     grid-template-columns: 1fr;
@@ -748,10 +737,7 @@ body:has(.chatbot-page) footer {
     padding: 1rem;
   }
   
-  .message-bubble {
-    max-width: 85%;
-    padding: 0.75rem 1rem;
-  }
+  /* .message-bubble removed */
   
   .chatbot-input {
     padding: 0.875rem 1rem;

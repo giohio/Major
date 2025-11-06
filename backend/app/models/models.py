@@ -29,7 +29,8 @@ class User(db.Model):
     # Relationships
     chat_sessions = db.relationship('ChatSession', backref='user', lazy='dynamic', cascade='all, delete-orphan')
     emotions = db.relationship('EmotionLog', backref='user', lazy='dynamic', cascade='all, delete-orphan')
-    alerts = db.relationship('Alert', backref='user', lazy='dynamic', cascade='all, delete-orphan')
+    alerts = db.relationship('Alert', foreign_keys='Alert.user_id', backref='user', lazy='dynamic', cascade='all, delete-orphan')
+    resolved_alerts = db.relationship('Alert', foreign_keys='Alert.resolved_by', backref='resolver', lazy='dynamic')
     
     # For doctors
     doctor_profile = db.relationship('DoctorProfile', backref='user', uselist=False, cascade='all, delete-orphan')

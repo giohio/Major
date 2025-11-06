@@ -36,7 +36,7 @@ cd backend
 # 2. Chỉnh sửa file .env với thông tin của bạn
 
 # 3. Tạo database
-psql -U postgres -c "CREATE DATABASE mindcare_db;"
+psql -U postgres -c "CREATE DATABASE mental_care_db;"
 
 # 4. Chạy server
 .\run.ps1

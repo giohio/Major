@@ -24,7 +24,7 @@ choco install postgresql
 psql -U postgres
 
 # Tạo database
-CREATE DATABASE mindcare_db;
+CREATE DATABASE mental_care_db;
 
 # Kiểm tra
 \l
@@ -58,8 +58,8 @@ Mở file `.env` và cập nhật:
 
 ```bash
 # Database - Thay đổi password của bạn
-DATABASE_URL=postgresql://postgres:YOUR_PASSWORD@localhost:5432/mindcare_db
-POSTGRES_PASSWORD=YOUR_PASSWORD
+DATABASE_URL=postgresql://postgres:postgres_db_metal_health_care@localhost:5432/mental_care_db
+POSTGRES_PASSWORD=postgres_db_metal_health_care
 
 # JWT Secret Keys - QUAN TRỌNG: Thay đổi trong production
 SECRET_KEY=your-unique-secret-key-at-least-32-characters-long
@@ -226,8 +226,8 @@ flask db downgrade
 flask db upgrade
 
 # Hoặc xóa database và tạo lại
-DROP DATABASE mindcare_db;
-CREATE DATABASE mindcare_db;
+DROP DATABASE mental_care_db;
+CREATE DATABASE mental_care_db;
 flask db upgrade
 ```
 

@@ -1,3 +1,7 @@
+/* ===== DESIGN SYSTEM ===== */
+@import './styles/variables.css';
+@import './styles/buttons.css';
+
 /* Global Reset - Already defined in theme.css */
 body {
   margin: 0;

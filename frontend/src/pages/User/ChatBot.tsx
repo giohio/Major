@@ -34,11 +34,20 @@ const ChatBot = () => {
   ];
 
   useEffect(() => {
-    // Scroll only the messages container, not the whole page
-    const messagesContainer = messagesEndRef.current?.closest('.chatbot-messages');
-    if (messagesContainer && messagesEndRef.current) {
-      messagesContainer.scrollTop = messagesContainer.scrollHeight;
-    }
+    // Auto scroll to bottom when new message arrives
+    const scrollToBottom = () => {
+      const messagesContainer = messagesEndRef.current?.closest('.chatbot-messages');
+      if (messagesContainer) {
+        messagesContainer.scrollTo({
+          top: messagesContainer.scrollHeight,
+          behavior: 'smooth'
+        });
+      }
+    };
+
+    // Delay to ensure DOM is updated
+    const timeoutId = setTimeout(scrollToBottom, 100);
+    return () => clearTimeout(timeoutId);
   }, [messages]);
 
   const analyzeEmotion = (text: string): { score: number; emotion: Message['emotion'] } => {
@@ -171,19 +180,15 @@ const ChatBot = () => {
                 {messages.map((message) => (
                   <div key={message.id} className={`message ${message.type}`}>
                     {message.type === 'ai' && <div className="message-avatar">🛡️</div>}
-                    <div className="message-bubble">
-                      <div className="message-content">{message.content}</div>
-                      <div className="message-time">{message.timestamp}</div>
-                    </div>
+                    <div className="message-content">{message.content}</div>
+                    <div className="message-time">{message.timestamp}</div>
                   </div>
                 ))}
                 {isLoading && (
                   <div className="message ai">
                     <div className="message-avatar">🛡️</div>
-                    <div className="message-bubble">
-                      <div className="message-content typing">
-                        <span></span><span></span><span></span>
-                      </div>
+                    <div className="message-content typing">
+                      <span></span><span></span><span></span>
                     </div>
                   </div>
                 )}
