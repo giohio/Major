@@ -45,11 +45,8 @@ body:has(.chatbot-page) footer {
 .logo-chat {
   font-size: 1.5rem;
   font-weight: 700;
-  font-family: 'Pacifico', 'Caveat', 'Dancing Script', cursive;
-  background: linear-gradient(135deg, #4FD1C7 0%, #38B2AC 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-family: 'Pacifico', cursive;
+  color: #00A6A6;
   margin: 0;
 }
 
@@ -80,27 +77,26 @@ body:has(.chatbot-page) footer {
 }
 
 .btn-header-link:hover {
-  color: #4FD1C7;
-  background: rgba(79, 209, 199, 0.1);
+  color: #00A6A6;
+  background: #E6F7F7;
   border-radius: 8px;
 }
 
 .btn-header-primary {
-  background: #4FD1C7;
+  background: #00A6A6;
   color: white;
   padding: 0.5rem 1.5rem;
   border: none;
   border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.2s;
   font-size: 0.9375rem;
 }
 
 .btn-header-primary:hover {
-  background: #38B2AC;
-  transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(79, 209, 199, 0.3);
+  background: #008A8A;
+  transform: translateY(-2px);
 }
 
 /* ==========================================
@@ -282,7 +278,7 @@ body:has(.chatbot-page) footer {
 /* .message-bubble removed - using flat design */
 
 .message.user .message-content {
-  color: #4FD1C7 !important;
+  color: #00A6A6 !important;
 }
 
 .message-content {
@@ -370,8 +366,8 @@ body:has(.chatbot-page) footer {
 
 .topic-btn:hover {
   background: #F9FAFB;
-  border-color: #4FD1C7;
-  color: #4FD1C7;
+  border-color: #00A6A6;
+  color: #00A6A6;
   transform: translateY(-1px);
   box-shadow: 0 2px 4px rgba(79, 209, 199, 0.1);
 }
@@ -401,7 +397,7 @@ body:has(.chatbot-page) footer {
 }
 
 .chatbot-input input:focus {
-  border-color: #4FD1C7;
+  border-color: #00A6A6;
   box-shadow: 0 0 0 3px rgba(79, 209, 199, 0.1);
   background: white;
 }
@@ -413,7 +409,7 @@ body:has(.chatbot-page) footer {
 .send-btn {
   width: 44px;
   height: 44px;
-  background: #4FD1C7;
+  background: #00A6A6;
   border: none;
   border-radius: 50%;
   color: white;
@@ -427,7 +423,7 @@ body:has(.chatbot-page) footer {
 }
 
 .send-btn:hover:not(:disabled) {
-  background: #38B2AC;
+  background: #008A8A;
   transform: scale(1.1);
   box-shadow: 0 4px 12px rgba(79, 209, 199, 0.3);
 }
@@ -487,7 +483,7 @@ body:has(.chatbot-page) footer {
 
 .conversation-item.active {
   background: #E0F2FE;
-  border-left: 3px solid #4FD1C7;
+  border-left: 3px solid #00A6A6;
 }
 
 .conversation-avatar {
@@ -574,7 +570,7 @@ body:has(.chatbot-page) footer {
 }
 
 .dot.active {
-  background: #4FD1C7;
+  background: #00A6A6;
   box-shadow: 0 0 8px rgba(79, 209, 199, 0.4);
 }
 

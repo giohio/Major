@@ -48,6 +48,7 @@ import AuditLogs from './pages/Admin/AuditLogs';
 import { AuthProvider } from './contexts/AuthContext';
 import { useAuth } from './hooks/useAuth';
 
+import './styles/design-system.css';
 import './styles/theme.css';
 import './App.css';
 
