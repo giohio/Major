@@ -768,3 +768,48 @@
     gap: 12px;
   }
 }
+
+/* ============================================
+   RESPONSIVE FOR LARGE SCREENS (1920x1080+)
+   ============================================ */
+
+/* Custom hero styles for better image display */
+.hero-section-custom {
+  background: #f8f9fa;
+}
+
+.hero-section-custom .hero-image-custom {
+  width: auto !important;
+  height: 100% !important;
+  min-width: 100% !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+}
+
+@media (max-width: 1399px) {
+  .hero-section-custom .hero-image-custom {
+    object-position: center center !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .hero-section {
+    min-height: 650px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .hero-section {
+    min-height: 700px;
+  }
+  
+  .container {
+    max-width: 1400px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .hero-section {
+    min-height: 750px;
+  }
+}

@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { useState, createContext, useContext } from 'react';
 
 // Layouts
 import MainLayout from './layouts/MainLayout';
@@ -45,32 +44,12 @@ import AIModelManagement from './pages/Admin/AIModelManagement';
 import Analytics from './pages/Admin/Analytics';
 import AuditLogs from './pages/Admin/AuditLogs';
 
+// Context & Hooks
+import { AuthProvider } from './contexts/AuthContext';
+import { useAuth } from './hooks/useAuth';
+
 import './styles/theme.css';
 import './App.css';
-
-// Auth Context
-interface User {
-  id: string;
-  name: string;
-  email: string;
-  role: 'user' | 'doctor' | 'admin';
-}
-
-interface AuthContextType {
-  user: User | null;
-  login: (email: string, password: string, role: 'user' | 'doctor' | 'admin') => void;
-  logout: () => void;
-}
-
-const AuthContext = createContext<AuthContextType | undefined>(undefined);
-
-export const useAuth = () => {
-  const context = useContext(AuthContext);
-  if (!context) {
-    throw new Error('useAuth must be used within AuthProvider');
-  }
-  return context;
-};
 
 // Protected Route Component
 const ProtectedRoute = ({ 
@@ -94,24 +73,8 @@ const ProtectedRoute = ({
 };
 
 function App() {
-  const [user, setUser] = useState<User | null>(null);
-
-  const login = (email: string, _password: string, role: 'user' | 'doctor' | 'admin') => {
-    // Mock login - replace with real API call
-    setUser({
-      id: '1',
-      name: 'Test User',
-      email,
-      role
-    });
-  };
-
-  const logout = () => {
-    setUser(null);
-  };
-
   return (
-    <AuthContext.Provider value={{ user, login, logout }}>
+    <AuthProvider>
       <BrowserRouter>
         <Routes>
           {/* Public Routes */}
@@ -186,7 +149,7 @@ function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </BrowserRouter>
-    </AuthContext.Provider>
+    </AuthProvider>
   );
 }
 

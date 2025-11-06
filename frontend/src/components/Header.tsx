@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
-import { useAuth } from '../App';
+import { useAuth } from '../hooks/useAuth';
 import './Header.css';
 
 const Header = () => {
