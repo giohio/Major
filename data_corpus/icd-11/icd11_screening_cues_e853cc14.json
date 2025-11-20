@@ -1,0 +1,32 @@
+{
+  "id": "icd11#screening_cues_e853cc14",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "context of a diagnosis of disruptive behaviour and dissocial disorders, this specifier represents a more common pattern of oppositional defiant disorder or conduct-dissocial disorder that is not characterized by the features of limited prosocial emotions. • Although some features similar to limited prosocial emotions (e.g. low concern, limited remorse) may be evident at times, they are generally infrequent, transitory and less pronounced, and do not represent a persistent pervasive pattern of social-emotional deficits. • Most individuals with disruptive behaviour and dissocial disorders exhibit typical prosocial emotions. Disruptive behaviour and dissocial disorders | Conduct-dissocial disorder 550 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6C9x.yZ unspecified prosocial emotions 6C9Y Other specified disruptive behaviour or dissocial disorder Essential (required) features • The presentation is characterized by disruptive or dissocial symptoms that share primary clinical features with other disruptive behaviour and dissocial disorders (i.e. persistent behaviour problems across multiple settings that range from markedly and persistently defiant, disobedient, provocative or spiteful to those that persistently violate the basic rights of others or major age-appropriate societal norms, rules or laws). • The disruptive or dissocial symptoms do not fulfil the diagnostic requirements for oppositional defiant disorder or conduct-dissocial disorder. • The symptoms are not better accounted for by another mental, behavioural or neurodevelopmental disorder (e.g. attention deficit hyperactivity disorder, a mood disorder, an anxiety or fear-related disorder). • The behaviour pattern has persisted for an extended period of time (e.g. 6 months or more). • The symptoms and behaviours are not developmentally appropriate or culturally sanctioned. • The symptoms and behaviours are not a manifestation of another medical condition, and are not due to the effects of a substance or medication on the central nervous system, including withdrawal effects. • The symptoms result in significant impairment in personal, family, social, educational, occupational or other important areas of functioning. 6C9Z Disruptive behaviour or dissocial disorder, unspecified Disruptive behaviour and dissocial disorders | Other specified disruptive behaviour or dissocial disorder",
+  "gloss_vi": "Context of a diagnosis of disruptive behaviour and dissocial disorders, this specifier represents a more common pattern of oppositional defiant disorder or conduct-dissocial disorder that is not characterized by the feat...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "psychoeducation",
+      "do_not_do",
+      "caregiver"
+    ],
+    "life_topics": [
+      "relationships"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc context of a diagnosis of disruptive behaviour and dissocial disorders, this specifier represents a more common pattern of oppositional defiant disorder or conduct-dissocial disorder that is not characterized by the features of limited prosocial emotions. • Although some features similar to limited prosocial emotions (e.g. low concern, limited remorse) may be evident at times, they are generally infrequent, transitory and less pronounced, and do not represent a persistent pervasive pattern of social-emotional deficits. • Most individuals with disruptive behaviour and dissocial disorders exhibit typical prosocial emotions. Disruptive behaviour and dissocial disorders | Conduct-dissocial disorder 550 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 6C9x.yZ unspecified prosocial emotions 6C9Y Other specified disruptive behaviour or dissocial disorder Essential (required) features • The presentation is characterized by disruptive or dissocial symptoms that share primary clinical features with other disruptive behaviour and dissocial disorders (i.e. persistent behaviour problems across multiple settings that range from markedly and persistently defiant, disobedient, provocative or spiteful to those that persistently violate the basic rights of others or major age-appropriate societal norms, rules or laws). • The disruptive or dissocial symptoms do not fulfil the diagnostic requirements for oppositional defiant disorder or conduct-dissocial disorder. • The symptoms are not better accounted for by another mental, behavioural or neurodevelopmental disorder (e.g. attention deficit hyperactivity disorder, a mood disorder, an anxiety or fear-related disorder). • The behaviour pattern has persisted for an extended period of time (e.g. 6 months or more). • The symptoms and behaviours are not developmentally appropriate or culturally sanctioned. • The symptoms and behaviours are not a manifestation of another medical condition, and are not due to the effects of a substance or medication on the central nervous system, including withdrawal effects. • The symptoms result in significant impairment in personal, family, social, educational, occupational or other important areas of functioning. 6C9Z Disruptive behaviour or dissocial disorder, unspecified Disruptive behaviour and dissocial disorders | Other specified disruptive behaviour or dissocial disorder Context of a diagnosis of disruptive behaviour and dissocial disorders, this specifier represents a more common pattern of oppositional defiant disorder or conduct-dissocial disorder that is not characterized by the feat..."
+}

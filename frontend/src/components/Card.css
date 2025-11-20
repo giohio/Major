@@ -1,0 +1,115 @@
+.card-modern {
+  background: white;
+  border-radius: var(--radius-xl);
+  transition: all var(--transition-base);
+}
+
+/* Variants */
+.card-default {
+  border: 1px solid #E5E7EB;
+}
+
+.card-bordered {
+  border: 2px solid #E5E7EB;
+}
+
+.card-elevated {
+  border: 1px solid #E5E7EB;
+  box-shadow: var(--shadow-md);
+}
+
+.card-gradient {
+  border: 2px solid transparent;
+  background-image: linear-gradient(white, white), 
+                    linear-gradient(135deg, #00A6A6 0%, #9A7FF0 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+/* Padding */
+.card-padding-sm {
+  padding: var(--spacing-md);
+}
+
+.card-padding-md {
+  padding: var(--spacing-lg);
+}
+
+.card-padding-lg {
+  padding: var(--spacing-xl);
+}
+
+.card-padding-xl {
+  padding: var(--spacing-2xl);
+}
+
+/* Hover Effect */
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 166, 166, 0.15);
+  border-color: #00A6A6;
+}
+
+/* Card Header */
+.card-header-modern {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-lg);
+  padding-bottom: var(--spacing-md);
+  border-bottom: 2px solid #F1F5F9;
+}
+
+.card-header-left {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.card-header-icon {
+  font-size: 2rem;
+}
+
+.card-title-modern {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0F172A;
+  margin-bottom: var(--spacing-xs);
+  letter-spacing: -0.01em;
+}
+
+.card-subtitle-modern {
+  font-size: 0.875rem;
+  color: #64748B;
+  margin: 0;
+}
+
+.card-header-action {
+  flex-shrink: 0;
+}
+
+/* Card Content */
+.card-content-modern {
+  color: #475569;
+  line-height: 1.7;
+}
+
+/* Card Footer */
+.card-footer-modern {
+  margin-top: var(--spacing-lg);
+  padding-top: var(--spacing-md);
+  border-top: 2px solid #F1F5F9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card-header-modern {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+  }
+
+  .card-header-action {
+    width: 100%;
+  }
+}

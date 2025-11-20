@@ -1,0 +1,32 @@
+{
+  "id": "everyday#screening_cues_5959156d",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "to Multiple Etiologies 319 tion, without behavioral disturbance (e.g., 340 [G35] multiple sclero- sis, 294.10 [F02.80] major neurocognitive disorder due to multiple sclerosis, without behavioral disturbance). For mild neurocognitive disorder due to another medical condition, code 331.83 (G31.84). (Note: Do not use the additional code for the other medical condition. Behavioral disturbance cannot be coded but should still be indicated in writing.) Major or Mild Neurocognitive Disorder Due to Multiple Etiologies A. The criteria are met for major or mild neurocognitive disorder. B. There is evidence from the history, physical examination, or lab- oratory findings that the neurocognitive disorder is the patho- physiological consequence of more than one etiological process, excluding substances (e.g., neurocognitive disorder due to Alz- heimer’s disease with subsequent development of vascular neu- rocognitive disorder). Note: Please refer to the diagnostic criteria for the various neu- rocognitive disorders due to specific medical conditions for guid- ance on establishing the particular etiologies. C. The cognitive deficits are not better explained by another mental disorder and do not occur exclusively during the course of a delirium. Coding note: For major neurocognitive disorder due to multiple etiolo- gies, with behavioral disturbance, code 294.11 (F02.81); for major neu- rocognitive disorder due to multiple etiologies, without behavioral disturbance, code 294.10 (F02.80). All of the etiological medical con- ditions (with the exception of vascular disease) should be coded and listed separately immediately before major neurocognitive disorder due to multiple etiologies (e.g., 331.0 [G30.9] Alzheimer’s disease; 331.82 [G31.83] Lewy body disease; 294.11 [F02.81] major neurocognitive disorder due to multiple etiologies, with behavioral disturbance). When a cerebrovascular etiology is contributing to the neurocogni- tive disorder, the diagnosis of vascular neurocognitive disorder should be listed in addition to major neurocognitive disorder due to multiple etiologies. For example, for a presentation of major neurocognitive dis-",
+  "gloss_vi": "To multiple etiologies 319 tion, without behavioral disturbance (e.g., 340 [g35] multiple sclero- sis, 294.10 [f02.80] major neurocognitive disorder due to multiple sclerosis, without behavioral disturbance). for mild ne...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "referral",
+      "do_not_do",
+      "management"
+    ],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc to Multiple Etiologies 319 tion, without behavioral disturbance (e.g., 340 [G35] multiple sclero- sis, 294.10 [F02.80] major neurocognitive disorder due to multiple sclerosis, without behavioral disturbance). For mild neurocognitive disorder due to another medical condition, code 331.83 (G31.84). (Note: Do not use the additional code for the other medical condition. Behavioral disturbance cannot be coded but should still be indicated in writing.) Major or Mild Neurocognitive Disorder Due to Multiple Etiologies A. The criteria are met for major or mild neurocognitive disorder. B. There is evidence from the history, physical examination, or lab- oratory findings that the neurocognitive disorder is the patho- physiological consequence of more than one etiological process, excluding substances (e.g., neurocognitive disorder due to Alz- heimer’s disease with subsequent development of vascular neu- rocognitive disorder). Note: Please refer to the diagnostic criteria for the various neu- rocognitive disorders due to specific medical conditions for guid- ance on establishing the particular etiologies. C. The cognitive deficits are not better explained by another mental disorder and do not occur exclusively during the course of a delirium. Coding note: For major neurocognitive disorder due to multiple etiolo- gies, with behavioral disturbance, code 294.11 (F02.81); for major neu- rocognitive disorder due to multiple etiologies, without behavioral disturbance, code 294.10 (F02.80). All of the etiological medical con- ditions (with the exception of vascular disease) should be coded and listed separately immediately before major neurocognitive disorder due to multiple etiologies (e.g., 331.0 [G30.9] Alzheimer’s disease; 331.82 [G31.83] Lewy body disease; 294.11 [F02.81] major neurocognitive disorder due to multiple etiologies, with behavioral disturbance). When a cerebrovascular etiology is contributing to the neurocogni- tive disorder, the diagnosis of vascular neurocognitive disorder should be listed in addition to major neurocognitive disorder due to multiple etiologies. For example, for a presentation of major neurocognitive dis- To multiple etiologies 319 tion, without behavioral disturbance (e.g., 340 [g35] multiple sclero- sis, 294.10 [f02.80] major neurocognitive disorder due to multiple sclerosis, without behavioral disturbance). for mild ne..."
+}

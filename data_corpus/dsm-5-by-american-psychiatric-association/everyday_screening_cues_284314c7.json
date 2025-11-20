@@ -1,0 +1,29 @@
+{
+  "id": "everyday#screening_cues_284314c7",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "Delirium 297 selected from substance-specific codes included in the coding note included in the criteria set. The name of the disorder is followed by the course (i.e., acute, persistent), followed by the specifier indicating level of psychomotor activity (i.e., hyperactive, hypoactive, mixed level of activity). Unlike the recording procedures for ICD-10-CM, which combine the substance/medication withdrawal delirium and substance use disorder into a single code, for ICD-9-CM a separate diagnostic code is given for the substance use disorder. For example, in the case of acute hyperactive withdrawal delirium occurring in a man with a severe alcohol use disorder, the diagnosis is 291.0 alcohol withdrawal delirium, acute, hyperactive. An additional diagnosis of 303.90 severe alcohol use disorder is also given. ICD-10-CM. The name of the substance/medication withdrawal de- lirium begins with the specific substance (e.g., alcohol) that is pre- sumed to be causing the withdrawal delirium. The diagnostic code is selected from substance-specific codes included in the coding note included in the criteria set. When recording the name of the disorder, the comorbid moderate or severe substance use disorder (if any) is listed first, followed by the word “with,” followed by the substance withdrawal delirium, followed by the course (i.e., acute, persistent), followed by the specifier indicating level of psychomotor activity (i.e., hyperactive, hypoactive, mixed level of activity). For example, in the case of acute hyperactive withdrawal delirium occurring in a man with a severe alcohol use disorder, the diagnosis is F10.231 se- vere alcohol use disorder with alcohol withdrawal delirium, acute, hyperactive. A separate diagnosis of the comorbid severe alcohol use disorder is not given. Medication-induced delirium. The name of the medication-in- duced delirium begins with the specific substance (e.g., dexametha- sone) that is presumed to be causing the delirium. The name of the disorder is followed by the course (i.e., acute, persistent), followed by the specifier",
+  "gloss_vi": "Delirium 297 selected from substance-specific codes included in the coding note included in the criteria set. the name of the disorder is followed by the course (i.e., acute, persistent), followed by the specifier indica...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc Delirium 297 selected from substance-specific codes included in the coding note included in the criteria set. The name of the disorder is followed by the course (i.e., acute, persistent), followed by the specifier indicating level of psychomotor activity (i.e., hyperactive, hypoactive, mixed level of activity). Unlike the recording procedures for ICD-10-CM, which combine the substance/medication withdrawal delirium and substance use disorder into a single code, for ICD-9-CM a separate diagnostic code is given for the substance use disorder. For example, in the case of acute hyperactive withdrawal delirium occurring in a man with a severe alcohol use disorder, the diagnosis is 291.0 alcohol withdrawal delirium, acute, hyperactive. An additional diagnosis of 303.90 severe alcohol use disorder is also given. ICD-10-CM. The name of the substance/medication withdrawal de- lirium begins with the specific substance (e.g., alcohol) that is pre- sumed to be causing the withdrawal delirium. The diagnostic code is selected from substance-specific codes included in the coding note included in the criteria set. When recording the name of the disorder, the comorbid moderate or severe substance use disorder (if any) is listed first, followed by the word “with,” followed by the substance withdrawal delirium, followed by the course (i.e., acute, persistent), followed by the specifier indicating level of psychomotor activity (i.e., hyperactive, hypoactive, mixed level of activity). For example, in the case of acute hyperactive withdrawal delirium occurring in a man with a severe alcohol use disorder, the diagnosis is F10.231 se- vere alcohol use disorder with alcohol withdrawal delirium, acute, hyperactive. A separate diagnosis of the comorbid severe alcohol use disorder is not given. Medication-induced delirium. The name of the medication-in- duced delirium begins with the specific substance (e.g., dexametha- sone) that is presumed to be causing the delirium. The name of the disorder is followed by the course (i.e., acute, persistent), followed by the specifier Delirium 297 selected from substance-specific codes included in the coding note included in the criteria set. the name of the disorder is followed by the course (i.e., acute, persistent), followed by the specifier indica..."
+}

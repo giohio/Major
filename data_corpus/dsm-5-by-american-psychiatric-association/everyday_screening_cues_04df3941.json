@@ -1,0 +1,35 @@
+{
+  "id": "everyday#screening_cues_04df3941",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "Sleep-Wake Disorders Insomnia Disorder 307.42 (F51.01) A. A predominant complaint of dissatisfaction with sleep quantity or quality, associated with one (or more) of the following symptoms: 1. Difficulty initiating sleep. (In children, this may manifest as dif- ficulty initiating sleep without caregiver intervention.) 2. Difficulty maintaining sleep, characterized by frequent awak- enings or problems returning to sleep after awakenings. (In children, this may manifest as difficulty returning to sleep without caregiver intervention.) 3. Early-morning awakening with inability to return to sleep. B. The sleep disturbance causes clinically significant distress or im- pairment in social, occupational, educational, academic, behav- ioral, or other important areas of functioning. C. The sleep difficulty occurs at least 3 nights per week. D. The sleep difficulty is present for at least 3 months. E. The sleep difficulty occurs despite adequate opportunity for sleep. F. The insomnia is not better explained by and does not occur exclusively during the course of another sleep-wake disorder (e.g., narcolepsy, a breathing-related sleep disorder, a circadian rhythm sleep-wake disorder, a parasomnia). G. The insomnia is not attributable to the physiological effects of a substance (e.g., a drug of abuse, a medication). H. Coexisting mental disorders and medical conditions do not ade- quately explain the predominant complaint of insomnia. Specify if: With non–sleep disorder mental comorbidity, including sub- stance use disorders",
+  "gloss_vi": "Giấc ngủ-wake disorders insomnia disorder 307.42 (f51.01) a. a predominant complaint of dissatisfaction with giấc ngủ quantity or quality, associated with one (or more) of the following symptoms: 1.",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "psychoeducation",
+      "do_not_do",
+      "caregiver"
+    ],
+    "life_topics": [
+      "sleep",
+      "stress"
+    ],
+    "advice_section": [
+      "coping_skill"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc Sleep-Wake Disorders Insomnia Disorder 307.42 (F51.01) A. A predominant complaint of dissatisfaction with sleep quantity or quality, associated with one (or more) of the following symptoms: 1. Difficulty initiating sleep. (In children, this may manifest as dif- ficulty initiating sleep without caregiver intervention.) 2. Difficulty maintaining sleep, characterized by frequent awak- enings or problems returning to sleep after awakenings. (In children, this may manifest as difficulty returning to sleep without caregiver intervention.) 3. Early-morning awakening with inability to return to sleep. B. The sleep disturbance causes clinically significant distress or im- pairment in social, occupational, educational, academic, behav- ioral, or other important areas of functioning. C. The sleep difficulty occurs at least 3 nights per week. D. The sleep difficulty is present for at least 3 months. E. The sleep difficulty occurs despite adequate opportunity for sleep. F. The insomnia is not better explained by and does not occur exclusively during the course of another sleep-wake disorder (e.g., narcolepsy, a breathing-related sleep disorder, a circadian rhythm sleep-wake disorder, a parasomnia). G. The insomnia is not attributable to the physiological effects of a substance (e.g., a drug of abuse, a medication). H. Coexisting mental disorders and medical conditions do not ade- quately explain the predominant complaint of insomnia. Specify if: With non–sleep disorder mental comorbidity, including sub- stance use disorders Giấc ngủ-wake disorders insomnia disorder 307.42 (f51.01) a. a predominant complaint of dissatisfaction with giấc ngủ quantity or quality, associated with one (or more) of the following symptoms: 1."
+}

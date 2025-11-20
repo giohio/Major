@@ -1,0 +1,35 @@
+{
+  "id": "icd11#referral_b407a978",
+  "title_en": "General — Referral",
+  "title_vi": "General — Chuyển tuyến",
+  "text_en": "Factors influencing health status or contact with health services particularly relevant to mental health services 735 QE50 Problems associated with interpersonal interactions Note: relationship distress with spouse or partner and caregiver–child relationship problem should be documented using the categories provided in the section on relationship problems and maltreatment (p. 707). QE50.0 Problem associated with relationship with friend QE50.1 Problem associated with relationship with teachers or classmates QE50.2 Problem associated with relationship with people at work QE50.3 Problem associated with relationship with neighbours, tenant or landlord QE50.4 Problem associated with relationship with parents, in-laws or other family members QE50.5 Discord with counsellors QE50.6 Inadequate social skills QE5Y Other specified problems associated with relationships QE5Z Problems associated with relationships, unspecified Problems associated with absence, loss or death of others QE60 Absence of family member QE61 Disappearance or death of family member QE61.0 Loss or death of child QE61.Y Disappearance or death of other family member Reasons for contact with mental health services | Problems associated with absence, loss or death of others 736 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders QE62 Uncomplicated bereavement Note: uncomplicated bereavement refers to grief reactions experienced following the disappearance or death of a loved one. In contrast, QE61 Disappearance or death of family member and its subcategories refer to the event itself. QE6Y Other specified problems associated with absence, loss or death of others QE6Z Problems associated with absence, loss or death of others, unspecified Problems related to primary support group, including family circumstances QE70 Problems related to primary support group, including family circumstances QE70.0 Inadequate family support QE70.1 Disruption of family by separation or divorce QE70.2 Dependent relative needing care at home QE70.Z Problem related to primary support group, including family circumstance, unspecified Reasons for contact with mental health services | Problems related to primary support group",
+  "gloss_vi": "Factors influencing health status or contact with health services particularly relevant to mental health services 735 qe50 problems associated with interpersonal interactions note: relationship distress with spouse or pa...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "referral",
+      "psychoeducation",
+      "management",
+      "caregiver"
+    ],
+    "life_topics": [
+      "stress",
+      "work",
+      "relationships",
+      "grief"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Referral General — Chuyển tuyến Factors influencing health status or contact with health services particularly relevant to mental health services 735 QE50 Problems associated with interpersonal interactions Note: relationship distress with spouse or partner and caregiver–child relationship problem should be documented using the categories provided in the section on relationship problems and maltreatment (p. 707). QE50.0 Problem associated with relationship with friend QE50.1 Problem associated with relationship with teachers or classmates QE50.2 Problem associated with relationship with people at work QE50.3 Problem associated with relationship with neighbours, tenant or landlord QE50.4 Problem associated with relationship with parents, in-laws or other family members QE50.5 Discord with counsellors QE50.6 Inadequate social skills QE5Y Other specified problems associated with relationships QE5Z Problems associated with relationships, unspecified Problems associated with absence, loss or death of others QE60 Absence of family member QE61 Disappearance or death of family member QE61.0 Loss or death of child QE61.Y Disappearance or death of other family member Reasons for contact with mental health services | Problems associated with absence, loss or death of others 736 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders QE62 Uncomplicated bereavement Note: uncomplicated bereavement refers to grief reactions experienced following the disappearance or death of a loved one. In contrast, QE61 Disappearance or death of family member and its subcategories refer to the event itself. QE6Y Other specified problems associated with absence, loss or death of others QE6Z Problems associated with absence, loss or death of others, unspecified Problems related to primary support group, including family circumstances QE70 Problems related to primary support group, including family circumstances QE70.0 Inadequate family support QE70.1 Disruption of family by separation or divorce QE70.2 Dependent relative needing care at home QE70.Z Problem related to primary support group, including family circumstance, unspecified Reasons for contact with mental health services | Problems related to primary support group Factors influencing health status or contact with health services particularly relevant to mental health services 735 qe50 problems associated with interpersonal interactions note: relationship distress with spouse or pa..."
+}

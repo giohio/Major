@@ -1,0 +1,26 @@
+{
+  "id": "icd11#management_92da2303",
+  "title_en": "General — Management",
+  "title_vi": "General — Management",
+  "text_en": "x Disruptive behaviour and dissocial disorders 537 6C90 Oppositional defiant disorder 538 6C91 Conduct-dissocial disorder 544 6C9Y Other specified disruptive behaviour or dissocial disorder 550 6C9Z Disruptive behaviour or dissocial disorder, unspecified 550 Personality disorders and related traits 553 General diagnostic requirements for personality disorder 554 6D10.0 Mild personality disorder 556 6D10.1 Moderate personality disorder 557 6D10.2 Severe personality disorder 558 6D10.Z Personality disorder, severity unspecified 558 QE50.7 Personality difficulty 559 Specifiers for prominent trait domains in personality disorder 559 Paraphilic disorders 571 6D30 Exhibitionistic disorder 572 6D31 Voyeuristic disorder 575 6D32 Paedophilic disorder 577 6D33 Coercive sexual sadism disorder 580 6D34 Frotteuristic disorder 583 6D35 Other paraphilic disorder involving non-consenting individuals 585 6D36 Paraphilic disorder involving solitary behaviour or consenting individuals 588 6D3Z Paraphilic disorder, unspecified 591 Factitious disorders 593 6D50 Factitious disorder imposed on self 593 6D51 Factitious disorder imposed on another 596 6D5Z Factitious disorder, unspecified 597 xi Neurocognitive disorders 599 6D70 Delirium 602 6D71 Mild neurocognitive disorder 608 6D72 Amnestic disorder 612 Dementia 617 General diagnostic",
+  "gloss_vi": "X disruptive behaviour and dissocial disorders 537 6c90 oppositional defiant disorder 538 6c91 conduct-dissocial disorder 544 6c9y other specified disruptive behaviour or dissocial disorder 550 6c9z disruptive behaviour ...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "management"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Management General — Management x Disruptive behaviour and dissocial disorders 537 6C90 Oppositional defiant disorder 538 6C91 Conduct-dissocial disorder 544 6C9Y Other specified disruptive behaviour or dissocial disorder 550 6C9Z Disruptive behaviour or dissocial disorder, unspecified 550 Personality disorders and related traits 553 General diagnostic requirements for personality disorder 554 6D10.0 Mild personality disorder 556 6D10.1 Moderate personality disorder 557 6D10.2 Severe personality disorder 558 6D10.Z Personality disorder, severity unspecified 558 QE50.7 Personality difficulty 559 Specifiers for prominent trait domains in personality disorder 559 Paraphilic disorders 571 6D30 Exhibitionistic disorder 572 6D31 Voyeuristic disorder 575 6D32 Paedophilic disorder 577 6D33 Coercive sexual sadism disorder 580 6D34 Frotteuristic disorder 583 6D35 Other paraphilic disorder involving non-consenting individuals 585 6D36 Paraphilic disorder involving solitary behaviour or consenting individuals 588 6D3Z Paraphilic disorder, unspecified 591 Factitious disorders 593 6D50 Factitious disorder imposed on self 593 6D51 Factitious disorder imposed on another 596 6D5Z Factitious disorder, unspecified 597 xi Neurocognitive disorders 599 6D70 Delirium 602 6D71 Mild neurocognitive disorder 608 6D72 Amnestic disorder 612 Dementia 617 General diagnostic X disruptive behaviour and dissocial disorders 537 6c90 oppositional defiant disorder 538 6c91 conduct-dissocial disorder 544 6c9y other specified disruptive behaviour or dissocial disorder 550 6c9z disruptive behaviour ..."
+}

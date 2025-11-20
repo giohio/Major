@@ -1,0 +1,26 @@
+{
+  "id": "icd11#screening_cues_ff50e6a5",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "List of categories 63 6C43 Disorders due to use of opioids 6C43.0 Episode of harmful use of opioids 6C43.1 Harmful pattern of use of opioids Specify pattern: 6C43.10 … episodic 6C43.11 … continuous 6C43.1Z … unspecified 6C43.2 Opioid dependence Specify pattern of substance use or remission: 6C43.20 … current use 6C43.21 … early full remission 6C43.22 … sustained partial remission 6C43.23 … sustained full remission 6C43.2Z … unspecified 6C43.3 Opioid intoxication Specify severity: 6C43.3&XS5W Opioid intoxication, mild 6C43.3&XS0T Opioid intoxication, moderate 6C43.3&XS25 Opioid intoxication, severe 6C43.4 Opioid withdrawal 6C43.5 Opioid-induced delirium 6C43.6 Opioid-induced psychotic disorder 6C43.70 Opioid-induced mood disorder Specify clinical presentation: 6C43.700 … with depressive symptoms 6C43.701 … with manic symptoms 6C43.702 … with mixed depressive and manic symptoms 6C43.70Z … unspecified 6C43.71 Opioid-induced anxiety disorder 6C43.Y Other specified disorder due to use of opioids 6C43.Z Disorder due to use of opioids, unspecified 6C44 Disorders due to use of sedatives, hypnotics or anxiolytics 6C44.0 Episode of harmful use of sedatives, hypnotics or anxiolytics 6C44.1 Harmful pattern of use of sedatives, hypnotics or anxiolytics Specify pattern: 6C44.10 … episodic 6C44.11 … continuous 6C44.1Z … unspecified 6C44.2 Sedative, hypnotic or anxiolytic dependence Specify pattern of substance use or remission: 6C44.20 … current use 64 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders",
+  "gloss_vi": "List of categories 63 6c43 disorders due to use of opioids 6c43.0 episode of harmful use of opioids 6c43.1 harmful pattern of use of opioids specify pattern: 6c43.10 … episodic 6c43.11 … continuous 6c43.1z … unspecified ...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc List of categories 63 6C43 Disorders due to use of opioids 6C43.0 Episode of harmful use of opioids 6C43.1 Harmful pattern of use of opioids Specify pattern: 6C43.10 … episodic 6C43.11 … continuous 6C43.1Z … unspecified 6C43.2 Opioid dependence Specify pattern of substance use or remission: 6C43.20 … current use 6C43.21 … early full remission 6C43.22 … sustained partial remission 6C43.23 … sustained full remission 6C43.2Z … unspecified 6C43.3 Opioid intoxication Specify severity: 6C43.3&XS5W Opioid intoxication, mild 6C43.3&XS0T Opioid intoxication, moderate 6C43.3&XS25 Opioid intoxication, severe 6C43.4 Opioid withdrawal 6C43.5 Opioid-induced delirium 6C43.6 Opioid-induced psychotic disorder 6C43.70 Opioid-induced mood disorder Specify clinical presentation: 6C43.700 … with depressive symptoms 6C43.701 … with manic symptoms 6C43.702 … with mixed depressive and manic symptoms 6C43.70Z … unspecified 6C43.71 Opioid-induced anxiety disorder 6C43.Y Other specified disorder due to use of opioids 6C43.Z Disorder due to use of opioids, unspecified 6C44 Disorders due to use of sedatives, hypnotics or anxiolytics 6C44.0 Episode of harmful use of sedatives, hypnotics or anxiolytics 6C44.1 Harmful pattern of use of sedatives, hypnotics or anxiolytics Specify pattern: 6C44.10 … episodic 6C44.11 … continuous 6C44.1Z … unspecified 6C44.2 Sedative, hypnotic or anxiolytic dependence Specify pattern of substance use or remission: 6C44.20 … current use 64 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders List of categories 63 6c43 disorders due to use of opioids 6c43.0 episode of harmful use of opioids 6c43.1 harmful pattern of use of opioids specify pattern: 6c43.10 … episodic 6c43.11 … continuous 6c43.1z … unspecified ..."
+}

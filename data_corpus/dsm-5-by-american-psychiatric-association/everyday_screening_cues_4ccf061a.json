@@ -1,0 +1,33 @@
+{
+  "id": "everyday#screening_cues_4ccf061a",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "xx DSM-5 Classification 300.6 (F48.1) Depersonalization/Derealization Disorder (157) 300.15 (F44.89) Other Specified Dissociative Disorder (158) 300.15 (F44.9) Unspecified Dissociative Disorder (159) Somatic Symptom and Related Disorders (161) 300.82 (F45.1) Somatic Symptom Disorder (161) Specify if: With predominant pain Specify if: Persistent Specify current severity: Mild, Moderate, Severe 300.7 (F45.21) Illness Anxiety Disorder (162) Specify whether: Care seeking type, Care avoidant type 300.11 (___.__) Conversion Disorder (Functional Neurological Symptom Disorder) (163) Specify symptom type: (F44.4) With weakness or paralysis (F44.4) With abnormal movement (F44.4) With swallowing symptoms (F44.4) Withspeech symptom (F44.5) With attacks or seizures (F44.6) With anesthesia or sensory loss (F44.6) With special sensory symptom (F44.7) With mixed symptoms Specify if: Acute episode, Persistent Specify if: With psychological stressor (specify stressor), Without psychological stressor 316 (F54) Psychological Factors Affecting Other Medical Conditions (164) Specify current severity: Mild, Moderate, Severe, Extreme 300.19 (F68.10) Factitious Disorder (includes Factitious Disorder Imposed on Self, Factitious Disorder Imposed on Another) (165) Specify Single episode, Recurrent episodes DSM-5 Classification xxi 300.89 (F45.8) Other Specified Somatic Symptom and Related Disorder (166) 300.82 (F45.9) Unspecified Somatic Symptom and Related Disorder (167) Feeding and Eating Disorders (169) The following specifiers apply to Feeding and Eating Disorders where in- dicated: aSpecify if: In remission bSpecify if: In partial remission, In full remission cSpecify current severity: Mild, Moderate, Severe, Extreme 307.52 (___.__) Picaa (169) (F98.3) In children (F50.8) In adults 307.53 (F98.21) Rumination Disordera (169) 307.59 (F50.8) Avoidant/Restrictive Food Intake Disordera (170) 307.1 (___.__) Anorexia Nervosab, c (171) Specify whether: (F50.01) Restricting type (F50.02) Binge-eating/purging type 307.51 (F50.2) Bulimia Nervosab, c (172) 307.51 (F50.8) Binge-Eating Disorderb, c (174) 307.59 (F50.8) Other Specified Feeding or Eating Disorder (175) 307.50 (F50.9) Unspecified Feeding or Eating Disorder (176) Elimination Disorders (177) 307.6 (F98.0) Enuresis (177) Specify whether: Nocturnal only, Diurnal only, Nocturnal and diurnal 307.7 (F98.1) Encopresis (178) Specify whether: With constipation and overflow incontinence, Without constipation and over- flow incontinence",
+  "gloss_vi": "Xx dsm-5 classification 300.6 (f48.1) depersonalization/derealization disorder (157) 300.15 (f44.89) other specified dissociative disorder (158) 300.15 (f44.9) unspecified dissociative disorder (159) somatic symptom and ...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "stress",
+      "grief"
+    ],
+    "advice_section": [
+      "work_habits"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc xx DSM-5 Classification 300.6 (F48.1) Depersonalization/Derealization Disorder (157) 300.15 (F44.89) Other Specified Dissociative Disorder (158) 300.15 (F44.9) Unspecified Dissociative Disorder (159) Somatic Symptom and Related Disorders (161) 300.82 (F45.1) Somatic Symptom Disorder (161) Specify if: With predominant pain Specify if: Persistent Specify current severity: Mild, Moderate, Severe 300.7 (F45.21) Illness Anxiety Disorder (162) Specify whether: Care seeking type, Care avoidant type 300.11 (___.__) Conversion Disorder (Functional Neurological Symptom Disorder) (163) Specify symptom type: (F44.4) With weakness or paralysis (F44.4) With abnormal movement (F44.4) With swallowing symptoms (F44.4) Withspeech symptom (F44.5) With attacks or seizures (F44.6) With anesthesia or sensory loss (F44.6) With special sensory symptom (F44.7) With mixed symptoms Specify if: Acute episode, Persistent Specify if: With psychological stressor (specify stressor), Without psychological stressor 316 (F54) Psychological Factors Affecting Other Medical Conditions (164) Specify current severity: Mild, Moderate, Severe, Extreme 300.19 (F68.10) Factitious Disorder (includes Factitious Disorder Imposed on Self, Factitious Disorder Imposed on Another) (165) Specify Single episode, Recurrent episodes DSM-5 Classification xxi 300.89 (F45.8) Other Specified Somatic Symptom and Related Disorder (166) 300.82 (F45.9) Unspecified Somatic Symptom and Related Disorder (167) Feeding and Eating Disorders (169) The following specifiers apply to Feeding and Eating Disorders where in- dicated: aSpecify if: In remission bSpecify if: In partial remission, In full remission cSpecify current severity: Mild, Moderate, Severe, Extreme 307.52 (___.__) Picaa (169) (F98.3) In children (F50.8) In adults 307.53 (F98.21) Rumination Disordera (169) 307.59 (F50.8) Avoidant/Restrictive Food Intake Disordera (170) 307.1 (___.__) Anorexia Nervosab, c (171) Specify whether: (F50.01) Restricting type (F50.02) Binge-eating/purging type 307.51 (F50.2) Bulimia Nervosab, c (172) 307.51 (F50.8) Binge-Eating Disorderb, c (174) 307.59 (F50.8) Other Specified Feeding or Eating Disorder (175) 307.50 (F50.9) Unspecified Feeding or Eating Disorder (176) Elimination Disorders (177) 307.6 (F98.0) Enuresis (177) Specify whether: Nocturnal only, Diurnal only, Nocturnal and diurnal 307.7 (F98.1) Encopresis (178) Specify whether: With constipation and overflow incontinence, Without constipation and over- flow incontinence Xx dsm-5 classification 300.6 (f48.1) depersonalization/derealization disorder (157) 300.15 (f44.89) other specified dissociative disorder (158) 300.15 (f44.9) unspecified dissociative disorder (159) somatic symptom and ..."
+}

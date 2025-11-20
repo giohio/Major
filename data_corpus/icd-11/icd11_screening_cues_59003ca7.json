@@ -1,0 +1,30 @@
+{
+  "id": "icd11#screening_cues_59003ca7",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "In ICD-11, postcoordination is a mechanism for allowing additional codes to be linked to the initial diagnostic code to identify additional clinically significant features of the clinical presentation. See the section on using the CDDR for ICD-11 mental, behavioural and neurodevelopmental disorders (p. 21). Postcoordination options for each disorder grouping appear also appear in the list below, in boxes. In some cases, ellipses (…) are used to improve the readability of the list by avoiding repetition of the disorder name. When used, ellipses signify the category name that appears in the level immediately above. For example, below 6A01.2 Developmental language disorder, the title for 6A01.20 appears as “… with impairment of receptive and expressive language” rather using the full name of the category, “6A01.20 Developmental language disorder with impairment of receptive and expressive language”. Neurodevelopmental disorders 6A00 Disorders of intellectual development Specify severity: 6A00.0 Disorder of intellectual development, mild 6A00.1 Disorder of intellectual development, moderate 6A00.2 Disorder of intellectual development, severe 6A00.3 Disorder of intellectual development, profound 6A00.4 Disorder of intellectual development, provisional 6A00.Z Disorder of intellectual development, unspecified",
+  "gloss_vi": "In icd-11, postcoordination is a mechanism for allowing additional codes to be linked to the initial diagnostic code to identify additional clinically significant features of the clinical presentation. see the section on...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc In ICD-11, postcoordination is a mechanism for allowing additional codes to be linked to the initial diagnostic code to identify additional clinically significant features of the clinical presentation. See the section on using the CDDR for ICD-11 mental, behavioural and neurodevelopmental disorders (p. 21). Postcoordination options for each disorder grouping appear also appear in the list below, in boxes. In some cases, ellipses (…) are used to improve the readability of the list by avoiding repetition of the disorder name. When used, ellipses signify the category name that appears in the level immediately above. For example, below 6A01.2 Developmental language disorder, the title for 6A01.20 appears as “… with impairment of receptive and expressive language” rather using the full name of the category, “6A01.20 Developmental language disorder with impairment of receptive and expressive language”. Neurodevelopmental disorders 6A00 Disorders of intellectual development Specify severity: 6A00.0 Disorder of intellectual development, mild 6A00.1 Disorder of intellectual development, moderate 6A00.2 Disorder of intellectual development, severe 6A00.3 Disorder of intellectual development, profound 6A00.4 Disorder of intellectual development, provisional 6A00.Z Disorder of intellectual development, unspecified In icd-11, postcoordination is a mechanism for allowing additional codes to be linked to the initial diagnostic code to identify additional clinically significant features of the clinical presentation. see the section on..."
+}

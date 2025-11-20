@@ -1,0 +1,35 @@
+{
+  "id": "icd11#risk_safety_e20be025",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "disruptive or oppositional behaviour, regression, hyperactivity, tantrums, concentration problems, irritability, withdrawal, excessive daydreaming, increased clinginess, bedwetting and sleep disturbances. In adolescents, responses can include substance use and various forms of acting out or risk-taking. Boundaries with other disorders and conditions (differential diagnosis) Boundary with adjustment disorder and post-traumatic stress disorder If symptoms have not begun to diminish within about 1 week of the stressor ceasing (or within about 1 month in the case of continuing stressors), a diagnosis such as adjustment disorder or post-traumatic stress disorder should be considered, depending on the nature of the symptoms. Disorders specifically associated with stress | Other specified or unspecified disorder specifically associated with stress Disorders specifically associated with stress 363 Boundary with acute and transient psychotic disorder Acute and transient psychotic disorder, like acute stress reaction, has an acute onset and may occur in response to a traumatic experience. Acute stress reaction does not typically include psychotic symptoms such as hallucinations or delusions that are characteristic of acute and transient psychotic disorder. Boundary with other mental disorders The symptoms do not meet the diagnostic requirements for another mental disorder, such as acute and transient psychotic disorder, a depressive disorder, an anxiety or fear-related disorder, or a dissociative disorder. Disorders specifically associated with stress | Other specified or unspecified disorder specifically associated with stress Disorders specifically associated with stress | Other specified or unspecified disorder specifically associated with stress",
+  "gloss_vi": "Disruptive or oppositional behaviour, regression, hyperactivity, tantrums, concentration problems, irritability, withdrawal, excessive daydreaming, increased clinginess, bedwetting and giấc ngủ disturbances. in adolescen...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "sleep",
+      "stress",
+      "relationships"
+    ],
+    "advice_section": [
+      "communication_tips"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn disruptive or oppositional behaviour, regression, hyperactivity, tantrums, concentration problems, irritability, withdrawal, excessive daydreaming, increased clinginess, bedwetting and sleep disturbances. In adolescents, responses can include substance use and various forms of acting out or risk-taking. Boundaries with other disorders and conditions (differential diagnosis) Boundary with adjustment disorder and post-traumatic stress disorder If symptoms have not begun to diminish within about 1 week of the stressor ceasing (or within about 1 month in the case of continuing stressors), a diagnosis such as adjustment disorder or post-traumatic stress disorder should be considered, depending on the nature of the symptoms. Disorders specifically associated with stress | Other specified or unspecified disorder specifically associated with stress Disorders specifically associated with stress 363 Boundary with acute and transient psychotic disorder Acute and transient psychotic disorder, like acute stress reaction, has an acute onset and may occur in response to a traumatic experience. Acute stress reaction does not typically include psychotic symptoms such as hallucinations or delusions that are characteristic of acute and transient psychotic disorder. Boundary with other mental disorders The symptoms do not meet the diagnostic requirements for another mental disorder, such as acute and transient psychotic disorder, a depressive disorder, an anxiety or fear-related disorder, or a dissociative disorder. Disorders specifically associated with stress | Other specified or unspecified disorder specifically associated with stress Disorders specifically associated with stress | Other specified or unspecified disorder specifically associated with stress Disruptive or oppositional behaviour, regression, hyperactivity, tantrums, concentration problems, irritability, withdrawal, excessive daydreaming, increased clinginess, bedwetting and giấc ngủ disturbances. in adolescen..."
+}

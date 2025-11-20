@@ -1,0 +1,30 @@
+{
+  "id": "icd11#referral_dca60d7f",
+  "title_en": "General — Referral",
+  "title_vi": "General — Chuyển tuyến",
+  "text_en": "behavioural and neurodevelopmental disorders (CDDR), is the culmination of over a decade of collaborative work that took place within the context of the overall development of ICD-11 (2). The development of the ICD-11 CDDR was led by the WHO Department of Mental Health and Substance Use, and constitutes the most broadly international, multilingual, multidisciplinary and participative revision process ever implemented for a classification of mental disorders (6). The CDDR were planned, developed and field tested with the intent of providing mental health professionals, other health professionals, trainees and students with a comprehensive clinically useful guide to implementation of the ICD-11 classification of mental, behavioural and neurodevelopmental disorders. The CDDR are meant to support the accurate and reliable identification of mental health problems as they present in people seeking care in different settings worldwide, based on the best available evidence. Timely and accurate diagnosis of mental, behavioural and neurodevelopmental disorders can reduce the enormous disease burden associated with these conditions (7), thereby advancing WHO’s objective of “the attainment by all peoples of the highest possible level of health” (3, p. 2). The CDDR are an integral part of ICD-11, but they are distinct from the version used by Member States for statistical reporting of health information, which is referred to as the linearization for mortality and morbidity statistics (MMS) (8). The MMS contain brief descriptions (or definitions) that are meant to be used for statistical and health information purposes for most categories in ICD-11, including all categories in the mental, behavioural and neurodevelopmental disorders chapter. In contrast, the CDDR, which have been developed specifically for the ICD-11 mental, behavioural and neurodevelopmental disorders chapter, provide substantially more detailed information needed by mental health and other health professionals to understand and apply this part of the classification in their work with patients.",
+  "gloss_vi": "Behavioural and neurodevelopmental disorders (cddr), is the culmination of over a decade of collaborative công việc that took place within the context of the overall development of icd-11 (2). the development of the icd-...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "referral",
+      "psychoeducation"
+    ],
+    "life_topics": [
+      "work"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Referral General — Chuyển tuyến behavioural and neurodevelopmental disorders (CDDR), is the culmination of over a decade of collaborative work that took place within the context of the overall development of ICD-11 (2). The development of the ICD-11 CDDR was led by the WHO Department of Mental Health and Substance Use, and constitutes the most broadly international, multilingual, multidisciplinary and participative revision process ever implemented for a classification of mental disorders (6). The CDDR were planned, developed and field tested with the intent of providing mental health professionals, other health professionals, trainees and students with a comprehensive clinically useful guide to implementation of the ICD-11 classification of mental, behavioural and neurodevelopmental disorders. The CDDR are meant to support the accurate and reliable identification of mental health problems as they present in people seeking care in different settings worldwide, based on the best available evidence. Timely and accurate diagnosis of mental, behavioural and neurodevelopmental disorders can reduce the enormous disease burden associated with these conditions (7), thereby advancing WHO’s objective of “the attainment by all peoples of the highest possible level of health” (3, p. 2). The CDDR are an integral part of ICD-11, but they are distinct from the version used by Member States for statistical reporting of health information, which is referred to as the linearization for mortality and morbidity statistics (MMS) (8). The MMS contain brief descriptions (or definitions) that are meant to be used for statistical and health information purposes for most categories in ICD-11, including all categories in the mental, behavioural and neurodevelopmental disorders chapter. In contrast, the CDDR, which have been developed specifically for the ICD-11 mental, behavioural and neurodevelopmental disorders chapter, provide substantially more detailed information needed by mental health and other health professionals to understand and apply this part of the classification in their work with patients. Behavioural and neurodevelopmental disorders (cddr), is the culmination of over a decade of collaborative công việc that took place within the context of the overall development of icd-11 (2). the development of the icd-..."
+}

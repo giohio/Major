@@ -1,0 +1,32 @@
+{
+  "id": "everyday#screening_cues_75786262",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "Tobacco Use Disorder 275 11. Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for tobacco (refer to Criteria A and B of the criteria set for tobacco withdrawal). b. Tobacco (or a closely related substance, such as nico- tine) is taken to relieve or avoid withdrawal symptoms. Specify if: In early remission: After full criteria for tobacco use disorder were previously met, none of the criteria for tobacco use disorder have been met for at least 3 months but for less than 12 months (with the exception that Criterion A4, “Craving, or a strong desire or urge to use tobacco,” may be met). In sustained remission: After full criteria for tobacco use disor- der were previously met, none of the criteria for tobacco use dis- order have been met at any time during a period of 12 months or longer (with the exception that Criterion A4, “Craving, or a strong desire or urge to use tobacco,” may be met). Specify if: On maintenance therapy: The individual is taking a long-term maintenance medication, such as nicotine replacement medica- tion, and no criteria for tobacco use disorder have been met for that class of medication (except tolerance to, or withdrawal from, the nicotine replacement medication). In a controlled environment: This additional specifier is used if the individual is in an environment where access to tobacco is re- stricted. Coding based on current severity: Note for ICD-10-CM codes: If a to- bacco withdrawal or tobacco-induced sleep disorder is also present, do not use the codes below for tobacco use disorder. Instead, the comor- bid tobacco use disorder is indicated in the 4th character of the tobacco- induced disorder code (see the coding note for tobacco withdrawal",
+  "gloss_vi": "Tobacco use disorder 275 11. withdrawal, as manifested by either of the following: a.",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "referral",
+      "do_not_do",
+      "management"
+    ],
+    "life_topics": [
+      "sleep"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc Tobacco Use Disorder 275 11. Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for tobacco (refer to Criteria A and B of the criteria set for tobacco withdrawal). b. Tobacco (or a closely related substance, such as nico- tine) is taken to relieve or avoid withdrawal symptoms. Specify if: In early remission: After full criteria for tobacco use disorder were previously met, none of the criteria for tobacco use disorder have been met for at least 3 months but for less than 12 months (with the exception that Criterion A4, “Craving, or a strong desire or urge to use tobacco,” may be met). In sustained remission: After full criteria for tobacco use disor- der were previously met, none of the criteria for tobacco use dis- order have been met at any time during a period of 12 months or longer (with the exception that Criterion A4, “Craving, or a strong desire or urge to use tobacco,” may be met). Specify if: On maintenance therapy: The individual is taking a long-term maintenance medication, such as nicotine replacement medica- tion, and no criteria for tobacco use disorder have been met for that class of medication (except tolerance to, or withdrawal from, the nicotine replacement medication). In a controlled environment: This additional specifier is used if the individual is in an environment where access to tobacco is re- stricted. Coding based on current severity: Note for ICD-10-CM codes: If a to- bacco withdrawal or tobacco-induced sleep disorder is also present, do not use the codes below for tobacco use disorder. Instead, the comor- bid tobacco use disorder is indicated in the 4th character of the tobacco- induced disorder code (see the coding note for tobacco withdrawal Tobacco use disorder 275 11. withdrawal, as manifested by either of the following: a."
+}

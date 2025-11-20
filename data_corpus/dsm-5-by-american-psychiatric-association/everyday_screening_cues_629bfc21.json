@@ -1,0 +1,26 @@
+{
+  "id": "everyday#screening_cues_629bfc21",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "Opioid Withdrawal 259 D. The signs or symptoms are not attributable to another medical condition and are not better explained by another mental disor- der, including intoxication with another substance. Specify if: With perceptual disturbances: This specifier may be noted in the rare instance in which hallucinations with intact reality testing or auditory, visual, or tactile illusions occur in the absence of a delirium. Coding note: The ICD-9-CM code is 292.89. The ICD-10-CM code depends on whether or not there is a comorbid opioid use disorder and whether or not there are perceptual disturbances. For opioid intoxication without perceptual disturbances: If a mild opioid use disorder is comorbid, the ICD-10-CM code is F11.129, and if a moderate or severe opioid use disorder is co- morbid, the ICD-10-CM code is F11.229. If there is no comorbid opioid use disorder, then the ICD-10-CM code is F11.929. For opioid intoxication with perceptual disturbances: If a mild opioid use disorder is comorbid, the ICD-10-CM code is F11.122, and if a moderate or severe opioid use disorder is co- morbid, the ICD-10-CM code is F11.222. If there is no comorbid opioid use disorder, then the ICD-10-CM code is F11.922. Opioid Withdrawal 292.0 (F11.23) A. Presence of either of the following: 1. Cessation of (or reduction in) opioid use that has been heavy and prolonged (i.e., several weeks or longer). 2. Administration of an opioid antagonist after a period of opioid use. B. Three (or more) of the following developing within minutes to several days after Criterion A: 1. Dysphoric",
+  "gloss_vi": "Opioid withdrawal 259 d. the signs or symptoms are not attributable to another medical condition and are not better explained by another mental disor- der, including intoxication with another substance.",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc Opioid Withdrawal 259 D. The signs or symptoms are not attributable to another medical condition and are not better explained by another mental disor- der, including intoxication with another substance. Specify if: With perceptual disturbances: This specifier may be noted in the rare instance in which hallucinations with intact reality testing or auditory, visual, or tactile illusions occur in the absence of a delirium. Coding note: The ICD-9-CM code is 292.89. The ICD-10-CM code depends on whether or not there is a comorbid opioid use disorder and whether or not there are perceptual disturbances. For opioid intoxication without perceptual disturbances: If a mild opioid use disorder is comorbid, the ICD-10-CM code is F11.129, and if a moderate or severe opioid use disorder is co- morbid, the ICD-10-CM code is F11.229. If there is no comorbid opioid use disorder, then the ICD-10-CM code is F11.929. For opioid intoxication with perceptual disturbances: If a mild opioid use disorder is comorbid, the ICD-10-CM code is F11.122, and if a moderate or severe opioid use disorder is co- morbid, the ICD-10-CM code is F11.222. If there is no comorbid opioid use disorder, then the ICD-10-CM code is F11.922. Opioid Withdrawal 292.0 (F11.23) A. Presence of either of the following: 1. Cessation of (or reduction in) opioid use that has been heavy and prolonged (i.e., several weeks or longer). 2. Administration of an opioid antagonist after a period of opioid use. B. Three (or more) of the following developing within minutes to several days after Criterion A: 1. Dysphoric Opioid withdrawal 259 d. the signs or symptoms are not attributable to another medical condition and are not better explained by another mental disor- der, including intoxication with another substance."
+}

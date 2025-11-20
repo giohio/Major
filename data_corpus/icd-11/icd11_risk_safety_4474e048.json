@@ -1,0 +1,35 @@
+{
+  "id": "icd11#risk_safety_4474e048",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "sudden, unexpected, or violent manner; and learning about the sudden, unexpected or violent death of a loved one. • There is a response to the stressor that is considered to be normal, given the severity of the stressor. The response to the stressor may include transient emotional, somatic, cognitive or behavioural symptoms, such as being in a daze, confusion, sadness, anxiety, anger, despair, overactivity, inactivity, social withdrawal, amnesia, depersonalization, derealization or stupor. Autonomic signs of anxiety (e.g. tachycardia, sweating, flushing) are common, and may be the presenting feature. • Symptoms typically appear within hours to days following the stressful event, and usually begin to subside within a few days after the event or following removal from the threatening situation, when this is possible. In cases where the stressor is ongoing or removal is not possible, symptoms may persist, but are usually greatly reduced within approximately 1 month as the person adapts to the changed situation. Additional clinical features • Acute stress reaction in help-seeking individuals is usually, but not necessarily, accompanied by substantial subjective distress and/or interference with personal functioning. Developmental presentations • In children, responses to stressful events can include somatic symptoms (e.g. stomach pains or headaches), disruptive or oppositional behaviour, regression, hyperactivity, tantrums, concentration problems, irritability, withdrawal, excessive daydreaming, increased clinginess, bedwetting and sleep disturbances. In adolescents, responses can include substance use and various forms of acting out or risk-taking. Boundaries with other disorders and conditions (differential diagnosis) Boundary with adjustment disorder and post-traumatic stress disorder If symptoms have not begun to diminish within about 1 week of the stressor ceasing (or within about 1 month in the case of continuing stressors), a diagnosis such as adjustment disorder or post-traumatic stress disorder should be considered, depending on the nature of the symptoms. Disorders specifically associated with stress | Other specified or unspecified disorder specifically associated with stress",
+  "gloss_vi": "Sudden, unexpected, or violent manner; and learning about the sudden, unexpected or violent death of a loved one. • there is a response to the stressor that is considered to be normal, given the severity of the stressor.",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "screening_cues",
+      "management"
+    ],
+    "life_topics": [
+      "sleep",
+      "stress",
+      "relationships"
+    ],
+    "advice_section": [
+      "communication_tips"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn sudden, unexpected, or violent manner; and learning about the sudden, unexpected or violent death of a loved one. • There is a response to the stressor that is considered to be normal, given the severity of the stressor. The response to the stressor may include transient emotional, somatic, cognitive or behavioural symptoms, such as being in a daze, confusion, sadness, anxiety, anger, despair, overactivity, inactivity, social withdrawal, amnesia, depersonalization, derealization or stupor. Autonomic signs of anxiety (e.g. tachycardia, sweating, flushing) are common, and may be the presenting feature. • Symptoms typically appear within hours to days following the stressful event, and usually begin to subside within a few days after the event or following removal from the threatening situation, when this is possible. In cases where the stressor is ongoing or removal is not possible, symptoms may persist, but are usually greatly reduced within approximately 1 month as the person adapts to the changed situation. Additional clinical features • Acute stress reaction in help-seeking individuals is usually, but not necessarily, accompanied by substantial subjective distress and/or interference with personal functioning. Developmental presentations • In children, responses to stressful events can include somatic symptoms (e.g. stomach pains or headaches), disruptive or oppositional behaviour, regression, hyperactivity, tantrums, concentration problems, irritability, withdrawal, excessive daydreaming, increased clinginess, bedwetting and sleep disturbances. In adolescents, responses can include substance use and various forms of acting out or risk-taking. Boundaries with other disorders and conditions (differential diagnosis) Boundary with adjustment disorder and post-traumatic stress disorder If symptoms have not begun to diminish within about 1 week of the stressor ceasing (or within about 1 month in the case of continuing stressors), a diagnosis such as adjustment disorder or post-traumatic stress disorder should be considered, depending on the nature of the symptoms. Disorders specifically associated with stress | Other specified or unspecified disorder specifically associated with stress Sudden, unexpected, or violent manner; and learning about the sudden, unexpected or violent death of a loved one. • there is a response to the stressor that is considered to be normal, given the severity of the stressor."
+}

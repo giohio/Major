@@ -1,0 +1,36 @@
+{
+  "id": "icd11#screening_cues_20283f4d",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "disorder consistently fall into two separate dimensions across cultures: inattention and hyperactivity-impulsivity. However, culture can influence both acceptability of symptoms and how caregivers respond to them. • The assessment of hyperactivity should take into account cultural norms of age and gender- appropriate behaviour. For example, in some countries hyperactive behaviour may be seen as a sign of strength in a boy (e.g. “boiling blood”) while being perceived very negatively in a girl. • Symptoms of inattention or hyperactivity-impulsivity may occur in response to exposure to traumatic events and grief reactions during childhood, particularly in highly vulnerable and disadvantaged populations, including in post-conflict areas. In these settings, clinicians should consider whether the diagnosis of attention deficit hyperactivity disorder is warranted. Sex- and/or gender-related features • Attention deficit hyperactivity disorder is more prevalent among males. • Females are more likely to exhibit inattentive symptoms whereas males are more likely to exhibit symptoms of hyperactivity and impulsivity, particularly at younger ages. Boundaries with other disorders and conditions (differential diagnosis) Boundary with disorders of intellectual development Co-occurrence of attention deficit hyperactivity disorder and disorders of intellectual development is common, and both diagnoses may be assigned if warranted. However, symptoms of inattention and hyperactivity (e.g. restlessness) are common in children without attention deficit hyperactivity disorder who are placed in academic settings that are out of keeping with their intellectual abilities. A diagnosis of attention deficit hyperactivity disorder in individuals with disorders of intellectual development requires that attention deficit hyperactivity disorder symptoms are disproportionate to the individual’s level of intellectual functioning. Boundary with autism spectrum disorder Specific abnormalities in attention (e.g. being overly focused or easily distracted), impulsivity and physical hyperactivity are often observed in individuals with autism spectrum disorder, and may sometimes dominate the clinical presentation. Unlike individuals with autism spectrum disorder, those with attention deficit hyperactivity disorder do not exhibit the persistent deficits in initiating and sustaining social communication and reciprocal social interactions, or the persistent restricted, repetitive and inflexible patterns of behaviour, interests or activities that are the defining features of autism spectrum disorder. However, co-occurrence of these disorders is common. Neurodevelopmental disorders | Attention deficit hyperactivity disorder",
+  "gloss_vi": "Disorder consistently fall into two separate dimensions across cultures: inattention and hyperactivity-impulsivity. however, culture can influence both acceptability of symptoms and how caregivers respond to them.",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do",
+      "caregiver"
+    ],
+    "life_topics": [
+      "study",
+      "relationships",
+      "grief"
+    ],
+    "advice_section": [
+      "communication_tips",
+      "work_habits"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc disorder consistently fall into two separate dimensions across cultures: inattention and hyperactivity-impulsivity. However, culture can influence both acceptability of symptoms and how caregivers respond to them. • The assessment of hyperactivity should take into account cultural norms of age and gender- appropriate behaviour. For example, in some countries hyperactive behaviour may be seen as a sign of strength in a boy (e.g. “boiling blood”) while being perceived very negatively in a girl. • Symptoms of inattention or hyperactivity-impulsivity may occur in response to exposure to traumatic events and grief reactions during childhood, particularly in highly vulnerable and disadvantaged populations, including in post-conflict areas. In these settings, clinicians should consider whether the diagnosis of attention deficit hyperactivity disorder is warranted. Sex- and/or gender-related features • Attention deficit hyperactivity disorder is more prevalent among males. • Females are more likely to exhibit inattentive symptoms whereas males are more likely to exhibit symptoms of hyperactivity and impulsivity, particularly at younger ages. Boundaries with other disorders and conditions (differential diagnosis) Boundary with disorders of intellectual development Co-occurrence of attention deficit hyperactivity disorder and disorders of intellectual development is common, and both diagnoses may be assigned if warranted. However, symptoms of inattention and hyperactivity (e.g. restlessness) are common in children without attention deficit hyperactivity disorder who are placed in academic settings that are out of keeping with their intellectual abilities. A diagnosis of attention deficit hyperactivity disorder in individuals with disorders of intellectual development requires that attention deficit hyperactivity disorder symptoms are disproportionate to the individual’s level of intellectual functioning. Boundary with autism spectrum disorder Specific abnormalities in attention (e.g. being overly focused or easily distracted), impulsivity and physical hyperactivity are often observed in individuals with autism spectrum disorder, and may sometimes dominate the clinical presentation. Unlike individuals with autism spectrum disorder, those with attention deficit hyperactivity disorder do not exhibit the persistent deficits in initiating and sustaining social communication and reciprocal social interactions, or the persistent restricted, repetitive and inflexible patterns of behaviour, interests or activities that are the defining features of autism spectrum disorder. However, co-occurrence of these disorders is common. Neurodevelopmental disorders | Attention deficit hyperactivity disorder Disorder consistently fall into two separate dimensions across cultures: inattention and hyperactivity-impulsivity. however, culture can influence both acceptability of symptoms and how caregivers respond to them."
+}

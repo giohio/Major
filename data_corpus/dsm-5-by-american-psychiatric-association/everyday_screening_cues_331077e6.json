@@ -1,0 +1,26 @@
+{
+  "id": "everyday#screening_cues_331077e6",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "a mild substance use disorder is comorbid with the substance intoxication de- lirium, the 4th position character is “1,” and the clinician should record “mild [substance] use disorder” before the substance intoxication delirium (e.g., “mild cocaine use dis- order with cocaine-induced intoxication delirium”). If a mod- erate or severe substance use disorder is comorbid with the substance intoxication delirium, the 4th position character is Delirium 293 “2,” and the clinician should record “moderate [substance] use disorder” or “severe [substance] use disorder,” depend- ing on the severity of the comorbid substance use disorder. If there is no comorbid substance use disorder (e.g., after a one-time heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the sub- stance intoxication delirium. ICD-10-CM With use With use disorder, Without ICD-9- disorder, moderate use CM mild or severe disorder Alcohol 291.0 F10.121 F10.221 F10.921 Cannabis 292.81 F12.121 F12.221 F12.921 Phencyclidine 292.81 F16.121 F16.221 F16.921 Other hallucinogen 292.81 F16.121 F16.221 F16.921 Inhalant 292.81 F18.121 F18.221 F18.921 Opioid 292.81 F11.121 F11.221 F11.921 Sedative, hypnotic, or 292.81 F13.121 F13.221 F13.921 anxiolytic Amphetamine (or 292.81 F15.121 F15.221 F15.921 other stimulant) Cocaine 292.81 F14.121 F14.221 F14.921 Other (or unknown) 292.81 F19.121 F19.221 F19.921 substance Substance withdrawal delirium: This diagnosis should be made instead of substance withdrawal when the symptoms in Criteria A and C predominate in the clinical picture and when they are sufficiently severe to warrant clinical attention. Code [specific substance] withdrawal delirium: 291.0 (F10.231) alcohol; 292.0 (F11.23) opioid; 292.0 (F13.231) sed-",
+  "gloss_vi": "A mild substance use disorder is comorbid with the substance intoxication de- lirium, the 4th position character is “1,” and the clinician should record “mild [substance] use disorder” before the substance intoxication d...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc a mild substance use disorder is comorbid with the substance intoxication de- lirium, the 4th position character is “1,” and the clinician should record “mild [substance] use disorder” before the substance intoxication delirium (e.g., “mild cocaine use dis- order with cocaine-induced intoxication delirium”). If a mod- erate or severe substance use disorder is comorbid with the substance intoxication delirium, the 4th position character is Delirium 293 “2,” and the clinician should record “moderate [substance] use disorder” or “severe [substance] use disorder,” depend- ing on the severity of the comorbid substance use disorder. If there is no comorbid substance use disorder (e.g., after a one-time heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the sub- stance intoxication delirium. ICD-10-CM With use With use disorder, Without ICD-9- disorder, moderate use CM mild or severe disorder Alcohol 291.0 F10.121 F10.221 F10.921 Cannabis 292.81 F12.121 F12.221 F12.921 Phencyclidine 292.81 F16.121 F16.221 F16.921 Other hallucinogen 292.81 F16.121 F16.221 F16.921 Inhalant 292.81 F18.121 F18.221 F18.921 Opioid 292.81 F11.121 F11.221 F11.921 Sedative, hypnotic, or 292.81 F13.121 F13.221 F13.921 anxiolytic Amphetamine (or 292.81 F15.121 F15.221 F15.921 other stimulant) Cocaine 292.81 F14.121 F14.221 F14.921 Other (or unknown) 292.81 F19.121 F19.221 F19.921 substance Substance withdrawal delirium: This diagnosis should be made instead of substance withdrawal when the symptoms in Criteria A and C predominate in the clinical picture and when they are sufficiently severe to warrant clinical attention. Code [specific substance] withdrawal delirium: 291.0 (F10.231) alcohol; 292.0 (F11.23) opioid; 292.0 (F13.231) sed- A mild substance use disorder is comorbid with the substance intoxication de- lirium, the 4th position character is “1,” and the clinician should record “mild [substance] use disorder” before the substance intoxication d..."
+}

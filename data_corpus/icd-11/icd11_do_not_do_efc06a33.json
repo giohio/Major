@@ -1,0 +1,29 @@
+{
+  "id": "icd11#do_not_do_efc06a33",
+  "title_en": "General — Do Not Do",
+  "title_vi": "General — Do Not Do",
+  "text_en": "396 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Feeding and eating disorders 397 Feeding and eating disorders Feeding and eating disorders involve abnormal eating or feeding behaviours that are not better accounted for by another medical condition, and are not developmentally appropriate or culturally sanctioned. Feeding disorders involve behavioural disturbances that are not related to body weight or shape concerns, such as eating of non-edible substances or voluntary regurgitation of foods. Eating disorders involve abnormal eating behaviour and preoccupation with food, accompanied in most instances by prominent body weight or shape concerns. Feeding and eating disorders include the following: 6B80 Anorexia nervosa 6B81 Bulimia nervosa 6B82 Binge-eating disorder 6B83 Avoidant-restrictive food intake disorder 6B84 Pica 6B85 Rumination-regurgitation disorder 6B8Y Other specified feeding or eating disorder 6B8Z Feeding or eating disorder, unspecified. Feeding and eating disorder diagnoses should not be used to classify low-level concerns related to eating or behaviours that are common or culturally sanctioned. Feeding and eating disorders",
+  "gloss_vi": "396 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders feeding and eating disorders 397 feeding and eating disorders feeding and eating disorders involve abno...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "do_not_do"
+    ],
+    "life_topics": [],
+    "advice_section": [
+      "work_habits"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Do Not Do General — Do Not Do 396 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Feeding and eating disorders 397 Feeding and eating disorders Feeding and eating disorders involve abnormal eating or feeding behaviours that are not better accounted for by another medical condition, and are not developmentally appropriate or culturally sanctioned. Feeding disorders involve behavioural disturbances that are not related to body weight or shape concerns, such as eating of non-edible substances or voluntary regurgitation of foods. Eating disorders involve abnormal eating behaviour and preoccupation with food, accompanied in most instances by prominent body weight or shape concerns. Feeding and eating disorders include the following: 6B80 Anorexia nervosa 6B81 Bulimia nervosa 6B82 Binge-eating disorder 6B83 Avoidant-restrictive food intake disorder 6B84 Pica 6B85 Rumination-regurgitation disorder 6B8Y Other specified feeding or eating disorder 6B8Z Feeding or eating disorder, unspecified. Feeding and eating disorder diagnoses should not be used to classify low-level concerns related to eating or behaviours that are common or culturally sanctioned. Feeding and eating disorders 396 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders feeding and eating disorders 397 feeding and eating disorders feeding and eating disorders involve abno..."
+}

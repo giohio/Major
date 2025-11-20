@@ -1,0 +1,30 @@
+{
+  "id": "everyday#screening_cues_de6dded2",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "230 Substance-Related and Addictive Disorders Substance-Related Disorders Substance Use Disorders Recording Procedures for Substance Use Disorders The clinician should use the code that applies to the class of substances but record the name of the specific substance. For example, the clinician should record 304.10 (F13.20) moderate alprazolam use disorder (rather than moderate sedative, hypnotic, or anxiolytic use disorder) or 305.70 (F15.10) mild methamphetamine use disorder (rather than mild stimu- lant use disorder). For substances that do not fit into any of the classes (e.g., anabolic steroids), the appropriate code for “other substance use disorder” should be used and the specific substance indicated (e.g., 305.90 [F19.10] mild anabolic steroid use disorder). If the substance taken by the individual is unknown, the code for the class “other (or un- known)” should be used (e.g., 304.90 [F19.20] severe unknown sub- stance use disorder). If criteria are met for more than one substance use disorder, all should be diagnosed (e.g., 304.00 [F11.20] severe heroin use disorder; 304.20 [F14.20] moderate cocaine use disorder). The appropriate ICD-10-CM code for a substance use disorder depends on whether there is a comorbid substance-induced disorder (including intoxication and withdrawal). In the above example, the diagnostic code for moderate alprazolam use disorder, F13.20, re- flects the absence of a comorbid alprazolam-induced mental disor- der. Because ICD-10-CM codes for substance-induced disorders in- dicate both the presence (or absence) and severity of the substance use disorder, ICD-10-CM codes for substance use disorders can be used only in the absence of a substance-induced disorder. See the individual substance-specific sections for additional coding information. Note that the word addiction is not applied as a diagnostic term in this classification, although it is in common usage in many countries to describe severe problems related to compulsive and habitual use of substances. The more neutral term substance use disorder is used to describe the wide range of the disorder, from a mild form to a",
+  "gloss_vi": "230 substance-related and addictive disorders substance-related disorders substance use disorders recording procedures for substance use disorders the clinician should use the code that applies to the class of substances...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 230 Substance-Related and Addictive Disorders Substance-Related Disorders Substance Use Disorders Recording Procedures for Substance Use Disorders The clinician should use the code that applies to the class of substances but record the name of the specific substance. For example, the clinician should record 304.10 (F13.20) moderate alprazolam use disorder (rather than moderate sedative, hypnotic, or anxiolytic use disorder) or 305.70 (F15.10) mild methamphetamine use disorder (rather than mild stimu- lant use disorder). For substances that do not fit into any of the classes (e.g., anabolic steroids), the appropriate code for “other substance use disorder” should be used and the specific substance indicated (e.g., 305.90 [F19.10] mild anabolic steroid use disorder). If the substance taken by the individual is unknown, the code for the class “other (or un- known)” should be used (e.g., 304.90 [F19.20] severe unknown sub- stance use disorder). If criteria are met for more than one substance use disorder, all should be diagnosed (e.g., 304.00 [F11.20] severe heroin use disorder; 304.20 [F14.20] moderate cocaine use disorder). The appropriate ICD-10-CM code for a substance use disorder depends on whether there is a comorbid substance-induced disorder (including intoxication and withdrawal). In the above example, the diagnostic code for moderate alprazolam use disorder, F13.20, re- flects the absence of a comorbid alprazolam-induced mental disor- der. Because ICD-10-CM codes for substance-induced disorders in- dicate both the presence (or absence) and severity of the substance use disorder, ICD-10-CM codes for substance use disorders can be used only in the absence of a substance-induced disorder. See the individual substance-specific sections for additional coding information. Note that the word addiction is not applied as a diagnostic term in this classification, although it is in common usage in many countries to describe severe problems related to compulsive and habitual use of substances. The more neutral term substance use disorder is used to describe the wide range of the disorder, from a mild form to a 230 substance-related and addictive disorders substance-related disorders substance use disorders recording procedures for substance use disorders the clinician should use the code that applies to the class of substances..."
+}

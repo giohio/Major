@@ -1,0 +1,30 @@
+{
+  "id": "everyday#screening_cues_02fe2b7e",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "An additional diagnosis of 304.20 severe cocaine use disorder is also given. When more than one substance is judged to play a sig- nificant role in the development of psychotic symptoms, each should be listed separately (e.g., 292.9 cannabis-induced psychotic disorder with onset during intoxication, with severe cannabis use disorder; 292.9 phencyclidine-induced psychotic disorder, with onset during intoxication, with mild phencyclidine use disorder). ICD-10-CM. The name of the substance/medication-induced psy- chotic disorder begins with the specific substance (e.g., cocaine, dexamethasone) that is presumed to be causing the delusions or hal- lucinations. The diagnostic code is selected from the table included in the criteria set, which is based on the drug class and presence or absence of a comorbid substance use disorder. For substances that do not fit into any of the classes (e.g., dexamethasone), the code for “other substance” with no comorbid substance use should be used; and in cases in which a substance is judged to be an etiological factor but the specific class of substance is unknown, the category “un- known substance” with no comorbid substance use should be used. When recording the name of the disorder, the comorbid sub- stance use disorder (if any) is listed first, followed by the word “with,” followed by the name of the substance-induced psychotic disorder, followed by the specification of onset (i.e., onset during intoxication, onset during withdrawal). For example, in the case of delusions oc- curring during intoxication in a man with a severe cocaine use disor- der, the diagnosis is F14.259 severe cocaine use disorder with cocaine- induced psychotic disorder, with onset during intoxication. A sepa- rate diagnosis of the comorbid severe cocaine use disorder is not given. If the substance-induced psychotic disorder occurs without a comor- bid substance use disorder (e.g., after a one-time heavy use of the substance), no accompanying substance use disorder is noted (e.g., F16.959 phencyclidine-induced psychotic disorder, with onset dur- ing intoxication). When more than one substance is judged to play a significant role in the development of psychotic symptoms, each should be listed separately (e.g., F12.259 severe cannabis use disorder with cannabis-induced psychotic disorder, with onset during intoxi-",
+  "gloss_vi": "An additional diagnosis of 304.20 severe cocaine use disorder is also given. when more than one substance is judged to play a sig- nificant role in the development of psychotic symptoms, each should be listed separately ...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc An additional diagnosis of 304.20 severe cocaine use disorder is also given. When more than one substance is judged to play a sig- nificant role in the development of psychotic symptoms, each should be listed separately (e.g., 292.9 cannabis-induced psychotic disorder with onset during intoxication, with severe cannabis use disorder; 292.9 phencyclidine-induced psychotic disorder, with onset during intoxication, with mild phencyclidine use disorder). ICD-10-CM. The name of the substance/medication-induced psy- chotic disorder begins with the specific substance (e.g., cocaine, dexamethasone) that is presumed to be causing the delusions or hal- lucinations. The diagnostic code is selected from the table included in the criteria set, which is based on the drug class and presence or absence of a comorbid substance use disorder. For substances that do not fit into any of the classes (e.g., dexamethasone), the code for “other substance” with no comorbid substance use should be used; and in cases in which a substance is judged to be an etiological factor but the specific class of substance is unknown, the category “un- known substance” with no comorbid substance use should be used. When recording the name of the disorder, the comorbid sub- stance use disorder (if any) is listed first, followed by the word “with,” followed by the name of the substance-induced psychotic disorder, followed by the specification of onset (i.e., onset during intoxication, onset during withdrawal). For example, in the case of delusions oc- curring during intoxication in a man with a severe cocaine use disor- der, the diagnosis is F14.259 severe cocaine use disorder with cocaine- induced psychotic disorder, with onset during intoxication. A sepa- rate diagnosis of the comorbid severe cocaine use disorder is not given. If the substance-induced psychotic disorder occurs without a comor- bid substance use disorder (e.g., after a one-time heavy use of the substance), no accompanying substance use disorder is noted (e.g., F16.959 phencyclidine-induced psychotic disorder, with onset dur- ing intoxication). When more than one substance is judged to play a significant role in the development of psychotic symptoms, each should be listed separately (e.g., F12.259 severe cannabis use disorder with cannabis-induced psychotic disorder, with onset during intoxi- An additional diagnosis of 304.20 severe cocaine use disorder is also given. when more than one substance is judged to play a sig- nificant role in the development of psychotic symptoms, each should be listed separately ..."
+}

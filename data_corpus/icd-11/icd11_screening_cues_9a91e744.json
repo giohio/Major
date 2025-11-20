@@ -1,0 +1,32 @@
+{
+  "id": "icd11#screening_cues_9a91e744",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "significant inattention and/or hyperactivity-impulsivity symptoms prior to age 12, though some individuals may first come to clinical attention later in adolescence or as adults, often when demands exceed the individual’s capacity to compensate for limitations. • Manifestations of inattention and/or hyperactivity-impulsivity must be evident across multiple situations or settings (e.g. home, school, work, with friends or relatives), but are likely to vary according to the structure and demands of the setting. • Symptoms are not better accounted for by another mental disorder (e.g. an anxiety or fear-related disorder, a neurocognitive disorder such as delirium). • Symptoms are not due to the effects of a substance (e.g. cocaine) or medication (e.g. bronchodilators, thyroid replacement medication) on the central nervous system, including and withdrawal effects, and are not due to a disease of the nervous system. Neurodevelopmental disorders | Attention deficit hyperactivity disorder 144 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Specifiers to describe predominant characteristics of clinical presentation • The characteristics of the current clinical presentation should be described using one of the following specifiers, which are meant to assist in recording the main reason for the current referral or services. Predominance of symptoms refers to the presence of several symptoms of either an inattentive or hyperactive-impulsive nature, with few or no symptoms of the other type. 6A05.0 Attention deficit hyperactivity disorder, predominantly inattentive presentation • All diagnostic requirements for attention deficit hyperactivity disorder are met, and inattentive symptoms predominate. 6A05.1 Attention deficit hyperactivity disorder, predominantly hyperactive- impulsive presentation • All diagnostic requirements for attention deficit hyperactivity disorder are met, and symptoms of hyperactivity-impulsivity predominate. 6A05.2 Attention deficit hyperactivity disorder, combined presentation • All diagnostic requirements for attention deficit hyperactivity disorder are met, and both hyperactive-impulsive and inattentive symptoms are clinically significant aspects of the current clinical presentation, with neither clearly predominating. 6A05.Y Attention deficit hyperactivity disorder, other specified presentation 6A05.Z Attention deficit hyperactivity disorder, presentation unspecified Neurodevelopmental disorders | Attention deficit hyperactivity disorder",
+  "gloss_vi": "Significant inattention and/or hyperactivity-impulsivity symptoms prior to age 12, though some individuals may first come to clinical attention later in adolescence or as adults, often when demands exceed the individual’...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "referral",
+      "management"
+    ],
+    "life_topics": [
+      "work",
+      "relationships"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc significant inattention and/or hyperactivity-impulsivity symptoms prior to age 12, though some individuals may first come to clinical attention later in adolescence or as adults, often when demands exceed the individual’s capacity to compensate for limitations. • Manifestations of inattention and/or hyperactivity-impulsivity must be evident across multiple situations or settings (e.g. home, school, work, with friends or relatives), but are likely to vary according to the structure and demands of the setting. • Symptoms are not better accounted for by another mental disorder (e.g. an anxiety or fear-related disorder, a neurocognitive disorder such as delirium). • Symptoms are not due to the effects of a substance (e.g. cocaine) or medication (e.g. bronchodilators, thyroid replacement medication) on the central nervous system, including and withdrawal effects, and are not due to a disease of the nervous system. Neurodevelopmental disorders | Attention deficit hyperactivity disorder 144 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Specifiers to describe predominant characteristics of clinical presentation • The characteristics of the current clinical presentation should be described using one of the following specifiers, which are meant to assist in recording the main reason for the current referral or services. Predominance of symptoms refers to the presence of several symptoms of either an inattentive or hyperactive-impulsive nature, with few or no symptoms of the other type. 6A05.0 Attention deficit hyperactivity disorder, predominantly inattentive presentation • All diagnostic requirements for attention deficit hyperactivity disorder are met, and inattentive symptoms predominate. 6A05.1 Attention deficit hyperactivity disorder, predominantly hyperactive- impulsive presentation • All diagnostic requirements for attention deficit hyperactivity disorder are met, and symptoms of hyperactivity-impulsivity predominate. 6A05.2 Attention deficit hyperactivity disorder, combined presentation • All diagnostic requirements for attention deficit hyperactivity disorder are met, and both hyperactive-impulsive and inattentive symptoms are clinically significant aspects of the current clinical presentation, with neither clearly predominating. 6A05.Y Attention deficit hyperactivity disorder, other specified presentation 6A05.Z Attention deficit hyperactivity disorder, presentation unspecified Neurodevelopmental disorders | Attention deficit hyperactivity disorder Significant inattention and/or hyperactivity-impulsivity symptoms prior to age 12, though some individuals may first come to clinical attention later in adolescence or as adults, often when demands exceed the individual’..."
+}

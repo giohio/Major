@@ -1,0 +1,27 @@
+{
+  "id": "everyday#screening_cues_40b09642",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "developing during, or shortly after, inhalant use or exposure: 1. Dizziness. 2. Nystagmus. 3. Incoordination. Inhalant Intoxication 255 4. Slurred speech. 5. Unsteady gait. 6. Lethargy. 7. Depressed reflexes. 8. Psychomotor retardation. 9. Tremor. 10. Generalized muscle weakness. 11. Blurred vision or diplopia. 12. Stupor or coma. 13. Euphoria. D. The signs or symptoms are not attributable to another medical condition and are not better explained by another mental disor- der, including intoxication with another substance. Coding note: The ICD-9-CM code is 292.89. The ICD-10-CM code depends on whether there is a comorbid inhalant use disorder. If a mild inhalant use disorder is comorbid, the ICD-10-CM code is F18.129, and if a moderate or severe inhalant use disorder is comor- bid, the ICD-10-CM code is F18.229. If there is no comorbid inhalant use disorder, then the ICD-10-CM code is F18.929. Other Inhalant-Induced Disorders The following inhalant-induced disorders are described in other chapters of the book with disorders with which they share phenome- nology (see the substance/medication-induced mental disorders in these chapters): inhalant-induced psychotic disorder (“Schizophrenia Spectrum and Other Psychotic Disorders”); inhalant-induced depres- sive disorder (“Depressive Disorders”); and inhalant-induced anxi- ety disorder (“Anxiety Disorders”); inhalant-induced major or mild neurocognitive disorder (“Neurocognitive Disorders”). For inhalant intoxication delirium, see the criteria and discussion of delirium in the chapter “Neurocognitive Disorders.” These inhalant-induced dis- orders are diagnosed instead of inhalant intoxication only when symptoms are sufficiently severe to warrant independent clinical at- tention.",
+  "gloss_vi": "Developing during, or shortly after, inhalant use or exposure: 1. dizziness.",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "management"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc developing during, or shortly after, inhalant use or exposure: 1. Dizziness. 2. Nystagmus. 3. Incoordination. Inhalant Intoxication 255 4. Slurred speech. 5. Unsteady gait. 6. Lethargy. 7. Depressed reflexes. 8. Psychomotor retardation. 9. Tremor. 10. Generalized muscle weakness. 11. Blurred vision or diplopia. 12. Stupor or coma. 13. Euphoria. D. The signs or symptoms are not attributable to another medical condition and are not better explained by another mental disor- der, including intoxication with another substance. Coding note: The ICD-9-CM code is 292.89. The ICD-10-CM code depends on whether there is a comorbid inhalant use disorder. If a mild inhalant use disorder is comorbid, the ICD-10-CM code is F18.129, and if a moderate or severe inhalant use disorder is comor- bid, the ICD-10-CM code is F18.229. If there is no comorbid inhalant use disorder, then the ICD-10-CM code is F18.929. Other Inhalant-Induced Disorders The following inhalant-induced disorders are described in other chapters of the book with disorders with which they share phenome- nology (see the substance/medication-induced mental disorders in these chapters): inhalant-induced psychotic disorder (“Schizophrenia Spectrum and Other Psychotic Disorders”); inhalant-induced depres- sive disorder (“Depressive Disorders”); and inhalant-induced anxi- ety disorder (“Anxiety Disorders”); inhalant-induced major or mild neurocognitive disorder (“Neurocognitive Disorders”). For inhalant intoxication delirium, see the criteria and discussion of delirium in the chapter “Neurocognitive Disorders.” These inhalant-induced dis- orders are diagnosed instead of inhalant intoxication only when symptoms are sufficiently severe to warrant independent clinical at- tention. Developing during, or shortly after, inhalant use or exposure: 1. dizziness."
+}

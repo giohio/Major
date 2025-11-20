@@ -1,0 +1,36 @@
+{
+  "id": "icd11#screening_cues_d9342e1d",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "etiology. Delirium typically presents with significant confusion or global neurocognitive impairment, in contrast to mild neurocognitive disorder, in which there is mild impairment in one or more cognitive domains that does not interfere significantly with functioning. Boundary with amnestic disorder Amnestic disorder is characterized by prominent memory impairment relative to expectations for age and general premorbid level of neurocognitive functioning that is severe enough to result in significant impairment in personal, family, social, educational, occupational or other important areas of functioning, in the absence of other significant neurocognitive impairment. While specific presentations of mild neurocognitive disorder may primarily affect memory, the memory impairment is not severe enough to interfere significantly with functioning in everyday skills and tasks. Boundary with dementia Dementia is characterized by marked impairment in two or more cognitive domains that is severe enough to cause significant impairment in personal, family, social, educational, occupational or other important areas of functioning. Neurocognitive deficits in mild neurocognitive disorder may be in similar areas, but are not severe enough to cause significant impairment in functioning. Boundary with mild cognitive symptoms in other mental disorders Mild cognitive symptoms may be a characteristic or associated feature of a wide range of mental disorders (e.g. attention deficit hyperactivity disorder, schizophrenia and other primary psychotic disorders, mood disorders, anxiety and fear-related disorders, post-traumatic stress disorder, dissociative disorders). If the neurocognitive impairment is better explained by another mental disorder, an additional diagnosis of mild neurocognitive disorder should not be assigned. Boundary with sleep-wake disorders Memory and other neurocognitive impairment is frequently reported by individuals with sleep disturbance or sleep-wake disorders, such as insomnia and sleep apnoea. If the neurocognitive impairment is better explained by a sleep-wake disorder, an additional diagnosis of mild neurocognitive disorder should not be assigned. Neurocognitive disorders | Mild neurocognitive disorder Neurocognitive disorders | Mild neurocognitive disorder",
+  "gloss_vi": "Etiology. delirium typically presents with significant confusion or global neurocognitive impairment, in contrast to mild neurocognitive disorder, in which there is mild impairment in one or more cognitive domains that d...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "psychoeducation",
+      "management",
+      "caregiver"
+    ],
+    "life_topics": [
+      "sleep",
+      "stress",
+      "relationships"
+    ],
+    "advice_section": [
+      "communication_tips"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc etiology. Delirium typically presents with significant confusion or global neurocognitive impairment, in contrast to mild neurocognitive disorder, in which there is mild impairment in one or more cognitive domains that does not interfere significantly with functioning. Boundary with amnestic disorder Amnestic disorder is characterized by prominent memory impairment relative to expectations for age and general premorbid level of neurocognitive functioning that is severe enough to result in significant impairment in personal, family, social, educational, occupational or other important areas of functioning, in the absence of other significant neurocognitive impairment. While specific presentations of mild neurocognitive disorder may primarily affect memory, the memory impairment is not severe enough to interfere significantly with functioning in everyday skills and tasks. Boundary with dementia Dementia is characterized by marked impairment in two or more cognitive domains that is severe enough to cause significant impairment in personal, family, social, educational, occupational or other important areas of functioning. Neurocognitive deficits in mild neurocognitive disorder may be in similar areas, but are not severe enough to cause significant impairment in functioning. Boundary with mild cognitive symptoms in other mental disorders Mild cognitive symptoms may be a characteristic or associated feature of a wide range of mental disorders (e.g. attention deficit hyperactivity disorder, schizophrenia and other primary psychotic disorders, mood disorders, anxiety and fear-related disorders, post-traumatic stress disorder, dissociative disorders). If the neurocognitive impairment is better explained by another mental disorder, an additional diagnosis of mild neurocognitive disorder should not be assigned. Boundary with sleep-wake disorders Memory and other neurocognitive impairment is frequently reported by individuals with sleep disturbance or sleep-wake disorders, such as insomnia and sleep apnoea. If the neurocognitive impairment is better explained by a sleep-wake disorder, an additional diagnosis of mild neurocognitive disorder should not be assigned. Neurocognitive disorders | Mild neurocognitive disorder Neurocognitive disorders | Mild neurocognitive disorder Etiology. delirium typically presents with significant confusion or global neurocognitive impairment, in contrast to mild neurocognitive disorder, in which there is mild impairment in one or more cognitive domains that d..."
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mhgap#risk_safety_030e95a5",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "Are any of the following symptoms present? – Suicidal ideation – Talking or moving more – Beliefs of worthlessness slowly than normal – Psychotic symptoms Does the person have a previous history of depression? DEPRESSION is likely Do not manage for depression. Go to OTH 3 IF THERE IS IMMINENT RISK Are there concurrent priority MNS conditions? OF SUICIDE, ASSESS AND MANAGE » before continuing. Go to SUI. A ssess for concurrent MNS conditions according to the mhGAP-IG master chart. Go to » MC. People with depression are at higher risk for most other priority MNS conditions. Assess for disorders due to substance use. Go to PROTOCOL 1 DEPRESSION 25 26 DEP 2 DEPRESSION Management DEP 2 Management Special populations Note that interventions may differ for these populations PROTOCOL PROTOCOL 1 2 Depression Depression in Bipolar Disorder CHILD / ADOLESCENT For management of depression in » » children/adolescents, go to CMH. Provide psychoeducation to the person and their Consult a specialist. carers. (2.1) » If a specialist is not immediately available, » Reduce stress and strengthen social",
+  "gloss_vi": "Are any of the following symptoms present? – suicidal ý nghĩ – talking or moving more – beliefs of worthlessness slowly than normal – psychotic symptoms does the person have a previous history of trầm cảm?",
+  "source": "WHO mhGAP-IG 2023",
+  "url": "https://www.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "screening_cues",
+      "referral",
+      "psychoeducation",
+      "do_not_do",
+      "management"
+    ],
+    "life_topics": [
+      "stress"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "high"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn Are any of the following symptoms present? – Suicidal ideation – Talking or moving more – Beliefs of worthlessness slowly than normal – Psychotic symptoms Does the person have a previous history of depression? DEPRESSION is likely Do not manage for depression. Go to OTH 3 IF THERE IS IMMINENT RISK Are there concurrent priority MNS conditions? OF SUICIDE, ASSESS AND MANAGE » before continuing. Go to SUI. A ssess for concurrent MNS conditions according to the mhGAP-IG master chart. Go to » MC. People with depression are at higher risk for most other priority MNS conditions. Assess for disorders due to substance use. Go to PROTOCOL 1 DEPRESSION 25 26 DEP 2 DEPRESSION Management DEP 2 Management Special populations Note that interventions may differ for these populations PROTOCOL PROTOCOL 1 2 Depression Depression in Bipolar Disorder CHILD / ADOLESCENT For management of depression in » » children/adolescents, go to CMH. Provide psychoeducation to the person and their Consult a specialist. carers. (2.1) » If a specialist is not immediately available, » Reduce stress and strengthen social Are any of the following symptoms present? – suicidal ý nghĩ – talking or moving more – beliefs of worthlessness slowly than normal – psychotic symptoms does the person have a previous history of trầm cảm?"
+}

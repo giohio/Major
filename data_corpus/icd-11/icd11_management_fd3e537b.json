@@ -1,0 +1,29 @@
+{
+  "id": "icd11#management_fd3e537b",
+  "title_en": "General — Management",
+  "title_vi": "General — Management",
+  "text_en": "6C2Z Disorder of bodily distress or bodily F99 Unspecified mental disorder experience, unspecified No 4-character code available Disorders due to substance use or addictive behaviours Disorders due to substance use 6C40 Disorders due to use of alcohol F10 Mental and behavioural disorders due to use of alcohol 6C40.0 Episode of harmful use of alcohol F10.8 Mental and behavioural disorders due to use of alcohol: other mental and behavioural disorders 6C40.1 Harmful pattern of use of alcohol F10.1 Mental and behavioural disorders due to use of alcohol: harmful use 6C40.10 Harmful pattern of use of alcohol, episodic F10.1 Mental and behavioural disorders due to use of alcohol: harmful use 6C40.11 Harmful pattern of use of alcohol, continuous F10.1 Mental and behavioural disorders due to use of alcohol: harmful use 6C40.1Z Harmful pattern of use of alcohol, F10.1 Mental and behavioural disorders due to use of alcohol: unspecified harmful use 6C40.2 Alcohol dependence F10.2 Mental and behavioural disorders due to use of alcohol: dependence syndrome 6C40.20 Alcohol dependence, current use, F10.25 Mental and behavioural disorders due to use of continuous alcohol: dependence syndrome, continuous use 4-character code: F10.2 Mental and behavioural disorders due to use of alcohol: dependence syndrome 6C40.21 Alcohol dependence, current use, episodic F10.26 Mental and behavioural disorders due to use of alcohol: dependence syndrome episodic use 4-character code: F10.2 Mental and behavioural disorders due to use of alcohol: dependence syndrome 6C40.22 Alcohol dependence, early full remission F10.20 Mental and behavioural disorders due to use of Select the appropriate alcohol: dependence syndrome, currently abstinent category based on clinical context. OR F10.21 Mental and behavioural disorders due to use of alcohol: dependence syndrome, currently abstinent, but in a protected environment OR F10.23 Mental and behavioural disorders due to use of alcohol: dependence syndrome, currently abstinent, but receiving treatment with aversive or blocking drugs (e.g. naltrexone or disulfiram) 4-character code: F10.2 Mental and behavioural disorders due to use of alcohol: dependence syndrome",
+  "gloss_vi": "6c2z disorder of bodily distress or bodily f99 unspecified mental disorder experience, unspecified no 4-character code available disorders due to substance use or addictive behaviours disorders due to substance use 6c40 ...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "management"
+    ],
+    "life_topics": [
+      "stress"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Management General — Management 6C2Z Disorder of bodily distress or bodily F99 Unspecified mental disorder experience, unspecified No 4-character code available Disorders due to substance use or addictive behaviours Disorders due to substance use 6C40 Disorders due to use of alcohol F10 Mental and behavioural disorders due to use of alcohol 6C40.0 Episode of harmful use of alcohol F10.8 Mental and behavioural disorders due to use of alcohol: other mental and behavioural disorders 6C40.1 Harmful pattern of use of alcohol F10.1 Mental and behavioural disorders due to use of alcohol: harmful use 6C40.10 Harmful pattern of use of alcohol, episodic F10.1 Mental and behavioural disorders due to use of alcohol: harmful use 6C40.11 Harmful pattern of use of alcohol, continuous F10.1 Mental and behavioural disorders due to use of alcohol: harmful use 6C40.1Z Harmful pattern of use of alcohol, F10.1 Mental and behavioural disorders due to use of alcohol: unspecified harmful use 6C40.2 Alcohol dependence F10.2 Mental and behavioural disorders due to use of alcohol: dependence syndrome 6C40.20 Alcohol dependence, current use, F10.25 Mental and behavioural disorders due to use of continuous alcohol: dependence syndrome, continuous use 4-character code: F10.2 Mental and behavioural disorders due to use of alcohol: dependence syndrome 6C40.21 Alcohol dependence, current use, episodic F10.26 Mental and behavioural disorders due to use of alcohol: dependence syndrome episodic use 4-character code: F10.2 Mental and behavioural disorders due to use of alcohol: dependence syndrome 6C40.22 Alcohol dependence, early full remission F10.20 Mental and behavioural disorders due to use of Select the appropriate alcohol: dependence syndrome, currently abstinent category based on clinical context. OR F10.21 Mental and behavioural disorders due to use of alcohol: dependence syndrome, currently abstinent, but in a protected environment OR F10.23 Mental and behavioural disorders due to use of alcohol: dependence syndrome, currently abstinent, but receiving treatment with aversive or blocking drugs (e.g. naltrexone or disulfiram) 4-character code: F10.2 Mental and behavioural disorders due to use of alcohol: dependence syndrome 6c2z disorder of bodily distress or bodily f99 unspecified mental disorder experience, unspecified no 4-character code available disorders due to substance use or addictive behaviours disorders due to substance use 6c40 ..."
+}

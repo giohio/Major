@@ -1,0 +1,35 @@
+{
+  "id": "icd11#screening_cues_889fca28",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "voluntary movement. 6B60.83 with dystonia • This specifier can be applied if the movement disturbance in dissociative neurological symptom disorder is characterized by involuntary muscle contractions that cause slow repetitive movements or abnormal postures. Dissociative disorders | Dissociative neurological symptom disorder Dissociative disorders 369 6B60.84 with facial spasm • This specifier can be applied if the movement disturbance in dissociative neurological symptom disorder is characterized by involuntary twitching or contraction of the facial muscles, similar in appearance to tics. Twitching may be intermittent or nearly continuous. 6B60.85 with parkinsonism • This specifier can be applied if the movement disturbance in dissociative neurological symptom disorder is characterized by rest tremor, muscular rigidity, akinesia (absence of movement) or bradykinesia (slowness of movement), and postural disturbances that include a shuffling gait, flexed posture and loss of postural reflexes. 6B60.8Y with other specified movement disturbance 6B60.8Z with unspecified movement disturbance 6B60.9 with cognitive symptoms • This specifier can be applied if the dissociative neurological symptom disorder is characterized by impaired cognitive performance in memory, language or other cognitive domains that is internally inconsistent and not consistent with a recognized disease of the nervous system, a neurodevelopmental or neurocognitive disorder, another mental disorder or another medical condition, and does not occur exclusively during another dissociative disorder. 6B60.Y with other specified symptoms 6B60.Z with unspecified symptoms Boundary with normality (threshold) • Transient alterations in sensory or cognitive functions that can accompany intense engagement in work or sports, or intense emotional states and transient difficulties in coordinating movements (e.g. during situations of intense anxiety) are relatively common, Dissociative disorders | Dissociative neurological symptom disorder",
+  "gloss_vi": "Voluntary movement. 6b60.83 with dystonia • this specifier can be applied if the movement disturbance in dissociative neurological symptom disorder is characterized by involuntary muscle contractions that cause slow repe...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "management"
+    ],
+    "life_topics": [
+      "work",
+      "relationships",
+      "grief"
+    ],
+    "advice_section": [
+      "communication_tips",
+      "work_habits"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc voluntary movement. 6B60.83 with dystonia • This specifier can be applied if the movement disturbance in dissociative neurological symptom disorder is characterized by involuntary muscle contractions that cause slow repetitive movements or abnormal postures. Dissociative disorders | Dissociative neurological symptom disorder Dissociative disorders 369 6B60.84 with facial spasm • This specifier can be applied if the movement disturbance in dissociative neurological symptom disorder is characterized by involuntary twitching or contraction of the facial muscles, similar in appearance to tics. Twitching may be intermittent or nearly continuous. 6B60.85 with parkinsonism • This specifier can be applied if the movement disturbance in dissociative neurological symptom disorder is characterized by rest tremor, muscular rigidity, akinesia (absence of movement) or bradykinesia (slowness of movement), and postural disturbances that include a shuffling gait, flexed posture and loss of postural reflexes. 6B60.8Y with other specified movement disturbance 6B60.8Z with unspecified movement disturbance 6B60.9 with cognitive symptoms • This specifier can be applied if the dissociative neurological symptom disorder is characterized by impaired cognitive performance in memory, language or other cognitive domains that is internally inconsistent and not consistent with a recognized disease of the nervous system, a neurodevelopmental or neurocognitive disorder, another mental disorder or another medical condition, and does not occur exclusively during another dissociative disorder. 6B60.Y with other specified symptoms 6B60.Z with unspecified symptoms Boundary with normality (threshold) • Transient alterations in sensory or cognitive functions that can accompany intense engagement in work or sports, or intense emotional states and transient difficulties in coordinating movements (e.g. during situations of intense anxiety) are relatively common, Dissociative disorders | Dissociative neurological symptom disorder Voluntary movement. 6b60.83 with dystonia • this specifier can be applied if the movement disturbance in dissociative neurological symptom disorder is characterized by involuntary muscle contractions that cause slow repe..."
+}

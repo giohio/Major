@@ -1,0 +1,31 @@
+{
+  "id": "icd11#screening_cues_81cd0b3a",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "decade of life, and is often accompanied by a gradual decline in functioning. Note: a diagnosis of LD40.0 Complete trisomy 21 (Down syndrome) in Chapter 20 on developmental abnormalities should also be assigned. 6D85.Y Dementia due to other specified disease classified elsewhere Essential (required) features • All diagnostic requirements for dementia are met. • The dementia is presumed to be attributable to an underlying disease of the nervous system, trauma, infection, tumour or other disease process affecting specific areas of the brain that is listed in ICD-11 but is not adequately captured by any of the other available dementia categories, as demonstrated by neuropsychological test data, neuroimaging data, genetic testing, medical tests, family history and/or clinical history. • This judgement depends on establishing the following. • The specified cause is known to be capable of producing the symptoms. • The course of the impairment (e.g. onset, trajectory of symptoms, response to treatment) is consistent with that known to be associated with the specified cause. Note: the ICD-11 diagnosis corresponding to the presumed etiology should also be assigned. 6D8Y Dementia, other specified cause Essential (required) features • All diagnostic requirements for dementia are met. • The dementia is presumed to be attributable to an identified and specified underlying cause affecting specific areas of the brain that is not listed elsewhere in ICD-11 (and is therefore not classifiable using any of the other available dementia categories, including dementia due to other specified disease classified elsewhere), as demonstrated by neuropsychological test data, neuroimaging data, genetic testing, medical tests, family history and/or clinical history. • This judgement depends on establishing the following. • The specified cause is known to be capable of producing the symptoms. • The course of the impairment (e.g. onset, trajectory of symptoms, response to treatment) is consistent with that known to be associated with the specified cause. Neurocognitive disorders | Dementia due to diseases classified elsewhere",
+  "gloss_vi": "Decade of life, and is often accompanied by a gradual decline in functioning. note: a diagnosis of ld40.0 complete trisomy 21 (down syndrome) in chapter 20 on developmental abnormalities should also be assigned.",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "management",
+      "caregiver"
+    ],
+    "life_topics": [
+      "relationships"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc decade of life, and is often accompanied by a gradual decline in functioning. Note: a diagnosis of LD40.0 Complete trisomy 21 (Down syndrome) in Chapter 20 on developmental abnormalities should also be assigned. 6D85.Y Dementia due to other specified disease classified elsewhere Essential (required) features • All diagnostic requirements for dementia are met. • The dementia is presumed to be attributable to an underlying disease of the nervous system, trauma, infection, tumour or other disease process affecting specific areas of the brain that is listed in ICD-11 but is not adequately captured by any of the other available dementia categories, as demonstrated by neuropsychological test data, neuroimaging data, genetic testing, medical tests, family history and/or clinical history. • This judgement depends on establishing the following. • The specified cause is known to be capable of producing the symptoms. • The course of the impairment (e.g. onset, trajectory of symptoms, response to treatment) is consistent with that known to be associated with the specified cause. Note: the ICD-11 diagnosis corresponding to the presumed etiology should also be assigned. 6D8Y Dementia, other specified cause Essential (required) features • All diagnostic requirements for dementia are met. • The dementia is presumed to be attributable to an identified and specified underlying cause affecting specific areas of the brain that is not listed elsewhere in ICD-11 (and is therefore not classifiable using any of the other available dementia categories, including dementia due to other specified disease classified elsewhere), as demonstrated by neuropsychological test data, neuroimaging data, genetic testing, medical tests, family history and/or clinical history. • This judgement depends on establishing the following. • The specified cause is known to be capable of producing the symptoms. • The course of the impairment (e.g. onset, trajectory of symptoms, response to treatment) is consistent with that known to be associated with the specified cause. Neurocognitive disorders | Dementia due to diseases classified elsewhere Decade of life, and is often accompanied by a gradual decline in functioning. note: a diagnosis of ld40.0 complete trisomy 21 (down syndrome) in chapter 20 on developmental abnormalities should also be assigned."
+}

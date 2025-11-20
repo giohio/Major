@@ -1,0 +1,31 @@
+{
+  "id": "icd11#referral_b5cc7e54",
+  "title_en": "General — Referral",
+  "title_vi": "General — Chuyển tuyến",
+  "text_en": "• Altered pattern of family relationships in childhood refers to the departure of a family member or arrival of a new person into a family, resulting in adverse change in child’s relationships – may include new relationship or marriage by a parent, death or illness of a parent, illness or birth of a sibling. QE93 Removal from home in childhood QE94 Institutional upbringing • Institutional upbringing refers to group foster care in which parenting responsibilities are largely taken over by some form of institution (such as residential nursery, orphanage or children’s home), or therapeutic care over a prolonged period in which the child is in a hospital, convalescent home or the like, without at least one parent living with the child. QE95 Inappropriate parental pressure or other abnormal qualities of upbringing • Inappropriate parental pressure or other abnormal qualities of upbringing refers to parents forcing the child to be different from the local norm – either sex-inappropriate (e.g. dressing a boy in girl’s clothes), age-inappropriate (e.g. forcing a child to take on responsibilities above their own age) or otherwise inappropriate (e.g. pressing the child to engage in unwanted or too difficult activities). Reasons for contact with mental health services | Problems related to primary support group Reasons for contact with mental health services | Problems associated with upbringing",
+  "gloss_vi": "• altered pattern of family relationships in childhood refers to the departure of a family member or arrival of a new person into a family, resulting in adverse change in child’s relationships – may include new relations...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "referral",
+      "psychoeducation",
+      "caregiver"
+    ],
+    "life_topics": [
+      "relationships"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Referral General — Chuyển tuyến • Altered pattern of family relationships in childhood refers to the departure of a family member or arrival of a new person into a family, resulting in adverse change in child’s relationships – may include new relationship or marriage by a parent, death or illness of a parent, illness or birth of a sibling. QE93 Removal from home in childhood QE94 Institutional upbringing • Institutional upbringing refers to group foster care in which parenting responsibilities are largely taken over by some form of institution (such as residential nursery, orphanage or children’s home), or therapeutic care over a prolonged period in which the child is in a hospital, convalescent home or the like, without at least one parent living with the child. QE95 Inappropriate parental pressure or other abnormal qualities of upbringing • Inappropriate parental pressure or other abnormal qualities of upbringing refers to parents forcing the child to be different from the local norm – either sex-inappropriate (e.g. dressing a boy in girl’s clothes), age-inappropriate (e.g. forcing a child to take on responsibilities above their own age) or otherwise inappropriate (e.g. pressing the child to engage in unwanted or too difficult activities). Reasons for contact with mental health services | Problems related to primary support group Reasons for contact with mental health services | Problems associated with upbringing • altered pattern of family relationships in childhood refers to the departure of a family member or arrival of a new person into a family, resulting in adverse change in child’s relationships – may include new relations..."
+}

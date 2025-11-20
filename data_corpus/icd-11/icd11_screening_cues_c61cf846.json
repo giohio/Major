@@ -1,0 +1,32 @@
+{
+  "id": "icd11#screening_cues_c61cf846",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "424 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Sex- and/or gender-related features • Nocturnal enuresis is more prevalent among males, whereas diurnal enuresis is more prevalent among females. Boundaries with other disorders and conditions (differential diagnosis) Boundary with the effects of substances including medications Enuresis may occur due to certain antipsychotic medications, diuretics or other substances or medications that stimulate incontinence. In these cases, incontinence should be considered a side-effect, and a diagnosis of enuresis is typically not warranted. If the enuresis was present before administration of medication, it may be appropriate to assign a diagnosis. Boundary with other medical conditions Enuresis should not be diagnosed if the symptoms are better accounted for by another medical condition that causes polyuria or urgency. A diagnosis of enuresis may be warranted if the urinary incontinence was present before the other medical condition developed, or persists after the individual has received treatment. 6C01 Encopresis Essential (required) features • Repeated and persistent passage of faeces in inappropriate places (e.g. at least once per month over a period of several months) is required for diagnosis. • The individual has reached the developmental age when faecal continence is ordinarily expected (approximately equivalent to a chronological age of 4 years). • Faecal soiling is not better accounted for by the physiological effects of a substance (e.g. excessive use of laxatives) or another medical condition (e.g. aganglionic megacolon, spina bifida, anal stenosis, chronic diarrhoea, congenital or acquired abnormalities of the bowel or gastrointestinal infection). Note: The symptom category ME07 Faecal incontinence or one of its subcategories from Chapter 21 on symptoms, signs or clinical findings, not elsewhere classified, may be considered when the presentation does not meet the diagnostic requirements for encopresis. The diagnosis for any underlying medical condition believed to be causing the faecal incontinence should also be assigned. Elimination disorders | Encopresis Elimination",
+  "gloss_vi": "424 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders sex- and/or gender-related features • nocturnal enuresis is more prevalent among males, whereas diurnal...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "management"
+    ],
+    "life_topics": [
+      "relationships"
+    ],
+    "advice_section": [
+      "communication_tips"
+    ],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 424 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Sex- and/or gender-related features • Nocturnal enuresis is more prevalent among males, whereas diurnal enuresis is more prevalent among females. Boundaries with other disorders and conditions (differential diagnosis) Boundary with the effects of substances including medications Enuresis may occur due to certain antipsychotic medications, diuretics or other substances or medications that stimulate incontinence. In these cases, incontinence should be considered a side-effect, and a diagnosis of enuresis is typically not warranted. If the enuresis was present before administration of medication, it may be appropriate to assign a diagnosis. Boundary with other medical conditions Enuresis should not be diagnosed if the symptoms are better accounted for by another medical condition that causes polyuria or urgency. A diagnosis of enuresis may be warranted if the urinary incontinence was present before the other medical condition developed, or persists after the individual has received treatment. 6C01 Encopresis Essential (required) features • Repeated and persistent passage of faeces in inappropriate places (e.g. at least once per month over a period of several months) is required for diagnosis. • The individual has reached the developmental age when faecal continence is ordinarily expected (approximately equivalent to a chronological age of 4 years). • Faecal soiling is not better accounted for by the physiological effects of a substance (e.g. excessive use of laxatives) or another medical condition (e.g. aganglionic megacolon, spina bifida, anal stenosis, chronic diarrhoea, congenital or acquired abnormalities of the bowel or gastrointestinal infection). Note: The symptom category ME07 Faecal incontinence or one of its subcategories from Chapter 21 on symptoms, signs or clinical findings, not elsewhere classified, may be considered when the presentation does not meet the diagnostic requirements for encopresis. The diagnosis for any underlying medical condition believed to be causing the faecal incontinence should also be assigned. Elimination disorders | Encopresis Elimination 424 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders sex- and/or gender-related features • nocturnal enuresis is more prevalent among males, whereas diurnal..."
+}

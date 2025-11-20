@@ -1,0 +1,33 @@
+{
+  "id": "icd11#risk_safety_1932f58c",
+  "title_en": "General — Risk Safety",
+  "title_vi": "General — Nguy cơ An toàn",
+  "text_en": "736 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders QE62 Uncomplicated bereavement Note: uncomplicated bereavement refers to grief reactions experienced following the disappearance or death of a loved one. In contrast, QE61 Disappearance or death of family member and its subcategories refer to the event itself. QE6Y Other specified problems associated with absence, loss or death of others QE6Z Problems associated with absence, loss or death of others, unspecified Problems related to primary support group, including family circumstances QE70 Problems related to primary support group, including family circumstances QE70.0 Inadequate family support QE70.1 Disruption of family by separation or divorce QE70.2 Dependent relative needing care at home QE70.Z Problem related to primary support group, including family circumstance, unspecified Reasons for contact with mental health services | Problems related to primary support group Factors influencing health status or contact with health services particularly relevant to mental health services 737 Problems associated with upbringing QE90 Inadequate parental supervision or control • Inadequate parental supervision or control refers to a lack of parental knowledge of what the child is doing or where the child is; poor control; lack of concern, understanding or comprehension or lack of attempted intervention when the child is in risky situations. QE91 Parental overprotection QE92 Altered pattern of family relationships in childhood",
+  "gloss_vi": "736 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders qe62 uncomplicated bereavement note: uncomplicated bereavement refers to grief reactions experienced fo...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "risk_safety",
+      "referral",
+      "psychoeducation",
+      "caregiver"
+    ],
+    "life_topics": [
+      "relationships",
+      "grief"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Risk Safety General — Nguy cơ An toàn 736 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders QE62 Uncomplicated bereavement Note: uncomplicated bereavement refers to grief reactions experienced following the disappearance or death of a loved one. In contrast, QE61 Disappearance or death of family member and its subcategories refer to the event itself. QE6Y Other specified problems associated with absence, loss or death of others QE6Z Problems associated with absence, loss or death of others, unspecified Problems related to primary support group, including family circumstances QE70 Problems related to primary support group, including family circumstances QE70.0 Inadequate family support QE70.1 Disruption of family by separation or divorce QE70.2 Dependent relative needing care at home QE70.Z Problem related to primary support group, including family circumstance, unspecified Reasons for contact with mental health services | Problems related to primary support group Factors influencing health status or contact with health services particularly relevant to mental health services 737 Problems associated with upbringing QE90 Inadequate parental supervision or control • Inadequate parental supervision or control refers to a lack of parental knowledge of what the child is doing or where the child is; poor control; lack of concern, understanding or comprehension or lack of attempted intervention when the child is in risky situations. QE91 Parental overprotection QE92 Altered pattern of family relationships in childhood 736 clinical descriptions and diagnostic requirements for icd-11 mental, behavioural or neurodevelopmental disorders qe62 uncomplicated bereavement note: uncomplicated bereavement refers to grief reactions experienced fo..."
+}

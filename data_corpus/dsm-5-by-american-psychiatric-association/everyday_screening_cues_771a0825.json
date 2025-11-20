@@ -1,0 +1,31 @@
+{
+  "id": "everyday#screening_cues_771a0825",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "294 Neurocognitive Disorders ative, hypnotic, or anxiolytic; 292.0 (F19.231) other (or un- known) substance/medication. Medication-induced delirium: This diagnosis applies when the symptoms in Criteria A and C arise as a side effect of a medica- tion taken as prescribed. Coding note: The ICD-9-CM code for [specific medication]- induced delirium is 292.81. The ICD-10-CM code depends on the type of medication. If the medication is an opioid taken as prescribed, the code is F11.921. If the medication is a sedative, hypnotic, or anxiolytic taken as prescribed, the code is F13.921. If the medication is an amphetamine-type or other stimulant taken as prescribed, the code is F15.921. For medications that do not fit into any of the classes (e.g., dexamethasone) and in cases in which a substance is judged to be an etiological factor but the specific class of substance is unknown, the code is F19.921. 293.0 (F05) Delirium due to another medical condition: There is evidence from the history, physical examination, or laboratory findings that the disturbance is attributable to the physiological consequences of another medical condition. Coding note: Include the name of the other medical condi- tion in the name of the delirium (e.g., 293.0 [F05] delirium due to hepatic encephalopathy). The other medical condition should also be coded and listed separately immediately be- fore the delirium due to another medical condition (e.g., 572.2 [K72.90] hepatic encephalopathy; 293.0 [F05] delirium due to hepatic encephalopathy). 293.0 (F05) Delirium due to multiple etiologies: There is evi- dence from the history, physical examination, or laboratory find- ings that the delirium has more than one etiology (e.g., more than one etiological medical condition; another medical condition plus substance intoxication or medication side effect). Coding note: Use multiple separate codes reflecting specific delirium etiologies (e.g., 572.2 [K72.90] hepatic encephalop- athy, 293.0 [F05] delirium due to hepatic failure; 291.0 [F10.231] alcohol withdrawal delirium). Note that",
+  "gloss_vi": "294 neurocognitive disorders ative, hypnotic, or anxiolytic; 292.0 (f19.231) other (or un- known) substance/medication. medication-induced delirium: this diagnosis applies when the symptoms in criteria a and c arise as a...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do",
+      "management"
+    ],
+    "life_topics": [
+      "study"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 294 Neurocognitive Disorders ative, hypnotic, or anxiolytic; 292.0 (F19.231) other (or un- known) substance/medication. Medication-induced delirium: This diagnosis applies when the symptoms in Criteria A and C arise as a side effect of a medica- tion taken as prescribed. Coding note: The ICD-9-CM code for [specific medication]- induced delirium is 292.81. The ICD-10-CM code depends on the type of medication. If the medication is an opioid taken as prescribed, the code is F11.921. If the medication is a sedative, hypnotic, or anxiolytic taken as prescribed, the code is F13.921. If the medication is an amphetamine-type or other stimulant taken as prescribed, the code is F15.921. For medications that do not fit into any of the classes (e.g., dexamethasone) and in cases in which a substance is judged to be an etiological factor but the specific class of substance is unknown, the code is F19.921. 293.0 (F05) Delirium due to another medical condition: There is evidence from the history, physical examination, or laboratory findings that the disturbance is attributable to the physiological consequences of another medical condition. Coding note: Include the name of the other medical condi- tion in the name of the delirium (e.g., 293.0 [F05] delirium due to hepatic encephalopathy). The other medical condition should also be coded and listed separately immediately be- fore the delirium due to another medical condition (e.g., 572.2 [K72.90] hepatic encephalopathy; 293.0 [F05] delirium due to hepatic encephalopathy). 293.0 (F05) Delirium due to multiple etiologies: There is evi- dence from the history, physical examination, or laboratory find- ings that the delirium has more than one etiology (e.g., more than one etiological medical condition; another medical condition plus substance intoxication or medication side effect). Coding note: Use multiple separate codes reflecting specific delirium etiologies (e.g., 572.2 [K72.90] hepatic encephalop- athy, 293.0 [F05] delirium due to hepatic failure; 291.0 [F10.231] alcohol withdrawal delirium). Note that 294 neurocognitive disorders ative, hypnotic, or anxiolytic; 292.0 (f19.231) other (or un- known) substance/medication. medication-induced delirium: this diagnosis applies when the symptoms in criteria a and c arise as a..."
+}

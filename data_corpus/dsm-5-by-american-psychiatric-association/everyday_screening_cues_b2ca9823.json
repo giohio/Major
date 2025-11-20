@@ -1,0 +1,30 @@
+{
+  "id": "everyday#screening_cues_b2ca9823",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "1. Pupillary dilation. 2. Tachycardia. 250 Substance-Related and Addictive Disorders 3. Sweating. 4. Palpitations. 5. Blurring of vision. 6. Tremors. 7. Incoordination. E. The signs or symptoms are not attributable to another medical condition and are not better explained by another mental disor- der, including intoxication with another substance. Coding note: The ICD-9-CM code is 292.89. The ICD-10-CM code depends on whether there is a comorbid hallucinogen use disorder. If a mild hallucinogen use disorder is comorbid, the ICD-10-CM code is F16.129, and if a moderate or severe hallucinogen use disorder is comorbid, the ICD-10-CM code is F16.229. If there is no comorbid hallucinogen use disorder, then the ICD-10-CM code is F16.929. Hallucinogen Persisting Perception Disorder 292.89 (F16.983) A. Following cessation of use of a hallucinogen, the reexperiencing of one or more of the perceptual symptoms that were experi- enced while intoxicated with the hallucinogen (e.g., geometric hallucinations, false perceptions of movement in the peripheral visual fields, flashes of color, intensified colors, trails of images of moving objects, positive afterimages, halos around objects, macropsia and micropsia). B. The symptoms in Criterion A cause clinically significant distress or impairment in social, occupational, or other important areas of functioning. C. The symptoms are not attributable to another medical condition (e.g., anatomical lesions and infections of the brain, visual epi- lepsies) and are not better explained by another mental disorder (e.g., delirium, major neurocognitive disorder, schizophrenia) or hypnopompic hallucinations.",
+  "gloss_vi": "1. pupillary dilation.",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "management"
+    ],
+    "life_topics": [
+      "stress"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc 1. Pupillary dilation. 2. Tachycardia. 250 Substance-Related and Addictive Disorders 3. Sweating. 4. Palpitations. 5. Blurring of vision. 6. Tremors. 7. Incoordination. E. The signs or symptoms are not attributable to another medical condition and are not better explained by another mental disor- der, including intoxication with another substance. Coding note: The ICD-9-CM code is 292.89. The ICD-10-CM code depends on whether there is a comorbid hallucinogen use disorder. If a mild hallucinogen use disorder is comorbid, the ICD-10-CM code is F16.129, and if a moderate or severe hallucinogen use disorder is comorbid, the ICD-10-CM code is F16.229. If there is no comorbid hallucinogen use disorder, then the ICD-10-CM code is F16.929. Hallucinogen Persisting Perception Disorder 292.89 (F16.983) A. Following cessation of use of a hallucinogen, the reexperiencing of one or more of the perceptual symptoms that were experi- enced while intoxicated with the hallucinogen (e.g., geometric hallucinations, false perceptions of movement in the peripheral visual fields, flashes of color, intensified colors, trails of images of moving objects, positive afterimages, halos around objects, macropsia and micropsia). B. The symptoms in Criterion A cause clinically significant distress or impairment in social, occupational, or other important areas of functioning. C. The symptoms are not attributable to another medical condition (e.g., anatomical lesions and infections of the brain, visual epi- lepsies) and are not better explained by another mental disorder (e.g., delirium, major neurocognitive disorder, schizophrenia) or hypnopompic hallucinations. 1. pupillary dilation."
+}

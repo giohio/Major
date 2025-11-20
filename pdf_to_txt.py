@@ -1,8 +1,8 @@
 import pdfplumber, re
 from pathlib import Path
 
-SRC = Path("9789241549790-eng.pdf")   # đường dẫn file PDF
-OUT = Path("9789241549790-eng")
+SRC = Path("DSM-5-By-American-Psychiatric-Association.pdf")   # đường dẫn file PDF
+OUT = Path("DSM-5-By-American-Psychiatric-Association")
 OUT.mkdir(parents=True, exist_ok=True)
 
 PAGE_RANGES = {

@@ -1,0 +1,26 @@
+{
+  "id": "everyday#psychoeducation_eaa3c347",
+  "title_en": "General — Psychoeducation",
+  "title_vi": "General — Giáo dục tâm lý",
+  "text_en": "x DSM-5 Classification Communication Disorders (24) 315.32 (F80.2) Language Disorder (24) 315.39 (F80.0) Speech Sound Disorder (24) 315.35 (F80.81) Childhood-Onset Fluency Disorder (Stuttering) (25) Note: Later-onset cases are diagnosed as 307.0 (F98.5) adult-onset fluency disorder. 315.39 (F80.89) Social (Pragmatic) Communication Disorder (26) 307.9 (F80.9) Unspecified Communication Disorder (27) Autism Spectrum Disorder (27) 299.00 (F84.0) Autism Spectrum Disorder (27) Specify if: Associated with a known medical or ge- netic condition or environmental factor; Associ- ated with another neurodevelopmental, mental, or behavioral disorder Specify current severity for Criterion A and Crite- rion B: Requiring very substantial support, Re- quiring substantial support, Requiring support Specify if: With or without accompanying intellec- tual impairment, With or without accompany- ing language impairment, With catatonia (use additional code 293.89 [F06.1]) Attention-Deficit/Hyperactivity Disorder (31) ___.__ (___.__) Attention-Deficit/Hyperactivity Disorder (31) Specify whether: 314.01 (F90.2) Combined presentation 314.00 (F90.0) Predominantly inattentive presentation 314.01 (F90.1) Predominantly hyperactive/impulsive presentation Specify if: In partial remission Specify current severity: Mild, Moderate, Severe 314.01 (F90.8) Other Specified Attention-Deficit/Hyperactivity Disorder (35) 314.01 (F90.9) Unspecified Attention-Deficit/Hyperactivity Disorder (35) DSM-5",
+  "gloss_vi": "X dsm-5 classification giao tiếp disorders (24) 315.32 (f80.2) language disorder (24) 315.39 (f80.0) speech sound disorder (24) 315.35 (f80.81) childhood-onset fluency disorder (stuttering) (25) note: later-onset cases a...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "psychoeducation"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Psychoeducation General — Giáo dục tâm lý x DSM-5 Classification Communication Disorders (24) 315.32 (F80.2) Language Disorder (24) 315.39 (F80.0) Speech Sound Disorder (24) 315.35 (F80.81) Childhood-Onset Fluency Disorder (Stuttering) (25) Note: Later-onset cases are diagnosed as 307.0 (F98.5) adult-onset fluency disorder. 315.39 (F80.89) Social (Pragmatic) Communication Disorder (26) 307.9 (F80.9) Unspecified Communication Disorder (27) Autism Spectrum Disorder (27) 299.00 (F84.0) Autism Spectrum Disorder (27) Specify if: Associated with a known medical or ge- netic condition or environmental factor; Associ- ated with another neurodevelopmental, mental, or behavioral disorder Specify current severity for Criterion A and Crite- rion B: Requiring very substantial support, Re- quiring substantial support, Requiring support Specify if: With or without accompanying intellec- tual impairment, With or without accompany- ing language impairment, With catatonia (use additional code 293.89 [F06.1]) Attention-Deficit/Hyperactivity Disorder (31) ___.__ (___.__) Attention-Deficit/Hyperactivity Disorder (31) Specify whether: 314.01 (F90.2) Combined presentation 314.00 (F90.0) Predominantly inattentive presentation 314.01 (F90.1) Predominantly hyperactive/impulsive presentation Specify if: In partial remission Specify current severity: Mild, Moderate, Severe 314.01 (F90.8) Other Specified Attention-Deficit/Hyperactivity Disorder (35) 314.01 (F90.9) Unspecified Attention-Deficit/Hyperactivity Disorder (35) DSM-5 X dsm-5 classification giao tiếp disorders (24) 315.32 (f80.2) language disorder (24) 315.39 (f80.0) speech sound disorder (24) 315.35 (f80.81) childhood-onset fluency disorder (stuttering) (25) note: later-onset cases a..."
+}

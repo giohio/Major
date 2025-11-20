@@ -1,0 +1,26 @@
+{
+  "id": "everyday#screening_cues_39b3f9f6",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "Substance/Medication-Induced OCRD 135 disorders are indicated in the table below. Note that the ICD-10-CM code depends on whether or not there is a comorbid substance use disorder present for the same class of substance. If a mild substance use disorder is comorbid with the substance-induced obsessive- compulsive and related disorder, the 4th position character is “1,” and the clinician should record “mild [substance] use disorder” before the substance-induced obsessive-compulsive and related disorder (e.g., “mild cocaine use disorder with cocaine-induced obsessive-compul- sive and related disorder”). If a moderate or severe substance use disorder is comorbid with the substance-induced obsessive-compul- sive and related disorder, the 4th position character is “2,” and the cli- nician should record “moderate [substance] use disorder” or “severe [substance] use disorder,” depending on the severity of the comorbid substance use disorder. If there is no comorbid substance use disor- der (e.g., after a one-time heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the sub- stance-induced obsessive-compulsive and related disorder. ICD-10-CM With use With use disorder, ICD-9- disorder, moderate Without use CM mild or severe disorder Amphetamine 292.89 F15.188 F15.288 F15.988 (or other stimulant) Cocaine 292.89 F14.188 F14.288 F14.988 Other (or unknown) 292.89 F19.188 F19.288 F19.988 substance Specify if (see Table 1 in the chapter “Substance-Related and Addic- tive Disorders” for diagnoses associated with substance class): With onset during intoxication: If the criteria are met for intox- ication with the substance and the symptoms develop during in- toxication. 136 Obsessive-Compulsive and Related Disorders With onset during withdrawal: If criteria are met for withdrawal from the substance and the symptoms develop during, or shortly after, withdrawal. With onset after medication use: Symptoms may appear either at initiation of medication or after a modification or change in use. Recording Procedures ICD-9-CM. The",
+  "gloss_vi": "Substance/medication-induced ocrd 135 disorders are indicated in the table below. note that the icd-10-cm code depends on whether or not there is a comorbid substance use disorder present for the same class of substance.",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc Substance/Medication-Induced OCRD 135 disorders are indicated in the table below. Note that the ICD-10-CM code depends on whether or not there is a comorbid substance use disorder present for the same class of substance. If a mild substance use disorder is comorbid with the substance-induced obsessive- compulsive and related disorder, the 4th position character is “1,” and the clinician should record “mild [substance] use disorder” before the substance-induced obsessive-compulsive and related disorder (e.g., “mild cocaine use disorder with cocaine-induced obsessive-compul- sive and related disorder”). If a moderate or severe substance use disorder is comorbid with the substance-induced obsessive-compul- sive and related disorder, the 4th position character is “2,” and the cli- nician should record “moderate [substance] use disorder” or “severe [substance] use disorder,” depending on the severity of the comorbid substance use disorder. If there is no comorbid substance use disor- der (e.g., after a one-time heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the sub- stance-induced obsessive-compulsive and related disorder. ICD-10-CM With use With use disorder, ICD-9- disorder, moderate Without use CM mild or severe disorder Amphetamine 292.89 F15.188 F15.288 F15.988 (or other stimulant) Cocaine 292.89 F14.188 F14.288 F14.988 Other (or unknown) 292.89 F19.188 F19.288 F19.988 substance Specify if (see Table 1 in the chapter “Substance-Related and Addic- tive Disorders” for diagnoses associated with substance class): With onset during intoxication: If the criteria are met for intox- ication with the substance and the symptoms develop during in- toxication. 136 Obsessive-Compulsive and Related Disorders With onset during withdrawal: If criteria are met for withdrawal from the substance and the symptoms develop during, or shortly after, withdrawal. With onset after medication use: Symptoms may appear either at initiation of medication or after a modification or change in use. Recording Procedures ICD-9-CM. The Substance/medication-induced ocrd 135 disorders are indicated in the table below. note that the icd-10-cm code depends on whether or not there is a comorbid substance use disorder present for the same class of substance."
+}

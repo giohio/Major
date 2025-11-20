@@ -1,0 +1,30 @@
+{
+  "id": "everyday#screening_cues_f2511763",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "DSM-5 Classification xxxv CM, code first S06.2X9S diffuse traumatic brain in- jury with loss of consciousness of unspecified dura- tion, sequela. 294.11 (F02.81) With behavioral disturbance 294.10 (F02.80) Without behavioral disturbance 331.83 (G31.84) Mild Neurocognitive Disorder Due to Traumatic Brain Injurya Substance/Medication-Induced Major or Mild Neurocognitive Disordera (311) Note: No additional medical code. See the criteria set and corresponding recording procedures for substance-specific codes and ICD-9-CM and ICD-10-CM coding. Specify if: Persistent Major or Mild Neurocognitive Disorder Due to HIV Infection (315) ___.__ (___.__) Major Neurocognitive Disorder Due to HIV Infectionb Note: Code first 042 (B20) HIV infection. 294.11 (F02.81) With behavioral disturbance 294.10 (F02.80) Without behavioral disturbance 331.83 (G31.84) Mild Neurocognitive Disorder Due to HIV Infectiona Major or Mild Neurocognitive Disorder Due to Prion Disease (316) ___.__ (___.__) Major Neurocognitive Disorder Due to Prion Diseaseb Note: Code first 046.79 (A81.9) prion disease. 294.11 (F02.81) With behavioral disturbance 294.10 (F02.80) Without behavioral disturbance 331.83 (G31.84) Mild Neurocognitive Disorder Due to Prion Diseasea Major or Mild Neurocognitive Disorder Due to Parkinson’s Disease (316) ___.__ (___.__) Major Neurocognitive Disorder Probably Due",
+  "gloss_vi": "Dsm-5 classification xxxv cm, code first s06.2x9s diffuse traumatic brain in- jury with loss of consciousness of unspecified dura- tion, sequela. 294.11 (f02.81) with behavioral disturbance 294.10 (f02.80) without behavi...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "management"
+    ],
+    "life_topics": [
+      "grief"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc DSM-5 Classification xxxv CM, code first S06.2X9S diffuse traumatic brain in- jury with loss of consciousness of unspecified dura- tion, sequela. 294.11 (F02.81) With behavioral disturbance 294.10 (F02.80) Without behavioral disturbance 331.83 (G31.84) Mild Neurocognitive Disorder Due to Traumatic Brain Injurya Substance/Medication-Induced Major or Mild Neurocognitive Disordera (311) Note: No additional medical code. See the criteria set and corresponding recording procedures for substance-specific codes and ICD-9-CM and ICD-10-CM coding. Specify if: Persistent Major or Mild Neurocognitive Disorder Due to HIV Infection (315) ___.__ (___.__) Major Neurocognitive Disorder Due to HIV Infectionb Note: Code first 042 (B20) HIV infection. 294.11 (F02.81) With behavioral disturbance 294.10 (F02.80) Without behavioral disturbance 331.83 (G31.84) Mild Neurocognitive Disorder Due to HIV Infectiona Major or Mild Neurocognitive Disorder Due to Prion Disease (316) ___.__ (___.__) Major Neurocognitive Disorder Due to Prion Diseaseb Note: Code first 046.79 (A81.9) prion disease. 294.11 (F02.81) With behavioral disturbance 294.10 (F02.80) Without behavioral disturbance 331.83 (G31.84) Mild Neurocognitive Disorder Due to Prion Diseasea Major or Mild Neurocognitive Disorder Due to Parkinson’s Disease (316) ___.__ (___.__) Major Neurocognitive Disorder Probably Due Dsm-5 classification xxxv cm, code first s06.2x9s diffuse traumatic brain in- jury with loss of consciousness of unspecified dura- tion, sequela. 294.11 (f02.81) with behavioral disturbance 294.10 (f02.80) without behavi..."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "icd11#screening_cues_157bd17e",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "to injury to the head 6D85.8 Dementia due to Pellagra 6D85.9 Dementia due to Down syndrome 6D85.Y Dementia due to other specified disease classified elsewhere. Neurocognitive disorders | Dementia due to psychoactive substances, including medications Neurocognitive disorders | Dementia due to diseases classified elsewhere Neurocognitive disorders 627 6D85.0 Dementia due to Parkinson disease Essential (required) features • All diagnostic requirements for dementia are met. • Dementia is presumed to be attributable to underlying Parkinson disease, as demonstrated by neuropsychological test data, neuroimaging data, medical tests, family history and/or clinical history. Additional clinical features • Dementia due to Parkinson disease develops among individuals with idiopathic Parkinson disease, and is often characterized by impairment in attention, memory, executive and visuospatial functions. • Behavioural and psychiatric symptoms such as changes in affect, apathy and hallucinations may also be present. • Onset is insidious and typically occurs 1 year or more after the development of Parkinsonian motor symptoms. The course of dementia often follows that of underlying Parkinson disease (e.g. if Parkinson disease gradually worsens, dementia may gradually worsen). Note: a diagnosis of 8A00.0 Parkinson disease in Chapter 8 on diseases of the nervous system should also be assigned. 6D85.1 Dementia due to Huntington disease Essential (required) features • All diagnostic requirements for dementia are met. • Dementia is presumed to be attributable to underlying Huntington disease, as demonstrated by neuropsychological test data, neuroimaging data, genetic testing, medical tests, family history and/or clinical history. Additional clinical features • Dementia due to Huntington disease occurs as part of a widespread degeneration of the brain due to a trinucleotide repeat expansion in the HTT gene, which is transmitted through autosomal dominance. Neurocognitive disorders | Dementia due to diseases classified elsewhere",
+  "gloss_vi": "To injury to the head 6d85.8 dementia due to pellagra 6d85.9 dementia due to down syndrome 6d85.y dementia due to other specified disease classified elsewhere. neurocognitive disorders | dementia due to psychoactive subs...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "management",
+      "caregiver"
+    ],
+    "life_topics": [
+      "relationships"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc to injury to the head 6D85.8 Dementia due to Pellagra 6D85.9 Dementia due to Down syndrome 6D85.Y Dementia due to other specified disease classified elsewhere. Neurocognitive disorders | Dementia due to psychoactive substances, including medications Neurocognitive disorders | Dementia due to diseases classified elsewhere Neurocognitive disorders 627 6D85.0 Dementia due to Parkinson disease Essential (required) features • All diagnostic requirements for dementia are met. • Dementia is presumed to be attributable to underlying Parkinson disease, as demonstrated by neuropsychological test data, neuroimaging data, medical tests, family history and/or clinical history. Additional clinical features • Dementia due to Parkinson disease develops among individuals with idiopathic Parkinson disease, and is often characterized by impairment in attention, memory, executive and visuospatial functions. • Behavioural and psychiatric symptoms such as changes in affect, apathy and hallucinations may also be present. • Onset is insidious and typically occurs 1 year or more after the development of Parkinsonian motor symptoms. The course of dementia often follows that of underlying Parkinson disease (e.g. if Parkinson disease gradually worsens, dementia may gradually worsen). Note: a diagnosis of 8A00.0 Parkinson disease in Chapter 8 on diseases of the nervous system should also be assigned. 6D85.1 Dementia due to Huntington disease Essential (required) features • All diagnostic requirements for dementia are met. • Dementia is presumed to be attributable to underlying Huntington disease, as demonstrated by neuropsychological test data, neuroimaging data, genetic testing, medical tests, family history and/or clinical history. Additional clinical features • Dementia due to Huntington disease occurs as part of a widespread degeneration of the brain due to a trinucleotide repeat expansion in the HTT gene, which is transmitted through autosomal dominance. Neurocognitive disorders | Dementia due to diseases classified elsewhere To injury to the head 6d85.8 dementia due to pellagra 6d85.9 dementia due to down syndrome 6d85.y dementia due to other specified disease classified elsewhere. neurocognitive disorders | dementia due to psychoactive subs..."
+}

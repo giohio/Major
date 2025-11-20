@@ -1,0 +1,26 @@
+{
+  "id": "icd11#screening_cues_60f804ea",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "to Parkinson disease 6D85.1 Dementia due to Huntington disease 6D85.2 Dementia due to exposure to heavy metals and other toxins 6D85.3 Dementia due to HIV 6D85.4 Dementia due to multiple sclerosis 6D85.5 Dementia due to prion disease 6D85.6 Dementia due to normal-pressure hydrocephalus 6D85.7 Dementia due to injury to the head 6D85.8 Dementia due to pellagra 6D85.9 Dementia due to Down syndrome 6D85.Y Dementia due to other specified disease classified elsewhere 6D8Y Dementia, other specified cause 6D8Z Dementia, unknown or unspecified cause Postcoordination for dementia: For all above dementia categories, specify severity of dementia by using additional code: XS5W Mild XS0T Moderate XS25 Severe For all above dementia categories, specify behavioural or psychological disturbances in dementia by using additional code(s) if applicable: 6D86.0 Psychotic symptoms in dementia 6D86.1 Mood symptoms in dementia 6D86.2 Anxiety symptoms in dementia 6D86.3 Apathy in dementia 6D86.4 Agitation or aggression in dementia 6D86.5 Disinhibition in dementia 6D86.6 Wandering in dementia 6D86.Y Other specified behavioural or psychological disturbance in dementia 6D86.Z Behavioural or psychological disturbances in dementia, unspecified",
+  "gloss_vi": "To parkinson disease 6d85.1 dementia due to huntington disease 6d85.2 dementia due to exposure to heavy metals and other toxins 6d85.3 dementia due to hiv 6d85.4 dementia due to multiple sclerosis 6d85.5 dementia due to ...",
+  "source": "WHO ICD-11",
+  "url": "https://icd.who.int/",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues"
+    ],
+    "life_topics": [],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc to Parkinson disease 6D85.1 Dementia due to Huntington disease 6D85.2 Dementia due to exposure to heavy metals and other toxins 6D85.3 Dementia due to HIV 6D85.4 Dementia due to multiple sclerosis 6D85.5 Dementia due to prion disease 6D85.6 Dementia due to normal-pressure hydrocephalus 6D85.7 Dementia due to injury to the head 6D85.8 Dementia due to pellagra 6D85.9 Dementia due to Down syndrome 6D85.Y Dementia due to other specified disease classified elsewhere 6D8Y Dementia, other specified cause 6D8Z Dementia, unknown or unspecified cause Postcoordination for dementia: For all above dementia categories, specify severity of dementia by using additional code: XS5W Mild XS0T Moderate XS25 Severe For all above dementia categories, specify behavioural or psychological disturbances in dementia by using additional code(s) if applicable: 6D86.0 Psychotic symptoms in dementia 6D86.1 Mood symptoms in dementia 6D86.2 Anxiety symptoms in dementia 6D86.3 Apathy in dementia 6D86.4 Agitation or aggression in dementia 6D86.5 Disinhibition in dementia 6D86.6 Wandering in dementia 6D86.Y Other specified behavioural or psychological disturbance in dementia 6D86.Z Behavioural or psychological disturbances in dementia, unspecified To parkinson disease 6d85.1 dementia due to huntington disease 6d85.2 dementia due to exposure to heavy metals and other toxins 6d85.3 dementia due to hiv 6d85.4 dementia due to multiple sclerosis 6d85.5 dementia due to ..."
+}

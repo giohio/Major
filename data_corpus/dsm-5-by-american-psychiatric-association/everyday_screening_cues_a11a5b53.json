@@ -1,0 +1,31 @@
+{
+  "id": "everyday#screening_cues_a11a5b53",
+  "title_en": "General — Screening Cues",
+  "title_vi": "General — Dấu hiệu sàng lọc",
+  "text_en": "DSM-5 Classification xix Trauma- and Stressor-Related Disorders (141) 313.89 (F94.1) Reactive Attachment Disorder (141) Specify if: Persistent Specify current severity: Severe 313.89 (F94.2) Disinhibited Social Engagement Disorder (142) Specify if: Persistent Specify current severity: Severe 309.81 (F43.10) Posttraumatic Stress Disorder (includes Posttraumatic Stress Disorder for Children 6 Years and Younger) (143) Specify whether: With dissociative symptoms Specify if: With delayed expression 308.3 (F43.0) Acute Stress Disorder (149) ___.__ (___.__) Adjustment Disorders (151) Specify whether: 309.0 (F43.21) With depressed mood 309.24 (F43.22) With anxiety 309.28 (F43.23) With mixed anxiety and depressed mood 309.3 (F43.24) With disturbance of conduct 309.4 (F43.25) With mixed disturbance of emotions and conduct 309.9 (F43.20) Unspecified 309.89 (F43.8) Other Specified Trauma- and Stressor-Related Disorder (152) 309.9 (F43.9) Unspecified Trauma- and Stressor-Related Disorder (153) Dissociative Disorders (155) 300.14 (F44.81) Dissociative Identity Disorder (155) 300.12 (F44.0) Dissociative Amnesia (156) Specify if: 300.13 (F44.1) With dissociative fugue xx DSM-5 Classification 300.6 (F48.1) Depersonalization/Derealization Disorder (157) 300.15 (F44.89) Other Specified Dissociative Disorder (158) 300.15 (F44.9) Unspecified Dissociative Disorder (159) Somatic Symptom and Related Disorders (161) 300.82 (F45.1) Somatic Symptom Disorder (161) Specify if: With predominant pain Specify if: Persistent Specify current severity: Mild, Moderate, Severe 300.7 (F45.21) Illness Anxiety Disorder (162) Specify whether: Care seeking type, Care avoidant type 300.11 (___.__) Conversion Disorder (Functional Neurological Symptom Disorder) (163) Specify symptom type: (F44.4) With weakness or paralysis (F44.4) With abnormal movement (F44.4) With swallowing symptoms (F44.4) Withspeech symptom (F44.5) With attacks or seizures (F44.6) With anesthesia or sensory loss (F44.6) With special sensory symptom (F44.7) With mixed symptoms Specify if: Acute episode, Persistent Specify if: With psychological stressor (specify stressor), Without psychological stressor 316 (F54) Psychological Factors Affecting Other Medical Conditions (164) Specify current severity: Mild, Moderate, Severe, Extreme 300.19 (F68.10) Factitious Disorder (includes Factitious Disorder Imposed on Self, Factitious Disorder Imposed on Another) (165) Specify Single episode, Recurrent episodes",
+  "gloss_vi": "Dsm-5 classification xix trauma- and stressor-related disorders (141) 313.89 (f94.1) reactive attachment disorder (141) specify if: persistent specify current severity: severe 313.89 (f94.2) disinhibited social engagemen...",
+  "source": "Everyday Essentials",
+  "url": "",
+  "lang": "en",
+  "axes": {
+    "type": [
+      "clinical",
+      "everyday"
+    ],
+    "condition": [
+      "General"
+    ],
+    "clinical_section": [
+      "screening_cues",
+      "do_not_do"
+    ],
+    "life_topics": [
+      "stress",
+      "grief"
+    ],
+    "advice_section": [],
+    "audience": [],
+    "risk_band": "low"
+  },
+  "index_text": "General — Screening Cues General — Dấu hiệu sàng lọc DSM-5 Classification xix Trauma- and Stressor-Related Disorders (141) 313.89 (F94.1) Reactive Attachment Disorder (141) Specify if: Persistent Specify current severity: Severe 313.89 (F94.2) Disinhibited Social Engagement Disorder (142) Specify if: Persistent Specify current severity: Severe 309.81 (F43.10) Posttraumatic Stress Disorder (includes Posttraumatic Stress Disorder for Children 6 Years and Younger) (143) Specify whether: With dissociative symptoms Specify if: With delayed expression 308.3 (F43.0) Acute Stress Disorder (149) ___.__ (___.__) Adjustment Disorders (151) Specify whether: 309.0 (F43.21) With depressed mood 309.24 (F43.22) With anxiety 309.28 (F43.23) With mixed anxiety and depressed mood 309.3 (F43.24) With disturbance of conduct 309.4 (F43.25) With mixed disturbance of emotions and conduct 309.9 (F43.20) Unspecified 309.89 (F43.8) Other Specified Trauma- and Stressor-Related Disorder (152) 309.9 (F43.9) Unspecified Trauma- and Stressor-Related Disorder (153) Dissociative Disorders (155) 300.14 (F44.81) Dissociative Identity Disorder (155) 300.12 (F44.0) Dissociative Amnesia (156) Specify if: 300.13 (F44.1) With dissociative fugue xx DSM-5 Classification 300.6 (F48.1) Depersonalization/Derealization Disorder (157) 300.15 (F44.89) Other Specified Dissociative Disorder (158) 300.15 (F44.9) Unspecified Dissociative Disorder (159) Somatic Symptom and Related Disorders (161) 300.82 (F45.1) Somatic Symptom Disorder (161) Specify if: With predominant pain Specify if: Persistent Specify current severity: Mild, Moderate, Severe 300.7 (F45.21) Illness Anxiety Disorder (162) Specify whether: Care seeking type, Care avoidant type 300.11 (___.__) Conversion Disorder (Functional Neurological Symptom Disorder) (163) Specify symptom type: (F44.4) With weakness or paralysis (F44.4) With abnormal movement (F44.4) With swallowing symptoms (F44.4) Withspeech symptom (F44.5) With attacks or seizures (F44.6) With anesthesia or sensory loss (F44.6) With special sensory symptom (F44.7) With mixed symptoms Specify if: Acute episode, Persistent Specify if: With psychological stressor (specify stressor), Without psychological stressor 316 (F54) Psychological Factors Affecting Other Medical Conditions (164) Specify current severity: Mild, Moderate, Severe, Extreme 300.19 (F68.10) Factitious Disorder (includes Factitious Disorder Imposed on Self, Factitious Disorder Imposed on Another) (165) Specify Single episode, Recurrent episodes Dsm-5 classification xix trauma- and stressor-related disorders (141) 313.89 (f94.1) reactive attachment disorder (141) specify if: persistent specify current severity: severe 313.89 (f94.2) disinhibited social engagemen..."
+}
