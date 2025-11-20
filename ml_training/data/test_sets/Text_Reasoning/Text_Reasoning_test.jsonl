@@ -1,0 +1,600 @@
+{"text": "Rối loạn lo âu có mấy giai đoạn?", "label": "informational"}
+{"text": "Muốn tìm hiểu về rối loạn lo âu chẩn đoán ở đâu uy tín?", "label": "informational"}
+{"text": "Cứu Vợ mình với, Vợ mình đang nghĩ quẩn định lao đầu vào xe tải.", "label": "high_risk"}
+{"text": "Thông tin về trầm cảm khác gì với buồn bình thường?", "label": "informational"}
+{"text": "Cho hỏi liệu pháp cbt kéo dài bao lâu thì khỏi?", "label": "informational"}
+{"text": "Tao mình là gánh nặng của gia đình, Tao muốn treo cổ tự vẫn. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "Tôi cần tìm hiểu rối loạn hoảng sợ có di truyền không?", "label": "informational"}
+{"text": "Search dùm mình chứng mất ngủ mãn tính có nguy hiểm tính mạng không?", "label": "informational"}
+{"text": "cả năm nay Chồng mình thấy hay khóc thầm mỗi đêm do người yêu vô tâm. Chồng mình thấy lo lắng, làm sao để vượt qua giai đoạn này?", "label": "complex_reasoning"}
+{"text": "bác sĩ tư vấn giúp với ạ. Anh cứ hay khóc thầm mỗi đêm mãi, có phải do không có bạn thân không?", "label": "complex_reasoning"}
+{"text": "Em mình là gánh nặng của gia đình, Em định uống thuốc ngủ để đi luôn. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "Tui tuyệt vọng tột cùng rồi, Tui muốn tự tử ngay bây giờ. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "Tớ thế giới này tàn nhẫn quá, Tớ đang cầm dao muốn rạch tay cho bớt đau lòng. không ai cứu được tôi đâu.", "label": "high_risk"}
+{"text": "Cho mình xin info về liệu pháp cbt có chữa khỏi hẳn được không?", "label": "informational"}
+{"text": "bữa giờ Mình thấy mất ngủ triền miên trắng đêm do người thân vừa mất. Mình stress vãi lo lắng, làm sao để vui vẻ trở lại như xưa?", "label": "complex_reasoning"}
+{"text": "Em muốn hỏi chút về rối loạn hoảng sợ theo mhgap xử lý sao?", "label": "informational"}
+{"text": "Mình mất hết hy vọng rồi, Mình muốn tự tử ngay bây giờ. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "Thông tin về thuốc chống trầm cảm ssri nguyên nhân do đâu?", "label": "informational"}
+{"text": "Cứu Chồng mình với, Chồng mình đang nghĩ quẩn muốn nhảy lầu kết thúc tất cả.", "label": "high_risk"}
+{"text": "Em muốn hỏi chút về thuốc chống trầm cảm ssri phân loại thế nào?", "label": "informational"}
+{"text": "bác sĩ tư vấn giúp với ạ. Anh cứ bồn chồn không yên mãi, có phải do cảm thấy lạc lõng trong nhóm bạn không?", "label": "complex_reasoning"}
+{"text": "tôi bế tắc quá không biết làm sao thoát ra. Cháu cứ nghĩ ngợi lung tung cả đêm mãi, có phải do thất bại trong kinh doanh không?", "label": "complex_reasoning"}
+{"text": "sau khi sinh em bé Người nhà em thấy cảm giác như có ai theo dõi do bố mẹ ly hôn. Người nhà em buồn thối ruột lo lắng, tôi sợ mình bị bệnh tâm lý nặng.", "label": "complex_reasoning"}
+{"text": "Tao kiệt sức hoàn toàn rồi, Tao muốn nhảy lầu kết thúc tất cả. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "cần lời khuyên gấp ạ. Người nhà em cứ nghĩ ngợi lung tung cả đêm mãi, có phải do bị body shaming béo quá không?", "label": "complex_reasoning"}
+{"text": "Search dùm mình tự kỷ ám thị khác gì với buồn bình thường?", "label": "informational"}
+{"text": "Anh bị bị phản bội, mấy hôm nay Anh thấy đầu óc trống rỗng không tập trung được. làm sao để vượt qua giai đoạn này?", "label": "complex_reasoning"}
+{"text": "Cháu không ai thương mình cả, Cháu tìm cách kết liễu cuộc đời. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "Bác sĩ cho hỏi chán ăn tâm thần có chữa khỏi hẳn được không?", "label": "informational"}
+{"text": "Giải thích thuật ngữ rối loạn lo âu theo tiêu chuẩn dsm-5 là gì?", "label": "informational"}
+{"text": "Adhd ở người lớn có di truyền không?", "label": "informational"}
+{"text": "Em cảm giác như đã chết ở bên trong, Em định lao đầu vào xe tải. tạm biệt mọi người nhé.", "label": "high_risk"}
+{"text": "bữa giờ Chồng mình thấy bồn chồn không yên do thi trượt đại học. Chồng mình chắc là lo lắng, có cách nào cân bằng lại cảm xúc không?", "label": "complex_reasoning"}
+{"text": "làm sao để vượt qua giai đoạn này? Bạn em cứ mất ngủ triền miên trắng đêm mãi, có phải do gia đình chồng khắt khe không?", "label": "complex_reasoning"}
+{"text": "Bác sĩ cho hỏi stress kéo dài có chữa khỏi hẳn được không?", "label": "informational"}
+{"text": "Vợ mình cảm giác như đã chết ở bên trong, Vợ mình sẽ biến mất khỏi thế giới này vĩnh viễn. tôi đi đây đừng tìm tôi nữa.", "label": "high_risk"}
+{"text": "Bạn em kiệt sức hoàn toàn rồi, Bạn em muốn tự tử ngay bây giờ. không ai cứu được tôi đâu.", "label": "high_risk"}
+{"text": "Mình chán ghét bản thân kinh khủng, Mình muốn chết đi cho xong. tôi đi đây đừng tìm tôi nữa.", "label": "high_risk"}
+{"text": "Anh chán ghét bản thân kinh khủng, Anh muốn chết đi cho xong. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Chồng mình không ai thương mình cả, Chồng mình muốn nhảy lầu kết thúc tất cả. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "Nghiện game có di truyền không?", "label": "informational"}
+{"text": "nợ nần chồng chất xã hội đen đòi khiến Anh thấy, giờ mất hứng thú với mọi sở thích cũ suốt. tôi bế tắc quá không biết làm sao thoát ra.", "label": "complex_reasoning"}
+{"text": "bác sĩ tư vấn giúp với ạ. Vợ mình cứ luôn cảm thấy tội lỗi dằn vặt mãi, có phải do con cái hư hỏng không nghe lời không?", "label": "complex_reasoning"}
+{"text": "dạo gần đây Cháu thấy cảm giác như có ai theo dõi do bị body shaming béo quá. Cháu hơi bị lo lắng, liệu có phải bị trầm cảm không?", "label": "complex_reasoning"}
+{"text": "Cứu Người nhà em với, Người nhà em đang nghĩ quẩn sẽ biến mất khỏi thế giới này vĩnh viễn.", "label": "high_risk"}
+{"text": "Tui tuyệt vọng tột cùng rồi, Tui sẽ biến mất khỏi thế giới này vĩnh viễn. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "Tự kỷ ám thị phân loại thế nào?", "label": "informational"}
+{"text": "Bác sĩ cho hỏi trầm cảm phân loại thế nào?", "label": "informational"}
+{"text": "định uống thuốc ngủ để đi luôn. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Tôi mình là gánh nặng của gia đình, Tôi định lao đầu vào xe tải. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "Tôi tận cùng nỗi đau rồi, Tôi sẽ biến mất khỏi thế giới này vĩnh viễn. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "Nghiện rượu định nghĩa là gì?", "label": "informational"}
+{"text": "tôi sợ mình bị bệnh tâm lý nặng. Chồng mình cứ hay quên trước quên sau mãi, có phải do bị body shaming béo quá không?", "label": "complex_reasoning"}
+{"text": "có nên đi khám bác sĩ tâm lý không? Chồng mình cứ đầu óc trống rỗng không tập trung được mãi, có phải do người yêu vô tâm không?", "label": "complex_reasoning"}
+{"text": "Người nhà em bị bị đồng nghiệp toxic bắt nạt, mấy tháng nay rồi Người nhà em thấy nghe thấy tiếng nói trong đầu. có ai từng bị như này chưa?", "label": "complex_reasoning"}
+{"text": "Tớ cuộc sống này vô nghĩa toàn đau khổ, Tớ muốn chết đi cho xong. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "Chồng mình không còn lối thoát nào nữa, Chồng mình tìm cách kết liễu cuộc đời. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Tôi kiệt sức hoàn toàn rồi, Tôi định uống thuốc ngủ để đi luôn. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "Làm sao biết mình bị chứng mất ngủ mãn tính theo mhgap xử lý sao?", "label": "informational"}
+{"text": "Cháu bị học hành sa sút, từ đợt dịch đến giờ Cháu thấy run tay chân bần bật. giúp em với em mệt mỏi quá.", "label": "complex_reasoning"}
+{"text": "Phân biệt giúp mình rối loạn cơ thể hóa kéo dài bao lâu thì khỏi?", "label": "informational"}
+{"text": "từ tuần trước Con thấy nghe thấy tiếng nói trong đầu do sắp phải thuyết trình trước đám đông. Con thấy lo lắng, em phải làm gì bây giờ?", "label": "complex_reasoning"}
+{"text": "Anh bị học hành sa sút, bữa giờ Anh thấy cảm giác như có ai theo dõi. có nên đi khám bác sĩ tâm lý không?", "label": "complex_reasoning"}
+{"text": "Thông tin về ptsd dùng thuốc gì để chữa?", "label": "informational"}
+{"text": "Bạn em bị sắp phải thuyết trình trước đám đông, suốt 2 tuần nay Bạn em thấy mất hứng thú với mọi sở thích cũ. tôi sợ mình bị bệnh tâm lý nặng.", "label": "complex_reasoning"}
+{"text": "sống xa nhà cô đơn khiến Vợ mình rất chi là, giờ hay cáu gắt vô cớ với người nhà suốt. tôi bế tắc quá không biết làm sao thoát ra.", "label": "complex_reasoning"}
+{"text": "sống xa nhà cô đơn khiến Em hơi bị, giờ sợ tiếng động lớn suốt. có cách nào cân bằng lại cảm xúc không?", "label": "complex_reasoning"}
+{"text": "Bác tuyệt vọng tột cùng rồi, Bác sẽ biến mất khỏi thế giới này vĩnh viễn. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "Chị cuộc sống này vô nghĩa toàn đau khổ, Chị muốn chết đi cho xong. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "Tớ tuyệt vọng tột cùng rồi, Tớ muốn tự tử ngay bây giờ. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Search dùm mình adhd ở người lớn biểu hiện ra sao?", "label": "informational"}
+{"text": "gia đình chồng khắt khe khiến Chồng mình tự dưng, giờ cảm giác như có ai theo dõi suốt. có cách nào cân bằng lại cảm xúc không?", "label": "complex_reasoning"}
+{"text": "Search dùm mình rối loạn nhân cách ranh giới (bpd) có di truyền không?", "label": "informational"}
+{"text": "Con thế giới này tàn nhẫn quá, Con không muốn nhìn thấy ngày mai nữa. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "Chứng mất ngủ mãn tính kéo dài bao lâu thì khỏi?", "label": "informational"}
+{"text": "Cho mình xin info về rối loạn cơ thể hóa nguyên nhân do đâu?", "label": "informational"}
+{"text": "suốt 2 tuần nay Tao thấy luôn cảm thấy tội lỗi dằn vặt do vừa chia tay người yêu xong. Tao stress vãi lo lắng, bác sĩ tư vấn giúp với ạ.", "label": "complex_reasoning"}
+{"text": "vừa sinh con xong stress quá khiến Người nhà em khá là, giờ tim đập nhanh khó thở như sắp ngất suốt. giúp em với em mệt mỏi quá.", "label": "complex_reasoning"}
+{"text": "mấy tháng nay rồi Bạn em thấy không muốn gặp ai chỉ muốn trốn trong phòng do gia đình chồng khắt khe. Bạn em rất chi là lo lắng, cần lời khuyên gấp ạ.", "label": "complex_reasoning"}
+{"text": "Em mình là gánh nặng của gia đình, Em ước gì ngủ một giấc không bao giờ dậy nữa. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "Tui chán ghét bản thân kinh khủng, Tui không muốn nhìn thấy ngày mai nữa. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "cần lời khuyên gấp ạ. Em cứ ăn không ngon miệng sụt cân mãi, có phải do thi trượt đại học không?", "label": "complex_reasoning"}
+{"text": "Cứu Chị với, Chị đang nghĩ quẩn muốn nhảy lầu kết thúc tất cả.", "label": "high_risk"}
+{"text": "Rối loạn nhân cách ranh giới (bpd) có chữa khỏi hẳn được không?", "label": "informational"}
+{"text": "Thông tin về stress kéo dài biểu hiện ra sao?", "label": "informational"}
+{"text": "có nên đi khám bác sĩ tâm lý không? Tôi cứ đau đầu dữ dội đi khám không ra bệnh mãi, có phải do cảm thấy lạc lõng trong nhóm bạn không?", "label": "complex_reasoning"}
+{"text": "Tớ mình là gánh nặng của gia đình, Tớ muốn nhảy lầu kết thúc tất cả. không ai cứu được tôi đâu.", "label": "high_risk"}
+{"text": "Rối loạn nhân cách ranh giới (bpd) biểu hiện ra sao?", "label": "informational"}
+{"text": "Em không còn lối thoát nào nữa, Em định uống thuốc ngủ để đi luôn. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "Định nghĩa của chứng sợ xã hội theo mhgap xử lý sao?", "label": "informational"}
+{"text": "Giải thích thuật ngữ rối loạn nhân cách ranh giới (bpd) có nguy hiểm tính mạng không?", "label": "informational"}
+{"text": "Muốn tìm hiểu về adhd ở người lớn định nghĩa là gì?", "label": "informational"}
+{"text": "định uống thuốc ngủ để đi luôn. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "Tôi cần tìm hiểu ptsd có triệu chứng thế nào?", "label": "informational"}
+{"text": "Cháu tuyệt vọng tột cùng rồi, Cháu định uống thuốc ngủ để đi luôn. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "Ptsd kéo dài bao lâu thì khỏi?", "label": "informational"}
+{"text": "cần lời khuyên gấp ạ. Con cứ đau đầu dữ dội đi khám không ra bệnh mãi, có phải do bị sếp dí deadline không?", "label": "complex_reasoning"}
+{"text": "vừa sinh con xong stress quá khiến Bác khổ tâm ghê, giờ cảm giác như có ai theo dõi suốt. em phải làm gì bây giờ?", "label": "complex_reasoning"}
+{"text": "Mình mình là gánh nặng của gia đình, Mình muốn chết đi cho xong. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "Chồng mình kiệt sức hoàn toàn rồi, Chồng mình muốn tự tử ngay bây giờ. không ai cứu được tôi đâu.", "label": "high_risk"}
+{"text": "Bác chán ghét bản thân kinh khủng, Bác muốn tự tử ngay bây giờ. không ai cứu được tôi đâu.", "label": "high_risk"}
+{"text": "Tớ mất hết hy vọng rồi, Tớ muốn nhảy lầu kết thúc tất cả. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "Anh cuộc sống này vô nghĩa toàn đau khổ, Anh ước gì ngủ một giấc không bao giờ dậy nữa. tôi đi đây đừng tìm tôi nữa.", "label": "high_risk"}
+{"text": "có cách nào cân bằng lại cảm xúc không? Bác cứ hay khóc thầm mỗi đêm mãi, có phải do người thân vừa mất không?", "label": "complex_reasoning"}
+{"text": "Chị cảm giác như đã chết ở bên trong, Chị định lao đầu vào xe tải. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Mình bị thi trượt đại học, sau khi sinh em bé Mình thấy nghe thấy tiếng nói trong đầu. làm sao để vượt qua giai đoạn này?", "label": "complex_reasoning"}
+{"text": "Phân biệt giúp mình chứng mất ngủ mãn tính định nghĩa là gì?", "label": "informational"}
+{"text": "Tôi cảm giác như đã chết ở bên trong, Tôi muốn treo cổ tự vẫn. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "mới hôm qua Em thấy sợ tiếng động lớn do bị phản bội. Em vô cùng lo lắng, em phải làm gì bây giờ?", "label": "complex_reasoning"}
+{"text": "gần đây Cháu thấy mất ngủ triền miên trắng đêm do vừa chia tay người yêu xong. Cháu stress vãi lo lắng, liệu có phải bị trầm cảm không?", "label": "complex_reasoning"}
+{"text": "em phải làm gì bây giờ? Bạn em cứ mất ngủ triền miên trắng đêm mãi, có phải do con cái hư hỏng không nghe lời không?", "label": "complex_reasoning"}
+{"text": "Cháu bị sống xa nhà cô đơn, tự nhiên hôm nay Cháu thấy đau đầu dữ dội đi khám không ra bệnh. cần lời khuyên gấp ạ.", "label": "complex_reasoning"}
+{"text": "Em cuộc sống này vô nghĩa toàn đau khổ, Em muốn tự tử ngay bây giờ. tạm biệt mọi người nhé.", "label": "high_risk"}
+{"text": "Ad ơi cho hỏi trầm cảm sau sinh dùng thuốc gì để chữa?", "label": "informational"}
+{"text": "Cho hỏi chán ăn tâm thần chẩn đoán ở đâu uy tín?", "label": "informational"}
+{"text": "Cho hỏi rối loạn hoảng sợ theo tiêu chuẩn dsm-5 là gì?", "label": "informational"}
+{"text": "cả năm nay Mình thấy hay quên trước quên sau do nợ nần chồng chất xã hội đen đòi. Mình vô cùng lo lắng, làm sao để vui vẻ trở lại như xưa?", "label": "complex_reasoning"}
+{"text": "Muốn tìm hiểu về nghiện rượu dùng thuốc gì để chữa?", "label": "informational"}
+{"text": "Tôi không ai thương mình cả, Tôi cái chết là sự giải thoát duy nhất. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "Mình tận cùng nỗi đau rồi, Mình ước gì ngủ một giấc không bao giờ dậy nữa. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "Em mình là gánh nặng của gia đình, Em định uống thuốc ngủ để đi luôn. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "Cho mình xin info về tự kỷ ám thị phân loại thế nào?", "label": "informational"}
+{"text": "Bác sĩ cho hỏi nghiện game có nguy hiểm tính mạng không?", "label": "informational"}
+{"text": "Tìm tài liệu về nghiện rượu khác gì với buồn bình thường?", "label": "informational"}
+{"text": "giúp em với em mệt mỏi quá. Anh cứ sợ tiếng động lớn mãi, có phải do cảm thấy lạc lõng trong nhóm bạn không?", "label": "complex_reasoning"}
+{"text": "Tao mình là gánh nặng của gia đình, Tao muốn nhảy lầu kết thúc tất cả. tạm biệt mọi người nhé.", "label": "high_risk"}
+{"text": "Em tận cùng nỗi đau rồi, Em sẽ biến mất khỏi thế giới này vĩnh viễn. tôi đi đây đừng tìm tôi nữa.", "label": "high_risk"}
+{"text": "liệu có phải bị trầm cảm không? Tôi cứ bồn chồn không yên mãi, có phải do thi trượt đại học không?", "label": "complex_reasoning"}
+{"text": "Rối loạn nhân cách ranh giới (bpd) chẩn đoán ở đâu uy tín?", "label": "informational"}
+{"text": "Rối loạn lo âu có di truyền không?", "label": "informational"}
+{"text": "Tôi mất hết hy vọng rồi, Tôi ước gì ngủ một giấc không bao giờ dậy nữa. tạm biệt mọi người nhé.", "label": "high_risk"}
+{"text": "Con chán ghét bản thân kinh khủng, Con định lao đầu vào xe tải. tôi đi đây đừng tìm tôi nữa.", "label": "high_risk"}
+{"text": "làm sao để vượt qua giai đoạn này? Tôi cứ ăn không ngon miệng sụt cân mãi, có phải do mất việc làm đột ngột không?", "label": "complex_reasoning"}
+{"text": "Con bị bị sếp dí deadline, từ lúc chia tay Con thấy đầu óc trống rỗng không tập trung được. có cách nào cân bằng lại cảm xúc không?", "label": "complex_reasoning"}
+{"text": "Bác không ai thương mình cả, Bác tìm cách kết liễu cuộc đời. không ai cứu được tôi đâu.", "label": "high_risk"}
+{"text": "Tui không ai thương mình cả, Tui sẽ biến mất khỏi thế giới này vĩnh viễn. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "Tui chán ghét bản thân kinh khủng, Tui muốn tự tử ngay bây giờ. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "Mình kiệt sức hoàn toàn rồi, Mình muốn chết đi cho xong. tôi đi đây đừng tìm tôi nữa.", "label": "high_risk"}
+{"text": "Ptsd là bệnh gì?", "label": "informational"}
+{"text": "Giải thích thuật ngữ chứng sợ xã hội có triệu chứng thế nào?", "label": "informational"}
+{"text": "Tui tuyệt vọng tột cùng rồi, Tui đang cầm dao muốn rạch tay cho bớt đau lòng. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "Tui mình là gánh nặng của gia đình, Tui ước gì ngủ một giấc không bao giờ dậy nữa. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "Người nhà em cuộc sống này vô nghĩa toàn đau khổ, Người nhà em định uống thuốc ngủ để đi luôn. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "Burnout (kiệt sức) phân loại thế nào?", "label": "informational"}
+{"text": "có ai từng bị như này chưa? Mình cứ đau đầu dữ dội đi khám không ra bệnh mãi, có phải do cảm thấy lạc lõng trong nhóm bạn không?", "label": "complex_reasoning"}
+{"text": "Bạn em không ai thương mình cả, Bạn em muốn nhảy lầu kết thúc tất cả. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "từ đợt dịch đến giờ Mình thấy không muốn gặp ai chỉ muốn trốn trong phòng do không có bạn thân. Mình khá là lo lắng, liệu có phải bị trầm cảm không?", "label": "complex_reasoning"}
+{"text": "Định nghĩa của stress kéo dài định nghĩa là gì?", "label": "informational"}
+{"text": "Giải thích thuật ngữ ocd theo mhgap xử lý sao?", "label": "informational"}
+{"text": "Chị mình là gánh nặng của gia đình, Chị sẽ biến mất khỏi thế giới này vĩnh viễn. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "áp lực công việc quá lớn khiến Tui stress vãi, giờ mất ngủ triền miên trắng đêm suốt. có ai từng bị như này chưa?", "label": "complex_reasoning"}
+{"text": "Cho mình xin info về rối loạn cơ thể hóa kéo dài bao lâu thì khỏi?", "label": "informational"}
+{"text": "có nên đi khám bác sĩ tâm lý không? Tui cứ bồn chồn không yên mãi, có phải do gia đình chồng khắt khe không?", "label": "complex_reasoning"}
+{"text": "Tui không còn lối thoát nào nữa, Tui muốn tự tử ngay bây giờ. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "Tui cảm giác như đã chết ở bên trong, Tui định lao đầu vào xe tải. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "làm sao để vui vẻ trở lại như xưa? Người nhà em cứ không muốn gặp ai chỉ muốn trốn trong phòng mãi, có phải do cảm thấy lạc lõng trong nhóm bạn không?", "label": "complex_reasoning"}
+{"text": "mấy tháng nay rồi Bác thấy bồn chồn không yên do không có bạn thân. Bác trời ơi lo lắng, giúp em với em mệt mỏi quá.", "label": "complex_reasoning"}
+{"text": "cái chết là sự giải thoát duy nhất. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Bác không còn lối thoát nào nữa, Bác đang cầm dao muốn rạch tay cho bớt đau lòng. đang đứng trên cầu gió mát quá.", "label": "high_risk"}
+{"text": "Cho hỏi tự kỷ ám thị có nguy hiểm tính mạng không?", "label": "informational"}
+{"text": "Tìm tài liệu về hành vi tự hại phân loại thế nào?", "label": "informational"}
+{"text": "Cho mình xin info về rối loạn ăn uống vô độ có di truyền không?", "label": "informational"}
+{"text": "Làm sao biết mình bị nghiện rượu có triệu chứng thế nào?", "label": "informational"}
+{"text": "mấy tháng nay rồi Tao thấy đầu óc trống rỗng không tập trung được do bị sếp dí deadline. Tao bỗng nhiên lo lắng, có ai từng bị như này chưa?", "label": "complex_reasoning"}
+{"text": "Con chán ghét bản thân kinh khủng, Con muốn chết đi cho xong. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "Bác tuyệt vọng tột cùng rồi, Bác cái chết là sự giải thoát duy nhất. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "Bác kiệt sức hoàn toàn rồi, Bác ước gì ngủ một giấc không bao giờ dậy nữa. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "Vợ mình bị cảm thấy lạc lõng trong nhóm bạn, mới hôm qua Vợ mình thấy nghĩ ngợi lung tung cả đêm. giúp em với em mệt mỏi quá.", "label": "complex_reasoning"}
+{"text": "Cứu Con với, Con đang nghĩ quẩn muốn tự tử ngay bây giờ.", "label": "high_risk"}
+{"text": "Rối loạn cơ thể hóa kéo dài bao lâu thì khỏi?", "label": "informational"}
+{"text": "liệu có phải bị trầm cảm không? Vợ mình cứ hay quên trước quên sau mãi, có phải do người yêu vô tâm không?", "label": "complex_reasoning"}
+{"text": "Vợ mình bị sống xa nhà cô đơn, cả năm nay Vợ mình thấy nghĩ ngợi lung tung cả đêm. giúp em với em mệt mỏi quá.", "label": "complex_reasoning"}
+{"text": "Con tuyệt vọng tột cùng rồi, Con muốn tự tử ngay bây giờ. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "Tui tận cùng nỗi đau rồi, Tui muốn chết đi cho xong. đang đứng trên cầu gió mát quá.", "label": "high_risk"}
+{"text": "mới hôm qua Tui thấy nghe thấy tiếng nói trong đầu do bị phản bội. Tui chắc là lo lắng, cần lời khuyên gấp ạ.", "label": "complex_reasoning"}
+{"text": "Vợ mình không ai thương mình cả, Vợ mình định uống thuốc ngủ để đi luôn. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "Mình bị thất bại trong kinh doanh, mới hôm qua Mình thấy mất ngủ triền miên trắng đêm. có nên đi khám bác sĩ tâm lý không?", "label": "complex_reasoning"}
+{"text": "cả năm nay Tao thấy hay cáu gắt vô cớ với người nhà do học hành sa sút. Tao buồn thối ruột lo lắng, giúp em với em mệt mỏi quá.", "label": "complex_reasoning"}
+{"text": "Tui không còn lối thoát nào nữa, Tui muốn tự tử ngay bây giờ. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Làm sao biết mình bị ptsd có chữa khỏi hẳn được không?", "label": "informational"}
+{"text": "Chị không còn lối thoát nào nữa, Chị sẽ biến mất khỏi thế giới này vĩnh viễn. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "Thông tin về rối loạn hoảng sợ định nghĩa là gì?", "label": "informational"}
+{"text": "bị body shaming béo quá khiến Tui stress vãi, giờ mất hứng thú với mọi sở thích cũ suốt. cần lời khuyên gấp ạ.", "label": "complex_reasoning"}
+{"text": "Rối loạn lưỡng cực có nguy hiểm tính mạng không?", "label": "informational"}
+{"text": "Tôi cần tìm hiểu rối loạn cơ thể hóa có triệu chứng thế nào?", "label": "informational"}
+{"text": "Định nghĩa của liệu pháp cbt phân loại thế nào?", "label": "informational"}
+{"text": "bị sếp dí deadline khiến Vợ mình rất chi là, giờ mất ngủ triền miên trắng đêm suốt. có ai từng bị như này chưa?", "label": "complex_reasoning"}
+{"text": "gia đình chồng khắt khe khiến Bác cảm thấy, giờ đầu óc trống rỗng không tập trung được suốt. có cách nào cân bằng lại cảm xúc không?", "label": "complex_reasoning"}
+{"text": "Tôi bị người yêu vô tâm, suốt 2 tuần nay Tôi thấy hay khóc thầm mỗi đêm. bác sĩ tư vấn giúp với ạ.", "label": "complex_reasoning"}
+{"text": "Bạn em tuyệt vọng tột cùng rồi, Bạn em ước gì ngủ một giấc không bao giờ dậy nữa. không ai cứu được tôi đâu.", "label": "high_risk"}
+{"text": "Phân biệt giúp mình chán ăn tâm thần có triệu chứng thế nào?", "label": "informational"}
+{"text": "Con bị sống xa nhà cô đơn, từ đợt dịch đến giờ Con thấy cảm giác như có ai theo dõi. cần lời khuyên gấp ạ.", "label": "complex_reasoning"}
+{"text": "tự nhiên hôm nay Vợ mình thấy hay cáu gắt vô cớ với người nhà do bị phản bội. Vợ mình huhu lo lắng, em phải làm gì bây giờ?", "label": "complex_reasoning"}
+{"text": "Mình không ai thương mình cả, Mình không muốn nhìn thấy ngày mai nữa. đang đứng trên cầu gió mát quá.", "label": "high_risk"}
+{"text": "Cho mình xin info về rối loạn lưỡng cực theo tiêu chuẩn dsm-5 là gì?", "label": "informational"}
+{"text": "Anh mình là gánh nặng của gia đình, Anh tìm cách kết liễu cuộc đời. không ai cứu được tôi đâu.", "label": "high_risk"}
+{"text": "Cho hỏi rối loạn ăn uống vô độ có di truyền không?", "label": "informational"}
+{"text": "cần lời khuyên gấp ạ. Tôi cứ bồn chồn không yên mãi, có phải do vừa sinh con xong stress quá không?", "label": "complex_reasoning"}
+{"text": "Phân biệt giúp mình rối loạn lo âu có chữa khỏi hẳn được không?", "label": "informational"}
+{"text": "Giải thích thuật ngữ tâm thần phân liệt định nghĩa là gì?", "label": "informational"}
+{"text": "Em không ai thương mình cả, Em muốn nhảy lầu kết thúc tất cả. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "liệu có phải bị trầm cảm không? Chồng mình cứ đầu óc trống rỗng không tập trung được mãi, có phải do con cái hư hỏng không nghe lời không?", "label": "complex_reasoning"}
+{"text": "Tôi cuộc sống này vô nghĩa toàn đau khổ, Tôi muốn tự tử ngay bây giờ. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Cho mình xin info về rối loạn lo âu kéo dài bao lâu thì khỏi?", "label": "informational"}
+{"text": "Tao kiệt sức hoàn toàn rồi, Tao ước gì ngủ một giấc không bao giờ dậy nữa. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "Burnout (kiệt sức) biểu hiện ra sao?", "label": "informational"}
+{"text": "Giải thích thuật ngữ nghiện game dùng thuốc gì để chữa?", "label": "informational"}
+{"text": "Chị mất hết hy vọng rồi, Chị muốn chết đi cho xong. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "Cháu chán ghét bản thân kinh khủng, Cháu tìm cách kết liễu cuộc đời. tạm biệt mọi người nhé.", "label": "high_risk"}
+{"text": "Cho mình xin info về adhd ở người lớn có chữa khỏi hẳn được không?", "label": "informational"}
+{"text": "Chị tuyệt vọng tột cùng rồi, Chị muốn nhảy lầu kết thúc tất cả. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Em muốn hỏi chút về rối loạn ăn uống vô độ có mấy giai đoạn?", "label": "informational"}
+{"text": "Định nghĩa của trầm cảm định nghĩa là gì?", "label": "informational"}
+{"text": "Con không còn lối thoát nào nữa, Con sẽ biến mất khỏi thế giới này vĩnh viễn. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "Con tuyệt vọng tột cùng rồi, Con không muốn nhìn thấy ngày mai nữa. không ai cứu được tôi đâu.", "label": "high_risk"}
+{"text": "Bác bị bị lừa đảo mất tiền, mấy hôm nay Bác thấy mất hứng thú với mọi sở thích cũ. giúp em với em mệt mỏi quá.", "label": "complex_reasoning"}
+{"text": "Cứu Tôi với, Tôi đang nghĩ quẩn định lao đầu vào xe tải.", "label": "high_risk"}
+{"text": "Ad ơi cho hỏi chứng sợ xã hội chẩn đoán ở đâu uy tín?", "label": "informational"}
+{"text": "tôi bế tắc quá không biết làm sao thoát ra. Anh cứ hay cáu gắt vô cớ với người nhà mãi, có phải do không có bạn thân không?", "label": "complex_reasoning"}
+{"text": "Thông tin về rối loạn ăn uống vô độ theo tiêu chuẩn dsm-5 là gì?", "label": "informational"}
+{"text": "Giải thích thuật ngữ adhd ở người lớn biểu hiện ra sao?", "label": "informational"}
+{"text": "Tôi cần tìm hiểu rối loạn cơ thể hóa nguyên nhân do đâu?", "label": "informational"}
+{"text": "làm sao để vui vẻ trở lại như xưa? Tớ cứ đầu óc trống rỗng không tập trung được mãi, có phải do bố mẹ ly hôn không?", "label": "complex_reasoning"}
+{"text": "từ lúc chia tay Em thấy mất ngủ triền miên trắng đêm do bị lừa đảo mất tiền. Em thực sự lo lắng, tôi bế tắc quá không biết làm sao thoát ra.", "label": "complex_reasoning"}
+{"text": "Cho hỏi rối loạn ăn uống vô độ theo mhgap xử lý sao?", "label": "informational"}
+{"text": "Vợ mình không còn lối thoát nào nữa, Vợ mình không muốn nhìn thấy ngày mai nữa. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "Con tận cùng nỗi đau rồi, Con tìm cách kết liễu cuộc đời. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "Tìm tài liệu về trầm cảm theo tiêu chuẩn dsm-5 là gì?", "label": "informational"}
+{"text": "Cho hỏi chứng sợ xã hội biểu hiện ra sao?", "label": "informational"}
+{"text": "Muốn tìm hiểu về chứng sợ xã hội theo tiêu chuẩn dsm-5 là gì?", "label": "informational"}
+{"text": "Giải thích thuật ngữ chán ăn tâm thần có chữa khỏi hẳn được không?", "label": "informational"}
+{"text": "Bác cảm giác như đã chết ở bên trong, Bác ước gì ngủ một giấc không bao giờ dậy nữa. đang đứng trên cầu gió mát quá.", "label": "high_risk"}
+{"text": "Bác cuộc sống này vô nghĩa toàn đau khổ, Bác định uống thuốc ngủ để đi luôn. không ai cứu được tôi đâu.", "label": "high_risk"}
+{"text": "bố mẹ ly hôn khiến Cháu huhu, giờ cảm giác như có ai theo dõi suốt. làm sao để vui vẻ trở lại như xưa?", "label": "complex_reasoning"}
+{"text": "người thân vừa mất khiến Em hình như, giờ đầu óc trống rỗng không tập trung được suốt. có nên đi khám bác sĩ tâm lý không?", "label": "complex_reasoning"}
+{"text": "Rối loạn nhân cách ranh giới (bpd) nguyên nhân do đâu?", "label": "informational"}
+{"text": "bị phản bội khiến Người nhà em rất chi là, giờ bồn chồn không yên suốt. giúp em với em mệt mỏi quá.", "label": "complex_reasoning"}
+{"text": "Tui không ai thương mình cả, Tui muốn chết đi cho xong. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Muốn tìm hiểu về nghiện game kéo dài bao lâu thì khỏi?", "label": "informational"}
+{"text": "Em muốn hỏi chút về ocd có nguy hiểm tính mạng không?", "label": "informational"}
+{"text": "Định nghĩa của chứng mất ngủ mãn tính phân loại thế nào?", "label": "informational"}
+{"text": "Giải thích thuật ngữ rối loạn lưỡng cực dùng thuốc gì để chữa?", "label": "informational"}
+{"text": "mấy tháng nay rồi Vợ mình thấy mất ngủ triền miên trắng đêm do người thân vừa mất. Vợ mình khổ tâm ghê lo lắng, bác sĩ tư vấn giúp với ạ.", "label": "complex_reasoning"}
+{"text": "em phải làm gì bây giờ? Người nhà em cứ hay khóc thầm mỗi đêm mãi, có phải do người thân vừa mất không?", "label": "complex_reasoning"}
+{"text": "Chị tuyệt vọng tột cùng rồi, Chị ước gì ngủ một giấc không bao giờ dậy nữa. đang đứng trên cầu gió mát quá.", "label": "high_risk"}
+{"text": "Ad ơi cho hỏi chứng sợ xã hội có nguy hiểm tính mạng không?", "label": "informational"}
+{"text": "Vợ mình mình là gánh nặng của gia đình, Vợ mình đang cầm dao muốn rạch tay cho bớt đau lòng. tôi đi đây đừng tìm tôi nữa.", "label": "high_risk"}
+{"text": "có ai từng bị như này chưa? Anh cứ hay quên trước quên sau mãi, có phải do bố mẹ ly hôn không?", "label": "complex_reasoning"}
+{"text": "Người nhà em thế giới này tàn nhẫn quá, Người nhà em không muốn nhìn thấy ngày mai nữa. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "Định nghĩa của chán ăn tâm thần có di truyền không?", "label": "informational"}
+{"text": "Chị không ai thương mình cả, Chị sẽ biến mất khỏi thế giới này vĩnh viễn. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "mới hôm qua Tôi thấy hay quên trước quên sau do bị lừa đảo mất tiền. Tôi chả hiểu sao lo lắng, có cách nào cân bằng lại cảm xúc không?", "label": "complex_reasoning"}
+{"text": "Bác sĩ cho hỏi rối loạn hoảng sợ có nguy hiểm tính mạng không?", "label": "informational"}
+{"text": "Cho mình xin info về rối loạn hoảng sợ dùng thuốc gì để chữa?", "label": "informational"}
+{"text": "Cho mình xin info về rối loạn hoảng sợ chẩn đoán ở đâu uy tín?", "label": "informational"}
+{"text": "Tôi cảm giác như đã chết ở bên trong, Tôi muốn tự tử ngay bây giờ. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "thất bại trong kinh doanh khiến Tui vô cùng, giờ nghĩ ngợi lung tung cả đêm suốt. có cách nào cân bằng lại cảm xúc không?", "label": "complex_reasoning"}
+{"text": "Thông tin về adhd ở người lớn phân loại thế nào?", "label": "informational"}
+{"text": "Ocd theo mhgap xử lý sao?", "label": "informational"}
+{"text": "Giải thích thuật ngữ trầm cảm sau sinh định nghĩa là gì?", "label": "informational"}
+{"text": "gia đình chồng khắt khe khiến Con chắc là, giờ nghĩ ngợi lung tung cả đêm suốt. bác sĩ tư vấn giúp với ạ.", "label": "complex_reasoning"}
+{"text": "Bác chán ghét bản thân kinh khủng, Bác sẽ biến mất khỏi thế giới này vĩnh viễn. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "người yêu vô tâm khiến Tui khá là, giờ hay cáu gắt vô cớ với người nhà suốt. tôi sợ mình bị bệnh tâm lý nặng.", "label": "complex_reasoning"}
+{"text": "Làm sao biết mình bị rối loạn nhân cách ranh giới (bpd) có mấy giai đoạn?", "label": "informational"}
+{"text": "Chị cảm giác như đã chết ở bên trong, Chị muốn tự tử ngay bây giờ. tạm biệt mọi người nhé.", "label": "high_risk"}
+{"text": "bị đồng nghiệp toxic bắt nạt khiến Chồng mình rất chi là, giờ hay quên trước quên sau suốt. liệu có phải bị trầm cảm không?", "label": "complex_reasoning"}
+{"text": "Tớ bị sắp phải thuyết trình trước đám đông, cả năm nay Tớ thấy đau đầu dữ dội đi khám không ra bệnh. tôi sợ mình bị bệnh tâm lý nặng.", "label": "complex_reasoning"}
+{"text": "Con tận cùng nỗi đau rồi, Con định uống thuốc ngủ để đi luôn. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "Search dùm mình chứng sợ xã hội theo tiêu chuẩn dsm-5 là gì?", "label": "informational"}
+{"text": "Tớ thế giới này tàn nhẫn quá, Tớ muốn chết đi cho xong. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "từ lúc chia tay Con thấy đầu óc trống rỗng không tập trung được do người yêu vô tâm. Con cảm thấy lo lắng, tôi bế tắc quá không biết làm sao thoát ra.", "label": "complex_reasoning"}
+{"text": "bị phản bội khiến Anh khổ tâm ghê, giờ nghe thấy tiếng nói trong đầu suốt. tôi sợ mình bị bệnh tâm lý nặng.", "label": "complex_reasoning"}
+{"text": "Anh bị áp lực công việc quá lớn, dạo gần đây Anh thấy mất ngủ triền miên trắng đêm. em phải làm gì bây giờ?", "label": "complex_reasoning"}
+{"text": "Em muốn hỏi chút về rối loạn hoảng sợ có chữa khỏi hẳn được không?", "label": "informational"}
+{"text": "Cứu Anh với, Anh đang nghĩ quẩn đang cầm dao muốn rạch tay cho bớt đau lòng.", "label": "high_risk"}
+{"text": "giúp em với em mệt mỏi quá. Người nhà em cứ đầu óc trống rỗng không tập trung được mãi, có phải do bị phản bội không?", "label": "complex_reasoning"}
+{"text": "Thông tin về rối loạn lo âu có triệu chứng thế nào?", "label": "informational"}
+{"text": "Tớ không ai thương mình cả, Tớ định uống thuốc ngủ để đi luôn. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Em không ai thương mình cả, Em cái chết là sự giải thoát duy nhất. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "Tui không còn lối thoát nào nữa, Tui định uống thuốc ngủ để đi luôn. đang đứng trên cầu gió mát quá.", "label": "high_risk"}
+{"text": "Em muốn hỏi chút về ptsd kéo dài bao lâu thì khỏi?", "label": "informational"}
+{"text": "Vợ mình thế giới này tàn nhẫn quá, Vợ mình muốn nhảy lầu kết thúc tất cả. tạm biệt mọi người nhé.", "label": "high_risk"}
+{"text": "Bạn em tận cùng nỗi đau rồi, Bạn em muốn chết đi cho xong. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "có nên đi khám bác sĩ tâm lý không? Tớ cứ ăn không ngon miệng sụt cân mãi, có phải do bố mẹ ly hôn không?", "label": "complex_reasoning"}
+{"text": "từ đợt dịch đến giờ Tao thấy luôn cảm thấy tội lỗi dằn vặt do cảm thấy lạc lõng trong nhóm bạn. Tao vô cùng lo lắng, có ai từng bị như này chưa?", "label": "complex_reasoning"}
+{"text": "Chứng sợ xã hội là bệnh gì?", "label": "informational"}
+{"text": "dạo gần đây Người nhà em thấy mất ngủ triền miên trắng đêm do cảm thấy lạc lõng trong nhóm bạn. Người nhà em hơi bị lo lắng, tôi sợ mình bị bệnh tâm lý nặng.", "label": "complex_reasoning"}
+{"text": "Cho mình xin info về rối loạn nhân cách ranh giới (bpd) có di truyền không?", "label": "informational"}
+{"text": "Tôi chán ghét bản thân kinh khủng, Tôi muốn treo cổ tự vẫn. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "học hành sa sút khiến Vợ mình huhu, giờ cảm giác như có ai theo dõi suốt. tôi sợ mình bị bệnh tâm lý nặng.", "label": "complex_reasoning"}
+{"text": "Phân biệt giúp mình adhd ở người lớn dùng thuốc gì để chữa?", "label": "informational"}
+{"text": "bác sĩ tư vấn giúp với ạ. Tui cứ hay quên trước quên sau mãi, có phải do không có bạn thân không?", "label": "complex_reasoning"}
+{"text": "Adhd ở người lớn biểu hiện ra sao?", "label": "informational"}
+{"text": "Ad ơi cho hỏi rối loạn nhân cách ranh giới (bpd) theo tiêu chuẩn dsm-5 là gì?", "label": "informational"}
+{"text": "Burnout (kiệt sức) có di truyền không?", "label": "informational"}
+{"text": "bữa giờ Người nhà em thấy cảm giác như có ai theo dõi do bị đồng nghiệp toxic bắt nạt. Người nhà em chả hiểu sao lo lắng, cần lời khuyên gấp ạ.", "label": "complex_reasoning"}
+{"text": "Chồng mình chán ghét bản thân kinh khủng, Chồng mình đang cầm dao muốn rạch tay cho bớt đau lòng. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "Cứu Tôi với, Tôi đang nghĩ quẩn cái chết là sự giải thoát duy nhất.", "label": "high_risk"}
+{"text": "Muốn tìm hiểu về chứng sợ xã hội là bệnh gì?", "label": "informational"}
+{"text": "Định nghĩa của trầm cảm sau sinh có nguy hiểm tính mạng không?", "label": "informational"}
+{"text": "ước gì ngủ một giấc không bao giờ dậy nữa. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "Chị cuộc sống này vô nghĩa toàn đau khổ, Chị không muốn nhìn thấy ngày mai nữa. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "từ đợt dịch đến giờ Tui thấy run tay chân bần bật do thất bại trong kinh doanh. Tui haizz lo lắng, tôi bế tắc quá không biết làm sao thoát ra.", "label": "complex_reasoning"}
+{"text": "Burnout (kiệt sức) có mấy giai đoạn?", "label": "informational"}
+{"text": "Định nghĩa của nghiện rượu có di truyền không?", "label": "informational"}
+{"text": "Anh kiệt sức hoàn toàn rồi, Anh ước gì ngủ một giấc không bao giờ dậy nữa. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "làm sao để vượt qua giai đoạn này? Anh cứ bồn chồn không yên mãi, có phải do mất việc làm đột ngột không?", "label": "complex_reasoning"}
+{"text": "Vợ mình bị bị sếp dí deadline, từ lúc chia tay Vợ mình thấy đau đầu dữ dội đi khám không ra bệnh. có cách nào cân bằng lại cảm xúc không?", "label": "complex_reasoning"}
+{"text": "Thông tin về burnout (kiệt sức) là bệnh gì?", "label": "informational"}
+{"text": "Định nghĩa của chứng mất ngủ mãn tính có chữa khỏi hẳn được không?", "label": "informational"}
+{"text": "Vợ mình bị thi trượt đại học, mấy tháng nay rồi Vợ mình thấy đầu óc trống rỗng không tập trung được. bác sĩ tư vấn giúp với ạ.", "label": "complex_reasoning"}
+{"text": "Cứu Con với, Con đang nghĩ quẩn muốn treo cổ tự vẫn.", "label": "high_risk"}
+{"text": "có cách nào cân bằng lại cảm xúc không? Mình cứ nghe thấy tiếng nói trong đầu mãi, có phải do vừa chia tay người yêu xong không?", "label": "complex_reasoning"}
+{"text": "Định nghĩa của ocd có mấy giai đoạn?", "label": "informational"}
+{"text": "Tui cảm giác như đã chết ở bên trong, Tui tìm cách kết liễu cuộc đời. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "Rối loạn ăn uống vô độ theo tiêu chuẩn dsm-5 là gì?", "label": "informational"}
+{"text": "Giải thích thuật ngữ thuốc chống trầm cảm ssri chẩn đoán ở đâu uy tín?", "label": "informational"}
+{"text": "Bạn em bị vừa sinh con xong stress quá, mới hôm qua Bạn em thấy nghe thấy tiếng nói trong đầu. tôi bế tắc quá không biết làm sao thoát ra.", "label": "complex_reasoning"}
+{"text": "Bác bị bố mẹ ly hôn, từ đợt dịch đến giờ Bác thấy bồn chồn không yên. tôi sợ mình bị bệnh tâm lý nặng.", "label": "complex_reasoning"}
+{"text": "Rối loạn hoảng sợ theo tiêu chuẩn dsm-5 là gì?", "label": "informational"}
+{"text": "Cho hỏi trầm cảm có chữa khỏi hẳn được không?", "label": "informational"}
+{"text": "Cứu Anh với, Anh đang nghĩ quẩn muốn tự tử ngay bây giờ.", "label": "high_risk"}
+{"text": "Làm sao biết mình bị hành vi tự hại có triệu chứng thế nào?", "label": "informational"}
+{"text": "Anh tận cùng nỗi đau rồi, Anh cái chết là sự giải thoát duy nhất. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "Chị tuyệt vọng tột cùng rồi, Chị muốn treo cổ tự vẫn. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "Tớ bị thất bại trong kinh doanh, tự nhiên hôm nay Tớ thấy tim đập nhanh khó thở như sắp ngất. liệu có phải bị trầm cảm không?", "label": "complex_reasoning"}
+{"text": "Người nhà em chán ghét bản thân kinh khủng, Người nhà em muốn treo cổ tự vẫn. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "Tôi chán ghét bản thân kinh khủng, Tôi đang cầm dao muốn rạch tay cho bớt đau lòng. tôi đi đây đừng tìm tôi nữa.", "label": "high_risk"}
+{"text": "Bác thế giới này tàn nhẫn quá, Bác định lao đầu vào xe tải. tạm biệt mọi người nhé.", "label": "high_risk"}
+{"text": "Bác sĩ cho hỏi tự kỷ ám thị theo mhgap xử lý sao?", "label": "informational"}
+{"text": "Tui tận cùng nỗi đau rồi, Tui cái chết là sự giải thoát duy nhất. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "gần đây Chồng mình thấy run tay chân bần bật do cảm thấy lạc lõng trong nhóm bạn. Chồng mình cảm thấy lo lắng, làm sao để vượt qua giai đoạn này?", "label": "complex_reasoning"}
+{"text": "Anh cảm giác như đã chết ở bên trong, Anh muốn chết đi cho xong. tạm biệt mọi người nhé.", "label": "high_risk"}
+{"text": "Cháu cảm giác như đã chết ở bên trong, Cháu muốn tự tử ngay bây giờ. không ai cứu được tôi đâu.", "label": "high_risk"}
+{"text": "Giải thích thuật ngữ liệu pháp cbt chẩn đoán ở đâu uy tín?", "label": "informational"}
+{"text": "Tôi cần tìm hiểu liệu pháp cbt biểu hiện ra sao?", "label": "informational"}
+{"text": "Rối loạn cơ thể hóa có triệu chứng thế nào?", "label": "informational"}
+{"text": "thi trượt đại học khiến Tui trời ơi, giờ nghe thấy tiếng nói trong đầu suốt. em phải làm gì bây giờ?", "label": "complex_reasoning"}
+{"text": "tôi bế tắc quá không biết làm sao thoát ra. Con cứ tim đập nhanh khó thở như sắp ngất mãi, có phải do thất bại trong kinh doanh không?", "label": "complex_reasoning"}
+{"text": "Con bị áp lực công việc quá lớn, gần đây Con thấy ăn không ngon miệng sụt cân. liệu có phải bị trầm cảm không?", "label": "complex_reasoning"}
+{"text": "Bác thế giới này tàn nhẫn quá, Bác muốn chết đi cho xong. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "Cho mình xin info về rối loạn nhân cách ranh giới (bpd) kéo dài bao lâu thì khỏi?", "label": "informational"}
+{"text": "Rối loạn lưỡng cực theo tiêu chuẩn dsm-5 là gì?", "label": "informational"}
+{"text": "Rối loạn lưỡng cực phân loại thế nào?", "label": "informational"}
+{"text": "Cháu cảm giác như đã chết ở bên trong, Cháu muốn nhảy lầu kết thúc tất cả. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Anh không ai thương mình cả, Anh tìm cách kết liễu cuộc đời. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "tôi bế tắc quá không biết làm sao thoát ra. Bác cứ luôn cảm thấy tội lỗi dằn vặt mãi, có phải do vừa sinh con xong stress quá không?", "label": "complex_reasoning"}
+{"text": "Thuốc chống trầm cảm ssri kéo dài bao lâu thì khỏi?", "label": "informational"}
+{"text": "Tôi bị thất bại trong kinh doanh, từ lúc chia tay Tôi thấy luôn cảm thấy tội lỗi dằn vặt. làm sao để vượt qua giai đoạn này?", "label": "complex_reasoning"}
+{"text": "mất việc làm đột ngột khiến Tui trời ơi, giờ nghĩ ngợi lung tung cả đêm suốt. tôi sợ mình bị bệnh tâm lý nặng.", "label": "complex_reasoning"}
+{"text": "Cho hỏi rối loạn lưỡng cực có mấy giai đoạn?", "label": "informational"}
+{"text": "Tôi cần tìm hiểu nghiện game biểu hiện ra sao?", "label": "informational"}
+{"text": "Cứu Tui với, Tui đang nghĩ quẩn muốn tự tử ngay bây giờ.", "label": "high_risk"}
+{"text": "tôi bế tắc quá không biết làm sao thoát ra. Chị cứ hay cáu gắt vô cớ với người nhà mãi, có phải do sống xa nhà cô đơn không?", "label": "complex_reasoning"}
+{"text": "Tôi cần tìm hiểu ocd theo tiêu chuẩn dsm-5 là gì?", "label": "informational"}
+{"text": "Em muốn hỏi chút về stress kéo dài định nghĩa là gì?", "label": "informational"}
+{"text": "Người nhà em tuyệt vọng tột cùng rồi, Người nhà em cái chết là sự giải thoát duy nhất. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "Chị mình là gánh nặng của gia đình, Chị sẽ biến mất khỏi thế giới này vĩnh viễn. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "Em muốn hỏi chút về rối loạn cơ thể hóa khác gì với buồn bình thường?", "label": "informational"}
+{"text": "Bạn em không còn lối thoát nào nữa, Bạn em không muốn nhìn thấy ngày mai nữa. tôi đi đây đừng tìm tôi nữa.", "label": "high_risk"}
+{"text": "Em muốn hỏi chút về adhd ở người lớn có chữa khỏi hẳn được không?", "label": "informational"}
+{"text": "cần lời khuyên gấp ạ. Chị cứ hay khóc thầm mỗi đêm mãi, có phải do học hành sa sút không?", "label": "complex_reasoning"}
+{"text": "Phân biệt giúp mình rối loạn cơ thể hóa dùng thuốc gì để chữa?", "label": "informational"}
+{"text": "Tôi bị bị đồng nghiệp toxic bắt nạt, cả năm nay Tôi thấy cảm giác như có ai theo dõi. làm sao để vượt qua giai đoạn này?", "label": "complex_reasoning"}
+{"text": "Tao không ai thương mình cả, Tao muốn nhảy lầu kết thúc tất cả. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "Tao mình là gánh nặng của gia đình, Tao muốn nhảy lầu kết thúc tất cả. đang đứng trên cầu gió mát quá.", "label": "high_risk"}
+{"text": "Tao không còn lối thoát nào nữa, Tao muốn treo cổ tự vẫn. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "Em không ai thương mình cả, Em không muốn nhìn thấy ngày mai nữa. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "Phân biệt giúp mình tự kỷ ám thị có chữa khỏi hẳn được không?", "label": "informational"}
+{"text": "Làm sao biết mình bị rối loạn lo âu phân loại thế nào?", "label": "informational"}
+{"text": "Cháu thế giới này tàn nhẫn quá, Cháu muốn chết đi cho xong. không ai cứu được tôi đâu.", "label": "high_risk"}
+{"text": "bị body shaming béo quá khiến Cháu hình như, giờ run tay chân bần bật suốt. bác sĩ tư vấn giúp với ạ.", "label": "complex_reasoning"}
+{"text": "không có bạn thân khiến Tôi tự dưng, giờ nghe thấy tiếng nói trong đầu suốt. giúp em với em mệt mỏi quá.", "label": "complex_reasoning"}
+{"text": "bị body shaming béo quá khiến Em bỗng nhiên, giờ ăn không ngon miệng sụt cân suốt. có nên đi khám bác sĩ tâm lý không?", "label": "complex_reasoning"}
+{"text": "tôi sợ mình bị bệnh tâm lý nặng. Tớ cứ hay cáu gắt vô cớ với người nhà mãi, có phải do bị phản bội không?", "label": "complex_reasoning"}
+{"text": "Tôi bị học hành sa sút, từ lúc chia tay Tôi thấy đầu óc trống rỗng không tập trung được. giúp em với em mệt mỏi quá.", "label": "complex_reasoning"}
+{"text": "tự nhiên hôm nay Tớ thấy sợ tiếng động lớn do sống xa nhà cô đơn. Tớ buồn thối ruột lo lắng, có cách nào cân bằng lại cảm xúc không?", "label": "complex_reasoning"}
+{"text": "suốt 2 tuần nay Con thấy luôn cảm thấy tội lỗi dằn vặt do bị đồng nghiệp toxic bắt nạt. Con chắc là lo lắng, bác sĩ tư vấn giúp với ạ.", "label": "complex_reasoning"}
+{"text": "Tôi chán ghét bản thân kinh khủng, Tôi định lao đầu vào xe tải. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "Bạn em chán ghét bản thân kinh khủng, Bạn em không muốn nhìn thấy ngày mai nữa. đang đứng trên cầu gió mát quá.", "label": "high_risk"}
+{"text": "Bác sĩ cho hỏi rối loạn cơ thể hóa dùng thuốc gì để chữa?", "label": "informational"}
+{"text": "thất bại trong kinh doanh khiến Người nhà em thấy, giờ ăn không ngon miệng sụt cân suốt. tôi bế tắc quá không biết làm sao thoát ra.", "label": "complex_reasoning"}
+{"text": "từ đợt dịch đến giờ Chị thấy đau đầu dữ dội đi khám không ra bệnh do nợ nần chồng chất xã hội đen đòi. Chị khá là lo lắng, bác sĩ tư vấn giúp với ạ.", "label": "complex_reasoning"}
+{"text": "Anh thế giới này tàn nhẫn quá, Anh định lao đầu vào xe tải. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "Bạn em mất hết hy vọng rồi, Bạn em sẽ biến mất khỏi thế giới này vĩnh viễn. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "mới hôm qua Em thấy mất hứng thú với mọi sở thích cũ do bị sếp dí deadline. Em khổ tâm ghê lo lắng, có ai từng bị như này chưa?", "label": "complex_reasoning"}
+{"text": "mới hôm qua Chị thấy nghe thấy tiếng nói trong đầu do người yêu vô tâm. Chị bỗng nhiên lo lắng, giúp em với em mệt mỏi quá.", "label": "complex_reasoning"}
+{"text": "Muốn tìm hiểu về liệu pháp cbt định nghĩa là gì?", "label": "informational"}
+{"text": "gia đình chồng khắt khe khiến Chị tự dưng, giờ nghĩ ngợi lung tung cả đêm suốt. bác sĩ tư vấn giúp với ạ.", "label": "complex_reasoning"}
+{"text": "Tớ mình là gánh nặng của gia đình, Tớ định lao đầu vào xe tải. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "Anh thế giới này tàn nhẫn quá, Anh cái chết là sự giải thoát duy nhất. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "Phân biệt giúp mình ptsd có triệu chứng thế nào?", "label": "informational"}
+{"text": "người yêu vô tâm khiến Bạn em hơi bị, giờ nghĩ ngợi lung tung cả đêm suốt. làm sao để vượt qua giai đoạn này?", "label": "complex_reasoning"}
+{"text": "bố mẹ ly hôn khiến Tui haizz, giờ nghe thấy tiếng nói trong đầu suốt. giúp em với em mệt mỏi quá.", "label": "complex_reasoning"}
+{"text": "Ad ơi cho hỏi adhd ở người lớn khác gì với buồn bình thường?", "label": "informational"}
+{"text": "Làm sao biết mình bị rối loạn hoảng sợ định nghĩa là gì?", "label": "informational"}
+{"text": "có ai từng bị như này chưa? Tôi cứ đau đầu dữ dội đi khám không ra bệnh mãi, có phải do thất bại trong kinh doanh không?", "label": "complex_reasoning"}
+{"text": "có cách nào cân bằng lại cảm xúc không? Cháu cứ không muốn gặp ai chỉ muốn trốn trong phòng mãi, có phải do sống xa nhà cô đơn không?", "label": "complex_reasoning"}
+{"text": "Anh không ai thương mình cả, Anh muốn chết đi cho xong. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "cái chết là sự giải thoát duy nhất. đang đứng trên cầu gió mát quá.", "label": "high_risk"}
+{"text": "gia đình chồng khắt khe khiến Tớ có vẻ, giờ không muốn gặp ai chỉ muốn trốn trong phòng suốt. có nên đi khám bác sĩ tâm lý không?", "label": "complex_reasoning"}
+{"text": "con cái hư hỏng không nghe lời khiến Bác trời ơi, giờ hay khóc thầm mỗi đêm suốt. tôi sợ mình bị bệnh tâm lý nặng.", "label": "complex_reasoning"}
+{"text": "từ lúc chia tay Con thấy bồn chồn không yên do bị phản bội. Con thấy lo lắng, làm sao để vượt qua giai đoạn này?", "label": "complex_reasoning"}
+{"text": "Em bị nợ nần chồng chất xã hội đen đòi, sau khi sinh em bé Em thấy bồn chồn không yên. có nên đi khám bác sĩ tâm lý không?", "label": "complex_reasoning"}
+{"text": "Bác mình là gánh nặng của gia đình, Bác muốn nhảy lầu kết thúc tất cả. không ai cứu được tôi đâu.", "label": "high_risk"}
+{"text": "Em mình là gánh nặng của gia đình, Em đang cầm dao muốn rạch tay cho bớt đau lòng. không ai cứu được tôi đâu.", "label": "high_risk"}
+{"text": "có cách nào cân bằng lại cảm xúc không? Em cứ không muốn gặp ai chỉ muốn trốn trong phòng mãi, có phải do thi trượt đại học không?", "label": "complex_reasoning"}
+{"text": "Người nhà em không ai thương mình cả, Người nhà em định uống thuốc ngủ để đi luôn. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "bác sĩ tư vấn giúp với ạ. Con cứ run tay chân bần bật mãi, có phải do sắp phải thuyết trình trước đám đông không?", "label": "complex_reasoning"}
+{"text": "Chị tận cùng nỗi đau rồi, Chị muốn tự tử ngay bây giờ. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Anh mất hết hy vọng rồi, Anh tìm cách kết liễu cuộc đời. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "Ptsd có triệu chứng thế nào?", "label": "informational"}
+{"text": "Ocd dùng thuốc gì để chữa?", "label": "informational"}
+{"text": "Vợ mình bị con cái hư hỏng không nghe lời, từ lúc chia tay Vợ mình thấy tim đập nhanh khó thở như sắp ngất. tôi sợ mình bị bệnh tâm lý nặng.", "label": "complex_reasoning"}
+{"text": "sẽ biến mất khỏi thế giới này vĩnh viễn. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "Cứu Tôi với, Tôi đang nghĩ quẩn đang cầm dao muốn rạch tay cho bớt đau lòng.", "label": "high_risk"}
+{"text": "Bạn em mình là gánh nặng của gia đình, Bạn em muốn chết đi cho xong. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "Bác bị bị đồng nghiệp toxic bắt nạt, từ đợt dịch đến giờ Bác thấy nghe thấy tiếng nói trong đầu. làm sao để vượt qua giai đoạn này?", "label": "complex_reasoning"}
+{"text": "sắp phải thuyết trình trước đám đông khiến Anh bỗng nhiên, giờ cảm giác như có ai theo dõi suốt. cần lời khuyên gấp ạ.", "label": "complex_reasoning"}
+{"text": "thi trượt đại học khiến Người nhà em khá là, giờ đầu óc trống rỗng không tập trung được suốt. có ai từng bị như này chưa?", "label": "complex_reasoning"}
+{"text": "mất việc làm đột ngột khiến Bác huhu, giờ hay khóc thầm mỗi đêm suốt. em phải làm gì bây giờ?", "label": "complex_reasoning"}
+{"text": "bị lừa đảo mất tiền khiến Anh chán ghê, giờ đau đầu dữ dội đi khám không ra bệnh suốt. cần lời khuyên gấp ạ.", "label": "complex_reasoning"}
+{"text": "có nên đi khám bác sĩ tâm lý không? Tôi cứ hay quên trước quên sau mãi, có phải do người thân vừa mất không?", "label": "complex_reasoning"}
+{"text": "mất việc làm đột ngột khiến Tôi hơi bị, giờ đau đầu dữ dội đi khám không ra bệnh suốt. làm sao để vượt qua giai đoạn này?", "label": "complex_reasoning"}
+{"text": "dạo gần đây Tớ thấy sợ tiếng động lớn do người yêu vô tâm. Tớ cảm thấy lo lắng, có cách nào cân bằng lại cảm xúc không?", "label": "complex_reasoning"}
+{"text": "Tớ cuộc sống này vô nghĩa toàn đau khổ, Tớ không muốn nhìn thấy ngày mai nữa. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "Search dùm mình ocd chẩn đoán ở đâu uy tín?", "label": "informational"}
+{"text": "muốn tự tử ngay bây giờ. đang đứng trên cầu gió mát quá.", "label": "high_risk"}
+{"text": "Em mất hết hy vọng rồi, Em muốn treo cổ tự vẫn. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "Bác sĩ cho hỏi tự kỷ ám thị biểu hiện ra sao?", "label": "informational"}
+{"text": "Bạn em bị thi trượt đại học, dạo gần đây Bạn em thấy hay khóc thầm mỗi đêm. làm sao để vượt qua giai đoạn này?", "label": "complex_reasoning"}
+{"text": "Em muốn hỏi chút về trầm cảm có mấy giai đoạn?", "label": "informational"}
+{"text": "Tao tận cùng nỗi đau rồi, Tao sẽ biến mất khỏi thế giới này vĩnh viễn. tạm biệt mọi người nhé.", "label": "high_risk"}
+{"text": "Search dùm mình chứng sợ xã hội có mấy giai đoạn?", "label": "informational"}
+{"text": "Tìm tài liệu về stress kéo dài nguyên nhân do đâu?", "label": "informational"}
+{"text": "Mình chán ghét bản thân kinh khủng, Mình tìm cách kết liễu cuộc đời. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "có ai từng bị như này chưa? Tao cứ nghe thấy tiếng nói trong đầu mãi, có phải do áp lực công việc quá lớn không?", "label": "complex_reasoning"}
+{"text": "Thông tin về hành vi tự hại phân loại thế nào?", "label": "informational"}
+{"text": "Cho mình xin info về adhd ở người lớn định nghĩa là gì?", "label": "informational"}
+{"text": "dạo gần đây Vợ mình thấy hay cáu gắt vô cớ với người nhà do người yêu vô tâm. Vợ mình haizz lo lắng, tôi bế tắc quá không biết làm sao thoát ra.", "label": "complex_reasoning"}
+{"text": "Bạn em tận cùng nỗi đau rồi, Bạn em muốn nhảy lầu kết thúc tất cả. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "Tui mình là gánh nặng của gia đình, Tui muốn treo cổ tự vẫn. đang đứng trên cầu gió mát quá.", "label": "high_risk"}
+{"text": "Người nhà em không còn lối thoát nào nữa, Người nhà em định uống thuốc ngủ để đi luôn. tạm biệt mọi người nhé.", "label": "high_risk"}
+{"text": "mới hôm qua Bác thấy đầu óc trống rỗng không tập trung được do bị sếp dí deadline. Bác chán ghê lo lắng, làm sao để vui vẻ trở lại như xưa?", "label": "complex_reasoning"}
+{"text": "bữa giờ Tôi thấy bồn chồn không yên do nợ nần chồng chất xã hội đen đòi. Tôi haizz lo lắng, cần lời khuyên gấp ạ.", "label": "complex_reasoning"}
+{"text": "Chị thế giới này tàn nhẫn quá, Chị muốn tự tử ngay bây giờ. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "Con không ai thương mình cả, Con sẽ biến mất khỏi thế giới này vĩnh viễn. tôi đi đây đừng tìm tôi nữa.", "label": "high_risk"}
+{"text": "Em muốn hỏi chút về trầm cảm là bệnh gì?", "label": "informational"}
+{"text": "Rối loạn cơ thể hóa có mấy giai đoạn?", "label": "informational"}
+{"text": "Con bị bị body shaming béo quá, sau khi sinh em bé Con thấy cảm giác như có ai theo dõi. liệu có phải bị trầm cảm không?", "label": "complex_reasoning"}
+{"text": "Cho hỏi thuốc chống trầm cảm ssri định nghĩa là gì?", "label": "informational"}
+{"text": "Anh cuộc sống này vô nghĩa toàn đau khổ, Anh sẽ biến mất khỏi thế giới này vĩnh viễn. tạm biệt mọi người nhé.", "label": "high_risk"}
+{"text": "Tôi mình là gánh nặng của gia đình, Tôi cái chết là sự giải thoát duy nhất. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "Bác chán ghét bản thân kinh khủng, Bác ước gì ngủ một giấc không bao giờ dậy nữa. không ai cứu được tôi đâu.", "label": "high_risk"}
+{"text": "Chị không còn lối thoát nào nữa, Chị đang cầm dao muốn rạch tay cho bớt đau lòng. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Thông tin về chứng sợ xã hội kéo dài bao lâu thì khỏi?", "label": "informational"}
+{"text": "bữa giờ Tui thấy nghĩ ngợi lung tung cả đêm do nợ nần chồng chất xã hội đen đòi. Tui hơi bị lo lắng, tôi sợ mình bị bệnh tâm lý nặng.", "label": "complex_reasoning"}
+{"text": "mấy hôm nay Bạn em thấy đầu óc trống rỗng không tập trung được do áp lực công việc quá lớn. Bạn em trời ơi lo lắng, bác sĩ tư vấn giúp với ạ.", "label": "complex_reasoning"}
+{"text": "Con thế giới này tàn nhẫn quá, Con định uống thuốc ngủ để đi luôn. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "liệu có phải bị trầm cảm không? Bạn em cứ nghe thấy tiếng nói trong đầu mãi, có phải do thất bại trong kinh doanh không?", "label": "complex_reasoning"}
+{"text": "Con bị không có bạn thân, gần đây Con thấy nghe thấy tiếng nói trong đầu. bác sĩ tư vấn giúp với ạ.", "label": "complex_reasoning"}
+{"text": "Tìm tài liệu về chứng sợ xã hội khác gì với buồn bình thường?", "label": "informational"}
+{"text": "Con cuộc sống này vô nghĩa toàn đau khổ, Con muốn nhảy lầu kết thúc tất cả. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "Trầm cảm chẩn đoán ở đâu uy tín?", "label": "informational"}
+{"text": "Em tuyệt vọng tột cùng rồi, Em sẽ biến mất khỏi thế giới này vĩnh viễn. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "bị lừa đảo mất tiền khiến Bác haizz, giờ không muốn gặp ai chỉ muốn trốn trong phòng suốt. giúp em với em mệt mỏi quá.", "label": "complex_reasoning"}
+{"text": "bị lừa đảo mất tiền khiến Chồng mình vô cùng, giờ nghĩ ngợi lung tung cả đêm suốt. có ai từng bị như này chưa?", "label": "complex_reasoning"}
+{"text": "Cứu Bạn em với, Bạn em đang nghĩ quẩn đang cầm dao muốn rạch tay cho bớt đau lòng.", "label": "high_risk"}
+{"text": "Tôi chán ghét bản thân kinh khủng, Tôi tìm cách kết liễu cuộc đời. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "dạo gần đây Người nhà em thấy bồn chồn không yên do thất bại trong kinh doanh. Người nhà em có vẻ lo lắng, em phải làm gì bây giờ?", "label": "complex_reasoning"}
+{"text": "sắp phải thuyết trình trước đám đông khiến Tui bỗng nhiên, giờ cảm giác như có ai theo dõi suốt. tôi bế tắc quá không biết làm sao thoát ra.", "label": "complex_reasoning"}
+{"text": "Tớ không còn lối thoát nào nữa, Tớ ước gì ngủ một giấc không bao giờ dậy nữa. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "em phải làm gì bây giờ? Vợ mình cứ luôn cảm thấy tội lỗi dằn vặt mãi, có phải do sống xa nhà cô đơn không?", "label": "complex_reasoning"}
+{"text": "Rối loạn lưỡng cực kéo dài bao lâu thì khỏi?", "label": "informational"}
+{"text": "Stress kéo dài theo mhgap xử lý sao?", "label": "informational"}
+{"text": "Mình không còn lối thoát nào nữa, Mình định lao đầu vào xe tải. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "Em muốn hỏi chút về rối loạn hoảng sợ có di truyền không?", "label": "informational"}
+{"text": "Người nhà em bị bị lừa đảo mất tiền, từ tuần trước Người nhà em thấy hay khóc thầm mỗi đêm. bác sĩ tư vấn giúp với ạ.", "label": "complex_reasoning"}
+{"text": "Tìm tài liệu về rối loạn lo âu dùng thuốc gì để chữa?", "label": "informational"}
+{"text": "Bác kiệt sức hoàn toàn rồi, Bác muốn chết đi cho xong. đang đứng trên cầu gió mát quá.", "label": "high_risk"}
+{"text": "mấy hôm nay Bác thấy cảm giác như có ai theo dõi do học hành sa sút. Bác haizz lo lắng, em phải làm gì bây giờ?", "label": "complex_reasoning"}
+{"text": "Tôi bị bị lừa đảo mất tiền, cả năm nay Tôi thấy đầu óc trống rỗng không tập trung được. làm sao để vui vẻ trở lại như xưa?", "label": "complex_reasoning"}
+{"text": "Em tuyệt vọng tột cùng rồi, Em muốn nhảy lầu kết thúc tất cả. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "tôi sợ mình bị bệnh tâm lý nặng. Anh cứ sợ tiếng động lớn mãi, có phải do không có bạn thân không?", "label": "complex_reasoning"}
+{"text": "cảm thấy lạc lõng trong nhóm bạn khiến Tớ rất chi là, giờ luôn cảm thấy tội lỗi dằn vặt suốt. làm sao để vượt qua giai đoạn này?", "label": "complex_reasoning"}
+{"text": "Bạn em tận cùng nỗi đau rồi, Bạn em muốn treo cổ tự vẫn. đang đứng trên cầu gió mát quá.", "label": "high_risk"}
+{"text": "Bác sĩ cho hỏi tâm thần phân liệt có chữa khỏi hẳn được không?", "label": "informational"}
+{"text": "có cách nào cân bằng lại cảm xúc không? Chồng mình cứ không muốn gặp ai chỉ muốn trốn trong phòng mãi, có phải do học hành sa sút không?", "label": "complex_reasoning"}
+{"text": "định lao đầu vào xe tải. không ai cứu được tôi đâu.", "label": "high_risk"}
+{"text": "Vợ mình kiệt sức hoàn toàn rồi, Vợ mình tìm cách kết liễu cuộc đời. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "Tớ bị mất việc làm đột ngột, suốt 2 tuần nay Tớ thấy luôn cảm thấy tội lỗi dằn vặt. bác sĩ tư vấn giúp với ạ.", "label": "complex_reasoning"}
+{"text": "bác sĩ tư vấn giúp với ạ. Tao cứ hay quên trước quên sau mãi, có phải do bị body shaming béo quá không?", "label": "complex_reasoning"}
+{"text": "cần lời khuyên gấp ạ. Tui cứ nghĩ ngợi lung tung cả đêm mãi, có phải do sắp phải thuyết trình trước đám đông không?", "label": "complex_reasoning"}
+{"text": "tôi sợ mình bị bệnh tâm lý nặng. Tao cứ hay quên trước quên sau mãi, có phải do bị đồng nghiệp toxic bắt nạt không?", "label": "complex_reasoning"}
+{"text": "Em cuộc sống này vô nghĩa toàn đau khổ, Em muốn nhảy lầu kết thúc tất cả. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "muốn chết đi cho xong. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "Bác sĩ cho hỏi burnout (kiệt sức) có triệu chứng thế nào?", "label": "informational"}
+{"text": "Chồng mình tuyệt vọng tột cùng rồi, Chồng mình không muốn nhìn thấy ngày mai nữa. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "Giải thích thuật ngữ rối loạn lưỡng cực là bệnh gì?", "label": "informational"}
+{"text": "Chị mất hết hy vọng rồi, Chị ước gì ngủ một giấc không bao giờ dậy nữa. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "dạo gần đây Vợ mình thấy đau đầu dữ dội đi khám không ra bệnh do mất việc làm đột ngột. Vợ mình vô cùng lo lắng, có ai từng bị như này chưa?", "label": "complex_reasoning"}
+{"text": "cảm thấy lạc lõng trong nhóm bạn khiến Tôi tự dưng, giờ đau đầu dữ dội đi khám không ra bệnh suốt. có nên đi khám bác sĩ tâm lý không?", "label": "complex_reasoning"}
+{"text": "từ đợt dịch đến giờ Mình thấy tim đập nhanh khó thở như sắp ngất do bị body shaming béo quá. Mình khá là lo lắng, cần lời khuyên gấp ạ.", "label": "complex_reasoning"}
+{"text": "từ tuần trước Bác thấy luôn cảm thấy tội lỗi dằn vặt do sắp phải thuyết trình trước đám đông. Bác rất chi là lo lắng, em phải làm gì bây giờ?", "label": "complex_reasoning"}
+{"text": "tự nhiên hôm nay Bác thấy hay quên trước quên sau do thất bại trong kinh doanh. Bác cảm thấy lo lắng, làm sao để vượt qua giai đoạn này?", "label": "complex_reasoning"}
+{"text": "Định nghĩa của burnout (kiệt sức) có chữa khỏi hẳn được không?", "label": "informational"}
+{"text": "mấy tháng nay rồi Bác thấy mất hứng thú với mọi sở thích cũ do người yêu vô tâm. Bác rất chi là lo lắng, liệu có phải bị trầm cảm không?", "label": "complex_reasoning"}
+{"text": "Cứu Mình với, Mình đang nghĩ quẩn muốn treo cổ tự vẫn.", "label": "high_risk"}
+{"text": "Adhd ở người lớn là bệnh gì?", "label": "informational"}
+{"text": "Em cảm giác như đã chết ở bên trong, Em sẽ biến mất khỏi thế giới này vĩnh viễn. tôi đi đây đừng tìm tôi nữa.", "label": "high_risk"}
+{"text": "thi trượt đại học khiến Anh thấy, giờ nghe thấy tiếng nói trong đầu suốt. có nên đi khám bác sĩ tâm lý không?", "label": "complex_reasoning"}
+{"text": "Mình cảm giác như đã chết ở bên trong, Mình muốn nhảy lầu kết thúc tất cả. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "Tui tận cùng nỗi đau rồi, Tui muốn treo cổ tự vẫn. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "Cứu Bác với, Bác đang nghĩ quẩn sẽ biến mất khỏi thế giới này vĩnh viễn.", "label": "high_risk"}
+{"text": "Cứu Chị với, Chị đang nghĩ quẩn muốn treo cổ tự vẫn.", "label": "high_risk"}
+{"text": "Tìm tài liệu về tâm thần phân liệt biểu hiện ra sao?", "label": "informational"}
+{"text": "Người nhà em tận cùng nỗi đau rồi, Người nhà em muốn treo cổ tự vẫn. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Tôi cần tìm hiểu trầm cảm chẩn đoán ở đâu uy tín?", "label": "informational"}
+{"text": "Cho hỏi rối loạn lưỡng cực có di truyền không?", "label": "informational"}
+{"text": "Bác sĩ cho hỏi ocd là bệnh gì?", "label": "informational"}
+{"text": "bị body shaming béo quá khiến Bác có vẻ, giờ run tay chân bần bật suốt. liệu có phải bị trầm cảm không?", "label": "complex_reasoning"}
+{"text": "Muốn tìm hiểu về ocd có di truyền không?", "label": "informational"}
+{"text": "Tôi cuộc sống này vô nghĩa toàn đau khổ, Tôi ước gì ngủ một giấc không bao giờ dậy nữa. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "Em cảm giác như đã chết ở bên trong, Em cái chết là sự giải thoát duy nhất. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Em muốn hỏi chút về nghiện rượu theo tiêu chuẩn dsm-5 là gì?", "label": "informational"}
+{"text": "Search dùm mình rối loạn lưỡng cực phân loại thế nào?", "label": "informational"}
+{"text": "vừa chia tay người yêu xong khiến Người nhà em trời ơi, giờ hay cáu gắt vô cớ với người nhà suốt. giúp em với em mệt mỏi quá.", "label": "complex_reasoning"}
+{"text": "Cho mình xin info về trầm cảm có di truyền không?", "label": "informational"}
+{"text": "Thông tin về thuốc chống trầm cảm ssri dùng thuốc gì để chữa?", "label": "informational"}
+{"text": "liệu có phải bị trầm cảm không? Tớ cứ nghĩ ngợi lung tung cả đêm mãi, có phải do bị body shaming béo quá không?", "label": "complex_reasoning"}
+{"text": "làm sao để vượt qua giai đoạn này? Vợ mình cứ hay quên trước quên sau mãi, có phải do người thân vừa mất không?", "label": "complex_reasoning"}
+{"text": "làm sao để vượt qua giai đoạn này? Cháu cứ hay quên trước quên sau mãi, có phải do nợ nần chồng chất xã hội đen đòi không?", "label": "complex_reasoning"}
+{"text": "Bác sĩ cho hỏi rối loạn lưỡng cực theo mhgap xử lý sao?", "label": "informational"}
+{"text": "Chồng mình bị thất bại trong kinh doanh, suốt 2 tuần nay Chồng mình thấy cảm giác như có ai theo dõi. cần lời khuyên gấp ạ.", "label": "complex_reasoning"}
+{"text": "Bạn em không ai thương mình cả, Bạn em không muốn nhìn thấy ngày mai nữa. tạm biệt mọi người nhé.", "label": "high_risk"}
+{"text": "từ lúc chia tay Tớ thấy hay khóc thầm mỗi đêm do bị đồng nghiệp toxic bắt nạt. Tớ hơi bị lo lắng, em phải làm gì bây giờ?", "label": "complex_reasoning"}
+{"text": "Cứu Tớ với, Tớ đang nghĩ quẩn ước gì ngủ một giấc không bao giờ dậy nữa.", "label": "high_risk"}
+{"text": "có nên đi khám bác sĩ tâm lý không? Người nhà em cứ mất ngủ triền miên trắng đêm mãi, có phải do vừa chia tay người yêu xong không?", "label": "complex_reasoning"}
+{"text": "Bạn em bị người thân vừa mất, mấy hôm nay Bạn em thấy mất hứng thú với mọi sở thích cũ. giúp em với em mệt mỏi quá.", "label": "complex_reasoning"}
+{"text": "Tớ không ai thương mình cả, Tớ muốn chết đi cho xong. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "Muốn tìm hiểu về tự kỷ ám thị theo tiêu chuẩn dsm-5 là gì?", "label": "informational"}
+{"text": "Bác sĩ cho hỏi rối loạn lưỡng cực định nghĩa là gì?", "label": "informational"}
+{"text": "có cách nào cân bằng lại cảm xúc không? Cháu cứ luôn cảm thấy tội lỗi dằn vặt mãi, có phải do con cái hư hỏng không nghe lời không?", "label": "complex_reasoning"}
+{"text": "Người nhà em không còn lối thoát nào nữa, Người nhà em định lao đầu vào xe tải. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "Người nhà em chán ghét bản thân kinh khủng, Người nhà em đang cầm dao muốn rạch tay cho bớt đau lòng. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "làm sao để vui vẻ trở lại như xưa? Người nhà em cứ ăn không ngon miệng sụt cân mãi, có phải do người yêu vô tâm không?", "label": "complex_reasoning"}
+{"text": "mất việc làm đột ngột khiến Em cảm thấy, giờ sợ tiếng động lớn suốt. bác sĩ tư vấn giúp với ạ.", "label": "complex_reasoning"}
+{"text": "bị đồng nghiệp toxic bắt nạt khiến Chị khá là, giờ ăn không ngon miệng sụt cân suốt. giúp em với em mệt mỏi quá.", "label": "complex_reasoning"}
+{"text": "Chứng mất ngủ mãn tính có di truyền không?", "label": "informational"}
+{"text": "Bác tuyệt vọng tột cùng rồi, Bác định lao đầu vào xe tải. đang đứng trên cầu gió mát quá.", "label": "high_risk"}
+{"text": "Định nghĩa của ptsd dùng thuốc gì để chữa?", "label": "informational"}
+{"text": "Vợ mình cuộc sống này vô nghĩa toàn đau khổ, Vợ mình tìm cách kết liễu cuộc đời. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "Cứu Tui với, Tui đang nghĩ quẩn đang cầm dao muốn rạch tay cho bớt đau lòng.", "label": "high_risk"}
+{"text": "Cho mình xin info về rối loạn hoảng sợ kéo dài bao lâu thì khỏi?", "label": "informational"}
+{"text": "Cháu mất hết hy vọng rồi, Cháu ước gì ngủ một giấc không bao giờ dậy nữa. tôi đi đây đừng tìm tôi nữa.", "label": "high_risk"}
+{"text": "Cháu cuộc sống này vô nghĩa toàn đau khổ, Cháu muốn tự tử ngay bây giờ. đừng khuyên tôi nữa vô ích thôi.", "label": "high_risk"}
+{"text": "cả năm nay Vợ mình thấy luôn cảm thấy tội lỗi dằn vặt do cảm thấy lạc lõng trong nhóm bạn. Vợ mình buồn thối ruột lo lắng, bác sĩ tư vấn giúp với ạ.", "label": "complex_reasoning"}
+{"text": "gần đây Bác thấy mất ngủ triền miên trắng đêm do sống xa nhà cô đơn. Bác khá là lo lắng, bác sĩ tư vấn giúp với ạ.", "label": "complex_reasoning"}
+{"text": "Bạn em tuyệt vọng tột cùng rồi, Bạn em định lao đầu vào xe tải. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Chị chán ghét bản thân kinh khủng, Chị muốn treo cổ tự vẫn. không ai cứu được tôi đâu.", "label": "high_risk"}
+{"text": "Thông tin về liệu pháp cbt biểu hiện ra sao?", "label": "informational"}
+{"text": "gia đình chồng khắt khe khiến Vợ mình tự dưng, giờ cảm giác như có ai theo dõi suốt. em phải làm gì bây giờ?", "label": "complex_reasoning"}
+{"text": "Tui tuyệt vọng tột cùng rồi, Tui định uống thuốc ngủ để đi luôn. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Tui tuyệt vọng tột cùng rồi, Tui đang cầm dao muốn rạch tay cho bớt đau lòng. đang đứng trên cầu gió mát quá.", "label": "high_risk"}
+{"text": "Thông tin về burnout (kiệt sức) theo tiêu chuẩn dsm-5 là gì?", "label": "informational"}
+{"text": "Mình mình là gánh nặng của gia đình, Mình muốn treo cổ tự vẫn. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "mấy tháng nay rồi Tớ thấy bồn chồn không yên do thi trượt đại học. Tớ hình như lo lắng, có ai từng bị như này chưa?", "label": "complex_reasoning"}
+{"text": "Phân biệt giúp mình liệu pháp cbt theo mhgap xử lý sao?", "label": "informational"}
+{"text": "Phân biệt giúp mình liệu pháp cbt định nghĩa là gì?", "label": "informational"}
+{"text": "Cứu Tui với, Tui đang nghĩ quẩn không muốn nhìn thấy ngày mai nữa.", "label": "high_risk"}
+{"text": "không muốn nhìn thấy ngày mai nữa. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Tôi cần tìm hiểu rối loạn ăn uống vô độ khác gì với buồn bình thường?", "label": "informational"}
+{"text": "Tui chán ghét bản thân kinh khủng, Tui cái chết là sự giải thoát duy nhất. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "Người nhà em không còn lối thoát nào nữa, Người nhà em cái chết là sự giải thoát duy nhất. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "Mình thế giới này tàn nhẫn quá, Mình không muốn nhìn thấy ngày mai nữa. tôi đi đây đừng tìm tôi nữa.", "label": "high_risk"}
+{"text": "Vợ mình kiệt sức hoàn toàn rồi, Vợ mình cái chết là sự giải thoát duy nhất. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "Định nghĩa của rối loạn cơ thể hóa có di truyền không?", "label": "informational"}
+{"text": "Vợ mình cuộc sống này vô nghĩa toàn đau khổ, Vợ mình muốn chết đi cho xong. chịu hết nổi rồi bye bye.", "label": "high_risk"}
+{"text": "mấy tháng nay rồi Tui thấy hay quên trước quên sau do sắp phải thuyết trình trước đám đông. Tui buồn thối ruột lo lắng, tôi sợ mình bị bệnh tâm lý nặng.", "label": "complex_reasoning"}
+{"text": "từ tuần trước Người nhà em thấy mất hứng thú với mọi sở thích cũ do bị phản bội. Người nhà em trời ơi lo lắng, làm sao để vui vẻ trở lại như xưa?", "label": "complex_reasoning"}
+{"text": "Chị tuyệt vọng tột cùng rồi, Chị định lao đầu vào xe tải. tạm biệt mọi người nhé.", "label": "high_risk"}
+{"text": "Chị mình là gánh nặng của gia đình, Chị muốn nhảy lầu kết thúc tất cả. đã viết thư tuyệt mệnh để lại rồi.", "label": "high_risk"}
+{"text": "bữa giờ Bạn em thấy ăn không ngon miệng sụt cân do mất việc làm đột ngột. Bạn em vô cùng lo lắng, làm sao để vui vẻ trở lại như xưa?", "label": "complex_reasoning"}
+{"text": "Con mình là gánh nặng của gia đình, Con sẽ biến mất khỏi thế giới này vĩnh viễn. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "Em muốn hỏi chút về tự kỷ ám thị chẩn đoán ở đâu uy tín?", "label": "informational"}
+{"text": "có cách nào cân bằng lại cảm xúc không? Chồng mình cứ ăn không ngon miệng sụt cân mãi, có phải do không có bạn thân không?", "label": "complex_reasoning"}
+{"text": "Tìm tài liệu về ocd theo tiêu chuẩn dsm-5 là gì?", "label": "informational"}
+{"text": "Tôi bị bị sếp dí deadline, gần đây Tôi thấy run tay chân bần bật. có cách nào cân bằng lại cảm xúc không?", "label": "complex_reasoning"}
+{"text": "Phân biệt giúp mình hành vi tự hại theo tiêu chuẩn dsm-5 là gì?", "label": "informational"}
+{"text": "Cháu không còn lối thoát nào nữa, Cháu định uống thuốc ngủ để đi luôn. tôi đi đây đừng tìm tôi nữa.", "label": "high_risk"}
+{"text": "từ tuần trước Em thấy không muốn gặp ai chỉ muốn trốn trong phòng do bị đồng nghiệp toxic bắt nạt. Em tự dưng lo lắng, tôi sợ mình bị bệnh tâm lý nặng.", "label": "complex_reasoning"}
+{"text": "Con không còn lối thoát nào nữa, Con muốn chết đi cho xong. xin lỗi bố mẹ con đi đây.", "label": "high_risk"}
+{"text": "Cho mình xin info về chán ăn tâm thần nguyên nhân do đâu?", "label": "informational"}
+{"text": "Tớ thế giới này tàn nhẫn quá, Tớ cái chết là sự giải thoát duy nhất. đã chuẩn bị sẵn thuốc rồi.", "label": "high_risk"}
+{"text": "từ lúc chia tay Tui thấy hay quên trước quên sau do vừa sinh con xong stress quá. Tui stress vãi lo lắng, em phải làm gì bây giờ?", "label": "complex_reasoning"}
+{"text": "Bạn em bị thất bại trong kinh doanh, bữa giờ Bạn em thấy cảm giác như có ai theo dõi. giúp em với em mệt mỏi quá.", "label": "complex_reasoning"}
+{"text": "Tớ bị áp lực công việc quá lớn, mấy hôm nay Tớ thấy không muốn gặp ai chỉ muốn trốn trong phòng. làm sao để vui vẻ trở lại như xưa?", "label": "complex_reasoning"}
+{"text": "Làm sao biết mình bị chứng sợ xã hội có chữa khỏi hẳn được không?", "label": "informational"}
+{"text": "Chị chán ghét bản thân kinh khủng, Chị muốn tự tử ngay bây giờ. đêm nay sẽ là đêm cuối cùng.", "label": "high_risk"}
+{"text": "áp lực công việc quá lớn khiến Bác cảm thấy, giờ hay khóc thầm mỗi đêm suốt. tôi sợ mình bị bệnh tâm lý nặng.", "label": "complex_reasoning"}
