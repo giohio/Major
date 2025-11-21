@@ -1,0 +1,17 @@
+{
+  "id": "clinical#referral_0e0975e3",
+  "content": "Crosswalk from ICD-11 mental, behavioural and neurodevelopmental disorders to ICD-10 for clinician use 805\nICD-11 ICD-10 Notes\n6D70.1 Delirium due to psychoactive substances, F1x.03 Mental and behavioural disorders due to psychoactive The x in the middle\nincluding medications substance use: acute intoxication with delirium column is a placeholder\nfor the digit indicating\n4-character code: F1x.0 Mental and behavioural disorders the substance class in\ndue to psychoactive substance use: acute intoxication ICD-10:\nOR\n• 0 = alcohol\nF1x.4 Mental and behavioural disorders due to psychoactive • 1 = opioids\nsubstance use: withdrawal state with delirium\n• 2 = cannabinoids\nOR • 3 = sedatives or\nhypnotics\nF1x.8 Mental and behavioural disorders due to psychoactive • 4 = cocaine\nsubstance use: other mental and behavioural disorders\n• 5 = stimulants,\nincluding caffeine\n• 6 = hallucinogens\n• 7 = tobacco\n• 8 = volatile solvents\n• 9 = multiple or\nother psychoactive\nsubstances.\nUse F1x.8 if intoxication/\nwithdrawal status is\nunknown.\n6D70.2 Delirium due to multiple etiological factors F05 Delirium, not induced by alcohol and other psychoactive Use F05 or F05.8 unless\nsubstances multiple etiological\nfactors refer entirely to\nmultiple psychoactive\nsubstances, in which\ncase F19.4 should be",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "referral",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Referral Crosswalk from ICD-11 mental, behavioural and neurodevelopmental disorders to ICD-10 for clinician use 805\nICD-11 ICD-10 Notes\n6D70.1 Delirium due to psychoactive substances, F1x.03 Mental and behavioural disorders due to psychoactive The x in the middle\nincluding medications substance use: acute intoxication with delirium column is a placeholder\nfor the digit indicating\n4-character code: F1x.0 Mental and behavioural disorders the substance class in\ndue to psychoactive substance use: acute intoxication ICD-10:\nOR\n• 0 = alcohol\nF1x.4 Mental and behavioural disorders due to psychoactive • 1 = opioids\nsubstance use: withdrawal state with delirium\n• 2 = cannabinoids\nOR • 3 = sedatives or\nhypnotics\nF1x.8 Mental and behavioural disorders due to psychoactive • 4 = cocaine\nsubstance use: other mental and behavioural disorders\n• 5 = stimulants,\nincluding caffeine\n• 6 = hallucinogens\n• 7 = tobacco\n• 8 = volatile solvents\n• 9 = multiple or\nother psychoactive\nsubstances.\nUse F1x.8 if intoxication/\nwithdrawal status is\nunknown.\n6D70.2 Delirium due to multiple etiological factors F05 Delirium, not induced by alcohol and other psychoactive Use F05 or F05.8 unless\nsubstances multiple etiological\nfactors refer entirely to\nmultiple psychoactive\nsubstances, in which\ncase F19.4 should be Crosswalk from icd-11 mental, behavioural and neurodevelopmental disorders to icd-10 for clinician use 805\nicd-11 icd-10 notes\n6d70.1 delirium due to psychoactive substances, f1x.03 mental and behavioural disorders due t..."
+}

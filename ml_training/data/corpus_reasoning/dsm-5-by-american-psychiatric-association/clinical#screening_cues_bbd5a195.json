@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_bbd5a195",
+  "content": "there is no comorbid other (or unknown) substance use disorder in-\nvolving the same substance, then the ICD-10-CM code is F19.929.\nOther (or Unknown) Substance Withdrawal\n292.0 (F19.239)\nA. Cessation of (or reduction in) use of a substance that has been\nheavy and prolonged.\nB. The development of a substance-specific syndrome shortly after\nthe cessation of (or reduction in) substance use.\nC. The substance-specific syndrome causes clinically significant\ndistress or impairment in social, occupational, or other important\nareas of functioning.\nD. The symptoms are not attributable to another medical condition\nand are not better explained by another mental disorder, includ-\ning withdrawal from another substance.\nOther (or Unknown) Substance Withdrawal 281\nE. The substance involved cannot be classified under any of the\nother substance categories (alcohol; caffeine; cannabis; opioids;\nsedatives, hypnotics, or anxiolytics; stimulants; or tobacco) or is\nunknown.\nCoding note: The ICD-9-CM code is 292.0. The ICD-10-CM code for\nother (or unknown) substance withdrawal is F19.239. Note that the\nICD-10-CM code indicates the comorbid presence of a moderate or\nsevere other (or unknown) substance use disorder. It is not permis-\nsible to code a comorbid mild other (or unknown) substance use dis-\norder with other (or unknown) substance withdrawal.",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues there is no comorbid other (or unknown) substance use disorder in-\nvolving the same substance, then the ICD-10-CM code is F19.929.\nOther (or Unknown) Substance Withdrawal\n292.0 (F19.239)\nA. Cessation of (or reduction in) use of a substance that has been\nheavy and prolonged.\nB. The development of a substance-specific syndrome shortly after\nthe cessation of (or reduction in) substance use.\nC. The substance-specific syndrome causes clinically significant\ndistress or impairment in social, occupational, or other important\nareas of functioning.\nD. The symptoms are not attributable to another medical condition\nand are not better explained by another mental disorder, includ-\ning withdrawal from another substance.\nOther (or Unknown) Substance Withdrawal 281\nE. The substance involved cannot be classified under any of the\nother substance categories (alcohol; caffeine; cannabis; opioids;\nsedatives, hypnotics, or anxiolytics; stimulants; or tobacco) or is\nunknown.\nCoding note: The ICD-9-CM code is 292.0. The ICD-10-CM code for\nother (or unknown) substance withdrawal is F19.239. Note that the\nICD-10-CM code indicates the comorbid presence of a moderate or\nsevere other (or unknown) substance use disorder. It is not permis-\nsible to code a comorbid mild other (or unknown) substance use dis-\norder with other (or unknown) substance withdrawal. There is no comorbid other (or unknown) substance use disorder in-\nvolving the same substance, then the icd-10-cm code is f19.929. other (or unknown) substance withdrawal\n292.0 (f19.239)\na."
+}

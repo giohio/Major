@@ -1,0 +1,16 @@
+{
+  "id": "clinical#screening_cues_bf9aa50a",
+  "content": "A. Recent use of an opioid.\nB. Clinically significant problematic behavioral or psychological\nchanges (e.g., initial euphoria followed by apathy, dysphoria, psy-\nchomotor agitation or retardation, impaired judgment) that devel-\noped during, or shortly after, opioid use.\nC. Pupillary constriction (or pupillary dilation due to anoxia from se-\nvere overdose) and one (or more) of the following signs or symp-\ntoms developing during, or shortly after, opioid use:\n1. Drowsiness or coma.\n2. Slurred speech.\n3. Impairment in attention or memory.\nOpioid Withdrawal 259\nD. The signs or symptoms are not attributable to another medical\ncondition and are not better explained by another mental disor-\nder, including intoxication with another substance.\nSpecify if:\nWith perceptual disturbances: This specifier may be noted in\nthe rare instance in which hallucinations with intact reality testing\nor auditory, visual, or tactile illusions occur in the absence of a\ndelirium.\nCoding note: The ICD-9-CM code is 292.89. The ICD-10-CM code\ndepends on whether or not there is a comorbid opioid use disorder\nand whether or not there are perceptual disturbances.\nFor opioid intoxication without perceptual disturbances: If a\nmild opioid use disorder is comorbid, the ICD-10-CM code is",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues A. Recent use of an opioid.\nB. Clinically significant problematic behavioral or psychological\nchanges (e.g., initial euphoria followed by apathy, dysphoria, psy-\nchomotor agitation or retardation, impaired judgment) that devel-\noped during, or shortly after, opioid use.\nC. Pupillary constriction (or pupillary dilation due to anoxia from se-\nvere overdose) and one (or more) of the following signs or symp-\ntoms developing during, or shortly after, opioid use:\n1. Drowsiness or coma.\n2. Slurred speech.\n3. Impairment in attention or memory.\nOpioid Withdrawal 259\nD. The signs or symptoms are not attributable to another medical\ncondition and are not better explained by another mental disor-\nder, including intoxication with another substance.\nSpecify if:\nWith perceptual disturbances: This specifier may be noted in\nthe rare instance in which hallucinations with intact reality testing\nor auditory, visual, or tactile illusions occur in the absence of a\ndelirium.\nCoding note: The ICD-9-CM code is 292.89. The ICD-10-CM code\ndepends on whether or not there is a comorbid opioid use disorder\nand whether or not there are perceptual disturbances.\nFor opioid intoxication without perceptual disturbances: If a\nmild opioid use disorder is comorbid, the ICD-10-CM code is A. recent use of an opioid."
+}

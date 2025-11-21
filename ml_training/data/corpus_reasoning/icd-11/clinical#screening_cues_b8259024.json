@@ -1,0 +1,21 @@
+{
+  "id": "clinical#screening_cues_b8259024",
+  "content": "stress disorder, a dissociative disorder).\n• The symptoms result in significant impairment in personal, family, social, educational,\noccupational or other important areas of functioning. In mild cases, if functioning is\nmaintained, it is only through significant additional effort (e.g. compensatory strategies).\n6D8Z Dementia, unknown or unspecified cause\nSpecifier for dementia severity\nSeverity of dementia can be rated as mild (XS5W), moderate (XS0T) or severe (XS25), according\nto the degree of neurocognitive and functional impairment, and the capacity for independence in\nactivities of daily living. Severity is rated based on objective clinical examination and information\nprovided by an informant who has sufficient contact with the patient, such as a family member\nor caregiver.\nTo indicate severity, the code for the appropriate severity level is appended to the diagnostic code\nfor the type of dementia using an ampersand (&). For example, “6D82&XS0T” is the code for\ndementia due to Lewy body disease, moderate.\nXS5W Mild dementia\nIndividuals with mild dementia may be able to live independently, but some supervision and/\nor support is often required. However, individuals with mild dementia can still take part in\ncommunity or social activities without help, and may appear unimpaired to those who do not",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "study",
+      "relationships",
+      "screening_cues",
+      "management",
+      "psychoeducation"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues stress disorder, a dissociative disorder).\n• The symptoms result in significant impairment in personal, family, social, educational,\noccupational or other important areas of functioning. In mild cases, if functioning is\nmaintained, it is only through significant additional effort (e.g. compensatory strategies).\n6D8Z Dementia, unknown or unspecified cause\nSpecifier for dementia severity\nSeverity of dementia can be rated as mild (XS5W), moderate (XS0T) or severe (XS25), according\nto the degree of neurocognitive and functional impairment, and the capacity for independence in\nactivities of daily living. Severity is rated based on objective clinical examination and information\nprovided by an informant who has sufficient contact with the patient, such as a family member\nor caregiver.\nTo indicate severity, the code for the appropriate severity level is appended to the diagnostic code\nfor the type of dementia using an ampersand (&). For example, “6D82&XS0T” is the code for\ndementia due to Lewy body disease, moderate.\nXS5W Mild dementia\nIndividuals with mild dementia may be able to live independently, but some supervision and/\nor support is often required. However, individuals with mild dementia can still take part in\ncommunity or social activities without help, and may appear unimpaired to those who do not Căng thẳng disorder, a dissociative disorder). • the symptoms result in significant impairment in personal, family, social, educational,\noccupational or other important areas of functioning."
+}

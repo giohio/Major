@@ -1,0 +1,565 @@
+{"text": "Haizzz stress, thi trượt", "label": "emotional_support"}
+{"text": "Nghe nói ADHD, là gì?", "label": "informational"}
+{"text": "Tôi chán lắm, bị bạn xa lánh nên không biết làm sao", "label": "emotional_support"}
+{"text": "Cháu mệt mỏi quá rồi do sau ly hôn. không còn lý do để ở lại", "label": "high_risk"}
+{"text": "Test ra em có xu hướng rối loạn ăn uống, khác gì buồn thường?", "label": "informational"}
+{"text": "Mọi người cho hỏi mất ngủ dùng thuốc gì?", "label": "informational"}
+{"text": "bị sếp mắng làm Con cô đơn quá đi", "label": "emotional_support"}
+{"text": "Người mới đi làm như em bị đau đầu sau sinh. Suốt đau đầu, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Người thân em có dấu hiệu OCD, chữa thế nào?", "label": "informational"}
+{"text": "cãi nhau với bạn, Mình mệt mỏi. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "vừa chia tay, giờ mệt mỏi vcl", "label": "emotional_support"}
+{"text": "đổi công việc, Sinh viên như mình đau đầu. Đã thử CBT rồi nhưng không hiệu quả, có cần nhập viện không?", "label": "complex_consultation"}
+{"text": "Mọi người cho hỏi rối loạn lưỡng cực khác gì buồn thường?", "label": "informational"}
+{"text": "sau ly hôn, Học sinh như em khó thở. Đã bác sĩ kê thuốc nhưng sợ uống, có cần nhập viện không?", "label": "complex_consultation"}
+{"text": "sau thi đại học, Sinh viên như mình mất ngủ. Đã đã đi khám nhưng không đỡ, như này nghiêm trọng không?", "label": "complex_consultation"}
+{"text": "Người thân em có dấu hiệu ADHD, có triệu chứng gì?", "label": "informational"}
+{"text": "sau thi đại học, giờ Sinh viên như mình vừa đau đầu vừa cáu gắt. Bác sĩ chẩn đoán giúp em?", "label": "complex_consultation"}
+{"text": "Bác sĩ nói em bị lo âu, có tự khỏi được không?", "label": "informational"}
+{"text": "Sinh viên như mình trống rỗng lắm, crush có người yêu nên không biết làm sao", "label": "emotional_support"}
+{"text": "Dạo này cô đơn vì bị bạn xa lánh 😭", "label": "emotional_support"}
+{"text": "áp lực nợ nần, Chị sợ đám đông. Đã bác sĩ kê thuốc nhưng sợ uống, có cần nhập viện không?", "label": "complex_consultation"}
+{"text": "tủi thân quá, mất việc 😢", "label": "emotional_support"}
+{"text": "cãi nhau với bạn làm Cháu mệt mỏi quá đi", "label": "emotional_support"}
+{"text": "trống rỗng quá rồi, đổi công việc. Mẹ bỉm sữa như mình muốn nhảy lầu", "label": "high_risk"}
+{"text": "đổi công việc, Mình cáu gắt. Đã bác sĩ kê thuốc nhưng sợ uống, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "crush có người yêu, Em trống rỗng. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "bất lực vì cãi nhau với bạn. Tâm sự chút được không huhu", "label": "emotional_support"}
+{"text": "Tôi bị không tập trung áp lực nợ nần. Suốt không tập trung, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Haizzz trống rỗng, bị sếp mắng", "label": "emotional_support"}
+{"text": "Cho hỏi stress chữa thế nào?", "label": "informational"}
+{"text": "Mẹ bỉm sữa như mình trống rỗng quá, bố mẹ không hiểu. Ai giúp em với", "label": "emotional_support"}
+{"text": "mất người thân, Anh sợ đám đông. Đã uống thuốc 2 tháng vẫn vậy, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "vừa chia tay làm Người mới đi làm như em tủi thân quá đi", "label": "emotional_support"}
+{"text": "Anh bị sợ đám đông sau ly hôn. Gần tháng sợ đám đông, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Người mới đi làm như em bị run tay từ lúc bị tai nạn. Suốt run tay, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "chán vì bị sếp mắng Tâm sự chút được không", "label": "emotional_support"}
+{"text": "buồn vì bố mẹ không hiểu. Tâm sự chút được không haizzz", "label": "emotional_support"}
+{"text": "Mình mệt mỏi quá, crush có người yêu. Ai giúp em với", "label": "emotional_support"}
+{"text": "Test ra em có xu hướng lo âu, là gì?", "label": "informational"}
+{"text": "Người thân em có dấu hiệu ADHD, có tự khỏi được không?", "label": "informational"}
+{"text": "Học sinh như em bị mất ngủ từ lúc bị tai nạn. Gần tháng mất ngủ, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "sau thi đại học, giờ Anh tuyệt vọng và muốn rạch tay. Xin lỗi mọi người", "label": "high_risk"}
+{"text": "bất lực quá rồi, sau ly hôn. Người mới đi làm như em muốn kết thúc cuộc đời", "label": "high_risk"}
+{"text": "mệt mỏi vì mất việc. Tâm sự chút được không 😭", "label": "emotional_support"}
+{"text": "Anh mệt mỏi lắm, vừa chia tay nên không biết làm sao", "label": "emotional_support"}
+{"text": "crush có người yêu, Sinh viên như mình chán. Cần người nói chuyện haizzz", "label": "emotional_support"}
+{"text": "mất việc, Mẹ bỉm sữa như mình kiệt sức. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "Dạo này bất lực vì thi trượt 😭", "label": "emotional_support"}
+{"text": "Sinh viên như mình mệt mỏi quá rồi do thi trượt. đã viết thư cho mọi người", "label": "high_risk"}
+{"text": "Anh bị run tay mất người thân. Suốt run tay, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Dạo này mệt mỏi vì mất việc", "label": "emotional_support"}
+{"text": "sau thi đại học, Bản thân em run tay. Đã đã đi khám nhưng không đỡ, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "từ lúc bị tai nạn, Anh ăn không ngon. Đã thử CBT rồi nhưng không hiệu quả, có phải bị bệnh không?", "label": "complex_consultation"}
+{"text": "bị bạn xa lánh, Tôi tuyệt vọng. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "buồn quá bị sếp mắng", "label": "emotional_support"}
+{"text": "đổi công việc làm Học sinh như em tuyệt vọng. muốn biến mất", "label": "high_risk"}
+{"text": "đổi công việc, Chị run tay. Đã bác sĩ kê thuốc nhưng sợ uống, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "Cháu bất lực lắm, mất việc nên không biết làm sao", "label": "emotional_support"}
+{"text": "bị bắt nạt, Chị đau đầu. Đã đã đi khám nhưng không đỡ, có cần nhập viện không?", "label": "complex_consultation"}
+{"text": "Tôi bất lực quá, bị sếp mắng. Ai giúp em với", "label": "emotional_support"}
+{"text": "Bản thân em cảm thấy cuộc sống vô nghĩa do bị bắt nạt. cuộc sống vô nghĩa", "label": "high_risk"}
+{"text": "sau ly hôn, Anh đau đầu. Đã bác sĩ kê thuốc nhưng sợ uống, có cần nhập viện không?", "label": "complex_consultation"}
+{"text": "cãi nhau với bạn làm Học sinh như em áp lực quá đi", "label": "emotional_support"}
+{"text": "Dạo này buồn vì vừa chia tay", "label": "emotional_support"}
+{"text": "chán vcl crush có người yêu", "label": "emotional_support"}
+{"text": "đổi công việc, Cháu sợ đám đông. Đã đã đi khám nhưng không đỡ, có phải bị bệnh không?", "label": "complex_consultation"}
+{"text": "Em stress lắm, bị bạn xa lánh nên không biết làm sao", "label": "emotional_support"}
+{"text": "Con định muốn chết. mất người thân làm Con không chịu nổi", "label": "high_risk"}
+{"text": "Mọi người cho hỏi PTSD là gì?", "label": "informational"}
+{"text": "Con chán quá, áp lực tài chính. Ai giúp em với", "label": "emotional_support"}
+{"text": "sau thi đại học, Tôi đau đầu. Đã thử CBT rồi nhưng không hiệu quả, có phải bị bệnh không?", "label": "complex_consultation"}
+{"text": "đã viết thư cho mọi người. Người mới đi làm như em trống rỗng vì bị bắt nạt", "label": "high_risk"}
+{"text": "Mẹ bỉm sữa như mình bị không tập trung đổi công việc. Mấy tuần nay không tập trung, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "đã viết thư cho mọi người. Học sinh như em stress vì đổi công việc", "label": "high_risk"}
+{"text": "bị sếp mắng làm Mẹ bỉm sữa như mình tuyệt vọng quá đi", "label": "emotional_support"}
+{"text": "Người thân em có dấu hiệu sợ xã hội, có triệu chứng gì?", "label": "informational"}
+{"text": "Bác sĩ nói em bị rối loạn lưỡng cực, có tự khỏi được không?", "label": "informational"}
+{"text": "Nghe nói mất ngủ, là gì?", "label": "informational"}
+{"text": "Mọi người cho hỏi GAD test như thế nào?", "label": "informational"}
+{"text": "Cho hỏi rối loạn lưỡng cực có di truyền không?", "label": "informational"}
+{"text": "Em mệt mỏi quá rồi do từ lúc bị tai nạn. cuộc sống vô nghĩa", "label": "high_risk"}
+{"text": "mọi người tốt hơn nếu không có em. Bản thân em buồn vì thi trượt", "label": "high_risk"}
+{"text": "đã viết thư cho mọi người. Em mệt mỏi vì thi trượt", "label": "high_risk"}
+{"text": "không còn lý do để ở lại. Sinh viên như mình trống rỗng vì áp lực nợ nần", "label": "high_risk"}
+{"text": "mất việc, Anh tủi thân. Cần người nói chuyện huhu", "label": "emotional_support"}
+{"text": "thi trượt, Anh bất lực. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "Tôi bị tim đập nhanh sau ly hôn. Suốt tim đập nhanh, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "bị sếp mắng, Con stress. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "Con buồn quá, crush có người yêu. Ai giúp em với", "label": "emotional_support"}
+{"text": "Cháu kiệt sức quá, crush có người yêu. Ai giúp em với", "label": "emotional_support"}
+{"text": "Em hay stress, có tự khỏi được không?", "label": "informational"}
+{"text": "Em hay bất lực, có di truyền không?", "label": "informational"}
+{"text": "mất người thân, Con không tập trung. Đã thử CBT rồi nhưng không hiệu quả, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "sau sinh, Chị mất ngủ. Đã đã đi khám nhưng không đỡ, như này nghiêm trọng không?", "label": "complex_consultation"}
+{"text": "bị bạn xa lánh làm Chị cô đơn quá đi", "label": "emotional_support"}
+{"text": "Bác sĩ nói em bị burnout, có tự khỏi được không?", "label": "informational"}
+{"text": "bị sếp mắng làm Anh áp lực. muốn ngủ một giấc thật dài", "label": "high_risk"}
+{"text": "Nghe nói PTSD, chữa thế nào?", "label": "informational"}
+{"text": "Anh cô đơn lắm, bị bạn xa lánh nên không biết làm sao", "label": "emotional_support"}
+{"text": "cãi nhau với bạn làm Bản thân em áp lực vcl đi", "label": "emotional_support"}
+{"text": "Người thân em có dấu hiệu OCD, cần khám ở đâu?", "label": "informational"}
+{"text": "Haizzz kiệt sức, deadline dí", "label": "emotional_support"}
+{"text": "Em tủi thân lắm crush có người yêu nên không biết làm sao", "label": "emotional_support"}
+{"text": "Haizzz stress, bị bạn xa lánh 😞", "label": "emotional_support"}
+{"text": "deadline dí làm Học sinh như em tủi thân. không còn lý do để ở lại", "label": "high_risk"}
+{"text": "Em bị tim đập nhanh mất người thân. Gần tháng tim đập nhanh, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "thi trượt, Anh tuyệt vọng. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "bị bạn xa lánh, giờ stress vcl", "label": "emotional_support"}
+{"text": "Mẹ bỉm sữa như mình bị sợ đám đông sau ly hôn. Gần tháng sợ đám đông, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Haizzz chán, deadline dí", "label": "emotional_support"}
+{"text": "Bác sĩ nói em bị hoảng sợ, cần khám ở đâu?", "label": "informational"}
+{"text": "đổi công việc, Cháu khó thở. Đã uống thuốc 2 tháng vẫn vậy, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "crush có người yêu Học sinh như em chán Cần người nói chuyện huhu", "label": "emotional_support"}
+{"text": "Dạo này stress vì thi trượt 💔", "label": "emotional_support"}
+{"text": "cô đơn vì crush có người yêu. Tâm sự chút được không 😭", "label": "emotional_support"}
+{"text": "Cho hỏi ADHD khác gì buồn thường?", "label": "informational"}
+{"text": "sau ly hôn, giờ Em cô đơn và muốn nhảy lầu. Xin lỗi mọi người", "label": "high_risk"}
+{"text": "Dạo này bất lực vì crush có người yêu huhu", "label": "emotional_support"}
+{"text": "crush có người yêu, Học sinh như em chán. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "Sinh viên như mình bị run tay áp lực nợ nần. Mấy tuần nay run tay, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Chị cảm thấy cuộc sống vô nghĩa do thi trượt. muốn ngủ một giấc thật dài", "label": "high_risk"}
+{"text": "Haizzz áp lực, bố mẹ không hiểu", "label": "emotional_support"}
+{"text": "Dạo này chán vì áp lực tài chính", "label": "emotional_support"}
+{"text": "thi trượt giờ chán vcl", "label": "emotional_support"}
+{"text": "bị bạn xa lánh làm Sinh viên như mình bất lực quá đi", "label": "emotional_support"}
+{"text": "Người mới đi làm như em stress quá bị sếp mắng Ai giúp em với", "label": "emotional_support"}
+{"text": "áp lực quá, deadline dí", "label": "emotional_support"}
+{"text": "Em hay trống rỗng, khác gì buồn thường?", "label": "informational"}
+{"text": "Bản thân em định tự tử. sau ly hôn làm Bản thân em không chịu nổi", "label": "high_risk"}
+{"text": "Người mới đi làm như em bị đau đầu mất người thân. Suốt đau đầu, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "crush có người yêu làm Mình kiệt sức quá đi haizzz", "label": "emotional_support"}
+{"text": "sau thi đại học, giờ Bản thân em buồn và muốn kết thúc cuộc đời. Xin lỗi mọi người", "label": "high_risk"}
+{"text": "bất lực quá rồi, sau ly hôn. Tớ muốn nhảy cầu", "label": "high_risk"}
+{"text": "áp lực nợ nần, Người mới đi làm như em cáu gắt. Đã bác sĩ kê thuốc nhưng sợ uống, như này nghiêm trọng không?", "label": "complex_consultation"}
+{"text": "deadline dí làm Bản thân em áp lực. mọi người tốt hơn nếu không có em", "label": "high_risk"}
+{"text": "sau ly hôn, giờ Mẹ bỉm sữa như mình vừa run tay vừa cáu gắt. Bác sĩ chẩn đoán giúp em?", "label": "complex_consultation"}
+{"text": "deadline dí, Anh buồn. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "vừa chia tay làm Anh cô đơn quá đi", "label": "emotional_support"}
+{"text": "Test ra em có xu hướng OCD, có triệu chứng gì?", "label": "informational"}
+{"text": "mất người thân, Anh cáu gắt. Đã đã đi khám nhưng không đỡ, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "stress quá bị bạn xa lánh", "label": "emotional_support"}
+{"text": "áp lực quá, vừa chia tay", "label": "emotional_support"}
+{"text": "buồn vì mất việc. Tâm sự chút được không", "label": "emotional_support"}
+{"text": "sợ xã hội nguy hiểm không?", "label": "informational"}
+{"text": "sau ly hôn, giờ Em vừa không tập trung vừa hay quên. Bác sĩ chẩn đoán giúp em?", "label": "complex_consultation"}
+{"text": "Mẹ bỉm sữa như mình bị đau đầu sau sinh. Gần tháng đau đầu, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Bản thân em stress quá, vừa chia tay. Ai giúp em với", "label": "emotional_support"}
+{"text": "tuyệt vọng quá rồi, từ lúc bị tai nạn. Chị muốn nhảy lầu", "label": "high_risk"}
+{"text": "Em stress quá, vừa chia tay. Ai giúp em với", "label": "emotional_support"}
+{"text": "mất việc, Cháu tuyệt vọng. Cần người nói chuyện huhu", "label": "emotional_support"}
+{"text": "Em tủi thân lắm, thi trượt nên không biết làm sao", "label": "emotional_support"}
+{"text": "Mọi người cho hỏi lo âu là gì?", "label": "informational"}
+{"text": "vừa chia tay, Mẹ bỉm sữa như mình buồn. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "Mẹ bỉm sữa như mình bị sụt cân sau ly hôn. Mấy tuần nay sụt cân, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Làm gì cũng sai, Chị chỉ là gánh nặng do đổi công việc. mọi người tốt hơn nếu không có em", "label": "high_risk"}
+{"text": "Sinh viên như mình stress quá deadline dí Ai giúp em với", "label": "emotional_support"}
+{"text": "Em hay chán, nguy hiểm không?", "label": "informational"}
+{"text": "Dạo này kiệt sức vì thi trượt", "label": "emotional_support"}
+{"text": "Học sinh như em buồn vcl, mất việc. Ai giúp em với", "label": "emotional_support"}
+{"text": "Em cô đơn lắm bị sếp mắng nên không biết làm sao", "label": "emotional_support"}
+{"text": "tủi thân vì crush có người yêu Tâm sự chút được không", "label": "emotional_support"}
+{"text": "mọi người tốt hơn nếu không có em. Em chán vì thi trượt", "label": "high_risk"}
+{"text": "bị sếp mắng làm Sinh viên như mình buồn quá đi", "label": "emotional_support"}
+{"text": "trống rỗng vì bị sếp mắng. Tâm sự chút được không 😔", "label": "emotional_support"}
+{"text": "stress vì mất việc Tâm sự chút được không", "label": "emotional_support"}
+{"text": "Học sinh như em chán quá, bị sếp mắng. Ai giúp em với", "label": "emotional_support"}
+{"text": "bị bạn xa lánh, Cháu bất lực. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "thi trượt giờ trống rỗng vcl 😔", "label": "emotional_support"}
+{"text": "Bản thân em áp lực quá, bị bạn xa lánh. Ai giúp em với", "label": "emotional_support"}
+{"text": "chỉ là gánh nặng thôi. Mình áp lực vì bị bạn xa lánh", "label": "high_risk"}
+{"text": "trống rỗng quá rồi, từ lúc bị tai nạn. Người mới đi làm như em muốn kết thúc cuộc đời", "label": "high_risk"}
+{"text": "Người thân em có dấu hiệu sợ xã hội, chữa thế nào?", "label": "informational"}
+{"text": "deadline dí làm Mình mệt mỏi quá đi", "label": "emotional_support"}
+{"text": "Người thân em có dấu hiệu ADHD, chữa thế nào?", "label": "informational"}
+{"text": "cãi nhau với bạn, giờ tủi thân vcl", "label": "emotional_support"}
+{"text": "Người mới đi làm như em mệt mỏi lắm, deadline dí nên không biết làm sao", "label": "emotional_support"}
+{"text": "chỉ là gánh nặng thôi. Con buồn vì áp lực tài chính", "label": "high_risk"}
+{"text": "thi trượt làm Bản thân em áp lực quá đi 😔", "label": "emotional_support"}
+{"text": "Con buồn quá, deadline dí. Ai giúp em với", "label": "emotional_support"}
+{"text": "thi trượt làm Em áp lực quá đi", "label": "emotional_support"}
+{"text": "Người thân em có dấu hiệu PTSD, là gì?", "label": "informational"}
+{"text": "thi trượt giờ kiệt sức vcl", "label": "emotional_support"}
+{"text": "Haizzz cô đơn, cãi nhau với bạn", "label": "emotional_support"}
+{"text": "deadline dí làm Chị mệt mỏi. đã viết thư cho mọi người", "label": "high_risk"}
+{"text": "deadline dí làm Tớ tủi thân quá đi", "label": "emotional_support"}
+{"text": "Học sinh như em bị ăn không ngon đổi công việc. Mấy tuần nay ăn không ngon, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Em mệt mỏi quá, bị sếp mắng. Ai giúp em với", "label": "emotional_support"}
+{"text": "Người thân em có dấu hiệu stress, có tự khỏi được không?", "label": "informational"}
+{"text": "Bản thân em bị tim đập nhanh từ lúc bị tai nạn. Gần tháng tim đập nhanh, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "kiệt sức quá, deadline dí 😢", "label": "emotional_support"}
+{"text": "sợ xã hội cần khám ở đâu?", "label": "informational"}
+{"text": "Em hay kiệt sức, dùng thuốc gì?", "label": "informational"}
+{"text": "Tớ bị ăn không ngon từ lúc bị tai nạn. Mấy tuần nay ăn không ngon, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Em hay buồn, cần khám ở đâu?", "label": "informational"}
+{"text": "Tôi trống rỗng quá áp lực tài chính Ai giúp em với", "label": "emotional_support"}
+{"text": "Em cô đơn lắm, bị sếp mắng nên không biết làm sao", "label": "emotional_support"}
+{"text": "rối loạn lưỡng cực nguy hiểm không?", "label": "informational"}
+{"text": "Tôi tủi thân quá, thi trượt. Ai giúp em với", "label": "emotional_support"}
+{"text": "Anh chán lắm bị sếp mắng nên không biết làm sao", "label": "emotional_support"}
+{"text": "crush có người yêu, Em tuyệt vọng. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "Tớ kiệt sức quá crush có người yêu Ai giúp em với huhu", "label": "emotional_support"}
+{"text": "Cho hỏi lo âu khác gì buồn thường?", "label": "informational"}
+{"text": "Mình định treo cổ. sau sinh làm Mình không chịu nổi", "label": "high_risk"}
+{"text": "Con bất lực lắm bị bạn xa lánh nên không biết làm sao", "label": "emotional_support"}
+{"text": "Con bị sợ đám đông mất người thân. Gần tháng sợ đám đông, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "deadline dí làm Tớ áp lực quá đi", "label": "emotional_support"}
+{"text": "sợ xã hội có triệu chứng gì?", "label": "informational"}
+{"text": "Cháu mệt mỏi quá rồi do từ lúc bị tai nạn. sắp xếp xong mọi thứ rồi", "label": "high_risk"}
+{"text": "Học sinh như em stress lắm, bị sếp mắng nên không biết làm sao", "label": "emotional_support"}
+{"text": "đổi công việc, Chị ăn không ngon. Đã thử CBT rồi nhưng không hiệu quả, có phải bị bệnh không?", "label": "complex_consultation"}
+{"text": "vừa chia tay Tôi trống rỗng Cần người nói chuyện", "label": "emotional_support"}
+{"text": "áp lực tài chính làm Cháu tuyệt vọng vcl đi", "label": "emotional_support"}
+{"text": "crush có người yêu làm Tôi chán. sắp xếp xong mọi thứ rồi", "label": "high_risk"}
+{"text": "buồn vì mất việc. Tâm sự chút dc không", "label": "emotional_support"}
+{"text": "Cho hỏi trầm cảm cần khám ở đâu?", "label": "informational"}
+{"text": "Cháu cảm thấy cuộc sống vô nghĩa do cãi nhau với bạn. đã viết thư cho mọi người", "label": "high_risk"}
+{"text": "bố mẹ không hiểu, giờ tuyệt vọng vcl", "label": "emotional_support"}
+{"text": "trống rỗng quá bố mẹ không hiểu", "label": "emotional_support"}
+{"text": "bị bắt nạt, giờ Tôi vừa mất ngủ vừa khó thở. Bác sĩ chẩn đoán giúp em?", "label": "complex_consultation"}
+{"text": "trống rỗng vì cãi nhau với bạn. Tâm sự chút được không", "label": "emotional_support"}
+{"text": "áp lực nợ nần, Tôi ăn không ngon. Đã đã đi khám nhưng không đỡ, có cần nhập viện không?", "label": "complex_consultation"}
+{"text": "Haizzz cô đơn crush có người yêu", "label": "emotional_support"}
+{"text": "Chị cô đơn lắm crush có người yêu nên không biết làm sao", "label": "emotional_support"}
+{"text": "mất việc Anh kiệt sức Cần người nói chuyện haizzz", "label": "emotional_support"}
+{"text": "mất việc, giờ trống rỗng vcl", "label": "emotional_support"}
+{"text": "Mình bị ăn không ngon sau thi đại học. Gần tháng ăn không ngon, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Em hay stress, là gì?", "label": "informational"}
+{"text": "Test ra em có xu hướng burnout, là gì?", "label": "informational"}
+{"text": "buồn vì cãi nhau với bạn. Tâm sự chút được không", "label": "emotional_support"}
+{"text": "vừa chia tay, Con cô đơn. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "Test ra em có xu hướng trầm cảm, là gì?", "label": "informational"}
+{"text": "sau sinh, Mẹ bỉm sữa như mình run tay. Đã uống thuốc 2 tháng vẫn vậy, có cần nhập viện không?", "label": "complex_consultation"}
+{"text": "deadline dí làm Chị tuyệt vọng quá đi", "label": "emotional_support"}
+{"text": "đổi công việc, giờ Anh vừa sụt cân vừa sợ đám đông. Bác sĩ chẩn đoán giúp em?", "label": "complex_consultation"}
+{"text": "Em bị tim đập nhanh sau ly hôn. Suốt tim đập nhanh, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "trầm cảm có di truyền không?", "label": "informational"}
+{"text": "bị bắt nạt làm Bản thân em stress. sắp xếp xong mọi thứ rồi", "label": "high_risk"}
+{"text": "Ad ơi trầm cảm test như thế nào?", "label": "informational"}
+{"text": "bị sếp mắng làm Tớ stress quá đi 😭", "label": "emotional_support"}
+{"text": "mệt mỏi quá, cãi nhau với bạn", "label": "emotional_support"}
+{"text": "Haizzz tuyệt vọng áp lực tài chính", "label": "emotional_support"}
+{"text": "bị sếp mắng làm Cháu trống rỗng quá đi", "label": "emotional_support"}
+{"text": "Cho hỏi ADHD có triệu chứng gì?", "label": "informational"}
+{"text": "Người mới đi làm như em bị sợ đám đông bị bắt nạt. Suốt sợ đám đông, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "áp lực nợ nần làm Sinh viên như mình kiệt sức. muốn biến mất", "label": "high_risk"}
+{"text": "áp lực tài chính làm Mẹ bỉm sữa như mình stress quá đi", "label": "emotional_support"}
+{"text": "tuyệt vọng vì crush có người yêu. Tâm sự chút được không", "label": "emotional_support"}
+{"text": "tủi thân quá vừa chia tay", "label": "emotional_support"}
+{"text": "kiệt sức vì áp lực tài chính. Tâm sự chút được không", "label": "emotional_support"}
+{"text": "bị sếp mắng làm Tôi buồn quá đi", "label": "emotional_support"}
+{"text": "cãi nhau với bạn, giờ mệt mỏi vcl 😔", "label": "emotional_support"}
+{"text": "Làm gì cũng sai, Anh chỉ là gánh nặng do thi trượt. cuộc sống vô nghĩa", "label": "high_risk"}
+{"text": "Mình trống rỗng lắm, bị sếp mắng nên không biết làm sao haizzz", "label": "emotional_support"}
+{"text": "Học sinh như em bị mất ngủ sau sinh. Mấy tuần nay mất ngủ, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "hoảng sợ khác gì buồn thường?", "label": "informational"}
+{"text": "Mọi người cho hỏi trầm cảm có triệu chứng gì?", "label": "informational"}
+{"text": "Ad ơi sợ xã hội nguy hiểm không?", "label": "informational"}
+{"text": "Test ra em có xu hướng rối loạn ăn uống, có di truyền không?", "label": "informational"}
+{"text": "Em hay mệt mỏi, khác gì buồn thường?", "label": "informational"}
+{"text": "thi trượt làm Sinh viên như mình mệt mỏi. muốn biến mất", "label": "high_risk"}
+{"text": "cãi nhau với bạn làm Em buồn quá đi", "label": "emotional_support"}
+{"text": "Học sinh như em bị sợ đám đông mất người thân. Mấy tuần nay sợ đám đông, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "vừa chia tay làm Chị stress. mọi người tốt hơn nếu không có em", "label": "high_risk"}
+{"text": "đổi công việc, Người mới đi làm như em khó thở. Đã thử CBT rồi nhưng không hiệu quả, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "crush có người yêu làm Cháu buồn quá đi 😢", "label": "emotional_support"}
+{"text": "áp lực tài chính làm Tớ tuyệt vọng. không còn lý do để ở lại", "label": "high_risk"}
+{"text": "Bác sĩ nói em bị trầm cảm, có di truyền không?", "label": "informational"}
+{"text": "Cho hỏi stress nguy hiểm không?", "label": "informational"}
+{"text": "bố mẹ không hiểu làm Chị chán quá đi", "label": "emotional_support"}
+{"text": "Dạo này mệt mỏi vì bị sếp mắng", "label": "emotional_support"}
+{"text": "Dạo này kiệt sức vì bị sếp mắng", "label": "emotional_support"}
+{"text": "Bản thân em bị mất ngủ bị bắt nạt. Suốt mất ngủ, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "mất người thân, giờ Học sinh như em tuyệt vọng và muốn uống thuốc ngủ. Xin lỗi mọi người", "label": "high_risk"}
+{"text": "bị bắt nạt, giờ Mình vừa đau đầu vừa tim đập nhanh. Bác sĩ chẩn đoán giúp em?", "label": "complex_consultation"}
+{"text": "đổi công việc làm Chị stress. sắp xếp xong mọi thứ rồi", "label": "high_risk"}
+{"text": "sau sinh làm Anh mệt mỏi. mọi người tốt hơn nếu không có em", "label": "high_risk"}
+{"text": "từ lúc bị tai nạn, Học sinh như em không tập trung. Đã uống thuốc 2 tháng vẫn vậy, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "Con định nhảy lầu. sau sinh làm Con không chịu nổi", "label": "high_risk"}
+{"text": "từ lúc bị tai nạn, giờ Học sinh như em vừa sợ đám đông vừa không tập trung. Bác sĩ chẩn đoán giúp em?", "label": "complex_consultation"}
+{"text": "Mình chán lắm, bị bạn xa lánh nên không biết làm sao", "label": "emotional_support"}
+{"text": "Haizzz kiệt sức thi trượt", "label": "emotional_support"}
+{"text": "Sinh viên như mình bị sợ đám đông áp lực nợ nần. Gần tháng sợ đám đông, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "crush có người yêu, Bản thân em mệt mỏi. Cần người nói chuyện 😞", "label": "emotional_support"}
+{"text": "chỉ là gánh nặng thôi. Cháu áp lực vì crush có người yêu", "label": "high_risk"}
+{"text": "bất lực quá áp lực tài chính haizzz", "label": "emotional_support"}
+{"text": "Nghe nói hoảng sợ, test như thế nào?", "label": "informational"}
+{"text": "crush có người yêu, giờ stress vcl", "label": "emotional_support"}
+{"text": "bị bạn xa lánh làm Cháu stress quá đi", "label": "emotional_support"}
+{"text": "Chị định rạch tay. áp lực nợ nần làm Chị không chịu nổi", "label": "high_risk"}
+{"text": "bố mẹ không hiểu làm Cháu tuyệt vọng. muốn biến mất", "label": "high_risk"}
+{"text": "sau thi đại học, giờ Tớ vừa run tay vừa khó thở. Bác sĩ chẩn đoán giúp em?", "label": "complex_consultation"}
+{"text": "Cho hỏi mất ngủ khác gì buồn thường?", "label": "informational"}
+{"text": "Chị bị đau đầu sau thi đại học. Mấy tuần nay đau đầu, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "áp lực nợ nần, giờ Sinh viên như mình cô đơn và muốn tự tử. Xin lỗi mọi người", "label": "high_risk"}
+{"text": "Dạo này stress vì mất việc", "label": "emotional_support"}
+{"text": "áp lực tài chính, Anh buồn. Cần người nói chuyện 💔", "label": "emotional_support"}
+{"text": "từ lúc bị tai nạn, giờ Anh vừa sụt cân vừa sợ đám đông. Bác sĩ chẩn đoán giúp em?", "label": "complex_consultation"}
+{"text": "Học sinh như em kiệt sức quá, thi trượt. Ai giúp em với", "label": "emotional_support"}
+{"text": "Em hay áp lực, có triệu chứng gì?", "label": "informational"}
+{"text": "Sinh viên như mình kiệt sức lắm thi trượt nên không biết làm sao", "label": "emotional_support"}
+{"text": "Haizzz kiệt sức, vừa chia tay", "label": "emotional_support"}
+{"text": "mọi người tốt hơn nếu không có em. Mẹ bỉm sữa như mình chán vì thi trượt", "label": "high_risk"}
+{"text": "Cháu định nhảy cầu. bị bắt nạt làm Cháu không chịu nổi", "label": "high_risk"}
+{"text": "Người thân em có dấu hiệu mất ngủ, cần khám ở đâu?", "label": "informational"}
+{"text": "sau sinh, Tớ đau đầu. Đã uống thuốc 2 tháng vẫn vậy, như này nghiêm trọng không?", "label": "complex_consultation"}
+{"text": "Tớ tuyệt vọng lắm, crush có người yêu nên k biết làm sao", "label": "emotional_support"}
+{"text": "trống rỗng quá rồi, đổi công việc. Con muốn muốn chết", "label": "high_risk"}
+{"text": "Tớ bất lực quá, bị sếp mắng. Ai giúp em với", "label": "emotional_support"}
+{"text": "mất việc làm Học sinh như em tuyệt vọng quá đi huhu", "label": "emotional_support"}
+{"text": "Bản thân em bị run tay sau sinh. Mấy tuần nay run tay, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Học sinh như em bất lực quá bố mẹ không hiểu Ai giúp em với", "label": "emotional_support"}
+{"text": "bố mẹ không hiểu làm Tôi áp lực quá đi", "label": "emotional_support"}
+{"text": "Học sinh như em định muốn chết. sau ly hôn làm Học sinh như em không chịu nổi", "label": "high_risk"}
+{"text": "Cháu bị mất ngủ sau sinh. Gần tháng mất ngủ, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "áp lực tài chính, Con chán. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "từ lúc bị tai nạn, giờ Tôi vừa sụt cân vừa ăn không ngon. Bác sĩ chẩn đoán giúp em?", "label": "complex_consultation"}
+{"text": "PTSD dùng thuốc gì?", "label": "informational"}
+{"text": "crush có người yêu làm Học sinh như em tủi thân. muốn biến mất", "label": "high_risk"}
+{"text": "Mọi người cho hỏi GAD có di truyền không?", "label": "informational"}
+{"text": "Học sinh như em bị sợ đám đông đổi công việc. Suốt sợ đám đông, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Học sinh như em bị cáu gắt từ lúc bị tai nạn. Gần tháng cáu gắt, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Dạo này áp lực vì bị sếp mắng", "label": "emotional_support"}
+{"text": "muốn ngủ một giấc thật dài. Tớ kiệt sức vì vừa chia tay", "label": "high_risk"}
+{"text": "Mọi người cho hỏi mất ngủ có di truyền không?", "label": "informational"}
+{"text": "Bản thân em bị hay quên đổi công việc. Suốt hay quên, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Học sinh như em tuyệt vọng quá, deadline dí. Ai giúp em với", "label": "emotional_support"}
+{"text": "Ad ơi burnout có triệu chứng gì?", "label": "informational"}
+{"text": "Dạo này bất lực vì mất việc", "label": "emotional_support"}
+{"text": "áp lực quá, cãi nhau với bạn", "label": "emotional_support"}
+{"text": "từ lúc bị tai nạn, Học sinh như em run tay. Đã bác sĩ kê thuốc nhưng sợ uống, có cần nhập viện không?", "label": "complex_consultation"}
+{"text": "áp lực nợ nần, Tớ khó thở. Đã uống thuốc 2 tháng vẫn vậy, như này nghiêm trọng không?", "label": "complex_consultation"}
+{"text": "Test ra em có xu hướng rối loạn lưỡng cực, có di truyền không?", "label": "informational"}
+{"text": "Mọi người cho hỏi trầm cảm nguy hiểm không?", "label": "informational"}
+{"text": "Ad ơi mất ngủ có triệu chứng gì?", "label": "informational"}
+{"text": "Haizzz áp lực, vừa chia tay", "label": "emotional_support"}
+{"text": "Con bị khó thở bị bắt nạt. Gần tháng khó thở, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Dạo này tuyệt vọng vì vừa chia tay", "label": "emotional_support"}
+{"text": "Haizzz tuyệt vọng, crush có người yêu", "label": "emotional_support"}
+{"text": "từ lúc bị tai nạn, Sinh viên như mình khó thở. Đã bác sĩ kê thuốc nhưng sợ uống, như này nghiêm trọng không?", "label": "complex_consultation"}
+{"text": "sau thi đại học, giờ Cháu trống rỗng và muốn nhảy lầu. Xin lỗi mọi người", "label": "high_risk"}
+{"text": "thi trượt Bản thân em trống rỗng Cần người nói chuyện 😢", "label": "emotional_support"}
+{"text": "áp lực tài chính Bản thân em tủi thân Cần người nói chuyện", "label": "emotional_support"}
+{"text": "crush có người yêu làm Học sinh như em trống rỗng quá đi", "label": "emotional_support"}
+{"text": "bị sếp mắng làm Bản thân em trống rỗng quá đi 🥺", "label": "emotional_support"}
+{"text": "crush có người yêu, Tớ stress. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "Cho hỏi GAD khác gì buồn thường?", "label": "informational"}
+{"text": "Con bất lực quá, deadline dí. Ai giúp em với", "label": "emotional_support"}
+{"text": "Em hay stress, nguy hiểm không?", "label": "informational"}
+{"text": "mất ngủ test như thế nào?", "label": "informational"}
+{"text": "từ lúc bị tai nạn, Người mới đi làm như em sợ đám đông. Đã bác sĩ kê thuốc nhưng sợ uống, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "Tớ tủi thân lắm, bị bạn xa lánh nên không biết làm sao", "label": "emotional_support"}
+{"text": "sau ly hôn, giờ Anh vừa sụt cân vừa sợ đám đông. Bác sĩ chẩn đoán giúp em?", "label": "complex_consultation"}
+{"text": "Tớ tuyệt vọng quá, vừa chia tay. Ai giúp em với", "label": "emotional_support"}
+{"text": "từ lúc bị tai nạn, Bản thân em không tập trung. Đã đã đi khám nhưng không đỡ, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "bị bắt nạt làm Học sinh như em mệt mỏi. cuộc sống vô nghĩa", "label": "high_risk"}
+{"text": "sau thi đại học, Anh tim đập nhanh. Đã thử CBT rồi nhưng không hiệu quả, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "áp lực tài chính làm Em bất lực. muốn ngủ một giấc thật dài", "label": "high_risk"}
+{"text": "Cháu bất lực lắm crush có người yêu nên không biết làm sao 😢", "label": "emotional_support"}
+{"text": "Sinh viên như mình mệt mỏi quá, thi trượt. Ai giúp em với", "label": "emotional_support"}
+{"text": "Mẹ bỉm sữa như mình bất lực lắm, deadline dí nên không biết làm sao", "label": "emotional_support"}
+{"text": "Chị kiệt sức quá cãi nhau với bạn Ai giúp em với 😭", "label": "emotional_support"}
+{"text": "Haizzz cô đơn, vừa chia tay 😢", "label": "emotional_support"}
+{"text": "Tớ bất lực lắm, thi trượt nên không biết làm sao", "label": "emotional_support"}
+{"text": "áp lực nợ nần, Người mới đi làm như em ăn không ngon. Đã đã đi khám nhưng không đỡ, có phải bị bệnh không?", "label": "complex_consultation"}
+{"text": "áp lực tài chính, Chị áp lực. Cần người nói chuyện 😞", "label": "emotional_support"}
+{"text": "burnout cần khám ở đâu?", "label": "informational"}
+{"text": "Em hay buồn, test như thế nào?", "label": "informational"}
+{"text": "Em bị run tay sau ly hôn. Mấy tuần nay run tay, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "bố mẹ k hiểu làm Tớ tuyệt vọng quá đi", "label": "emotional_support"}
+{"text": "áp lực tài chính làm Sinh viên như mình bất lực quá đi", "label": "emotional_support"}
+{"text": "Ad ơi trầm cảm khác gì buồn thường?", "label": "informational"}
+{"text": "Haizzz kiệt sức, crush có người yêu", "label": "emotional_support"}
+{"text": "Tôi bị hay quên đổi công việc. Mấy tuần nay hay quên, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Nghe nói GAD, là gì?", "label": "informational"}
+{"text": "bị bắt nạt, Tôi đau đầu. Đã bác sĩ kê thuốc nhưng sợ uống, như này nghiêm trọng không?", "label": "complex_consultation"}
+{"text": "trống rỗng vì áp lực tài chính. Tâm sự chút được không", "label": "emotional_support"}
+{"text": "áp lực nợ nần, Người mới đi làm như em đau đầu. Đã đã đi khám nhưng không đỡ, có cần nhập viện không?", "label": "complex_consultation"}
+{"text": "Cháu tủi thân quá, bị bạn xa lánh. Ai giúp em với", "label": "emotional_support"}
+{"text": "Anh định muốn chết. từ lúc bị tai nạn làm Anh không chịu nổi", "label": "high_risk"}
+{"text": "Haizzz trống rỗng, áp lực tài chính", "label": "emotional_support"}
+{"text": "lo âu test như thế nào?", "label": "informational"}
+{"text": "deadline dí giờ trống rỗng vcl 💔", "label": "emotional_support"}
+{"text": "Mình kiệt sức quá, crush có người yêu. Ai giúp em với", "label": "emotional_support"}
+{"text": "stress vì vừa chia tay. Tâm sự chút được k", "label": "emotional_support"}
+{"text": "Em bị sụt cân sau thi đại học. Mấy tuần nay sụt cân, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Anh kiệt sức quá, cãi nhau với bạn. Ai giúp em với", "label": "emotional_support"}
+{"text": "Haizzz áp lực, bị sếp mắng", "label": "emotional_support"}
+{"text": "Em kiệt sức lắm, bị sếp mắng nên k biết làm sao", "label": "emotional_support"}
+{"text": "Con bị khó thở áp lực nợ nần. Mấy tuần nay khó thở, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "bố mẹ không hiểu, giờ tuyệt vọng vcl 🥺", "label": "emotional_support"}
+{"text": "Em hay stress, test như thế nào?", "label": "informational"}
+{"text": "Con bị cáu gắt mất người thân. Suốt cáu gắt, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "cãi nhau với bạn làm Tôi cô đơn quá đi", "label": "emotional_support"}
+{"text": "áp lực quá thi trượt", "label": "emotional_support"}
+{"text": "Cho hỏi lo âu nguy hiểm không?", "label": "informational"}
+{"text": "Bác sĩ nói em bị GAD, khác gì buồn thường?", "label": "informational"}
+{"text": "deadline dí làm Học sinh như em tủi thân quá đi", "label": "emotional_support"}
+{"text": "Cho hỏi OCD cần khám ở đâu?", "label": "informational"}
+{"text": "từ lúc bị tai nạn, giờ Con vừa hay quên vừa sụt cân. Bác sĩ chẩn đoán giúp em?", "label": "complex_consultation"}
+{"text": "áp lực tài chính làm Học sinh như em trống rỗng quá đi", "label": "emotional_support"}
+{"text": "Ad ơi stress chữa thế nào?", "label": "informational"}
+{"text": "crush có người yêu, Mình buồn. Cần người nói chuyện haizzz", "label": "emotional_support"}
+{"text": "Mình stress quá, crush có người yêu. Ai giúp em với", "label": "emotional_support"}
+{"text": "Bác sĩ nói em bị burnout, cần khám ở đâu?", "label": "informational"}
+{"text": "Cháu bị sụt cân từ lúc bị tai nạn. Gần tháng sụt cân, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Bản thân em cô đơn lắm, bị sếp mắng nên không biết làm sao", "label": "emotional_support"}
+{"text": "Dạo này stress vì cãi nhau với bạn", "label": "emotional_support"}
+{"text": "crush có người yêu làm Chị tuyệt vọng. chỉ là gánh nặng thôi", "label": "high_risk"}
+{"text": "Haizzz bất lực, vừa chia tay 😔", "label": "emotional_support"}
+{"text": "bị bạn xa lánh làm Mẹ bỉm sữa như mình trống rỗng quá đi 💔", "label": "emotional_support"}
+{"text": "sắp xếp xong mọi thứ rồi. Anh tủi thân vì mất việc", "label": "high_risk"}
+{"text": "mệt mỏi vì mất việc. Tâm sự chút được k", "label": "emotional_support"}
+{"text": "tủi thân quá, bố mẹ không hiểu", "label": "emotional_support"}
+{"text": "Con tủi thân lắm, mất việc nên không biết làm sao", "label": "emotional_support"}
+{"text": "bố mẹ không hiểu, Bản thân em tủi thân. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "cãi nhau với bạn, Con kiệt sức. Cần người nói chuyện 💔", "label": "emotional_support"}
+{"text": "deadline dí làm Em kiệt sức. không còn lý do để ở lại", "label": "high_risk"}
+{"text": "bị bắt nạt, Tôi mất ngủ. Đã bác sĩ kê thuốc nhưng sợ uống, có phải bị bệnh không?", "label": "complex_consultation"}
+{"text": "đổi công việc, Tôi hay quên. Đã bác sĩ kê thuốc nhưng sợ uống, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "Tôi tủi thân lắm cãi nhau với bạn nên k biết làm sao", "label": "emotional_support"}
+{"text": "PTSD chữa thế nào?", "label": "informational"}
+{"text": "crush có người yêu, Người mới đi làm như em stress. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "Em hay stress, dùng thuốc gì?", "label": "informational"}
+{"text": "thi trượt, Em tuyệt vọng. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "mất người thân, Người mới đi làm như em đau đầu. Đã uống thuốc 2 tháng vẫn vậy, như này nghiêm trọng không?", "label": "complex_consultation"}
+{"text": "Bác sĩ nói em bị GAD, nguy hiểm không?", "label": "informational"}
+{"text": "Em kiệt sức lắm, bị sếp mắng nên không biết làm sao", "label": "emotional_support"}
+{"text": "bị sếp mắng làm Anh buồn quá đi", "label": "emotional_support"}
+{"text": "kiệt sức quá deadline dí", "label": "emotional_support"}
+{"text": "muốn ngủ một giấc thật dài. Tôi tuyệt vọng vì thi trượt", "label": "high_risk"}
+{"text": "mất người thân, Chị hay quên. Đã uống thuốc 2 tháng vẫn vậy, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "Em hay cô đơn, khác gì buồn thường?", "label": "informational"}
+{"text": "Học sinh như em định muốn chết. đổi công việc làm Học sinh như em không chịu nổi", "label": "high_risk"}
+{"text": "Tôi mệt mỏi quá áp lực tài chính Ai giúp em với", "label": "emotional_support"}
+{"text": "trống rỗng quá, crush có người yêu", "label": "emotional_support"}
+{"text": "Test ra em có xu hướng hoảng sợ, có di truyền không?", "label": "informational"}
+{"text": "tủi thân quá rồi, sau sinh. Bản thân em muốn treo cổ", "label": "high_risk"}
+{"text": "sau thi đại học, Chị sụt cân. Đã thử CBT rồi nhưng không hiệu quả, như này nghiêm trọng không?", "label": "complex_consultation"}
+{"text": "sau sinh, Mẹ bỉm sữa như mình ăn không ngon. Đã bác sĩ kê thuốc nhưng sợ uống, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "Cho hỏi sợ xã hội chữa thế nào?", "label": "informational"}
+{"text": "Chị áp lực lắm, deadline dí nên không biết làm sao", "label": "emotional_support"}
+{"text": "Mọi người cho hỏi ADHD cần khám ở đâu?", "label": "informational"}
+{"text": "Bác sĩ nói em bị sợ xã hội, cần khám ở đâu?", "label": "informational"}
+{"text": "bị sếp mắng làm Sinh viên như mình chán quá đi", "label": "emotional_support"}
+{"text": "thi trượt, Chị tuyệt vọng. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "bị sếp mắng, Mẹ bỉm sữa như mình kiệt sức. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "Dạo này cô đơn vì thi trượt", "label": "emotional_support"}
+{"text": "cô đơn vì crush có người yêu Tâm sự chút được không huhu", "label": "emotional_support"}
+{"text": "đã viết thư cho mọi người. Tôi chán vì vừa chia tay", "label": "high_risk"}
+{"text": "từ lúc bị tai nạn làm Tôi mệt mỏi. cuộc sống vô nghĩa", "label": "high_risk"}
+{"text": "sau thi đại học, Tớ tim đập nhanh. Đã uống thuốc 2 tháng vẫn vậy, có cần nhập viện không?", "label": "complex_consultation"}
+{"text": "Nghe nói mất ngủ, có triệu chứng gì?", "label": "informational"}
+{"text": "Mẹ bỉm sữa như mình bị tim đập nhanh mất người thân. Suốt tim đập nhanh, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Con bị hay quên sau thi đại học. Mấy tuần nay hay quên, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "sau thi đại học, Người mới đi làm như em không tập trung. Đã đã đi khám nhưng không đỡ, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "Ad ơi ADHD có tự khỏi được không?", "label": "informational"}
+{"text": "Ad ơi hoảng sợ cần khám ở đâu?", "label": "informational"}
+{"text": "Mọi người cho hỏi burnout có triệu chứng gì?", "label": "informational"}
+{"text": "đổi công việc làm Em áp lực. muốn biến mất", "label": "high_risk"}
+{"text": "bị bắt nạt, giờ Học sinh như em vừa hay quên vừa cáu gắt. Bác sĩ chẩn đoán giúp em?", "label": "complex_consultation"}
+{"text": "sau ly hôn, Em sụt cân. Đã bác sĩ kê thuốc nhưng sợ uống, có cần nhập viện không?", "label": "complex_consultation"}
+{"text": "Haizzz tuyệt vọng, áp lực tài chính huhu", "label": "emotional_support"}
+{"text": "Người mới đi làm như em cảm thấy cuộc sống vô nghĩa do sau sinh. sắp xếp xong mọi thứ rồi", "label": "high_risk"}
+{"text": "sau thi đại học, Con khó thở. Đã uống thuốc 2 tháng vẫn vậy, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "Cháu bị cáu gắt sau sinh. Mấy tuần nay cáu gắt, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "đổi công việc, Cháu mất ngủ. Đã đã đi khám nhưng không đỡ, có cần nhập viện không?", "label": "complex_consultation"}
+{"text": "Test ra em có xu hướng PTSD, khác gì buồn thường?", "label": "informational"}
+{"text": "Tôi bị mất ngủ sau sinh. Gần tháng mất ngủ, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "mệt mỏi quá rồi, đổi công việc. Con muốn kết thúc cuộc đời", "label": "high_risk"}
+{"text": "stress quá mất việc", "label": "emotional_support"}
+{"text": "Ad ơi lo âu khác gì buồn thường?", "label": "informational"}
+{"text": "Cháu mệt mỏi lắm, thi trượt nên không biết làm sao", "label": "emotional_support"}
+{"text": "Tớ cảm thấy cuộc sống vô nghĩa do mất người thân. không còn lý do để ở lại", "label": "high_risk"}
+{"text": "sau sinh, Em khó thở. Đã uống thuốc 2 tháng vẫn vậy, như này nghiêm trọng không?", "label": "complex_consultation"}
+{"text": "bị bạn xa lánh, Mẹ bỉm sữa như mình tuyệt vọng. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "Mình bất lực lắm, bố mẹ không hiểu nên không biết làm sao", "label": "emotional_support"}
+{"text": "Sinh viên như mình định tự tử. từ lúc bị tai nạn làm Sinh viên như mình không chịu nổi", "label": "high_risk"}
+{"text": "deadline dí làm Tôi cô đơn quá đi", "label": "emotional_support"}
+{"text": "bị sếp mắng làm Chị tủi thân vcl đi", "label": "emotional_support"}
+{"text": "cô đơn quá rồi, đổi công việc. Học sinh như em muốn tự tử", "label": "high_risk"}
+{"text": "tủi thân quá rồi, bị bắt nạt. Tớ muốn uống thuốc ngủ", "label": "high_risk"}
+{"text": "áp lực vì thi trượt. Tâm sự chút được không 😞", "label": "emotional_support"}
+{"text": "Người thân em có dấu hiệu stress, khác gì buồn thường?", "label": "informational"}
+{"text": "Mẹ bỉm sữa như mình tủi thân lắm, bị sếp mắng nên không biết làm sao haizzz", "label": "emotional_support"}
+{"text": "cãi nhau với bạn làm Học sinh như em kiệt sức quá đi", "label": "emotional_support"}
+{"text": "deadline dí Bản thân em áp lực Cần người nói chuyện", "label": "emotional_support"}
+{"text": "sau sinh, giờ Mình vừa đau đầu vừa sụt cân. Bác sĩ chẩn đoán giúp em?", "label": "complex_consultation"}
+{"text": "Bản thân em bị sợ đám đông bị bắt nạt. Suốt sợ đám đông, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "bố mẹ không hiểu làm Con tuyệt vọng. muốn ngủ một giấc thật dài", "label": "high_risk"}
+{"text": "sau sinh, Người mới đi làm như em sụt cân. Đã bác sĩ kê thuốc nhưng sợ uống, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "Test ra em có xu hướng sợ xã hội, nguy hiểm không?", "label": "informational"}
+{"text": "tuyệt vọng quá bố mẹ không hiểu", "label": "emotional_support"}
+{"text": "Người mới đi làm như em mệt mỏi quá rồi do mất việc. muốn ngủ một giấc thật dài", "label": "high_risk"}
+{"text": "mất việc làm Cháu mệt mỏi quá đi", "label": "emotional_support"}
+{"text": "Bác sĩ nói em bị hoảng sợ, có tự khỏi được không?", "label": "informational"}
+{"text": "Người thân em có dấu hiệu PTSD, cần khám ở đâu?", "label": "informational"}
+{"text": "Em hay kiệt sức, có tự khỏi được không?", "label": "informational"}
+{"text": "Chị bị đau đầu bị bắt nạt. Mấy tuần nay đau đầu, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "bị sếp mắng làm Học sinh như em stress. mọi người tốt hơn nếu không có em", "label": "high_risk"}
+{"text": "Dạo này chán vì cãi nhau với bạn", "label": "emotional_support"}
+{"text": "Em hay bất lực, có tự khỏi được không?", "label": "informational"}
+{"text": "bất lực quá, bị sếp mắng", "label": "emotional_support"}
+{"text": "tủi thân quá rồi, mất người thân. Học sinh như em muốn muốn chết", "label": "high_risk"}
+{"text": "mất việc, Mình trống rỗng. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "sau sinh, Mẹ bỉm sữa như mình không tập trung. Đã uống thuốc 2 tháng vẫn vậy, có cần nhập viện không?", "label": "complex_consultation"}
+{"text": "Tớ định treo cổ. sau sinh làm Tớ không chịu nổi", "label": "high_risk"}
+{"text": "Tớ bị hay quên bị bắt nạt. Suốt hay quên, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Mình trống rỗng quá, thi trượt. Ai giúp em với", "label": "emotional_support"}
+{"text": "Nghe nói mất ngủ, có di truyền không?", "label": "informational"}
+{"text": "buồn vì áp lực tài chính Tâm sự chút được không huhu", "label": "emotional_support"}
+{"text": "Mọi người cho hỏi rối loạn ăn uống có di truyền không?", "label": "informational"}
+{"text": "bố mẹ không hiểu làm Mình cô đơn quá đi", "label": "emotional_support"}
+{"text": "cãi nhau với bạn làm Anh chán quá đi", "label": "emotional_support"}
+{"text": "bị sếp mắng, giờ áp lực vcl", "label": "emotional_support"}
+{"text": "sắp xếp xong mọi thứ rồi. Sinh viên như mình cô đơn vì đổi công việc", "label": "high_risk"}
+{"text": "Mọi người cho hỏi burnout cần khám ở đâu?", "label": "informational"}
+{"text": "stress quá rồi, đổi công việc. Mình muốn nhảy lầu", "label": "high_risk"}
+{"text": "Cho hỏi lo âu có triệu chứng gì?", "label": "informational"}
+{"text": "thi trượt làm Học sinh như em stress quá đi", "label": "emotional_support"}
+{"text": "crush có người yêu, giờ chán vcl", "label": "emotional_support"}
+{"text": "Mọi người cho hỏi GAD có tự khỏi được không?", "label": "informational"}
+{"text": "Chị kiệt sức quá, vừa chia tay. Ai giúp em với", "label": "emotional_support"}
+{"text": "áp lực tài chính Chị stress Cần người nói chuyện", "label": "emotional_support"}
+{"text": "Chị cô đơn quá, bị sếp mắng. Ai giúp em với", "label": "emotional_support"}
+{"text": "Học sinh như em bất lực lắm, vừa chia tay nên không biết làm sao", "label": "emotional_support"}
+{"text": "áp lực tài chính, Em kiệt sức. Cần người nói chuyện 😢", "label": "emotional_support"}
+{"text": "Anh mệt mỏi quá rồi do deadline dí. mọi người tốt hơn nếu không có em", "label": "high_risk"}
+{"text": "sau ly hôn, Học sinh như em sụt cân. Đã thử CBT rồi nhưng không hiệu quả, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "kiệt sức quá, thi trượt 🥺", "label": "emotional_support"}
+{"text": "mệt mỏi quá, crush có người yêu 😭", "label": "emotional_support"}
+{"text": "deadline dí làm Chị tuyệt vọng. muốn biến mất", "label": "high_risk"}
+{"text": "Chị bị cáu gắt sau thi đại học. Suốt cáu gắt, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "áp lực nợ nần, giờ Người mới đi làm như em buồn và muốn kết thúc cuộc đời. Xin lỗi mọi người", "label": "high_risk"}
+{"text": "Haizzz buồn bị bạn xa lánh", "label": "emotional_support"}
+{"text": "Học sinh như em bị không tập trung sau ly hôn. Suốt không tập trung, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "Tôi bị run tay bị bắt nạt. Suốt run tay, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "bị sếp mắng làm Sinh viên như mình tủi thân quá đi", "label": "emotional_support"}
+{"text": "Em mệt mỏi quá rồi do thi trượt. không còn lý do để ở lại", "label": "high_risk"}
+{"text": "mất người thân, giờ Bản thân em vừa sợ đám đông vừa run tay. Bác sĩ chẩn đoán giúp em?", "label": "complex_consultation"}
+{"text": "từ lúc bị tai nạn, Em khó thở. Đã đã đi khám nhưng không đỡ, như này nghiêm trọng không?", "label": "complex_consultation"}
+{"text": "bố mẹ không hiểu, Em chán. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "sau thi đại học, giờ Tôi vừa mất ngủ vừa sợ đám đông. Bác sĩ chẩn đoán giúp em?", "label": "complex_consultation"}
+{"text": "Chị áp lực quá, bị bạn xa lánh. Ai giúp em với", "label": "emotional_support"}
+{"text": "vừa chia tay làm Con stress. mọi người tốt hơn nếu không có em", "label": "high_risk"}
+{"text": "chán quá mất việc huhu", "label": "emotional_support"}
+{"text": "sau thi đại học, Tôi hay quên. Đã đã đi khám nhưng không đỡ, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "Mọi người cho hỏi OCD test như thế nào?", "label": "informational"}
+{"text": "Em hay cô đơn, nguy hiểm không?", "label": "informational"}
+{"text": "Mọi người cho hỏi PTSD có tự khỏi được không?", "label": "informational"}
+{"text": "Sinh viên như mình áp lực quá cãi nhau với bạn Ai giúp em với", "label": "emotional_support"}
+{"text": "Học sinh như em stress lắm, vừa chia tay nên không biết làm sao", "label": "emotional_support"}
+{"text": "mất việc, giờ mệt mỏi vcl", "label": "emotional_support"}
+{"text": "đổi công việc, giờ Mình trống rỗng và muốn nhảy lầu. Xin lỗi mọi người", "label": "high_risk"}
+{"text": "từ lúc bị tai nạn, Cháu đau đầu. Đã đã đi khám nhưng không đỡ, nên làm gì bây giờ?", "label": "complex_consultation"}
+{"text": "Tôi bị đau đầu sau sinh. Mấy tuần nay đau đầu, có phải bệnh không?", "label": "complex_consultation"}
+{"text": "bị bắt nạt làm Mẹ bỉm sữa như mình bất lực. muốn ngủ một giấc thật dài", "label": "high_risk"}
+{"text": "Người thân em có dấu hiệu OCD, có tự khỏi được không?", "label": "informational"}
+{"text": "deadline dí, Tôi chán. Cần người nói chuyện", "label": "emotional_support"}
+{"text": "vừa chia tay, giờ chán vcl", "label": "emotional_support"}
+{"text": "sau ly hôn, Tôi sụt cân. Đã uống thuốc 2 tháng vẫn vậy, có phải bị bệnh không?", "label": "complex_consultation"}
+{"text": "từ lúc bị tai nạn, Sinh viên như mình mất ngủ. Đã bác sĩ kê thuốc nhưng sợ uống, có cần nhập viện không?", "label": "complex_consultation"}
+{"text": "từ lúc bị tai nạn, Mình mất ngủ. Đã bác sĩ kê thuốc nhưng sợ uống, như này nghiêm trọng không?", "label": "complex_consultation"}
+{"text": "áp lực nợ nần, giờ Mẹ bỉm sữa như mình buồn và muốn kết thúc cuộc đời. Xin lỗi mọi người", "label": "high_risk"}
+{"text": "Con buồn quá, bố mẹ không hiểu. Ai giúp em với", "label": "emotional_support"}
+{"text": "đổi công việc, Bản thân em sụt cân. Đã đã đi khám nhưng không đỡ, như này nghiêm trọng không?", "label": "complex_consultation"}

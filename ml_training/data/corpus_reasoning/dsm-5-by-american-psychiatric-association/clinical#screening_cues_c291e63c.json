@@ -1,0 +1,16 @@
+{
+  "id": "clinical#screening_cues_c291e63c",
+  "content": "Early onset: If onset is before age 21 years.\nLate onset: If onset is at age 21 years or older.\nSpecify if (for most recent 2 years of persistent depressive disorder):\nWith pure dysthymic syndrome: Full criteria for a major depres-\nsive episode have not been met in at least the preceding 2 years.\nWith persistent major depressive episode: Full criteria for a\nmajor depressive episode have been met throughout the preced-\ning 2-year period.\nWith intermittent major depressive episodes, with current\nepisode: Full criteria for a major depressive episode are currently\nmet, but there have been periods of at least 8 weeks in at least\nthe preceding 2 years with symptoms below the threshold for a\nfull major depressive episode.\nWith intermittent major depressive episodes, without cur-\nrent episode: Full criteria for a major depressive episode are not\ncurrently met, but there has been one or more major depressive\nepisodes in at least the preceding 2 years.\nSpecify current severity:\nMild (p. 114)\nModerate (p. 114)\nSevere (p. 114)\n100 Depressive Disorders\nPremenstrual Dysphoric Disorder\n625.4 (N94.3)\nA. In the majority of menstrual cycles, at least five symptoms must",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Early onset: If onset is before age 21 years.\nLate onset: If onset is at age 21 years or older.\nSpecify if (for most recent 2 years of persistent depressive disorder):\nWith pure dysthymic syndrome: Full criteria for a major depres-\nsive episode have not been met in at least the preceding 2 years.\nWith persistent major depressive episode: Full criteria for a\nmajor depressive episode have been met throughout the preced-\ning 2-year period.\nWith intermittent major depressive episodes, with current\nepisode: Full criteria for a major depressive episode are currently\nmet, but there have been periods of at least 8 weeks in at least\nthe preceding 2 years with symptoms below the threshold for a\nfull major depressive episode.\nWith intermittent major depressive episodes, without cur-\nrent episode: Full criteria for a major depressive episode are not\ncurrently met, but there has been one or more major depressive\nepisodes in at least the preceding 2 years.\nSpecify current severity:\nMild (p. 114)\nModerate (p. 114)\nSevere (p. 114)\n100 Depressive Disorders\nPremenstrual Dysphoric Disorder\n625.4 (N94.3)\nA. In the majority of menstrual cycles, at least five symptoms must Early onset: if onset is before age 21 years. late onset: if onset is at age 21 years or older."
+}

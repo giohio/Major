@@ -1,0 +1,19 @@
+{
+  "id": "clinical#screening_cues_dd762fbe",
+  "content": "In sustained remission: After full criteria for tobacco use disor-\nder were previously met, none of the criteria for tobacco use dis-\norder have been met at any time during a period of 12 months or\nlonger (with the exception that Criterion A4, “Craving, or a strong\ndesire or urge to use tobacco,” may be met).\nSpecify if:\nOn maintenance therapy: The individual is taking a long-term\nmaintenance medication, such as nicotine replacement medica-\ntion, and no criteria for tobacco use disorder have been met for\nthat class of medication (except tolerance to, or withdrawal from,\nthe nicotine replacement medication).\nIn a controlled environment: This additional specifier is used if\nthe individual is in an environment where access to tobacco is re-\nstricted.\nCoding based on current severity: Note for ICD-10-CM codes: If a to-\nbacco withdrawal or tobacco-induced sleep disorder is also present, do\nnot use the codes below for tobacco use disorder. Instead, the comor-\nbid tobacco use disorder is indicated in the 4th character of the tobacco-\ninduced disorder code (see the coding note for tobacco withdrawal or\ntobacco-induced sleep disorder). For example, if there is comorbid to-\nbacco-induced sleep disorder and tobacco use disorder, only the",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues In sustained remission: After full criteria for tobacco use disor-\nder were previously met, none of the criteria for tobacco use dis-\norder have been met at any time during a period of 12 months or\nlonger (with the exception that Criterion A4, “Craving, or a strong\ndesire or urge to use tobacco,” may be met).\nSpecify if:\nOn maintenance therapy: The individual is taking a long-term\nmaintenance medication, such as nicotine replacement medica-\ntion, and no criteria for tobacco use disorder have been met for\nthat class of medication (except tolerance to, or withdrawal from,\nthe nicotine replacement medication).\nIn a controlled environment: This additional specifier is used if\nthe individual is in an environment where access to tobacco is re-\nstricted.\nCoding based on current severity: Note for ICD-10-CM codes: If a to-\nbacco withdrawal or tobacco-induced sleep disorder is also present, do\nnot use the codes below for tobacco use disorder. Instead, the comor-\nbid tobacco use disorder is indicated in the 4th character of the tobacco-\ninduced disorder code (see the coding note for tobacco withdrawal or\ntobacco-induced sleep disorder). For example, if there is comorbid to-\nbacco-induced sleep disorder and tobacco use disorder, only the In sustained remission: after full criteria for tobacco use disor-\nder were previously met, none of the criteria for tobacco use dis-\norder have been met at any time during a period of 12 months or\nlonger (with the excep..."
+}

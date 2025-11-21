@@ -29,7 +29,8 @@ class User(db.Model):
     # Relationships
     chat_sessions = db.relationship('ChatSession', backref='user', lazy='dynamic', cascade='all, delete-orphan')
     emotions = db.relationship('EmotionLog', backref='user', lazy='dynamic', cascade='all, delete-orphan')
-    alerts = db.relationship('Alert', backref='user', lazy='dynamic', cascade='all, delete-orphan')
+    alerts = db.relationship('Alert', foreign_keys='Alert.user_id', backref='user', lazy='dynamic', cascade='all, delete-orphan')
+    resolved_alerts = db.relationship('Alert', foreign_keys='Alert.resolved_by', backref='resolver', lazy='dynamic')
     
     # For doctors
     doctor_profile = db.relationship('DoctorProfile', backref='user', uselist=False, cascade='all, delete-orphan')
@@ -276,4 +277,370 @@ class Exercise(db.Model):
             'duration_minutes': self.duration_minutes,
             'instructions': self.instructions,
             'benefits': self.benefits
+        }
+
+
+class Plan(db.Model):
+    __tablename__ = 'plans'
+    
+    id = db.Column(db.Integer, primary_key=True)
+    
+    name = db.Column(db.String(100), nullable=False, unique=True)  # Free, Pro, Clinical, Doctor Basic, Doctor Pro
+    description = db.Column(db.Text, nullable=True)
+    user_type = db.Column(db.String(20), nullable=False)  # user, doctor
+    
+    # Pricing
+    price_monthly = db.Column(db.Numeric(10, 2), default=0)
+    price_yearly = db.Column(db.Numeric(10, 2), default=0)
+    
+    # Features
+    chat_limit = db.Column(db.Integer, default=-1)  # -1 = unlimited
+    voice_enabled = db.Column(db.Boolean, default=False)
+    video_enabled = db.Column(db.Boolean, default=False)
+    empathy_layer_enabled = db.Column(db.Boolean, default=False)
+    doctor_access = db.Column(db.Boolean, default=False)
+    priority_support = db.Column(db.Boolean, default=False)
+    
+    # Doctor specific
+    max_patients = db.Column(db.Integer, default=0)  # Only for doctor plans
+    can_assign_plans = db.Column(db.Boolean, default=False)
+    analytics_access = db.Column(db.Boolean, default=False)
+    
+    is_active = db.Column(db.Boolean, default=True)
+    
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'name': self.name,
+            'description': self.description,
+            'user_type': self.user_type,
+            'price_monthly': float(self.price_monthly) if self.price_monthly else 0,
+            'price_yearly': float(self.price_yearly) if self.price_yearly else 0,
+            'chat_limit': self.chat_limit,
+            'voice_enabled': self.voice_enabled,
+            'video_enabled': self.video_enabled,
+            'empathy_layer_enabled': self.empathy_layer_enabled,
+            'doctor_access': self.doctor_access,
+            'priority_support': self.priority_support,
+            'max_patients': self.max_patients,
+            'can_assign_plans': self.can_assign_plans,
+            'analytics_access': self.analytics_access,
+            'is_active': self.is_active
+        }
+
+
+class Payment(db.Model):
+    __tablename__ = 'payments'
+    
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False, index=True)
+    plan_id = db.Column(db.Integer, db.ForeignKey('plans.id'), nullable=False)
+    
+    amount = db.Column(db.Numeric(10, 2), nullable=False)
+    currency = db.Column(db.String(10), default='VND')
+    
+    payment_method = db.Column(db.String(50), nullable=False)  # vnpay, momo, stripe, bank_transfer
+    payment_status = db.Column(db.String(20), default='pending')  # pending, completed, failed, refunded
+    
+    transaction_id = db.Column(db.String(200), unique=True, nullable=True)
+    payment_gateway_response = db.Column(db.Text, nullable=True)  # JSON response from gateway
+    
+    billing_cycle = db.Column(db.String(20), nullable=False)  # monthly, yearly
+    
+    created_at = db.Column(db.DateTime, default=datetime.utcnow, index=True)
+    completed_at = db.Column(db.DateTime, nullable=True)
+    
+    # Relationships
+    user = db.relationship('User', backref='payments')
+    plan = db.relationship('Plan', backref='payments')
+    
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'user_id': self.user_id,
+            'plan_id': self.plan_id,
+            'amount': float(self.amount),
+            'currency': self.currency,
+            'payment_method': self.payment_method,
+            'payment_status': self.payment_status,
+            'transaction_id': self.transaction_id,
+            'billing_cycle': self.billing_cycle,
+            'created_at': self.created_at.isoformat() if self.created_at else None,
+            'completed_at': self.completed_at.isoformat() if self.completed_at else None
+        }
+
+
+class PatientRecord(db.Model):
+    __tablename__ = 'patient_records'
+    
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False, index=True)
+    doctor_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=True)
+    
+    # Medical info
+    diagnosis = db.Column(db.Text, nullable=True)
+    medications = db.Column(db.Text, nullable=True)  # JSON array
+    allergies = db.Column(db.String(500), nullable=True)
+    medical_history = db.Column(db.Text, nullable=True)
+    
+    # Emergency contact
+    emergency_contact_name = db.Column(db.String(100), nullable=True)
+    emergency_contact_phone = db.Column(db.String(20), nullable=True)
+    emergency_contact_relationship = db.Column(db.String(50), nullable=True)
+    
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    
+    # Relationships
+    user = db.relationship('User', foreign_keys=[user_id], backref='patient_record')
+    doctor = db.relationship('User', foreign_keys=[doctor_id], backref='assigned_patients')
+    
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'user_id': self.user_id,
+            'doctor_id': self.doctor_id,
+            'diagnosis': self.diagnosis,
+            'medications': self.medications,
+            'allergies': self.allergies,
+            'medical_history': self.medical_history,
+            'emergency_contact_name': self.emergency_contact_name,
+            'emergency_contact_phone': self.emergency_contact_phone,
+            'emergency_contact_relationship': self.emergency_contact_relationship,
+            'updated_at': self.updated_at.isoformat() if self.updated_at else None
+        }
+
+
+class DoctorNote(db.Model):
+    __tablename__ = 'doctor_notes'
+    
+    id = db.Column(db.Integer, primary_key=True)
+    doctor_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    patient_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False, index=True)
+    session_id = db.Column(db.Integer, db.ForeignKey('chat_sessions.id'), nullable=True)
+    
+    note_type = db.Column(db.String(50), nullable=False)  # assessment, progress, treatment_plan, prescription
+    title = db.Column(db.String(200), nullable=False)
+    content = db.Column(db.Text, nullable=False)
+    
+    is_private = db.Column(db.Boolean, default=True)  # Private notes not visible to patient
+    
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    
+    # Relationships
+    doctor = db.relationship('User', foreign_keys=[doctor_id], backref='notes_written')
+    patient = db.relationship('User', foreign_keys=[patient_id], backref='medical_notes')
+    
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'doctor_id': self.doctor_id,
+            'patient_id': self.patient_id,
+            'session_id': self.session_id,
+            'note_type': self.note_type,
+            'title': self.title,
+            'content': self.content,
+            'is_private': self.is_private,
+            'created_at': self.created_at.isoformat() if self.created_at else None,
+            'updated_at': self.updated_at.isoformat() if self.updated_at else None
+        }
+
+
+class Task(db.Model):
+    __tablename__ = 'tasks'
+    
+    id = db.Column(db.Integer, primary_key=True)
+    patient_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False, index=True)
+    assigned_by = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)  # Doctor or system
+    exercise_id = db.Column(db.Integer, db.ForeignKey('exercises.id'), nullable=True)
+    
+    title = db.Column(db.String(200), nullable=False)
+    description = db.Column(db.Text, nullable=True)
+    task_type = db.Column(db.String(50), nullable=False)  # exercise, homework, journal, cbt, meditation
+    
+    status = db.Column(db.String(20), default='pending')  # pending, in_progress, completed, skipped
+    
+    due_date = db.Column(db.DateTime, nullable=True)
+    completed_at = db.Column(db.DateTime, nullable=True)
+    
+    patient_notes = db.Column(db.Text, nullable=True)  # Patient's reflection after completing
+    
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    
+    # Relationships
+    patient = db.relationship('User', foreign_keys=[patient_id], backref='tasks')
+    assigner = db.relationship('User', foreign_keys=[assigned_by], backref='tasks_assigned')
+    exercise = db.relationship('Exercise', backref='tasks')
+    
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'patient_id': self.patient_id,
+            'assigned_by': self.assigned_by,
+            'exercise_id': self.exercise_id,
+            'title': self.title,
+            'description': self.description,
+            'task_type': self.task_type,
+            'status': self.status,
+            'due_date': self.due_date.isoformat() if self.due_date else None,
+            'completed_at': self.completed_at.isoformat() if self.completed_at else None,
+            'patient_notes': self.patient_notes,
+            'created_at': self.created_at.isoformat() if self.created_at else None
+        }
+
+
+class TherapySession(db.Model):
+    __tablename__ = 'therapy_sessions'
+    
+    id = db.Column(db.Integer, primary_key=True)
+    doctor_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    patient_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False, index=True)
+    appointment_id = db.Column(db.Integer, db.ForeignKey('appointments.id'), nullable=True)
+    
+    session_type = db.Column(db.String(20), nullable=False)  # video, audio, chat
+    status = db.Column(db.String(20), default='scheduled')  # scheduled, in_progress, completed, cancelled
+    
+    start_time = db.Column(db.DateTime, nullable=True)
+    end_time = db.Column(db.DateTime, nullable=True)
+    duration_minutes = db.Column(db.Integer, nullable=True)
+    
+    # AI Summary
+    ai_summary = db.Column(db.Text, nullable=True)
+    key_topics = db.Column(db.String(500), nullable=True)  # Comma separated
+    sentiment_analysis = db.Column(db.Text, nullable=True)  # JSON
+    
+    # Video/Audio metadata
+    recording_url = db.Column(db.String(500), nullable=True)
+    transcript = db.Column(db.Text, nullable=True)
+    
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    
+    # Relationships
+    doctor = db.relationship('User', foreign_keys=[doctor_id], backref='sessions_conducted')
+    patient = db.relationship('User', foreign_keys=[patient_id], backref='therapy_sessions')
+    
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'doctor_id': self.doctor_id,
+            'patient_id': self.patient_id,
+            'appointment_id': self.appointment_id,
+            'session_type': self.session_type,
+            'status': self.status,
+            'start_time': self.start_time.isoformat() if self.start_time else None,
+            'end_time': self.end_time.isoformat() if self.end_time else None,
+            'duration_minutes': self.duration_minutes,
+            'ai_summary': self.ai_summary,
+            'key_topics': self.key_topics,
+            'created_at': self.created_at.isoformat() if self.created_at else None
+        }
+
+
+class PsychologicalTest(db.Model):
+    __tablename__ = 'psychological_tests'
+    
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False, index=True)
+    
+    test_type = db.Column(db.String(50), nullable=False)  # PHQ-9, GAD-7, PSS, DASS-21, etc.
+    score = db.Column(db.Integer, nullable=False)
+    max_score = db.Column(db.Integer, nullable=False)
+    severity_level = db.Column(db.String(50), nullable=True)  # minimal, mild, moderate, severe
+    
+    responses = db.Column(db.Text, nullable=True)  # JSON of questions and answers
+    interpretation = db.Column(db.Text, nullable=True)
+    recommendations = db.Column(db.Text, nullable=True)
+    
+    taken_at = db.Column(db.DateTime, default=datetime.utcnow, index=True)
+    
+    # Relationships
+    user = db.relationship('User', backref='psychological_tests')
+    
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'user_id': self.user_id,
+            'test_type': self.test_type,
+            'score': self.score,
+            'max_score': self.max_score,
+            'severity_level': self.severity_level,
+            'interpretation': self.interpretation,
+            'recommendations': self.recommendations,
+            'taken_at': self.taken_at.isoformat() if self.taken_at else None
+        }
+
+
+class ChatFeedback(db.Model):
+    __tablename__ = 'chat_feedbacks'
+    
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    message_id = db.Column(db.Integer, db.ForeignKey('chat_messages.id'), nullable=False)
+    
+    rating = db.Column(db.Integer, nullable=False)  # 1-5 or thumbs up/down (-1, 1)
+    feedback_text = db.Column(db.Text, nullable=True)
+    
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    
+    # Relationships
+    user = db.relationship('User', backref='chat_feedbacks')
+    message = db.relationship('ChatMessage', backref='feedbacks')
+    
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'user_id': self.user_id,
+            'message_id': self.message_id,
+            'rating': self.rating,
+            'feedback_text': self.feedback_text,
+            'created_at': self.created_at.isoformat() if self.created_at else None
+        }
+
+
+class AIModel(db.Model):
+    __tablename__ = 'ai_models'
+    
+    id = db.Column(db.Integer, primary_key=True)
+    
+    name = db.Column(db.String(100), nullable=False, unique=True)  # Qwen, GPT-4, Gemini Pro
+    provider = db.Column(db.String(50), nullable=False)  # openai, google, alibaba
+    model_version = db.Column(db.String(50), nullable=False)
+    
+    is_active = db.Column(db.Boolean, default=True)
+    is_default = db.Column(db.Boolean, default=False)
+    
+    # Performance metrics
+    avg_latency_ms = db.Column(db.Integer, nullable=True)
+    cost_per_1k_tokens = db.Column(db.Numeric(10, 4), nullable=True)
+    accuracy_score = db.Column(db.Numeric(5, 2), nullable=True)
+    
+    # Configuration
+    max_tokens = db.Column(db.Integer, default=4096)
+    temperature = db.Column(db.Numeric(3, 2), default=0.7)
+    
+    description = db.Column(db.Text, nullable=True)
+    
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'name': self.name,
+            'provider': self.provider,
+            'model_version': self.model_version,
+            'is_active': self.is_active,
+            'is_default': self.is_default,
+            'avg_latency_ms': self.avg_latency_ms,
+            'cost_per_1k_tokens': float(self.cost_per_1k_tokens) if self.cost_per_1k_tokens else None,
+            'accuracy_score': float(self.accuracy_score) if self.accuracy_score else None,
+            'max_tokens': self.max_tokens,
+            'temperature': float(self.temperature),
+            'description': self.description
         }

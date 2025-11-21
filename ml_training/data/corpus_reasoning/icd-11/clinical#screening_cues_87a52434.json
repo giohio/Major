@@ -1,0 +1,20 @@
+{
+  "id": "clinical#screening_cues_87a52434",
+  "content": "medication.\n• The intensity or duration of the psychotic symptoms is substantially in excess of psychotic-\nlike disturbances of perception, cognition or behaviour that are characteristic of intoxication\nor withdrawal due to the specified substance.\n• The specified substance, as well as the amount and duration of its use, is known to be\ncapable of producing psychotic symptoms (see the list above and Table 6.14, p. 454).\n• The symptoms are not better accounted for by another mental disorder such as schizophrenia\nor a mood disorder with psychotic symptoms. Evidence supporting a diagnosis of\nanother mental disorder would include psychotic symptoms preceding the onset of the\nsubstance use, the symptoms persisting for a substantial period of time after cessation of\nthe substance, or medication use or withdrawal (e.g. 1 month or more depending on the\nspecific substance), or other evidence of a pre-existing mental disorder with psychotic\nsymptoms (e.g. a history of prior episodes not associated with substance use).\n• The symptoms are not a manifestation of another medical condition.\n• The symptoms result in significant distress or significant impairment in personal, family,\nsocial, educational, occupational or other important areas of functioning.\nSpecifiers for substance-induced psychotic symptoms",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "relationships",
+      "screening_cues",
+      "management",
+      "psychoeducation"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues medication.\n• The intensity or duration of the psychotic symptoms is substantially in excess of psychotic-\nlike disturbances of perception, cognition or behaviour that are characteristic of intoxication\nor withdrawal due to the specified substance.\n• The specified substance, as well as the amount and duration of its use, is known to be\ncapable of producing psychotic symptoms (see the list above and Table 6.14, p. 454).\n• The symptoms are not better accounted for by another mental disorder such as schizophrenia\nor a mood disorder with psychotic symptoms. Evidence supporting a diagnosis of\nanother mental disorder would include psychotic symptoms preceding the onset of the\nsubstance use, the symptoms persisting for a substantial period of time after cessation of\nthe substance, or medication use or withdrawal (e.g. 1 month or more depending on the\nspecific substance), or other evidence of a pre-existing mental disorder with psychotic\nsymptoms (e.g. a history of prior episodes not associated with substance use).\n• The symptoms are not a manifestation of another medical condition.\n• The symptoms result in significant distress or significant impairment in personal, family,\nsocial, educational, occupational or other important areas of functioning.\nSpecifiers for substance-induced psychotic symptoms Medication. • the intensity or duration of the psychotic symptoms is substantially in excess of psychotic-\nlike disturbances of perception, cognition or behaviour that are characteristic of intoxication\nor withdrawal due..."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "clinical#risk_safety_1617f012",
+  "content": "rocognitive disorder.\nCoding note: For major neurocognitive disorder probably due to\nParkinson’s disease, with behavioral disturbance, code first 332.0\n(G20) Parkinson’s disease, followed by 294.11 (F02.81) major neu-\nrocognitive disorder probably due to Parkinson’s disease, with behav-\nioral disturbance. For major neurocognitive disorder probably due to\nParkinson’s disease, without behavioral disturbance, code first 332.0\n(G20) Parkinson’s disease, followed by 294.10 (F02.80) major neu-\nrocognitive disorder probably due to Parkinson’s disease, without be-\nhavioral disturbance.\nFor major neurocognitive disorder possibly due to Parkinson’s dis-\nease, code 331.9 (G31.9) major neurocognitive disorder possibly\ndue to Parkinson’s disease. (Note: Do not use the additional code for\nParkinson’s disease. Behavioral disturbance cannot be coded but\nshould still be indicated in writing.)\nFor mild neurocognitive disorder due to Parkinson’s disease, code\n331.83 (G31.84). (Note: Do not use the additional code for Parkin-\nson’s disease. Behavioral disturbance cannot be coded but should\nstill be indicated in writing.)\nMajor or Mild Neurocognitive Disorder\nDue to Huntington’s Disease\nA. The criteria are met for major or mild neurocognitive disorder.\nB. There is insidious onset and gradual progression.\n318 Neurocognitive Disorders\nC. There is clinically established Huntington’s disease, or risk for",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "risk_safety",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Risk Safety rocognitive disorder.\nCoding note: For major neurocognitive disorder probably due to\nParkinson’s disease, with behavioral disturbance, code first 332.0\n(G20) Parkinson’s disease, followed by 294.11 (F02.81) major neu-\nrocognitive disorder probably due to Parkinson’s disease, with behav-\nioral disturbance. For major neurocognitive disorder probably due to\nParkinson’s disease, without behavioral disturbance, code first 332.0\n(G20) Parkinson’s disease, followed by 294.10 (F02.80) major neu-\nrocognitive disorder probably due to Parkinson’s disease, without be-\nhavioral disturbance.\nFor major neurocognitive disorder possibly due to Parkinson’s dis-\nease, code 331.9 (G31.9) major neurocognitive disorder possibly\ndue to Parkinson’s disease. (Note: Do not use the additional code for\nParkinson’s disease. Behavioral disturbance cannot be coded but\nshould still be indicated in writing.)\nFor mild neurocognitive disorder due to Parkinson’s disease, code\n331.83 (G31.84). (Note: Do not use the additional code for Parkin-\nson’s disease. Behavioral disturbance cannot be coded but should\nstill be indicated in writing.)\nMajor or Mild Neurocognitive Disorder\nDue to Huntington’s Disease\nA. The criteria are met for major or mild neurocognitive disorder.\nB. There is insidious onset and gradual progression.\n318 Neurocognitive Disorders\nC. There is clinically established Huntington’s disease, or risk for Rocognitive disorder. coding note: for major neurocognitive disorder probably due to\nparkinson’s disease, with behavioral disturbance, code first 332.0\n(g20) parkinson’s disease, followed by 294.11 (f02.81) major neu-\nro..."
+}

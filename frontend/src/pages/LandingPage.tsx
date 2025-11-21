@@ -52,13 +52,16 @@ const LandingPage = () => {
             </div> */}
 =======
       <section 
+        className="hero-section-custom"
         style={{
           position: 'relative',
-          minHeight: '350px',
+          minHeight: '650px',
+          height: 'calc(100vh - 80px)',
+          maxHeight: '800px',
           display: 'flex',
           alignItems: 'center',
           overflow: 'hidden',
-          padding: '30px 0 20px',
+          padding: '60px 0 40px',
           marginTop: '80px'
         }}
       >
@@ -74,13 +77,15 @@ const LandingPage = () => {
         >
           <img 
             src={heroImage} 
-            alt="MindCare AI Background" 
+            alt="MindCare AI Background"
+            className="hero-image-custom"
             style={{
-              width: '100%',
+              width: 'auto',
               height: '100%',
+              minWidth: '100%',
               objectFit: 'cover',
-              objectPosition: 'center',
-              filter: 'brightness(1.1)'
+              objectPosition: 'center center',
+              filter: 'brightness(1.05) contrast(1.05)'
             }}
           />
           <div 
@@ -90,7 +95,7 @@ const LandingPage = () => {
               left: 0,
               width: '100%',
               height: '100%',
-              background: 'linear-gradient(to right, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.3) 35%, rgba(255, 255, 255, 0.1) 65%, transparent 100%)'
+              background: 'linear-gradient(to right, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.2) 40%, rgba(255, 255, 255, 0.05) 70%, transparent 100%)'
             }}
           />
         </div>
@@ -541,6 +546,39 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Floating Talk with Us Button */}
+      <Link 
+        to="/chat"
+        style={{
+          position: 'fixed',
+          bottom: '30px',
+          right: '30px',
+          background: '#4FD1C7',
+          color: 'white',
+          padding: '14px 28px',
+          borderRadius: '30px',
+          fontSize: '0.95rem',
+          fontWeight: 600,
+          textDecoration: 'none',
+          boxShadow: '0 4px 20px rgba(79, 209, 199, 0.4)',
+          transition: 'all 0.3s ease',
+          zIndex: 1000,
+          display: 'flex',
+          alignItems: 'center',
+          gap: '8px'
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.transform = 'translateY(-2px)';
+          e.currentTarget.style.boxShadow = '0 6px 25px rgba(79, 209, 199, 0.5)';
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.transform = 'translateY(0)';
+          e.currentTarget.style.boxShadow = '0 4px 20px rgba(79, 209, 199, 0.4)';
+        }}
+      >
+        💬 Talk with Us
+      </Link>
     </div>
   );
 };

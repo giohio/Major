@@ -1,0 +1,16 @@
+{
+  "id": "clinical#screening_cues_ebd5eef2",
+  "content": "month, and no clinically significant symptoms remain.\n• There have been no previous episodes of schizophrenia or schizoaffective disorder.\n6A20.0Z Schizophrenia, first episode, unspecified\n6A20.1 Schizophrenia, multiple episodes\n• The multiple episodes specifier should be applied when there have been a minimum of two\nepisodes meeting all diagnostic requirements of schizophrenia or schizoaffective disorder\nin terms of symptoms, with a period of partial or full remission between episodes lasting\nat least 3 months, and the current or most recent episode is schizophrenia. Note that the\n1-month duration requirement for the first episode does not necessarily need to be met\nfor subsequent episodes. During the period of remission, the diagnostic requirements of\nschizophrenia are either only partially fulfilled or absent.\n6A20.10 Schizophrenia, multiple episodes, currently symptomatic\n• All symptom requirements for schizophrenia are currently met, or have been met within\nthe past month. Note that the 1-month duration requirement for the first episode does not\nnecessarily need to be met for subsequent episodes.\n• There have been a minimum of two episodes of schizophrenia or a previous episode of\nschizoaffective disorder, with a period of partial or full remission between episodes lasting\nat least 3 months.",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues month, and no clinically significant symptoms remain.\n• There have been no previous episodes of schizophrenia or schizoaffective disorder.\n6A20.0Z Schizophrenia, first episode, unspecified\n6A20.1 Schizophrenia, multiple episodes\n• The multiple episodes specifier should be applied when there have been a minimum of two\nepisodes meeting all diagnostic requirements of schizophrenia or schizoaffective disorder\nin terms of symptoms, with a period of partial or full remission between episodes lasting\nat least 3 months, and the current or most recent episode is schizophrenia. Note that the\n1-month duration requirement for the first episode does not necessarily need to be met\nfor subsequent episodes. During the period of remission, the diagnostic requirements of\nschizophrenia are either only partially fulfilled or absent.\n6A20.10 Schizophrenia, multiple episodes, currently symptomatic\n• All symptom requirements for schizophrenia are currently met, or have been met within\nthe past month. Note that the 1-month duration requirement for the first episode does not\nnecessarily need to be met for subsequent episodes.\n• There have been a minimum of two episodes of schizophrenia or a previous episode of\nschizoaffective disorder, with a period of partial or full remission between episodes lasting\nat least 3 months. Month, and no clinically significant symptoms remain. • there have been no previous episodes of schizophrenia or schizoaffective disorder."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "clinical#screening_cues_ca4fd040",
+  "content": "In early remission: After full criteria for other (or unknown) sub-\nstance use disorder were previously met, none of the criteria for\nother (or unknown) substance use disorder have been met for at\nleast 3 months but for less than 12 months (with the exception\nOther (or Unknown) Substance Use Disorder 279\nthat Criterion A4, “Craving, or a strong desire or urge to use the\nsubstance,” may be met).\nIn sustained remission: After full criteria for other (or unknown)\nsubstance use disorder were previously met, none of the criteria\nfor other (or unknown) substance use disorder have been met at\nany time during a period of 12 months or longer (with the excep-\ntion that Criterion A4, “Craving, or a strong desire or urge to use\nthe substance,” may be met).\nSpecify if:\nIn a controlled environment: This additional specifier is used if\nthe individual is in an environment where access to the sub-\nstance is restricted.\nCoding based on current severity: Note for ICD-10-CM codes: If\nan other (or unknown) substance intoxication, other (or unknown)\nsubstance withdrawal, or another other (or unknown) substance–\ninduced mental disorder is present, do not use the codes below for",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues In early remission: After full criteria for other (or unknown) sub-\nstance use disorder were previously met, none of the criteria for\nother (or unknown) substance use disorder have been met for at\nleast 3 months but for less than 12 months (with the exception\nOther (or Unknown) Substance Use Disorder 279\nthat Criterion A4, “Craving, or a strong desire or urge to use the\nsubstance,” may be met).\nIn sustained remission: After full criteria for other (or unknown)\nsubstance use disorder were previously met, none of the criteria\nfor other (or unknown) substance use disorder have been met at\nany time during a period of 12 months or longer (with the excep-\ntion that Criterion A4, “Craving, or a strong desire or urge to use\nthe substance,” may be met).\nSpecify if:\nIn a controlled environment: This additional specifier is used if\nthe individual is in an environment where access to the sub-\nstance is restricted.\nCoding based on current severity: Note for ICD-10-CM codes: If\nan other (or unknown) substance intoxication, other (or unknown)\nsubstance withdrawal, or another other (or unknown) substance–\ninduced mental disorder is present, do not use the codes below for In early remission: after full criteria for other (or unknown) sub-\nstance use disorder were previously met, none of the criteria for\nother (or unknown) substance use disorder have been met for at\nleast 3 months but for ..."
+}

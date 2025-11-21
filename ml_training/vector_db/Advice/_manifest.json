@@ -1,0 +1,12 @@
+[
+  {
+    "corpus": "mhgap",
+    "num_snippets": 266,
+    "db_path": "E:\\Major\\ml_training\\scripts\\vector_db\\..\\..\\vector_db\\Advice\\mhgap"
+  },
+  {
+    "corpus": "mhgap ver2",
+    "num_snippets": 160,
+    "db_path": "E:\\Major\\ml_training\\scripts\\vector_db\\..\\..\\vector_db\\Advice\\mhgap ver2"
+  }
+]

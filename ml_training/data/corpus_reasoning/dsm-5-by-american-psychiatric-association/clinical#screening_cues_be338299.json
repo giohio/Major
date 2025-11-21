@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_be338299",
+  "content": "Specify current severity:\nMild: Occurs on 25%–50% of occasions of sexual activity.\nModerate: Occurs on 50%–75% of occasions of sexual activity.\nSevere: Occurs on 75% or more of occasions of sexual activity.\nSubstance/Medication-Induced Sexual Dysfunction 211\nRecording Procedures\nICD-9-CM. The name of the substance/medication-induced sexual\ndysfunction begins with the specific substance (e.g., alcohol, fluox-\netine) that is presumed to be causing the sexual dysfunction. The di-\nagnostic code is selected from the table included in the criteria set,\nwhich is based on the drug class. For substances that do not fit into\nany of the classes (e.g., fluoxetine), the code for “other substance”\nshould be used; and in cases in which a substance is judged to be an\netiological factor but the specific class of substance is unknown, the\ncategory “unknown substance” should be used.\nThe name of the disorder is followed by the specification of onset\n(i.e., onset during intoxication, onset during withdrawal, with onset\nafter medication use), followed by the severity specifier (e.g., mild,\nmoderate, severe). Unlike the recording procedures for ICD-10-CM,\nwhich combine the substance-induced disorder and substance use\ndisorder into a single code, for ICD-9-CM a separate diagnostic code",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Specify current severity:\nMild: Occurs on 25%–50% of occasions of sexual activity.\nModerate: Occurs on 50%–75% of occasions of sexual activity.\nSevere: Occurs on 75% or more of occasions of sexual activity.\nSubstance/Medication-Induced Sexual Dysfunction 211\nRecording Procedures\nICD-9-CM. The name of the substance/medication-induced sexual\ndysfunction begins with the specific substance (e.g., alcohol, fluox-\netine) that is presumed to be causing the sexual dysfunction. The di-\nagnostic code is selected from the table included in the criteria set,\nwhich is based on the drug class. For substances that do not fit into\nany of the classes (e.g., fluoxetine), the code for “other substance”\nshould be used; and in cases in which a substance is judged to be an\netiological factor but the specific class of substance is unknown, the\ncategory “unknown substance” should be used.\nThe name of the disorder is followed by the specification of onset\n(i.e., onset during intoxication, onset during withdrawal, with onset\nafter medication use), followed by the severity specifier (e.g., mild,\nmoderate, severe). Unlike the recording procedures for ICD-10-CM,\nwhich combine the substance-induced disorder and substance use\ndisorder into a single code, for ICD-9-CM a separate diagnostic code Specify current severity:\nmild: occurs on 25%–50% of occasions of sexual activity. moderate: occurs on 50%–75% of occasions of sexual activity."
+}

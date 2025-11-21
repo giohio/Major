@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_f2217676",
+  "content": "6A80.2 current depressive episode persistent\n• This specifier can be applied if the diagnostic requirements for a depressive episode are\ncurrently met and have been met continuously (five or more characteristic symptoms\noccurring most of the day, nearly every day) for at least the past 2 years.\n6A80.3 current depressive episode with melancholia\n• This specifier can be applied if, in the context of a current depressive episode, several of\nthe following symptoms have been present during the worst period of the current episode:\n• loss of interest or pleasure in most activities that are normally enjoyable to the individual\n(i.e. pervasive anhedonia);\n• lack of emotional reactivity to normally pleasurable stimuli or circumstances (i.e. mood\ndoes not lift even transiently with exposure);\n• terminal insomnia, i.e. waking in the morning 2 hours or more before the usual time;\n• depressive symptoms that are worse in the morning;\n• marked psychomotor retardation or agitation;\n• marked loss of appetite or loss of weight.\n6A80.4 with seasonal pattern of mood episode onset\n• This specifier can be applied to recurrent depressive disorder if there has been a regular\nseasonal pattern of onset and remission of depressive episodes.\n• A substantial majority of depressive episodes should correspond with the seasonal pattern.\n• A seasonal pattern should be differentiated from an episode that is coincidental with a",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "emotions",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues 6A80.2 current depressive episode persistent\n• This specifier can be applied if the diagnostic requirements for a depressive episode are\ncurrently met and have been met continuously (five or more characteristic symptoms\noccurring most of the day, nearly every day) for at least the past 2 years.\n6A80.3 current depressive episode with melancholia\n• This specifier can be applied if, in the context of a current depressive episode, several of\nthe following symptoms have been present during the worst period of the current episode:\n• loss of interest or pleasure in most activities that are normally enjoyable to the individual\n(i.e. pervasive anhedonia);\n• lack of emotional reactivity to normally pleasurable stimuli or circumstances (i.e. mood\ndoes not lift even transiently with exposure);\n• terminal insomnia, i.e. waking in the morning 2 hours or more before the usual time;\n• depressive symptoms that are worse in the morning;\n• marked psychomotor retardation or agitation;\n• marked loss of appetite or loss of weight.\n6A80.4 with seasonal pattern of mood episode onset\n• This specifier can be applied to recurrent depressive disorder if there has been a regular\nseasonal pattern of onset and remission of depressive episodes.\n• A substantial majority of depressive episodes should correspond with the seasonal pattern.\n• A seasonal pattern should be differentiated from an episode that is coincidental with a 6a80.2 current depressive episode persistent\n• this specifier can be applied if the diagnostic requirements for a depressive episode are\ncurrently met and have been met continuously (five or more characteristic symptoms\n..."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_3fdfb8ee",
+  "content": "of both diagnoses if the diagnostic requirements for both disorders are met at the same time,\nand generally indicates that the other disorder should be diagnosed instead. For example,\nthe CDDR for bulimia nervosa indicate that the diagnosis should only be assigned if the\nsymptoms do not meet the diagnostic requirements for anorexia nervosa, so that individuals\nwho maintain an excessively low body weight by reducing their energy intake through purging\nbehaviour would be assigned only a single diagnosis of anorexia nervosa rather than diagnoses\nof both anorexia nervosa and bulimia nervosa. The presence of bulimia-like behaviour is\nindicated with the binge-purge pattern specifier applied to the diagnosis of anorexia nervosa.\n26 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\n• The second case (“symptoms do not occur exclusively during episodes of”) similarly prevents\ndiagnosing the disorder in question if its symptoms only occur during episodes of another\ndisorder. For example, the CDDR for dissociative amnesia indicate that it should not be\ndiagnosed if the dissociative memory loss occurs only during episodes of trance disorder;\nthe amnestic symptoms are features of trance disorder rather than a separate condition.\n• The third case (“individual has never met the diagnostic requirements for”) prevents",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "emotions",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues of both diagnoses if the diagnostic requirements for both disorders are met at the same time,\nand generally indicates that the other disorder should be diagnosed instead. For example,\nthe CDDR for bulimia nervosa indicate that the diagnosis should only be assigned if the\nsymptoms do not meet the diagnostic requirements for anorexia nervosa, so that individuals\nwho maintain an excessively low body weight by reducing their energy intake through purging\nbehaviour would be assigned only a single diagnosis of anorexia nervosa rather than diagnoses\nof both anorexia nervosa and bulimia nervosa. The presence of bulimia-like behaviour is\nindicated with the binge-purge pattern specifier applied to the diagnosis of anorexia nervosa.\n26 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\n• The second case (“symptoms do not occur exclusively during episodes of”) similarly prevents\ndiagnosing the disorder in question if its symptoms only occur during episodes of another\ndisorder. For example, the CDDR for dissociative amnesia indicate that it should not be\ndiagnosed if the dissociative memory loss occurs only during episodes of trance disorder;\nthe amnestic symptoms are features of trance disorder rather than a separate condition.\n• The third case (“individual has never met the diagnostic requirements for”) prevents Of both diagnoses if the diagnostic requirements for both disorders are met at the same time,\nand generally indicates that the other disorder should be diagnosed instead. for example,\nthe cddr for bulimia nervosa indicat..."
+}

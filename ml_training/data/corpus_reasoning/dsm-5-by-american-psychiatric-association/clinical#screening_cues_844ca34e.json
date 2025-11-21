@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_844ca34e",
+  "content": "V71.02 (Z72.810) Child or Adolescent Antisocial Behavior\nThis category can be used when the focus of clinical attention is anti-\nsocial behavior in a child or adolescent that is not due to a mental dis-\norder (e.g., intermittent explosive disorder, conduct disorder).\nExamples include isolated antisocial acts by children or adolescents\n(not a pattern of antisocial behavior).\nProblems Related to Access to Medical\nand Other Health Care\nV63.9 (Z75.3) Unavailability or Inaccessibility of Health\nCare Facilities\nV63.8 (Z75.4) Unavailability or Inaccessibility of Other\nHelping Agencies\nNonadherence to Medical Treatment\nV15.81 (Z91.19) Nonadherence to Medical Treatment\nThis category can be used when the focus of clinical attention is non-\nadherence to an important aspect of treatment for a mental disorder\nor another medical condition. Reasons for such nonadherence may\ninclude discomfort resulting from treatment (e.g., medication side ef-\nfects), expense of treatment, personal value judgments or religious or\ncultural beliefs about the proposed treatment, age-related debility,\nand the presence of a mental disorder (e.g., schizophrenia, personal-\nity disorder). This category should be used only when the problem is\nsufficiently severe to warrant independent clinical attention and\ndoes not meet diagnostic criteria for psychological factors affecting\nother medical conditions.",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues V71.02 (Z72.810) Child or Adolescent Antisocial Behavior\nThis category can be used when the focus of clinical attention is anti-\nsocial behavior in a child or adolescent that is not due to a mental dis-\norder (e.g., intermittent explosive disorder, conduct disorder).\nExamples include isolated antisocial acts by children or adolescents\n(not a pattern of antisocial behavior).\nProblems Related to Access to Medical\nand Other Health Care\nV63.9 (Z75.3) Unavailability or Inaccessibility of Health\nCare Facilities\nV63.8 (Z75.4) Unavailability or Inaccessibility of Other\nHelping Agencies\nNonadherence to Medical Treatment\nV15.81 (Z91.19) Nonadherence to Medical Treatment\nThis category can be used when the focus of clinical attention is non-\nadherence to an important aspect of treatment for a mental disorder\nor another medical condition. Reasons for such nonadherence may\ninclude discomfort resulting from treatment (e.g., medication side ef-\nfects), expense of treatment, personal value judgments or religious or\ncultural beliefs about the proposed treatment, age-related debility,\nand the presence of a mental disorder (e.g., schizophrenia, personal-\nity disorder). This category should be used only when the problem is\nsufficiently severe to warrant independent clinical attention and\ndoes not meet diagnostic criteria for psychological factors affecting\nother medical conditions. V71.02 (z72.810) child or adolescent antisocial behavior\nthis category can be used when the focus of clinical attention is anti-\nsocial behavior in a child or adolescent that is not due to a mental dis-\norder (e.g., inte..."
+}

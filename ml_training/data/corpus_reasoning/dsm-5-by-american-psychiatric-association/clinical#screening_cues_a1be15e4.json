@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_a1be15e4",
+  "content": "true.\nSpecify if:\nTic-related: The individual has a current or past history of a tic\ndisorder.\nBody Dysmorphic Disorder 131\nBody Dysmorphic Disorder\n300.7 (F45.22)\nA. Preoccupation with one or more perceived defects or flaws in\nphysical appearance that are not observable or appear slight to\nothers.\nB. At some point during the course of the disorder, the individual\nhas performed repetitive behaviors (e.g., mirror checking, exces-\nsive grooming, skin picking, reassurance seeking) or mental acts\n(e.g., comparing his or her appearance with that of others) in re-\nsponse to the appearance concerns.\nC. The preoccupation causes clinically significant distress or impair-\nment in social, occupational, or other important areas of functioning.\nD. The appearance preoccupation is not better explained by con-\ncerns with body fat or weight in an individual whose symptoms\nmeet diagnostic criteria for an eating disorder.\nSpecify if:\nWith muscle dysmorphia: The individual is preoccupied with\nthe idea that his or her body build is too small or insufficiently\nmuscular. This specifier is used even if the individual is preoccu-\npied with other body areas, which is often the case.\nSpecify if:\nIndicate degree of insight regarding body dysmorphic disorder beliefs",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues true.\nSpecify if:\nTic-related: The individual has a current or past history of a tic\ndisorder.\nBody Dysmorphic Disorder 131\nBody Dysmorphic Disorder\n300.7 (F45.22)\nA. Preoccupation with one or more perceived defects or flaws in\nphysical appearance that are not observable or appear slight to\nothers.\nB. At some point during the course of the disorder, the individual\nhas performed repetitive behaviors (e.g., mirror checking, exces-\nsive grooming, skin picking, reassurance seeking) or mental acts\n(e.g., comparing his or her appearance with that of others) in re-\nsponse to the appearance concerns.\nC. The preoccupation causes clinically significant distress or impair-\nment in social, occupational, or other important areas of functioning.\nD. The appearance preoccupation is not better explained by con-\ncerns with body fat or weight in an individual whose symptoms\nmeet diagnostic criteria for an eating disorder.\nSpecify if:\nWith muscle dysmorphia: The individual is preoccupied with\nthe idea that his or her body build is too small or insufficiently\nmuscular. This specifier is used even if the individual is preoccu-\npied with other body areas, which is often the case.\nSpecify if:\nIndicate degree of insight regarding body dysmorphic disorder beliefs True. specify if:\ntic-related: the individual has a current or past history of a tic\ndisorder."
+}

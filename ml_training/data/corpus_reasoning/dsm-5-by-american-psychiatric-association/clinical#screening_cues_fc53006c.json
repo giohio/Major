@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_fc53006c",
+  "content": "bSpecify whether: Generalized, Situational\ncSpecify current severity: Mild, Moderate, Severe\n302.74 (F52.32) Delayed Ejaculationa, b, c (201)\n302.72 (F52.21) Erectile Disordera, b, c (202)\n302.73 (F52.31) Female Orgasmic Disordera, b, c (203)\nSpecify if: Never experienced an orgasm under any\nsituation\n302.72 (F52.22) Female Sexual Interest/Arousal Disordera, b, c\n(204)\n302.76 (F52.6) Genito-Pelvic Pain/Penetration Disordera, c (205)\n302.71 (F52.0) Male Hypoactive Sexual Desire Disordera, b, c (206)\n302.75 (F52.4) Premature (Early) Ejaculationa, b, c (207)\nDSM-5 Classification xxv\n___.__ (___.__) Substance/Medication-Induced Sexual\nDysfunctionc (208)\nNote: See the criteria set and corresponding record-\ning procedures for substance-specific codes and\nICD-9-CM and ICD-10-CM coding.\nSpecify if: With onset during intoxication, With on-\nset during withdrawal, With onset after medica-\ntion use\n302.79 (F52.8) Other Specified Sexual Dysfunction (212)\n302.70 (F52.9) Unspecified Sexual Dysfunction (213)\nGender Dysphoria (215)\n___.__ (__.__) Gender Dysphoria (215)\n302.6 (F64.2) Gender Dysphoria in Children\nSpecify if: With a disorder of sex development\n302.85 (F64.1) Gender Dysphoria in Adolescents and Adults\nSpecify if: With a disorder of sex development\nSpecify if: Posttransition\nNote: Code the disorder of sex development if pres-\nent, in addition to gender dysphoria.\n302.6 (F64.8) Other Specified Gender Dysphoria (217)",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues bSpecify whether: Generalized, Situational\ncSpecify current severity: Mild, Moderate, Severe\n302.74 (F52.32) Delayed Ejaculationa, b, c (201)\n302.72 (F52.21) Erectile Disordera, b, c (202)\n302.73 (F52.31) Female Orgasmic Disordera, b, c (203)\nSpecify if: Never experienced an orgasm under any\nsituation\n302.72 (F52.22) Female Sexual Interest/Arousal Disordera, b, c\n(204)\n302.76 (F52.6) Genito-Pelvic Pain/Penetration Disordera, c (205)\n302.71 (F52.0) Male Hypoactive Sexual Desire Disordera, b, c (206)\n302.75 (F52.4) Premature (Early) Ejaculationa, b, c (207)\nDSM-5 Classification xxv\n___.__ (___.__) Substance/Medication-Induced Sexual\nDysfunctionc (208)\nNote: See the criteria set and corresponding record-\ning procedures for substance-specific codes and\nICD-9-CM and ICD-10-CM coding.\nSpecify if: With onset during intoxication, With on-\nset during withdrawal, With onset after medica-\ntion use\n302.79 (F52.8) Other Specified Sexual Dysfunction (212)\n302.70 (F52.9) Unspecified Sexual Dysfunction (213)\nGender Dysphoria (215)\n___.__ (__.__) Gender Dysphoria (215)\n302.6 (F64.2) Gender Dysphoria in Children\nSpecify if: With a disorder of sex development\n302.85 (F64.1) Gender Dysphoria in Adolescents and Adults\nSpecify if: With a disorder of sex development\nSpecify if: Posttransition\nNote: Code the disorder of sex development if pres-\nent, in addition to gender dysphoria.\n302.6 (F64.8) Other Specified Gender Dysphoria (217) Bspecify whether: generalized, situational\ncspecify current severity: mild, moderate, severe\n302.74 (f52.32) delayed ejaculationa, b, c (201)\n302.72 (f52.21) erectile disordera, b, c (202)\n302.73 (f52.31) female orgasmic..."
+}

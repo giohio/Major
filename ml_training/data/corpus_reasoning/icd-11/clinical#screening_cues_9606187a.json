@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_9606187a",
+  "content": "Note that the mild, moderate and severe ratings for the depressive mood symptoms specifier are not\nequivalent to the corresponding diagnostic requirements for a mild, moderate or severe depressive\nepisode. In other words, a rating of mild for depressive mood symptoms in the psychotic disorder\nspecifiers does not indicate that the individual meets the requirements for a mild depressive\nepisode. The same is true of the manic mood symptoms specifier. The rating of depressive and\nmanic mood symptoms in these specifiers indicates the severity of depressed, elevated, or irritable\nmood, and does not include other symptoms (e.g. disrupted sleep, anhedonia, appetite change)\nthat can occur as a part of mood episodes.\nSymptom specifier ratings are intended to characterize the current clinical presentation among\nindividuals diagnosed with schizophrenia and other primary psychotic disorders, and should\nnot be used in individuals without such a diagnosis. Symptoms attributable to the direct\npathophysiological consequences of a comorbid medical condition or injury not classified under\nmental, behavioural and neurodevelopmental disorders (e.g. a brain tumour or traumatic brain\ninjury), or to the direct physiological effects of substances or medications (including withdrawal\neffects), should not be included in the specifier ratings. However, in individuals with schizophrenia",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Note that the mild, moderate and severe ratings for the depressive mood symptoms specifier are not\nequivalent to the corresponding diagnostic requirements for a mild, moderate or severe depressive\nepisode. In other words, a rating of mild for depressive mood symptoms in the psychotic disorder\nspecifiers does not indicate that the individual meets the requirements for a mild depressive\nepisode. The same is true of the manic mood symptoms specifier. The rating of depressive and\nmanic mood symptoms in these specifiers indicates the severity of depressed, elevated, or irritable\nmood, and does not include other symptoms (e.g. disrupted sleep, anhedonia, appetite change)\nthat can occur as a part of mood episodes.\nSymptom specifier ratings are intended to characterize the current clinical presentation among\nindividuals diagnosed with schizophrenia and other primary psychotic disorders, and should\nnot be used in individuals without such a diagnosis. Symptoms attributable to the direct\npathophysiological consequences of a comorbid medical condition or injury not classified under\nmental, behavioural and neurodevelopmental disorders (e.g. a brain tumour or traumatic brain\ninjury), or to the direct physiological effects of substances or medications (including withdrawal\neffects), should not be included in the specifier ratings. However, in individuals with schizophrenia Note that the mild, moderate and severe ratings for the depressive mood symptoms specifier are not\nequivalent to the corresponding diagnostic requirements for a mild, moderate or severe depressive\nepisode. in other words..."
+}

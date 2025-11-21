@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_3b1667e3",
+  "content": "ICD-11 coding features discussed in this section are designed for optimal use in the context of\nelectronic information systems able to generate and interpret complex, multipart codes – for\nexample, based on checklists completed by the health professional. However, some of these\ncoding capabilities will also be useful to health professionals who are individually responsible\nfor determining and recording diagnoses and diagnostic codes. Even when coding itself is\ndone by professional coders, as in some countries and health systems, it is important for health\nprofessionals to understand the information needed to generate the most accurate and useful\ncodes so that they are better able to provide this information as a part of the medical record, even\nif it is recorded by hand.\nICD-10 codes contained a letter of the alphabet in the first position, which indicated the chapter\nin which the category was classified. (The codes for ICD-10 mental and behavioural disorders\nall began with the letter “F”.) This was sufficient for the 22 chapters in ICD-10. All the other\ncharacters in the ICD-10 codes were limited to numbers, which imposed a limit of 10 subdivisions\nUsing the CDDR for ICD-11 mental, behavioural and neurodevelopmental disorders in clinical settings 31",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues ICD-11 coding features discussed in this section are designed for optimal use in the context of\nelectronic information systems able to generate and interpret complex, multipart codes – for\nexample, based on checklists completed by the health professional. However, some of these\ncoding capabilities will also be useful to health professionals who are individually responsible\nfor determining and recording diagnoses and diagnostic codes. Even when coding itself is\ndone by professional coders, as in some countries and health systems, it is important for health\nprofessionals to understand the information needed to generate the most accurate and useful\ncodes so that they are better able to provide this information as a part of the medical record, even\nif it is recorded by hand.\nICD-10 codes contained a letter of the alphabet in the first position, which indicated the chapter\nin which the category was classified. (The codes for ICD-10 mental and behavioural disorders\nall began with the letter “F”.) This was sufficient for the 22 chapters in ICD-10. All the other\ncharacters in the ICD-10 codes were limited to numbers, which imposed a limit of 10 subdivisions\nUsing the CDDR for ICD-11 mental, behavioural and neurodevelopmental disorders in clinical settings 31 Icd-11 coding features discussed in this section are designed for optimal use in the context of\nelectronic information systems able to generate and interpret complex, multipart codes – for\nexample, based on checklists co..."
+}

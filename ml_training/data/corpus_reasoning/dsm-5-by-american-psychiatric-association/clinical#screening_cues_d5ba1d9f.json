@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_d5ba1d9f",
+  "content": "When more than one diagnosis for an individual is given in an inpa-\ntient setting, the principal diagnosis is the condition established after\nstudy to be chiefly responsible for occasioning the admission of the\nindividual. When more than one diagnosis is given for an individual\nin an outpatient setting, the reason for visit is the condition that is\nchiefly responsible for the ambulatory care medical services received\nduring the visit. In most cases, the principal diagnosis or the reason\nfor visit is also the main focus of attention or treatment. It is often dif-\nficult (and somewhat arbitrary) to determine which diagnosis is the\nprincipal diagnosis or the reason for visit, especially when, for exam-\nple, a substance-related diagnosis such as alcohol use disorder is\naccompanied by a non-substance-related diagnosis such as schizo-\nphrenia. For example, it may be unclear which diagnosis should be\nconsidered “principal” for an individual hospitalized with both\nschizophrenia and alcohol use disorder, because each condition may\nhave contributed equally to the need for admission and treatment.\nThe principal diagnosis is indicated by listing it first, and the remain-\ning disorders are listed in order of focus of attention and treatment.",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues When more than one diagnosis for an individual is given in an inpa-\ntient setting, the principal diagnosis is the condition established after\nstudy to be chiefly responsible for occasioning the admission of the\nindividual. When more than one diagnosis is given for an individual\nin an outpatient setting, the reason for visit is the condition that is\nchiefly responsible for the ambulatory care medical services received\nduring the visit. In most cases, the principal diagnosis or the reason\nfor visit is also the main focus of attention or treatment. It is often dif-\nficult (and somewhat arbitrary) to determine which diagnosis is the\nprincipal diagnosis or the reason for visit, especially when, for exam-\nple, a substance-related diagnosis such as alcohol use disorder is\naccompanied by a non-substance-related diagnosis such as schizo-\nphrenia. For example, it may be unclear which diagnosis should be\nconsidered “principal” for an individual hospitalized with both\nschizophrenia and alcohol use disorder, because each condition may\nhave contributed equally to the need for admission and treatment.\nThe principal diagnosis is indicated by listing it first, and the remain-\ning disorders are listed in order of focus of attention and treatment. When more than one diagnosis for an individual is given in an inpa-\ntient setting, the principal diagnosis is the condition established after\nhọc tập to be chiefly responsible for occasioning the admission of the\nindivid..."
+}

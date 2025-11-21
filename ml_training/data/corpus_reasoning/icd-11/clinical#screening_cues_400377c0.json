@@ -1,0 +1,16 @@
+{
+  "id": "clinical#screening_cues_400377c0",
+  "content": "6A60.9 Bipolar type I disorder, current episode mixed, without psychotic\nsymptoms\n6A60.A Bipolar type I disorder, current episode mixed, with psychotic symptoms\n6A60.B Bipolar type I disorder, currently in partial remission, most recent\nepisode manic or hypomanic\n6A60.C Bipolar type I disorder, currently in partial remission, most recent\nepisode depressive\n6A60.D Bipolar type I disorder, currently in partial remission, most recent\nepisode mixed\n6A60.E Bipolar type I disorder, currently in partial remission, most recent\nepisode unspecified\n6A60.F Bipolar type I disorder, currently in full remission\n6A60.Y Other specified bipolar type I disorder\n6A60.Z Bipolar type I disorder, unspecified.\n6A60.0 Bipolar type I disorder, current episode manic, without psychotic symptoms\n• All diagnostic requirements for a manic episode (see p. 217) are currently met.\n• There are no delusions or hallucinations during the current manic episode.\nNote: if the individual has experienced manic or mixed episodes in the past, a duration of 1 week\nis not required in order to diagnose a current episode if all other diagnostic requirements are met.\n6A60.1 Bipolar type I disorder, current episode manic, with psychotic symptoms\n• All diagnostic requirements for a manic episode (see p. 217) are currently met.\n• There are delusions or hallucinations during the current manic episode.",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues 6A60.9 Bipolar type I disorder, current episode mixed, without psychotic\nsymptoms\n6A60.A Bipolar type I disorder, current episode mixed, with psychotic symptoms\n6A60.B Bipolar type I disorder, currently in partial remission, most recent\nepisode manic or hypomanic\n6A60.C Bipolar type I disorder, currently in partial remission, most recent\nepisode depressive\n6A60.D Bipolar type I disorder, currently in partial remission, most recent\nepisode mixed\n6A60.E Bipolar type I disorder, currently in partial remission, most recent\nepisode unspecified\n6A60.F Bipolar type I disorder, currently in full remission\n6A60.Y Other specified bipolar type I disorder\n6A60.Z Bipolar type I disorder, unspecified.\n6A60.0 Bipolar type I disorder, current episode manic, without psychotic symptoms\n• All diagnostic requirements for a manic episode (see p. 217) are currently met.\n• There are no delusions or hallucinations during the current manic episode.\nNote: if the individual has experienced manic or mixed episodes in the past, a duration of 1 week\nis not required in order to diagnose a current episode if all other diagnostic requirements are met.\n6A60.1 Bipolar type I disorder, current episode manic, with psychotic symptoms\n• All diagnostic requirements for a manic episode (see p. 217) are currently met.\n• There are delusions or hallucinations during the current manic episode. 6a60.9 bipolar type i disorder, current episode mixed, without psychotic\nsymptoms\n6a60.a bipolar type i disorder, current episode mixed, with psychotic symptoms\n6a60.b bipolar type i disorder, currently in partial remiss..."
+}

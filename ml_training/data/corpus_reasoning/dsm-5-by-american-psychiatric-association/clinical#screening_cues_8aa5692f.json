@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_8aa5692f",
+  "content": "Intoxication and Withdrawal\nThe clinician should use the code that applies to the class of substances\nbut record the name of the specific substance. For example, the clinician\nshould record 292.0 (F13.239) secobarbital withdrawal (rather than\nsedative, hypnotic, or anxiolytic withdrawal) or 292.89 (F15.129) meth-\namphetamine intoxication (rather than stimulant intoxication). Note\nthat the appropriate ICD-10-CM diagnostic code for intoxication de-\npends on whether there is a comorbid substance use disorder. In this\ncase, the F15.129 code for methamphetamine indicates the presence of\na comorbid mild methamphetamine use disorder. If there had been no\ncomorbid methamphetamine use disorder, the diagnostic code would\nhave been F15.929. ICD-10-CM coding rules require that all with-\ndrawal codes imply a comorbid moderate to severe substance use dis-\norder for that substance. In the above case, the code for secobarbital\nwithdrawal (F13.239) indicates the comorbid presence of a moderate\nto severe secobarbital use disorder. See the coding note for the sub-\nstance-specific intoxication and withdrawal syndromes for the actual\ncoding options.\nFor substances that do not fit into any of the classes (e.g., anabolic\nsteroids), the appropriate code for “other substance intoxication”\nshould be used and the specific substance indicated (e.g., 292.89",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Intoxication and Withdrawal\nThe clinician should use the code that applies to the class of substances\nbut record the name of the specific substance. For example, the clinician\nshould record 292.0 (F13.239) secobarbital withdrawal (rather than\nsedative, hypnotic, or anxiolytic withdrawal) or 292.89 (F15.129) meth-\namphetamine intoxication (rather than stimulant intoxication). Note\nthat the appropriate ICD-10-CM diagnostic code for intoxication de-\npends on whether there is a comorbid substance use disorder. In this\ncase, the F15.129 code for methamphetamine indicates the presence of\na comorbid mild methamphetamine use disorder. If there had been no\ncomorbid methamphetamine use disorder, the diagnostic code would\nhave been F15.929. ICD-10-CM coding rules require that all with-\ndrawal codes imply a comorbid moderate to severe substance use dis-\norder for that substance. In the above case, the code for secobarbital\nwithdrawal (F13.239) indicates the comorbid presence of a moderate\nto severe secobarbital use disorder. See the coding note for the sub-\nstance-specific intoxication and withdrawal syndromes for the actual\ncoding options.\nFor substances that do not fit into any of the classes (e.g., anabolic\nsteroids), the appropriate code for “other substance intoxication”\nshould be used and the specific substance indicated (e.g., 292.89 Intoxication and withdrawal\nthe clinician should use the code that applies to the class of substances\nbut record the name of the specific substance. for example, the clinician\nshould record 292.0 (f13.239) secobarbital w..."
+}

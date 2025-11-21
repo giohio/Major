@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_122b2c7d",
+  "content": "methasone) that is presumed to be causing the delusions or\nhallucinations. The diagnostic code is selected from the table in-\ncluded in the criteria set, which is based on the drug class. For sub-\nstances that do not fit into any of the classes (e.g., dexamethasone),\nthe code for “other substance” should be used; and in cases in which\na substance is judged to be an etiological factor but the specific class\nof substance is unknown, the category “unknown substance” should\nbe used.\nThe name of the disorder is followed by the specification of onset\n(i.e., onset during intoxication, onset during withdrawal). Unlike the\nrecording procedures for ICD-10-CM, which combine the substance-\ninduced disorder and substance use disorder into a single code, for\nICD-9-CM a separate diagnostic code is given for the substance use\n58 Schizophrenia Spectrum and Other Psychotic Disorders\ndisorder. For example, in the case of delusions occurring during in-\ntoxication in a man with a severe cocaine use disorder, the diagnosis\nis 292.9 cocaine-induced psychotic disorder, with onset during intox-\nication. An additional diagnosis of 304.20 severe cocaine use disorder\nis also given. When more than one substance is judged to play a sig-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues methasone) that is presumed to be causing the delusions or\nhallucinations. The diagnostic code is selected from the table in-\ncluded in the criteria set, which is based on the drug class. For sub-\nstances that do not fit into any of the classes (e.g., dexamethasone),\nthe code for “other substance” should be used; and in cases in which\na substance is judged to be an etiological factor but the specific class\nof substance is unknown, the category “unknown substance” should\nbe used.\nThe name of the disorder is followed by the specification of onset\n(i.e., onset during intoxication, onset during withdrawal). Unlike the\nrecording procedures for ICD-10-CM, which combine the substance-\ninduced disorder and substance use disorder into a single code, for\nICD-9-CM a separate diagnostic code is given for the substance use\n58 Schizophrenia Spectrum and Other Psychotic Disorders\ndisorder. For example, in the case of delusions occurring during in-\ntoxication in a man with a severe cocaine use disorder, the diagnosis\nis 292.9 cocaine-induced psychotic disorder, with onset during intox-\nication. An additional diagnosis of 304.20 severe cocaine use disorder\nis also given. When more than one substance is judged to play a sig- Methasone) that is presumed to be causing the delusions or\nhallucinations. the diagnostic code is selected from the table in-\ncluded in the criteria set, which is based on the drug class."
+}

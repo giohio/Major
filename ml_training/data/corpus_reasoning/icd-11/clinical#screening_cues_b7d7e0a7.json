@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_b7d7e0a7",
+  "content": "Paraphilic disorders\n6D30 Exhibitionistic disorder F65.2 Exhibitionism\n6D31 Voyeuristic disorder F65.3 Voyeurism\n6D32 Paedophilic disorder F65.4 Paedophilia\n6D33 Coercive sexual sadism disorder F65.8 Other disorders of sexual preference\n6D34 Frotteuristic disorder F65.8 Other disorders of sexual preference\n6D35 Other paraphilic disorder involving non- F65.8 Other disorders of sexual preference\nconsenting individuals\n6D36 Paraphilic disorder involving solitary F65.8 Other disorders of sexual preference\nbehaviour or consenting individuals\n6D3Z Paraphilic disorder, unspecified F65.9 Disorder of sexual preference, unspecified\nFactitious disorders\n6D50 Factitious disorder imposed on self F68.1 Intentional production or feigning of symptoms or\ndisabilities, either physical or psychological [factitious\ndisorder]\n6D51 Factitious disorder imposed on another F68.1 Intentional production or feigning of symptoms or\ndisabilities, either physical or psychological [factitious\ndisorder]\n6D5Z Factitious disorder, unspecified F68.1 Intentional production or feigning of symptoms or\ndisabilities, either physical or psychological [factitious\ndisorder]\nNeurocognitive disorders\n6D70 Delirium Etiology must be specified (see below).\n6D70.0 Delirium due to disease classified elsewhere F05 Delirium, not induced by alcohol and other psychoactive\nsubstances\n4-character code: F05.8 Other delirium\nCrosswalk from ICD-11 mental, behavioural and neurodevelopmental disorders to ICD-10 for clinician use 805\nICD-11 ICD-10 Notes",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "referral",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Paraphilic disorders\n6D30 Exhibitionistic disorder F65.2 Exhibitionism\n6D31 Voyeuristic disorder F65.3 Voyeurism\n6D32 Paedophilic disorder F65.4 Paedophilia\n6D33 Coercive sexual sadism disorder F65.8 Other disorders of sexual preference\n6D34 Frotteuristic disorder F65.8 Other disorders of sexual preference\n6D35 Other paraphilic disorder involving non- F65.8 Other disorders of sexual preference\nconsenting individuals\n6D36 Paraphilic disorder involving solitary F65.8 Other disorders of sexual preference\nbehaviour or consenting individuals\n6D3Z Paraphilic disorder, unspecified F65.9 Disorder of sexual preference, unspecified\nFactitious disorders\n6D50 Factitious disorder imposed on self F68.1 Intentional production or feigning of symptoms or\ndisabilities, either physical or psychological [factitious\ndisorder]\n6D51 Factitious disorder imposed on another F68.1 Intentional production or feigning of symptoms or\ndisabilities, either physical or psychological [factitious\ndisorder]\n6D5Z Factitious disorder, unspecified F68.1 Intentional production or feigning of symptoms or\ndisabilities, either physical or psychological [factitious\ndisorder]\nNeurocognitive disorders\n6D70 Delirium Etiology must be specified (see below).\n6D70.0 Delirium due to disease classified elsewhere F05 Delirium, not induced by alcohol and other psychoactive\nsubstances\n4-character code: F05.8 Other delirium\nCrosswalk from ICD-11 mental, behavioural and neurodevelopmental disorders to ICD-10 for clinician use 805\nICD-11 ICD-10 Notes Paraphilic disorders\n6d30 exhibitionistic disorder f65.2 exhibitionism\n6d31 voyeuristic disorder f65.3 voyeurism\n6d32 paedophilic disorder f65.4 paedophilia\n6d33 coercive sexual sadism disorder f65.8 other disorders of s..."
+}

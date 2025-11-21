@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_c6dddb85",
+  "content": "genetic testing or family history.\nPossible Alzheimer’s disease is diagnosed if there is no evi-\ndence of a causative Alzheimer’s disease genetic mutation from\neither genetic testing or family history, and all three of the follow-\ning are present:\n1. Clear evidence of decline in memory and learning.\n2. Steadily progressive, gradual decline in cognition, without\nextended plateaus.\n306 Neurocognitive Disorders\n3. No evidence of mixed etiology (i.e., absence of other neuro-\ndegenerative or cerebrovascular disease, or another neuro-\nlogical or systemic disease or condition likely contributing to\ncognitive decline).\nD. The disturbance is not better explained by cerebrovascular dis-\nease, another neurodegenerative disease, the effects of a sub-\nstance, or another mental, neurological, or systemic disorder.\nCoding note: For probable major neurocognitive disorder due to Alz-\nheimer’s disease, with behavioral disturbance, code first 331.0\n(G30.9) Alzheimer’s disease, followed by 294.11 (F02.81) major neu-\nrocognitive disorder due to Alzheimer’s disease. For probable neuro-\ncognitive disorder due to Alzheimer’s disease, without behavioral\ndisturbance, code first 331.0 (G30.9) Alzheimer’s disease, followed\nby 294.10 (F02.80) major neurocognitive disorder due to Alzheimer’s\ndisease, without behavioral disturbance.\nFor possible major neurocognitive disorder due to Alzheimer’s dis-\nease, code 331.9 (G31.9) possible major neurocognitive disorder",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "relationships",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues genetic testing or family history.\nPossible Alzheimer’s disease is diagnosed if there is no evi-\ndence of a causative Alzheimer’s disease genetic mutation from\neither genetic testing or family history, and all three of the follow-\ning are present:\n1. Clear evidence of decline in memory and learning.\n2. Steadily progressive, gradual decline in cognition, without\nextended plateaus.\n306 Neurocognitive Disorders\n3. No evidence of mixed etiology (i.e., absence of other neuro-\ndegenerative or cerebrovascular disease, or another neuro-\nlogical or systemic disease or condition likely contributing to\ncognitive decline).\nD. The disturbance is not better explained by cerebrovascular dis-\nease, another neurodegenerative disease, the effects of a sub-\nstance, or another mental, neurological, or systemic disorder.\nCoding note: For probable major neurocognitive disorder due to Alz-\nheimer’s disease, with behavioral disturbance, code first 331.0\n(G30.9) Alzheimer’s disease, followed by 294.11 (F02.81) major neu-\nrocognitive disorder due to Alzheimer’s disease. For probable neuro-\ncognitive disorder due to Alzheimer’s disease, without behavioral\ndisturbance, code first 331.0 (G30.9) Alzheimer’s disease, followed\nby 294.10 (F02.80) major neurocognitive disorder due to Alzheimer’s\ndisease, without behavioral disturbance.\nFor possible major neurocognitive disorder due to Alzheimer’s dis-\nease, code 331.9 (G31.9) possible major neurocognitive disorder Genetic testing or family history. possible alzheimer’s disease is diagnosed if there is no evi-\ndence of a causative alzheimer’s disease genetic mutation from\neither genetic testing or family history, and all three of t..."
+}

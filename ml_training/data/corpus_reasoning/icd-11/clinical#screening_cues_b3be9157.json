@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_b3be9157",
+  "content": "None No significant psychomotor symptoms have been present during the past week\n6A25.4&XS8H\nMild The majority of the time the person exhibits a normal level of activity, but there\n6A25.4&XS5W are occasional periods of psychomotor excitation or slowing. Psychomotor\nsymptoms do not interfere significantly with important personal, social or\noccupational functioning.\nModerate The person experiences frequent periods of marked psychomotor agitation\n6A25.4&XS0T or retardation, but psychomotor symptoms are not continuous. Psychomotor\nsymptoms interfere significantly with important personal, social or occupational\nfunctioning.\nSevere The individual experiences severe and nearly continuous psychomotor agitation\n6A25.4&XS25 or slowing, which may include the full syndrome of catatonia (see p. 202). The\npsychomotor symptoms are sufficiently severe to be potentially harmful to the\nperson or others (e.g. agitation to the point of severe physical exhaustion, stupor\nthat prevents the person from feeding themselves).\nSeverity unspecified Psychomotor symptoms have been present during the past week, but it is not\npossible to make a severity rating based on the available information.\n6A25.4\n6A25.5 Cognitive symptoms\nThis specifier may be used together with a diagnosis from the grouping of schizophrenia and other\nprimary psychotic disorders to indicate the degree to which cognitive impairment is a prominent",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues None No significant psychomotor symptoms have been present during the past week\n6A25.4&XS8H\nMild The majority of the time the person exhibits a normal level of activity, but there\n6A25.4&XS5W are occasional periods of psychomotor excitation or slowing. Psychomotor\nsymptoms do not interfere significantly with important personal, social or\noccupational functioning.\nModerate The person experiences frequent periods of marked psychomotor agitation\n6A25.4&XS0T or retardation, but psychomotor symptoms are not continuous. Psychomotor\nsymptoms interfere significantly with important personal, social or occupational\nfunctioning.\nSevere The individual experiences severe and nearly continuous psychomotor agitation\n6A25.4&XS25 or slowing, which may include the full syndrome of catatonia (see p. 202). The\npsychomotor symptoms are sufficiently severe to be potentially harmful to the\nperson or others (e.g. agitation to the point of severe physical exhaustion, stupor\nthat prevents the person from feeding themselves).\nSeverity unspecified Psychomotor symptoms have been present during the past week, but it is not\npossible to make a severity rating based on the available information.\n6A25.4\n6A25.5 Cognitive symptoms\nThis specifier may be used together with a diagnosis from the grouping of schizophrenia and other\nprimary psychotic disorders to indicate the degree to which cognitive impairment is a prominent None no significant psychomotor symptoms have been present during the past week\n6a25.4&xs8h\nmild the majority of the time the person exhibits a normal level of activity, but there\n6a25.4&xs5w are occasional periods of ps..."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_ff7fa1f6",
+  "content": "stance intoxication delirium.\nICD-10-CM\nWith use\nWith use disorder, Without\nICD-9- disorder, moderate use\nCM mild or severe disorder\nAlcohol 291.0 F10.121 F10.221 F10.921\nCannabis 292.81 F12.121 F12.221 F12.921\nPhencyclidine 292.81 F16.121 F16.221 F16.921\nOther hallucinogen 292.81 F16.121 F16.221 F16.921\nInhalant 292.81 F18.121 F18.221 F18.921\nOpioid 292.81 F11.121 F11.221 F11.921\nSedative, hypnotic, or 292.81 F13.121 F13.221 F13.921\nanxiolytic\nAmphetamine (or 292.81 F15.121 F15.221 F15.921\nother stimulant)\nCocaine 292.81 F14.121 F14.221 F14.921\nOther (or unknown) 292.81 F19.121 F19.221 F19.921\nsubstance\nSubstance withdrawal delirium: This diagnosis should be\nmade instead of substance withdrawal when the symptoms in\nCriteria A and C predominate in the clinical picture and when\nthey are sufficiently severe to warrant clinical attention.\nCode [specific substance] withdrawal delirium: 291.0\n(F10.231) alcohol; 292.0 (F11.23) opioid; 292.0 (F13.231) sed-\n294 Neurocognitive Disorders\native, hypnotic, or anxiolytic; 292.0 (F19.231) other (or un-\nknown) substance/medication.\nMedication-induced delirium: This diagnosis applies when the\nsymptoms in Criteria A and C arise as a side effect of a medica-\ntion taken as prescribed.\nCoding note: The ICD-9-CM code for [specific medication]-\ninduced delirium is 292.81. The ICD-10-CM code depends\non the type of medication. If the medication is an opioid taken",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues stance intoxication delirium.\nICD-10-CM\nWith use\nWith use disorder, Without\nICD-9- disorder, moderate use\nCM mild or severe disorder\nAlcohol 291.0 F10.121 F10.221 F10.921\nCannabis 292.81 F12.121 F12.221 F12.921\nPhencyclidine 292.81 F16.121 F16.221 F16.921\nOther hallucinogen 292.81 F16.121 F16.221 F16.921\nInhalant 292.81 F18.121 F18.221 F18.921\nOpioid 292.81 F11.121 F11.221 F11.921\nSedative, hypnotic, or 292.81 F13.121 F13.221 F13.921\nanxiolytic\nAmphetamine (or 292.81 F15.121 F15.221 F15.921\nother stimulant)\nCocaine 292.81 F14.121 F14.221 F14.921\nOther (or unknown) 292.81 F19.121 F19.221 F19.921\nsubstance\nSubstance withdrawal delirium: This diagnosis should be\nmade instead of substance withdrawal when the symptoms in\nCriteria A and C predominate in the clinical picture and when\nthey are sufficiently severe to warrant clinical attention.\nCode [specific substance] withdrawal delirium: 291.0\n(F10.231) alcohol; 292.0 (F11.23) opioid; 292.0 (F13.231) sed-\n294 Neurocognitive Disorders\native, hypnotic, or anxiolytic; 292.0 (F19.231) other (or un-\nknown) substance/medication.\nMedication-induced delirium: This diagnosis applies when the\nsymptoms in Criteria A and C arise as a side effect of a medica-\ntion taken as prescribed.\nCoding note: The ICD-9-CM code for [specific medication]-\ninduced delirium is 292.81. The ICD-10-CM code depends\non the type of medication. If the medication is an opioid taken Stance intoxication delirium. icd-10-cm\nwith use\nwith use disorder, without\nicd-9- disorder, moderate use\ncm mild or severe disorder\nalcohol 291.0 f10.121 f10.221 f10.921\ncannabis 292.81 f12.121 f12.221 f12.921\nphencycli..."
+}

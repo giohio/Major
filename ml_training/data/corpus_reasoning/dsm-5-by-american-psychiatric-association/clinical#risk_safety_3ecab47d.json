@@ -1,0 +1,22 @@
+{
+  "id": "clinical#risk_safety_3ecab47d",
+  "content": "V69.9 (Z72.9) Problem Related to Lifestyle\nThis category should be used when a lifestyle problem is a specific fo-\ncus of treatment or directly affects the course, prognosis, or treatment\nof a mental or other medical disorder. Examples of lifestyle problems\ninclude lack of physical exercise, inappropriate diet, high-risk sexual\nbehavior, and poor sleep hygiene. A problem that is attributable to a\nsymptom of a mental disorder should not be coded unless that prob-\nlem is a specific focus of treatment or directly affects the course, prog-\nnosis, or treatment of the individual. In such cases, both the mental\ndisorder and the lifestyle problem should be coded.\nV71.01 (Z72.811) Adult Antisocial Behavior\nThis category can be used when the focus of clinical attention is adult an-\ntisocial behavior that is not due to a mental disorder (e.g., conduct dis-\norder, antisocial personality disorder). Examples include the behavior of\nsome professional thieves, racketeers, or dealers in illegal substances.\nOther Conditions That May Be a Focus of Clinical Attention 373\nV71.02 (Z72.810) Child or Adolescent Antisocial Behavior\nThis category can be used when the focus of clinical attention is anti-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "study",
+      "coping_skill",
+      "habits",
+      "risk_safety",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Risk Safety V69.9 (Z72.9) Problem Related to Lifestyle\nThis category should be used when a lifestyle problem is a specific fo-\ncus of treatment or directly affects the course, prognosis, or treatment\nof a mental or other medical disorder. Examples of lifestyle problems\ninclude lack of physical exercise, inappropriate diet, high-risk sexual\nbehavior, and poor sleep hygiene. A problem that is attributable to a\nsymptom of a mental disorder should not be coded unless that prob-\nlem is a specific focus of treatment or directly affects the course, prog-\nnosis, or treatment of the individual. In such cases, both the mental\ndisorder and the lifestyle problem should be coded.\nV71.01 (Z72.811) Adult Antisocial Behavior\nThis category can be used when the focus of clinical attention is adult an-\ntisocial behavior that is not due to a mental disorder (e.g., conduct dis-\norder, antisocial personality disorder). Examples include the behavior of\nsome professional thieves, racketeers, or dealers in illegal substances.\nOther Conditions That May Be a Focus of Clinical Attention 373\nV71.02 (Z72.810) Child or Adolescent Antisocial Behavior\nThis category can be used when the focus of clinical attention is anti- V69.9 (z72.9) problem related to lifestyle\nthis category should be used when a lifestyle problem is a specific fo-\ncus of treatment or directly affects the course, prognosis, or treatment\nof a mental or other medical dis..."
+}

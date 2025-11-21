@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_4df2a12d",
+  "content": "6C40.23 Alcohol dependence, sustained partial remission\nAfter a diagnosis of alcohol dependence, and often following a treatment episode or other\nintervention (including self-help intervention), there is a significant reduction in alcohol\nconsumption for more than 12 months, such that even though intermittent or continuing\ndrinking has occurred during this period, the definitional requirements for dependence have not\nbeen met.\n6C40.24 Alcohol dependence, sustained full remission\nAfter a diagnosis of alcohol dependence, and often following a treatment episode or other\nintervention (including self-intervention), the person has been abstinent from alcohol for 12\nmonths or longer.\nDiagnostic requirements for disorders due to substance use | Substance dependence\nDisorders due to substance use or addictive behaviours 465\n6C40.2Z Alcohol dependence, unspecified\nCourse specifiers for substance dependence for substances other\nthan alcohol\nFor all psychoactive substance classes other than alcohol (see the list above and Table 6.13, p. 450),\na specifier is used to further describe the pattern of substance use or remission in the context of\nsubstance dependence, using a fifth-character code. Unlike alcohol, separate codes for continuous\nand episodic current use are not provided. The x below corresponds to the fourth-character code",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management",
+      "psychoeducation"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues 6C40.23 Alcohol dependence, sustained partial remission\nAfter a diagnosis of alcohol dependence, and often following a treatment episode or other\nintervention (including self-help intervention), there is a significant reduction in alcohol\nconsumption for more than 12 months, such that even though intermittent or continuing\ndrinking has occurred during this period, the definitional requirements for dependence have not\nbeen met.\n6C40.24 Alcohol dependence, sustained full remission\nAfter a diagnosis of alcohol dependence, and often following a treatment episode or other\nintervention (including self-intervention), the person has been abstinent from alcohol for 12\nmonths or longer.\nDiagnostic requirements for disorders due to substance use | Substance dependence\nDisorders due to substance use or addictive behaviours 465\n6C40.2Z Alcohol dependence, unspecified\nCourse specifiers for substance dependence for substances other\nthan alcohol\nFor all psychoactive substance classes other than alcohol (see the list above and Table 6.13, p. 450),\na specifier is used to further describe the pattern of substance use or remission in the context of\nsubstance dependence, using a fifth-character code. Unlike alcohol, separate codes for continuous\nand episodic current use are not provided. The x below corresponds to the fourth-character code 6c40.23 alcohol dependence, sustained partial remission\nafter a diagnosis of alcohol dependence, and often following a treatment episode or other\nintervention (including self-help intervention), there is a significant re..."
+}

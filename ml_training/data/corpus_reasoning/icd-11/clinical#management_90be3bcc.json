@@ -1,0 +1,18 @@
+{
+  "id": "clinical#management_90be3bcc",
+  "content": "status or contact with health services 709\nxiii\nRelationship distress and current or past maltreatment by spouse or partner 712\nQE51.0 Relationship distress with spouse or partner 712\nPJ20 Physical maltreatment, spouse or partner, or QE51.10 History of\nspouse or partner violence, physical 714\nPJ21 Sexual maltreatment, spouse or partner, or QE51.12 History of\nspouse or partner violence, sexual 716\nPJ22 Psychological maltreatment, spouse or partner, or QE51.11\nHistory of spouse or partner violence, psychological 717\nPF1B Assault by neglect or QE51.13 History of spouse or partner\nviolence, neglect 719\nProblems in relationship between child and current or former caregiver\nand current or past child maltreatment 720\nQE52.0 Caregiver–child relationship problem 721\nPJ20 Physical maltreatment of child or QE82.0 Personal history of\nphysical abuse as a child 723\nPJ21 Sexual maltreatment of child or QE82.1 Personal history of\nsexual abuse as child 725\nPJ22 Psychological maltreatment of child or QE82.2 Personal history of\npsychological abuse as child 727\nPF1B Assault by neglect or QE82.3 Personal history of neglect as a child 729\nFactors influencing health status or contact with health services particularly\nrelevant to mental health services 733\nReasons for contact with mental health services 734",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "relationships",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Management status or contact with health services 709\nxiii\nRelationship distress and current or past maltreatment by spouse or partner 712\nQE51.0 Relationship distress with spouse or partner 712\nPJ20 Physical maltreatment, spouse or partner, or QE51.10 History of\nspouse or partner violence, physical 714\nPJ21 Sexual maltreatment, spouse or partner, or QE51.12 History of\nspouse or partner violence, sexual 716\nPJ22 Psychological maltreatment, spouse or partner, or QE51.11\nHistory of spouse or partner violence, psychological 717\nPF1B Assault by neglect or QE51.13 History of spouse or partner\nviolence, neglect 719\nProblems in relationship between child and current or former caregiver\nand current or past child maltreatment 720\nQE52.0 Caregiver–child relationship problem 721\nPJ20 Physical maltreatment of child or QE82.0 Personal history of\nphysical abuse as a child 723\nPJ21 Sexual maltreatment of child or QE82.1 Personal history of\nsexual abuse as child 725\nPJ22 Psychological maltreatment of child or QE82.2 Personal history of\npsychological abuse as child 727\nPF1B Assault by neglect or QE82.3 Personal history of neglect as a child 729\nFactors influencing health status or contact with health services particularly\nrelevant to mental health services 733\nReasons for contact with mental health services 734 Status or contact with health services 709\nxiii\nrelationship distress and current or past maltreatment by spouse or partner 712\nqe51.0 relationship distress with spouse or partner 712\npj20 physical maltreatment, spouse o..."
+}

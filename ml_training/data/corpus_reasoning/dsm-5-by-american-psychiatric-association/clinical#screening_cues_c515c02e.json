@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_c515c02e",
+  "content": "condition and are not better explained by another mental disor-\nder, including intoxication with another substance.\nCoding note: The ICD-9-CM code is 303.00. The ICD-10-CM code\ndepends on whether there is a comorbid alcohol use disorder. If a\nmild alcohol use disorder is comorbid, the ICD-10-CM code is\nF10.129, and if a moderate or severe alcohol use disorder is comor-\nbid, the ICD-10-CM code is F10.229. If there is no comorbid alcohol\nuse disorder, then the ICD-10-CM code is F10.929.\nAlcohol Withdrawal\nA. Cessation of (or reduction in) alcohol use that has been heavy\nand prolonged.\nB. Two (or more) of the following, developing within several hours\nto a few days after the cessation of (or reduction in) alcohol use\ndescribed in Criterion A:\n1. Autonomic hyperactivity (e.g., sweating or pulse rate greater\nthan 100 bpm).\n2. Increased hand tremor.\n236 Substance-Related and Addictive Disorders\n3. Insomnia.\n4. Nausea or vomiting.\n5. Transient visual, tactile, or auditory hallucinations or illu-\nsions.\n6. Psychomotor agitation.\n7. Anxiety.\n8. Generalized tonic-clonic seizures.\nC. The signs or symptoms in Criterion B cause clinically significant\ndistress or impairment in social, occupational, or other important\nareas of functioning.\nD. The signs or symptoms are not attributable to another medical",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "stress",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues condition and are not better explained by another mental disor-\nder, including intoxication with another substance.\nCoding note: The ICD-9-CM code is 303.00. The ICD-10-CM code\ndepends on whether there is a comorbid alcohol use disorder. If a\nmild alcohol use disorder is comorbid, the ICD-10-CM code is\nF10.129, and if a moderate or severe alcohol use disorder is comor-\nbid, the ICD-10-CM code is F10.229. If there is no comorbid alcohol\nuse disorder, then the ICD-10-CM code is F10.929.\nAlcohol Withdrawal\nA. Cessation of (or reduction in) alcohol use that has been heavy\nand prolonged.\nB. Two (or more) of the following, developing within several hours\nto a few days after the cessation of (or reduction in) alcohol use\ndescribed in Criterion A:\n1. Autonomic hyperactivity (e.g., sweating or pulse rate greater\nthan 100 bpm).\n2. Increased hand tremor.\n236 Substance-Related and Addictive Disorders\n3. Insomnia.\n4. Nausea or vomiting.\n5. Transient visual, tactile, or auditory hallucinations or illu-\nsions.\n6. Psychomotor agitation.\n7. Anxiety.\n8. Generalized tonic-clonic seizures.\nC. The signs or symptoms in Criterion B cause clinically significant\ndistress or impairment in social, occupational, or other important\nareas of functioning.\nD. The signs or symptoms are not attributable to another medical Condition and are not better explained by another mental disor-\nder, including intoxication with another substance. coding note: the icd-9-cm code is 303.00."
+}

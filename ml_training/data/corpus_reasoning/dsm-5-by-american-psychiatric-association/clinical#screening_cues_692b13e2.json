@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_692b13e2",
+  "content": "7. Incoordination.\nE. The signs or symptoms are not attributable to another medical\ncondition and are not better explained by another mental disor-\nder, including intoxication with another substance.\nCoding note: The ICD-9-CM code is 292.89. The ICD-10-CM code\ndepends on whether there is a comorbid hallucinogen use disorder.\nIf a mild hallucinogen use disorder is comorbid, the ICD-10-CM code\nis F16.129, and if a moderate or severe hallucinogen use disorder is\ncomorbid, the ICD-10-CM code is F16.229. If there is no comorbid\nhallucinogen use disorder, then the ICD-10-CM code is F16.929.\nHallucinogen Persisting Perception Disorder\n292.89 (F16.983)\nA. Following cessation of use of a hallucinogen, the reexperiencing\nof one or more of the perceptual symptoms that were experi-\nenced while intoxicated with the hallucinogen (e.g., geometric\nhallucinations, false perceptions of movement in the peripheral\nvisual fields, flashes of color, intensified colors, trails of images\nof moving objects, positive afterimages, halos around objects,\nmacropsia and micropsia).\nB. The symptoms in Criterion A cause clinically significant distress\nor impairment in social, occupational, or other important areas of\nfunctioning.\nC. The symptoms are not attributable to another medical condition\n(e.g., anatomical lesions and infections of the brain, visual epi-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues 7. Incoordination.\nE. The signs or symptoms are not attributable to another medical\ncondition and are not better explained by another mental disor-\nder, including intoxication with another substance.\nCoding note: The ICD-9-CM code is 292.89. The ICD-10-CM code\ndepends on whether there is a comorbid hallucinogen use disorder.\nIf a mild hallucinogen use disorder is comorbid, the ICD-10-CM code\nis F16.129, and if a moderate or severe hallucinogen use disorder is\ncomorbid, the ICD-10-CM code is F16.229. If there is no comorbid\nhallucinogen use disorder, then the ICD-10-CM code is F16.929.\nHallucinogen Persisting Perception Disorder\n292.89 (F16.983)\nA. Following cessation of use of a hallucinogen, the reexperiencing\nof one or more of the perceptual symptoms that were experi-\nenced while intoxicated with the hallucinogen (e.g., geometric\nhallucinations, false perceptions of movement in the peripheral\nvisual fields, flashes of color, intensified colors, trails of images\nof moving objects, positive afterimages, halos around objects,\nmacropsia and micropsia).\nB. The symptoms in Criterion A cause clinically significant distress\nor impairment in social, occupational, or other important areas of\nfunctioning.\nC. The symptoms are not attributable to another medical condition\n(e.g., anatomical lesions and infections of the brain, visual epi- 7. incoordination."
+}

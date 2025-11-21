@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_235f2371",
+  "content": "least 2 consecutive months between separate episodes in which criteria are\nnot met for a major depressive episode. The definitions of specifiers are found\non the indicated pages.\n**If psychotic features are present, code the “with psychotic features” specifier\nirrespective of episode severity.\nIn recording the name of a diagnosis, terms should be listed in the fol-\nlowing order: major depressive disorder, single or recurrent episode,\nseverity/psychotic/remission specifiers, followed by as many of the\nfollowing specifiers without codes that apply to the current episode.\nSpecify:\nWith anxious distress (pp. 107–108)\nWith mixed features (pp. 108–109)\nWith melancholic features (pp. 109–110)\nWith atypical features (pp. 110–111)\nWith mood-congruent psychotic features (p. 111)\nWith mood-incongruent psychotic features (p. 111)\nWith catatonia (p. 111). Coding note: Use additional code\n293.89 (F06.1).\nWith peripartum onset (pp. 111–112)\nWith seasonal pattern (recurrent episode only) (pp. 113–114)\nPersistent Depressive Disorder (Dysthymia)\n300.4 (F34.1)\nThis disorder represents a consolidation of DSM-IV-defined chronic\nmajor depressive disorder and dysthymic disorder.\nA. Depressed mood for most of the day, for more days than not, as\nindicated by either subjective account or observation by others,\nfor at least 2 years.\nNote: In children and adolescents, mood can be irritable and du-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues least 2 consecutive months between separate episodes in which criteria are\nnot met for a major depressive episode. The definitions of specifiers are found\non the indicated pages.\n**If psychotic features are present, code the “with psychotic features” specifier\nirrespective of episode severity.\nIn recording the name of a diagnosis, terms should be listed in the fol-\nlowing order: major depressive disorder, single or recurrent episode,\nseverity/psychotic/remission specifiers, followed by as many of the\nfollowing specifiers without codes that apply to the current episode.\nSpecify:\nWith anxious distress (pp. 107–108)\nWith mixed features (pp. 108–109)\nWith melancholic features (pp. 109–110)\nWith atypical features (pp. 110–111)\nWith mood-congruent psychotic features (p. 111)\nWith mood-incongruent psychotic features (p. 111)\nWith catatonia (p. 111). Coding note: Use additional code\n293.89 (F06.1).\nWith peripartum onset (pp. 111–112)\nWith seasonal pattern (recurrent episode only) (pp. 113–114)\nPersistent Depressive Disorder (Dysthymia)\n300.4 (F34.1)\nThis disorder represents a consolidation of DSM-IV-defined chronic\nmajor depressive disorder and dysthymic disorder.\nA. Depressed mood for most of the day, for more days than not, as\nindicated by either subjective account or observation by others,\nfor at least 2 years.\nNote: In children and adolescents, mood can be irritable and du- Least 2 consecutive months between separate episodes in which criteria are\nnot met for a major depressive episode. the definitions of specifiers are found\non the indicated pages."
+}

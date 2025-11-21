@@ -1,0 +1,16 @@
+{
+  "id": "clinical#screening_cues_df64bef9",
+  "content": "with sedative-, hypnotic-, or anxiolytic-induced depressive disorder.\n264 Substance-Related and Addictive Disorders\nSpecify current severity:\n305.40 (F13.10) Mild: Presence of 2–3 symptoms.\n304.10 (F13.20) Moderate: Presence of 4–5 symptoms.\n304.10 (F13.20) Severe: Presence of 6 or more symptoms.\nSedative, Hypnotic, or Anxiolytic Intoxication\nA. Recent use of a sedative, hypnotic, or anxiolytic.\nB. Clinically significant maladaptive behavioral or psychological\nchanges (e.g., inappropriate sexual or aggressive behavior,\nmood lability, impaired judgment) that developed during, or shortly\nafter, sedative, hypnotic, or anxiolytic use.\nC. One (or more) of the following signs or symptoms developing\nduring, or shortly after, sedative, hypnotic, or anxiolytic use:\n1. Slurred speech.\n2. Incoordination.\n3. Unsteady gait.\n4. Nystagmus.\n5. Impairment in cognition (e.g., attention, memory).\n6. Stupor or coma.\nD. The signs or symptoms are not attributable to another medical\ncondition and are not better explained by another mental disor-\nder, including intoxication with another substance.\nCoding note: The ICD-9-CM code is 292.89. The ICD-10-CM code\ndepends on whether there is a comorbid sedative, hypnotic, or anx-\niolytic use disorder. If a mild sedative, hypnotic, or anxiolytic use dis-\norder is comorbid, the ICD-10-CM code is F13.129, and if a moderate",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues with sedative-, hypnotic-, or anxiolytic-induced depressive disorder.\n264 Substance-Related and Addictive Disorders\nSpecify current severity:\n305.40 (F13.10) Mild: Presence of 2–3 symptoms.\n304.10 (F13.20) Moderate: Presence of 4–5 symptoms.\n304.10 (F13.20) Severe: Presence of 6 or more symptoms.\nSedative, Hypnotic, or Anxiolytic Intoxication\nA. Recent use of a sedative, hypnotic, or anxiolytic.\nB. Clinically significant maladaptive behavioral or psychological\nchanges (e.g., inappropriate sexual or aggressive behavior,\nmood lability, impaired judgment) that developed during, or shortly\nafter, sedative, hypnotic, or anxiolytic use.\nC. One (or more) of the following signs or symptoms developing\nduring, or shortly after, sedative, hypnotic, or anxiolytic use:\n1. Slurred speech.\n2. Incoordination.\n3. Unsteady gait.\n4. Nystagmus.\n5. Impairment in cognition (e.g., attention, memory).\n6. Stupor or coma.\nD. The signs or symptoms are not attributable to another medical\ncondition and are not better explained by another mental disor-\nder, including intoxication with another substance.\nCoding note: The ICD-9-CM code is 292.89. The ICD-10-CM code\ndepends on whether there is a comorbid sedative, hypnotic, or anx-\niolytic use disorder. If a mild sedative, hypnotic, or anxiolytic use dis-\norder is comorbid, the ICD-10-CM code is F13.129, and if a moderate With sedative-, hypnotic-, or anxiolytic-induced depressive disorder. 264 substance-related and addictive disorders\nspecify current severity:\n305.40 (f13.10) mild: presence of 2–3 symptoms."
+}

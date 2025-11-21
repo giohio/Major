@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_e3d18ac6",
+  "content": "note for alcohol intoxication, alcohol withdrawal, or a specific alcohol-\ninduced mental disorder). For example, if there is comorbid alcohol in-\ntoxication and alcohol use disorder, only the alcohol intoxication code\nis given, with the 4th character indicating whether the comorbid alcohol\nuse disorder is mild, moderate, or severe: F10.129 for mild alcohol use\ndisorder with alcohol intoxication or F10.229 for a moderate or severe\nalcohol use disorder with alcohol intoxication.\nSpecify current severity:\n305.00 (F10.10) Mild: Presence of 2–3 symptoms.\n303.90 (F10.20) Moderate: Presence of 4–5 symptoms.\n303.90 (F10.20) Severe: Presence of 6 or more symptoms.\nAlcohol Intoxication 235\nAlcohol Intoxication\nA. Recent ingestion of alcohol.\nB. Clinically significant problematic behavioral or psychological\nchanges (e.g., inappropriate sexual or aggressive behavior, mood\nlability, impaired judgment) that developed during, or shortly af-\nter, alcohol ingestion.\nC. One (or more) of the following signs or symptoms developing\nduring, or shortly after, alcohol use:\n1. Slurred speech.\n2. Incoordination.\n3. Unsteady gait.\n4. Nystagmus.\n5. Impairment in attention or memory.\n6. Stupor or coma.\nD. The signs or symptoms are not attributable to another medical\ncondition and are not better explained by another mental disor-\nder, including intoxication with another substance.",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues note for alcohol intoxication, alcohol withdrawal, or a specific alcohol-\ninduced mental disorder). For example, if there is comorbid alcohol in-\ntoxication and alcohol use disorder, only the alcohol intoxication code\nis given, with the 4th character indicating whether the comorbid alcohol\nuse disorder is mild, moderate, or severe: F10.129 for mild alcohol use\ndisorder with alcohol intoxication or F10.229 for a moderate or severe\nalcohol use disorder with alcohol intoxication.\nSpecify current severity:\n305.00 (F10.10) Mild: Presence of 2–3 symptoms.\n303.90 (F10.20) Moderate: Presence of 4–5 symptoms.\n303.90 (F10.20) Severe: Presence of 6 or more symptoms.\nAlcohol Intoxication 235\nAlcohol Intoxication\nA. Recent ingestion of alcohol.\nB. Clinically significant problematic behavioral or psychological\nchanges (e.g., inappropriate sexual or aggressive behavior, mood\nlability, impaired judgment) that developed during, or shortly af-\nter, alcohol ingestion.\nC. One (or more) of the following signs or symptoms developing\nduring, or shortly after, alcohol use:\n1. Slurred speech.\n2. Incoordination.\n3. Unsteady gait.\n4. Nystagmus.\n5. Impairment in attention or memory.\n6. Stupor or coma.\nD. The signs or symptoms are not attributable to another medical\ncondition and are not better explained by another mental disor-\nder, including intoxication with another substance. Note for alcohol intoxication, alcohol withdrawal, or a specific alcohol-\ninduced mental disorder). for example, if there is comorbid alcohol in-\ntoxication and alcohol use disorder, only the alcohol intoxication code\nis..."
+}

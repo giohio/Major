@@ -1,0 +1,16 @@
+{
+  "id": "clinical#screening_cues_c0534e7b",
+  "content": "Specify current severity:\n305.20 (F12.10) Mild: Presence of 2–3 symptoms.\n304.30 (F12.20) Moderate: Presence of 4–5 symptoms.\n304.30 (F12.20) Severe: Presence of 6 or more symptoms.\nCannabis Intoxication\nA. Recent use of cannabis.\nB. Clinically significant problematic behavioral or psychological\nchanges (e.g., impaired motor coordination, euphoria, anxiety,\nsensation of slowed time, impaired judgment, social withdrawal)\nthat developed during, or shortly after, cannabis use.\nC. Two (or more) of the following signs or symptoms developing\nwithin 2 hours of cannabis use:\n242 Substance-Related and Addictive Disorders\n1. Conjunctival injection.\n2. Increased appetite.\n3. Dry mouth.\n4. Tachycardia.\nD. The signs or symptoms are not attributable to another medical\ncondition and are not better explained by another mental disor-\nder, including intoxication with another substance.\nSpecify if:\nWith perceptual disturbances: Hallucinations with intact reality\ntesting or auditory, visual, or tactile illusions occur in the absence\nof a delirium.\nCoding note: The ICD-9-CM code is 292.89. The ICD-10-CM code\ndepends on whether or not there is a comorbid cannabis use disorder\nand whether or not there are perceptual disturbances.\nFor cannabis intoxication, without perceptual disturbances:\nIf a mild cannabis use disorder is comorbid, the ICD-10-CM code",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Specify current severity:\n305.20 (F12.10) Mild: Presence of 2–3 symptoms.\n304.30 (F12.20) Moderate: Presence of 4–5 symptoms.\n304.30 (F12.20) Severe: Presence of 6 or more symptoms.\nCannabis Intoxication\nA. Recent use of cannabis.\nB. Clinically significant problematic behavioral or psychological\nchanges (e.g., impaired motor coordination, euphoria, anxiety,\nsensation of slowed time, impaired judgment, social withdrawal)\nthat developed during, or shortly after, cannabis use.\nC. Two (or more) of the following signs or symptoms developing\nwithin 2 hours of cannabis use:\n242 Substance-Related and Addictive Disorders\n1. Conjunctival injection.\n2. Increased appetite.\n3. Dry mouth.\n4. Tachycardia.\nD. The signs or symptoms are not attributable to another medical\ncondition and are not better explained by another mental disor-\nder, including intoxication with another substance.\nSpecify if:\nWith perceptual disturbances: Hallucinations with intact reality\ntesting or auditory, visual, or tactile illusions occur in the absence\nof a delirium.\nCoding note: The ICD-9-CM code is 292.89. The ICD-10-CM code\ndepends on whether or not there is a comorbid cannabis use disorder\nand whether or not there are perceptual disturbances.\nFor cannabis intoxication, without perceptual disturbances:\nIf a mild cannabis use disorder is comorbid, the ICD-10-CM code Specify current severity:\n305.20 (f12.10) mild: presence of 2–3 symptoms. 304.30 (f12.20) moderate: presence of 4–5 symptoms."
+}

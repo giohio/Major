@@ -1,0 +1,18 @@
+{
+  "id": "clinical#risk_safety_50e8ac41",
+  "content": "This category applies to presentations in which symptoms character-\nistic of a depressive disorder that cause clinically significant distress\nor impairment in social, occupational, or other important areas of\nfunctioning predominate but do not meet the full criteria for any of the\ndisorders in the depressive disorders diagnostic class. The unspeci-\nfied depressive disorder category is used in situations in which the\nclinician chooses not to specify the reason that the criteria are not\nmet for a specific depressive disorder, and includes presentations for\nwhich there is insufficient information to make a more specific diag-\nnosis (e.g., in emergency room settings).\nSpecifiers for Depressive Disorders\nSpecify if:\nWith anxious distress: Anxious distress is defined as the pres-\nence of at least two of the following symptoms during the majority\nof days of a major depressive episode or persistent depressive\ndisorder (dysthymia):\n1. Feeling keyed up or tense.\n2. Feeling unusually restless.\n3. Difficulty concentrating because of worry.\n108 Depressive Disorders\n4. Fear that something awful may happen.\n5. Feeling that the individual might lose control of himself or\nherself.\nSpecify current severity:\nMild: Two symptoms.\nModerate: Three symptoms.\nModerate-severe: Four or five symptoms.",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "medium",
+    "topics": [
+      "stress",
+      "risk_safety",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Risk Safety This category applies to presentations in which symptoms character-\nistic of a depressive disorder that cause clinically significant distress\nor impairment in social, occupational, or other important areas of\nfunctioning predominate but do not meet the full criteria for any of the\ndisorders in the depressive disorders diagnostic class. The unspeci-\nfied depressive disorder category is used in situations in which the\nclinician chooses not to specify the reason that the criteria are not\nmet for a specific depressive disorder, and includes presentations for\nwhich there is insufficient information to make a more specific diag-\nnosis (e.g., in emergency room settings).\nSpecifiers for Depressive Disorders\nSpecify if:\nWith anxious distress: Anxious distress is defined as the pres-\nence of at least two of the following symptoms during the majority\nof days of a major depressive episode or persistent depressive\ndisorder (dysthymia):\n1. Feeling keyed up or tense.\n2. Feeling unusually restless.\n3. Difficulty concentrating because of worry.\n108 Depressive Disorders\n4. Fear that something awful may happen.\n5. Feeling that the individual might lose control of himself or\nherself.\nSpecify current severity:\nMild: Two symptoms.\nModerate: Three symptoms.\nModerate-severe: Four or five symptoms. This category applies to presentations in which symptoms character-\nistic of a depressive disorder that cause clinically significant distress\nor impairment in social, occupational, or other important areas of\nfunctioning..."
+}

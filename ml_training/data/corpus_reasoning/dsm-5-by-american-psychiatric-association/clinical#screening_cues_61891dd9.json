@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_61891dd9",
+  "content": "recording of prevalence and mortality rates for identified health condi-\ntions. For most clinicians, the codes are used to identify the diagnosis\nor reason for visit for CMS and private insurance service claims. The of-\nficial coding system in use in the United States as of publication of this\nmanual is ICD-9-CM. Official adoption of ICD-10-CM is scheduled to\ntake place on October 1, 2014, and these codes, which are shown paren-\nthetically in this manual, should not be used until the official imple-\nmentation occurs. Both ICD-9-CM and ICD-10-CM codes have been\nlisted 1) preceding the name of the disorder in the classification and\n2)accompanying the criteria set for each disorder. For some diagnoses\n(e.g., neurocognitive and substance/medication-induced disorders),\nthe appropriate code depends on further specification and is listed\nwithin the criteria set for the disorder, as coding notes, and, in some\ncases, further clarified in a section on recording procedures. The names\nof some disorders are followed by alternative terms enclosed in paren-\ntheses, which, in most cases, were the DSM-IV names for the disorders.\nLooking to the Future:\nAssessment and Monitoring Tools\nThe various components of DSM-5 are provided to facilitate patient",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "habits",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues recording of prevalence and mortality rates for identified health condi-\ntions. For most clinicians, the codes are used to identify the diagnosis\nor reason for visit for CMS and private insurance service claims. The of-\nficial coding system in use in the United States as of publication of this\nmanual is ICD-9-CM. Official adoption of ICD-10-CM is scheduled to\ntake place on October 1, 2014, and these codes, which are shown paren-\nthetically in this manual, should not be used until the official imple-\nmentation occurs. Both ICD-9-CM and ICD-10-CM codes have been\nlisted 1) preceding the name of the disorder in the classification and\n2)accompanying the criteria set for each disorder. For some diagnoses\n(e.g., neurocognitive and substance/medication-induced disorders),\nthe appropriate code depends on further specification and is listed\nwithin the criteria set for the disorder, as coding notes, and, in some\ncases, further clarified in a section on recording procedures. The names\nof some disorders are followed by alternative terms enclosed in paren-\ntheses, which, in most cases, were the DSM-IV names for the disorders.\nLooking to the Future:\nAssessment and Monitoring Tools\nThe various components of DSM-5 are provided to facilitate patient Recording of prevalence and mortality rates for identified health condi-\ntions. for most clinicians, the codes are used to identify the diagnosis\nor reason for visit for cms and private insurance service claims."
+}

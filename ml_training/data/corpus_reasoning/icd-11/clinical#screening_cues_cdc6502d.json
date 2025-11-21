@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_cdc6502d",
+  "content": "6A25.0 to make a severity rating based on the available information.\n6A25.1 Negative symptoms\nThis specifier may be used together with a diagnosis from the grouping of schizophrenia and\nother primary psychotic disorders to indicate the degree to which negative psychotic symptoms\nare a prominent part of the current clinical presentation (see Table 6.8). Negative symptoms\ninclude constricted, blunted or flat affect; alogia or paucity of speech; avolition (general lack\nof drive, or lack of motivation to pursue meaningful goals); asociality (reduced or absent\nengagement with others and interest in social interaction) and anhedonia (inability to experience\npleasure from normally pleasurable activities). To be considered negative psychotic symptoms,\nrelevant symptoms should not be entirely attributable to depression or to an understimulating\nenvironment, be a direct consequence of a positive symptom (e.g. persecutory delusions causing a\nperson to become socially isolated due to fear of harm), or be attributable to the direct physiological\neffects of substances or medications, including withdrawal effects. Catatonia, including catatonic\nmutism, should be considered as part of the 6A25.4 Psychomotor symptoms domain below\nrather than here.\nSpecifier scales for symptomatic manifestations of primary psychotic disorders | Negative symptoms",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues 6A25.0 to make a severity rating based on the available information.\n6A25.1 Negative symptoms\nThis specifier may be used together with a diagnosis from the grouping of schizophrenia and\nother primary psychotic disorders to indicate the degree to which negative psychotic symptoms\nare a prominent part of the current clinical presentation (see Table 6.8). Negative symptoms\ninclude constricted, blunted or flat affect; alogia or paucity of speech; avolition (general lack\nof drive, or lack of motivation to pursue meaningful goals); asociality (reduced or absent\nengagement with others and interest in social interaction) and anhedonia (inability to experience\npleasure from normally pleasurable activities). To be considered negative psychotic symptoms,\nrelevant symptoms should not be entirely attributable to depression or to an understimulating\nenvironment, be a direct consequence of a positive symptom (e.g. persecutory delusions causing a\nperson to become socially isolated due to fear of harm), or be attributable to the direct physiological\neffects of substances or medications, including withdrawal effects. Catatonia, including catatonic\nmutism, should be considered as part of the 6A25.4 Psychomotor symptoms domain below\nrather than here.\nSpecifier scales for symptomatic manifestations of primary psychotic disorders | Negative symptoms 6a25.0 to make a severity rating based on the available information. 6a25.1 negative symptoms\nthis specifier may be used together with a diagnosis from the grouping of schizophrenia and\nother primary psychotic disorders ..."
+}

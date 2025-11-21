@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_899c7c82",
+  "content": "time (e.g., about 1 month) after the cessation of acute with-\ndrawal or severe intoxication; or there is other evidence sug-\ngesting the existence of an independent non-substance/\nmedication-induced depressive disorder (e.g., a history of re-\ncurrent non-substance/medication-related episodes).\nD. The disturbance does not occur exclusively during the course of\na delirium.\nE. The disturbance causes clinically significant distress or impairment\nin social, occupational, or other important areas of functioning.\nNote: This diagnosis should be made instead of a diagnosis of sub-\nstance intoxication or substance withdrawal only when the symptoms\nin Criterion A predominate in the clinical picture and when they are\nsufficiently severe to warrant clinical attention.\nCoding note: The ICD-9-CM and ICD-10-CM codes for the [specific\nsubstance/medication]-induced depressive disorders are indicated in\nthe table below. Note that the ICD-10-CM code depends on whether\nor not there is a comorbid substance use disorder present for the\nsame class of substance. If a mild substance use disorder is comor-\nbid with the substance-induced depressive disorder, the 4th position\ncharacter is “1,” and the clinician should record “mild [substance] use\ndisorder” before the substance-induced depressive disorder (e.g.,\n“mild cocaine use disorder with cocaine-induced depressive disor-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues time (e.g., about 1 month) after the cessation of acute with-\ndrawal or severe intoxication; or there is other evidence sug-\ngesting the existence of an independent non-substance/\nmedication-induced depressive disorder (e.g., a history of re-\ncurrent non-substance/medication-related episodes).\nD. The disturbance does not occur exclusively during the course of\na delirium.\nE. The disturbance causes clinically significant distress or impairment\nin social, occupational, or other important areas of functioning.\nNote: This diagnosis should be made instead of a diagnosis of sub-\nstance intoxication or substance withdrawal only when the symptoms\nin Criterion A predominate in the clinical picture and when they are\nsufficiently severe to warrant clinical attention.\nCoding note: The ICD-9-CM and ICD-10-CM codes for the [specific\nsubstance/medication]-induced depressive disorders are indicated in\nthe table below. Note that the ICD-10-CM code depends on whether\nor not there is a comorbid substance use disorder present for the\nsame class of substance. If a mild substance use disorder is comor-\nbid with the substance-induced depressive disorder, the 4th position\ncharacter is “1,” and the clinician should record “mild [substance] use\ndisorder” before the substance-induced depressive disorder (e.g.,\n“mild cocaine use disorder with cocaine-induced depressive disor- Time (e.g., about 1 month) after the cessation of acute with-\ndrawal or severe intoxication; or there is other evidence sug-\ngesting the existence of an independent non-substance/\nmedication-induced depressive disorder (..."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_ab186954",
+  "content": "trouble relaxing, muscle tension, autonomic symptoms) have been present for most of the\ntime during the episode. If there have been panic attacks during the current depressive\nepisode, these should be recorded separately (see the with panic attacks specifier). When\nthe diagnostic requirements for both a depressive episode and an anxiety or fear-related\ndisorder are met, the anxiety or fear-related disorder diagnosis should also be diagnosed.\nMood disorders | Recurrent depressive disorder\nMood disorders 249\n66AA8800..11 with panic attacks\n• This specifier can be applied if, in the context of a current depressive episode, there have\nbeen panic attacks during the past month that occur specifically in response to depressive\nruminations or other anxiety-provoking cognitions. If panic attacks occur exclusively in\nresponse to such thoughts, the with panic attacks specifier should be applied rather than\nan additional co-occurring diagnosis of panic disorder. If some panic attacks over the\ncourse of the depressive episode have been unexpected and not exclusively in response to\ndepressive thoughts, a separate diagnosis of panic disorder should be assigned.\n6A80.2 current depressive episode persistent\n• This specifier can be applied if the diagnostic requirements for a depressive episode are",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "coping_skill",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues trouble relaxing, muscle tension, autonomic symptoms) have been present for most of the\ntime during the episode. If there have been panic attacks during the current depressive\nepisode, these should be recorded separately (see the with panic attacks specifier). When\nthe diagnostic requirements for both a depressive episode and an anxiety or fear-related\ndisorder are met, the anxiety or fear-related disorder diagnosis should also be diagnosed.\nMood disorders | Recurrent depressive disorder\nMood disorders 249\n66AA8800..11 with panic attacks\n• This specifier can be applied if, in the context of a current depressive episode, there have\nbeen panic attacks during the past month that occur specifically in response to depressive\nruminations or other anxiety-provoking cognitions. If panic attacks occur exclusively in\nresponse to such thoughts, the with panic attacks specifier should be applied rather than\nan additional co-occurring diagnosis of panic disorder. If some panic attacks over the\ncourse of the depressive episode have been unexpected and not exclusively in response to\ndepressive thoughts, a separate diagnosis of panic disorder should be assigned.\n6A80.2 current depressive episode persistent\n• This specifier can be applied if the diagnostic requirements for a depressive episode are Trouble relaxing, muscle tension, autonomic symptoms) have been present for most of the\ntime during the episode. if there have been panic attacks during the current depressive\nepisode, these should be recorded separately..."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "clinical#risk_safety_8459894b",
+  "content": "to health.\nNote: this category is assigned to the victim, not the perpetrator.\nIf PF1B Assault by neglect is diagnosed, the perpetrator should be specified as a spouse or partner\nusing the extension code XE454 (PF1B&XE454). On the ICD-11 platform, the option to specify\nthe perpetrator–victim relationship appears in the context of the assault field. Depending on the\nspecific situation, PB5B Unintentional neglect or PH7B Neglect with undetermined intent may\nbe diagnosed rather than PF1B Assault by neglect.\nAdditional clinical features\n• Neglect at a clinically significant level is associated with increased risk of various mental\ndisorders (e.g. depressive disorders, anxiety and fear-related disorders, post-traumatic\nstress disorder), suicidality and various medical conditions (e.g. bed sores, malnutrition).\nRelationship problems and maltreatment | Relationship distress and current or past maltreatment by spouse or partner Relationship problems and maltreatment | Relationship distress and current or past maltreatment by spouse or partner\n720 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nBoundary with normality (threshold)\n• Small lapses in caregiving to partners who are incapable of self-care are common, and\na diagnosis of history of spouse or partner violence, neglect, should not be assigned on",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "high",
+    "topics": [
+      "stress",
+      "relationships",
+      "communication_tips",
+      "risk_safety",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Risk Safety to health.\nNote: this category is assigned to the victim, not the perpetrator.\nIf PF1B Assault by neglect is diagnosed, the perpetrator should be specified as a spouse or partner\nusing the extension code XE454 (PF1B&XE454). On the ICD-11 platform, the option to specify\nthe perpetrator–victim relationship appears in the context of the assault field. Depending on the\nspecific situation, PB5B Unintentional neglect or PH7B Neglect with undetermined intent may\nbe diagnosed rather than PF1B Assault by neglect.\nAdditional clinical features\n• Neglect at a clinically significant level is associated with increased risk of various mental\ndisorders (e.g. depressive disorders, anxiety and fear-related disorders, post-traumatic\nstress disorder), suicidality and various medical conditions (e.g. bed sores, malnutrition).\nRelationship problems and maltreatment | Relationship distress and current or past maltreatment by spouse or partner Relationship problems and maltreatment | Relationship distress and current or past maltreatment by spouse or partner\n720 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nBoundary with normality (threshold)\n• Small lapses in caregiving to partners who are incapable of self-care are common, and\na diagnosis of history of spouse or partner violence, neglect, should not be assigned on To health. note: this category is assigned to the victim, not the perpetrator."
+}

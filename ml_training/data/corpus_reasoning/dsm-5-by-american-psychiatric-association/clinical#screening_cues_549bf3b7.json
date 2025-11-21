@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_549bf3b7",
+  "content": "used.\nThe name of the disorder is followed by the specification of onset\n(i.e., onset during intoxication, onset during withdrawal, with onset\nafter medication use). Unlike the recording procedures for ICD-10-\nCM, which combine the substance-induced disorder and substance\nuse disorder into a single code, for ICD-9-CM a separate diagnostic\ncode is given for the substance use disorder. For example, in the case\nof repetitive behaviors occurring during intoxication in a man with a\nsevere cocaine use disorder, the diagnosis is 292.89 cocaine-induced\nobsessive-compulsive and related disorder, with onset during intox-\nication. An additional diagnosis of 304.20 severe cocaine use disorder\nis also given. When more than one substance is judged to play a sig-\nnificant role in the development of the obsessive-compulsive and re-\nlated disorder, each should be listed separately.\nICD-10-CM. The name of the substance/medication-induced ob-\nsessive-compulsive and related disorder begins with the specific\nsubstance (e.g., cocaine) that is presumed to be causing the obses-\nsive-compulsive and related symptoms. The diagnostic code is se-\nlected from the table included in the criteria set, which is based on\nthe drug class and presence or absence of a comorbid substance use",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues used.\nThe name of the disorder is followed by the specification of onset\n(i.e., onset during intoxication, onset during withdrawal, with onset\nafter medication use). Unlike the recording procedures for ICD-10-\nCM, which combine the substance-induced disorder and substance\nuse disorder into a single code, for ICD-9-CM a separate diagnostic\ncode is given for the substance use disorder. For example, in the case\nof repetitive behaviors occurring during intoxication in a man with a\nsevere cocaine use disorder, the diagnosis is 292.89 cocaine-induced\nobsessive-compulsive and related disorder, with onset during intox-\nication. An additional diagnosis of 304.20 severe cocaine use disorder\nis also given. When more than one substance is judged to play a sig-\nnificant role in the development of the obsessive-compulsive and re-\nlated disorder, each should be listed separately.\nICD-10-CM. The name of the substance/medication-induced ob-\nsessive-compulsive and related disorder begins with the specific\nsubstance (e.g., cocaine) that is presumed to be causing the obses-\nsive-compulsive and related symptoms. The diagnostic code is se-\nlected from the table included in the criteria set, which is based on\nthe drug class and presence or absence of a comorbid substance use Used. the name of the disorder is followed by the specification of onset\n(i.e., onset during intoxication, onset during withdrawal, with onset\nafter medication use)."
+}

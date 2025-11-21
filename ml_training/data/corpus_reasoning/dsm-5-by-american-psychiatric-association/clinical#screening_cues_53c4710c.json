@@ -1,0 +1,16 @@
+{
+  "id": "clinical#screening_cues_53c4710c",
+  "content": "and psychotic features are only indicated if full criteria are currently met\nfor a manic or major depressive episode. Remission specifiers are only\nindicated if the full criteria are not currently met for a manic, hypo-\nmanic, or major depressive episode. Codes are as follows:\nCurrent or Current or Current or Current or\nmost recent most recent most recent most recent\nBipolar I episode episode episode episode\ndisorder manic hypomanic* depressed unspecified**\nMild 296.41 NA 296.51 NA\n(p. 92) (F31.11) (F31.31)\nModerate 296.42 NA 296.52 NA\n(p. 92) (F31.12) (F31.32)\nSevere 296.43 NA 296.53 NA\n(p. 92) (F31.13) (F31.4)\nWith 296.44 NA 296.54 NA\npsychotic (F31.2) (F31.5)\nfeatures***\n(pp. 88–89)\nIn partial 296.45 296.45 296.55 NA\nremission (F31.73) (F31.71) (F31.75)\n(p. 92)\nIn full 296.46 296.46 296.56 NA\nremission (F31.74) (F31.72) (F31.76)\n(p. 92)\nUnspeci- 296.40 296.40 296.50 NA\nfied (F31.9) (F31.9) (F31.9)\n*Severity and psychotic specifiers do not apply; code 296.40 (F31.0) for cases not\nin remission.\n**Severity, psychotic, and remission specifiers do not apply. Code 296.7 (F31.9).\n***If psychotic features are present, code the “with psychotic features” specifier\nirrespective of episode severity.\nBipolar II Disorder 71",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues and psychotic features are only indicated if full criteria are currently met\nfor a manic or major depressive episode. Remission specifiers are only\nindicated if the full criteria are not currently met for a manic, hypo-\nmanic, or major depressive episode. Codes are as follows:\nCurrent or Current or Current or Current or\nmost recent most recent most recent most recent\nBipolar I episode episode episode episode\ndisorder manic hypomanic* depressed unspecified**\nMild 296.41 NA 296.51 NA\n(p. 92) (F31.11) (F31.31)\nModerate 296.42 NA 296.52 NA\n(p. 92) (F31.12) (F31.32)\nSevere 296.43 NA 296.53 NA\n(p. 92) (F31.13) (F31.4)\nWith 296.44 NA 296.54 NA\npsychotic (F31.2) (F31.5)\nfeatures***\n(pp. 88–89)\nIn partial 296.45 296.45 296.55 NA\nremission (F31.73) (F31.71) (F31.75)\n(p. 92)\nIn full 296.46 296.46 296.56 NA\nremission (F31.74) (F31.72) (F31.76)\n(p. 92)\nUnspeci- 296.40 296.40 296.50 NA\nfied (F31.9) (F31.9) (F31.9)\n*Severity and psychotic specifiers do not apply; code 296.40 (F31.0) for cases not\nin remission.\n**Severity, psychotic, and remission specifiers do not apply. Code 296.7 (F31.9).\n***If psychotic features are present, code the “with psychotic features” specifier\nirrespective of episode severity.\nBipolar II Disorder 71 And psychotic features are only indicated if full criteria are currently met\nfor a manic or major depressive episode. remission specifiers are only\nindicated if the full criteria are not currently met for a manic, hypo-\n..."
+}

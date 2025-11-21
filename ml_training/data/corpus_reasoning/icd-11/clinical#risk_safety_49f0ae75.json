@@ -1,0 +1,19 @@
+{
+  "id": "clinical#risk_safety_49f0ae75",
+  "content": "Specifiers for the pattern of weight-related behaviours\nDifferent patterns of weight-related behaviours among individuals with anorexia nervosa may be\nrelated to treatment selection and clinical management, as well as the course and outcome of the\ndisorder. The following specifiers may be applied to 6B80.0 Anorexia nervosa with significantly\nlow body weight and 6B80.1 Anorexia nervosa with dangerously low body weight. (The x below\ncorresponds to the fifth-character code 0 or 1, indicating the individual’s underweight status.)\n6B80.x0 restricting pattern\nThe restricting pattern specifier should be assigned to individuals with anorexia\nnervosa who induce weight loss and maintain low body weight through restricted\nfood intake or fasting, alone or in combination with increased energy expenditure\n(e.g. through excessive exercise), but who do not engage in binge-eating or purging\nbehaviours.\n6B80.x1 binge-purge pattern\nThe binge-purge pattern specifier should be assigned to individuals with anorexia\nnervosa who present with episodes of binge-eating or purging behaviours aimed at\ngetting rid of ingested food (e.g. self-induced vomiting, laxative abuse or enemas).\nThis type of anorexia nervosa also includes individuals who exhibit binge-eating\nepisodes but do not purge.\n6B80.xZ unspecified\nAdditional clinical features\n• Signs of low body weight may include visible or measurable signs of starvation, such",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "medium",
+    "topics": [
+      "emotions",
+      "coping_skill",
+      "risk_safety",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Risk Safety Specifiers for the pattern of weight-related behaviours\nDifferent patterns of weight-related behaviours among individuals with anorexia nervosa may be\nrelated to treatment selection and clinical management, as well as the course and outcome of the\ndisorder. The following specifiers may be applied to 6B80.0 Anorexia nervosa with significantly\nlow body weight and 6B80.1 Anorexia nervosa with dangerously low body weight. (The x below\ncorresponds to the fifth-character code 0 or 1, indicating the individual’s underweight status.)\n6B80.x0 restricting pattern\nThe restricting pattern specifier should be assigned to individuals with anorexia\nnervosa who induce weight loss and maintain low body weight through restricted\nfood intake or fasting, alone or in combination with increased energy expenditure\n(e.g. through excessive exercise), but who do not engage in binge-eating or purging\nbehaviours.\n6B80.x1 binge-purge pattern\nThe binge-purge pattern specifier should be assigned to individuals with anorexia\nnervosa who present with episodes of binge-eating or purging behaviours aimed at\ngetting rid of ingested food (e.g. self-induced vomiting, laxative abuse or enemas).\nThis type of anorexia nervosa also includes individuals who exhibit binge-eating\nepisodes but do not purge.\n6B80.xZ unspecified\nAdditional clinical features\n• Signs of low body weight may include visible or measurable signs of starvation, such Specifiers for the pattern of weight-related behaviours\ndifferent patterns of weight-related behaviours among individuals with anorexia nervosa may be\nrelated to treatment selection and clinical management, as well as th..."
+}

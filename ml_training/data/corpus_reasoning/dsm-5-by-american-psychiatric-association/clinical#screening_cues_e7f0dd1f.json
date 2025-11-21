@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_e7f0dd1f",
+  "content": "sumed to be causing the withdrawal delirium. The diagnostic code is\nselected from substance-specific codes included in the coding note\nincluded in the criteria set. When recording the name of the disorder,\nthe comorbid moderate or severe substance use disorder (if any) is\nlisted first, followed by the word “with,” followed by the substance\nwithdrawal delirium, followed by the course (i.e., acute, persistent),\nfollowed by the specifier indicating level of psychomotor activity\n(i.e., hyperactive, hypoactive, mixed level of activity). For example,\nin the case of acute hyperactive withdrawal delirium occurring in a\nman with a severe alcohol use disorder, the diagnosis is F10.231 se-\nvere alcohol use disorder with alcohol withdrawal delirium, acute,\nhyperactive. A separate diagnosis of the comorbid severe alcohol use\ndisorder is not given.\nMedication-induced delirium. The name of the medication-in-\nduced delirium begins with the specific substance (e.g., dexametha-\nsone) that is presumed to be causing the delirium. The name of the\ndisorder is followed by the course (i.e., acute, persistent), followed\nby the specifier indicating level of psychomotor activity (i.e., hyper-\nactive, hypoactive, mixed level of activity). For example, in the case\nof acute hyperactive medication-induced delirium occurring in a",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues sumed to be causing the withdrawal delirium. The diagnostic code is\nselected from substance-specific codes included in the coding note\nincluded in the criteria set. When recording the name of the disorder,\nthe comorbid moderate or severe substance use disorder (if any) is\nlisted first, followed by the word “with,” followed by the substance\nwithdrawal delirium, followed by the course (i.e., acute, persistent),\nfollowed by the specifier indicating level of psychomotor activity\n(i.e., hyperactive, hypoactive, mixed level of activity). For example,\nin the case of acute hyperactive withdrawal delirium occurring in a\nman with a severe alcohol use disorder, the diagnosis is F10.231 se-\nvere alcohol use disorder with alcohol withdrawal delirium, acute,\nhyperactive. A separate diagnosis of the comorbid severe alcohol use\ndisorder is not given.\nMedication-induced delirium. The name of the medication-in-\nduced delirium begins with the specific substance (e.g., dexametha-\nsone) that is presumed to be causing the delirium. The name of the\ndisorder is followed by the course (i.e., acute, persistent), followed\nby the specifier indicating level of psychomotor activity (i.e., hyper-\nactive, hypoactive, mixed level of activity). For example, in the case\nof acute hyperactive medication-induced delirium occurring in a Sumed to be causing the withdrawal delirium. the diagnostic code is\nselected from substance-specific codes included in the coding note\nincluded in the criteria set."
+}

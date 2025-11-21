@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_8f9a0e19",
+  "content": "are used when the purpose is to document the cause of an injury being treated or the cause of\ndeath. These categories are used along with a classification of the associated physical injury (e.g.\nfracture of nasal bones, burns of external body surface). Available maltreatment categories in\nChapter 23 include:\nPJ20 Physical maltreatment\nPJ21 Sexual maltreatment\nPJ22 Psychological maltreatment\nPJ2Y Other specified maltreatment\nPJ2Z Maltreatment, unspecified\nPJ5B Unintentional neglect\nPF1B Assault by neglect\nPH7B Neglect with undetermined intent.\nThe associated injury from Chapter 22 on injury, poisoning or certain other consequences of\nexternal causes is postcoordinated with the type of maltreatment presumed to have caused it.\nMental, behavioural and neurodevelopmental disorders such as post-traumatic stress disorder\nand recurrent depressive disorder can clearly be the result of or be exacerbated by maltreatment,\nbut they are not typically considered immediate causes of the types of injuries classified in\nChapter 22. However, mental disorders are provided as postcoordination options for PJ22\nPsychological maltreatment. For other maltreatment categories in Chapter 23, any applicable\nmental, behavioural and neurodevelopmental disorder diagnosis should be assigned separately.\nAdditional dimensions of the maltreatment as a cause of injury can also be specified via",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues are used when the purpose is to document the cause of an injury being treated or the cause of\ndeath. These categories are used along with a classification of the associated physical injury (e.g.\nfracture of nasal bones, burns of external body surface). Available maltreatment categories in\nChapter 23 include:\nPJ20 Physical maltreatment\nPJ21 Sexual maltreatment\nPJ22 Psychological maltreatment\nPJ2Y Other specified maltreatment\nPJ2Z Maltreatment, unspecified\nPJ5B Unintentional neglect\nPF1B Assault by neglect\nPH7B Neglect with undetermined intent.\nThe associated injury from Chapter 22 on injury, poisoning or certain other consequences of\nexternal causes is postcoordinated with the type of maltreatment presumed to have caused it.\nMental, behavioural and neurodevelopmental disorders such as post-traumatic stress disorder\nand recurrent depressive disorder can clearly be the result of or be exacerbated by maltreatment,\nbut they are not typically considered immediate causes of the types of injuries classified in\nChapter 22. However, mental disorders are provided as postcoordination options for PJ22\nPsychological maltreatment. For other maltreatment categories in Chapter 23, any applicable\nmental, behavioural and neurodevelopmental disorder diagnosis should be assigned separately.\nAdditional dimensions of the maltreatment as a cause of injury can also be specified via Are used when the purpose is to document the cause of an injury being treated or the cause of\ndeath. these categories are used along with a classification of the associated physical injury (e.g."
+}

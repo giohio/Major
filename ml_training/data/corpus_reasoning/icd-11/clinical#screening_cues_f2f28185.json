@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_f2f28185",
+  "content": "unspecified psychoactive substances\nFrom secondary mental or behavioural syndromes associated with\ndisorders and diseases classified elsewhere:\n6E64 Secondary obsessive-compulsive or related syndrome\n56 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nDisorders specifically associated with stress\n6B40 Post-traumatic stress disorder\n6B41 Complex post-traumatic stress disorder\n6B42 Prolonged grief disorder\n6B43 Adjustment disorder\n6B44 Reactive attachment disorder\n6B45 Disinhibited social engagement disorder\n6B4Y Other specified disorder specifically associated with stress\n6B4Z Disorder specifically associated with stress, unspecified\nSecondary-parented category\nFrom Chapter 21 on factors influencing health status or contact with\nhealth services\nQE84 Acute stress reaction\n6B64\n6B65\nList of categories 57\nDissociative disorders\n6B60 Dissociative neurological symptom disorder\nSpecify clinical presentation:\n6B60.0 … with visual disturbance\n6B60.1 … with auditory disturbance\n6B60.2 … with vertigo or dizziness\n6B60.3 … with other sensory disturbance\n6B60.4 … with non-epileptic seizures\n6B60.5 … with speech disturbance\n6B60.6 … with paresis or weakness\n6B60.7 … with gait disturbance\n6B60.8 … with movement disturbance\n6B60.80 … with chorea\n6B60.81 … with myoclonus\n6B60.82 … with tremor\n6B60.83 … with dystonia\n6B60.84 … with facial spasm\n6B60.85 … with parkinsonism\n6B60.8Y … with other specified movement disturbance",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "emotions",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues unspecified psychoactive substances\nFrom secondary mental or behavioural syndromes associated with\ndisorders and diseases classified elsewhere:\n6E64 Secondary obsessive-compulsive or related syndrome\n56 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nDisorders specifically associated with stress\n6B40 Post-traumatic stress disorder\n6B41 Complex post-traumatic stress disorder\n6B42 Prolonged grief disorder\n6B43 Adjustment disorder\n6B44 Reactive attachment disorder\n6B45 Disinhibited social engagement disorder\n6B4Y Other specified disorder specifically associated with stress\n6B4Z Disorder specifically associated with stress, unspecified\nSecondary-parented category\nFrom Chapter 21 on factors influencing health status or contact with\nhealth services\nQE84 Acute stress reaction\n6B64\n6B65\nList of categories 57\nDissociative disorders\n6B60 Dissociative neurological symptom disorder\nSpecify clinical presentation:\n6B60.0 … with visual disturbance\n6B60.1 … with auditory disturbance\n6B60.2 … with vertigo or dizziness\n6B60.3 … with other sensory disturbance\n6B60.4 … with non-epileptic seizures\n6B60.5 … with speech disturbance\n6B60.6 … with paresis or weakness\n6B60.7 … with gait disturbance\n6B60.8 … with movement disturbance\n6B60.80 … with chorea\n6B60.81 … with myoclonus\n6B60.82 … with tremor\n6B60.83 … with dystonia\n6B60.84 … with facial spasm\n6B60.85 … with parkinsonism\n6B60.8Y … with other specified movement disturbance Unspecified psychoactive substances\nfrom secondary mental or behavioural syndromes associated with\ndisorders and diseases classified elsewhere:\n6e64 secondary obsessive-compulsive or related syndrome\n56 clinical descript..."
+}

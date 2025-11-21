@@ -1,0 +1,21 @@
+{
+  "id": "clinical#screening_cues_1250e734",
+  "content": "QD3Z Concern about body appearance, unspecified\nQE50.7 Personality difficulty\nSee the section on personality disorders and related traits, p. 553.\n• Personality difficulty refers to pronounced personality characteristics that may affect\ntreatment or health services but do not rise to the level of severity to merit a diagnosis\nof personality disorder. Personality difficulty is characterized by longstanding difficulties\n(e.g. at least 2 years) in the individual’s way of experiencing and thinking about the self,\nothers and the world. In contrast to personality disorder, these difficulties are manifested\nin cognitive and emotional experience and expression only intermittently (e.g. during\ntimes of stress) or at low intensity. The difficulties are associated with some problems\nin functioning, but these are insufficiently severe to cause notable disruption in social,\noccupational and interpersonal relationships, or may be limited to specific relationships\nor situations.\nQC30 Malingering\n• Malingering is the feigning, intentional production or significant exaggeration of physical\nor psychological symptoms, or intentional misattribution of genuine symptoms to an\nunrelated event or series of events when this is specifically motivated by external incentives\nor rewards such as escaping duty or work, mitigating punishment, obtaining medications",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "work",
+      "relationships",
+      "screening_cues",
+      "referral",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues QD3Z Concern about body appearance, unspecified\nQE50.7 Personality difficulty\nSee the section on personality disorders and related traits, p. 553.\n• Personality difficulty refers to pronounced personality characteristics that may affect\ntreatment or health services but do not rise to the level of severity to merit a diagnosis\nof personality disorder. Personality difficulty is characterized by longstanding difficulties\n(e.g. at least 2 years) in the individual’s way of experiencing and thinking about the self,\nothers and the world. In contrast to personality disorder, these difficulties are manifested\nin cognitive and emotional experience and expression only intermittently (e.g. during\ntimes of stress) or at low intensity. The difficulties are associated with some problems\nin functioning, but these are insufficiently severe to cause notable disruption in social,\noccupational and interpersonal relationships, or may be limited to specific relationships\nor situations.\nQC30 Malingering\n• Malingering is the feigning, intentional production or significant exaggeration of physical\nor psychological symptoms, or intentional misattribution of genuine symptoms to an\nunrelated event or series of events when this is specifically motivated by external incentives\nor rewards such as escaping duty or work, mitigating punishment, obtaining medications Qd3z concern about body appearance, unspecified\nqe50.7 personality difficulty\nsee the section on personality disorders and related traits, p. 553."
+}

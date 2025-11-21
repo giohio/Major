@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_16c37afd",
+  "content": "requirements for each of the specific types of dementia.\nEach of the dementia categories may be described as mild, moderate or severe. The general CDDR\nfor dementia also provide guidance on applying each level of the severity specifier:\nXS5W Mild\nXS0T Moderate\nXS25 Severe\nSpecifiers are also provided for behavioural or psychological disturbances in dementia that may\nbe used when these are severe enough to represent a focus of clinical intervention. These specifiers\nare also described below as part of the general CDDR for dementia. As many behavioural or\npsychological disturbances specifiers may be applied as necessary to describe the current clinical\npicture. These specifiers may be applied to all dementia categories. They include:\n6D86.0 Psychotic symptoms in dementia\n6D86.1 Mood symptoms in dementia\n6D86.2 Anxiety symptoms in dementia\n6D86.3 Apathy in dementia\n6D86.4 Agitation or aggression in dementia\n6D86.5 Disinhibition in dementia\n6D86.6 Wandering in dementia\n6D86.Y Other specified behavioural or psychological disturbance in dementia\n6D86.Z Behavioural or psychological disturbance in dementia, unspecified.\nGeneral diagnostic requirements for dementia\nEssential (required) features\n• Marked impairment in two or more cognitive domains relative to the level expected given\nthe individual’s age and general premorbid level of neurocognitive functioning, which",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues requirements for each of the specific types of dementia.\nEach of the dementia categories may be described as mild, moderate or severe. The general CDDR\nfor dementia also provide guidance on applying each level of the severity specifier:\nXS5W Mild\nXS0T Moderate\nXS25 Severe\nSpecifiers are also provided for behavioural or psychological disturbances in dementia that may\nbe used when these are severe enough to represent a focus of clinical intervention. These specifiers\nare also described below as part of the general CDDR for dementia. As many behavioural or\npsychological disturbances specifiers may be applied as necessary to describe the current clinical\npicture. These specifiers may be applied to all dementia categories. They include:\n6D86.0 Psychotic symptoms in dementia\n6D86.1 Mood symptoms in dementia\n6D86.2 Anxiety symptoms in dementia\n6D86.3 Apathy in dementia\n6D86.4 Agitation or aggression in dementia\n6D86.5 Disinhibition in dementia\n6D86.6 Wandering in dementia\n6D86.Y Other specified behavioural or psychological disturbance in dementia\n6D86.Z Behavioural or psychological disturbance in dementia, unspecified.\nGeneral diagnostic requirements for dementia\nEssential (required) features\n• Marked impairment in two or more cognitive domains relative to the level expected given\nthe individual’s age and general premorbid level of neurocognitive functioning, which Requirements for each of the specific types of dementia. each of the dementia categories may be described as mild, moderate or severe."
+}

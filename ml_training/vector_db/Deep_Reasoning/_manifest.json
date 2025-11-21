@@ -1,0 +1,22 @@
+[
+  {
+    "corpus": "dsm-5-by-american-psychiatric-association",
+    "num_snippets": 567,
+    "db_path": "E:\\Major\\ml_training\\scripts\\vector_db\\..\\..\\vector_db\\Deep_Reasoning\\dsm-5-by-american-psychiatric-association"
+  },
+  {
+    "corpus": "icd-11",
+    "num_snippets": 1577,
+    "db_path": "E:\\Major\\ml_training\\scripts\\vector_db\\..\\..\\vector_db\\Deep_Reasoning\\icd-11"
+  },
+  {
+    "corpus": "mhgap",
+    "num_snippets": 378,
+    "db_path": "E:\\Major\\ml_training\\scripts\\vector_db\\..\\..\\vector_db\\Deep_Reasoning\\mhgap"
+  },
+  {
+    "corpus": "mhgap ver2",
+    "num_snippets": 248,
+    "db_path": "E:\\Major\\ml_training\\scripts\\vector_db\\..\\..\\vector_db\\Deep_Reasoning\\mhgap ver2"
+  }
+]

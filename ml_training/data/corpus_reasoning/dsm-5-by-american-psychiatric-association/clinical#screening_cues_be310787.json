@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_be310787",
+  "content": "disorder” before the substance-induced depressive disorder (e.g.,\n“mild cocaine use disorder with cocaine-induced depressive disor-\nder”). If a moderate or severe substance use disorder is comorbid with\nthe substance-induced depressive disorder, the 4th position charac-\nter is “2,” and the clinician should record “moderate [substance] use\ndisorder” or “severe [substance] use disorder,” depending on the se-\nverity of the comorbid substance use disorder. If there is no comorbid\nsubstance use disorder (e.g., after a one-time heavy use of the sub-\nstance), then the 4th position character is “9,” and the clinician should\nrecord only the substance-induced depressive disorder.\nSubstance/Medication-Induced Depressive Disorder 103\nICD-10-CM\nWith use\ndisorder,\nWith use moder- Without\nICD-9- disorder, ate or use\nCM mild severe disorder\nAlcohol 291.89 F10.14 F10.24 F10.94\nPhencyclidine 292.84 F16.14 F16.24 F16.94\nOther hallucinogen 292.84 F16.14 F16.24 F16.94\nInhalant 292.84 F18.14 F18.24 F18.94\nOpioid 292.84 F11.14 F11.24 F11.94\nSedative, hypnotic, or 292.84 F13.14 F13.24 F13.94\nanxiolytic\nAmphetamine (or other 292.84 F15.14 F15.24 F15.94\nstimulant)\nCocaine 292.84 F14.14 F14.24 F14.94\nOther (or unknown) 292.84 F19.14 F19.24 F19.94\nsubstance\nSpecify if (see Table 1 in the chapter “Substance-Related and Addic-\ntive Disorders” for diagnoses associated with substance class):",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues disorder” before the substance-induced depressive disorder (e.g.,\n“mild cocaine use disorder with cocaine-induced depressive disor-\nder”). If a moderate or severe substance use disorder is comorbid with\nthe substance-induced depressive disorder, the 4th position charac-\nter is “2,” and the clinician should record “moderate [substance] use\ndisorder” or “severe [substance] use disorder,” depending on the se-\nverity of the comorbid substance use disorder. If there is no comorbid\nsubstance use disorder (e.g., after a one-time heavy use of the sub-\nstance), then the 4th position character is “9,” and the clinician should\nrecord only the substance-induced depressive disorder.\nSubstance/Medication-Induced Depressive Disorder 103\nICD-10-CM\nWith use\ndisorder,\nWith use moder- Without\nICD-9- disorder, ate or use\nCM mild severe disorder\nAlcohol 291.89 F10.14 F10.24 F10.94\nPhencyclidine 292.84 F16.14 F16.24 F16.94\nOther hallucinogen 292.84 F16.14 F16.24 F16.94\nInhalant 292.84 F18.14 F18.24 F18.94\nOpioid 292.84 F11.14 F11.24 F11.94\nSedative, hypnotic, or 292.84 F13.14 F13.24 F13.94\nanxiolytic\nAmphetamine (or other 292.84 F15.14 F15.24 F15.94\nstimulant)\nCocaine 292.84 F14.14 F14.24 F14.94\nOther (or unknown) 292.84 F19.14 F19.24 F19.94\nsubstance\nSpecify if (see Table 1 in the chapter “Substance-Related and Addic-\ntive Disorders” for diagnoses associated with substance class): Disorder” before the substance-induced depressive disorder (e.g.,\n“mild cocaine use disorder with cocaine-induced depressive disor-\nder”). if a moderate or severe substance use disorder is comorbid with\nthe substance-ind..."
+}

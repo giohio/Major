@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_daf9c8e7",
+  "content": "morbid substance use disorder. For substances that do not fit into\nany of the classes (e.g., fluoxetine), the code for “other substance”\nshould be used; and in cases in which a substance is judged to be an\netiological factor but the specific class of substance is unknown, the\ncategory “unknown substance” should be used.\n212 Sexual Dysfunctions\nWhen recording the name of the disorder, the comorbid substance\nuse disorder (if any) is listed first, followed by the word “with,” fol-\nlowed by the name of the substance-induced sexual dysfunction,\nfollowed by the specification of onset (i.e., onset during intoxication,\nonset during withdrawal, with onset after medication use), followed\nby the severity specifier (e.g., mild, moderate, severe). For example,\nin the case of erectile dysfunction occurring during intoxication in a\nman with a severe alcohol use disorder, the diagnosis is F10.281 mod-\nerate alcohol use disorder with alcohol-induced sexual dysfunction,\nwith onset during intoxication, moderate. A separate diagnosis of the\ncomorbid severe alcohol use disorder is not given. If the substance-\ninduced sexual dysfunction occurs without a comorbid substance\nuse disorder (e.g., after a one-time heavy use of the substance), no ac-\ncompanying substance use disorder is noted (e.g., F15.981 amphet-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues morbid substance use disorder. For substances that do not fit into\nany of the classes (e.g., fluoxetine), the code for “other substance”\nshould be used; and in cases in which a substance is judged to be an\netiological factor but the specific class of substance is unknown, the\ncategory “unknown substance” should be used.\n212 Sexual Dysfunctions\nWhen recording the name of the disorder, the comorbid substance\nuse disorder (if any) is listed first, followed by the word “with,” fol-\nlowed by the name of the substance-induced sexual dysfunction,\nfollowed by the specification of onset (i.e., onset during intoxication,\nonset during withdrawal, with onset after medication use), followed\nby the severity specifier (e.g., mild, moderate, severe). For example,\nin the case of erectile dysfunction occurring during intoxication in a\nman with a severe alcohol use disorder, the diagnosis is F10.281 mod-\nerate alcohol use disorder with alcohol-induced sexual dysfunction,\nwith onset during intoxication, moderate. A separate diagnosis of the\ncomorbid severe alcohol use disorder is not given. If the substance-\ninduced sexual dysfunction occurs without a comorbid substance\nuse disorder (e.g., after a one-time heavy use of the substance), no ac-\ncompanying substance use disorder is noted (e.g., F15.981 amphet- Morbid substance use disorder. for substances that do not fit into\nany of the classes (e.g., fluoxetine), the code for “other substance”\nshould be used; and in cases in which a substance is judged to be an\netiological fa..."
+}

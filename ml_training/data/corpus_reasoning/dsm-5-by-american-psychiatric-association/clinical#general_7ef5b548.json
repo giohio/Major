@@ -1,0 +1,16 @@
+{
+  "id": "clinical#general_7ef5b548",
+  "content": "Neurodevelopmental Disorders. . . . . . . . . . . . . . . . . . . . . . . .17\nSchizophrenia Spectrum and Other Psychotic Disorders . . . .45\nBipolar and Related Disorders. . . . . . . . . . . . . . . . . . . . . . . . .65\nDepressive Disorders . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .93\nAnxiety Disorders. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .115\nObsessive-Compulsive and Related Disorders. . . . . . . . . . .129\nTrauma- and Stressor-Related Disorders . . . . . . . . . . . . . . .141\nDissociative Disorders. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .155",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress"
+    ],
+    "is_clinical": false,
+    "is_advice": false
+  },
+  "index_text": "General — General Neurodevelopmental Disorders. . . . . . . . . . . . . . . . . . . . . . . .17\nSchizophrenia Spectrum and Other Psychotic Disorders . . . .45\nBipolar and Related Disorders. . . . . . . . . . . . . . . . . . . . . . . . .65\nDepressive Disorders . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .93\nAnxiety Disorders. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .115\nObsessive-Compulsive and Related Disorders. . . . . . . . . . .129\nTrauma- and Stressor-Related Disorders . . . . . . . . . . . . . . .141\nDissociative Disorders. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .155 Neurodevelopmental disorders. ."
+}

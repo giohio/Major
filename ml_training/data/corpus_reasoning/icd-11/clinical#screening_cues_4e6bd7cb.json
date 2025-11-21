@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_4e6bd7cb",
+  "content": "substance dependence, using a fifth-character code. Unlike alcohol, separate codes for continuous\nand episodic current use are not provided. The x below corresponds to the fourth-character code\nindicating the substance class (1 for cannabis, 2 for synthetic cannabinoids and so on).\n6C4x.20 Substance dependence, current use\nThe individual exhibits current substance dependence, with episodic or continuous use of the\nsubstance within the past month.\n6C4x.21 Substance dependence, early full remission\nAfter a diagnosis of substance dependence, and often following a treatment episode or other\nintervention (including self-help intervention), the individual has been abstinent from the\nsubstance during a period lasting between 1 and 12 months.\n6C4x.22 Substance dependence, sustained partial remission\nAfter a diagnosis of substance dependence, and often following a treatment episode or other\nintervention (including self-help intervention), there is a significant reduction in substance use\nfor more than 12 months, such that even though intermittent or continuous use has occurred\nduring this period, the diagnostic requirements for dependence have not been met.\n6C4x.23 Substance dependence, sustained full remission\nAfter a diagnosis of substance dependence, and often following a treatment episode or other\nintervention (including self-intervention), the person has been abstinent from the substance for\n12 months or longer.",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management",
+      "psychoeducation"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues substance dependence, using a fifth-character code. Unlike alcohol, separate codes for continuous\nand episodic current use are not provided. The x below corresponds to the fourth-character code\nindicating the substance class (1 for cannabis, 2 for synthetic cannabinoids and so on).\n6C4x.20 Substance dependence, current use\nThe individual exhibits current substance dependence, with episodic or continuous use of the\nsubstance within the past month.\n6C4x.21 Substance dependence, early full remission\nAfter a diagnosis of substance dependence, and often following a treatment episode or other\nintervention (including self-help intervention), the individual has been abstinent from the\nsubstance during a period lasting between 1 and 12 months.\n6C4x.22 Substance dependence, sustained partial remission\nAfter a diagnosis of substance dependence, and often following a treatment episode or other\nintervention (including self-help intervention), there is a significant reduction in substance use\nfor more than 12 months, such that even though intermittent or continuous use has occurred\nduring this period, the diagnostic requirements for dependence have not been met.\n6C4x.23 Substance dependence, sustained full remission\nAfter a diagnosis of substance dependence, and often following a treatment episode or other\nintervention (including self-intervention), the person has been abstinent from the substance for\n12 months or longer. Substance dependence, using a fifth-character code. unlike alcohol, separate codes for continuous\nand episodic current use are not provided."
+}

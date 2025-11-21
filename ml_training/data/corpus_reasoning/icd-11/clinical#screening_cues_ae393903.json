@@ -1,0 +1,19 @@
+{
+  "id": "clinical#screening_cues_ae393903",
+  "content": "• The specified cause is known to be capable of producing delirium.\n• The course of the delirium (e.g. onset, trajectory of symptoms, response to treatment) is\nconsistent with the specified cause.\nNote: the ICD-11 diagnosis corresponding to the presumed etiology should also be assigned.\n6D70.Z Delirium, unknown or unspecified cause\n6D71 Mild neurocognitive disorder\nEssential (required) features\n• The presence of mild impairment in one more or cognitive domains (e.g. attention,\nexecutive function, language, memory, perceptual-motor abilities, social cognition)\nrelative to expectations for age and general premorbid level of neurocognitive functioning\nis required for diagnosis.\n• Impairment represents a decline from the individual’s previous level of functioning.\n• Neurocognitive impairment is not severe enough to interfere significantly with an\nindividual’s ability to perform activities related to personal, family, social, educational and/\nor occupational functioning or other important functional areas.\n• Evidence of mild neurocognitive impairment is based on:\n• information obtained from the individual, an informant or clinical observation;\n• objective evidence of impairment as demonstrated by standardized neuropsychological/\ncognitive testing or, in its absence, another quantified clinical assessment.\n• Neurocognitive impairment is not attributable to normal ageing.\n• Neurocognitive impairment may be attributable to an underlying acquired disease of the",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "relationships",
+      "screening_cues",
+      "management",
+      "psychoeducation"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues • The specified cause is known to be capable of producing delirium.\n• The course of the delirium (e.g. onset, trajectory of symptoms, response to treatment) is\nconsistent with the specified cause.\nNote: the ICD-11 diagnosis corresponding to the presumed etiology should also be assigned.\n6D70.Z Delirium, unknown or unspecified cause\n6D71 Mild neurocognitive disorder\nEssential (required) features\n• The presence of mild impairment in one more or cognitive domains (e.g. attention,\nexecutive function, language, memory, perceptual-motor abilities, social cognition)\nrelative to expectations for age and general premorbid level of neurocognitive functioning\nis required for diagnosis.\n• Impairment represents a decline from the individual’s previous level of functioning.\n• Neurocognitive impairment is not severe enough to interfere significantly with an\nindividual’s ability to perform activities related to personal, family, social, educational and/\nor occupational functioning or other important functional areas.\n• Evidence of mild neurocognitive impairment is based on:\n• information obtained from the individual, an informant or clinical observation;\n• objective evidence of impairment as demonstrated by standardized neuropsychological/\ncognitive testing or, in its absence, another quantified clinical assessment.\n• Neurocognitive impairment is not attributable to normal ageing.\n• Neurocognitive impairment may be attributable to an underlying acquired disease of the • the specified cause is known to be capable of producing delirium. • the course of the delirium (e.g."
+}

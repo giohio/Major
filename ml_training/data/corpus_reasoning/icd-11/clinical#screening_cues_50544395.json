@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_50544395",
+  "content": "associated with another mental disorder should also be assigned.\n• The symptoms are not a manifestation of another medical condition (e.g. a brain tumour),\nand are not due to the effects of a substance or medication (e.g. corticosteroids) on the central\nnervous system, including withdrawal effects (e.g. from alcohol).\nCourse specifiers for schizophrenia\nThe following specifiers should be applied to identify the course of schizophrenia, including\nwhether the individual currently meets the diagnostic requirements of schizophrenia or is in\npartial or full remission. Course specifiers are also used to indicate whether the current episode\nis the first episode of schizophrenia, whether there have been multiple such episodes, or whether\nsymptoms have been continuous over an extended period of time.\n6A20.0 Schizophrenia, first episode\n• The first episode specifier should be applied when the current or most recent episode is the first\nmanifestation of schizophrenia meeting all diagnostic requirements in terms of symptoms\nand duration. If there has been a previous episode of schizophrenia or schizoaffective disorder,\nthe multiple episodes specifier should be applied.\n6A20.00 Schizophrenia, first episode, currently symptomatic\n• All diagnostic requirements for schizophrenia in terms of symptoms and duration are",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues associated with another mental disorder should also be assigned.\n• The symptoms are not a manifestation of another medical condition (e.g. a brain tumour),\nand are not due to the effects of a substance or medication (e.g. corticosteroids) on the central\nnervous system, including withdrawal effects (e.g. from alcohol).\nCourse specifiers for schizophrenia\nThe following specifiers should be applied to identify the course of schizophrenia, including\nwhether the individual currently meets the diagnostic requirements of schizophrenia or is in\npartial or full remission. Course specifiers are also used to indicate whether the current episode\nis the first episode of schizophrenia, whether there have been multiple such episodes, or whether\nsymptoms have been continuous over an extended period of time.\n6A20.0 Schizophrenia, first episode\n• The first episode specifier should be applied when the current or most recent episode is the first\nmanifestation of schizophrenia meeting all diagnostic requirements in terms of symptoms\nand duration. If there has been a previous episode of schizophrenia or schizoaffective disorder,\nthe multiple episodes specifier should be applied.\n6A20.00 Schizophrenia, first episode, currently symptomatic\n• All diagnostic requirements for schizophrenia in terms of symptoms and duration are Associated with another mental disorder should also be assigned. • the symptoms are not a manifestation of another medical condition (e.g."
+}

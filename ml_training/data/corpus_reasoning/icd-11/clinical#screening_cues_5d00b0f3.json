@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_5d00b0f3",
+  "content": "• All diagnostic requirements for amnestic disorder are met.\n• The amnestic disorder is presumed to be attributable to an identified cause that is not\nadequately captured by any of the other available amnestic disorder categories.\nNeurocognitive disorders | Amnestic disorder Neurocognitive disorders | Dementia\nNeurocognitive disorders 617\n• This judgement depends on establishing the following.\n• The specified cause is known to be capable of producing amnestic disorder.\n• The course of the amnestic disorder (e.g. onset, trajectory of symptoms, response to\ntreatment) is consistent with the specified cause.\n6D72.Z Amnestic disorder, unknown or unspecified cause\nDementia\nDementia includes the following categories:\n6D80 Dementia due to Alzheimer disease\n6D80.0 Dementia due to Alzheimer disease with early onset\n6D80.1 Dementia due to Alzheimer disease with late onset\n6D80.2 Alzheimer disease dementia, mixed type, with cerebrovascular disease\n6D80.3 Alzheimer disease dementia, mixed type, with other nonvascular\netiologies\n6D80.Z Dementia due to Alzheimer disease, onset unknown or unspecified\n6D81 Dementia due to cerebrovascular disease\n6D82 Dementia due to Lewy body disease\n6D83 Frontotemporal dementia\n6D84 Dementia due to psychoactive substances, including medications\n6D84.0 Dementia due to use of alcohol\n6D84.1 Dementia due to use of sedatives, hypnotics or anxiolytics",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues • All diagnostic requirements for amnestic disorder are met.\n• The amnestic disorder is presumed to be attributable to an identified cause that is not\nadequately captured by any of the other available amnestic disorder categories.\nNeurocognitive disorders | Amnestic disorder Neurocognitive disorders | Dementia\nNeurocognitive disorders 617\n• This judgement depends on establishing the following.\n• The specified cause is known to be capable of producing amnestic disorder.\n• The course of the amnestic disorder (e.g. onset, trajectory of symptoms, response to\ntreatment) is consistent with the specified cause.\n6D72.Z Amnestic disorder, unknown or unspecified cause\nDementia\nDementia includes the following categories:\n6D80 Dementia due to Alzheimer disease\n6D80.0 Dementia due to Alzheimer disease with early onset\n6D80.1 Dementia due to Alzheimer disease with late onset\n6D80.2 Alzheimer disease dementia, mixed type, with cerebrovascular disease\n6D80.3 Alzheimer disease dementia, mixed type, with other nonvascular\netiologies\n6D80.Z Dementia due to Alzheimer disease, onset unknown or unspecified\n6D81 Dementia due to cerebrovascular disease\n6D82 Dementia due to Lewy body disease\n6D83 Frontotemporal dementia\n6D84 Dementia due to psychoactive substances, including medications\n6D84.0 Dementia due to use of alcohol\n6D84.1 Dementia due to use of sedatives, hypnotics or anxiolytics • all diagnostic requirements for amnestic disorder are met. • the amnestic disorder is presumed to be attributable to an identified cause that is not\nadequately captured by any of the other available amnestic disorder c..."
+}

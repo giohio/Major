@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_0f97d23e",
+  "content": "Cannabis 292.89 F12.180 F12.280 F12.980\nPhencyclidine 292.89 F16.180 F16.280 F16.980\nOther hallucinogen 292.89 F16.180 F16.280 F16.980\nInhalant 292.89 F18.180 F18.280 F18.980\nOpioid 292.89 F11.188 F11.288 F11.988\nSedative, hypnotic, 292.89 F13.180 F13.280 F13.980\nor anxiolytic\nAmphetamine (or 292.89 F15.180 F15.280 F15.980\nother stimulant)\nCocaine 292.89 F14.180 F14.280 F14.980\nOther (or unknown) 292.89 F19.180 F19.280 F19.980\nsubstance\nSpecify if (see Table 1 in the chapter “Substance-Related and Addic-\ntive Disorders” for diagnoses associated with substance class):\nWith onset during intoxication: This specifier applies if criteria\nare met for intoxication with the substance and the symptoms de-\nvelop during intoxication.\nWith onset during withdrawal: This specifier applies if criteria\nare met for withdrawal from the substance and the symptoms de-\nvelop during, or shortly after, withdrawal.\nWith onset after medication use: Symptoms may appear either\nat initiation of medication or after a modification or change in use.\n126 Anxiety Disorders\nRecording Procedures\nICD-9-CM. The name of the substance/medication-induced anxi-\nety disorder begins with the specific substance (e.g., cocaine, salbu-\ntamol) that is presumed to be causing the anxiety symptoms. The\ndiagnostic code is selected from the table included in the criteria set,",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Cannabis 292.89 F12.180 F12.280 F12.980\nPhencyclidine 292.89 F16.180 F16.280 F16.980\nOther hallucinogen 292.89 F16.180 F16.280 F16.980\nInhalant 292.89 F18.180 F18.280 F18.980\nOpioid 292.89 F11.188 F11.288 F11.988\nSedative, hypnotic, 292.89 F13.180 F13.280 F13.980\nor anxiolytic\nAmphetamine (or 292.89 F15.180 F15.280 F15.980\nother stimulant)\nCocaine 292.89 F14.180 F14.280 F14.980\nOther (or unknown) 292.89 F19.180 F19.280 F19.980\nsubstance\nSpecify if (see Table 1 in the chapter “Substance-Related and Addic-\ntive Disorders” for diagnoses associated with substance class):\nWith onset during intoxication: This specifier applies if criteria\nare met for intoxication with the substance and the symptoms de-\nvelop during intoxication.\nWith onset during withdrawal: This specifier applies if criteria\nare met for withdrawal from the substance and the symptoms de-\nvelop during, or shortly after, withdrawal.\nWith onset after medication use: Symptoms may appear either\nat initiation of medication or after a modification or change in use.\n126 Anxiety Disorders\nRecording Procedures\nICD-9-CM. The name of the substance/medication-induced anxi-\nety disorder begins with the specific substance (e.g., cocaine, salbu-\ntamol) that is presumed to be causing the anxiety symptoms. The\ndiagnostic code is selected from the table included in the criteria set, Cannabis 292.89 f12.180 f12.280 f12.980\nphencyclidine 292.89 f16.180 f16.280 f16.980\nother hallucinogen 292.89 f16.180 f16.280 f16.980\ninhalant 292.89 f18.180 f18.280 f18.980\nopioid 292.89 f11.188 f11.288 f11.988\nsedativ..."
+}

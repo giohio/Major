@@ -1,0 +1,20 @@
+{
+  "id": "clinical#risk_safety_de91ed76",
+  "content": "substance intoxication may also be greater in individuals with comorbid medical conditions\naffecting drug pharmacokinetics (e.g. renal or hepatic insufficiency).\nFor some substances, there are specific tests for detecting and determining the concentration\nof substances in bodily fluids (e.g. blood, urine), which can be important tools for clinical\nmanagement. However, severity of intoxication should be determined on the basis of clinical\nassessment, as specified below, and not solely based on the presence and level of the substance\nin bodily fluids.\nThe level of medical attention that may be required in response to substance intoxication\nvaries according to the severity of intoxication and the substance involved, and varies from\nprecautionary observation to urgent intervention to prevent death or permanent harm (e.g.\nadministration of antagonist treatment, intubation).\nSeverity of intoxication can be rated as mild (XS5W), moderate (XS0T) or severe (XS25),\nusing extension codes, in addition to the appropriate substance intoxication category.\nTo indicate severity, the code for the appropriate severity level is appended to the substance\nintoxication diagnostic code using an ampersand (&). For example, “6C43.3&XS25” is the\ncode for opioid intoxication, severe.\nDiagnostic requirements for disorders due to substance use | Substance intoxication",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "medium",
+    "topics": [
+      "stress",
+      "study",
+      "risk_safety",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Risk Safety substance intoxication may also be greater in individuals with comorbid medical conditions\naffecting drug pharmacokinetics (e.g. renal or hepatic insufficiency).\nFor some substances, there are specific tests for detecting and determining the concentration\nof substances in bodily fluids (e.g. blood, urine), which can be important tools for clinical\nmanagement. However, severity of intoxication should be determined on the basis of clinical\nassessment, as specified below, and not solely based on the presence and level of the substance\nin bodily fluids.\nThe level of medical attention that may be required in response to substance intoxication\nvaries according to the severity of intoxication and the substance involved, and varies from\nprecautionary observation to urgent intervention to prevent death or permanent harm (e.g.\nadministration of antagonist treatment, intubation).\nSeverity of intoxication can be rated as mild (XS5W), moderate (XS0T) or severe (XS25),\nusing extension codes, in addition to the appropriate substance intoxication category.\nTo indicate severity, the code for the appropriate severity level is appended to the substance\nintoxication diagnostic code using an ampersand (&). For example, “6C43.3&XS25” is the\ncode for opioid intoxication, severe.\nDiagnostic requirements for disorders due to substance use | Substance intoxication Substance intoxication may also be greater in individuals with comorbid medical conditions\naffecting drug pharmacokinetics (e.g. renal or hepatic insufficiency)."
+}

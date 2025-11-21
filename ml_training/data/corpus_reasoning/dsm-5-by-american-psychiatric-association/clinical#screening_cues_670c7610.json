@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_670c7610",
+  "content": "iological consequence of another medical condition.\nC. The cognitive deficits are not better explained by another mental\ndisorder or another specific neurocognitive disorder (e.g., Alzhei-\nmer’s disease, HIV infection).\nCoding note: For major neurocognitive disorder due to another\nmedical condition, with behavioral disturbance, code first the other\nmedical condition, followed by the major neurocognitive disorder due\nto another medical condition, with behavioral disturbance (e.g., 340\n[G35] multiple sclerosis, 294.11 [F02.81] major neurocognitive disor-\nder due to multiple sclerosis, with behavioral disturbance). For major\nneurocognitive disorder due to another medical condition, without be-\nhavioral disturbance, code first the other medical condition, followed\nby the major neurocognitive disorder due to another medical condi-\nMajor or Mild NCD Due to Multiple Etiologies 319\ntion, without behavioral disturbance (e.g., 340 [G35] multiple sclero-\nsis, 294.10 [F02.80] major neurocognitive disorder due to multiple\nsclerosis, without behavioral disturbance).\nFor mild neurocognitive disorder due to another medical condition,\ncode 331.83 (G31.84). (Note: Do not use the additional code for the\nother medical condition. Behavioral disturbance cannot be coded but\nshould still be indicated in writing.)\nMajor or Mild Neurocognitive Disorder\nDue to Multiple Etiologies\nA. The criteria are met for major or mild neurocognitive disorder.\nB. There is evidence from the history, physical examination, or lab-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues iological consequence of another medical condition.\nC. The cognitive deficits are not better explained by another mental\ndisorder or another specific neurocognitive disorder (e.g., Alzhei-\nmer’s disease, HIV infection).\nCoding note: For major neurocognitive disorder due to another\nmedical condition, with behavioral disturbance, code first the other\nmedical condition, followed by the major neurocognitive disorder due\nto another medical condition, with behavioral disturbance (e.g., 340\n[G35] multiple sclerosis, 294.11 [F02.81] major neurocognitive disor-\nder due to multiple sclerosis, with behavioral disturbance). For major\nneurocognitive disorder due to another medical condition, without be-\nhavioral disturbance, code first the other medical condition, followed\nby the major neurocognitive disorder due to another medical condi-\nMajor or Mild NCD Due to Multiple Etiologies 319\ntion, without behavioral disturbance (e.g., 340 [G35] multiple sclero-\nsis, 294.10 [F02.80] major neurocognitive disorder due to multiple\nsclerosis, without behavioral disturbance).\nFor mild neurocognitive disorder due to another medical condition,\ncode 331.83 (G31.84). (Note: Do not use the additional code for the\nother medical condition. Behavioral disturbance cannot be coded but\nshould still be indicated in writing.)\nMajor or Mild Neurocognitive Disorder\nDue to Multiple Etiologies\nA. The criteria are met for major or mild neurocognitive disorder.\nB. There is evidence from the history, physical examination, or lab- Iological consequence of another medical condition. c."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "clinical#management_0c230c52",
+  "content": "QA18 Family counselling\nQA19 Group counselling\nQA1Y Contact with health services for other specified counselling\nQA1Z Contact with health services for unspecified counselling\nReasons for contact with mental health services | Other problems associated with health behaviours\nFactors influencing health status or contact with health services particularly relevant to mental health services 747\nContact with health services for reasons\nassociated with reproduction8\nQA20 Contact with health services for concerns about pregnancy\nQA21 Contact with health services for contraceptive management\nQA30 Contact with health services for medically assisted reproduction\nProblems associated with social insurance or welfare\nQE30 Insufficient social insurance support\nQE30.0 Insufficient social insurance support, aged\nQE30.1 Insufficient social insurance support, disability\nQE30.2 Insufficient social insurance support, unemployment\nQE30.4 Insufficient social insurance support, family support\nQE31 Insufficient social welfare support\nQE31.0 Insufficient social welfare support, child protection\nQE31.1 Insufficient social welfare support, protection against domestic violence\nQE31.2 Insufficient social welfare support, protection against homelessness\nQE31.3 Insufficient social welfare support, post prison services\n8 A detailed listing of categories in this section can be found at ICD-11 for Mortality and Morbidity Statistics (ICD-11 MMS)\n[website]. Geneva: World Health Organization; 2023 (https://ICD.who.int/browse11/l-m/en#/).",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "relationships",
+      "management",
+      "psychoeducation"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Management QA18 Family counselling\nQA19 Group counselling\nQA1Y Contact with health services for other specified counselling\nQA1Z Contact with health services for unspecified counselling\nReasons for contact with mental health services | Other problems associated with health behaviours\nFactors influencing health status or contact with health services particularly relevant to mental health services 747\nContact with health services for reasons\nassociated with reproduction8\nQA20 Contact with health services for concerns about pregnancy\nQA21 Contact with health services for contraceptive management\nQA30 Contact with health services for medically assisted reproduction\nProblems associated with social insurance or welfare\nQE30 Insufficient social insurance support\nQE30.0 Insufficient social insurance support, aged\nQE30.1 Insufficient social insurance support, disability\nQE30.2 Insufficient social insurance support, unemployment\nQE30.4 Insufficient social insurance support, family support\nQE31 Insufficient social welfare support\nQE31.0 Insufficient social welfare support, child protection\nQE31.1 Insufficient social welfare support, protection against domestic violence\nQE31.2 Insufficient social welfare support, protection against homelessness\nQE31.3 Insufficient social welfare support, post prison services\n8 A detailed listing of categories in this section can be found at ICD-11 for Mortality and Morbidity Statistics (ICD-11 MMS)\n[website]. Geneva: World Health Organization; 2023 (https://ICD.who.int/browse11/l-m/en#/). Qa18 family counselling\nqa19 group counselling\nqa1y contact with health services for other specified counselling\nqa1z contact with health services for unspecified counselling\nreasons for contact with mental health servic..."
+}

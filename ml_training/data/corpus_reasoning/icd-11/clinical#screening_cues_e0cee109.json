@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_e0cee109",
+  "content": "that vary by substance (see Table 6.15, p. 475), with marked disturbance in level of consciousness.\nThere is severe impairment to the extent that the person may not be capable of self-care or self-\nprotection, and may be unable to communicate or cooperate with assessment and intervention.\nNote: extension codes are attached to the category to which they apply using an ampersand (&).\nFor example, 6C40.3&XS0T is the code for alcohol intoxication, moderate and 6C41.3&XS5W is\nthe code for cannabis intoxication, mild.\nAdditional clinical features for substance intoxication\n• Psychoactive substances, whether of the same or a different pharmacological class, may\ninteract such that they exacerbate or modify the features of intoxication. In cases of multiple\npsychoactive substance use in which more than one specific substance can be identified as\na cause of the intoxication, it is recommended that the corresponding specific substance\nintoxication categories for each relevant substance should be assigned (e.g. 6C40.3 Alcohol\nintoxication and 6C41.3 Cannabis intoxication) rather than 6C4F.3 Intoxication due to\nmultiple specified psychoactive substances.\n• Substance intoxication may occur in the presence of medical conditions that cause\nimpairment of levels of consciousness, cognition, perception, affect, behaviour or",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "study",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues that vary by substance (see Table 6.15, p. 475), with marked disturbance in level of consciousness.\nThere is severe impairment to the extent that the person may not be capable of self-care or self-\nprotection, and may be unable to communicate or cooperate with assessment and intervention.\nNote: extension codes are attached to the category to which they apply using an ampersand (&).\nFor example, 6C40.3&XS0T is the code for alcohol intoxication, moderate and 6C41.3&XS5W is\nthe code for cannabis intoxication, mild.\nAdditional clinical features for substance intoxication\n• Psychoactive substances, whether of the same or a different pharmacological class, may\ninteract such that they exacerbate or modify the features of intoxication. In cases of multiple\npsychoactive substance use in which more than one specific substance can be identified as\na cause of the intoxication, it is recommended that the corresponding specific substance\nintoxication categories for each relevant substance should be assigned (e.g. 6C40.3 Alcohol\nintoxication and 6C41.3 Cannabis intoxication) rather than 6C4F.3 Intoxication due to\nmultiple specified psychoactive substances.\n• Substance intoxication may occur in the presence of medical conditions that cause\nimpairment of levels of consciousness, cognition, perception, affect, behaviour or That vary by substance (see table 6.15, p. 475), with marked disturbance in level of consciousness."
+}

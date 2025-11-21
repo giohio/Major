@@ -1,0 +1,21 @@
+{
+  "id": "clinical#screening_cues_870525f7",
+  "content": "• At least one confirmed or suspected egregious act or omission by a child or adolescent’s\ncaregiver that deprives the child of needed age-appropriate care is required for diagnosis\n(e.g. abandonment, lack of appropriate supervision; exposure to physical hazard; failure to\nprovide necessary education, health care, nourishment, shelter, clothing).\n• The act or omission causes or exacerbates at least one of the following impacts:\n• significant physical injury or reasonable potential for significant injury;\n• other significant negative consequences to health (e.g. development of an illness directly\nlinked to the neglect, malnutrition) or reasonable potential for significant negative\nconsequences to health;\n• significant fear or psychological distress;\n• reasonable potential for significant psychological harm (e.g. development of a mental\ndisorder) or for significant disruption of the child’s physical, psychological, cognitive or\nsocial development);\n• somatic symptoms that interfere with normal functioning.\nNote: this category is assigned to the victim, not the perpetrator.\nIf PF1B Assault by neglect is diagnosed, the perpetrator–victim relationship (e.g. parent, other\nrelative, stranger) should be specified using the extension codes provided on the ICD-11 platform\nin the context of the assault field. Perpetrator should be specified as a parent, other relative,",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "relationships",
+      "emotions",
+      "screening_cues",
+      "management",
+      "psychoeducation"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues • At least one confirmed or suspected egregious act or omission by a child or adolescent’s\ncaregiver that deprives the child of needed age-appropriate care is required for diagnosis\n(e.g. abandonment, lack of appropriate supervision; exposure to physical hazard; failure to\nprovide necessary education, health care, nourishment, shelter, clothing).\n• The act or omission causes or exacerbates at least one of the following impacts:\n• significant physical injury or reasonable potential for significant injury;\n• other significant negative consequences to health (e.g. development of an illness directly\nlinked to the neglect, malnutrition) or reasonable potential for significant negative\nconsequences to health;\n• significant fear or psychological distress;\n• reasonable potential for significant psychological harm (e.g. development of a mental\ndisorder) or for significant disruption of the child’s physical, psychological, cognitive or\nsocial development);\n• somatic symptoms that interfere with normal functioning.\nNote: this category is assigned to the victim, not the perpetrator.\nIf PF1B Assault by neglect is diagnosed, the perpetrator–victim relationship (e.g. parent, other\nrelative, stranger) should be specified using the extension codes provided on the ICD-11 platform\nin the context of the assault field. Perpetrator should be specified as a parent, other relative, • at least one confirmed or suspected egregious act or omission by a child or adolescent’s\ncaregiver that deprives the child of needed age-appropriate care is required for diagnosis\n(e.g. abandonment, lack of appropriate..."
+}

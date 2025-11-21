@@ -1,0 +1,18 @@
+{
+  "id": "clinical#risk_safety_d0b3d53e",
+  "content": "health concerns.\nC. Although any one somatic symptom may not be continuously\npresent, the state of being symptomatic is persistent (typically\nmore than 6 months).\nSpecify if:\nWith predominant pain (previously pain disorder): This specifier\nis for individuals whose somatic symptoms predominantly involve\npain.\nSpecify if:\nPersistent: A persistent course is characterized by severe symp-\ntoms, marked impairment, and long duration (more than 6 months).\nSpecify current severity:\nMild: Only one of the symptoms specified in Criterion B is ful-\nfilled.\nModerate: Two or more of the symptoms specified in Criterion B\nare fulfilled.\n161\n162 Somatic Symptom and Related Disorders\nSevere: Two or more of the symptoms specified in Criterion B\nare fulfilled, plus there are multiple somatic complaints (or one\nvery severe somatic symptom).\nIllness Anxiety Disorder\n300.7 (F45.21)\nA. Preoccupation with having or acquiring a serious illness.\nB. Somatic symptoms are not present or, if present, are only mild in\nintensity. If another medical condition is present or there is a high\nrisk for developing a medical condition (e.g., strong family history\nis present), the preoccupation is clearly excessive or dispropor-\ntionate.\nC. There is a high level of anxiety about health, and the individual is",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "relationships",
+      "risk_safety",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Risk Safety health concerns.\nC. Although any one somatic symptom may not be continuously\npresent, the state of being symptomatic is persistent (typically\nmore than 6 months).\nSpecify if:\nWith predominant pain (previously pain disorder): This specifier\nis for individuals whose somatic symptoms predominantly involve\npain.\nSpecify if:\nPersistent: A persistent course is characterized by severe symp-\ntoms, marked impairment, and long duration (more than 6 months).\nSpecify current severity:\nMild: Only one of the symptoms specified in Criterion B is ful-\nfilled.\nModerate: Two or more of the symptoms specified in Criterion B\nare fulfilled.\n161\n162 Somatic Symptom and Related Disorders\nSevere: Two or more of the symptoms specified in Criterion B\nare fulfilled, plus there are multiple somatic complaints (or one\nvery severe somatic symptom).\nIllness Anxiety Disorder\n300.7 (F45.21)\nA. Preoccupation with having or acquiring a serious illness.\nB. Somatic symptoms are not present or, if present, are only mild in\nintensity. If another medical condition is present or there is a high\nrisk for developing a medical condition (e.g., strong family history\nis present), the preoccupation is clearly excessive or dispropor-\ntionate.\nC. There is a high level of anxiety about health, and the individual is Health concerns. c."
+}

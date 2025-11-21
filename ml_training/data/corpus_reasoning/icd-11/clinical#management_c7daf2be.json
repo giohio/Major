@@ -1,0 +1,16 @@
+{
+  "id": "clinical#management_c7daf2be",
+  "content": "6C45.62 M\n6C44.0 Episode of harmful use of sedatives, hypnotics or anxiolytics\nStimulants, including 6C46.5 6C46.60 H 6C46.70 6C46.71 6C46.72 6C46.73 N/A N/A\n6C45.0 Episode of harmful use of cocaine\namfetamines,\nmethamfetamine 6C46.61 D 6C46.0 Episode of harmful use of stimulants, including amfetamines, methamfetamine\nand methcathinone and methcathinone\n6C46.62 M 6C47.0 Episode of harmful use of synthetic cathinones\nSynthetic cathinones 6C47.5 6C47.60 H 6C47.70 6C47.71 6C47.72 6C47.73 N/A N/A 6C48.0 Episode of harmful use of caffeine\n6C49.0 Episode of harmful use of hallucinogens\n6C47.61 D 6C4A.0 Episode of harmful use of nicotine\n6C4B.0 Episode of harmful use of volatile inhalants\n6C47.62 M\n6C4C.0 Episode of harmful use of MDMA or related drugs, including MDA\nCaffeine N/A N/A N/A 6C48.40 N/A N/A N/A N/A\n6C4D.0 Episode of harmful use of dissociative drugs, including ketamine and PCP\nHallucinogens 6C49.4 6C49.5 6C49.60 6C49.61 N/A N/A N/A N/A 6C4E.0 Episode of harmful use of other specified psychoactive substance\nNicotine N/A N/A N/A N/A N/A N/A N/A N/A 6C4F.0 Episode of harmful use of multiple specified psychoactive substances,\nincluding medications\nVolatile inhalants 6C4B.5 6C4B.6 6C4B.70 6C4B.71 N/A N/A 6D72.13 6D84.2\n6C4G.0 Episode of harmful use of unknown or unspecified psychoactive substances",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Management 6C45.62 M\n6C44.0 Episode of harmful use of sedatives, hypnotics or anxiolytics\nStimulants, including 6C46.5 6C46.60 H 6C46.70 6C46.71 6C46.72 6C46.73 N/A N/A\n6C45.0 Episode of harmful use of cocaine\namfetamines,\nmethamfetamine 6C46.61 D 6C46.0 Episode of harmful use of stimulants, including amfetamines, methamfetamine\nand methcathinone and methcathinone\n6C46.62 M 6C47.0 Episode of harmful use of synthetic cathinones\nSynthetic cathinones 6C47.5 6C47.60 H 6C47.70 6C47.71 6C47.72 6C47.73 N/A N/A 6C48.0 Episode of harmful use of caffeine\n6C49.0 Episode of harmful use of hallucinogens\n6C47.61 D 6C4A.0 Episode of harmful use of nicotine\n6C4B.0 Episode of harmful use of volatile inhalants\n6C47.62 M\n6C4C.0 Episode of harmful use of MDMA or related drugs, including MDA\nCaffeine N/A N/A N/A 6C48.40 N/A N/A N/A N/A\n6C4D.0 Episode of harmful use of dissociative drugs, including ketamine and PCP\nHallucinogens 6C49.4 6C49.5 6C49.60 6C49.61 N/A N/A N/A N/A 6C4E.0 Episode of harmful use of other specified psychoactive substance\nNicotine N/A N/A N/A N/A N/A N/A N/A N/A 6C4F.0 Episode of harmful use of multiple specified psychoactive substances,\nincluding medications\nVolatile inhalants 6C4B.5 6C4B.6 6C4B.70 6C4B.71 N/A N/A 6D72.13 6D84.2\n6C4G.0 Episode of harmful use of unknown or unspecified psychoactive substances 6c45.62 m\n6c44.0 episode of harmful use of sedatives, hypnotics or anxiolytics\nstimulants, including 6c46.5 6c46.60 h 6c46.70 6c46.71 6c46.72 6c46.73 n/a n/a\n6c45.0 episode of harmful use of cocaine\namfetamines,\nmethamfe..."
+}

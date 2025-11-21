@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_de9a0e36",
+  "content": "diagnosis is 292.84 cocaine-induced bipolar and related disorder, with\nonset during intoxication. An additional diagnosis of 304.20 severe\ncocaine use disorder is also given. When more than one substance is\njudged to play a significant role in the development of bipolar mood\nsymptoms, each should be listed separately (e.g., 292.84 methylphe-\nnidate-induced bipolar and related disorder, with onset during in-\ntoxication; 292.84 dexamethasone-induced bipolar and related disor-\nder, with onset during intoxication).\nICD-10-CM. The name of the substance/medication-induced bipo-\nlar and related disorder begins with the specific substance (e.g., co-\ncaine, dexamethasone) that is presumed to be causing the bipolar\nmood symptoms. The diagnostic code is selected from the table in-\ncluded in the criteria set, which is based on the drug class and presence\nor absence of a comorbid substance use disorder. For substances that\ndo not fit into any of the classes (e.g., dexamethasone), the code for\n“other substance” should be used; and in cases in which a substance is\njudged to be an etiological factor but the specific class of substance is\nunknown, the category “unknown substance” should be used.\nWhen recording the name of the disorder, the comorbid sub-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues diagnosis is 292.84 cocaine-induced bipolar and related disorder, with\nonset during intoxication. An additional diagnosis of 304.20 severe\ncocaine use disorder is also given. When more than one substance is\njudged to play a significant role in the development of bipolar mood\nsymptoms, each should be listed separately (e.g., 292.84 methylphe-\nnidate-induced bipolar and related disorder, with onset during in-\ntoxication; 292.84 dexamethasone-induced bipolar and related disor-\nder, with onset during intoxication).\nICD-10-CM. The name of the substance/medication-induced bipo-\nlar and related disorder begins with the specific substance (e.g., co-\ncaine, dexamethasone) that is presumed to be causing the bipolar\nmood symptoms. The diagnostic code is selected from the table in-\ncluded in the criteria set, which is based on the drug class and presence\nor absence of a comorbid substance use disorder. For substances that\ndo not fit into any of the classes (e.g., dexamethasone), the code for\n“other substance” should be used; and in cases in which a substance is\njudged to be an etiological factor but the specific class of substance is\nunknown, the category “unknown substance” should be used.\nWhen recording the name of the disorder, the comorbid sub- Diagnosis is 292.84 cocaine-induced bipolar and related disorder, with\nonset during intoxication. an additional diagnosis of 304.20 severe\ncocaine use disorder is also given."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "clinical#management_61a5b93d",
+  "content": "substance/medication]-induced anxiety disorders are indicated in the\ntable below. Note that the ICD-10-CM code depends on whether or\nnot there is a comorbid substance use disorder present for the same\nclass of substance. If a mild substance use disorder is comorbid with\nthe substance-induced anxiety disorder, the 4th position character is\n“1,” and the clinician should record “mild [substance] use disorder”\nbefore the substance-induced anxiety disorder (e.g., “mild cocaine\nuse disorder with cocaine-induced anxiety disorder”). If a moderate\nor severe substance use disorder is comorbid with the substance-\ninduced anxiety disorder, the 4th position character is “2,” and the cli-\nnician should record “moderate [substance] use disorder” or “severe\n[substance] use disorder,” depending on the severity of the comorbid\nsubstance use disorder. If there is no comorbid substance use disor-\nder (e.g., after a one-time heavy use of the substance), then the 4th\nposition character is “9,” and the clinician should record only the sub-\nstance-induced anxiety disorder.\nSubstance/Medication-Induced Anxiety Disorder 125\nICD-10-CM\nWith use\nWith use disorder, Without\ndisorder, moderate use\nICD-9-CM mild or severe disorder\nAlcohol 291.89 F10.180 F10.280 F10.980\nCaffeine 292.89 F15.180 F15.280 F15.980\nCannabis 292.89 F12.180 F12.280 F12.980\nPhencyclidine 292.89 F16.180 F16.280 F16.980",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Management substance/medication]-induced anxiety disorders are indicated in the\ntable below. Note that the ICD-10-CM code depends on whether or\nnot there is a comorbid substance use disorder present for the same\nclass of substance. If a mild substance use disorder is comorbid with\nthe substance-induced anxiety disorder, the 4th position character is\n“1,” and the clinician should record “mild [substance] use disorder”\nbefore the substance-induced anxiety disorder (e.g., “mild cocaine\nuse disorder with cocaine-induced anxiety disorder”). If a moderate\nor severe substance use disorder is comorbid with the substance-\ninduced anxiety disorder, the 4th position character is “2,” and the cli-\nnician should record “moderate [substance] use disorder” or “severe\n[substance] use disorder,” depending on the severity of the comorbid\nsubstance use disorder. If there is no comorbid substance use disor-\nder (e.g., after a one-time heavy use of the substance), then the 4th\nposition character is “9,” and the clinician should record only the sub-\nstance-induced anxiety disorder.\nSubstance/Medication-Induced Anxiety Disorder 125\nICD-10-CM\nWith use\nWith use disorder, Without\ndisorder, moderate use\nICD-9-CM mild or severe disorder\nAlcohol 291.89 F10.180 F10.280 F10.980\nCaffeine 292.89 F15.180 F15.280 F15.980\nCannabis 292.89 F12.180 F12.280 F12.980\nPhencyclidine 292.89 F16.180 F16.280 F16.980 Substance/medication]-induced lo âu disorders are indicated in the\ntable below. note that the icd-10-cm code depends on whether or\nnot there is a comorbid substance use disorder present for the same\nclass of substance."
+}

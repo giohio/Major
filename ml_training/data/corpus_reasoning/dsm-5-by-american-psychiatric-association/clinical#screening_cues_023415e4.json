@@ -1,0 +1,16 @@
+{
+  "id": "clinical#screening_cues_023415e4",
+  "content": "D. The signs or symptoms are not attributable to another medical\ncondition and are not better explained by another mental disor-\nder, including intoxication or withdrawal from another substance.\nSpecify if:\nWith perceptual disturbances: This specifier may be noted\nwhen hallucinations with intact reality testing or auditory, visual,\nor tactile illusions occur in the absence of a delirium.\nCoding note: The ICD-9-CM code is 292.0. The ICD-10-CM code for\nsedative, hypnotic, or anxiolytic withdrawal depends on whether or\nnot there is a comorbid moderate or severe sedative, hypnotic, or\nanxiolytic use disorder and whether or not there are perceptual dis-\nturbances. For sedative, hypnotic, or anxiolytic withdrawal without\nperceptual disturbances, the ICD-10-CM code is F13.239. For seda-\ntive, hypnotic, or anxiolytic withdrawal with perceptual disturbances,\nthe ICD-10-CM code is F13.232. Note that the ICD-10-CM codes in-\ndicate the comorbid presence of a moderate or severe sedative, hyp-\n266 Substance-Related and Addictive Disorders\nnotic, or anxiolytic use disorder, reflecting the fact that sedative,\nhypnotic, or anxiolytic withdrawal can only occur in the presence of a\nmoderate or severe sedative, hypnotic, or anxiolytic use disorder. It\nis not permissible to code a comorbid mild sedative, hypnotic, or anx-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues D. The signs or symptoms are not attributable to another medical\ncondition and are not better explained by another mental disor-\nder, including intoxication or withdrawal from another substance.\nSpecify if:\nWith perceptual disturbances: This specifier may be noted\nwhen hallucinations with intact reality testing or auditory, visual,\nor tactile illusions occur in the absence of a delirium.\nCoding note: The ICD-9-CM code is 292.0. The ICD-10-CM code for\nsedative, hypnotic, or anxiolytic withdrawal depends on whether or\nnot there is a comorbid moderate or severe sedative, hypnotic, or\nanxiolytic use disorder and whether or not there are perceptual dis-\nturbances. For sedative, hypnotic, or anxiolytic withdrawal without\nperceptual disturbances, the ICD-10-CM code is F13.239. For seda-\ntive, hypnotic, or anxiolytic withdrawal with perceptual disturbances,\nthe ICD-10-CM code is F13.232. Note that the ICD-10-CM codes in-\ndicate the comorbid presence of a moderate or severe sedative, hyp-\n266 Substance-Related and Addictive Disorders\nnotic, or anxiolytic use disorder, reflecting the fact that sedative,\nhypnotic, or anxiolytic withdrawal can only occur in the presence of a\nmoderate or severe sedative, hypnotic, or anxiolytic use disorder. It\nis not permissible to code a comorbid mild sedative, hypnotic, or anx- D. the signs or symptoms are not attributable to another medical\ncondition and are not better explained by another mental disor-\nder, including intoxication or withdrawal from another substance."
+}

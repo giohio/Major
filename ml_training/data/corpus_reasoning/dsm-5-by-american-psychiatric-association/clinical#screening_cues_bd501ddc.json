@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_bd501ddc",
+  "content": "which is based on the drug class and presence or absence of a comor-\nbid substance use disorder. For substances that do not fit into any of\nthe classes, the code for “other substance” should be used; and in\ncases in which a substance is judged to be an etiological factor but the\nspecific class of substance is unknown, the category “unknown sub-\nstance” should be used.\nMajor or Mild Neurocognitive Disorder Due to HIV Infection 315\nWhen recording the name of the disorder, the comorbid substance\nuse disorder (if any) is listed first, followed by the word “with,” fol-\nlowed by the name of the disorder (i.e., [specific substance]-induced\nmajor neurocognitive disorder or [specific substance]-induced mild\nneurocognitive disorder), followed by the type in the case of alcohol\n(i.e., nonamnestic-confabulatory type, amnestic-confabulatory type),\nfollowed by specification of duration (i.e., persistent). For example,\nin the case of persistent amnestic-confabulatory symptoms in a man\nwith a severe alcohol use disorder, the diagnosis is F10.26 severe al-\ncohol use disorder with alcohol-induced major neurocognitive disor-\nder, amnestic-confabulatory type, persistent. A separate diagnosis of\nthe comorbid severe alcohol use disorder is not given. If the substance-\ninduced neurocognitive disorder occurs without a comorbid sub-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues which is based on the drug class and presence or absence of a comor-\nbid substance use disorder. For substances that do not fit into any of\nthe classes, the code for “other substance” should be used; and in\ncases in which a substance is judged to be an etiological factor but the\nspecific class of substance is unknown, the category “unknown sub-\nstance” should be used.\nMajor or Mild Neurocognitive Disorder Due to HIV Infection 315\nWhen recording the name of the disorder, the comorbid substance\nuse disorder (if any) is listed first, followed by the word “with,” fol-\nlowed by the name of the disorder (i.e., [specific substance]-induced\nmajor neurocognitive disorder or [specific substance]-induced mild\nneurocognitive disorder), followed by the type in the case of alcohol\n(i.e., nonamnestic-confabulatory type, amnestic-confabulatory type),\nfollowed by specification of duration (i.e., persistent). For example,\nin the case of persistent amnestic-confabulatory symptoms in a man\nwith a severe alcohol use disorder, the diagnosis is F10.26 severe al-\ncohol use disorder with alcohol-induced major neurocognitive disor-\nder, amnestic-confabulatory type, persistent. A separate diagnosis of\nthe comorbid severe alcohol use disorder is not given. If the substance-\ninduced neurocognitive disorder occurs without a comorbid sub- Which is based on the drug class and presence or absence of a comor-\nbid substance use disorder. for substances that do not fit into any of\nthe classes, the code for “other substance” should be used; and in\ncases in whic..."
+}

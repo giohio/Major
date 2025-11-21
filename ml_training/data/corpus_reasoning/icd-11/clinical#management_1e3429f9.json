@@ -1,0 +1,16 @@
+{
+  "id": "clinical#management_1e3429f9",
+  "content": "medications\n• 6D72.13 Amnestic disorder due to use of volatile inhalants\nNote: the order of the categories above is different from that of other parallel entities (e.g. substance-\ninduced dementia, below), in which the “other specified” category is listed last. This difference is\nnot meaningful; the categories should be used in the same way.\nSubstance-induced dementia\n• 6D84 Dementia due to psychoactive substances, including medications (p. 626)\n• 6D84.0 Dementia due to use of alcohol\n• 6D84.1 Dementia due to use of sedatives, hypnotics or anxiolytics\n• 6D84.2 Dementia due to use of volatile inhalants\n• 6D84.Y Dementia due to other specified psychoactive substance\nOther specified disorder due to psychoactive substance use\nAvailable categories by substance class\n6C40.Y Other specified disorder due to use of alcohol\n6C41.Y Other specified disorder due to use of cannabis\n6C42.Y Other specified disorder due to use of synthetic cannabinoids\n6C43.Y Other specified disorder due to use of opioids\n6C44.Y Other specified disorder due to use of sedatives, hypnotics or anxiolytics\n6C45.Y Other specified disorder due to use of cocaine\n6C46.Y Other specified disorder due to use of stimulants, including amfetamines,\nmethamfetamine and methcathinone\n6C47.Y Other specified disorder due to use of synthetic cathinones",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Management medications\n• 6D72.13 Amnestic disorder due to use of volatile inhalants\nNote: the order of the categories above is different from that of other parallel entities (e.g. substance-\ninduced dementia, below), in which the “other specified” category is listed last. This difference is\nnot meaningful; the categories should be used in the same way.\nSubstance-induced dementia\n• 6D84 Dementia due to psychoactive substances, including medications (p. 626)\n• 6D84.0 Dementia due to use of alcohol\n• 6D84.1 Dementia due to use of sedatives, hypnotics or anxiolytics\n• 6D84.2 Dementia due to use of volatile inhalants\n• 6D84.Y Dementia due to other specified psychoactive substance\nOther specified disorder due to psychoactive substance use\nAvailable categories by substance class\n6C40.Y Other specified disorder due to use of alcohol\n6C41.Y Other specified disorder due to use of cannabis\n6C42.Y Other specified disorder due to use of synthetic cannabinoids\n6C43.Y Other specified disorder due to use of opioids\n6C44.Y Other specified disorder due to use of sedatives, hypnotics or anxiolytics\n6C45.Y Other specified disorder due to use of cocaine\n6C46.Y Other specified disorder due to use of stimulants, including amfetamines,\nmethamfetamine and methcathinone\n6C47.Y Other specified disorder due to use of synthetic cathinones Medications\n• 6d72.13 amnestic disorder due to use of volatile inhalants\nnote: the order of the categories above is different from that of other parallel entities (e.g. substance-\ninduced dementia, below), in which the “..."
+}

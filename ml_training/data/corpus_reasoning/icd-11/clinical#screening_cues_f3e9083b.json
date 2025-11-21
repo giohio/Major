@@ -1,0 +1,19 @@
+{
+  "id": "clinical#screening_cues_f3e9083b",
+  "content": "individual’s clinical presentation, or may be a reason for a clinical encounter or for treatment. It\nreplicates one section of Chapter 21 on symptoms, signs or clinical findings, not elsewhere classified.\nThese categories may be used when a more precise diagnosis has not been established for various\nreasons (e.g. they describe transient symptoms at the time of initial encounter whose causes could\nnot be determined; the individual was referred for investigation or treatment before a diagnosis\nwas made; the patient failed to return for further investigation or follow-up; a more specific\ndiagnosis could not be determined even after investigation). In these cases, the categories from\nthis section can be used to describe the clinical presentation in the absence of a diagnosis for the\nunderlying disorder or condition.\nThese categories may also be used to describe clinically important aspects of the individual’s\npresentation when a mental disorder diagnosis has been assigned. They may be especially\nuseful when the symptom being described has implications for treatment but is not an essential\nfeature of the disorder itself, and does not meet the requirements for another diagnosable\ndisorder (e.g. duration, severity, situational specificity). For example, an individual with autism",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "referral",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues individual’s clinical presentation, or may be a reason for a clinical encounter or for treatment. It\nreplicates one section of Chapter 21 on symptoms, signs or clinical findings, not elsewhere classified.\nThese categories may be used when a more precise diagnosis has not been established for various\nreasons (e.g. they describe transient symptoms at the time of initial encounter whose causes could\nnot be determined; the individual was referred for investigation or treatment before a diagnosis\nwas made; the patient failed to return for further investigation or follow-up; a more specific\ndiagnosis could not be determined even after investigation). In these cases, the categories from\nthis section can be used to describe the clinical presentation in the absence of a diagnosis for the\nunderlying disorder or condition.\nThese categories may also be used to describe clinically important aspects of the individual’s\npresentation when a mental disorder diagnosis has been assigned. They may be especially\nuseful when the symptom being described has implications for treatment but is not an essential\nfeature of the disorder itself, and does not meet the requirements for another diagnosable\ndisorder (e.g. duration, severity, situational specificity). For example, an individual with autism Individual’s clinical presentation, or may be a reason for a clinical encounter or for treatment. it\nreplicates one section of chapter 21 on symptoms, signs or clinical findings, not elsewhere classified."
+}

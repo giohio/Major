@@ -1,0 +1,20 @@
+{
+  "id": "clinical#risk_safety_fc1d2fe7",
+  "content": "punches) or partner (e.g. to prevent a partner from attempting suicide).\nNote: these categories are assigned to the victim, not the perpetrator. In cases of mutual violence\nin which the couple is being evaluated, they may be assigned to both parties if applicable.\nIf PJ20 Physical maltreatment is diagnosed, the perpetrator should be specified as a spouse or\npartner using the extension code XE454 (PJ20&XE454). On the ICD-11 platform, the option to\nspecify the perpetrator–victim relationship appears in the context of the assault field.\nAdditional clinical features\n• Intimate partner physical abuse is, by definition, associated with an increased risk of\nphysical injury and need for medical attention.\n• Intimate partner physical abuse is associated with an increased risk of poor physical health\nand the development of a chronic disease.\n• Intimate partner physical abuse is associated with higher rates of depressive disorders,\npost-traumatic stress disorder and disorders due to substance use, as well as suicidality.\n• A pattern of recurrent acts, or the intent to assert control or power, are not required features\nfor assigning a diagnosis of intimate partner physical abuse. The diagnosis only requires at",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "high",
+    "topics": [
+      "stress",
+      "relationships",
+      "risk_safety",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Risk Safety punches) or partner (e.g. to prevent a partner from attempting suicide).\nNote: these categories are assigned to the victim, not the perpetrator. In cases of mutual violence\nin which the couple is being evaluated, they may be assigned to both parties if applicable.\nIf PJ20 Physical maltreatment is diagnosed, the perpetrator should be specified as a spouse or\npartner using the extension code XE454 (PJ20&XE454). On the ICD-11 platform, the option to\nspecify the perpetrator–victim relationship appears in the context of the assault field.\nAdditional clinical features\n• Intimate partner physical abuse is, by definition, associated with an increased risk of\nphysical injury and need for medical attention.\n• Intimate partner physical abuse is associated with an increased risk of poor physical health\nand the development of a chronic disease.\n• Intimate partner physical abuse is associated with higher rates of depressive disorders,\npost-traumatic stress disorder and disorders due to substance use, as well as suicidality.\n• A pattern of recurrent acts, or the intent to assert control or power, are not required features\nfor assigning a diagnosis of intimate partner physical abuse. The diagnosis only requires at Punches) or partner (e.g. to prevent a partner from attempting tự sát)."
+}

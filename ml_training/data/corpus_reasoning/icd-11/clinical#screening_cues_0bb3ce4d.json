@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_0bb3ce4d",
+  "content": "Other specified and unspecified categories\nBy default, all groupings in ICD-11 contain what are called “residual categories”, which include\n“other specified” categories with ICD-11 codes ending in “Y” (e.g. 6C7Y Other specified\nimpulse control disorders) and “unspecified” categories with ICD-11 codes ending in “Z” (e.g.\n6A8Z Mood disorder, unspecified). Occasionally, residual categories are “suppressed”, or not\nlisted, in the ICD-11 MMS because the other categories contained in the grouping are considered\nUsing the CDDR for ICD-11 mental, behavioural and neurodevelopmental disorders in clinical settings 27\nto be exhaustive. For example, the grouping elimination disorders contains enuresis, encopresis\nand elimination disorder, unspecified; the other specified residual has been suppressed for this\ngrouping and thus does not appear in the MMS.\nThe CDDR include essential (required) features for other specified categories at the grouping\nlevel (e.g. other specified mood disorder, other specified dissociative disorder). A particular other\nspecified diagnosis should be applied when the presentation is judged to be a clinically significant\nmental disorder falling within a particular grouping of disorders (e.g. mood disorders, dissociative\ndisorders) because it shares primary clinical features with these disorders but does not fulfil the",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Other specified and unspecified categories\nBy default, all groupings in ICD-11 contain what are called “residual categories”, which include\n“other specified” categories with ICD-11 codes ending in “Y” (e.g. 6C7Y Other specified\nimpulse control disorders) and “unspecified” categories with ICD-11 codes ending in “Z” (e.g.\n6A8Z Mood disorder, unspecified). Occasionally, residual categories are “suppressed”, or not\nlisted, in the ICD-11 MMS because the other categories contained in the grouping are considered\nUsing the CDDR for ICD-11 mental, behavioural and neurodevelopmental disorders in clinical settings 27\nto be exhaustive. For example, the grouping elimination disorders contains enuresis, encopresis\nand elimination disorder, unspecified; the other specified residual has been suppressed for this\ngrouping and thus does not appear in the MMS.\nThe CDDR include essential (required) features for other specified categories at the grouping\nlevel (e.g. other specified mood disorder, other specified dissociative disorder). A particular other\nspecified diagnosis should be applied when the presentation is judged to be a clinically significant\nmental disorder falling within a particular grouping of disorders (e.g. mood disorders, dissociative\ndisorders) because it shares primary clinical features with these disorders but does not fulfil the Other specified and unspecified categories\nby default, all groupings in icd-11 contain what are called “residual categories”, which include\n“other specified” categories with icd-11 codes ending in “y” (e.g. 6c7y other sp..."
+}

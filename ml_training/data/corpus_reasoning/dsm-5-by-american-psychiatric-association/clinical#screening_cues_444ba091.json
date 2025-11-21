@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_444ba091",
+  "content": "Other (or Unknown) Substance Intoxication\nA. The development of a reversible substance-specific syndrome\nattributable to recent ingestion of (or exposure to) a substance\nthat is not listed elsewhere or is unknown.\nB. Clinically significant problematic behavioral or psychological\nchanges that are attributable to the effect of the substance on the\ncentral nervous system (e.g., impaired motor coordination, psycho-\nmotor agitation or retardation, euphoria, anxiety, belligerence, mood\nlability, cognitive impairment, impaired judgment, social withdrawal)\nand develop during, or shortly after, use of the substance.\nC. The signs or symptoms are not attributable to another medical\ncondition and are not better explained by another mental disor-\nder, including intoxication with another substance.\nCoding note: The ICD-9-CM code is 292.89. The ICD-10-CM code\ndepends on whether there is a comorbid other (or unknown) sub-\nstance use disorder involving the same substance. If a mild other (or\nunknown) substance use disorder is comorbid, the ICD-10-CM code\nis F19.129, and if a moderate or severe other (or unknown) sub-\nstance use disorder is comorbid, the ICD-10-CM code is F19.229. If\nthere is no comorbid other (or unknown) substance use disorder in-\nvolving the same substance, then the ICD-10-CM code is F19.929.",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Other (or Unknown) Substance Intoxication\nA. The development of a reversible substance-specific syndrome\nattributable to recent ingestion of (or exposure to) a substance\nthat is not listed elsewhere or is unknown.\nB. Clinically significant problematic behavioral or psychological\nchanges that are attributable to the effect of the substance on the\ncentral nervous system (e.g., impaired motor coordination, psycho-\nmotor agitation or retardation, euphoria, anxiety, belligerence, mood\nlability, cognitive impairment, impaired judgment, social withdrawal)\nand develop during, or shortly after, use of the substance.\nC. The signs or symptoms are not attributable to another medical\ncondition and are not better explained by another mental disor-\nder, including intoxication with another substance.\nCoding note: The ICD-9-CM code is 292.89. The ICD-10-CM code\ndepends on whether there is a comorbid other (or unknown) sub-\nstance use disorder involving the same substance. If a mild other (or\nunknown) substance use disorder is comorbid, the ICD-10-CM code\nis F19.129, and if a moderate or severe other (or unknown) sub-\nstance use disorder is comorbid, the ICD-10-CM code is F19.229. If\nthere is no comorbid other (or unknown) substance use disorder in-\nvolving the same substance, then the ICD-10-CM code is F19.929. Other (or unknown) substance intoxication\na. the development of a reversible substance-specific syndrome\nattributable to recent ingestion of (or exposure to) a substance\nthat is not listed elsewhere or is unknown."
+}

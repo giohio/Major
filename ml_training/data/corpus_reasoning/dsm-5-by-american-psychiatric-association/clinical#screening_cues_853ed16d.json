@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_853ed16d",
+  "content": "Specify if: With predominant pain\nSpecify if: Persistent\nSpecify current severity: Mild, Moderate, Severe\n300.7 (F45.21) Illness Anxiety Disorder (162)\nSpecify whether: Care seeking type, Care avoidant\ntype\n300.11 (___.__) Conversion Disorder (Functional Neurological\nSymptom Disorder) (163)\nSpecify symptom type:\n(F44.4) With weakness or paralysis\n(F44.4) With abnormal movement\n(F44.4) With swallowing symptoms\n(F44.4) Withspeech symptom\n(F44.5) With attacks or seizures\n(F44.6) With anesthesia or sensory loss\n(F44.6) With special sensory symptom\n(F44.7) With mixed symptoms\nSpecify if: Acute episode, Persistent\nSpecify if: With psychological stressor (specify\nstressor), Without psychological stressor\n316 (F54) Psychological Factors Affecting Other Medical\nConditions (164)\nSpecify current severity: Mild, Moderate, Severe,\nExtreme\n300.19 (F68.10) Factitious Disorder (includes Factitious Disorder\nImposed on Self, Factitious Disorder\nImposed on Another) (165)\nSpecify Single episode, Recurrent episodes\nDSM-5 Classification xxi\n300.89 (F45.8) Other Specified Somatic Symptom and Related\nDisorder (166)\n300.82 (F45.9) Unspecified Somatic Symptom and Related\nDisorder (167)\nFeeding and Eating Disorders (169)\nThe following specifiers apply to Feeding and Eating Disorders where in-\ndicated:\naSpecify if: In remission\nbSpecify if: In partial remission, In full remission\ncSpecify current severity: Mild, Moderate, Severe, Extreme\n307.52 (___.__) Picaa (169)\n(F98.3) In children\n(F50.8) In adults",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "emotions",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Specify if: With predominant pain\nSpecify if: Persistent\nSpecify current severity: Mild, Moderate, Severe\n300.7 (F45.21) Illness Anxiety Disorder (162)\nSpecify whether: Care seeking type, Care avoidant\ntype\n300.11 (___.__) Conversion Disorder (Functional Neurological\nSymptom Disorder) (163)\nSpecify symptom type:\n(F44.4) With weakness or paralysis\n(F44.4) With abnormal movement\n(F44.4) With swallowing symptoms\n(F44.4) Withspeech symptom\n(F44.5) With attacks or seizures\n(F44.6) With anesthesia or sensory loss\n(F44.6) With special sensory symptom\n(F44.7) With mixed symptoms\nSpecify if: Acute episode, Persistent\nSpecify if: With psychological stressor (specify\nstressor), Without psychological stressor\n316 (F54) Psychological Factors Affecting Other Medical\nConditions (164)\nSpecify current severity: Mild, Moderate, Severe,\nExtreme\n300.19 (F68.10) Factitious Disorder (includes Factitious Disorder\nImposed on Self, Factitious Disorder\nImposed on Another) (165)\nSpecify Single episode, Recurrent episodes\nDSM-5 Classification xxi\n300.89 (F45.8) Other Specified Somatic Symptom and Related\nDisorder (166)\n300.82 (F45.9) Unspecified Somatic Symptom and Related\nDisorder (167)\nFeeding and Eating Disorders (169)\nThe following specifiers apply to Feeding and Eating Disorders where in-\ndicated:\naSpecify if: In remission\nbSpecify if: In partial remission, In full remission\ncSpecify current severity: Mild, Moderate, Severe, Extreme\n307.52 (___.__) Picaa (169)\n(F98.3) In children\n(F50.8) In adults Specify if: with predominant pain\nspecify if: persistent\nspecify current severity: mild, moderate, severe\n300.7 (f45.21) illness lo âu disorder (162)\nspecify whether: care seeking type, care avoidant\ntype\n300.11 (___.__)..."
+}
