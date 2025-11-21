@@ -15,8 +15,8 @@ from langchain_core.documents import Document
 
 # ====== 1️⃣ CẤU HÌNH ======
 SCRIPT_DIR = Path(__file__).parent.resolve()
-CORPUS_DIR = SCRIPT_DIR / "../../data/reasoning"     # 4 folder tri thức: dsm5, icd11, mhgap, mhgap_ver2
-DB_DIR     = SCRIPT_DIR / "../../vector_db/Deep_Reasoning"              # nơi lưu vector database
+CORPUS_DIR = SCRIPT_DIR / "../../data/corpus_advice"     # 4 folder tri thức: dsm5, icd11, mhgap, mhgap_ver2
+DB_DIR     = SCRIPT_DIR / "../../vector_db/Advice"              # nơi lưu vector database
 DB_DIR.mkdir(parents=True, exist_ok=True)
 
 EMB_MODEL  = "BAAI/bge-small-en-v1.5"  # Smaller model for 4GB GPU
@@ -46,7 +46,7 @@ for corpus_dir in CORPUS_DIR.iterdir():
             print(f"⚠️  Error reading {f}: {e}")
             continue
 
-        text = item.get("index_text") or item.get("text_en") or item.get("text") or ""
+        text = item.get("index_text") or item.get("content") or ""
         if not text.strip():
             continue
 
@@ -58,11 +58,14 @@ for corpus_dir in CORPUS_DIR.iterdir():
                 return str(v)
             return v
 
+        # Get metadata from nested structure or top level
+        meta = item.get("metadata", {})
         metadata = {
             "id": safe(item.get("id", "")),
-            "corpus": safe(item.get("corpus", corpus_name)),
-            "condition": safe(item.get("condition", "")),
-            "source": safe(item.get("source", corpus_name)),
+            "source": safe(meta.get("source", corpus_name)),
+            "condition": safe(meta.get("condition", "")),
+            "risk_band": safe(meta.get("risk_band", "")),
+            "topics": safe(meta.get("topics", [])),
         }
 
         docs.append(Document(page_content=text, metadata=metadata))

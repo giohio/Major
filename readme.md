@@ -103,33 +103,52 @@ vector_db/
 #### 🎭 **Text Reasoning Model**
 
 **Model Architecture**: Fine-tuned transformer-based classifier  
-**Training Data**: `Text_Reasoning_train.jsonl` (~5400 samples)  
+**Training Data**: `Text_Reasoning_train.jsonl` (~5,400 samples)  
 **Test Set**: `Text_Reasoning_test.jsonl` (~600 samples)  
-**Accuracy**: 100% on test set  
+**Total Dataset**: 6,000 samples (90/10 train/test split)  
+**Accuracy**: Target >90% on test set  
+
+**Data Generation Strategy**:
+- **Synthetic Generation**: Rule-based templates with randomized vocabulary pools
+- **Context Separation**: Distinct context pools for Complex vs High Risk to prevent overlap
+  - Complex: Medical/physical contexts (sau sinh, sau phẫu thuật, tai nạn)
+  - High Risk: Emotional/crisis contexts (bị bắt nạt, người yêu phản bội, vỡ nợ)
+- **Deduplication**: Hash-based filtering to ensure unique samples
+- **Generation Script**: `ml_training/scripts/training/Text_Reasoning_train_test.py`
 
 **Classification Categories**:
 
-**1. Emotional Support** 🟦 (40% of traffic)
+**1. Emotional Support** 🟦 (40% of dataset = ~2,400 samples)
 - **Indicators**: Expressions of loneliness, stress, frustration without medical urgency
 - **Example**: "Tôi chán lắm, bị bạn xa lánh nên không biết làm sao"
+- **Generation Pattern**: `{emotion} + {social/personal cause}`
+- **Causes**: "bị sếp mắng", "vừa chia tay", "thi trượt", "crush có người yêu"
 - **Response Strategy**: Empathetic validation + coping techniques + warm line resources
 - **Latency**: ~2s (direct LLM generation, no RAG)
 
-**2. Informational** 🔵 (30% of traffic)
-- **Indicators**: Questions about conditions, symptoms, treatments
-- **Example**: "Nghe nói ADHD, là gì?"
+**2. Informational** 🔵 (25% of dataset = ~1,500 samples)
+- **Indicators**: Questions about conditions, symptoms, treatments  
+- **Example**: "Bác sĩ nói em bị ADHD, là gì?"
+- **Query Types**: "là gì", "có triệu chứng gì", "chữa thế nào", "có di truyền không"
+- **Concepts**: trầm cảm, lo âu, OCD, PTSD, ADHD, rối loạn lưỡng cực
 - **Response Strategy**: RAG retrieval from medical knowledge bases + structured explanation
 - **Latency**: ~3s (Quick Consult mode)
 
-**3. Complex Consultation** 🟢 (25% of traffic)
-- **Indicators**: Treatment failures, multiple symptoms, medical history references
-- **Example**: "Đã thử CBT rồi nhưng không hiệu quả, có cần nhập viện không?"
-- **Response Strategy**: Deep Reasoning mode + multi-source RAG + treatment plan recommendations
+**3. Complex Consultation** 🟢 (25% of dataset = ~1,500 samples)
+- **Indicators**: Medical contexts, treatment history, persistent symptoms
+- **Example**: "Sau sinh, em bị mất ngủ. Đã uống thuốc 2 tháng vẫn vậy, có phải bệnh không?"
+- **Key Feature**: **Medical/physical contexts** ("sau sinh", "từ lúc bị tai nạn", "sau phẫu thuật")
+- **Symptoms**: mất ngủ, tim đập nhanh, đau đầu, run tay, khó thở, sợ đám đông
+- **Medical Framing**: "Bác sĩ ơi", "Cho em hỏi", "Triệu chứng này"
+- **Response Strategy**: Deep Reasoning mode + multi-source RAG + treatment recommendations
 - **Latency**: ~15s (comprehensive analysis)
 
-**4. High Risk** 🔴 (5% of traffic, highest priority)
-- **Indicators**: Suicidal ideation keywords ("muốn chết", "nhảy lầu", "không còn lý do")
-- **Example**: "không còn lý do để ở lại"
+**4. High Risk** 🔴 (10% of dataset = ~600 samples, highest priority)
+- **Indicators**: Suicidal ideation + **emotional/crisis contexts** (separated from medical)
+- **Example**: "Bị bắt nạt liên tục, em mệt mỏi quá rồi. không còn lý do để ở lại"
+- **Crisis Contexts**: "bị bắt nạt liên tục", "người yêu phản bội", "gia đình tan vỡ", "vỡ nợ"
+- **Keywords**: "muốn chết", "tự tử", "nhảy lầu", "cuộc sống vô nghĩa", "đã viết thư"
+- **Context Separation**: NO medical contexts (prevented overlapping with Complex Consultation)
 - **Response Strategy**: **IMMEDIATE EMERGENCY PROTOCOL** (see Section 6)
 - **Latency**: <5s (highest priority processing)
 
@@ -718,24 +737,3 @@ CRISIS_CENTER_EMAIL=crisis@mindcare.ai
 - **DevOps**: Deployment, Monitoring, CI/CD
 - **QA**: Testing, Quality Assurance
 - **Medical Consultants**: Domain expertise, Protocol validation
-
----
-
-## 📝 Version History (Lịch Sử Phiên Bản)
-
-- **v1.0.0** (Current): Initial release với Text Reasoning Model
-- **Upcoming v1.1.0**: Multi-modal support (voice, images)
-- **Upcoming v2.0.0**: Advanced diagnostics & treatment planning
-
----
-
-## 📞 Support & Contact (Hỗ Trợ & Liên Hệ)
-
-- **Technical Support**: tech@mindcare.ai
-- **Medical Inquiries**: medical@mindcare.ai
-- **Emergency**: 1800-xxx-xxx (24/7)
-
----
-
-**Last Updated**: November 21, 2025
-**Document Version**: 1.0.0
