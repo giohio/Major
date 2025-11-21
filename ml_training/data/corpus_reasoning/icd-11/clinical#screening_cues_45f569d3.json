@@ -1,0 +1,16 @@
+{
+  "id": "clinical#screening_cues_45f569d3",
+  "content": "personality disorder:\n6D11.0 Negative affectivity\n6D11.4 Anankastia • 0 = Mild\n(6D10.x/6D11.0/6D11.4) • 1 = Moderate\n• 2 = Severe\n• Z = Severity\nunspecified.\n6D10.x F60.6 Anxious [avoidant] personality disorder The x in the left column\nis a placeholder for\nAND the digit indicating the\nseverity level of the\npersonality disorder:\n6D11.0 Negative affectivity\n6D11.1 Detachment • 0 = Mild\n(6D10.x/6D11.0/6D11.1) • 1 = Moderate\n• 2 = Severe\n• Z = Severity\nunspecified.\n6D10.x F60.7 Dependent personality disorder The x in the left column\nis a placeholder for\nthe digit indicating the\nseverity level of the\npersonality disorder:\nAND\n• 0 = Mild\n• 1 = Moderate\n6D11.0 Negative affectivity\n• 2 = Severe\n(6D10.x/6D11.0)\n• Z = Severity\nunspecified.\n804 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nICD-11 ICD-10 Notes\n6D10.x F60.8 Other specific personality disorders The x in the left column\nis a placeholder for\nthe digit indicating the\nseverity level of the\npersonality disorder:\nAND\n• 0 = Mild\n• 1 = Moderate\nany combination of prominent personality traits or\n• 2 = Severe\npatterns not listed above\n• Z = Severity\nunspecified.\nParaphilic disorders\n6D30 Exhibitionistic disorder F65.2 Exhibitionism",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues personality disorder:\n6D11.0 Negative affectivity\n6D11.4 Anankastia • 0 = Mild\n(6D10.x/6D11.0/6D11.4) • 1 = Moderate\n• 2 = Severe\n• Z = Severity\nunspecified.\n6D10.x F60.6 Anxious [avoidant] personality disorder The x in the left column\nis a placeholder for\nAND the digit indicating the\nseverity level of the\npersonality disorder:\n6D11.0 Negative affectivity\n6D11.1 Detachment • 0 = Mild\n(6D10.x/6D11.0/6D11.1) • 1 = Moderate\n• 2 = Severe\n• Z = Severity\nunspecified.\n6D10.x F60.7 Dependent personality disorder The x in the left column\nis a placeholder for\nthe digit indicating the\nseverity level of the\npersonality disorder:\nAND\n• 0 = Mild\n• 1 = Moderate\n6D11.0 Negative affectivity\n• 2 = Severe\n(6D10.x/6D11.0)\n• Z = Severity\nunspecified.\n804 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nICD-11 ICD-10 Notes\n6D10.x F60.8 Other specific personality disorders The x in the left column\nis a placeholder for\nthe digit indicating the\nseverity level of the\npersonality disorder:\nAND\n• 0 = Mild\n• 1 = Moderate\nany combination of prominent personality traits or\n• 2 = Severe\npatterns not listed above\n• Z = Severity\nunspecified.\nParaphilic disorders\n6D30 Exhibitionistic disorder F65.2 Exhibitionism Personality disorder:\n6d11.0 negative affectivity\n6d11.4 anankastia • 0 = mild\n(6d10.x/6d11.0/6d11.4) • 1 = moderate\n• 2 = severe\n• z = severity\nunspecified. 6d10.x f60.6 anxious [avoidant] personality disorder the x in ..."
+}

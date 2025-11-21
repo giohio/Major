@@ -1,0 +1,16 @@
+{
+  "id": "clinical#screening_cues_d483b8de",
+  "content": "6C43.0 Episode of harmful use of opioids F11.8 Mental and behavioural disorders due to use of opioids:\nother mental and behavioural disorders\n6C43.1 Harmful pattern of use of opioids F11.1 Mental and behavioural disorders due to use of opioids:\nharmful use\n6C43.10 Harmful pattern of use of opioids, episodic F11.1 Mental and behavioural disorders due to use of opioids:\nharmful use\n774 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nICD-11 ICD-10 Notes\n6C43.11 Harmful pattern of use of opioids, continuous F11.1 Mental and behavioural disorders due to use of opioids:\nharmful use\n6C43.1Z Harmful pattern of use of opioids, F11.1 Mental and behavioural disorders due to use of opioids:\nunspecified harmful use\n6C43.2 Opioid dependence F11.2 Mental and behavioural disorders due to use of opioids:\ndependence syndrome\n6C43.20 Opioid dependence, current use F11.24 Mental and behavioural disorders due to use\nof opioids: dependence syndrome, currently using the\nsubstance [active dependence]\n4-character code: F11.2 Mental and behavioural disorders due\nto use of opioids: dependence syndrome\n6C43.21 Opioid dependence, early full remission F11.20 Mental and behavioural disorders due to use of Select the appropriate\nopioids: dependence syndrome, currently abstinent category based on\nclinical context.\nOR",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues 6C43.0 Episode of harmful use of opioids F11.8 Mental and behavioural disorders due to use of opioids:\nother mental and behavioural disorders\n6C43.1 Harmful pattern of use of opioids F11.1 Mental and behavioural disorders due to use of opioids:\nharmful use\n6C43.10 Harmful pattern of use of opioids, episodic F11.1 Mental and behavioural disorders due to use of opioids:\nharmful use\n774 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nICD-11 ICD-10 Notes\n6C43.11 Harmful pattern of use of opioids, continuous F11.1 Mental and behavioural disorders due to use of opioids:\nharmful use\n6C43.1Z Harmful pattern of use of opioids, F11.1 Mental and behavioural disorders due to use of opioids:\nunspecified harmful use\n6C43.2 Opioid dependence F11.2 Mental and behavioural disorders due to use of opioids:\ndependence syndrome\n6C43.20 Opioid dependence, current use F11.24 Mental and behavioural disorders due to use\nof opioids: dependence syndrome, currently using the\nsubstance [active dependence]\n4-character code: F11.2 Mental and behavioural disorders due\nto use of opioids: dependence syndrome\n6C43.21 Opioid dependence, early full remission F11.20 Mental and behavioural disorders due to use of Select the appropriate\nopioids: dependence syndrome, currently abstinent category based on\nclinical context.\nOR 6c43.0 episode of harmful use of opioids f11.8 mental and behavioural disorders due to use of opioids:\nother mental and behavioural disorders\n6c43.1 harmful pattern of use of opioids f11.1 mental and behavioural disorder..."
+}

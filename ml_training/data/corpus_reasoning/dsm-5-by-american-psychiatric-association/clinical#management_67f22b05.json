@@ -1,0 +1,16 @@
+{
+  "id": "clinical#management_67f22b05",
+  "content": "D. The temporal course of the neurocognitive deficits is consistent with\nthe timing of substance or medication use and abstinence (e.g., the\ndeficits remain stable or improve after a period of abstinence).\n312 Neurocognitive Disorders\nE. The neurocognitive disorder is not attributable to another medical\ncondition or is not better explained by another mental disorder.\nCoding note: The ICD-9-CM and ICD-10-CM codes for the [specific\nsubstance/medication]-induced neurocognitive disorders are indicat-\ned in the table below. Note that the ICD-10-CM code depends on\nwhether or not there is a comorbid substance use disorder present\nfor the same class of substance. If a mild substance use disorder is\ncomorbid with the substance-induced neurocognitive disorder, the\n4th position character is “1,” and the clinician should record “mild\n[substance] use disorder” before the substance-induced neurocogni-\ntive disorder (e.g., “mild inhalant use disorder with inhalant-induced\nmajor neurocognitive disorder”). If a moderate or severe substance\nuse disorder is comorbid with the substance-induced neurocognitive\ndisorder, the 4th position character is “2,” and the clinician should re-\ncord “moderate [substance] use disorder” or “severe [substance] use\ndisorder,” depending on the severity of the comorbid substance use\ndisorder. If there is no comorbid substance use disorder, then the 4th",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Management D. The temporal course of the neurocognitive deficits is consistent with\nthe timing of substance or medication use and abstinence (e.g., the\ndeficits remain stable or improve after a period of abstinence).\n312 Neurocognitive Disorders\nE. The neurocognitive disorder is not attributable to another medical\ncondition or is not better explained by another mental disorder.\nCoding note: The ICD-9-CM and ICD-10-CM codes for the [specific\nsubstance/medication]-induced neurocognitive disorders are indicat-\ned in the table below. Note that the ICD-10-CM code depends on\nwhether or not there is a comorbid substance use disorder present\nfor the same class of substance. If a mild substance use disorder is\ncomorbid with the substance-induced neurocognitive disorder, the\n4th position character is “1,” and the clinician should record “mild\n[substance] use disorder” before the substance-induced neurocogni-\ntive disorder (e.g., “mild inhalant use disorder with inhalant-induced\nmajor neurocognitive disorder”). If a moderate or severe substance\nuse disorder is comorbid with the substance-induced neurocognitive\ndisorder, the 4th position character is “2,” and the clinician should re-\ncord “moderate [substance] use disorder” or “severe [substance] use\ndisorder,” depending on the severity of the comorbid substance use\ndisorder. If there is no comorbid substance use disorder, then the 4th D. the temporal course of the neurocognitive deficits is consistent with\nthe timing of substance or medication use and abstinence (e.g., the\ndeficits remain stable or improve after a period of abstinence)."
+}

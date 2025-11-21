@@ -1,0 +1,19 @@
+{
+  "id": "clinical#screening_cues_32be5108",
+  "content": "Specify current severity:\nMild: Evidence of mild distress over the symptoms in Criterion A.\nModerate: Evidence of moderate distress over the symptoms in\nCriterion A.\nSevere: Evidence of severe or extreme distress over the symp-\ntoms in Criterion A.\nErectile Disorder\n302.72 (F52.21)\nA. At least one of the three following symptoms must be experi-\nenced on almost all or all (approximately 75%–100%) occasions\nof sexual activity (in identified situational contexts or, if general-\nized, in all contexts):\n1. Marked difficulty in obtaining an erection during sexual activity.\n2. Marked difficulty in maintaining an erection until the comple-\ntion of sexual activity.\n3. Marked decrease in erectile rigidity.\nB. The symptoms in Criterion A have persisted for a minimum dura-\ntion of approximately 6 months.\nC. The symptoms in Criterion A cause clinically significant distress\nin the individual.\nD. The sexual dysfunction is not better explained by a nonsexual\nmental disorder or as a consequence of severe relationship dis-\ntress or other significant stressors and is not attributable to the\neffects of a substance/medication or another medical condition.\nSpecify whether:\nLifelong: The disturbance has been present since the individual\nbecame sexually active.",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "relationships",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Specify current severity:\nMild: Evidence of mild distress over the symptoms in Criterion A.\nModerate: Evidence of moderate distress over the symptoms in\nCriterion A.\nSevere: Evidence of severe or extreme distress over the symp-\ntoms in Criterion A.\nErectile Disorder\n302.72 (F52.21)\nA. At least one of the three following symptoms must be experi-\nenced on almost all or all (approximately 75%–100%) occasions\nof sexual activity (in identified situational contexts or, if general-\nized, in all contexts):\n1. Marked difficulty in obtaining an erection during sexual activity.\n2. Marked difficulty in maintaining an erection until the comple-\ntion of sexual activity.\n3. Marked decrease in erectile rigidity.\nB. The symptoms in Criterion A have persisted for a minimum dura-\ntion of approximately 6 months.\nC. The symptoms in Criterion A cause clinically significant distress\nin the individual.\nD. The sexual dysfunction is not better explained by a nonsexual\nmental disorder or as a consequence of severe relationship dis-\ntress or other significant stressors and is not attributable to the\neffects of a substance/medication or another medical condition.\nSpecify whether:\nLifelong: The disturbance has been present since the individual\nbecame sexually active. Specify current severity:\nmild: evidence of mild distress over the symptoms in criterion a. moderate: evidence of moderate distress over the symptoms in\ncriterion a."
+}

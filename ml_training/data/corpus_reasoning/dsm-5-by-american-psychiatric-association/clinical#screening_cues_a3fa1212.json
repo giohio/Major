@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_a3fa1212",
+  "content": "or mental disorder.\nD. The symptom or deficit causes clinically significant distress or im-\npairment in social, occupational, or other important areas of func-\ntioning or warrants medical evaluation.\nCoding note: The ICD-9-CM code for conversion disorder is 300.11,\nwhich is assigned regardless of the symptom type. The ICD-10-CM\ncode depends on the symptom type (see below).\nSpecify symptom type:\n(F44.4) With weakness or paralysis\n(F44.4) With abnormal movement (e.g., tremor, dystonic move-\nment, myoclonus, gait disorder)\n(F44.4) With swallowing symptoms\n(F44.4) With speech symptom (e.g., dysphonia, slurred speech)\n(F44.5) With attacks or seizures\n(F44.6) With anesthesia or sensory loss\n(F44.6) With special sensory symptom (e.g., visual, olfactory,\nor hearing disturbance)\n(F44.7) With mixed symptoms\nSpecify if:\nAcute episode: Symptoms present for less than 6 months.\nPersistent: Symptoms occurring for 6 months or more.\nSpecify if:\nWith psychological stressor (specify stressor)\nWithout psychological stressor\n164 Somatic Symptom and Related Disorders\nPsychological Factors Affecting\nOther Medical Conditions\n316 (F54)\nA. A medical symptom or condition (other than a mental disorder) is\npresent.\nB. Psychological or behavioral factors adversely affect the medical\ncondition in one of the following ways:\n1. The factors have influenced the course of the medical condi-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "emotions",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues or mental disorder.\nD. The symptom or deficit causes clinically significant distress or im-\npairment in social, occupational, or other important areas of func-\ntioning or warrants medical evaluation.\nCoding note: The ICD-9-CM code for conversion disorder is 300.11,\nwhich is assigned regardless of the symptom type. The ICD-10-CM\ncode depends on the symptom type (see below).\nSpecify symptom type:\n(F44.4) With weakness or paralysis\n(F44.4) With abnormal movement (e.g., tremor, dystonic move-\nment, myoclonus, gait disorder)\n(F44.4) With swallowing symptoms\n(F44.4) With speech symptom (e.g., dysphonia, slurred speech)\n(F44.5) With attacks or seizures\n(F44.6) With anesthesia or sensory loss\n(F44.6) With special sensory symptom (e.g., visual, olfactory,\nor hearing disturbance)\n(F44.7) With mixed symptoms\nSpecify if:\nAcute episode: Symptoms present for less than 6 months.\nPersistent: Symptoms occurring for 6 months or more.\nSpecify if:\nWith psychological stressor (specify stressor)\nWithout psychological stressor\n164 Somatic Symptom and Related Disorders\nPsychological Factors Affecting\nOther Medical Conditions\n316 (F54)\nA. A medical symptom or condition (other than a mental disorder) is\npresent.\nB. Psychological or behavioral factors adversely affect the medical\ncondition in one of the following ways:\n1. The factors have influenced the course of the medical condi- Or mental disorder. d."
+}

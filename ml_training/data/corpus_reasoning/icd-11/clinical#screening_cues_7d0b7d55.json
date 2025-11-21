@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_7d0b7d55",
+  "content": "This specifier may be used together with a diagnosis from the grouping of schizophrenia and other\nprimary psychotic disorders to indicate the degree to which cognitive impairment is a prominent\naspect of the clinical presentation (see Table 6.12). Deficits may appear in any of the following\ncognitive domains: speed of processing, attention/concentration, orientation, judgement,\nabstraction, verbal or visual learning, or working memory. The cognitive impairment is not\nattributable to a neurodevelopmental disorder, to delirium or another neurocognitive disorder,\nor to the direct effects of a substance or medication on the central nervous system, including\nwithdrawal effects. When available, the severity rating for this domain should be based on the\nresults of locally validated, standardized neuropsychological assessments, but such measures are\nnot available in all settings and are not required to provide a rating.\nThe rating should be made based on the severity of cognitive symptoms during the past week.\nSpecifier scales for symptomatic manifestations of primary psychotic disorders | Cognitive symptoms\nSpecifier scales for symptomatic manifestations of primary psychotic disorders 199\nTable 6.12. Rating scale for cognitive symptoms in primary psychotic disorders\nSeverity Anchor points\nNone No significant cognitive symptoms have been present during the past week\n6A25.5&XS8H",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "work",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues This specifier may be used together with a diagnosis from the grouping of schizophrenia and other\nprimary psychotic disorders to indicate the degree to which cognitive impairment is a prominent\naspect of the clinical presentation (see Table 6.12). Deficits may appear in any of the following\ncognitive domains: speed of processing, attention/concentration, orientation, judgement,\nabstraction, verbal or visual learning, or working memory. The cognitive impairment is not\nattributable to a neurodevelopmental disorder, to delirium or another neurocognitive disorder,\nor to the direct effects of a substance or medication on the central nervous system, including\nwithdrawal effects. When available, the severity rating for this domain should be based on the\nresults of locally validated, standardized neuropsychological assessments, but such measures are\nnot available in all settings and are not required to provide a rating.\nThe rating should be made based on the severity of cognitive symptoms during the past week.\nSpecifier scales for symptomatic manifestations of primary psychotic disorders | Cognitive symptoms\nSpecifier scales for symptomatic manifestations of primary psychotic disorders 199\nTable 6.12. Rating scale for cognitive symptoms in primary psychotic disorders\nSeverity Anchor points\nNone No significant cognitive symptoms have been present during the past week\n6A25.5&XS8H This specifier may be used together with a diagnosis from the grouping of schizophrenia and other\nprimary psychotic disorders to indicate the degree to which cognitive impairment is a prominent\naspect of the clinical pre..."
+}

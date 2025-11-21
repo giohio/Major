@@ -1,0 +1,19 @@
+{
+  "id": "clinical#coping_skill_37901618",
+  "content": "Specify if: With mental disorder, With medical\ncondition, With another sleep disorder\n___.__ (___.__) Narcolepsyc (184)\nSpecify whether:\n347.00 (G47.419) Narcolepsy without cataplexy but with\nhypocretin deficiency\n347.01 (G47.411) Narcolepsy with cataplexy but without\nhypocretin deficiency\n347.00 (G47.419) Autosomal dominant cerebellar ataxia,\ndeafness, and narcolepsy\n347.00 (G47.419) Autosomal dominant narcolepsy, obesity, and\ntype 2 diabetes\n347.10 (G47.429) Narcolepsy secondary to another medical\ncondition\nBreathing-Related Sleep Disorders (186)\n327.23 (G47.33) Obstructive Sleep Apnea Hypopneac (186)\n___.__ (___.__) Central Sleep Apnea (186)\nDSM-5 Classification xxiii\nSpecify whether:\n327.21 (G47.31) Idiopathic central sleep apnea\n786.04 (R06.3) Cheyne-Stokes breathing\n780.57 (G47.37) Central sleep apnea comorbid with opioid use\nNote: First code opioid use disorder, if present.\nSpecify current severity\n___.__ (___.__) Sleep-Related Hypoventilation (187)\nSpecify whether:\n327.24 (G47.34) Idiopathic hypoventilation\n327.25 (G47.35) Congenital central alveolar hypoventilation\n327.26 (G47.36) Comorbid sleep-related hypoventilation\nSpecify current severity\n___.__ (___.__) Circadian Rhythm Sleep-Wake Disordersa (188)\nSpecify whether:\n307.45 (G47.21) Delayed sleep phase type (189)\nSpecify if: Familial, Overlapping with non-24-\nhour sleep-wake type\n307.45 (G47.22) Advanced sleep phase type (189)\nSpecify if: Familial\n307.45 (G47.23) Irregular sleep-wake type (189)\n307.45 (G47.24) Non-24-hour sleep-wake type (189)\n307.45 (G47.26) Shift work type (189)\n307.45 (G47.20) Unspecified type\nParasomnias (190)",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "stress",
+      "work",
+      "coping_skill"
+    ],
+    "is_clinical": false,
+    "is_advice": false
+  },
+  "index_text": "General — Coping Skill Specify if: With mental disorder, With medical\ncondition, With another sleep disorder\n___.__ (___.__) Narcolepsyc (184)\nSpecify whether:\n347.00 (G47.419) Narcolepsy without cataplexy but with\nhypocretin deficiency\n347.01 (G47.411) Narcolepsy with cataplexy but without\nhypocretin deficiency\n347.00 (G47.419) Autosomal dominant cerebellar ataxia,\ndeafness, and narcolepsy\n347.00 (G47.419) Autosomal dominant narcolepsy, obesity, and\ntype 2 diabetes\n347.10 (G47.429) Narcolepsy secondary to another medical\ncondition\nBreathing-Related Sleep Disorders (186)\n327.23 (G47.33) Obstructive Sleep Apnea Hypopneac (186)\n___.__ (___.__) Central Sleep Apnea (186)\nDSM-5 Classification xxiii\nSpecify whether:\n327.21 (G47.31) Idiopathic central sleep apnea\n786.04 (R06.3) Cheyne-Stokes breathing\n780.57 (G47.37) Central sleep apnea comorbid with opioid use\nNote: First code opioid use disorder, if present.\nSpecify current severity\n___.__ (___.__) Sleep-Related Hypoventilation (187)\nSpecify whether:\n327.24 (G47.34) Idiopathic hypoventilation\n327.25 (G47.35) Congenital central alveolar hypoventilation\n327.26 (G47.36) Comorbid sleep-related hypoventilation\nSpecify current severity\n___.__ (___.__) Circadian Rhythm Sleep-Wake Disordersa (188)\nSpecify whether:\n307.45 (G47.21) Delayed sleep phase type (189)\nSpecify if: Familial, Overlapping with non-24-\nhour sleep-wake type\n307.45 (G47.22) Advanced sleep phase type (189)\nSpecify if: Familial\n307.45 (G47.23) Irregular sleep-wake type (189)\n307.45 (G47.24) Non-24-hour sleep-wake type (189)\n307.45 (G47.26) Shift work type (189)\n307.45 (G47.20) Unspecified type\nParasomnias (190) Specify if: with mental disorder, with medical\ncondition, with another giấc ngủ disorder\n___.__ (___.__) narcolepsyc (184)\nspecify whether:\n347.00 (g47.419) narcolepsy without cataplexy but with\nhypocretin deficiency\n347..."
+}

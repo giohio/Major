@@ -1,0 +1,21 @@
+{
+  "id": "clinical#risk_safety_ec93a78e",
+  "content": "relative, stranger) should be specified using the extension codes provided on the ICD-11 platform\nin the context of the assault field. Perpetrator should be specified as a parent, other relative,\nunrelated caregiver, or official or legal authority using the available extension codes. Depending\non the specific situation, PB5B Unintentional neglect or PH7B Neglect with undetermined intent\nmay be diagnosed rather than PF1B Assault by neglect. If QE82.3 Personal history of neglect\nis diagnosed, the time of life for current or past episodes (e.g. child aged under 5 years, early\nadolescence) can be specified using the extension codes provided.\nProblems in relationship between child and current former caregiver and current or past child maltreatment Problems in relationship between child and current former caregiver and current or past child maltreatment\n730 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nAdditional clinical features\n• Victims of child neglect can present with severe (chronically untreated) dental caries, ear\ninfections or other typical childhood illnesses.\n• Child neglect is associated with a variety of mental disorders, including depressive\ndisorders, adjustment disorder, anxiety and fear-related disorders, post-traumatic stress\ndisorder, oppositional defiant disorder, conduct-dissocial disorder, attentional problems,\nacademic problems and suicidality.",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "high",
+    "topics": [
+      "stress",
+      "relationships",
+      "emotions",
+      "risk_safety",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Risk Safety relative, stranger) should be specified using the extension codes provided on the ICD-11 platform\nin the context of the assault field. Perpetrator should be specified as a parent, other relative,\nunrelated caregiver, or official or legal authority using the available extension codes. Depending\non the specific situation, PB5B Unintentional neglect or PH7B Neglect with undetermined intent\nmay be diagnosed rather than PF1B Assault by neglect. If QE82.3 Personal history of neglect\nis diagnosed, the time of life for current or past episodes (e.g. child aged under 5 years, early\nadolescence) can be specified using the extension codes provided.\nProblems in relationship between child and current former caregiver and current or past child maltreatment Problems in relationship between child and current former caregiver and current or past child maltreatment\n730 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nAdditional clinical features\n• Victims of child neglect can present with severe (chronically untreated) dental caries, ear\ninfections or other typical childhood illnesses.\n• Child neglect is associated with a variety of mental disorders, including depressive\ndisorders, adjustment disorder, anxiety and fear-related disorders, post-traumatic stress\ndisorder, oppositional defiant disorder, conduct-dissocial disorder, attentional problems,\nacademic problems and suicidality. Relative, stranger) should be specified using the extension codes provided on the icd-11 platform\nin the context of the assault field. perpetrator should be specified as a parent, other relative,\nunrelated caregiver, or ..."
+}

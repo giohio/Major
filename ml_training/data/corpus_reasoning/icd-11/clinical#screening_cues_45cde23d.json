@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_45cde23d",
+  "content": "disorders). These secondary-parented categories also appear in the list below with the groupings\nto which they are cross-listed, in grey font.\nIn ICD-11, postcoordination is a mechanism for allowing additional codes to be linked to the initial\ndiagnostic code to identify additional clinically significant features of the clinical presentation.\nSee the section on using the CDDR for ICD-11 mental, behavioural and neurodevelopmental\ndisorders (p. 21). Postcoordination options for each disorder grouping appear also appear in the\nlist below, in boxes.\nIn some cases, ellipses (…) are used to improve the readability of the list by avoiding repetition\nof the disorder name. When used, ellipses signify the category name that appears in the level\nimmediately above. For example, below 6A01.2 Developmental language disorder, the title for\n6A01.20 appears as “… with impairment of receptive and expressive language” rather using\nthe full name of the category, “6A01.20 Developmental language disorder with impairment of\nreceptive and expressive language”.\nNeurodevelopmental disorders\n6A00 Disorders of intellectual development\nSpecify severity:\n6A00.0 Disorder of intellectual development, mild\n6A00.1 Disorder of intellectual development, moderate\n6A00.2 Disorder of intellectual development, severe\n6A00.3 Disorder of intellectual development, profound\n6A00.4 Disorder of intellectual development, provisional\n6A00.Z Disorder of intellectual development, unspecified",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues disorders). These secondary-parented categories also appear in the list below with the groupings\nto which they are cross-listed, in grey font.\nIn ICD-11, postcoordination is a mechanism for allowing additional codes to be linked to the initial\ndiagnostic code to identify additional clinically significant features of the clinical presentation.\nSee the section on using the CDDR for ICD-11 mental, behavioural and neurodevelopmental\ndisorders (p. 21). Postcoordination options for each disorder grouping appear also appear in the\nlist below, in boxes.\nIn some cases, ellipses (…) are used to improve the readability of the list by avoiding repetition\nof the disorder name. When used, ellipses signify the category name that appears in the level\nimmediately above. For example, below 6A01.2 Developmental language disorder, the title for\n6A01.20 appears as “… with impairment of receptive and expressive language” rather using\nthe full name of the category, “6A01.20 Developmental language disorder with impairment of\nreceptive and expressive language”.\nNeurodevelopmental disorders\n6A00 Disorders of intellectual development\nSpecify severity:\n6A00.0 Disorder of intellectual development, mild\n6A00.1 Disorder of intellectual development, moderate\n6A00.2 Disorder of intellectual development, severe\n6A00.3 Disorder of intellectual development, profound\n6A00.4 Disorder of intellectual development, provisional\n6A00.Z Disorder of intellectual development, unspecified Disorders). these secondary-parented categories also appear in the list below with the groupings\nto which they are cross-listed, in grey font."
+}

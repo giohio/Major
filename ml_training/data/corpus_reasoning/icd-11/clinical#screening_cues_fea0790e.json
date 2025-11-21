@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_fea0790e",
+  "content": "If there is a co-occurring diagnosis of disorder of intellectual development, the following specifier for\nthe autism spectrum disorder diagnosis should be applied, in addition to the appropriate diagnostic\ncode for the co-occurring disorder of intellectual development:\n• with disorder of intellectual development.\nDegree of functional language impairment\nThe degree of impairment in functional language (spoken or signed) should be designated with a\nsecond specifier. Functional language refers to the capacity of the individual to use language for\ninstrumental purposes (e.g. to express personal needs and desires). This specifier is intended to\nreflect primarily the verbal and nonverbal expressive language deficits present in some individuals\nwith autism spectrum disorder, and not the pragmatic language deficits that are a core feature of\nautism spectrum disorder.\nNeurodevelopmental disorders | Autism spectrum disorder\n126 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nThe following specifiers should be applied to indicate the extent of functional language impairment\n(spoken or signed) relative to the individual’s age:\n• with mild or no impairment of functional language\n• with impaired functional language (i.e. not able to use more than single words or simple\nphrases)\n• with complete, or almost complete, absence of functional language.",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "referral"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues If there is a co-occurring diagnosis of disorder of intellectual development, the following specifier for\nthe autism spectrum disorder diagnosis should be applied, in addition to the appropriate diagnostic\ncode for the co-occurring disorder of intellectual development:\n• with disorder of intellectual development.\nDegree of functional language impairment\nThe degree of impairment in functional language (spoken or signed) should be designated with a\nsecond specifier. Functional language refers to the capacity of the individual to use language for\ninstrumental purposes (e.g. to express personal needs and desires). This specifier is intended to\nreflect primarily the verbal and nonverbal expressive language deficits present in some individuals\nwith autism spectrum disorder, and not the pragmatic language deficits that are a core feature of\nautism spectrum disorder.\nNeurodevelopmental disorders | Autism spectrum disorder\n126 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nThe following specifiers should be applied to indicate the extent of functional language impairment\n(spoken or signed) relative to the individual’s age:\n• with mild or no impairment of functional language\n• with impaired functional language (i.e. not able to use more than single words or simple\nphrases)\n• with complete, or almost complete, absence of functional language. If there is a co-occurring diagnosis of disorder of intellectual development, the following specifier for\nthe autism spectrum disorder diagnosis should be applied, in addition to the appropriate diagnostic\ncode for the c..."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_b95279c2",
+  "content": "One code from the mental, behavioural and neurodevelopmental disorders chapter indicates\nthe mental disorder diagnosis, and a second code indicates the etiological medical condition.\nNote that the CDDR often use the generic term “medical condition” to refer to health conditions\nthat are not mental disorders (i.e. not classified in the chapter on mental, behavioural and\nneurodevelopmental disorders). This is only a shorthand; it is not intended to suggest that mental,\nbehavioural and neurodevelopmental disorders are not health conditions.\nThe convention of double coding as it applies to the grouping of secondary mental or behavioural\nsyndromes associated with disorders and diseases classified elsewhere involves assigning the\ncode for the presumed underlying disorder or disease in combination with the code for the\nphenomenologically relevant secondary mental disorder. The earlier example of presentation\nconsisting of depressive symptoms similar to those of a depressive episode that are judged to\nbe due to hypothyroidism would be indicated by combining the diagnostic code for secondary\nmood syndrome, with depressive symptoms (6E62.0) with the appropriate diagnostic code\nfrom the hypothyroidism grouping – for example, transient congenital hypothyroidism\n(5A00.03), yielding the combination code 6E62.0/5A00.03. This coding convention also applies",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "referral"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues One code from the mental, behavioural and neurodevelopmental disorders chapter indicates\nthe mental disorder diagnosis, and a second code indicates the etiological medical condition.\nNote that the CDDR often use the generic term “medical condition” to refer to health conditions\nthat are not mental disorders (i.e. not classified in the chapter on mental, behavioural and\nneurodevelopmental disorders). This is only a shorthand; it is not intended to suggest that mental,\nbehavioural and neurodevelopmental disorders are not health conditions.\nThe convention of double coding as it applies to the grouping of secondary mental or behavioural\nsyndromes associated with disorders and diseases classified elsewhere involves assigning the\ncode for the presumed underlying disorder or disease in combination with the code for the\nphenomenologically relevant secondary mental disorder. The earlier example of presentation\nconsisting of depressive symptoms similar to those of a depressive episode that are judged to\nbe due to hypothyroidism would be indicated by combining the diagnostic code for secondary\nmood syndrome, with depressive symptoms (6E62.0) with the appropriate diagnostic code\nfrom the hypothyroidism grouping – for example, transient congenital hypothyroidism\n(5A00.03), yielding the combination code 6E62.0/5A00.03. This coding convention also applies One code from the mental, behavioural and neurodevelopmental disorders chapter indicates\nthe mental disorder diagnosis, and a second code indicates the etiological medical condition. note that the cddr often use the gene..."
+}

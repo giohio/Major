@@ -1,0 +1,17 @@
+{
+  "id": "clinical#management_41042da9",
+  "content": "in Criterion A predominate in the clinical picture and when they are\nsufficiently severe to warrant clinical attention.\nCoding note: The ICD-9-CM and ICD-10-CM codes for the [specific\nsubstance/medication]-induced sleep disorders are indicated in the ta-\nble below. Note that the ICD-10-CM code depends on whether or not\nthere is a comorbid substance use disorder present for the same class\nof substance. If a mild substance use disorder is comorbid with the\nsubstance-induced sleep disorder, the 4th position character is “1,”\nand the clinician should record “mild [substance] use disorder” before\nthe substance-induced sleep disorder (e.g., “mild cocaine use disorder\nwith cocaine-induced sleep disorder”). If a moderate or severe sub-\nstance use disorder is comorbid with the substance-induced sleep dis-\norder, the 4th position character is “2,” and the clinician should record\n“moderate [substance] use disorder” or “severe [substance] use disor-\nder” depending on the severity of the comorbid substance use disor-\nder. If there is no comorbid substance use disorder (e.g., after a one-\ntime heavy use of the substance), then the 4th position character is “9,”\nand the clinician should record only the substance-induced sleep dis-\norder. A moderate or severe tobacco use disorder is required in order",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Management in Criterion A predominate in the clinical picture and when they are\nsufficiently severe to warrant clinical attention.\nCoding note: The ICD-9-CM and ICD-10-CM codes for the [specific\nsubstance/medication]-induced sleep disorders are indicated in the ta-\nble below. Note that the ICD-10-CM code depends on whether or not\nthere is a comorbid substance use disorder present for the same class\nof substance. If a mild substance use disorder is comorbid with the\nsubstance-induced sleep disorder, the 4th position character is “1,”\nand the clinician should record “mild [substance] use disorder” before\nthe substance-induced sleep disorder (e.g., “mild cocaine use disorder\nwith cocaine-induced sleep disorder”). If a moderate or severe sub-\nstance use disorder is comorbid with the substance-induced sleep dis-\norder, the 4th position character is “2,” and the clinician should record\n“moderate [substance] use disorder” or “severe [substance] use disor-\nder” depending on the severity of the comorbid substance use disor-\nder. If there is no comorbid substance use disorder (e.g., after a one-\ntime heavy use of the substance), then the 4th position character is “9,”\nand the clinician should record only the substance-induced sleep dis-\norder. A moderate or severe tobacco use disorder is required in order In criterion a predominate in the clinical picture and when they are\nsufficiently severe to warrant clinical attention. coding note: the icd-9-cm and icd-10-cm codes for the [specific\nsubstance/medication]-induced giấc n..."
+}

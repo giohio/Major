@@ -1,0 +1,19 @@
+{
+  "id": "clinical#screening_cues_010975d8",
+  "content": "functioning.\nC. The disturbance is not better explained by major depressive or\nbipolar disorder with psychotic features or another psychotic dis-\norder such as schizophrenia or catatonia, and is not attributable\nto the physiological effects of a substance (e.g., a drug of abuse,\na medication) or another medical condition.\nSpecify if:\nWith marked stressor(s) (brief reactive psychosis): If symp-\ntoms occur in response to events that, singly or together, would\nbe markedly stressful to almost anyone in similar circumstances\nin the individual’s culture.\nWithout marked stressor(s): If symptoms do not occur in re-\nsponse to events that, singly or together, would be markedly\nstressful to almost anyone in similar circumstances in the individ-\nual’s culture.\nWith postpartum onset: If onset is during pregnancy or within 4\nweeks postpartum.\nSpecify if:\nWith catatonia (refer to the criteria for catatonia associated with\nanother mental disorder, pp. 60–61, for definition).\nCoding note: Use additional code 293.89 (F06.1) catatonia\nassociated with brief psychotic disorder to indicate the pres-\nence of the comorbid catatonia.\nSpecify current severity:\nSeverity is rated by a quantitative assessment of the primary\nsymptoms of psychosis, including delusions, hallucinations, disor-\nganized speech, abnormal psychomotor behavior, and negative",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "screening_cues",
+      "referral",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues functioning.\nC. The disturbance is not better explained by major depressive or\nbipolar disorder with psychotic features or another psychotic dis-\norder such as schizophrenia or catatonia, and is not attributable\nto the physiological effects of a substance (e.g., a drug of abuse,\na medication) or another medical condition.\nSpecify if:\nWith marked stressor(s) (brief reactive psychosis): If symp-\ntoms occur in response to events that, singly or together, would\nbe markedly stressful to almost anyone in similar circumstances\nin the individual’s culture.\nWithout marked stressor(s): If symptoms do not occur in re-\nsponse to events that, singly or together, would be markedly\nstressful to almost anyone in similar circumstances in the individ-\nual’s culture.\nWith postpartum onset: If onset is during pregnancy or within 4\nweeks postpartum.\nSpecify if:\nWith catatonia (refer to the criteria for catatonia associated with\nanother mental disorder, pp. 60–61, for definition).\nCoding note: Use additional code 293.89 (F06.1) catatonia\nassociated with brief psychotic disorder to indicate the pres-\nence of the comorbid catatonia.\nSpecify current severity:\nSeverity is rated by a quantitative assessment of the primary\nsymptoms of psychosis, including delusions, hallucinations, disor-\nganized speech, abnormal psychomotor behavior, and negative Functioning. c."
+}

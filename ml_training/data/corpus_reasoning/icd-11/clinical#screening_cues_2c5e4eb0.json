@@ -1,0 +1,21 @@
+{
+  "id": "clinical#screening_cues_2c5e4eb0",
+  "content": "relationship, categories from QE82 Personal history of maltreatment should be\nused instead.\nRelationship problems and maltreatment Relationship problems and maltreatment\n710 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nQE82 Personal history of maltreatment\nQE82.0 Personal history of physical abuse\nQE82.1 Personal history of sexual abuse\nQE82.2 Personal history of psychological abuse\nQE82.3 Personal history of neglect\nQE82.Y Other specified personal history of maltreatment\nQE82.Z Personal history of maltreatment, unspecified.\nThese diagnoses can be used to indicate ongoing or past episodes of maltreatment\nby someone other than a spouse or partner (e.g. a parent, another relative, a\nstranger), when the focus of the evaluation is not related to a specific injury or\ndeath. If the history of maltreatment is related to a spouse or partner relationship,\ncategories from QE51.1 History of spouse or partner violence should be used\ninstead. The time in life (e.g. child under 5 years, adolescent, late geriatric) can be\nindicated using postcoordinated extension codes.\nAvailable categories for examination or observation for suspected\nmaltreatment in Chapter 24 are:\nQA04.5 Examination or observation for suspected maltreatment\nQA04.50 Examination or observation for suspected physical\nmaltreatment\nQA04.51 Examination or observation for suspected sexual\nmaltreatment",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "study",
+      "relationships",
+      "emotions",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues relationship, categories from QE82 Personal history of maltreatment should be\nused instead.\nRelationship problems and maltreatment Relationship problems and maltreatment\n710 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nQE82 Personal history of maltreatment\nQE82.0 Personal history of physical abuse\nQE82.1 Personal history of sexual abuse\nQE82.2 Personal history of psychological abuse\nQE82.3 Personal history of neglect\nQE82.Y Other specified personal history of maltreatment\nQE82.Z Personal history of maltreatment, unspecified.\nThese diagnoses can be used to indicate ongoing or past episodes of maltreatment\nby someone other than a spouse or partner (e.g. a parent, another relative, a\nstranger), when the focus of the evaluation is not related to a specific injury or\ndeath. If the history of maltreatment is related to a spouse or partner relationship,\ncategories from QE51.1 History of spouse or partner violence should be used\ninstead. The time in life (e.g. child under 5 years, adolescent, late geriatric) can be\nindicated using postcoordinated extension codes.\nAvailable categories for examination or observation for suspected\nmaltreatment in Chapter 24 are:\nQA04.5 Examination or observation for suspected maltreatment\nQA04.50 Examination or observation for suspected physical\nmaltreatment\nQA04.51 Examination or observation for suspected sexual\nmaltreatment Relationship, categories from qe82 personal history of maltreatment should be\nused instead. relationship problems and maltreatment relationship problems and maltreatment\n710 clinical descriptions and diagnostic requireme..."
+}

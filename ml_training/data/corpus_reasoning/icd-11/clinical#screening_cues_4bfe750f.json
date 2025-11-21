@@ -1,0 +1,20 @@
+{
+  "id": "clinical#screening_cues_4bfe750f",
+  "content": "QE61 Disappearance or death of family member\nQE61.0 Loss or death of child\nQE61.Y Disappearance or death of other family member\nReasons for contact with mental health services | Problems associated with absence, loss or death of others\n736 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nQE62 Uncomplicated bereavement\nNote: uncomplicated bereavement refers to grief reactions experienced following the disappearance\nor death of a loved one. In contrast, QE61 Disappearance or death of family member and its\nsubcategories refer to the event itself.\nQE6Y Other specified problems associated with absence, loss or death\nof others\nQE6Z Problems associated with absence, loss or death of others,\nunspecified\nProblems related to primary support group, including\nfamily circumstances\nQE70 Problems related to primary support group, including family\ncircumstances\nQE70.0 Inadequate family support\nQE70.1 Disruption of family by separation or divorce\nQE70.2 Dependent relative needing care at home\nQE70.Z Problem related to primary support group, including family circumstance,\nunspecified\nReasons for contact with mental health services | Problems related to primary support group\nFactors influencing health status or contact with health services particularly relevant to mental health services 737\nProblems associated with upbringing\nQE90 Inadequate parental supervision or control\n• Inadequate parental supervision or control refers to a lack of parental knowledge of what",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "relationships",
+      "emotions",
+      "screening_cues",
+      "referral",
+      "psychoeducation"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues QE61 Disappearance or death of family member\nQE61.0 Loss or death of child\nQE61.Y Disappearance or death of other family member\nReasons for contact with mental health services | Problems associated with absence, loss or death of others\n736 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nQE62 Uncomplicated bereavement\nNote: uncomplicated bereavement refers to grief reactions experienced following the disappearance\nor death of a loved one. In contrast, QE61 Disappearance or death of family member and its\nsubcategories refer to the event itself.\nQE6Y Other specified problems associated with absence, loss or death\nof others\nQE6Z Problems associated with absence, loss or death of others,\nunspecified\nProblems related to primary support group, including\nfamily circumstances\nQE70 Problems related to primary support group, including family\ncircumstances\nQE70.0 Inadequate family support\nQE70.1 Disruption of family by separation or divorce\nQE70.2 Dependent relative needing care at home\nQE70.Z Problem related to primary support group, including family circumstance,\nunspecified\nReasons for contact with mental health services | Problems related to primary support group\nFactors influencing health status or contact with health services particularly relevant to mental health services 737\nProblems associated with upbringing\nQE90 Inadequate parental supervision or control\n• Inadequate parental supervision or control refers to a lack of parental knowledge of what Qe61 disappearance or death of family member\nqe61.0 loss or death of child\nqe61.y disappearance or death of other family member\nreasons for contact with mental health services | problems associated with absence, loss or ..."
+}

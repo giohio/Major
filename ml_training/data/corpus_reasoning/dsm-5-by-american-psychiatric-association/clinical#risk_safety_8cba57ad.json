@@ -1,0 +1,20 @@
+{
+  "id": "clinical#risk_safety_8cba57ad",
+  "content": "318 Neurocognitive Disorders\nC. There is clinically established Huntington’s disease, or risk for\nHuntington’s disease based on family history or genetic testing.\nD. The neurocognitive disorder is not attributable to another medical\ncondition and is not better explained by another mental disorder.\nCoding note: For major neurocognitive disorder due to Huntington’s\ndisease, with behavioral disturbance, code first 333.4 (G10) Hunting-\nton’s disease, followed by 294.11 (F02.81) major neurocognitive dis-\norder due to Huntington’s disease, with behavioral disturbance. For\nmajor neurocognitive disorder due to Huntington’s disease, without\nbehavioral disturbance, code first 333.4 (G10) Huntington’s disease,\nfollowed by 294.10 (F02.80) major neurocognitive disorder due to\nHuntington’s disease, without behavioral disturbance.\nFor mild neurocognitive disorder due to Huntington’s disease,\ncode 331.83 (G31.84). (Note: Do not use the additional code for\nHuntington’s disease. Behavioral disturbance cannot be coded but\nshould still be indicated in writing.)\nMajor or Mild Neurocognitive Disorder\nDue to Another Medical Condition\nA. The criteria are met for major or mild neurocognitive disorder.\nB. There is evidence from the history, physical examination, or labo-\nratory findings that the neurocognitive disorder is the pathophys-\niological consequence of another medical condition.\nC. The cognitive deficits are not better explained by another mental",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "relationships",
+      "risk_safety",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Risk Safety 318 Neurocognitive Disorders\nC. There is clinically established Huntington’s disease, or risk for\nHuntington’s disease based on family history or genetic testing.\nD. The neurocognitive disorder is not attributable to another medical\ncondition and is not better explained by another mental disorder.\nCoding note: For major neurocognitive disorder due to Huntington’s\ndisease, with behavioral disturbance, code first 333.4 (G10) Hunting-\nton’s disease, followed by 294.11 (F02.81) major neurocognitive dis-\norder due to Huntington’s disease, with behavioral disturbance. For\nmajor neurocognitive disorder due to Huntington’s disease, without\nbehavioral disturbance, code first 333.4 (G10) Huntington’s disease,\nfollowed by 294.10 (F02.80) major neurocognitive disorder due to\nHuntington’s disease, without behavioral disturbance.\nFor mild neurocognitive disorder due to Huntington’s disease,\ncode 331.83 (G31.84). (Note: Do not use the additional code for\nHuntington’s disease. Behavioral disturbance cannot be coded but\nshould still be indicated in writing.)\nMajor or Mild Neurocognitive Disorder\nDue to Another Medical Condition\nA. The criteria are met for major or mild neurocognitive disorder.\nB. There is evidence from the history, physical examination, or labo-\nratory findings that the neurocognitive disorder is the pathophys-\niological consequence of another medical condition.\nC. The cognitive deficits are not better explained by another mental 318 neurocognitive disorders\nc. there is clinically established huntington’s disease, or nguy cơ for\nhuntington’s disease based on family history or genetic testing."
+}

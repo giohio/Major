@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_3d2dd9c5",
+  "content": "for recovery, it should be qualified as “provisional.”\nC. Schizoaffective disorder and depressive or bipolar disorder with\npsychotic features have been ruled out because either 1) no\nmajor depressive or manic episodes have occurred concurrently\nwith the active-phase symptoms, or 2) if mood episodes have oc-\ncurred during active-phase symptoms, they have been present\nfor a minority of the total duration of the active and residual peri-\nods of the illness.\nD. The disturbance is not attributable to the physiological effects of\na substance (e.g., a drug of abuse, a medication) or another med-\nical condition.\nSpecify if:\nWith good prognostic features: This specifier requires the\npresence of at least two of the following features: onset of prom-\ninent psychotic symptoms within 4 weeks of the first noticeable\nchange in usual behavior or functioning; confusion or perplexity;\ngood premorbid social and occupational functioning; and ab-\nsence of blunted or flat affect.\nWithout good prognostic features: This specifier is applied if\ntwo or more of the above features have not been present.\n50 Schizophrenia Spectrum and Other Psychotic Disorders\nSpecify if:\nWith catatonia (refer to the criteria for catatonia associated with\nanother mental disorder, pp. 60–61, for definition).",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "referral",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues for recovery, it should be qualified as “provisional.”\nC. Schizoaffective disorder and depressive or bipolar disorder with\npsychotic features have been ruled out because either 1) no\nmajor depressive or manic episodes have occurred concurrently\nwith the active-phase symptoms, or 2) if mood episodes have oc-\ncurred during active-phase symptoms, they have been present\nfor a minority of the total duration of the active and residual peri-\nods of the illness.\nD. The disturbance is not attributable to the physiological effects of\na substance (e.g., a drug of abuse, a medication) or another med-\nical condition.\nSpecify if:\nWith good prognostic features: This specifier requires the\npresence of at least two of the following features: onset of prom-\ninent psychotic symptoms within 4 weeks of the first noticeable\nchange in usual behavior or functioning; confusion or perplexity;\ngood premorbid social and occupational functioning; and ab-\nsence of blunted or flat affect.\nWithout good prognostic features: This specifier is applied if\ntwo or more of the above features have not been present.\n50 Schizophrenia Spectrum and Other Psychotic Disorders\nSpecify if:\nWith catatonia (refer to the criteria for catatonia associated with\nanother mental disorder, pp. 60–61, for definition). For recovery, it should be qualified as “provisional.”\nc. schizoaffective disorder and depressive or bipolar disorder with\npsychotic features have been ruled out because either 1) no\nmajor depressive or manic episodes ha..."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_5fcc70bf",
+  "content": "substance withdrawal, or another other (or unknown) substance–\ninduced mental disorder is present, do not use the codes below for\nother (or unknown) substance use disorder. Instead, the comorbid\nother (or unknown) substance use disorder is indicated in the 4th\ncharacter of the other (or unknown) substance–induced disorder\ncode (see the coding note for other (or unknown) substance intoxica-\ntion, other (or unknown) substance withdrawal, or specific other (or\nunknown) substance–induced mental disorder). For example, if there\nis comorbid other (or unknown) substance–induced depressive dis-\norder and other (or unknown) substance use disorder, only the other\n(or unknown) substance–induced depressive disorder code is given\nwith the 4th character indicating whether the comorbid other (or un-\nknown) substance use disorder is mild, moderate, or severe: F19.14\nfor other (or unknown) substance use disorder with other (or unknown)\nsubstance–induced depressive disorder or F19.24 for a moderate or\nsevere other (or unknown) substance use disorder with other (or un-\nknown) substance–induced depressive disorder.\nSpecify current severity:\n305.90 (F19.10) Mild: Presence of 2–3 symptoms.\n304.90 (F19.20) Moderate: Presence of 4–5 symptoms.\n304.90 (F19.20) Severe: Presence of 6 or more symptoms.\n280 Substance-Related and Addictive Disorders\nOther (or Unknown) Substance Intoxication\nA. The development of a reversible substance-specific syndrome",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues substance withdrawal, or another other (or unknown) substance–\ninduced mental disorder is present, do not use the codes below for\nother (or unknown) substance use disorder. Instead, the comorbid\nother (or unknown) substance use disorder is indicated in the 4th\ncharacter of the other (or unknown) substance–induced disorder\ncode (see the coding note for other (or unknown) substance intoxica-\ntion, other (or unknown) substance withdrawal, or specific other (or\nunknown) substance–induced mental disorder). For example, if there\nis comorbid other (or unknown) substance–induced depressive dis-\norder and other (or unknown) substance use disorder, only the other\n(or unknown) substance–induced depressive disorder code is given\nwith the 4th character indicating whether the comorbid other (or un-\nknown) substance use disorder is mild, moderate, or severe: F19.14\nfor other (or unknown) substance use disorder with other (or unknown)\nsubstance–induced depressive disorder or F19.24 for a moderate or\nsevere other (or unknown) substance use disorder with other (or un-\nknown) substance–induced depressive disorder.\nSpecify current severity:\n305.90 (F19.10) Mild: Presence of 2–3 symptoms.\n304.90 (F19.20) Moderate: Presence of 4–5 symptoms.\n304.90 (F19.20) Severe: Presence of 6 or more symptoms.\n280 Substance-Related and Addictive Disorders\nOther (or Unknown) Substance Intoxication\nA. The development of a reversible substance-specific syndrome Substance withdrawal, or another other (or unknown) substance–\ninduced mental disorder is present, do not use the codes below for\nother (or unknown) substance use disorder. instead, the comorbid\nother (or unknown) substa..."
+}

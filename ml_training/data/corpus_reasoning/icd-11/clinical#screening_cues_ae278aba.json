@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_ae278aba",
+  "content": "• All diagnostic requirements for amnestic disorder are met.\n• There is evidence from history, physical examination or laboratory findings that symptoms\nare caused by the direct physiological consequences of a medical condition (e.g. a disease\nof the nervous system, a traumatic brain injury, an infection, a tumour, another disease\nprocess affecting areas of the brain involved in memory). This judgement depends on\nestablishing the following.\n• The medical condition is known to be capable of producing memory impairment.\n• The course of the memory impairment (e.g. onset, trajectory of symptoms, response to\ntreatment) is consistent with causation by the medical condition.\nNote: when amnestic disorder is due to a disease, condition or injury classified elsewhere\n(including disorders due to substance use), the diagnostic code corresponding to that disease,\ncondition or injury should assigned along with amnestic disorder. When the etiological condition\nis unknown, the diagnosis 8A2Z Disorders with neurocognitive impairment as a major feature,\nunspecified, may be assigned in addition to amnestic disorder.\nPotentially explanatory medical conditions (examples)\n• Anaemias or other erythrocyte disorders\n• Certain infectious or parasitic diseases (e.g. meningitis)\n• Diseases of the nervous system (e.g. cerebral ischaemic stroke, cerebral palsy, epilepsy or\nseizures, hypoxic-ischaemic encephalopathy)",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues • All diagnostic requirements for amnestic disorder are met.\n• There is evidence from history, physical examination or laboratory findings that symptoms\nare caused by the direct physiological consequences of a medical condition (e.g. a disease\nof the nervous system, a traumatic brain injury, an infection, a tumour, another disease\nprocess affecting areas of the brain involved in memory). This judgement depends on\nestablishing the following.\n• The medical condition is known to be capable of producing memory impairment.\n• The course of the memory impairment (e.g. onset, trajectory of symptoms, response to\ntreatment) is consistent with causation by the medical condition.\nNote: when amnestic disorder is due to a disease, condition or injury classified elsewhere\n(including disorders due to substance use), the diagnostic code corresponding to that disease,\ncondition or injury should assigned along with amnestic disorder. When the etiological condition\nis unknown, the diagnosis 8A2Z Disorders with neurocognitive impairment as a major feature,\nunspecified, may be assigned in addition to amnestic disorder.\nPotentially explanatory medical conditions (examples)\n• Anaemias or other erythrocyte disorders\n• Certain infectious or parasitic diseases (e.g. meningitis)\n• Diseases of the nervous system (e.g. cerebral ischaemic stroke, cerebral palsy, epilepsy or\nseizures, hypoxic-ischaemic encephalopathy) • all diagnostic requirements for amnestic disorder are met. • there is evidence from history, physical examination or laboratory findings that symptoms\nare caused by the direct physiological consequences of a medical co..."
+}

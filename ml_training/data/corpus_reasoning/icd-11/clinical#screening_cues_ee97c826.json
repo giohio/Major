@@ -1,0 +1,19 @@
+{
+  "id": "clinical#screening_cues_ee97c826",
+  "content": "6A25.5 Cognitive symptoms\nThe contribution of each of these symptom domains can be recorded in the form of specifiers,\nwhich can be rated as not present/none (XS8H), mild (XS5W), moderate (XS0T) or severe (XS25),\nusing the anchor points and descriptions provided in Tables 6.6–6.12 below. The ratings should be\nmade based on the severity of the symptoms corresponding to that domain during the past week.\nEach domain that contributes significantly to the individual clinical presentation should be rated.\nAs many symptom specifiers should be applied as necessary to describe the current clinical\npresentation accurately. A symptom domain can also be recorded with unspecified severity – for\nexample, if symptoms corresponding to a particular domain are present but insufficient information\nis available in order to rate their severity. In this case, the code for the symptom domain would be\nrecorded (e.g. 6A25.0) without a severity rating.\nIn cases where multiple symptoms fall within a particular domain, the rating should reflect the\nmost severe symptom within that domain. For example, hallucinations and delusions are both\npart of the positive symptoms domain. A person may experience hallucinations that result in\nminimal distress (indicative of mild positive symptoms) and delusions that affect the person’s",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues 6A25.5 Cognitive symptoms\nThe contribution of each of these symptom domains can be recorded in the form of specifiers,\nwhich can be rated as not present/none (XS8H), mild (XS5W), moderate (XS0T) or severe (XS25),\nusing the anchor points and descriptions provided in Tables 6.6–6.12 below. The ratings should be\nmade based on the severity of the symptoms corresponding to that domain during the past week.\nEach domain that contributes significantly to the individual clinical presentation should be rated.\nAs many symptom specifiers should be applied as necessary to describe the current clinical\npresentation accurately. A symptom domain can also be recorded with unspecified severity – for\nexample, if symptoms corresponding to a particular domain are present but insufficient information\nis available in order to rate their severity. In this case, the code for the symptom domain would be\nrecorded (e.g. 6A25.0) without a severity rating.\nIn cases where multiple symptoms fall within a particular domain, the rating should reflect the\nmost severe symptom within that domain. For example, hallucinations and delusions are both\npart of the positive symptoms domain. A person may experience hallucinations that result in\nminimal distress (indicative of mild positive symptoms) and delusions that affect the person’s 6a25.5 cognitive symptoms\nthe contribution of each of these symptom domains can be recorded in the form of specifiers,\nwhich can be rated as not present/none (xs8h), mild (xs5w), moderate (xs0t) or severe (xs25),\nusing t..."
+}

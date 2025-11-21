@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_29947973",
+  "content": "a delirium.\nE. The disturbance causes clinically significant distress in the indi-\nvidual.\nNote: This diagnosis should be made instead of a diagnosis of sub-\nstance intoxication or substance withdrawal only when the symptoms\nin Criterion A predominate in the clinical picture and are sufficiently\nsevere to warrant clinical attention.\nCoding note: The ICD-9-CM and ICD-10-CM codes for the [specific\nsubstance/medication]-induced sexual dysfunctions are indicated in\nthe table below. Note that the ICD-10-CM code depends on whether\nor not there is a comorbid substance use disorder present for the same\nclass of substance. If a mild substance use disorder is comorbid with\nthe substance-induced sexual dysfunction, the 4th position character\nis “1,” and the clinician should record “mild [substance] use disorder”\nbefore the substance-induced sexual dysfunction (e.g., “mild cocaine\nuse disorder with cocaine-induced sexual dysfunction”). If a moderate\nor severe substance use disorder is comorbid with the substance-\ninduced sexual dysfunction, the 4th position character is “2,” and the\nclinician should record “moderate [substance] use disorder” or “severe\n[substance] use disorder” depending on the severity of the comorbid\nsubstance use disorder. If there is no comorbid substance use disor-\n210 Sexual Dysfunctions",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues a delirium.\nE. The disturbance causes clinically significant distress in the indi-\nvidual.\nNote: This diagnosis should be made instead of a diagnosis of sub-\nstance intoxication or substance withdrawal only when the symptoms\nin Criterion A predominate in the clinical picture and are sufficiently\nsevere to warrant clinical attention.\nCoding note: The ICD-9-CM and ICD-10-CM codes for the [specific\nsubstance/medication]-induced sexual dysfunctions are indicated in\nthe table below. Note that the ICD-10-CM code depends on whether\nor not there is a comorbid substance use disorder present for the same\nclass of substance. If a mild substance use disorder is comorbid with\nthe substance-induced sexual dysfunction, the 4th position character\nis “1,” and the clinician should record “mild [substance] use disorder”\nbefore the substance-induced sexual dysfunction (e.g., “mild cocaine\nuse disorder with cocaine-induced sexual dysfunction”). If a moderate\nor severe substance use disorder is comorbid with the substance-\ninduced sexual dysfunction, the 4th position character is “2,” and the\nclinician should record “moderate [substance] use disorder” or “severe\n[substance] use disorder” depending on the severity of the comorbid\nsubstance use disorder. If there is no comorbid substance use disor-\n210 Sexual Dysfunctions A delirium. e."
+}

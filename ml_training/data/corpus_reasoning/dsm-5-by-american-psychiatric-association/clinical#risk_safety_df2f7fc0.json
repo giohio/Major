@@ -1,0 +1,20 @@
+{
+  "id": "clinical#risk_safety_df2f7fc0",
+  "content": "should help clinicians to determine prognosis, treatment plans, and po-\ntential treatment outcomes for their patients. However, the diagnosis of\na mental disorder is not equivalent to a need for treatment. Need for\ntreatment is a complex clinical decision that takes into consideration\nsymptom severity, symptom salience (e.g., the presence of suicidal ide-\nation), the patient’s distress (mental pain) associated with the symp-\ntom(s), disability related to the patient’s symptoms, risks and benefits\nof available treatments, and other factors (e.g., psychiatric symptoms\ncomplicating other illness). Clinicians may thus encounter individuals\nwhose symptoms do not meet full criteria for a mental disorder but\nwho demonstrate a clear need for treatment or care. The fact that some\nindividuals do not show all symptoms indicative of a diagnosis should\nnot be used to justify limiting their access to appropriate care.\nApproaches to validating diagnostic criteria for discrete categorical\nmental disorders have included the following types of evidence: ante-\ncedent validators (similar genetic markers, family traits, temperament,\nand environmental exposure), concurrent validators (similar neural\nsubstrates, biomarkers, emotional and cognitive processing, and symp-\ntom similarity), and predictive validators (similar clinical course and\ntreatment response). In DSM-5, we recognize that the current diagnostic",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "high",
+    "topics": [
+      "stress",
+      "relationships",
+      "risk_safety",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Risk Safety should help clinicians to determine prognosis, treatment plans, and po-\ntential treatment outcomes for their patients. However, the diagnosis of\na mental disorder is not equivalent to a need for treatment. Need for\ntreatment is a complex clinical decision that takes into consideration\nsymptom severity, symptom salience (e.g., the presence of suicidal ide-\nation), the patient’s distress (mental pain) associated with the symp-\ntom(s), disability related to the patient’s symptoms, risks and benefits\nof available treatments, and other factors (e.g., psychiatric symptoms\ncomplicating other illness). Clinicians may thus encounter individuals\nwhose symptoms do not meet full criteria for a mental disorder but\nwho demonstrate a clear need for treatment or care. The fact that some\nindividuals do not show all symptoms indicative of a diagnosis should\nnot be used to justify limiting their access to appropriate care.\nApproaches to validating diagnostic criteria for discrete categorical\nmental disorders have included the following types of evidence: ante-\ncedent validators (similar genetic markers, family traits, temperament,\nand environmental exposure), concurrent validators (similar neural\nsubstrates, biomarkers, emotional and cognitive processing, and symp-\ntom similarity), and predictive validators (similar clinical course and\ntreatment response). In DSM-5, we recognize that the current diagnostic Should help clinicians to determine prognosis, treatment plans, and po-\ntential treatment outcomes for their patients. however, the diagnosis of\na mental disorder is not equivalent to a need for treatment."
+}

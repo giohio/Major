@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_dba4c460",
+  "content": "situations in which the diagnostic requirements may be met for more than one disorder, typically\nbecause of symptom overlap, but the CDDR recommend making only a single diagnosis. In most\ncases, this is noted in the essential features but, in some cases, it is noted in the description of\nthe differential diagnosis for that disorder in the section on boundaries with other disorders\nand conditions.\nIn the CDDR, recommendations against diagnosing two particular disorders together (i.e. co-\noccurrence) are generally made in one of the following ways.\n• “The symptoms do not meet the diagnostic requirements for …”; “The symptoms do not\noccur exclusively during episodes of …”; “The individual has never met the diagnostic\nrequirements for …”: these types of exclusionary statements are typically used if the\nsymptomatic presentation of the disorder in question is already part of the definition of\nanother disorder, and an additional diagnosis of the excluded disorder would be redundant.\n• The first case (“symptoms do not meet diagnostic requirement for”) prevents the assignment\nof both diagnoses if the diagnostic requirements for both disorders are met at the same time,\nand generally indicates that the other disorder should be diagnosed instead. For example,",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues situations in which the diagnostic requirements may be met for more than one disorder, typically\nbecause of symptom overlap, but the CDDR recommend making only a single diagnosis. In most\ncases, this is noted in the essential features but, in some cases, it is noted in the description of\nthe differential diagnosis for that disorder in the section on boundaries with other disorders\nand conditions.\nIn the CDDR, recommendations against diagnosing two particular disorders together (i.e. co-\noccurrence) are generally made in one of the following ways.\n• “The symptoms do not meet the diagnostic requirements for …”; “The symptoms do not\noccur exclusively during episodes of …”; “The individual has never met the diagnostic\nrequirements for …”: these types of exclusionary statements are typically used if the\nsymptomatic presentation of the disorder in question is already part of the definition of\nanother disorder, and an additional diagnosis of the excluded disorder would be redundant.\n• The first case (“symptoms do not meet diagnostic requirement for”) prevents the assignment\nof both diagnoses if the diagnostic requirements for both disorders are met at the same time,\nand generally indicates that the other disorder should be diagnosed instead. For example, Situations in which the diagnostic requirements may be met for more than one disorder, typically\nbecause of symptom overlap, but the cddr recommend making only a single diagnosis. in most\ncases, this is noted in the esse..."
+}

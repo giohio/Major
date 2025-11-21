@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_5ea014eb",
+  "content": "and the clinician should record only the substance-induced sleep dis-\norder. A moderate or severe tobacco use disorder is required in order\nto code a tobacco-induced sleep disorder; it is not permissible to code\na comorbid mild tobacco use disorder or no tobacco use disorder with\na tobacco-induced sleep disorder.\nSubstance/Medication-Induced Sleep Disorder 195\nICD-10-CM\nWith use\nWith use disorder, Without\ndisorder, moderate use\nICD-9-CM mild or severe disorder\nAlcohol 291.82 F10.182 F10.282 F10.982\nCaffeine 292.85 F15.182 F15.282 F15.982\nCannabis 292.85 F12.188 F12.288 F12.988\nOpioid 292.85 F11.182 F11.282 F11.982\nSedative, hypnotic, 292.85 F13.182 F13.282 F13.982\nor anxiolytic\nAmphetamine (or 292.85 F15.182 F15.282 F15.982\nother stimulant)\nCocaine 292.85 F14.182 F14.282 F14.982\nTobacco 292.85 NA F17.208 NA\nOther (or unknown) 292.85 F19.182 F19.282 F19.982\nsubstance\nSpecify whether:\nInsomnia type: Characterized by difficulty falling asleep or\nmaintaining sleep, frequent nocturnal awakenings, or nonrestor-\native sleep.\nDaytime sleepiness type: Characterized by predominant com-\nplaint of excessive sleepiness/fatigue during waking hours or,\nless commonly, a long sleep period.\nParasomnia type: Characterized by abnormal behavioral events\nduring sleep.\nMixed type: Characterized by a substance/medication-induced\nsleep problem characterized by multiple types of sleep symp-\ntoms, but no symptom clearly predominates.",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues and the clinician should record only the substance-induced sleep dis-\norder. A moderate or severe tobacco use disorder is required in order\nto code a tobacco-induced sleep disorder; it is not permissible to code\na comorbid mild tobacco use disorder or no tobacco use disorder with\na tobacco-induced sleep disorder.\nSubstance/Medication-Induced Sleep Disorder 195\nICD-10-CM\nWith use\nWith use disorder, Without\ndisorder, moderate use\nICD-9-CM mild or severe disorder\nAlcohol 291.82 F10.182 F10.282 F10.982\nCaffeine 292.85 F15.182 F15.282 F15.982\nCannabis 292.85 F12.188 F12.288 F12.988\nOpioid 292.85 F11.182 F11.282 F11.982\nSedative, hypnotic, 292.85 F13.182 F13.282 F13.982\nor anxiolytic\nAmphetamine (or 292.85 F15.182 F15.282 F15.982\nother stimulant)\nCocaine 292.85 F14.182 F14.282 F14.982\nTobacco 292.85 NA F17.208 NA\nOther (or unknown) 292.85 F19.182 F19.282 F19.982\nsubstance\nSpecify whether:\nInsomnia type: Characterized by difficulty falling asleep or\nmaintaining sleep, frequent nocturnal awakenings, or nonrestor-\native sleep.\nDaytime sleepiness type: Characterized by predominant com-\nplaint of excessive sleepiness/fatigue during waking hours or,\nless commonly, a long sleep period.\nParasomnia type: Characterized by abnormal behavioral events\nduring sleep.\nMixed type: Characterized by a substance/medication-induced\nsleep problem characterized by multiple types of sleep symp-\ntoms, but no symptom clearly predominates. And the clinician should record only the substance-induced giấc ngủ dis-\norder. a moderate or severe tobacco use disorder is required in order\nto code a tobacco-induced giấc ngủ disorder; it is not permissible to code\na ..."
+}

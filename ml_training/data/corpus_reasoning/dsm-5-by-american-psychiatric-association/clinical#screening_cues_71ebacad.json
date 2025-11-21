@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_71ebacad",
+  "content": "The principal diagnosis is indicated by listing it first, and the remain-\ning disorders are listed in order of focus of attention and treatment.\nWhen the principal diagnosis or reason for visit is a mental disorder\ndue to another medical condition (e.g., major neurocognitive disor-\nder due to Alzheimer’s disease, psychotic disorder due to malignant\nlung neoplasm), ICD coding rules require that the etiological medi-\ncal condition be listed first. In that case, the principal diagnosis or\nreason for visit would be the mental disorder due to the medical con-\ndition, the second listed diagnosis. In most cases, the disorder listed\nas the principal diagnosis or the reason for visit is followed by the\nqualifying phrase “(principal diagnosis)” or “(reason for visit).”\nProvisional Diagnosis\nThe specifier “provisional” can be used when there is a strong pre-\nsumption that the full criteria will ultimately be met for a disorder but\nnot enough information is available to make a firm diagnosis. The\nclinician can indicate the diagnostic uncertainty by recording “(pro-\nvisional)” following the diagnosis. For example, this diagnosis might\nbe used when an individual who appears to have a major depressive\n10 Use of the Manual",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues The principal diagnosis is indicated by listing it first, and the remain-\ning disorders are listed in order of focus of attention and treatment.\nWhen the principal diagnosis or reason for visit is a mental disorder\ndue to another medical condition (e.g., major neurocognitive disor-\nder due to Alzheimer’s disease, psychotic disorder due to malignant\nlung neoplasm), ICD coding rules require that the etiological medi-\ncal condition be listed first. In that case, the principal diagnosis or\nreason for visit would be the mental disorder due to the medical con-\ndition, the second listed diagnosis. In most cases, the disorder listed\nas the principal diagnosis or the reason for visit is followed by the\nqualifying phrase “(principal diagnosis)” or “(reason for visit).”\nProvisional Diagnosis\nThe specifier “provisional” can be used when there is a strong pre-\nsumption that the full criteria will ultimately be met for a disorder but\nnot enough information is available to make a firm diagnosis. The\nclinician can indicate the diagnostic uncertainty by recording “(pro-\nvisional)” following the diagnosis. For example, this diagnosis might\nbe used when an individual who appears to have a major depressive\n10 Use of the Manual The principal diagnosis is indicated by listing it first, and the remain-\ning disorders are listed in order of focus of attention and treatment. when the principal diagnosis or reason for visit is a mental disorder\ndue t..."
+}

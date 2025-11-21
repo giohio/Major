@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_8f878a00",
+  "content": "ical condition. The other specified mental disorder due to another\nmedical condition category is used in situations in which the clinician\nchooses to communicate the specific reason that the presentation\ndoes not meet the criteria for any specific mental disorder attributable\nto another medical condition. This is done by recording the name of the\ndisorder, with the specific etiological medical condition inserted in\nplace of “another medical condition,” followed by the specific symp-\ntomatic manifestation that does not meet the criteria for any specific\nmental disorder due to another medical condition. Furthermore, the di-\nagnostic code for the specific medical condition must be listed imme-\ndiately before the code for the other specified mental disorder due\nto another medical condition. For example, dissociative symptoms\ndue to complex partial seizures would be coded and recorded as\n345.40 (G40.209) complex partial seizures, 294.8 (F06.8) other spec-\nified mental disorder due to complex partial seizures, dissociative\nsymptoms.\nAn example of a presentation that can be specified using the\n“other specified” designation is the following:\nDissociative symptoms: This includes symptoms occurring, for\nexample, in the context of complex partial seizures.\n341\n342 Other Mental Disorders\nUnspecified Mental Disorder\nDue to Another Medical Condition",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues ical condition. The other specified mental disorder due to another\nmedical condition category is used in situations in which the clinician\nchooses to communicate the specific reason that the presentation\ndoes not meet the criteria for any specific mental disorder attributable\nto another medical condition. This is done by recording the name of the\ndisorder, with the specific etiological medical condition inserted in\nplace of “another medical condition,” followed by the specific symp-\ntomatic manifestation that does not meet the criteria for any specific\nmental disorder due to another medical condition. Furthermore, the di-\nagnostic code for the specific medical condition must be listed imme-\ndiately before the code for the other specified mental disorder due\nto another medical condition. For example, dissociative symptoms\ndue to complex partial seizures would be coded and recorded as\n345.40 (G40.209) complex partial seizures, 294.8 (F06.8) other spec-\nified mental disorder due to complex partial seizures, dissociative\nsymptoms.\nAn example of a presentation that can be specified using the\n“other specified” designation is the following:\nDissociative symptoms: This includes symptoms occurring, for\nexample, in the context of complex partial seizures.\n341\n342 Other Mental Disorders\nUnspecified Mental Disorder\nDue to Another Medical Condition Ical condition. the other specified mental disorder due to another\nmedical condition category is used in situations in which the clinician\nchooses to communicate the specific reason that the presentation\ndoes not meet th..."
+}

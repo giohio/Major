@@ -1,0 +1,19 @@
+{
+  "id": "clinical#screening_cues_d4288c14",
+  "content": "9. Insomnia.\nC. The signs or symptoms in Criterion B cause clinically significant\ndistress or impairment in social, occupational, or other important\nareas of functioning.\nD. The signs or symptoms are not attributable to another medical\ncondition and are not better explained by another mental disor-\nder, including intoxication or withdrawal from another substance.\nCoding note: The ICD-9-CM code is 292.0. The ICD-10-CM code for\nopioid withdrawal is F11.23. Note that the ICD-10-CM code indicates\nthe comorbid presence of a moderate or severe opioid use disorder,\nreflecting the fact that opioid withdrawal can only occur in the pres-\nence of a moderate or severe opioid use disorder. It is not permis-\nsible to code a comorbid mild opioid use disorder with opioid\nwithdrawal.\nOther Opioid-Induced Disorders\nThe following opioid-induced disorders are described in other chap-\nters of the book with disorders with which they share phenomenol-\nogy (see the substance/medication-induced mental disorders in these\nchapters): opioid-induced depressive disorder (“Depressive Dis-\norders”); opioid-induced anxiety disorder (“Anxiety Disorders”); opi-\noid-induced sleep disorder (“Sleep-Wake Disorders”); and opioid-\ninduced sexual dysfunction (“Sexual Dysfunctions”). For opioid in-\ntoxication delirium and opioid withdrawal delirium, see the criteria\nand discussion of delirium in the chapter “Neurocognitive Disor-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "stress",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues 9. Insomnia.\nC. The signs or symptoms in Criterion B cause clinically significant\ndistress or impairment in social, occupational, or other important\nareas of functioning.\nD. The signs or symptoms are not attributable to another medical\ncondition and are not better explained by another mental disor-\nder, including intoxication or withdrawal from another substance.\nCoding note: The ICD-9-CM code is 292.0. The ICD-10-CM code for\nopioid withdrawal is F11.23. Note that the ICD-10-CM code indicates\nthe comorbid presence of a moderate or severe opioid use disorder,\nreflecting the fact that opioid withdrawal can only occur in the pres-\nence of a moderate or severe opioid use disorder. It is not permis-\nsible to code a comorbid mild opioid use disorder with opioid\nwithdrawal.\nOther Opioid-Induced Disorders\nThe following opioid-induced disorders are described in other chap-\nters of the book with disorders with which they share phenomenol-\nogy (see the substance/medication-induced mental disorders in these\nchapters): opioid-induced depressive disorder (“Depressive Dis-\norders”); opioid-induced anxiety disorder (“Anxiety Disorders”); opi-\noid-induced sleep disorder (“Sleep-Wake Disorders”); and opioid-\ninduced sexual dysfunction (“Sexual Dysfunctions”). For opioid in-\ntoxication delirium and opioid withdrawal delirium, see the criteria\nand discussion of delirium in the chapter “Neurocognitive Disor- 9. insomnia."
+}

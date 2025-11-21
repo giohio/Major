@@ -1,0 +1,19 @@
+{
+  "id": "clinical#screening_cues_3f472d26",
+  "content": "a substance (e.g., a drug of abuse, a medication).\nF. Coexisting mental and medical disorders do not explain the epi-\nsodes of sleepwalking or sleep terrors.\nCoding note: For ICD-9-CM, code 307.46 for all subtypes. For ICD-\n10-CM, code is based on subtype.\nSpecify whether:\n307.46 (F51.3) Sleepwalking type\nNightmare Disorder 191\nSpecify if:\nWith sleep-related eating\nWith sleep-related sexual behavior (sexsomnia)\n307.46 (F51.4) Sleep terror type\nNightmare Disorder\n307.47 (F51.5)\nA. Repeated occurrences of extended, extremely dysphoric, and\nwell-remembered dreams that usually involve efforts to avoid\nthreats to survival, security, or physical integrity and that gener-\nally occur during the second half of the major sleep episode.\nB. On awakening from the dysphoric dreams, the individual rapidly\nbecomes oriented and alert.\nC. The sleep disturbance causes clinically significant distress or im-\npairment in social, occupational, or other important areas of func-\ntioning.\nD. The nightmare symptoms are not attributable to the physiological\neffects of a substance (e.g., a drug of abuse, a medication).\nE. Coexisting mental and medical disorders do not adequately ex-\nplain the predominant complaint of dysphoric dreams.\nSpecify if:\nDuring sleep onset\nSpecify if:\nWith associated non–sleep disorder, including substance use\ndisorders",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "stress",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues a substance (e.g., a drug of abuse, a medication).\nF. Coexisting mental and medical disorders do not explain the epi-\nsodes of sleepwalking or sleep terrors.\nCoding note: For ICD-9-CM, code 307.46 for all subtypes. For ICD-\n10-CM, code is based on subtype.\nSpecify whether:\n307.46 (F51.3) Sleepwalking type\nNightmare Disorder 191\nSpecify if:\nWith sleep-related eating\nWith sleep-related sexual behavior (sexsomnia)\n307.46 (F51.4) Sleep terror type\nNightmare Disorder\n307.47 (F51.5)\nA. Repeated occurrences of extended, extremely dysphoric, and\nwell-remembered dreams that usually involve efforts to avoid\nthreats to survival, security, or physical integrity and that gener-\nally occur during the second half of the major sleep episode.\nB. On awakening from the dysphoric dreams, the individual rapidly\nbecomes oriented and alert.\nC. The sleep disturbance causes clinically significant distress or im-\npairment in social, occupational, or other important areas of func-\ntioning.\nD. The nightmare symptoms are not attributable to the physiological\neffects of a substance (e.g., a drug of abuse, a medication).\nE. Coexisting mental and medical disorders do not adequately ex-\nplain the predominant complaint of dysphoric dreams.\nSpecify if:\nDuring sleep onset\nSpecify if:\nWith associated non–sleep disorder, including substance use\ndisorders A substance (e.g., a drug of abuse, a medication). f."
+}

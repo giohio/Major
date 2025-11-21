@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_88c21cbb",
+  "content": "stance/medication intoxication delirium and substance use disorder\ninto a single code, for ICD-9-CM a separate diagnostic code is given\nfor the substance use disorder. For example, in the case of acute hy-\nperactive intoxication delirium occurring in a man with a severe co-\n296 Neurocognitive Disorders\ncaine use disorder, the diagnosis is 292.81 cocaine intoxication delir-\nium, acute, hyperactive. An additional diagnosis of 304.20 severe\ncocaine use disorder is also given. If the intoxication delirium occurs\nwithout a comorbid substance use disorder (e.g., after a one-time\nheavy use of the substance), no accompanying substance use disor-\nder is noted (e.g., 292.81 phencyclidine intoxication delirium, acute,\nhypoactive).\nICD-10-CM. The name of the substance/medication intoxication de-\nlirium begins with the specific substance (e.g., cocaine, dexametha-\nsone) that is presumed to be causing the delirium. The diagnostic\ncode is selected from the table included in the criteria set, which is\nbased on the drug class and presence or absence of a comorbid sub-\nstance use disorder. For substances that do not fit into any of the\nclasses (e.g., dexamethasone), the code for “other substance” should\nbe used; and in cases in which a substance is judged to be an etiolog-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues stance/medication intoxication delirium and substance use disorder\ninto a single code, for ICD-9-CM a separate diagnostic code is given\nfor the substance use disorder. For example, in the case of acute hy-\nperactive intoxication delirium occurring in a man with a severe co-\n296 Neurocognitive Disorders\ncaine use disorder, the diagnosis is 292.81 cocaine intoxication delir-\nium, acute, hyperactive. An additional diagnosis of 304.20 severe\ncocaine use disorder is also given. If the intoxication delirium occurs\nwithout a comorbid substance use disorder (e.g., after a one-time\nheavy use of the substance), no accompanying substance use disor-\nder is noted (e.g., 292.81 phencyclidine intoxication delirium, acute,\nhypoactive).\nICD-10-CM. The name of the substance/medication intoxication de-\nlirium begins with the specific substance (e.g., cocaine, dexametha-\nsone) that is presumed to be causing the delirium. The diagnostic\ncode is selected from the table included in the criteria set, which is\nbased on the drug class and presence or absence of a comorbid sub-\nstance use disorder. For substances that do not fit into any of the\nclasses (e.g., dexamethasone), the code for “other substance” should\nbe used; and in cases in which a substance is judged to be an etiolog- Stance/medication intoxication delirium and substance use disorder\ninto a single code, for icd-9-cm a separate diagnostic code is given\nfor the substance use disorder. for example, in the case of acute hy-\nperactive into..."
+}

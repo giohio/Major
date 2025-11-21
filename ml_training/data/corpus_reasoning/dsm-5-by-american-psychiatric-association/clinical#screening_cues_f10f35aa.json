@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_f10f35aa",
+  "content": "were previously met, none of the criteria for alcohol use disorder\nhave been met for at least 3 months but for less than 12 months\n(with the exception that Criterion A4, “Craving, or a strong desire\nor urge to use alcohol,” may be met).\nIn sustained remission: After full criteria for alcohol use disor-\nder were previously met, none of the criteria for alcohol use dis-\norder have been met at any time during a period of 12 months or\nlonger (with the exception that Criterion A4, “Craving, or a strong\ndesire or urge to use alcohol,” may be met).\nSpecify if:\nIn a controlled environment: This additional specifier is used if the\nindividual is in an environment where access to alcohol is restricted.\nCode based on current severity: Note for ICD-10-CM codes: If an al-\ncohol intoxication, alcohol withdrawal, or another alcohol-induced\nmental disorder is also present, do not use the codes below for alcohol\nuse disorder. Instead, the comorbid alcohol use disorder is indicated in\nthe 4th character of the alcohol-induced disorder code (see the coding\nnote for alcohol intoxication, alcohol withdrawal, or a specific alcohol-\ninduced mental disorder). For example, if there is comorbid alcohol in-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues were previously met, none of the criteria for alcohol use disorder\nhave been met for at least 3 months but for less than 12 months\n(with the exception that Criterion A4, “Craving, or a strong desire\nor urge to use alcohol,” may be met).\nIn sustained remission: After full criteria for alcohol use disor-\nder were previously met, none of the criteria for alcohol use dis-\norder have been met at any time during a period of 12 months or\nlonger (with the exception that Criterion A4, “Craving, or a strong\ndesire or urge to use alcohol,” may be met).\nSpecify if:\nIn a controlled environment: This additional specifier is used if the\nindividual is in an environment where access to alcohol is restricted.\nCode based on current severity: Note for ICD-10-CM codes: If an al-\ncohol intoxication, alcohol withdrawal, or another alcohol-induced\nmental disorder is also present, do not use the codes below for alcohol\nuse disorder. Instead, the comorbid alcohol use disorder is indicated in\nthe 4th character of the alcohol-induced disorder code (see the coding\nnote for alcohol intoxication, alcohol withdrawal, or a specific alcohol-\ninduced mental disorder). For example, if there is comorbid alcohol in- Were previously met, none of the criteria for alcohol use disorder\nhave been met for at least 3 months but for less than 12 months\n(with the exception that criterion a4, “craving, or a strong desire\nor urge to use alcoho..."
+}

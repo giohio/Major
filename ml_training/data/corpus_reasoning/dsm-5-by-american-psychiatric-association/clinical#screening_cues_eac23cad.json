@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_eac23cad",
+  "content": "phobia], performance type). Note that in some cases, a specifier or sub-\ntype is codable in ICD-10-CM but not in ICD-9-CM. Accordingly, in\nsome cases the 4th or 5th character codes for the subtypes or specifi-\ners are provided only for the ICD-10-CM coding designations.\nA DSM-5 diagnosis is usually applied to the individual’s current\npresentation; previous diagnoses from which the individual has re-\ncovered should be clearly noted as such. Specifiers indicating course\n(e.g., in partial remission, in full remission) may be listed after the di-\nagnosis and are indicated in a number of criteria sets. Where avail-\nable, severity specifiers are provided to guide clinicians in rating the\nintensity, frequency, duration, symptom count, or other severity\nindicator of a disorder. Severity specifiers are indicated by the in-\nstruction “Specify current severity” in the criteria set and include dis-\norder-specific definitions. Descriptive features specifiers have also been\nprovided in the criteria set and convey additional information that\ncan inform treatment planning (e.g., obsessive-compulsive disorder,\nwith poor insight). Not all disorders include course, severity, and/or\ndescriptive features specifiers.\nMedication-Induced Movement Disorders and Other\nConditions That May Be a Focus of Clinical Attention\nIn addition to important psychosocial and environmental factors,",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues phobia], performance type). Note that in some cases, a specifier or sub-\ntype is codable in ICD-10-CM but not in ICD-9-CM. Accordingly, in\nsome cases the 4th or 5th character codes for the subtypes or specifi-\ners are provided only for the ICD-10-CM coding designations.\nA DSM-5 diagnosis is usually applied to the individual’s current\npresentation; previous diagnoses from which the individual has re-\ncovered should be clearly noted as such. Specifiers indicating course\n(e.g., in partial remission, in full remission) may be listed after the di-\nagnosis and are indicated in a number of criteria sets. Where avail-\nable, severity specifiers are provided to guide clinicians in rating the\nintensity, frequency, duration, symptom count, or other severity\nindicator of a disorder. Severity specifiers are indicated by the in-\nstruction “Specify current severity” in the criteria set and include dis-\norder-specific definitions. Descriptive features specifiers have also been\nprovided in the criteria set and convey additional information that\ncan inform treatment planning (e.g., obsessive-compulsive disorder,\nwith poor insight). Not all disorders include course, severity, and/or\ndescriptive features specifiers.\nMedication-Induced Movement Disorders and Other\nConditions That May Be a Focus of Clinical Attention\nIn addition to important psychosocial and environmental factors, Phobia], performance type). note that in some cases, a specifier or sub-\ntype is codable in icd-10-cm but not in icd-9-cm."
+}

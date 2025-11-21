@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_62a7ffdd",
+  "content": "than one chapter (e.g. pancreatic cancer could have been plausibly placed in either the diseases\nof the digestive system or the neoplasms chapter). ICD-11 acknowledges this fact by sometimes\nlocating the same disorder in two (or more) chapters, with one of the chapters considered to be\nthe “primary parent” and other chapter(s) termed “secondary parent(s)”.\nFor example, the grouping of primary tics and tic disorders is listed in both Chapter 8 on diseases\nof the nervous system (within the movement disorders grouping) and the mental, behavioural\nand neurodevelopmental disorders chapter (within the neurodevelopmental disorders grouping).\nThey are primary-parented in Chapter 8 on diseases of the nervous system and secondary-parented\nin the mental, behavioural and neurodevelopmental disorders chapter. The code number in both\ninstances is the same and corresponds to the primary parent. For example, the code for Tourette\nsyndrome is 8A05.00. The “8” in the first digit of the code indicates that it is primary-parented in\nChapter 8 on diseases of the nervous system. The same code (8A05.00) is retained when Tourette\nsyndrome appears as a part of the grouping of neurodevelopmental disorders in Chapter 6.\n34 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues than one chapter (e.g. pancreatic cancer could have been plausibly placed in either the diseases\nof the digestive system or the neoplasms chapter). ICD-11 acknowledges this fact by sometimes\nlocating the same disorder in two (or more) chapters, with one of the chapters considered to be\nthe “primary parent” and other chapter(s) termed “secondary parent(s)”.\nFor example, the grouping of primary tics and tic disorders is listed in both Chapter 8 on diseases\nof the nervous system (within the movement disorders grouping) and the mental, behavioural\nand neurodevelopmental disorders chapter (within the neurodevelopmental disorders grouping).\nThey are primary-parented in Chapter 8 on diseases of the nervous system and secondary-parented\nin the mental, behavioural and neurodevelopmental disorders chapter. The code number in both\ninstances is the same and corresponds to the primary parent. For example, the code for Tourette\nsyndrome is 8A05.00. The “8” in the first digit of the code indicates that it is primary-parented in\nChapter 8 on diseases of the nervous system. The same code (8A05.00) is retained when Tourette\nsyndrome appears as a part of the grouping of neurodevelopmental disorders in Chapter 6.\n34 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders Than one chapter (e.g. pancreatic cancer could have been plausibly placed in either the diseases\nof the digestive system or the neoplasms chapter)."
+}

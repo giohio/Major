@@ -1,0 +1,16 @@
+{
+  "id": "clinical#screening_cues_d5cb67f7",
+  "content": "4-character code: F10.5 Mental and behavioural disorders\ndue to use of alcohol: psychotic disorder\n6C40.62 Alcohol-induced psychotic disorder with F10.56 Mental and behavioural disorders due to use of\nmixed psychotic symptoms alcohol: psychotic disorder, mixed\n4-character code: F10.5 Mental and behavioural disorders\ndue to use of alcohol: psychotic disorder\n6C40.6Z Alcohol-induced psychotic disorder, F10.5 Mental and behavioural disorders due to use of alcohol:\nunspecified psychotic disorder\n6C40.70 Alcohol-induced mood disorder F10.8 Mental and behavioural disorders due to use of alcohol:\nother mental and behavioural disorders\n6C40.71 Alcohol-induced anxiety disorder F10.8 Mental and behavioural disorders due to use of alcohol:\nother mental and behavioural disorders\n6C40.Y Other specified disorder due to use of alcohol F10.8 Mental and behavioural disorders due to use of alcohol:\nother mental and behavioural disorders\n6C40.Z Disorder due to use of alcohol, unspecified F10.9 Mental and behavioural disorders due to use of alcohol:\nunspecified mental and behavioural disorder\n6C41 Disorders due to use of cannabis F12 Mental and behavioural disorders due to use of\ncannabinoids\n6C41.0 Episode of harmful use of cannabis F12.8 Mental and behavioural disorders due to use of\ncannabinoids: other mental and behavioural disorders",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues 4-character code: F10.5 Mental and behavioural disorders\ndue to use of alcohol: psychotic disorder\n6C40.62 Alcohol-induced psychotic disorder with F10.56 Mental and behavioural disorders due to use of\nmixed psychotic symptoms alcohol: psychotic disorder, mixed\n4-character code: F10.5 Mental and behavioural disorders\ndue to use of alcohol: psychotic disorder\n6C40.6Z Alcohol-induced psychotic disorder, F10.5 Mental and behavioural disorders due to use of alcohol:\nunspecified psychotic disorder\n6C40.70 Alcohol-induced mood disorder F10.8 Mental and behavioural disorders due to use of alcohol:\nother mental and behavioural disorders\n6C40.71 Alcohol-induced anxiety disorder F10.8 Mental and behavioural disorders due to use of alcohol:\nother mental and behavioural disorders\n6C40.Y Other specified disorder due to use of alcohol F10.8 Mental and behavioural disorders due to use of alcohol:\nother mental and behavioural disorders\n6C40.Z Disorder due to use of alcohol, unspecified F10.9 Mental and behavioural disorders due to use of alcohol:\nunspecified mental and behavioural disorder\n6C41 Disorders due to use of cannabis F12 Mental and behavioural disorders due to use of\ncannabinoids\n6C41.0 Episode of harmful use of cannabis F12.8 Mental and behavioural disorders due to use of\ncannabinoids: other mental and behavioural disorders 4-character code: f10.5 mental and behavioural disorders\ndue to use of alcohol: psychotic disorder\n6c40.62 alcohol-induced psychotic disorder with f10.56 mental and behavioural disorders due to use of\nmixed psychotic sym..."
+}

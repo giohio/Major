@@ -1,0 +1,19 @@
+{
+  "id": "clinical#screening_cues_4e5cf81e",
+  "content": "A. The criteria are met for major or mild neurocognitive disorder.\nB. There is evidence from the history, physical examination, or lab-\noratory findings that the neurocognitive disorder is the patho-\nphysiological consequence of more than one etiological process,\nexcluding substances (e.g., neurocognitive disorder due to Alz-\nheimer’s disease with subsequent development of vascular neu-\nrocognitive disorder).\nNote: Please refer to the diagnostic criteria for the various neu-\nrocognitive disorders due to specific medical conditions for guid-\nance on establishing the particular etiologies.\nC. The cognitive deficits are not better explained by another mental\ndisorder and do not occur exclusively during the course of a\ndelirium.\nCoding note: For major neurocognitive disorder due to multiple etiolo-\ngies, with behavioral disturbance, code 294.11 (F02.81); for major neu-\nrocognitive disorder due to multiple etiologies, without behavioral\ndisturbance, code 294.10 (F02.80). All of the etiological medical con-\nditions (with the exception of vascular disease) should be coded and\nlisted separately immediately before major neurocognitive disorder due\nto multiple etiologies (e.g., 331.0 [G30.9] Alzheimer’s disease; 331.82\n[G31.83] Lewy body disease; 294.11 [F02.81] major neurocognitive\ndisorder due to multiple etiologies, with behavioral disturbance).\nWhen a cerebrovascular etiology is contributing to the neurocogni-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "referral",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues A. The criteria are met for major or mild neurocognitive disorder.\nB. There is evidence from the history, physical examination, or lab-\noratory findings that the neurocognitive disorder is the patho-\nphysiological consequence of more than one etiological process,\nexcluding substances (e.g., neurocognitive disorder due to Alz-\nheimer’s disease with subsequent development of vascular neu-\nrocognitive disorder).\nNote: Please refer to the diagnostic criteria for the various neu-\nrocognitive disorders due to specific medical conditions for guid-\nance on establishing the particular etiologies.\nC. The cognitive deficits are not better explained by another mental\ndisorder and do not occur exclusively during the course of a\ndelirium.\nCoding note: For major neurocognitive disorder due to multiple etiolo-\ngies, with behavioral disturbance, code 294.11 (F02.81); for major neu-\nrocognitive disorder due to multiple etiologies, without behavioral\ndisturbance, code 294.10 (F02.80). All of the etiological medical con-\nditions (with the exception of vascular disease) should be coded and\nlisted separately immediately before major neurocognitive disorder due\nto multiple etiologies (e.g., 331.0 [G30.9] Alzheimer’s disease; 331.82\n[G31.83] Lewy body disease; 294.11 [F02.81] major neurocognitive\ndisorder due to multiple etiologies, with behavioral disturbance).\nWhen a cerebrovascular etiology is contributing to the neurocogni- A. the criteria are met for major or mild neurocognitive disorder."
+}

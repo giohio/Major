@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_680aebde",
+  "content": "Mixed level of activity: The individual has a normal level of\npsychomotor activity even though attention and awareness are\ndisturbed. Also includes individuals whose activity level rapidly\nfluctuates.\nRecording Procedures\nSubstance intoxication delirium\nICD-9-CM. The name of the substance/medication intoxication de-\nlirium begins with the specific substance (e.g., cocaine, dexametha-\nsone) that is presumed to be causing the delirium. The diagnostic\ncode is selected from the table included in the criteria set, which is\nbased on the drug class. For substances that do not fit into any of the\nclasses (e.g., dexamethasone), the code for “other substance” should\nbe used; and in cases in which a substance is judged to be an etiolog-\nical factor but the specific class of substance is unknown, the category\n“unknown substance” should be used.\nThe name of the disorder is followed by the course (i.e., acute,\npersistent), followed by the specifier indicating level of psychomotor\nactivity (i.e., hyperactive, hypoactive, mixed level of activity). Unlike\nthe recording procedures for ICD-10-CM, which combine the sub-\nstance/medication intoxication delirium and substance use disorder\ninto a single code, for ICD-9-CM a separate diagnostic code is given",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Mixed level of activity: The individual has a normal level of\npsychomotor activity even though attention and awareness are\ndisturbed. Also includes individuals whose activity level rapidly\nfluctuates.\nRecording Procedures\nSubstance intoxication delirium\nICD-9-CM. The name of the substance/medication intoxication de-\nlirium begins with the specific substance (e.g., cocaine, dexametha-\nsone) that is presumed to be causing the delirium. The diagnostic\ncode is selected from the table included in the criteria set, which is\nbased on the drug class. For substances that do not fit into any of the\nclasses (e.g., dexamethasone), the code for “other substance” should\nbe used; and in cases in which a substance is judged to be an etiolog-\nical factor but the specific class of substance is unknown, the category\n“unknown substance” should be used.\nThe name of the disorder is followed by the course (i.e., acute,\npersistent), followed by the specifier indicating level of psychomotor\nactivity (i.e., hyperactive, hypoactive, mixed level of activity). Unlike\nthe recording procedures for ICD-10-CM, which combine the sub-\nstance/medication intoxication delirium and substance use disorder\ninto a single code, for ICD-9-CM a separate diagnostic code is given Mixed level of activity: the individual has a normal level of\npsychomotor activity even though attention and awareness are\ndisturbed. also includes individuals whose activity level rapidly\nfluctuates."
+}

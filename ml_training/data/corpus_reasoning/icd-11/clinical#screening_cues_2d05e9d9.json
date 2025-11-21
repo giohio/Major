@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_2d05e9d9",
+  "content": "6C20.0 Mild bodily distress disorder F45.4 Persistent somatoform pain disorder Use F45.4 if the primary\nsymptom is pain.\nOR\nF45.9 Somatoform disorder, unspecified\n6C20.1 Moderate bodily distress disorder F45.4 Persistent somatoform pain disorder Use F45.4 if the primary\nsymptom is pain.\nOR\nF45.9 Somatoform disorder, unspecified\n6C20.2 Severe bodily distress disorder F45.0 Somatization disorder Use F45.4 if the primary\nsymptom is pain.\nOR\nF45.4 Persistent somatoform pain disorder\nUse F45.0 if there is\nOR a history of multiple\nand variable bodily\nsymptoms.\nF45.9 Somatoform disorder, unspecified\n6C20.Z Bodily distress disorder, unspecified F45.9 Somatoform disorder, unspecified\n6C21 Body integrity dysphoria F99 Unspecified mental disorder\n768 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nICD-11 ICD-10 Notes\n6C2Y Other specified disorder of bodily distress or F99 Unspecified mental disorder\nbodily experience\nNo 4-character code available\n6C2Z Disorder of bodily distress or bodily F99 Unspecified mental disorder\nexperience, unspecified\nNo 4-character code available\nDisorders due to substance use or addictive behaviours\nDisorders due to substance use\n6C40 Disorders due to use of alcohol F10 Mental and behavioural disorders due to use of alcohol",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues 6C20.0 Mild bodily distress disorder F45.4 Persistent somatoform pain disorder Use F45.4 if the primary\nsymptom is pain.\nOR\nF45.9 Somatoform disorder, unspecified\n6C20.1 Moderate bodily distress disorder F45.4 Persistent somatoform pain disorder Use F45.4 if the primary\nsymptom is pain.\nOR\nF45.9 Somatoform disorder, unspecified\n6C20.2 Severe bodily distress disorder F45.0 Somatization disorder Use F45.4 if the primary\nsymptom is pain.\nOR\nF45.4 Persistent somatoform pain disorder\nUse F45.0 if there is\nOR a history of multiple\nand variable bodily\nsymptoms.\nF45.9 Somatoform disorder, unspecified\n6C20.Z Bodily distress disorder, unspecified F45.9 Somatoform disorder, unspecified\n6C21 Body integrity dysphoria F99 Unspecified mental disorder\n768 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nICD-11 ICD-10 Notes\n6C2Y Other specified disorder of bodily distress or F99 Unspecified mental disorder\nbodily experience\nNo 4-character code available\n6C2Z Disorder of bodily distress or bodily F99 Unspecified mental disorder\nexperience, unspecified\nNo 4-character code available\nDisorders due to substance use or addictive behaviours\nDisorders due to substance use\n6C40 Disorders due to use of alcohol F10 Mental and behavioural disorders due to use of alcohol 6c20.0 mild bodily distress disorder f45.4 persistent somatoform pain disorder use f45.4 if the primary\nsymptom is pain. or\nf45.9 somatoform disorder, unspecified\n6c20.1 moderate bodily distress disorder f45.4 persistent..."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "clinical#screening_cues_32077428",
+  "content": "consequences. Compared to other individuals with similar symptoms, the\nseverity of symptoms in the domain is in the most severe third.\nSeverity unspecified Symptoms from the respective domain have been present during the past week,\nbut it is not possible to make a severity rating based on the available information.\nSpecifier scales for symptomatic manifestations of primary psychotic disorders\nSpecifier scales for symptomatic manifestations of primary psychotic disorders 193\n6A25.0 Positive symptoms\nThis specifier may be used together with a diagnosis from the grouping of schizophrenia and\nother primary psychotic disorders to indicate the degree to which positive psychotic symptoms\nare a prominent part of the current clinical presentation (see Table 6.7). Positive symptoms\ninclude delusions, hallucinations (most commonly verbal auditory hallucinations), disorganized\nthinking (formal thought disorder such as loose associations, thought derailment or incoherence),\ndisorganized behaviour (behaviour that appears bizarre, purposeless and not goal-directed), and\nexperiences of passivity and control (the experience that one’s feelings, impulses or thoughts\nare under the control of an external force). Abnormal psychomotor behaviour (e.g. catatonic\nrestlessness or agitation, waxy flexibility, negativism) is not included in this domain but instead\nwould be rated in the 6A25.4 Psychomotor symptoms domain below.",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues consequences. Compared to other individuals with similar symptoms, the\nseverity of symptoms in the domain is in the most severe third.\nSeverity unspecified Symptoms from the respective domain have been present during the past week,\nbut it is not possible to make a severity rating based on the available information.\nSpecifier scales for symptomatic manifestations of primary psychotic disorders\nSpecifier scales for symptomatic manifestations of primary psychotic disorders 193\n6A25.0 Positive symptoms\nThis specifier may be used together with a diagnosis from the grouping of schizophrenia and\nother primary psychotic disorders to indicate the degree to which positive psychotic symptoms\nare a prominent part of the current clinical presentation (see Table 6.7). Positive symptoms\ninclude delusions, hallucinations (most commonly verbal auditory hallucinations), disorganized\nthinking (formal thought disorder such as loose associations, thought derailment or incoherence),\ndisorganized behaviour (behaviour that appears bizarre, purposeless and not goal-directed), and\nexperiences of passivity and control (the experience that one’s feelings, impulses or thoughts\nare under the control of an external force). Abnormal psychomotor behaviour (e.g. catatonic\nrestlessness or agitation, waxy flexibility, negativism) is not included in this domain but instead\nwould be rated in the 6A25.4 Psychomotor symptoms domain below. Consequences. compared to other individuals with similar symptoms, the\nseverity of symptoms in the domain is in the most severe third."
+}

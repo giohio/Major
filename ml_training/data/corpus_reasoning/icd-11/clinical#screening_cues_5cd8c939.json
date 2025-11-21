@@ -1,0 +1,16 @@
+{
+  "id": "clinical#screening_cues_5cd8c939",
+  "content": "are 4-character ICD-10 codes (e.g. F80.1), but in other instances a 3-character code (e.g. F20) or\na 5-character code (e.g. F10.24) best captures the ICD-11 category. Where ICD-10 5-character\ncodes appear, these are taken from The ICD-10 classification of mental and behavioural disorders:\nclinical descriptions and diagnostic guidelines, which in some cases include more detailed coding\noptions than the statistical version of ICD-10.\nData systems and/or reporting requirements in some health systems and countries may require\nthat 4-character ICD-10 codes are used if they are available, so that a 3-character code is not\naccepted if a 4-character subcategory exists. Similarly, many data systems do not accept 5-character\nICD-10 codes, allowing a maximum of 4 characters. In situations in which the nearest equivalent\nICD-10 category is not a 4-character code, a 4-character coding option is also provided.\nAdditional coding or reporting requirements vary widely across settings and countries.\nThe mappings provided here may therefore require adjustment based on the requirements of the\nspecific clinical setting. This crosswalk is not intended to contravene any guidance that may be\nprovided by the relevant health system or government.\nIn a couple of specific instances (e.g. ICD-11 Body dysmorphic disorder), coding information",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues are 4-character ICD-10 codes (e.g. F80.1), but in other instances a 3-character code (e.g. F20) or\na 5-character code (e.g. F10.24) best captures the ICD-11 category. Where ICD-10 5-character\ncodes appear, these are taken from The ICD-10 classification of mental and behavioural disorders:\nclinical descriptions and diagnostic guidelines, which in some cases include more detailed coding\noptions than the statistical version of ICD-10.\nData systems and/or reporting requirements in some health systems and countries may require\nthat 4-character ICD-10 codes are used if they are available, so that a 3-character code is not\naccepted if a 4-character subcategory exists. Similarly, many data systems do not accept 5-character\nICD-10 codes, allowing a maximum of 4 characters. In situations in which the nearest equivalent\nICD-10 category is not a 4-character code, a 4-character coding option is also provided.\nAdditional coding or reporting requirements vary widely across settings and countries.\nThe mappings provided here may therefore require adjustment based on the requirements of the\nspecific clinical setting. This crosswalk is not intended to contravene any guidance that may be\nprovided by the relevant health system or government.\nIn a couple of specific instances (e.g. ICD-11 Body dysmorphic disorder), coding information Are 4-character icd-10 codes (e.g. f80.1), but in other instances a 3-character code (e.g."
+}

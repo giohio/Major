@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_f14a70dc",
+  "content": "pervision.\nSpecify if:\nIn early remission: After full criteria for opioid use disorder were\npreviously met, none of the criteria for opioid use disorder have\nbeen met for at least 3 months but for less than 12 months (with\nthe exception that Criterion A4, “Craving, or a strong desire or\nurge to use opioids,” may be met).\nIn sustained remission: After full criteria for opioid use disorder\nwere previously met, none of the criteria for opioid use disorder\nhave been met at any time during a period of 12 months or longer\n(with the exception that Criterion A4, “Craving, or a strong desire\nor urge to use opioids,” may be met).\nSpecify if:\nOn maintenance therapy: This additional specifier is used if the\nindividual is taking a prescribed agonist medication such as\nmethadone or buprenorphine and none of the criteria for opioid\nuse disorder have been met for that class of medication (except\ntolerance to, or withdrawal from, the agonist). This category also\n258 Substance-Related and Addictive Disorders\napplies to those individuals being maintained on a partial ago-\nnist, an agonist/antagonist, or a full antagonist such as oral nal-\ntrexone or depot naltrexone.",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues pervision.\nSpecify if:\nIn early remission: After full criteria for opioid use disorder were\npreviously met, none of the criteria for opioid use disorder have\nbeen met for at least 3 months but for less than 12 months (with\nthe exception that Criterion A4, “Craving, or a strong desire or\nurge to use opioids,” may be met).\nIn sustained remission: After full criteria for opioid use disorder\nwere previously met, none of the criteria for opioid use disorder\nhave been met at any time during a period of 12 months or longer\n(with the exception that Criterion A4, “Craving, or a strong desire\nor urge to use opioids,” may be met).\nSpecify if:\nOn maintenance therapy: This additional specifier is used if the\nindividual is taking a prescribed agonist medication such as\nmethadone or buprenorphine and none of the criteria for opioid\nuse disorder have been met for that class of medication (except\ntolerance to, or withdrawal from, the agonist). This category also\n258 Substance-Related and Addictive Disorders\napplies to those individuals being maintained on a partial ago-\nnist, an agonist/antagonist, or a full antagonist such as oral nal-\ntrexone or depot naltrexone. Pervision. specify if:\nin early remission: after full criteria for opioid use disorder were\npreviously met, none of the criteria for opioid use disorder have\nbeen met for at least 3 months but for less than 12 months (wi..."
+}

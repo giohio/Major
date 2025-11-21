@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_55d9e35d",
+  "content": "which combine the substance-induced disorder and substance use\ndisorder into a single code, for ICD-9-CM a separate diagnostic code\nis given for the substance use disorder. For example, in the case of\nerectile dysfunction occurring during intoxication in a man with a se-\nvere alcohol use disorder, the diagnosis is 291.89 alcohol-induced\nsexual dysfunction, with onset during intoxication, moderate. An ad-\nditional diagnosis of 303.90 severe alcohol use disorder is also given.\nWhen more than one substance is judged to play a significant role in\nthe development of the sexual dysfunction, each should be listed\nseparately (e.g., 292.89 cocaine-induced sexual dysfunction with onset\nduring intoxication, moderate; 292.89 fluoxetine-induced sexual dys-\nfunction, with onset after medication use).\nICD-10-CM. The name of the substance/medication-induced sex-\nual dysfunction begins with the specific substance (e.g., alcohol,\nfluoxetine) that is presumed to be causing the sexual dysfunction.\nThe diagnostic code is selected from the table included in the criteria\nset, which is based on the drug class and presence or absence of a co-\nmorbid substance use disorder. For substances that do not fit into\nany of the classes (e.g., fluoxetine), the code for “other substance”",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues which combine the substance-induced disorder and substance use\ndisorder into a single code, for ICD-9-CM a separate diagnostic code\nis given for the substance use disorder. For example, in the case of\nerectile dysfunction occurring during intoxication in a man with a se-\nvere alcohol use disorder, the diagnosis is 291.89 alcohol-induced\nsexual dysfunction, with onset during intoxication, moderate. An ad-\nditional diagnosis of 303.90 severe alcohol use disorder is also given.\nWhen more than one substance is judged to play a significant role in\nthe development of the sexual dysfunction, each should be listed\nseparately (e.g., 292.89 cocaine-induced sexual dysfunction with onset\nduring intoxication, moderate; 292.89 fluoxetine-induced sexual dys-\nfunction, with onset after medication use).\nICD-10-CM. The name of the substance/medication-induced sex-\nual dysfunction begins with the specific substance (e.g., alcohol,\nfluoxetine) that is presumed to be causing the sexual dysfunction.\nThe diagnostic code is selected from the table included in the criteria\nset, which is based on the drug class and presence or absence of a co-\nmorbid substance use disorder. For substances that do not fit into\nany of the classes (e.g., fluoxetine), the code for “other substance” Which combine the substance-induced disorder and substance use\ndisorder into a single code, for icd-9-cm a separate diagnostic code\nis given for the substance use disorder. for example, in the case of\nerectile dysfunctio..."
+}

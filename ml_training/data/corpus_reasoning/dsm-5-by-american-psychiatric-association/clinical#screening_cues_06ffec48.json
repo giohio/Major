@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_06ffec48",
+  "content": "Psychotic Disorder Due to Another Medical Condition 59\ncation; F16.159 mild phencyclidine use disorder with phencyclidine-\ninduced psychotic disorder, with onset during intoxication).\nPsychotic Disorder\nDue to Another Medical Condition\nA. Prominent hallucinations or delusions.\nB. There is evidence from the history, physical examination, or lab-\noratory findings that the disturbance is the direct pathophysiolog-\nical consequence of another medical condition.\nC. The disturbance is not better explained by another mental disorder.\nD. The disturbance does not occur exclusively during the course of\na delirium.\nE. The disturbance causes clinically significant distress or impairment\nin social, occupational, or other important areas of functioning.\nSpecify whether:\nCode based on predominant symptom:\n293.81 (F06.2) With delusions: If delusions are the predomi-\nnant symptom.\n293.82 (F06.0) With hallucinations: If hallucinations are the\npredominant symptom.\nCoding note: Include the name of the other medical condition in the\nname of the mental disorder (e.g., 293.81 [F06.2] psychotic disorder\ndue to malignant lung neoplasm, with delusions). The other medical\ncondition should be coded and listed separately immediately before\nthe psychotic disorder due to the medical condition (e.g., 162.9\n[C34.90] malignant lung neoplasm; 293.81 [F06.2] psychotic disorder\ndue to malignant lung neoplasm, with delusions).\nSpecify current severity:",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "study",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Psychotic Disorder Due to Another Medical Condition 59\ncation; F16.159 mild phencyclidine use disorder with phencyclidine-\ninduced psychotic disorder, with onset during intoxication).\nPsychotic Disorder\nDue to Another Medical Condition\nA. Prominent hallucinations or delusions.\nB. There is evidence from the history, physical examination, or lab-\noratory findings that the disturbance is the direct pathophysiolog-\nical consequence of another medical condition.\nC. The disturbance is not better explained by another mental disorder.\nD. The disturbance does not occur exclusively during the course of\na delirium.\nE. The disturbance causes clinically significant distress or impairment\nin social, occupational, or other important areas of functioning.\nSpecify whether:\nCode based on predominant symptom:\n293.81 (F06.2) With delusions: If delusions are the predomi-\nnant symptom.\n293.82 (F06.0) With hallucinations: If hallucinations are the\npredominant symptom.\nCoding note: Include the name of the other medical condition in the\nname of the mental disorder (e.g., 293.81 [F06.2] psychotic disorder\ndue to malignant lung neoplasm, with delusions). The other medical\ncondition should be coded and listed separately immediately before\nthe psychotic disorder due to the medical condition (e.g., 162.9\n[C34.90] malignant lung neoplasm; 293.81 [F06.2] psychotic disorder\ndue to malignant lung neoplasm, with delusions).\nSpecify current severity: Psychotic disorder due to another medical condition 59\ncation; f16.159 mild phencyclidine use disorder with phencyclidine-\ninduced psychotic disorder, with onset during intoxication). psychotic disorder\ndue to another me..."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "clinical#screening_cues_eff93dc6",
+  "content": "mental, behavioural and neurodevelopmental disorder diagnosis should be assigned separately.\nAdditional dimensions of the maltreatment as a cause of injury can also be specified via\npostcoordination. These include activity when injured (e.g. paid work, educational activity),\nplace of occurrence (e.g. home, school, education area), the perpetrator–victim relationship (e.g.\nspouse or partner, parent, stranger) and the gender of the perpetrator.\nAs an illustration, below is a fully postcoordinated example of a Chapter 23 maltreatment code:\n• PJ20 Physical maltreatment\n• Associated with: NA02.3 Fracture of skull or facial bones\n• Activity when injured: XE9ME Unpaid cleaning, cooking or maintenance at own place\nof residence\n• Place of occurrence: XE266 Home\n• Perpetrator–victim relationship: XE454 Spouse or partner\n• Gender of perpetrator, male: XE5YG\n• Context of assault and maltreatment: XE0UM Altercation\nThe full postcoordinated code is: PJ20&XE9ME&XE266&XE454&XE5YG&XE0UM/NA02.3.\n(See discussion of ICD-11 diagnostic coding, p. 30, in the introductory section on using the\nCDDR for ICD-11 mental, behavioural and neurodevelopmental disorders.)\nRelationship problems and maltreatment Relationship problems and maltreatment\nRelationship problems and maltreatment 709\nRelationship problems and maltreatment as factors\ninfluencing health status or contact with health services\nCategories for relationship problems and maltreatment from Chapter 24 on factors influencing",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "work",
+      "relationships",
+      "emotions",
+      "screening_cues",
+      "management",
+      "psychoeducation"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues mental, behavioural and neurodevelopmental disorder diagnosis should be assigned separately.\nAdditional dimensions of the maltreatment as a cause of injury can also be specified via\npostcoordination. These include activity when injured (e.g. paid work, educational activity),\nplace of occurrence (e.g. home, school, education area), the perpetrator–victim relationship (e.g.\nspouse or partner, parent, stranger) and the gender of the perpetrator.\nAs an illustration, below is a fully postcoordinated example of a Chapter 23 maltreatment code:\n• PJ20 Physical maltreatment\n• Associated with: NA02.3 Fracture of skull or facial bones\n• Activity when injured: XE9ME Unpaid cleaning, cooking or maintenance at own place\nof residence\n• Place of occurrence: XE266 Home\n• Perpetrator–victim relationship: XE454 Spouse or partner\n• Gender of perpetrator, male: XE5YG\n• Context of assault and maltreatment: XE0UM Altercation\nThe full postcoordinated code is: PJ20&XE9ME&XE266&XE454&XE5YG&XE0UM/NA02.3.\n(See discussion of ICD-11 diagnostic coding, p. 30, in the introductory section on using the\nCDDR for ICD-11 mental, behavioural and neurodevelopmental disorders.)\nRelationship problems and maltreatment Relationship problems and maltreatment\nRelationship problems and maltreatment 709\nRelationship problems and maltreatment as factors\ninfluencing health status or contact with health services\nCategories for relationship problems and maltreatment from Chapter 24 on factors influencing Mental, behavioural and neurodevelopmental disorder diagnosis should be assigned separately. additional dimensions of the maltreatment as a cause of injury can also be specified via\npostcoordination."
+}

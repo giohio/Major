@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_b6cadc12",
+  "content": "Note: For ICD-9-CM, code first 907.0 late effect of in-\ntracranial injury without skull fracture. For ICD-10-\nDSM-5 Classification xxxv\nCM, code first S06.2X9S diffuse traumatic brain in-\njury with loss of consciousness of unspecified dura-\ntion, sequela.\n294.11 (F02.81) With behavioral disturbance\n294.10 (F02.80) Without behavioral disturbance\n331.83 (G31.84) Mild Neurocognitive Disorder Due to Traumatic\nBrain Injurya\nSubstance/Medication-Induced Major or Mild Neurocognitive\nDisordera (311)\nNote: No additional medical code. See the criteria set and corresponding\nrecording procedures for substance-specific codes and ICD-9-CM and\nICD-10-CM coding.\nSpecify if: Persistent\nMajor or Mild Neurocognitive Disorder Due to HIV Infection (315)\n___.__ (___.__) Major Neurocognitive Disorder Due to HIV\nInfectionb\nNote: Code first 042 (B20) HIV infection.\n294.11 (F02.81) With behavioral disturbance\n294.10 (F02.80) Without behavioral disturbance\n331.83 (G31.84) Mild Neurocognitive Disorder Due to HIV\nInfectiona\nMajor or Mild Neurocognitive Disorder Due to Prion Disease\n(316)\n___.__ (___.__) Major Neurocognitive Disorder Due to Prion\nDiseaseb\nNote: Code first 046.79 (A81.9) prion disease.\n294.11 (F02.81) With behavioral disturbance\n294.10 (F02.80) Without behavioral disturbance\n331.83 (G31.84) Mild Neurocognitive Disorder Due to Prion\nDiseasea\nMajor or Mild Neurocognitive Disorder Due to Parkinson’s\nDisease (316)\n___.__ (___.__) Major Neurocognitive Disorder Probably Due to\nParkinson’s Diseaseb",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "emotions",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Note: For ICD-9-CM, code first 907.0 late effect of in-\ntracranial injury without skull fracture. For ICD-10-\nDSM-5 Classification xxxv\nCM, code first S06.2X9S diffuse traumatic brain in-\njury with loss of consciousness of unspecified dura-\ntion, sequela.\n294.11 (F02.81) With behavioral disturbance\n294.10 (F02.80) Without behavioral disturbance\n331.83 (G31.84) Mild Neurocognitive Disorder Due to Traumatic\nBrain Injurya\nSubstance/Medication-Induced Major or Mild Neurocognitive\nDisordera (311)\nNote: No additional medical code. See the criteria set and corresponding\nrecording procedures for substance-specific codes and ICD-9-CM and\nICD-10-CM coding.\nSpecify if: Persistent\nMajor or Mild Neurocognitive Disorder Due to HIV Infection (315)\n___.__ (___.__) Major Neurocognitive Disorder Due to HIV\nInfectionb\nNote: Code first 042 (B20) HIV infection.\n294.11 (F02.81) With behavioral disturbance\n294.10 (F02.80) Without behavioral disturbance\n331.83 (G31.84) Mild Neurocognitive Disorder Due to HIV\nInfectiona\nMajor or Mild Neurocognitive Disorder Due to Prion Disease\n(316)\n___.__ (___.__) Major Neurocognitive Disorder Due to Prion\nDiseaseb\nNote: Code first 046.79 (A81.9) prion disease.\n294.11 (F02.81) With behavioral disturbance\n294.10 (F02.80) Without behavioral disturbance\n331.83 (G31.84) Mild Neurocognitive Disorder Due to Prion\nDiseasea\nMajor or Mild Neurocognitive Disorder Due to Parkinson’s\nDisease (316)\n___.__ (___.__) Major Neurocognitive Disorder Probably Due to\nParkinson’s Diseaseb Note: for icd-9-cm, code first 907.0 late effect of in-\ntracranial injury without skull fracture. for icd-10-\ndsm-5 classification xxxv\ncm, code first s06.2x9s diffuse traumatic brain in-\njury with loss of consciousness ..."
+}

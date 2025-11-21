@@ -1,0 +1,20 @@
+{
+  "id": "clinical#screening_cues_4d889e3e",
+  "content": "6B00 Generalized anxiety disorder 266\n6B01 Panic disorder 271\n6B02 Agoraphobia 275\n6B03 Specific phobia 280\n6B04 Social anxiety disorder 284\n6B05 Separation anxiety disorder 289\n6B06 Selective mutism 293\n6B0Y Other specified anxiety or fear-related disorder 296\n6B0Z Anxiety or fear-related disorder, unspecified 296\nObsessive-compulsive and related disorders 299\n6B20 Obsessive-compulsive disorder 300\n6B21 Body dysmorphic disorder 308\n6B22 Olfactory reference disorder 314\n6B23 Hypochondriasis (health anxiety disorder) 317\n6B24 Hoarding disorder 322\n6B25 Body-focused repetitive behaviour disorders 327\n6B2Y Other specified obsessive-compulsive or related disorder 334\n6B2Z Obsessive-compulsive or related disorder, unspecified 335\nSecondary-parented category in obsessive-compulsive and related\ndisorders 335\n8A05.00 Tourette syndrome 335\nDisorders specifically associated with stress 337\n6B40 Post-traumatic stress disorder 339\n6B41 Complex post-traumatic stress disorder 344\n6B42 Prolonged grief disorder 348\nvii\n6B43 Adjustment disorder 352\n6B44 Reactive attachment disorder 355\n6B45 Disinhibited social engagement disorder 358\n6B4Y Other specified disorder specifically associated with stress 361\n6B4Z Disorder specifically associated with stress, unspecified 361\nSecondary-parented category in disorders specifically associated\nwith stress 361\nQE84 Acute stress reaction 361\nDissociative disorders 365\n6B60 Dissociative neurological symptom disorder 366\n6B61 Dissociative amnesia 373\nTrance disorder and possession trance disorder 377\n6B62 Trance disorder 378",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "study",
+      "emotions",
+      "screening_cues",
+      "referral"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues 6B00 Generalized anxiety disorder 266\n6B01 Panic disorder 271\n6B02 Agoraphobia 275\n6B03 Specific phobia 280\n6B04 Social anxiety disorder 284\n6B05 Separation anxiety disorder 289\n6B06 Selective mutism 293\n6B0Y Other specified anxiety or fear-related disorder 296\n6B0Z Anxiety or fear-related disorder, unspecified 296\nObsessive-compulsive and related disorders 299\n6B20 Obsessive-compulsive disorder 300\n6B21 Body dysmorphic disorder 308\n6B22 Olfactory reference disorder 314\n6B23 Hypochondriasis (health anxiety disorder) 317\n6B24 Hoarding disorder 322\n6B25 Body-focused repetitive behaviour disorders 327\n6B2Y Other specified obsessive-compulsive or related disorder 334\n6B2Z Obsessive-compulsive or related disorder, unspecified 335\nSecondary-parented category in obsessive-compulsive and related\ndisorders 335\n8A05.00 Tourette syndrome 335\nDisorders specifically associated with stress 337\n6B40 Post-traumatic stress disorder 339\n6B41 Complex post-traumatic stress disorder 344\n6B42 Prolonged grief disorder 348\nvii\n6B43 Adjustment disorder 352\n6B44 Reactive attachment disorder 355\n6B45 Disinhibited social engagement disorder 358\n6B4Y Other specified disorder specifically associated with stress 361\n6B4Z Disorder specifically associated with stress, unspecified 361\nSecondary-parented category in disorders specifically associated\nwith stress 361\nQE84 Acute stress reaction 361\nDissociative disorders 365\n6B60 Dissociative neurological symptom disorder 366\n6B61 Dissociative amnesia 373\nTrance disorder and possession trance disorder 377\n6B62 Trance disorder 378 6b00 generalized lo âu disorder 266\n6b01 panic disorder 271\n6b02 agoraphobia 275\n6b03 specific phobia 280\n6b04 social lo âu disorder 284\n6b05 separation lo âu disorder 289\n6b06 selective mutism 293\n6b0y other specified l..."
+}

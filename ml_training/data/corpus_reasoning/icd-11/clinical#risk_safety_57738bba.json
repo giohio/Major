@@ -1,0 +1,18 @@
+{
+  "id": "clinical#risk_safety_57738bba",
+  "content": "F50.1 Atypical anorexia nervosa\n6B80.0Z Anorexia nervosa with significantly low body F50.0 Anorexia nervosa See 6B80.\nweight, unspecified\nOR\nF50.1 Atypical anorexia nervosa\n6B80.1 Anorexia nervosa with dangerously low body F50.0 Anorexia nervosa\nweight\n6B80.10 Anorexia nervosa with dangerously low body F50.0 Anorexia nervosa\nweight, restricting pattern\n6B80.11 Anorexia nervosa with dangerously low body F50.0 Anorexia nervosa\nweight, binge-pure pattern\n6B80.1Z Anorexia nervosa with dangerously low body F50.0 Anorexia nervosa\nweight, unspecified\n6B80.2 Anorexia nervosa in recovery with normal body F50.1 Atypical anorexia nervosa\nweight\n6B80.Y Other specified anorexia nervosa F50.1 Atypical anorexia nervosa\n6B80.Z Anorexia nervosa, unspecified F50.0 Anorexia nervosa For ICD-10 F50.0,\ndiagnostic requirements\nOR include BMI of less than\n17.5, plus: amenorrhoea\nin women; loss of sexual\nF50.1 Atypical anorexia nervosa\ninterest and erectile\ndysfunction in men;\nor delayed puberty in\nadolescents. Otherwise,\nuse F50.1.\n6B81 Bulimia nervosa F50.2 Bulimia nervosa\n6B82 Binge-eating disorder F50.8 Other eating disorders\n6B83 Avoidant-restrictive food intake disorder F98.2 Feeding disorder of infancy or childhood Use F98.2 if the\nindividual is less\nOR than 12 years of age;\notherwise, use F50.8.\nF50.8 Other eating disorders\nCrosswalk from ICD-11 mental, behavioural and neurodevelopmental disorders to ICD-10 for clinician use 767\nICD-11 ICD-10 Notes",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "medium",
+    "topics": [
+      "emotions",
+      "risk_safety",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Risk Safety F50.1 Atypical anorexia nervosa\n6B80.0Z Anorexia nervosa with significantly low body F50.0 Anorexia nervosa See 6B80.\nweight, unspecified\nOR\nF50.1 Atypical anorexia nervosa\n6B80.1 Anorexia nervosa with dangerously low body F50.0 Anorexia nervosa\nweight\n6B80.10 Anorexia nervosa with dangerously low body F50.0 Anorexia nervosa\nweight, restricting pattern\n6B80.11 Anorexia nervosa with dangerously low body F50.0 Anorexia nervosa\nweight, binge-pure pattern\n6B80.1Z Anorexia nervosa with dangerously low body F50.0 Anorexia nervosa\nweight, unspecified\n6B80.2 Anorexia nervosa in recovery with normal body F50.1 Atypical anorexia nervosa\nweight\n6B80.Y Other specified anorexia nervosa F50.1 Atypical anorexia nervosa\n6B80.Z Anorexia nervosa, unspecified F50.0 Anorexia nervosa For ICD-10 F50.0,\ndiagnostic requirements\nOR include BMI of less than\n17.5, plus: amenorrhoea\nin women; loss of sexual\nF50.1 Atypical anorexia nervosa\ninterest and erectile\ndysfunction in men;\nor delayed puberty in\nadolescents. Otherwise,\nuse F50.1.\n6B81 Bulimia nervosa F50.2 Bulimia nervosa\n6B82 Binge-eating disorder F50.8 Other eating disorders\n6B83 Avoidant-restrictive food intake disorder F98.2 Feeding disorder of infancy or childhood Use F98.2 if the\nindividual is less\nOR than 12 years of age;\notherwise, use F50.8.\nF50.8 Other eating disorders\nCrosswalk from ICD-11 mental, behavioural and neurodevelopmental disorders to ICD-10 for clinician use 767\nICD-11 ICD-10 Notes F50.1 atypical anorexia nervosa\n6b80.0z anorexia nervosa with significantly low body f50.0 anorexia nervosa see 6b80. weight, unspecified\nor\nf50.1 atypical anorexia nervosa\n6b80.1 anorexia nervosa with dangerously low bo..."
+}

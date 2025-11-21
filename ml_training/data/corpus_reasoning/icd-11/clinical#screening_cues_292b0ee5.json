@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_292b0ee5",
+  "content": "None No significant cognitive symptoms have been present during the past week\n6A25.5&XS8H\nMild The person has minor difficulties in cognition (e.g. difficulty with recall during the\n6A25.5&XS5W interview, drifting concentration, showing some disorientation to time but not\nperson or place). Everyday functioning is largely unimpaired by the difficulties\nModerate The individual shows clear difficulties in cognition (e.g. impaired or inconsistent\n6A25.5&XS0T recall for some autobiographical information, inability to perform some basic\noperations that are expected of the person’s educational attainment and level of\nintellectual functioning – such as simple calculation tasks, disrupted orientation\nfor time and place but intact for person, difficulty learning or retaining new\ninformation). Everyday functioning is impaired as a result, but only some external\nassistance is necessary.\nSevere The person shows pronounced difficulties in cognition (e.g. severe deficits in\n6A25.5&XS25 verbal memory or other cognitive tasks relative to educational attainment and\nlevel of intellectual functioning, substantial difficulty with concentration and\npaying attention to what the rater asks during the interview, difficulty formulating\nplans to accomplish a specific objective, inability to consider alternative solutions\nto problems, grossly disturbed orientation). The problems severely interfere\nwith everyday functioning, leading to the necessity of considerable external\nassistance.",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management",
+      "psychoeducation"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues None No significant cognitive symptoms have been present during the past week\n6A25.5&XS8H\nMild The person has minor difficulties in cognition (e.g. difficulty with recall during the\n6A25.5&XS5W interview, drifting concentration, showing some disorientation to time but not\nperson or place). Everyday functioning is largely unimpaired by the difficulties\nModerate The individual shows clear difficulties in cognition (e.g. impaired or inconsistent\n6A25.5&XS0T recall for some autobiographical information, inability to perform some basic\noperations that are expected of the person’s educational attainment and level of\nintellectual functioning – such as simple calculation tasks, disrupted orientation\nfor time and place but intact for person, difficulty learning or retaining new\ninformation). Everyday functioning is impaired as a result, but only some external\nassistance is necessary.\nSevere The person shows pronounced difficulties in cognition (e.g. severe deficits in\n6A25.5&XS25 verbal memory or other cognitive tasks relative to educational attainment and\nlevel of intellectual functioning, substantial difficulty with concentration and\npaying attention to what the rater asks during the interview, difficulty formulating\nplans to accomplish a specific objective, inability to consider alternative solutions\nto problems, grossly disturbed orientation). The problems severely interfere\nwith everyday functioning, leading to the necessity of considerable external\nassistance. None no significant cognitive symptoms have been present during the past week\n6a25.5&xs8h\nmild the person has minor difficulties in cognition (e.g. difficulty with recall during the\n6a25.5&xs5w interview, drifting concen..."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "clinical#screening_cues_6b18e471",
+  "content": "Specify current severity:\nMild: Infrequent cataplexy (less than once per week), need for\nnaps only once or twice per day, and less disturbed nocturnal\nsleep.\nModerate: Cataplexy once daily or every few days, disturbed\nnocturnal sleep, and need for multiple naps daily.\nSevere: Drug-resistant cataplexy with multiple attacks daily,\nnearly constant sleepiness, and disturbed nocturnal sleep (i.e.,\nmovements, insomnia, and vivid dreaming).\n186 Sleep-Wake Disorders\nBreathing-Related Sleep Disorders\nObstructive Sleep Apnea Hypopnea\n327.23 (G47.33)\nA. Either (1) or (2):\n1. Evidence by polysomnography of at least five obstructive ap-\nneas or hypopneas per hour of sleep and either of the follow-\ning sleep symptoms:\na. Nocturnal breathing disturbances: snoring, snorting/\ngasping, or breathing pauses during sleep.\nb. Daytime sleepiness, fatigue, or unrefreshing sleep despite\nsufficient opportunities to sleep that is not better explained\nby another mental disorder (including a sleep disorder)\nand is not attributable to another medical condition.\n2. Evidence by polysomnography of 15 or more obstructive ap-\nneas and/or hypopneas per hour of sleep regardless of ac-\ncompanying symptoms.\nSpecify current severity:\nMild: Apnea hypopnea index is less than 15.\nModerate: Apnea hypopnea index is 15–30.\nSevere: Apnea hypopnea index is greater than 30.\nCentral Sleep Apnea\nA. Evidence by polysomnography of five or more central apneas",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "stress",
+      "coping_skill",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Specify current severity:\nMild: Infrequent cataplexy (less than once per week), need for\nnaps only once or twice per day, and less disturbed nocturnal\nsleep.\nModerate: Cataplexy once daily or every few days, disturbed\nnocturnal sleep, and need for multiple naps daily.\nSevere: Drug-resistant cataplexy with multiple attacks daily,\nnearly constant sleepiness, and disturbed nocturnal sleep (i.e.,\nmovements, insomnia, and vivid dreaming).\n186 Sleep-Wake Disorders\nBreathing-Related Sleep Disorders\nObstructive Sleep Apnea Hypopnea\n327.23 (G47.33)\nA. Either (1) or (2):\n1. Evidence by polysomnography of at least five obstructive ap-\nneas or hypopneas per hour of sleep and either of the follow-\ning sleep symptoms:\na. Nocturnal breathing disturbances: snoring, snorting/\ngasping, or breathing pauses during sleep.\nb. Daytime sleepiness, fatigue, or unrefreshing sleep despite\nsufficient opportunities to sleep that is not better explained\nby another mental disorder (including a sleep disorder)\nand is not attributable to another medical condition.\n2. Evidence by polysomnography of 15 or more obstructive ap-\nneas and/or hypopneas per hour of sleep regardless of ac-\ncompanying symptoms.\nSpecify current severity:\nMild: Apnea hypopnea index is less than 15.\nModerate: Apnea hypopnea index is 15–30.\nSevere: Apnea hypopnea index is greater than 30.\nCentral Sleep Apnea\nA. Evidence by polysomnography of five or more central apneas Specify current severity:\nmild: infrequent cataplexy (less than once per week), need for\nnaps only once or twice per day, and less disturbed nocturnal\ngiấc ngủ. moderate: cataplexy once daily or every few days, disturbed..."
+}

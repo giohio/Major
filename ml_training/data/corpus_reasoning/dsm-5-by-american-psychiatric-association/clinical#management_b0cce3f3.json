@@ -1,0 +1,20 @@
+{
+  "id": "clinical#management_b0cce3f3",
+  "content": "333.99 (G25.71) Medication-Induced Acute Akathisia (349)\n333.85 (G24.01) Tardive Dyskinesia (349)\n333.72 (G24.09) Tardive Dystonia (350)\n333.99 (G25.71) Tardive Akathisia (350)\n333.1 (G25.1) Medication-Induced Postural Tremor (350)\n333.99 (G25.79) Other Medication-Induced Movement Disorder\n(350)\n___.__ (___.__) Antidepressant Discontinuation Syndrome (351)\n995.29 (T43.205A) Initial encounter\n995.29 (T43.205D) Subsequent encounter\n995.29 (T43.205S) Sequelae\n___.__ (___.__) Other Adverse Effect of Medication (353)\n995.20 (T50.905A) Initial encounter\n995.20 (T50.905D) Subsequent encounter\n995.20 (T50.905S) Sequelae\nxl DSM-5 Classification\nOther Conditions That May Be a Focus\nof Clinical Attention (355)\nRelational Problems (355)\nProblems Related to Family Upbringing (356)\nV61.20 (Z62.820)Parent-Child Relational Problem (356)\nV61.8 (Z62.891)Sibling Relational Problem (356)\nV61.8 (Z62.29) Upbringing Away From Parents (356)\nV61.29 (Z62.898)Child Affected by Parental Relationship Distress\n(357)\nOther Problems Related to Primary Support Group (357)\nV61.10 (Z63.0) Relationship Distress With Spouse or Intimate\nPartner (357)\nV61.03 (Z63.5) Disruption of Family by Separation or Divorce (357)\nV61.8 (Z63.8) High Expressed Emotion Level Within Family (357)\nV62.82 (Z63.4) Uncomplicated Bereavement (358)\nAbuse and Neglect (358)\nChild Maltreatment and Neglect Problems (359)\nChild Physical Abuse (359)\nChild Physical Abuse, Confirmed (359)\n995.54 (T74.12XA) Initial encounter\n995.54 (T74.12XD) Subsequent encounter\nChild Physical Abuse, Suspected (359)\n995.54 (T76.12XA) Initial encounter\n995.54 (T76.12XD) Subsequent encounter",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "study",
+      "relationships",
+      "management",
+      "psychoeducation"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Management 333.99 (G25.71) Medication-Induced Acute Akathisia (349)\n333.85 (G24.01) Tardive Dyskinesia (349)\n333.72 (G24.09) Tardive Dystonia (350)\n333.99 (G25.71) Tardive Akathisia (350)\n333.1 (G25.1) Medication-Induced Postural Tremor (350)\n333.99 (G25.79) Other Medication-Induced Movement Disorder\n(350)\n___.__ (___.__) Antidepressant Discontinuation Syndrome (351)\n995.29 (T43.205A) Initial encounter\n995.29 (T43.205D) Subsequent encounter\n995.29 (T43.205S) Sequelae\n___.__ (___.__) Other Adverse Effect of Medication (353)\n995.20 (T50.905A) Initial encounter\n995.20 (T50.905D) Subsequent encounter\n995.20 (T50.905S) Sequelae\nxl DSM-5 Classification\nOther Conditions That May Be a Focus\nof Clinical Attention (355)\nRelational Problems (355)\nProblems Related to Family Upbringing (356)\nV61.20 (Z62.820)Parent-Child Relational Problem (356)\nV61.8 (Z62.891)Sibling Relational Problem (356)\nV61.8 (Z62.29) Upbringing Away From Parents (356)\nV61.29 (Z62.898)Child Affected by Parental Relationship Distress\n(357)\nOther Problems Related to Primary Support Group (357)\nV61.10 (Z63.0) Relationship Distress With Spouse or Intimate\nPartner (357)\nV61.03 (Z63.5) Disruption of Family by Separation or Divorce (357)\nV61.8 (Z63.8) High Expressed Emotion Level Within Family (357)\nV62.82 (Z63.4) Uncomplicated Bereavement (358)\nAbuse and Neglect (358)\nChild Maltreatment and Neglect Problems (359)\nChild Physical Abuse (359)\nChild Physical Abuse, Confirmed (359)\n995.54 (T74.12XA) Initial encounter\n995.54 (T74.12XD) Subsequent encounter\nChild Physical Abuse, Suspected (359)\n995.54 (T76.12XA) Initial encounter\n995.54 (T76.12XD) Subsequent encounter 333.99 (g25.71) medication-induced acute akathisia (349)\n333.85 (g24.01) tardive dyskinesia (349)\n333.72 (g24.09) tardive dystonia (350)\n333.99 (g25.71) tardive akathisia (350)\n333.1 (g25.1) medication-induced postural t..."
+}

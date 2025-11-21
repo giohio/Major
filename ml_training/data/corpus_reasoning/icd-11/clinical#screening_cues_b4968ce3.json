@@ -1,0 +1,19 @@
+{
+  "id": "clinical#screening_cues_b4968ce3",
+  "content": "Catatonia may be accompanied by vital sign abnormalities not fully accounted for by a comorbid\nmedical condition that may signal potentially life-threatening complications and therefore require\nimmediate attention. These include tachycardia or bradycardia; hypertension or hypotension;\nand hyperthermia or hypothermia. In these cases, as many of the following symptom codes as\napplicable should be applied:\nMG26 Fever of other or unknown origin\nMG28 Hypothermia, not associated with low environmental temperature\nMC80.0 Elevated blood-pressure reading, without diagnosis of hypertension\nMC80.1 Nonspecific low blood-pressure reading\nMC81.0 Tachycardia, unspecified\nMC81.1 Bradycardia, unspecified.\n6A40 Catatonia associated with another mental disorder\nEssential (required) features\n• The general diagnostic requirements for catatonia are met.\n• The catatonic symptoms develop in the context of another mental disorder, such as\nschizophrenia or another primary psychotic disorder, a mood disorder or autism spectrum\ndisorder.\n• The symptoms are not fully accounted for by delirium, the effects of a medication or\nsubstance – including withdrawal effects – or a primary movement disorder classified in\nChapter 8 on diseases of the nervous system (e.g. Parkinson disease, Huntington disease).\n• The symptoms are sufficiently severe to be a specific focus of clinical attention.\nNote: the associated mental disorder should be diagnosed separately.",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Catatonia may be accompanied by vital sign abnormalities not fully accounted for by a comorbid\nmedical condition that may signal potentially life-threatening complications and therefore require\nimmediate attention. These include tachycardia or bradycardia; hypertension or hypotension;\nand hyperthermia or hypothermia. In these cases, as many of the following symptom codes as\napplicable should be applied:\nMG26 Fever of other or unknown origin\nMG28 Hypothermia, not associated with low environmental temperature\nMC80.0 Elevated blood-pressure reading, without diagnosis of hypertension\nMC80.1 Nonspecific low blood-pressure reading\nMC81.0 Tachycardia, unspecified\nMC81.1 Bradycardia, unspecified.\n6A40 Catatonia associated with another mental disorder\nEssential (required) features\n• The general diagnostic requirements for catatonia are met.\n• The catatonic symptoms develop in the context of another mental disorder, such as\nschizophrenia or another primary psychotic disorder, a mood disorder or autism spectrum\ndisorder.\n• The symptoms are not fully accounted for by delirium, the effects of a medication or\nsubstance – including withdrawal effects – or a primary movement disorder classified in\nChapter 8 on diseases of the nervous system (e.g. Parkinson disease, Huntington disease).\n• The symptoms are sufficiently severe to be a specific focus of clinical attention.\nNote: the associated mental disorder should be diagnosed separately. Catatonia may be accompanied by vital sign abnormalities not fully accounted for by a comorbid\nmedical condition that may signal potentially life-threatening complications and therefore require\nimmediate attention. these..."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_8ac6a438",
+  "content": "mixed manic and depressive symptoms. The x below corresponds to the fourth-character\ncode indicating the substance class (0 for alcohol, 1 for cannabis and so on). The y represents\nthe character that correspond to substance-induced mood disorder for that class of substances\n(see the list above and Table 6.14, p. 454). For example, 6C40.700 is alcohol-induced mood\ndisorder with depressive symptoms and 6C4D.602 is dissociative drug-induced mood\ndisorder with mixed depressive and manic symptoms.\n6C4x.y00 Substance-induced mood disorder with depressive symptoms\n• All diagnostic requirements for substance-induced mood disorder are met.\n• The presentation is characterized by depressive symptoms judged to be the direct\nconsequence of the use of or withdrawal from a specified substance or medication.\n• Manic symptoms are not present.\n6C4x.y01 Substance-induced mood disorder with manic symptoms\n• All diagnostic requirements for substance-induced mood disorder are met.\n• The presentation is characterized by manic symptoms judged to be the direct consequence\nof the use of or withdrawal from a specified substance or medication.\n• Depressive symptoms are not present.\nSubstance-induced mood disorders\nDisorders due to substance use or addictive behaviours 493\n6C4x.y02 Substance-induced mood disorder with mixed depressive and manic symptoms\n• All diagnostic requirements for substance-induced mood disorder are met.\n• The presentation is characterized by both depressive and manic symptoms judged to be the",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues mixed manic and depressive symptoms. The x below corresponds to the fourth-character\ncode indicating the substance class (0 for alcohol, 1 for cannabis and so on). The y represents\nthe character that correspond to substance-induced mood disorder for that class of substances\n(see the list above and Table 6.14, p. 454). For example, 6C40.700 is alcohol-induced mood\ndisorder with depressive symptoms and 6C4D.602 is dissociative drug-induced mood\ndisorder with mixed depressive and manic symptoms.\n6C4x.y00 Substance-induced mood disorder with depressive symptoms\n• All diagnostic requirements for substance-induced mood disorder are met.\n• The presentation is characterized by depressive symptoms judged to be the direct\nconsequence of the use of or withdrawal from a specified substance or medication.\n• Manic symptoms are not present.\n6C4x.y01 Substance-induced mood disorder with manic symptoms\n• All diagnostic requirements for substance-induced mood disorder are met.\n• The presentation is characterized by manic symptoms judged to be the direct consequence\nof the use of or withdrawal from a specified substance or medication.\n• Depressive symptoms are not present.\nSubstance-induced mood disorders\nDisorders due to substance use or addictive behaviours 493\n6C4x.y02 Substance-induced mood disorder with mixed depressive and manic symptoms\n• All diagnostic requirements for substance-induced mood disorder are met.\n• The presentation is characterized by both depressive and manic symptoms judged to be the Mixed manic and depressive symptoms. the x below corresponds to the fourth-character\ncode indicating the substance class (0 for alcohol, 1 for cannabis and so on)."
+}

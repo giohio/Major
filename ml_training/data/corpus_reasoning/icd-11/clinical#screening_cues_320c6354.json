@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_320c6354",
+  "content": "Alzheimer disease.\n• Onset is typically after the fourth decade of life, and is often accompanied by a gradual\ndecline in functioning.\nNote: a diagnosis of LD40.0 Complete trisomy 21 (Down syndrome) in Chapter 20 on\ndevelopmental abnormalities should also be assigned.\n6D85.Y Dementia due to other specified disease classified elsewhere\nEssential (required) features\n• All diagnostic requirements for dementia are met.\n• The dementia is presumed to be attributable to an underlying disease of the nervous\nsystem, trauma, infection, tumour or other disease process affecting specific areas of the\nbrain that is listed in ICD-11 but is not adequately captured by any of the other available\ndementia categories, as demonstrated by neuropsychological test data, neuroimaging data,\ngenetic testing, medical tests, family history and/or clinical history.\n• This judgement depends on establishing the following.\n• The specified cause is known to be capable of producing the symptoms.\n• The course of the impairment (e.g. onset, trajectory of symptoms, response to treatment)\nis consistent with that known to be associated with the specified cause.\nNote: the ICD-11 diagnosis corresponding to the presumed etiology should also be assigned.\n6D8Y Dementia, other specified cause\nEssential (required) features\n• All diagnostic requirements for dementia are met.\n• The dementia is presumed to be attributable to an identified and specified underlying cause",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "relationships",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Alzheimer disease.\n• Onset is typically after the fourth decade of life, and is often accompanied by a gradual\ndecline in functioning.\nNote: a diagnosis of LD40.0 Complete trisomy 21 (Down syndrome) in Chapter 20 on\ndevelopmental abnormalities should also be assigned.\n6D85.Y Dementia due to other specified disease classified elsewhere\nEssential (required) features\n• All diagnostic requirements for dementia are met.\n• The dementia is presumed to be attributable to an underlying disease of the nervous\nsystem, trauma, infection, tumour or other disease process affecting specific areas of the\nbrain that is listed in ICD-11 but is not adequately captured by any of the other available\ndementia categories, as demonstrated by neuropsychological test data, neuroimaging data,\ngenetic testing, medical tests, family history and/or clinical history.\n• This judgement depends on establishing the following.\n• The specified cause is known to be capable of producing the symptoms.\n• The course of the impairment (e.g. onset, trajectory of symptoms, response to treatment)\nis consistent with that known to be associated with the specified cause.\nNote: the ICD-11 diagnosis corresponding to the presumed etiology should also be assigned.\n6D8Y Dementia, other specified cause\nEssential (required) features\n• All diagnostic requirements for dementia are met.\n• The dementia is presumed to be attributable to an identified and specified underlying cause Alzheimer disease. • onset is typically after the fourth decade of life, and is often accompanied by a gradual\ndecline in functioning."
+}

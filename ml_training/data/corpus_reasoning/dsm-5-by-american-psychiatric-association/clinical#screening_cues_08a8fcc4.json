@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_08a8fcc4",
+  "content": "function.\nE. The disturbance is not better explained by cerebrovascular dis-\nease, another neurodegenerative disease, the effects of a sub-\nstance, or another mental, neurological, or systemic disorder.\nProbable frontotemporal neurocognitive disorder is diagnosed if\neither of the following is present; otherwise, possible frontotempo-\nral neurocognitive disorder should be diagnosed:\n1. Evidence of a causative frontotemporal neurocognitive disorder\ngenetic mutation, from either family history or genetic testing.\n2. Evidence of disproportionate frontal and/or temporal lobe in-\nvolvement from neuroimaging.\nPossible frontotemporal neurocognitive disorder is diagnosed if\nthere is no evidence of a genetic mutation, and neuroimaging has not\nbeen performed.\nCoding note: For probable major neurocognitive disorder due to\nfrontotemporal lobar degeneration, with behavioral disturbance,\ncode first 331.19 (G31.09) frontotemporal disease, followed by\n294.11 (F02.81) probable major neurocognitive disorder due to fron-\ntotemporal lobar degeneration, with behavioral disturbance. For\nprobable major neurocognitive disorder due to frontotemporal lobar\ndegeneration, without behavioral disturbance, code first 331.19\n(G31.09) frontotemporal disease, followed by 294.10 (F02.80) prob-\nable major neurocognitive disorder due to frontotemporal lobar de-\ngeneration, without behavioral disturbance.\nFor possible major neurocognitive disorder due to frontotemporal lo-\nbar degeneration, code 331.9 (G31.9) possible major neurocognitive\n308 Neurocognitive Disorders",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "relationships",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues function.\nE. The disturbance is not better explained by cerebrovascular dis-\nease, another neurodegenerative disease, the effects of a sub-\nstance, or another mental, neurological, or systemic disorder.\nProbable frontotemporal neurocognitive disorder is diagnosed if\neither of the following is present; otherwise, possible frontotempo-\nral neurocognitive disorder should be diagnosed:\n1. Evidence of a causative frontotemporal neurocognitive disorder\ngenetic mutation, from either family history or genetic testing.\n2. Evidence of disproportionate frontal and/or temporal lobe in-\nvolvement from neuroimaging.\nPossible frontotemporal neurocognitive disorder is diagnosed if\nthere is no evidence of a genetic mutation, and neuroimaging has not\nbeen performed.\nCoding note: For probable major neurocognitive disorder due to\nfrontotemporal lobar degeneration, with behavioral disturbance,\ncode first 331.19 (G31.09) frontotemporal disease, followed by\n294.11 (F02.81) probable major neurocognitive disorder due to fron-\ntotemporal lobar degeneration, with behavioral disturbance. For\nprobable major neurocognitive disorder due to frontotemporal lobar\ndegeneration, without behavioral disturbance, code first 331.19\n(G31.09) frontotemporal disease, followed by 294.10 (F02.80) prob-\nable major neurocognitive disorder due to frontotemporal lobar de-\ngeneration, without behavioral disturbance.\nFor possible major neurocognitive disorder due to frontotemporal lo-\nbar degeneration, code 331.9 (G31.9) possible major neurocognitive\n308 Neurocognitive Disorders Function. e."
+}

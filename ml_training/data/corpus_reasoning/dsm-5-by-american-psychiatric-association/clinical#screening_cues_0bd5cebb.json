@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_0bd5cebb",
+  "content": "or anxiolytic (major\nneurocognitive\ndisorder)\nSedative, hypnotic, 292.89 NA F13.288 F13.988\nor anxiolytic (mild\nneurocognitive dis-\norder)\nOther (or unknown) 292.82 F19.17 F19.27 F19.97\nsubstance (major\nneurocognitive\ndisorder)\nOther (or unknown) 292.89 F19.188 F19.288 F19.988\nsubstance (mild neu-\nrocognitive disorder)\nSpecify if:\nPersistent: Neurocognitive impairment continues to be signifi-\ncant after an extended period of abstinence.\n314 Neurocognitive Disorders\nRecording Procedures\nICD-9-CM. The name of the substance/medication-induced neu-\nrocognitive disorder begins with the specific substance/medication\n(e.g., alcohol) that is presumed to be causing the neurocognitive\nsymptoms. The diagnostic code is selected from the table included in\nthe criteria set, which is based on the drug class. For substances that\ndo not fit into any of the classes, the code for “other substance”\nshould be used; and in cases in which a substance is judged to be an\netiological factor but the specific class of substance is unknown, the\ncategory “unknown substance” should be used.\nThe name of the disorder (i.e., [specific substance]-induced major\nneurocognitive disorder or [specific substance]-induced mild neuro-\ncognitive disorder) is followed by the type in the case of alcohol (i.e.,\nnonamnestic-confabulatory type, amnestic-confabulatory type), fol-\nlowed by specification of duration (i.e., persistent). Unlike the re-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues or anxiolytic (major\nneurocognitive\ndisorder)\nSedative, hypnotic, 292.89 NA F13.288 F13.988\nor anxiolytic (mild\nneurocognitive dis-\norder)\nOther (or unknown) 292.82 F19.17 F19.27 F19.97\nsubstance (major\nneurocognitive\ndisorder)\nOther (or unknown) 292.89 F19.188 F19.288 F19.988\nsubstance (mild neu-\nrocognitive disorder)\nSpecify if:\nPersistent: Neurocognitive impairment continues to be signifi-\ncant after an extended period of abstinence.\n314 Neurocognitive Disorders\nRecording Procedures\nICD-9-CM. The name of the substance/medication-induced neu-\nrocognitive disorder begins with the specific substance/medication\n(e.g., alcohol) that is presumed to be causing the neurocognitive\nsymptoms. The diagnostic code is selected from the table included in\nthe criteria set, which is based on the drug class. For substances that\ndo not fit into any of the classes, the code for “other substance”\nshould be used; and in cases in which a substance is judged to be an\netiological factor but the specific class of substance is unknown, the\ncategory “unknown substance” should be used.\nThe name of the disorder (i.e., [specific substance]-induced major\nneurocognitive disorder or [specific substance]-induced mild neuro-\ncognitive disorder) is followed by the type in the case of alcohol (i.e.,\nnonamnestic-confabulatory type, amnestic-confabulatory type), fol-\nlowed by specification of duration (i.e., persistent). Unlike the re- Or anxiolytic (major\nneurocognitive\ndisorder)\nsedative, hypnotic, 292.89 na f13.288 f13.988\nor anxiolytic (mild\nneurocognitive dis-\norder)\nother (or unknown) 292.82 f19.17 f19.27 f19.97\nsubstance (major\nneurocognitive\ndi..."
+}

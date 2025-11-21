@@ -1,0 +1,16 @@
+{
+  "id": "clinical#screening_cues_cce2f91c",
+  "content": "made instead of substance intoxication when the symptoms in\nCriteria A and C predominate in the clinical picture and when\nthey are sufficiently severe to warrant clinical attention.\nCoding note: The ICD-9-CM and ICD-10-CM codes for the\n[specific substance] intoxication delirium are indicated in the\ntable below. Note that the ICD-10-CM code depends on\nwhether or not there is a comorbid substance use disorder\npresent for the same class of substance. If a mild substance\nuse disorder is comorbid with the substance intoxication de-\nlirium, the 4th position character is “1,” and the clinician\nshould record “mild [substance] use disorder” before the\nsubstance intoxication delirium (e.g., “mild cocaine use dis-\norder with cocaine-induced intoxication delirium”). If a mod-\nerate or severe substance use disorder is comorbid with the\nsubstance intoxication delirium, the 4th position character is\nDelirium 293\n“2,” and the clinician should record “moderate [substance]\nuse disorder” or “severe [substance] use disorder,” depend-\ning on the severity of the comorbid substance use disorder.\nIf there is no comorbid substance use disorder (e.g., after a\none-time heavy use of the substance), then the 4th position\ncharacter is “9,” and the clinician should record only the sub-\nstance intoxication delirium.\nICD-10-CM",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues made instead of substance intoxication when the symptoms in\nCriteria A and C predominate in the clinical picture and when\nthey are sufficiently severe to warrant clinical attention.\nCoding note: The ICD-9-CM and ICD-10-CM codes for the\n[specific substance] intoxication delirium are indicated in the\ntable below. Note that the ICD-10-CM code depends on\nwhether or not there is a comorbid substance use disorder\npresent for the same class of substance. If a mild substance\nuse disorder is comorbid with the substance intoxication de-\nlirium, the 4th position character is “1,” and the clinician\nshould record “mild [substance] use disorder” before the\nsubstance intoxication delirium (e.g., “mild cocaine use dis-\norder with cocaine-induced intoxication delirium”). If a mod-\nerate or severe substance use disorder is comorbid with the\nsubstance intoxication delirium, the 4th position character is\nDelirium 293\n“2,” and the clinician should record “moderate [substance]\nuse disorder” or “severe [substance] use disorder,” depend-\ning on the severity of the comorbid substance use disorder.\nIf there is no comorbid substance use disorder (e.g., after a\none-time heavy use of the substance), then the 4th position\ncharacter is “9,” and the clinician should record only the sub-\nstance intoxication delirium.\nICD-10-CM Made instead of substance intoxication when the symptoms in\ncriteria a and c predominate in the clinical picture and when\nthey are sufficiently severe to warrant clinical attention. coding note: the icd-9-cm and icd-10-c..."
+}

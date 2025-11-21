@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_bb5f3bf8",
+  "content": "characters in the ICD-10 codes were limited to numbers, which imposed a limit of 10 subdivisions\nUsing the CDDR for ICD-11 mental, behavioural and neurodevelopmental disorders in clinical settings 31\nat each level corresponding to each digit in the diagnostic code. Moreover, ICD-10 allowed for\nthe coding of only limited disorder-specific clinical information within a diagnostic code via the\nprovision of specifiers and subtypes that could be codified in the fourth, fifth or sixth characters\nin an ICD-10 code.\nICD-11, like ICD-10 and its predecessors, also conveys diagnostic information based on the\nvarious positions and values of alphanumeric characters within a diagnostic code. The first\ncharacter of an ICD-11 code indicates the top-level chapter; for example, if the first character is\na “6”, the code is found in the mental, behavioural and neurodevelopmental disorders chapter.\nThe second and third characters taken together indicate the diagnostic class or grouping (e.g. 6A7\nfor depressive disorders, 6B0 for anxiety and fear-related disorders). The fourth character typically\nindicates the specific disorder within that class (e.g. 6A70 for single episode depressive disorder,\n6A71 for recurrent depressive disorder), but in cases in which these number more than 10, letters",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues characters in the ICD-10 codes were limited to numbers, which imposed a limit of 10 subdivisions\nUsing the CDDR for ICD-11 mental, behavioural and neurodevelopmental disorders in clinical settings 31\nat each level corresponding to each digit in the diagnostic code. Moreover, ICD-10 allowed for\nthe coding of only limited disorder-specific clinical information within a diagnostic code via the\nprovision of specifiers and subtypes that could be codified in the fourth, fifth or sixth characters\nin an ICD-10 code.\nICD-11, like ICD-10 and its predecessors, also conveys diagnostic information based on the\nvarious positions and values of alphanumeric characters within a diagnostic code. The first\ncharacter of an ICD-11 code indicates the top-level chapter; for example, if the first character is\na “6”, the code is found in the mental, behavioural and neurodevelopmental disorders chapter.\nThe second and third characters taken together indicate the diagnostic class or grouping (e.g. 6A7\nfor depressive disorders, 6B0 for anxiety and fear-related disorders). The fourth character typically\nindicates the specific disorder within that class (e.g. 6A70 for single episode depressive disorder,\n6A71 for recurrent depressive disorder), but in cases in which these number more than 10, letters Characters in the icd-10 codes were limited to numbers, which imposed a limit of 10 subdivisions\nusing the cddr for icd-11 mental, behavioural and neurodevelopmental disorders in clinical settings 31\nat each level corres..."
+}

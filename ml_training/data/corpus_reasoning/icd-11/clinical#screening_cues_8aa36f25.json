@@ -1,0 +1,22 @@
+{
+  "id": "clinical#screening_cues_8aa36f25",
+  "content": "the reason for a health encounter. For example, a person with no mental disorder diagnosis might\npresent with QD85 Burnout, a syndrome resulting from chronic workplace stress that has not\nbeen successfully managed but that is not considered a mental disorder. These categories can also\nbe used in conjunction with a diagnosis from this mental, behavioural and neurodevelopmental\ndisorders chapter to highlight an issue for other health professionals or for the health system.\nFor example, for an individual diagnosed with 6A20.10 Schizophrenia, multiple episodes,\ncurrently symptomatic, QE70.0 Inadequate family support could also be coded if it is relevant for\ndischarge planning. Chapter 24 also includes problems related to health behaviours that do not\nrepresent diagnosable mental disorders, such as QE10 Hazardous alcohol use or QE23 Problems\nwith inappropriate diet or eating habits.\nA second set of categories in Chapter 24 are those that document health services involving\ndifferent types of counselling that may be provided to individuals living with a mental disorder\nbut also to individuals with no diagnosis. Examples include QA15 Counselling related to sexuality\nand QA18 Family counselling. These can also be considered interventions or procedures, but they",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "study",
+      "work",
+      "relationships",
+      "habits",
+      "screening_cues",
+      "psychoeducation"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues the reason for a health encounter. For example, a person with no mental disorder diagnosis might\npresent with QD85 Burnout, a syndrome resulting from chronic workplace stress that has not\nbeen successfully managed but that is not considered a mental disorder. These categories can also\nbe used in conjunction with a diagnosis from this mental, behavioural and neurodevelopmental\ndisorders chapter to highlight an issue for other health professionals or for the health system.\nFor example, for an individual diagnosed with 6A20.10 Schizophrenia, multiple episodes,\ncurrently symptomatic, QE70.0 Inadequate family support could also be coded if it is relevant for\ndischarge planning. Chapter 24 also includes problems related to health behaviours that do not\nrepresent diagnosable mental disorders, such as QE10 Hazardous alcohol use or QE23 Problems\nwith inappropriate diet or eating habits.\nA second set of categories in Chapter 24 are those that document health services involving\ndifferent types of counselling that may be provided to individuals living with a mental disorder\nbut also to individuals with no diagnosis. Examples include QA15 Counselling related to sexuality\nand QA18 Family counselling. These can also be considered interventions or procedures, but they The reason for a health encounter. for example, a person with no mental disorder diagnosis might\npresent with qd85 kiệt sức, a syndrome resulting from chronic workplace căng thẳng that has not\nbeen successfully managed b..."
+}

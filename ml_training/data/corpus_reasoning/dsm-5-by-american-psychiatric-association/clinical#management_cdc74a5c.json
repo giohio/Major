@@ -1,0 +1,17 @@
+{
+  "id": "clinical#management_cdc74a5c",
+  "content": "induced delirium is 292.81. The ICD-10-CM code depends\non the type of medication. If the medication is an opioid taken\nas prescribed, the code is F11.921. If the medication is a\nsedative, hypnotic, or anxiolytic taken as prescribed, the\ncode is F13.921. If the medication is an amphetamine-type\nor other stimulant taken as prescribed, the code is F15.921.\nFor medications that do not fit into any of the classes (e.g.,\ndexamethasone) and in cases in which a substance is\njudged to be an etiological factor but the specific class of\nsubstance is unknown, the code is F19.921.\n293.0 (F05) Delirium due to another medical condition: There\nis evidence from the history, physical examination, or laboratory\nfindings that the disturbance is attributable to the physiological\nconsequences of another medical condition.\nCoding note: Include the name of the other medical condi-\ntion in the name of the delirium (e.g., 293.0 [F05] delirium\ndue to hepatic encephalopathy). The other medical condition\nshould also be coded and listed separately immediately be-\nfore the delirium due to another medical condition (e.g.,\n572.2 [K72.90] hepatic encephalopathy; 293.0 [F05] delirium\ndue to hepatic encephalopathy).\n293.0 (F05) Delirium due to multiple etiologies: There is evi-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Management induced delirium is 292.81. The ICD-10-CM code depends\non the type of medication. If the medication is an opioid taken\nas prescribed, the code is F11.921. If the medication is a\nsedative, hypnotic, or anxiolytic taken as prescribed, the\ncode is F13.921. If the medication is an amphetamine-type\nor other stimulant taken as prescribed, the code is F15.921.\nFor medications that do not fit into any of the classes (e.g.,\ndexamethasone) and in cases in which a substance is\njudged to be an etiological factor but the specific class of\nsubstance is unknown, the code is F19.921.\n293.0 (F05) Delirium due to another medical condition: There\nis evidence from the history, physical examination, or laboratory\nfindings that the disturbance is attributable to the physiological\nconsequences of another medical condition.\nCoding note: Include the name of the other medical condi-\ntion in the name of the delirium (e.g., 293.0 [F05] delirium\ndue to hepatic encephalopathy). The other medical condition\nshould also be coded and listed separately immediately be-\nfore the delirium due to another medical condition (e.g.,\n572.2 [K72.90] hepatic encephalopathy; 293.0 [F05] delirium\ndue to hepatic encephalopathy).\n293.0 (F05) Delirium due to multiple etiologies: There is evi- Induced delirium is 292.81. the icd-10-cm code depends\non the type of medication."
+}
