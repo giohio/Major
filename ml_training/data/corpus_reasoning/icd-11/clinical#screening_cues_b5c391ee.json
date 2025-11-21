@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_b5c391ee",
+  "content": "indicates the specific disorder within that class (e.g. 6A70 for single episode depressive disorder,\n6A71 for recurrent depressive disorder), but in cases in which these number more than 10, letters\nof the alphabet are used after the digits 0–9 are exhausted. For example, the fourth character in the\nICD-11 codes for disorders due to substance use indicates the substance class. Because ICD-11\nrecognizes 14 different specific substance classes, the fourth character codes for the last four\nsubstance classes required resorting to letters (e.g. the code for disorders due to use of volatile\ninhalants is 6C4B.)\nThe fifth character (following a decimal point) generally indicates subtypes or specifiers applicable\nto that diagnosis (e.g. 6A70.0 for single episode, mild; 6A70.1 for single episode, moderate,\nwithout psychotic symptoms; 6A70.2 for single episode, moderate, with psychotic symptoms).\nThe ICD-11 codes for some disorders with more complicated systems for specifiers might require\nthe use of a sixth character. For example, the fifth character for acute and transient psychotic\ndisorder indicates whether it is the first episode (6A23.0) or one of multiple episodes (6A23.1).\nIndicating whether it is currently symptomatic or in remission requires a sixth character. That is,",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues indicates the specific disorder within that class (e.g. 6A70 for single episode depressive disorder,\n6A71 for recurrent depressive disorder), but in cases in which these number more than 10, letters\nof the alphabet are used after the digits 0–9 are exhausted. For example, the fourth character in the\nICD-11 codes for disorders due to substance use indicates the substance class. Because ICD-11\nrecognizes 14 different specific substance classes, the fourth character codes for the last four\nsubstance classes required resorting to letters (e.g. the code for disorders due to use of volatile\ninhalants is 6C4B.)\nThe fifth character (following a decimal point) generally indicates subtypes or specifiers applicable\nto that diagnosis (e.g. 6A70.0 for single episode, mild; 6A70.1 for single episode, moderate,\nwithout psychotic symptoms; 6A70.2 for single episode, moderate, with psychotic symptoms).\nThe ICD-11 codes for some disorders with more complicated systems for specifiers might require\nthe use of a sixth character. For example, the fifth character for acute and transient psychotic\ndisorder indicates whether it is the first episode (6A23.0) or one of multiple episodes (6A23.1).\nIndicating whether it is currently symptomatic or in remission requires a sixth character. That is, Indicates the specific disorder within that class (e.g. 6a70 for single episode depressive disorder,\n6a71 for recurrent depressive disorder), but in cases in which these number more than 10, letters\nof the alphabet are u..."
+}

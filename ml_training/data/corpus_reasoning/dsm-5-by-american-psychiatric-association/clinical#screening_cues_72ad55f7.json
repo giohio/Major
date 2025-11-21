@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_72ad55f7",
+  "content": "a. Fluctuating cognition with pronounced variations in at-\ntention and alertness.\nb. Recurrent visual hallucinations that are well formed and\ndetailed.\nc. Spontaneous features of parkinsonism, with onset sub-\nsequent to the development of cognitive decline.\n2. Suggestive diagnostic features:\na. Meets criteria for rapid eye movement sleep behavior\ndisorder.\nb. Severe neuroleptic sensitivity.\nD. The disturbance is not better explained by cerebrovascular dis-\nease, another neurodegenerative disease, the effects of a sub-\nstance, or another mental, neurological, or systemic disorder.\nMajor or Mild Vascular Neurocognitive Disorder 309\nCoding note: For probable major neurocognitive disorder with Lewy\nbodies, with behavioral disturbance, code first 331.82 (G31.83) Lewy\nbody disease, followed by 294.11 (F02.81) probable major neurocog-\nnitive disorder with Lewy bodies, with behavioral disturbance. For\nprobable major neurocognitive disorder with Lewy bodies, without\nbehavioral disturbance, code first 331.82 (G31.83) Lewy body dis-\nease, followed by 294.10 (F02.80) probable major neurocognitive\ndisorder with Lewy bodies, without behavioral disturbance.\nFor possible major neurocognitive disorder with Lewy bodies, code\n331.9 (G31.9) possible major neurocognitive disorder with Lewy bodies.\n(Note: Do not use the additional code for Lewy body disease. Behavior-\nal disturbance cannot be coded but should still be indicated in writing.)",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues a. Fluctuating cognition with pronounced variations in at-\ntention and alertness.\nb. Recurrent visual hallucinations that are well formed and\ndetailed.\nc. Spontaneous features of parkinsonism, with onset sub-\nsequent to the development of cognitive decline.\n2. Suggestive diagnostic features:\na. Meets criteria for rapid eye movement sleep behavior\ndisorder.\nb. Severe neuroleptic sensitivity.\nD. The disturbance is not better explained by cerebrovascular dis-\nease, another neurodegenerative disease, the effects of a sub-\nstance, or another mental, neurological, or systemic disorder.\nMajor or Mild Vascular Neurocognitive Disorder 309\nCoding note: For probable major neurocognitive disorder with Lewy\nbodies, with behavioral disturbance, code first 331.82 (G31.83) Lewy\nbody disease, followed by 294.11 (F02.81) probable major neurocog-\nnitive disorder with Lewy bodies, with behavioral disturbance. For\nprobable major neurocognitive disorder with Lewy bodies, without\nbehavioral disturbance, code first 331.82 (G31.83) Lewy body dis-\nease, followed by 294.10 (F02.80) probable major neurocognitive\ndisorder with Lewy bodies, without behavioral disturbance.\nFor possible major neurocognitive disorder with Lewy bodies, code\n331.9 (G31.9) possible major neurocognitive disorder with Lewy bodies.\n(Note: Do not use the additional code for Lewy body disease. Behavior-\nal disturbance cannot be coded but should still be indicated in writing.) A. fluctuating cognition with pronounced variations in at-\ntention and alertness."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_96bc050f",
+  "content": "316 Neurocognitive Disorders\nFor mild neurocognitive disorder due to HIV infection, code 331.83\n(G31.84). (Note: Do not use the additional code for HIV infection. Be-\nhavioral disturbance cannot be coded but should still be indicated in\nwriting.)\nMajor or Mild Neurocognitive Disorder\nDue to Prion Disease\nA. The criteria are met for major or mild neurocognitive disorder.\nB. There is insidious onset, and rapid progression of impairment is\ncommon.\nC. There are motor features of prion disease, such as myoclonus or\nataxia, or biomarker evidence.\nD. The neurocognitive disorder is not attributable to another medical\ncondition and is not better explained by another mental disorder.\nCoding note: For major neurocognitive disorder due to prion dis-\nease, with behavioral disturbance, code first 046.79 (A81.9) prion\ndisease, followed by 294.11 (F02.81) major neurocognitive disorder\ndue to prion disease, with behavioral disturbance. For major neuro-\ncognitive disorder due to prion disease, without behavioral distur-\nbance, code first 046.79 (A81.9) prion disease, followed by 294.10\n(F02.80) major neurocognitive disorder due to prion disease, without\nbehavioral disturbance.\nFor mild neurocognitive disorder due to prion disease, code 331.83\n(G31.84). (Note: Do not use the additional code for prion disease.",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues 316 Neurocognitive Disorders\nFor mild neurocognitive disorder due to HIV infection, code 331.83\n(G31.84). (Note: Do not use the additional code for HIV infection. Be-\nhavioral disturbance cannot be coded but should still be indicated in\nwriting.)\nMajor or Mild Neurocognitive Disorder\nDue to Prion Disease\nA. The criteria are met for major or mild neurocognitive disorder.\nB. There is insidious onset, and rapid progression of impairment is\ncommon.\nC. There are motor features of prion disease, such as myoclonus or\nataxia, or biomarker evidence.\nD. The neurocognitive disorder is not attributable to another medical\ncondition and is not better explained by another mental disorder.\nCoding note: For major neurocognitive disorder due to prion dis-\nease, with behavioral disturbance, code first 046.79 (A81.9) prion\ndisease, followed by 294.11 (F02.81) major neurocognitive disorder\ndue to prion disease, with behavioral disturbance. For major neuro-\ncognitive disorder due to prion disease, without behavioral distur-\nbance, code first 046.79 (A81.9) prion disease, followed by 294.10\n(F02.80) major neurocognitive disorder due to prion disease, without\nbehavioral disturbance.\nFor mild neurocognitive disorder due to prion disease, code 331.83\n(G31.84). (Note: Do not use the additional code for prion disease. 316 neurocognitive disorders\nfor mild neurocognitive disorder due to hiv infection, code 331.83\n(g31.84). (note: do not use the additional code for hiv infection."
+}

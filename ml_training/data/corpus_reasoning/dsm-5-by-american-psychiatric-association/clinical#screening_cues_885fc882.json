@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_885fc882",
+  "content": "Specify if (see Table 1 in the chapter “Substance-Related and Addic-\ntive Disorders” for diagnoses associated with substance class):\nWith onset during intoxication: If criteria are met for intoxication\nwith the substance and the symptoms develop during intoxication.\nWith onset during withdrawal: If criteria are met for withdrawal\nfrom the substance and the symptoms develop during, or shortly\nafter, withdrawal.\nRecording Procedures\nICD-9-CM. The name of the substance/medication-induced de-\npressive disorder begins with the specific substance (e.g., cocaine,\ndexamethasone) that is presumed to be causing the depressive\nsymptoms. The diagnostic code is selected from the table included in\n104 Depressive Disorders\nthe criteria set, which is based on the drug class. For substances that\ndo not fit into any of the classes (e.g., dexamethasone), the code for\n“other substance” should be used; and in cases in which a substance\nis judged to be an etiological factor but the specific class of substance\nis unknown, the category “unknown substance” should be used.\nThe name of the disorder is followed by the specification of onset\n(i.e., onset during intoxication, onset during withdrawal). Unlike the\nrecording procedures for ICD-10-CM, which combine the substance-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Specify if (see Table 1 in the chapter “Substance-Related and Addic-\ntive Disorders” for diagnoses associated with substance class):\nWith onset during intoxication: If criteria are met for intoxication\nwith the substance and the symptoms develop during intoxication.\nWith onset during withdrawal: If criteria are met for withdrawal\nfrom the substance and the symptoms develop during, or shortly\nafter, withdrawal.\nRecording Procedures\nICD-9-CM. The name of the substance/medication-induced de-\npressive disorder begins with the specific substance (e.g., cocaine,\ndexamethasone) that is presumed to be causing the depressive\nsymptoms. The diagnostic code is selected from the table included in\n104 Depressive Disorders\nthe criteria set, which is based on the drug class. For substances that\ndo not fit into any of the classes (e.g., dexamethasone), the code for\n“other substance” should be used; and in cases in which a substance\nis judged to be an etiological factor but the specific class of substance\nis unknown, the category “unknown substance” should be used.\nThe name of the disorder is followed by the specification of onset\n(i.e., onset during intoxication, onset during withdrawal). Unlike the\nrecording procedures for ICD-10-CM, which combine the substance- Specify if (see table 1 in the chapter “substance-related and addic-\ntive disorders” for diagnoses associated with substance class):\nwith onset during intoxication: if criteria are met for intoxication\nwith the substance..."
+}

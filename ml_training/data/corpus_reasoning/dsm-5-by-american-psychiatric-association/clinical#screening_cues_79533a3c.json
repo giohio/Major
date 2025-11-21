@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_79533a3c",
+  "content": "cSpecify current severity of delusions, hallucinations, disorganized\nspeech, abnormal psychomotor behavior, negative symptoms, im-\npaired cognition, depression, and mania symptoms\n301.22 (F21) Schizotypal (Personality) Disorder (45)\n297.1 (F22) Delusional Disordera, c (45)\nSpecify whether: Erotomanic type, Grandiose type,\nJealous type, Persecutory type, Somatic type,\nMixed type, Unspecified type\nSpecify if: With bizarre content\n298.8 (F23) Brief Psychotic Disorderb, c (47)\nSpecify if: With marked stressor(s), Without marked\nstressor(s), With postpartum onset\n295.40 (F20.81) Schizophreniform Disorderb, c (49)\nSpecify if: With good prognostic features, Without\ngood prognostic features\n295.90 (F20.9) Schizophreniaa, b, c (50)\n___.__ (___.__) Schizoaffective Disordera, b, c (53)\nSpecify whether:\n295.70 (F25.0) Bipolar type\n295.70 (F25.1) Depressive type\nDSM-5 Classification xiii\n___.__ (___.__) Substance/Medication-Induced Psychotic\nDisorderc (55)\nNote: See the criteria set and corresponding record-\ning procedures for substance-specific codes and\nICD-9-CM and ICD-10-CM coding.\nSpecify if: With onset during intoxication, With on-\nset during withdrawal\n___.__ (___.__) Psychotic Disorder Due to Another Medical\nConditionc (59)\nSpecify whether:\n293.81 (F06.2) With delusions\n293.82 (F06.0) With hallucinations\n293.89 (F06.1) Catatonia Associated With Another Mental\nDisorder (Catatonia Specifier) (60)\n293.89 (F06.1) Catatonic Disorder Due to Another Medical\nCondition (61)\n293.89 (F06.1) Unspecified Catatonia (62)",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues cSpecify current severity of delusions, hallucinations, disorganized\nspeech, abnormal psychomotor behavior, negative symptoms, im-\npaired cognition, depression, and mania symptoms\n301.22 (F21) Schizotypal (Personality) Disorder (45)\n297.1 (F22) Delusional Disordera, c (45)\nSpecify whether: Erotomanic type, Grandiose type,\nJealous type, Persecutory type, Somatic type,\nMixed type, Unspecified type\nSpecify if: With bizarre content\n298.8 (F23) Brief Psychotic Disorderb, c (47)\nSpecify if: With marked stressor(s), Without marked\nstressor(s), With postpartum onset\n295.40 (F20.81) Schizophreniform Disorderb, c (49)\nSpecify if: With good prognostic features, Without\ngood prognostic features\n295.90 (F20.9) Schizophreniaa, b, c (50)\n___.__ (___.__) Schizoaffective Disordera, b, c (53)\nSpecify whether:\n295.70 (F25.0) Bipolar type\n295.70 (F25.1) Depressive type\nDSM-5 Classification xiii\n___.__ (___.__) Substance/Medication-Induced Psychotic\nDisorderc (55)\nNote: See the criteria set and corresponding record-\ning procedures for substance-specific codes and\nICD-9-CM and ICD-10-CM coding.\nSpecify if: With onset during intoxication, With on-\nset during withdrawal\n___.__ (___.__) Psychotic Disorder Due to Another Medical\nConditionc (59)\nSpecify whether:\n293.81 (F06.2) With delusions\n293.82 (F06.0) With hallucinations\n293.89 (F06.1) Catatonia Associated With Another Mental\nDisorder (Catatonia Specifier) (60)\n293.89 (F06.1) Catatonic Disorder Due to Another Medical\nCondition (61)\n293.89 (F06.1) Unspecified Catatonia (62) Cspecify current severity of delusions, hallucinations, disorganized\nspeech, abnormal psychomotor behavior, negative symptoms, im-\npaired cognition, trầm cảm, and mania symptoms\n301.22 (f21) schizotypal (personality) dis..."
+}

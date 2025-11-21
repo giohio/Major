@@ -1,0 +1,16 @@
+{
+  "id": "clinical#screening_cues_8fd84029",
+  "content": "note the individual’s current presentation, but only when the full\ncriteria are met. When full criteria are not met, clinicians should con-\nsider whether the symptom presentation meets criteria for an “other\nspecified” or “unspecified” designation. Where applicable, specific\ncriteria for defining disorder severity (e.g., mild, moderate, severe,\nextreme), descriptive features (e.g., with good to fair insight; in a\ncontrolled environment), and course (e.g., in partial remission, in full\nremission, recurrent) are provided with each diagnosis. On the basis\nof the clinical interview, text descriptions, criteria, and clinician judg-\nment, a final diagnosis is made.\nThe general convention in DSM-5 is to allow multiple diagnoses\nto be assigned for those presentations that meet criteria for more than\none DSM-5 disorder.\nSubtypes and Specifiers\nSubtypes and specifiers (some of which are coded in the fourth, fifth,\nor sixth digit) are provided for increased specificity. Subtypes define\nmutually exclusive and jointly exhaustive phenomenological sub-\ngroupings within a diagnosis and are indicated by the instruction\n“Specify whether” in the criteria set. In contrast, specifiers are not in-\ntended to be mutually exclusive or jointly exhaustive, and as a con-\nsequence, more than one specifier may be given. Specifiers are",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues note the individual’s current presentation, but only when the full\ncriteria are met. When full criteria are not met, clinicians should con-\nsider whether the symptom presentation meets criteria for an “other\nspecified” or “unspecified” designation. Where applicable, specific\ncriteria for defining disorder severity (e.g., mild, moderate, severe,\nextreme), descriptive features (e.g., with good to fair insight; in a\ncontrolled environment), and course (e.g., in partial remission, in full\nremission, recurrent) are provided with each diagnosis. On the basis\nof the clinical interview, text descriptions, criteria, and clinician judg-\nment, a final diagnosis is made.\nThe general convention in DSM-5 is to allow multiple diagnoses\nto be assigned for those presentations that meet criteria for more than\none DSM-5 disorder.\nSubtypes and Specifiers\nSubtypes and specifiers (some of which are coded in the fourth, fifth,\nor sixth digit) are provided for increased specificity. Subtypes define\nmutually exclusive and jointly exhaustive phenomenological sub-\ngroupings within a diagnosis and are indicated by the instruction\n“Specify whether” in the criteria set. In contrast, specifiers are not in-\ntended to be mutually exclusive or jointly exhaustive, and as a con-\nsequence, more than one specifier may be given. Specifiers are Note the individual’s current presentation, but only when the full\ncriteria are met. when full criteria are not met, clinicians should con-\nsider whether the symptom presentation meets criteria for an “other\nspecified” o..."
+}

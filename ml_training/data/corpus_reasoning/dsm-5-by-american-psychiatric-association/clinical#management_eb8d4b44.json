@@ -1,0 +1,18 @@
+{
+  "id": "clinical#management_eb8d4b44",
+  "content": "V60.6 (Z59.3) Problem Related to Living in a Residential Institution\nThis category should be used when a problem (or problems) related\nto living in a residential institution is a focus of clinical attention or\nhas an impact on the individual’s treatment or prognosis. Psycholog-\nical reactions to a change in living situation are not included in this\ncategory; such reactions would be better captured as an adjustment\ndisorder.\nEconomic Problems\nV60.2 (Z59.4) Lack of Adequate Food or Safe Drinking Water\nV60.2 (Z59.5) Extreme Poverty\nV60.2 (Z59.6) Low Income\nV60.2 (Z59.7) Insufficient Social Insurance or Welfare Support\nThis category should be used for individuals who meet eligibility cri-\nteria for social or welfare support but are not receiving such support,\nwho receive support that is insufficient to address their needs, or\nwho otherwise lack access to needed insurance or support programs.\nExamples include inability to qualify for welfare support owing to\nlack of proper documentation or evidence of address, inability to ob-\ntain adequate health insurance because of age or a preexisting condi-\ntion, and denial of support owing to excessively stringent income or\nother requirements.\nV60.9 (Z59.9) Unspecified Housing or Economic Problem",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "management",
+      "psychoeducation"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Management V60.6 (Z59.3) Problem Related to Living in a Residential Institution\nThis category should be used when a problem (or problems) related\nto living in a residential institution is a focus of clinical attention or\nhas an impact on the individual’s treatment or prognosis. Psycholog-\nical reactions to a change in living situation are not included in this\ncategory; such reactions would be better captured as an adjustment\ndisorder.\nEconomic Problems\nV60.2 (Z59.4) Lack of Adequate Food or Safe Drinking Water\nV60.2 (Z59.5) Extreme Poverty\nV60.2 (Z59.6) Low Income\nV60.2 (Z59.7) Insufficient Social Insurance or Welfare Support\nThis category should be used for individuals who meet eligibility cri-\nteria for social or welfare support but are not receiving such support,\nwho receive support that is insufficient to address their needs, or\nwho otherwise lack access to needed insurance or support programs.\nExamples include inability to qualify for welfare support owing to\nlack of proper documentation or evidence of address, inability to ob-\ntain adequate health insurance because of age or a preexisting condi-\ntion, and denial of support owing to excessively stringent income or\nother requirements.\nV60.9 (Z59.9) Unspecified Housing or Economic Problem V60.6 (z59.3) problem related to living in a residential institution\nthis category should be used when a problem (or problems) related\nto living in a residential institution is a focus of clinical attention or\nhas an imp..."
+}

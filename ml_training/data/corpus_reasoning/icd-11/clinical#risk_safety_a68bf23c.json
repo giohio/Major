@@ -1,0 +1,21 @@
+{
+  "id": "clinical#risk_safety_a68bf23c",
+  "content": "• reasonable potential for significant physical injury.\n• The act was not committed for physical self-protection (e.g. to ward off an adolescent’s\npunches) or to protect the child or adolescent (e.g. to prevent a small child from running\ninto a busy street or to prevent an adolescent from attempting suicide).\nNote: these categories are assigned to the victim, not the perpetrator.\nIf PJ20 Physical maltreatment is diagnosed, the perpetrator–victim relationship (e.g. parent,\nother relative, stranger) should be specified using the extension codes provided on the ICD-11\nplatform in the context of the assault field. Similarly, if QE82.0 Personal history of physical abuse\nis diagnosed, the time of life for current or past episodes (e.g. child aged under 5 years, early\nadolescence) can be specified using the extension codes provided.\nAdditional clinical features\n• Physical abuse of a child or adolescent can occur as an isolated incident. However, it can also\noccur as a pattern of parental or caregiver behaviour. If identified in a child or adolescent, it\nis important to evaluate whether past injuries were due to child physical abuse.\n• There are numerous injury types that when presented in a child are likely to have been",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "high",
+    "topics": [
+      "stress",
+      "relationships",
+      "emotions",
+      "risk_safety",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Risk Safety • reasonable potential for significant physical injury.\n• The act was not committed for physical self-protection (e.g. to ward off an adolescent’s\npunches) or to protect the child or adolescent (e.g. to prevent a small child from running\ninto a busy street or to prevent an adolescent from attempting suicide).\nNote: these categories are assigned to the victim, not the perpetrator.\nIf PJ20 Physical maltreatment is diagnosed, the perpetrator–victim relationship (e.g. parent,\nother relative, stranger) should be specified using the extension codes provided on the ICD-11\nplatform in the context of the assault field. Similarly, if QE82.0 Personal history of physical abuse\nis diagnosed, the time of life for current or past episodes (e.g. child aged under 5 years, early\nadolescence) can be specified using the extension codes provided.\nAdditional clinical features\n• Physical abuse of a child or adolescent can occur as an isolated incident. However, it can also\noccur as a pattern of parental or caregiver behaviour. If identified in a child or adolescent, it\nis important to evaluate whether past injuries were due to child physical abuse.\n• There are numerous injury types that when presented in a child are likely to have been • reasonable potential for significant physical injury. • the act was not committed for physical self-protection (e.g."
+}

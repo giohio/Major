@@ -1,0 +1,19 @@
+{
+  "id": "clinical#risk_safety_712bb58c",
+  "content": "be assigned together with the relevant primary diagnosis. For example, 6C49.1/6C49.5 is harmful\npattern of use of hallucinogens associated with hallucinogen-induced psychotic disorder,\n6C43.2/6C43.70 is opioid dependence associated with opioid-induced mood disorder, and\n6C4Z/6C40.3 is disorder due to substance use, unspecified, associated with alcohol intoxication\n(i.e. the pattern of use in this last case is unknown).\nAlso listed in this section are categories related to hazardous substance use. These categories\nare not considered to be mental disorders, but may be used when the pattern of substance use\nappreciably increases the risk of harmful physical or mental health consequences, to the user or\nto others, to an extent that warrants attention and advice from health professionals, but no overt\nharm has yet occurred.\nTable 6.13. Applicable disorders due to substance use by substance\nclass\nEpisode Harmful pattern Substance Substance Substance\nof harmful of psychoactive dependenceb intoxication withdrawalc\npsychoactive substance usea\nsubstance use\nAlcohol 6C40.0 6C40.10 E 6C40.20 C 6C40.3 6C40.40 U\n6C40.11 C 6C40.21 E 6C40.41 PD\n6C40.22 EF 6C40.42 S\n6C40.23 SP 6C40.43 PD&S\n6C40.24 SF\nCannabis 6C41.0 6C41.10 E 6C41.20 C 6C41.3 6C41.4\n6C41.11 C 6C41.21 EF\n6C41.22 SP\n6C41.23 SF\nSynthetic 6C42.0 6C42.10 E 6C42.20 C 6C42.3 6C42.4",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "risk_safety",
+      "screening_cues",
+      "psychoeducation"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Risk Safety be assigned together with the relevant primary diagnosis. For example, 6C49.1/6C49.5 is harmful\npattern of use of hallucinogens associated with hallucinogen-induced psychotic disorder,\n6C43.2/6C43.70 is opioid dependence associated with opioid-induced mood disorder, and\n6C4Z/6C40.3 is disorder due to substance use, unspecified, associated with alcohol intoxication\n(i.e. the pattern of use in this last case is unknown).\nAlso listed in this section are categories related to hazardous substance use. These categories\nare not considered to be mental disorders, but may be used when the pattern of substance use\nappreciably increases the risk of harmful physical or mental health consequences, to the user or\nto others, to an extent that warrants attention and advice from health professionals, but no overt\nharm has yet occurred.\nTable 6.13. Applicable disorders due to substance use by substance\nclass\nEpisode Harmful pattern Substance Substance Substance\nof harmful of psychoactive dependenceb intoxication withdrawalc\npsychoactive substance usea\nsubstance use\nAlcohol 6C40.0 6C40.10 E 6C40.20 C 6C40.3 6C40.40 U\n6C40.11 C 6C40.21 E 6C40.41 PD\n6C40.22 EF 6C40.42 S\n6C40.23 SP 6C40.43 PD&S\n6C40.24 SF\nCannabis 6C41.0 6C41.10 E 6C41.20 C 6C41.3 6C41.4\n6C41.11 C 6C41.21 EF\n6C41.22 SP\n6C41.23 SF\nSynthetic 6C42.0 6C42.10 E 6C42.20 C 6C42.3 6C42.4 Be assigned together with the relevant primary diagnosis. for example, 6c49.1/6c49.5 is harmful\npattern of use of hallucinogens associated with hallucinogen-induced psychotic disorder,\n6c43.2/6c43.70 is opioid dependence..."
+}

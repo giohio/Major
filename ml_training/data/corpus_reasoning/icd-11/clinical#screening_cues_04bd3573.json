@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_04bd3573",
+  "content": "• The medical condition is known to be capable of producing delirium.\n• The course of the delirium (e.g. onset, trajectory of symptoms, response to treatment) is\nconsistent with causation by the medical condition.\nNote: when delirium is due to a disease or condition classified elsewhere, the diagnostic code\ncorresponding to that disease or condition should be assigned along with delirium due to\ndisease classified elsewhere. If the delirium is attributed to multiple medical conditions or to a\nmedical condition and a substance or medication, the category 6D70.2 Delirium due to multiple\netiological factors should be used instead. This may include medications being used to manage\nthe medical condition.\nNeurocognitive disorders | Delirium Neurocognitive disorders | Delirium\n606 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nPotentially explanatory medical conditions (examples)\n• Certain infectious or parasitic diseases (e.g. meningitis, viral hepatitis, sepsis)\n• Diseases of liver (e.g. chronic hepatic failure, hepatic encephalopathy)\n• Diseases of the circulatory system (e.g. acute myocardial infarction)\n• Diseases of the nervous system (e.g. cerebral ischaemic stroke, epilepsy or seizures,\nhypertensive encephalopathy)\n• Diseases of the urinary system (e.g. kidney failure, urinary tract infection)\n• Endocrine disorders (e.g. diabetic ketoacidosis, hyperthyroidism, hypothyroidism)\n• Metabolic disorders (e.g. acidosis, disorders of urea cycle metabolism, hypoglycaemia,",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues • The medical condition is known to be capable of producing delirium.\n• The course of the delirium (e.g. onset, trajectory of symptoms, response to treatment) is\nconsistent with causation by the medical condition.\nNote: when delirium is due to a disease or condition classified elsewhere, the diagnostic code\ncorresponding to that disease or condition should be assigned along with delirium due to\ndisease classified elsewhere. If the delirium is attributed to multiple medical conditions or to a\nmedical condition and a substance or medication, the category 6D70.2 Delirium due to multiple\netiological factors should be used instead. This may include medications being used to manage\nthe medical condition.\nNeurocognitive disorders | Delirium Neurocognitive disorders | Delirium\n606 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nPotentially explanatory medical conditions (examples)\n• Certain infectious or parasitic diseases (e.g. meningitis, viral hepatitis, sepsis)\n• Diseases of liver (e.g. chronic hepatic failure, hepatic encephalopathy)\n• Diseases of the circulatory system (e.g. acute myocardial infarction)\n• Diseases of the nervous system (e.g. cerebral ischaemic stroke, epilepsy or seizures,\nhypertensive encephalopathy)\n• Diseases of the urinary system (e.g. kidney failure, urinary tract infection)\n• Endocrine disorders (e.g. diabetic ketoacidosis, hyperthyroidism, hypothyroidism)\n• Metabolic disorders (e.g. acidosis, disorders of urea cycle metabolism, hypoglycaemia, • the medical condition is known to be capable of producing delirium. • the course of the delirium (e.g."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_811350fe",
+  "content": "A. The criteria are met for major or mild neurocognitive disorder.\nB. There is evidence of a traumatic brain injury—that is, an impact to\nthe head or other mechanisms of rapid movement or displacement\nof the brain within the skull, with one or more of the following:\n1. Loss of consciousness.\n2. Posttraumatic amnesia.\n3. Disorientation and confusion.\n4. Neurological signs (e.g., neuroimaging demonstrating injury;\na new onset of seizures; a marked worsening of a preexisting\nseizure disorder; visual field cuts; anosmia; hemiparesis).\nSubstance/Medication-Induced Major or Mild NCD 311\nC. The neurocognitive disorder presents immediately after the occur-\nrence of the traumatic brain injury or immediately after recovery of\nconsciousness and persists past the acute post-injury period.\nCoding note: For major neurocognitive disorder due to traumatic\nbrain injury, with behavioral disturbance: For ICD-9-CM, first code\n907.0 late effect of intracranial injury without skull fracture, followed by\n294.11 major neurocognitive disorder due to traumatic brain injury,\nwith behavioral disturbance. For ICD-10-CM, first code S06.2X9S dif-\nfuse traumatic brain injury with loss of consciousness of unspecified\nduration, sequela; followed by F02.81 major neurocognitive disorder\ndue to traumatic brain injury, with behavioral disturbance.\nFor major neurocognitive disorder due to traumatic brain injury,",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "emotions",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues A. The criteria are met for major or mild neurocognitive disorder.\nB. There is evidence of a traumatic brain injury—that is, an impact to\nthe head or other mechanisms of rapid movement or displacement\nof the brain within the skull, with one or more of the following:\n1. Loss of consciousness.\n2. Posttraumatic amnesia.\n3. Disorientation and confusion.\n4. Neurological signs (e.g., neuroimaging demonstrating injury;\na new onset of seizures; a marked worsening of a preexisting\nseizure disorder; visual field cuts; anosmia; hemiparesis).\nSubstance/Medication-Induced Major or Mild NCD 311\nC. The neurocognitive disorder presents immediately after the occur-\nrence of the traumatic brain injury or immediately after recovery of\nconsciousness and persists past the acute post-injury period.\nCoding note: For major neurocognitive disorder due to traumatic\nbrain injury, with behavioral disturbance: For ICD-9-CM, first code\n907.0 late effect of intracranial injury without skull fracture, followed by\n294.11 major neurocognitive disorder due to traumatic brain injury,\nwith behavioral disturbance. For ICD-10-CM, first code S06.2X9S dif-\nfuse traumatic brain injury with loss of consciousness of unspecified\nduration, sequela; followed by F02.81 major neurocognitive disorder\ndue to traumatic brain injury, with behavioral disturbance.\nFor major neurocognitive disorder due to traumatic brain injury, A. the criteria are met for major or mild neurocognitive disorder."
+}

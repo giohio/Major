@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_97af05bd",
+  "content": "mixed episode\nhypomanic episode.\nMood episodes are not independently diagnosable entities, and therefore do not have their own\ndiagnostic codes. Rather, mood episodes are the components of bipolar and related disorders and\ndepressive disorders.\nBipolar and related disorders include the following:\n6A60 Bipolar type I disorder\n6A61 Bipolar type II disorder\n6A62 Cyclothymic disorder\n6A6Y Other specified bipolar or related disorder\n6A6Z Bipolar or related disorder, unspecified.\nDepressive disorders include the following:\n6A70 Single episode depressive disorder\n6A71 Recurrent depressive disorder\n6A72 Dysthymic disorder\n6A73 Mixed depressive and anxiety disorder\n6A7Y Other specified depressive disorder\n6A7Z Depressive disorder, unspecified.\nMood disorders\n212 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nCDDR are also provided for GA34.41 Premenstrual dysphoric disorder in the section on\ndepressive disorders. Premenstrual dysphoric disorder is classified in the grouping of premenstrual\ndisturbances in Chapter 16 on diseases of the genitourinary system, but is cross-listed here\nfor reference.\nGA34.41 Premenstrual dysphoric disorder\nA category for mood disorders that do not fit the descriptions for any of the above categories is\nalso provided (other specified), as is a category for use when it is not possible to make a more\ndefinitive diagnosis (unspecified):",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "referral"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues mixed episode\nhypomanic episode.\nMood episodes are not independently diagnosable entities, and therefore do not have their own\ndiagnostic codes. Rather, mood episodes are the components of bipolar and related disorders and\ndepressive disorders.\nBipolar and related disorders include the following:\n6A60 Bipolar type I disorder\n6A61 Bipolar type II disorder\n6A62 Cyclothymic disorder\n6A6Y Other specified bipolar or related disorder\n6A6Z Bipolar or related disorder, unspecified.\nDepressive disorders include the following:\n6A70 Single episode depressive disorder\n6A71 Recurrent depressive disorder\n6A72 Dysthymic disorder\n6A73 Mixed depressive and anxiety disorder\n6A7Y Other specified depressive disorder\n6A7Z Depressive disorder, unspecified.\nMood disorders\n212 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\nCDDR are also provided for GA34.41 Premenstrual dysphoric disorder in the section on\ndepressive disorders. Premenstrual dysphoric disorder is classified in the grouping of premenstrual\ndisturbances in Chapter 16 on diseases of the genitourinary system, but is cross-listed here\nfor reference.\nGA34.41 Premenstrual dysphoric disorder\nA category for mood disorders that do not fit the descriptions for any of the above categories is\nalso provided (other specified), as is a category for use when it is not possible to make a more\ndefinitive diagnosis (unspecified): Mixed episode\nhypomanic episode. mood episodes are not independently diagnosable entities, and therefore do not have their own\ndiagnostic codes."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "clinical#screening_cues_2cb018e6",
+  "content": "manifestations more fully. Clinical course of schizophrenia is indicated using a combination of\nfifth-character codes (“0” for first episode, “1” for multiple episodes, “2” for continuous course)\nand sixth-character codes (“0” for currently symptomatic, “1” for in partial remission, “2” for in\nfull remission). Dimensional profiles of current symptomatic manifestations can be indicated by\nadding codes from the symptomatic manifestations of primary psychotic disorders that represent\nspecific symptom domains:\n• 6A25.0 for positive symptoms;\n• 6A25.1 for negative symptoms;\n• 6A25.2 for depressive mood symptoms;\n• 6A25.3 for manic mood symptoms;\n• 6A25.4 for psychomotor symptoms; and\n• 6A25.5 for cognitive symptoms.\nThe above codes for symptomatic manifestations of primary psychotic disorders can be used in\ncombination with extension codes to indicate the severity of each symptom domain, respectively,\nthus providing a symptomatic profile of the presenting symptoms for schizophrenia for a\nparticular individual at a particular point in time. The web-based browser for ICD-11 for MMS4\ncan be used to construct the diagnostic coding for those disorders with complex combinations of\nspecifiers and extensions. For example, schizophrenia, first episode, currently symptomatic with\nmoderate positive symptoms, with severe negative symptoms, absent depressed mood symptoms,",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues manifestations more fully. Clinical course of schizophrenia is indicated using a combination of\nfifth-character codes (“0” for first episode, “1” for multiple episodes, “2” for continuous course)\nand sixth-character codes (“0” for currently symptomatic, “1” for in partial remission, “2” for in\nfull remission). Dimensional profiles of current symptomatic manifestations can be indicated by\nadding codes from the symptomatic manifestations of primary psychotic disorders that represent\nspecific symptom domains:\n• 6A25.0 for positive symptoms;\n• 6A25.1 for negative symptoms;\n• 6A25.2 for depressive mood symptoms;\n• 6A25.3 for manic mood symptoms;\n• 6A25.4 for psychomotor symptoms; and\n• 6A25.5 for cognitive symptoms.\nThe above codes for symptomatic manifestations of primary psychotic disorders can be used in\ncombination with extension codes to indicate the severity of each symptom domain, respectively,\nthus providing a symptomatic profile of the presenting symptoms for schizophrenia for a\nparticular individual at a particular point in time. The web-based browser for ICD-11 for MMS4\ncan be used to construct the diagnostic coding for those disorders with complex combinations of\nspecifiers and extensions. For example, schizophrenia, first episode, currently symptomatic with\nmoderate positive symptoms, with severe negative symptoms, absent depressed mood symptoms, Manifestations more fully. clinical course of schizophrenia is indicated using a combination of\nfifth-character codes (“0” for first episode, “1” for multiple episodes, “2” for continuous course)\nand sixth-character code..."
+}

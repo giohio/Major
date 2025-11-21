@@ -1,240 +1,313 @@
 import json
 import random
-import time
 import os
-# ==============================================================================
-# 1. CẤU HÌNH (CONFIGURATION)
-# ==============================================================================
-TARGET_TOTAL = 6000       # Tổng số mẫu mục tiêu
-TRAIN_RATIO = 0.9         # Tỷ lệ Train (90%), Test (10%)
-OUTPUT_TRAIN = "../../data/reasoning/Text_Reasoning_train.jsonl"
-OUTPUT_TEST = "../../data/reasoning/Text_Reasoning_test.jsonl"
-
-os.makedirs("../../data/reasoning", exist_ok=True)
-
-print(f"🚀 Đang khởi động bộ sinh dữ liệu Super Generator...")
-print(f"🎯 Mục tiêu: {TARGET_TOTAL} dòng không trùng lặp.")
-print(f"✂️ Chế độ chia: {int(TRAIN_RATIO*100)}% Train - {int((1-TRAIN_RATIO)*100)}% Test")
+from pathlib import Path
 
 # ==============================================================================
-# 2. KHO TỪ VỰNG KHỔNG LỒ (EXPANDED VOCABULARY)
+# 1. CONFIGURATION
+# ==============================================================================
+SCRIPT_DIR = Path(__file__).parent.resolve()
+TARGET_TOTAL = 6000       
+TRAIN_RATIO = 0.9         
+OUTPUT_TRAIN = SCRIPT_DIR / "../../data/test_sets/Text_Reasoning/Text_Reasoning_train.jsonl"
+OUTPUT_TEST = SCRIPT_DIR / "../../data/test_sets/Text_Reasoning/Text_Reasoning_test.jsonl"
+
+(SCRIPT_DIR / "../../data/test_sets/Text_Reasoning/").mkdir(parents=True, exist_ok=True)
+
+DISTRIBUTION = {
+    "emotional_support": 0.40,
+    "informational": 0.25,
+    "complex_consultation": 0.25,  # Increased from 0.20
+    "high_risk": 0.10              # Decreased from 0.15
+}
+
+print("🔧 Fixed Data Generator V4 - Disambiguated Contexts")
+print(f"🎯 Target: {TARGET_TOTAL} samples")
+
+# ==============================================================================
+# VOCABULARY (SEPARATED POOLS)
 # ==============================================================================
 
-# --- ĐẠI TỪ & TỪ ĐỆM (Dùng chung) ---
 pronouns = [
-    "Em", "Mình", "Tớ", "Cháu", "Tôi", "Anh", "Chị", "Bác", "Con", "Tao", "Tui", 
-    "Người nhà em", "Bạn em", "Vợ mình", "Chồng mình"
+    "Em", "Mình", "Tớ", "Con", "Tôi", "Anh", "Chị", "Cháu"
 ]
 
 timeframes = [
-    "dạo gần đây", "mấy hôm nay", "từ tuần trước", "mấy tháng nay rồi", "từ lúc chia tay", 
-    "sau khi sinh em bé", "từ đợt dịch đến giờ", "gần đây", "bữa giờ", "suốt 2 tuần nay",
-    "cả năm nay", "mới hôm qua", "tự nhiên hôm nay"
+    "dạo này", "mấy hôm nay", "gần đây", "suốt tuần", 
+    "từ hôm qua", "tự dưng", "cả tháng nay"
 ]
 
-fillers = [
-    "thực sự", "hình như", "có vẻ", "chắc là", "vô cùng", "rất chi là", "hơi bị", "khá là",
-    "cảm thấy", "thấy", "tự dưng", "bỗng nhiên", "chả hiểu sao", "stress vãi", "chán ghê",
-    "huhu", "haizz", "trời ơi", "khổ tâm ghê", "buồn thối ruột"
+# EMOTIONAL SUPPORT
+emo_feelings = [
+    "buồn", "chán", "mệt mỏi", "cô đơn", "áp lực", 
+    "stress", "tủi thân", "trống rỗng", "bất lực"
 ]
 
-# --- VOCAB CHO INFORMATIONAL (Kiến thức) ---
+emo_causes = [
+    "bị sếp mắng", "vừa chia tay", "thi trượt", "mất việc",
+    "cãi nhau với bạn", "bố mẹ không hiểu", "deadline dí",
+    "crush có người yêu", "bị bạn xa lánh"
+]
+
+# INFORMATIONAL
 info_concepts = [
-    "trầm cảm", "rối loạn lo âu", "rối loạn lưỡng cực", "tâm thần phân liệt", "OCD", "PTSD",
-    "ADHD ở người lớn", "chứng mất ngủ mãn tính", "rối loạn ăn uống vô độ", "chán ăn tâm thần",
-    "burnout (kiệt sức)", "trầm cảm sau sinh", "stress kéo dài", "rối loạn nhân cách ranh giới (BPD)",
-    "tự kỷ ám thị", "chứng sợ xã hội", "rối loạn hoảng sợ", "rối loạn cơ thể hóa", "nghiện rượu",
-    "nghiện game", "hành vi tự hại", "liệu pháp CBT", "thuốc chống trầm cảm SSRI"
+    "trầm cảm", "lo âu", "rối loạn lưỡng cực", "OCD", "PTSD",
+    "mất ngủ", "stress", "burnout", "rối loạn ăn uống", "ADHD"
 ]
 
-info_questions = [
-    "là bệnh gì", "định nghĩa là gì", "có triệu chứng thế nào", "nguyên nhân do đâu", 
-    "có chữa khỏi hẳn được không", "chẩn đoán ở đâu uy tín", "biểu hiện ra sao", 
-    "khác gì với buồn bình thường", "dùng thuốc gì để chữa", "theo tiêu chuẩn DSM-5 là gì", 
-    "theo MHGAP xử lý sao", "có di truyền không", "kéo dài bao lâu thì khỏi",
-    "có nguy hiểm tính mạng không", "phân loại thế nào", "có mấy giai đoạn"
+info_queries = [
+    "là gì", "có triệu chứng gì", "nguy hiểm không", 
+    "chữa thế nào", "dùng thuốc gì", "có di truyền không"
 ]
 
-info_prefixes = [
-    "Cho hỏi", "Ad ơi cho hỏi", "Muốn tìm hiểu về", "Định nghĩa của", "Thông tin về",
-    "Làm sao biết mình bị", "Phân biệt giúp mình", "Giải thích thuật ngữ", "Tìm tài liệu về",
-    "Bác sĩ cho hỏi", "Em muốn hỏi chút về", "Search dùm mình", "Cho mình xin info về", 
-    "Tôi cần tìm hiểu", ""
-]
-
-# --- VOCAB CHO COMPLEX REASONING (Tư vấn sâu) ---
-complex_contexts = [
-    "áp lực công việc quá lớn", "vừa chia tay người yêu xong", "bố mẹ ly hôn", "mất việc làm đột ngột",
-    "nợ nần chồng chất xã hội đen đòi", "bị đồng nghiệp toxic bắt nạt", "con cái hư hỏng không nghe lời", 
-    "người thân vừa mất", "thi trượt đại học", "bị body shaming béo quá", "cảm thấy lạc lõng trong nhóm bạn",
-    "sắp phải thuyết trình trước đám đông", "bị sếp dí deadline", "vừa sinh con xong stress quá",
-    "gia đình chồng khắt khe", "người yêu vô tâm", "học hành sa sút", "bị lừa đảo mất tiền",
-    "sống xa nhà cô đơn", "không có bạn thân", "bị phản bội", "thất bại trong kinh doanh"
-]
-
+# COMPLEX CONSULTATION (Medical contexts - SEPARATED)
 complex_symptoms = [
-    "mất ngủ triền miên trắng đêm", "ăn không ngon miệng sụt cân", "tim đập nhanh khó thở như sắp ngất", 
-    "run tay chân bần bật", "hay khóc thầm mỗi đêm", "không muốn gặp ai chỉ muốn trốn trong phòng", 
-    "đầu óc trống rỗng không tập trung được", "hay cáu gắt vô cớ với người nhà", 
-    "mất hứng thú với mọi sở thích cũ", "luôn cảm thấy tội lỗi dằn vặt", "nghĩ ngợi lung tung cả đêm",
-    "sợ tiếng động lớn", "hay quên trước quên sau", "đau đầu dữ dội đi khám không ra bệnh",
-    "cảm giác như có ai theo dõi", "nghe thấy tiếng nói trong đầu", "bồn chồn không yên"
+    "mất ngủ", "tim đập nhanh", "đau đầu", "run tay",
+    "khó thở", "sụt cân", "ăn không ngon", "hay quên",
+    "cáu gắt", "sợ đám đông", "không tập trung"
 ]
 
-complex_requests = [
-    "liệu có phải bị trầm cảm không?", "bác sĩ tư vấn giúp với ạ.", "làm sao để vượt qua giai đoạn này?",
-    "có cách nào cân bằng lại cảm xúc không?", "tôi sợ mình bị bệnh tâm lý nặng.", 
-    "tôi bế tắc quá không biết làm sao thoát ra.", "cần lời khuyên gấp ạ.", 
-    "làm sao để vui vẻ trở lại như xưa?", "có nên đi khám bác sĩ tâm lý không?",
-    "em phải làm gì bây giờ?", "giúp em với em mệt mỏi quá.", "có ai từng bị như này chưa?"
+# ⭐ SEPARATED: Medical/Physical contexts (NOT emotional)
+complex_contexts = [
+    "sau sinh em bé",
+    "từ lúc bị tai nạn giao thông",
+    "sau phẫu thuật",
+    "dùng thuốc tránh thai",
+    "thay đổi môi trường sống",
+    "chuyển công việc mới",
+    "sau đợt thi đại học",
+    "mãn kinh",
+    "dùng thuốc điều trị bệnh khác"
 ]
 
-# --- VOCAB CHO HIGH RISK (Nguy cơ cao) ---
-risk_triggers = [
-    "tuyệt vọng tột cùng rồi", "không còn lối thoát nào nữa", "chán ghét bản thân kinh khủng", 
-    "cuộc sống này vô nghĩa toàn đau khổ", "tận cùng nỗi đau rồi", "kiệt sức hoàn toàn rồi",
-    "không ai thương mình cả", "mình là gánh nặng của gia đình", "thế giới này tàn nhẫn quá",
-    "mất hết hy vọng rồi", "cảm giác như đã chết ở bên trong"
+# Medical framing (NEW)
+medical_frames = [
+    "Bác sĩ ơi,",
+    "Cho em hỏi,",
+    "Em đi khám thì bác sĩ nói",
+    "Triệu chứng này",
+    "Xin tư vấn,"
 ]
 
-risk_actions = [
-    "muốn chết đi cho xong", "muốn tự tử ngay bây giờ", "định uống thuốc ngủ để đi luôn",
-    "muốn nhảy lầu kết thúc tất cả", "đang cầm dao muốn rạch tay cho bớt đau lòng", 
-    "sẽ biến mất khỏi thế giới này vĩnh viễn", "không muốn nhìn thấy ngày mai nữa", 
-    "cái chết là sự giải thoát duy nhất", "định lao đầu vào xe tải", "muốn treo cổ tự vẫn",
-    "ước gì ngủ một giấc không bao giờ dậy nữa", "tìm cách kết liễu cuộc đời"
+complex_history = [
+    "đã đi khám nhưng không đỡ",
+    "uống thuốc 2 tháng vẫn vậy",
+    "thử CBT rồi nhưng không hiệu quả",
+    "xét nghiệm đều bình thường"
 ]
 
-risk_plans = [
-    "tạm biệt mọi người nhé.", "đã viết thư tuyệt mệnh để lại rồi.", "không ai cứu được tôi đâu.",
-    "xin lỗi bố mẹ con đi đây.", "đêm nay sẽ là đêm cuối cùng.", "chịu hết nổi rồi bye bye.",
-    "tôi đi đây đừng tìm tôi nữa.", "đã chuẩn bị sẵn thuốc rồi.", "đang đứng trên cầu gió mát quá.",
-    "đừng khuyên tôi nữa vô ích thôi."
+# HIGH RISK (Emotional/Crisis contexts - SEPARATED)
+# ⭐ SEPARATED: Emotional/Social crisis (NOT medical)
+high_risk_contexts = [
+    "bị bắt nạt liên tục",
+    "mất hết tiền bạc do đánh bạc",
+    "người yêu phản bội",
+    "bị sa thải oan",
+    "gia đình tan vỡ",
+    "bị lừa tiền",
+    "con bị bệnh nặng",
+    "vỡ nợ",
+    "bị tống giam oan",
+    "mất người thân đột ngột"
+]
+
+# ADD: Stressful but medical contexts (for complex)
+stress_medical_contexts = [
+    "áp lực nợ nần",
+    "áp lực công việc quá lớn",
+    "áp lực thi cử",
+    "mâu thuẫn vợ chồng kéo dài"
+]
+
+risk_subtle = [
+    "cuộc sống vô nghĩa",
+    "mọi người tốt hơn nếu không có em",
+    "muốn ngủ một giấc thật dài",
+    "đã viết thư cho mọi người",
+    "không còn lý do để ở lại"
+]
+
+risk_explicit = [
+    "muốn chết", "tự tử", "uống thuốc ngủ", "nhảy lầu",
+    "rạch tay", "kết thúc cuộc đời"
 ]
 
 # ==============================================================================
-# 3. CÁC HÀM SINH DỮ LIỆU (GENERATORS)
+# GENERATORS (FIXED)
 # ==============================================================================
+
+def gen_emotional_support():
+    """Emotional support samples"""
+    pronoun = random.choice(pronouns)
+    feel = random.choice(emo_feelings)
+    cause = random.choice(emo_causes)
+    
+    styles = [
+        f"{feel} quá, {cause}",
+        f"{cause}, giờ {feel} vcl",
+        f"{pronoun} {feel} lắm, {cause}",
+        f"{cause} làm {pronoun} {feel}. Ai giúp em với"
+    ]
+    
+    return random.choice(styles)
 
 def gen_informational():
-    # Style 1: Formal (Trang trọng) - 50%
+    """Informational queries"""
+    concept = random.choice(info_concepts)
+    query = random.choice(info_queries)
+    
     if random.random() < 0.5:
-        text = f"{random.choice(info_prefixes)} {random.choice(info_concepts)} {random.choice(info_questions)}?"
-    # Style 2: Short/Direct (Ngắn gọn) - 50%
+        contexts = [
+            f"Bác sĩ nói em bị {concept}",
+            f"Em hay {random.choice(emo_feelings)}",
+            f"Người thân em có dấu hiệu {concept}"
+        ]
+        return f"{random.choice(contexts)}, {query}?"
     else:
-        text = f"{random.choice(info_concepts)} {random.choice(info_questions)}?"
-    
-    # Làm sạch khoảng trắng thừa
-    text = " ".join(text.split()).strip()
-    if not text.endswith("?"): text += "?"
-    return text.capitalize()
+        prefixes = ["", "Cho hỏi ", "Mọi người ơi "]
+        return f"{random.choice(prefixes)}{concept} {query}?"
 
-def gen_complex_reasoning():
+def gen_complex_consultation():
+    """
+    Complex consultation with MEDICAL contexts
+    Key fix: Add medical framing + separated contexts
+    """
     pronoun = random.choice(pronouns)
-    context = random.choice(complex_contexts)
-    symptom = random.choice(complex_symptoms)
-    request = random.choice(complex_requests)
-    time = random.choice(timeframes)
-    filler = random.choice(fillers)
+    symp = random.choice(complex_symptoms)
     
-    style = random.randint(1, 4)
-    
-    if style == 1: # Full story: Context -> Symptom -> Request
-        text = f"{pronoun} bị {context}, {time} {pronoun} thấy {symptom}. {request}"
-    elif style == 2: # Symptom focus: Time -> Symptom -> Filler -> Context
-        text = f"{time} {pronoun} thấy {symptom} do {context}. {pronoun} {filler} lo lắng, {request}"
-    elif style == 3: # Question first: Request -> Context
-        text = f"{request} {pronoun} cứ {symptom} mãi, có phải do {context} không?"
-    else: # Conversational/Teen code (Natural noise)
-        text = f"{context} khiến {pronoun} {filler}, giờ {symptom} suốt. {request}"
+    # 40%: Pure medical contexts
+    if random.random() < 0.4:
+        ctx = random.choice(complex_contexts)
+        frame = random.choice(medical_frames)
         
-    return text
+        if random.random() < 0.5:
+            history = random.choice(complex_history)
+            return f"{frame} {ctx}, {pronoun} {symp}. {history}, có phải bệnh không?"
+        else:
+            return f"{frame} {ctx} làm {pronoun} bị {symp}. Nên khám chuyên khoa nào?"
+    
+    # 40%: Stress contexts with CLEAR medical framing (FIX for "áp lực nợ nần")
+    elif random.random() < 0.8:
+        ctx = random.choice(stress_medical_contexts)
+        frame = random.choice(medical_frames)
+        
+        templates = [
+            f"{frame} do {ctx}, em bị {symp}. Có phải rối loạn lo âu không?",
+            f"{frame} {ctx} làm em {symp} suốt. Đã khám nhưng không rõ nguyên nhân?",
+            f"Do stress vì {ctx}, em xuất hiện triệu chứng {symp}. Xin tư vấn?",
+            f"Bác sĩ ơi, {ctx} khiến em {symp} kéo dài {random.choice(['2 tuần', '1 tháng'])}. Có cần dùng thuốc không?"
+        ]
+        return random.choice(templates)
+    
+    # 20%: Multiple symptoms
+    else:
+        ctx = random.choice(complex_contexts + stress_medical_contexts)
+        symp2 = random.choice([s for s in complex_symptoms if s != symp])
+        return f"{ctx}, {pronoun} vừa {symp} vừa {symp2}. Bác sĩ chẩn đoán giúp em?"
 
 def gen_high_risk():
+    """
+    High risk samples with EMOTIONAL/CRISIS contexts only
+    Key fix: Use separated high_risk_contexts (no medical overlap)
+    """
     pronoun = random.choice(pronouns)
-    trigger = random.choice(risk_triggers)
-    action = random.choice(risk_actions)
-    plan = random.choice(risk_plans)
     
-    style = random.randint(1, 3)
-    
-    if style == 1: # Full explicit
-        text = f"{pronoun} {trigger}, {pronoun} {action}. {plan}"
-    elif style == 2: # Action focus
-        text = f"{action}. {plan}"
-    else: # Cry for help
-        text = f"Cứu {pronoun} với, {pronoun} đang nghĩ quẩn {action}."
+    # 70%: Subtle/Implicit
+    if random.random() < 0.7:
+        context = random.choice(high_risk_contexts)  # ← SEPARATED pool
+        trigger = random.choice(risk_subtle)
+        base = random.choice([
+            f"{pronoun} cảm thấy cuộc sống vô nghĩa",
+            f"{pronoun} mệt mỏi quá rồi",
+            "Làm gì cũng sai"
+        ])
         
-    return text
+        return f"{base} do {context}. {trigger}"
+    
+    # 30%: Semi-explicit with crisis context
+    else:
+        context = random.choice(high_risk_contexts)  # ← SEPARATED pool
+        trigger = random.choice(risk_explicit)
+        emotion = random.choice(emo_feelings)
+        
+        return f"{context}, {pronoun} {emotion} và muốn {trigger}. Xin lỗi mọi người"
 
 # ==============================================================================
-# 4. MAIN LOOP & SPLIT LOGIC
+# MAIN PROCESS
 # ==============================================================================
 
 def main():
     data = []
-    seen_hashes = set() # Dùng hash để check trùng lặp cực nhanh
-    samples_per_class = TARGET_TOTAL // 3
+    seen_hashes = set()
     
-    print("⏳ Đang bắt đầu sinh dữ liệu...")
+    generators = {
+        "emotional_support": gen_emotional_support,
+        "informational": gen_informational,
+        "complex_consultation": gen_complex_consultation,
+        "high_risk": gen_high_risk
+    }
 
-    # --- GIAI ĐOẠN 1: SINH & LỌC TRÙNG ---
-    generators = [
-        ("informational", gen_informational),
-        ("complex_reasoning", gen_complex_reasoning),
-        ("high_risk", gen_high_risk)
-    ]
-
-    for label, generator_func in generators:
-        print(f"   🔹 Đang sinh nhóm: {label}...", end="\r")
+    print("\n⏳ Generating dataset with fixed context separation...")
+    
+    for label, ratio in DISTRIBUTION.items():
+        target_count = int(TARGET_TOTAL * ratio)
+        print(f"   🔹 Generating {label}: Target {target_count}...")
+        
         count = 0
         attempts = 0
-        while count < samples_per_class:
-            text = generator_func()
+        max_attempts = target_count * 100
+        
+        while count < target_count and attempts < max_attempts:
+            text = generators[label]()
+            text = " ".join(text.split()).strip()
             
-            # KIỂM TRA TRÙNG LẶP
             if text not in seen_hashes:
                 data.append({"text": text, "label": label})
                 seen_hashes.add(text)
                 count += 1
             
             attempts += 1
-            if attempts > samples_per_class * 20: # Tránh vòng lặp vô tận nếu hết từ
-                print(f"\n⚠️ Cảnh báo: Không thể sinh thêm mẫu duy nhất cho {label}. Dừng ở {count}.")
-                break
-        print(f"   ✅ Xong nhóm {label}: {count} dòng.")
+        
+        print(f"   ✅ Generated {count} samples")
 
-    # --- GIAI ĐOẠN 2: XÁO TRỘN ---
-    print("🔄 Đang xáo trộn (Shuffle) dữ liệu...")
+    # Shuffle and split
     random.shuffle(data)
-
-    # --- GIAI ĐOẠN 3: CHIA TÁCH (SPLIT) ---
     split_idx = int(len(data) * TRAIN_RATIO)
-    
     train_data = data[:split_idx]
     test_data = data[split_idx:]
 
-    # --- GIAI ĐOẠN 4: LƯU FILE ---
-    print(f"💾 Đang lưu file Train ({len(train_data)} dòng)...")
+    # Save
     with open(OUTPUT_TRAIN, "w", encoding="utf-8") as f:
         for entry in train_data:
             json.dump(entry, f, ensure_ascii=False)
             f.write("\n")
-
-    print(f"💾 Đang lưu file Test ({len(test_data)} dòng)...")
+    
     with open(OUTPUT_TEST, "w", encoding="utf-8") as f:
         for entry in test_data:
             json.dump(entry, f, ensure_ascii=False)
             f.write("\n")
 
-    # --- TỔNG KẾT ---
-    print("="*50)
-    print("🎉 HOÀN TẤT QUÁ TRÌNH!")
-    print(f"📊 Tổng số mẫu đã sinh: {len(data)}")
-    print(f"📂 File Train: {OUTPUT_TRAIN} ({len(train_data)} mẫu)")
-    print(f"📂 File Test:  {OUTPUT_TEST} ({len(test_data)} mẫu)")
-    print("👉 Bước tiếp theo: Upload 2 file này lên Google Colab để Train model.")
-    print("="*50)
+    # Stats
+    from collections import Counter
+    counts = Counter([d['label'] for d in data])
+    
+    print("\n" + "="*60)
+    print(f"🎉 COMPLETE! Generated {len(data)} samples")
+    print(f"📁 Train: {len(train_data)} | Test: {len(test_data)}")
+    print("\n📊 Label distribution:")
+    for label, count in counts.items():
+        print(f"   {label:25} {count:5} ({count/len(data)*100:.1f}%)")
+    print("="*60)
+    
+    # Validate separation
+    print("\n🔍 Context separation check:")
+    medical_in_high_risk = sum(1 for d in data if d['label'] == 'high_risk' and 
+                                any(ctx in d['text'] for ctx in complex_contexts))
+    crisis_in_complex = sum(1 for d in data if d['label'] == 'complex_consultation' and 
+                            any(ctx in d['text'] for ctx in high_risk_contexts))
+    
+    print(f"   Medical contexts in high_risk: {medical_in_high_risk} (should be ~0)")
+    print(f"   Crisis contexts in complex: {crisis_in_complex} (should be ~0)")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_88e8f8bb",
+  "content": "Trauma- and Stressor-Related Disorders . . . . . . . . . . . . . . .141\nDissociative Disorders. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .155\nSomatic Symptom and Related Disorders. . . . . . . . . . . . . . .161\nFeeding and Eating Disorders. . . . . . . . . . . . . . . . . . . . . . . .169\nElimination Disorders. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .177\nSleep-Wake Disorders. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .181\nSexual Dysfunctions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .201",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "stress",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Trauma- and Stressor-Related Disorders . . . . . . . . . . . . . . .141\nDissociative Disorders. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .155\nSomatic Symptom and Related Disorders. . . . . . . . . . . . . . .161\nFeeding and Eating Disorders. . . . . . . . . . . . . . . . . . . . . . . .169\nElimination Disorders. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .177\nSleep-Wake Disorders. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .181\nSexual Dysfunctions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .201 Trauma- and stressor-related disorders . ."
+}

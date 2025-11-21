@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_2c5e602a",
+  "content": "including medications\nDisorders due to use of other specified psychoactive substances, including medications, are\ncharacterized by the pattern and consequences of psychoactive substances that are not included\namong the major substance classes specifically identified above. Examples include khat, anabolic\nsteroids, antidepressants, medications with anticholinergic properties (e.g. benztropine) and\nsome antihistamines.\n6C4F Disorders due to use of multiple specified psychoactive substances,\nincluding medications\nThe categories in this grouping are provided for coding purposes. However, in most clinical\nsituations it is recommended that multiple categories from disorders due to substance use should\nbe assigned if these can be discerned, rather than using categories from this grouping. Doing so\nwill provide more useful information for both clinical and coding purposes.\n6C4G Disorders due to use of unknown or unspecified psychoactive\nsubstances\nThese categories apply in clinical situations in which it is clear that the disturbance is due to\nsubstance use but the specific substance or class of substances is initially unknown. As more\ninformation becomes available (e.g. laboratory results, report from a collateral informant) the\ndiagnosis should be changed to indicate the relevant substance or substance class.\n6C4H Disorders due to use of non-psychoactive substances",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues including medications\nDisorders due to use of other specified psychoactive substances, including medications, are\ncharacterized by the pattern and consequences of psychoactive substances that are not included\namong the major substance classes specifically identified above. Examples include khat, anabolic\nsteroids, antidepressants, medications with anticholinergic properties (e.g. benztropine) and\nsome antihistamines.\n6C4F Disorders due to use of multiple specified psychoactive substances,\nincluding medications\nThe categories in this grouping are provided for coding purposes. However, in most clinical\nsituations it is recommended that multiple categories from disorders due to substance use should\nbe assigned if these can be discerned, rather than using categories from this grouping. Doing so\nwill provide more useful information for both clinical and coding purposes.\n6C4G Disorders due to use of unknown or unspecified psychoactive\nsubstances\nThese categories apply in clinical situations in which it is clear that the disturbance is due to\nsubstance use but the specific substance or class of substances is initially unknown. As more\ninformation becomes available (e.g. laboratory results, report from a collateral informant) the\ndiagnosis should be changed to indicate the relevant substance or substance class.\n6C4H Disorders due to use of non-psychoactive substances Including medications\ndisorders due to use of other specified psychoactive substances, including medications, are\ncharacterized by the pattern and consequences of psychoactive substances that are not included\namong the m..."
+}

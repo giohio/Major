@@ -1,0 +1,18 @@
+{
+  "id": "clinical#coping_skill_62cdfc5d",
+  "content": "Central Sleep Apnea\nA. Evidence by polysomnography of five or more central apneas\nper hour of sleep.\nB. The disorder is not better explained by another current sleep\ndisorder.\nSpecify whether:\n327.21 (G47.31) Idiopathic central sleep apnea: Characterized\nby repeated episodes of apneas and hypopneas during sleep\nSleep-Related Hypoventilation 187\ncaused by variability in respiratory effort but without evidence of\nairway obstruction.\n786.04 (R06.3) Cheyne-Stokes breathing: A pattern of periodic\ncrescendo-decrescendo variation in tidal volume that results in\ncentral apneas and hypopneas at a frequency of at least five\nevents per hour, accompanied by frequent arousal.\n780.57 (G47.37) Central sleep apnea comorbid with opioid\nuse: The pathogenesis of this subtype is attributed to the effects\nof opioids on the respiratory rhythm generators in the medulla as\nwell as the differential effects on hypoxic versus hypercapnic re-\nspiratory drive.\nCoding note (for 780.57 [G47.37] code only): When an opioid use\ndisorder is present, first code the opioid use disorder: 305.50\n(F11.10) mild opioid use disorder or 304.00 (F11.20) moderate or se-\nvere opioid use disorder; then code 780.57 (G47.37) central sleep\napnea comorbid with opioid use. When an opioid use disorder is not",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "stress",
+      "coping_skill"
+    ],
+    "is_clinical": false,
+    "is_advice": false
+  },
+  "index_text": "General — Coping Skill Central Sleep Apnea\nA. Evidence by polysomnography of five or more central apneas\nper hour of sleep.\nB. The disorder is not better explained by another current sleep\ndisorder.\nSpecify whether:\n327.21 (G47.31) Idiopathic central sleep apnea: Characterized\nby repeated episodes of apneas and hypopneas during sleep\nSleep-Related Hypoventilation 187\ncaused by variability in respiratory effort but without evidence of\nairway obstruction.\n786.04 (R06.3) Cheyne-Stokes breathing: A pattern of periodic\ncrescendo-decrescendo variation in tidal volume that results in\ncentral apneas and hypopneas at a frequency of at least five\nevents per hour, accompanied by frequent arousal.\n780.57 (G47.37) Central sleep apnea comorbid with opioid\nuse: The pathogenesis of this subtype is attributed to the effects\nof opioids on the respiratory rhythm generators in the medulla as\nwell as the differential effects on hypoxic versus hypercapnic re-\nspiratory drive.\nCoding note (for 780.57 [G47.37] code only): When an opioid use\ndisorder is present, first code the opioid use disorder: 305.50\n(F11.10) mild opioid use disorder or 304.00 (F11.20) moderate or se-\nvere opioid use disorder; then code 780.57 (G47.37) central sleep\napnea comorbid with opioid use. When an opioid use disorder is not Central giấc ngủ apnea\na. evidence by polysomnography of five or more central apneas\nper hour of giấc ngủ."
+}

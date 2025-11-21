@@ -1,0 +1,20 @@
+{
+  "id": "clinical#screening_cues_a000bed0",
+  "content": "depressive disorder, a bipolar disorder, or schizophrenia or another primary psychotic\ndisorder. Evidence supporting a diagnosis of another mental disorder would include\nmood symptoms preceding the onset of the substance use, the symptoms persisting for a\nsubstantial period of time after cessation of the substance or medication use or withdrawal\n(e.g. 1 month or more depending on the specific substance), or other evidence of a\npre-existing mental disorder with mood symptoms (e.g. a history of prior episodes not\nassociated with substance use).\n• The symptoms are not a manifestation of another medical condition.\n• The symptoms result in significant distress or significant impairment in personal, family,\nsocial, educational, occupational or other important areas of functioning. If functioning is\nmaintained, it is only through significant additional effort.\nSpecifiers for substance-induced mood symptoms\nAn additional specifier can be added to denote the presence of depressive symptoms in the\nabsence of manic symptoms, manic symptoms in the absence of depressive symptoms, or\nmixed manic and depressive symptoms. The x below corresponds to the fourth-character\ncode indicating the substance class (0 for alcohol, 1 for cannabis and so on). The y represents",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "relationships",
+      "screening_cues",
+      "management",
+      "psychoeducation"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues depressive disorder, a bipolar disorder, or schizophrenia or another primary psychotic\ndisorder. Evidence supporting a diagnosis of another mental disorder would include\nmood symptoms preceding the onset of the substance use, the symptoms persisting for a\nsubstantial period of time after cessation of the substance or medication use or withdrawal\n(e.g. 1 month or more depending on the specific substance), or other evidence of a\npre-existing mental disorder with mood symptoms (e.g. a history of prior episodes not\nassociated with substance use).\n• The symptoms are not a manifestation of another medical condition.\n• The symptoms result in significant distress or significant impairment in personal, family,\nsocial, educational, occupational or other important areas of functioning. If functioning is\nmaintained, it is only through significant additional effort.\nSpecifiers for substance-induced mood symptoms\nAn additional specifier can be added to denote the presence of depressive symptoms in the\nabsence of manic symptoms, manic symptoms in the absence of depressive symptoms, or\nmixed manic and depressive symptoms. The x below corresponds to the fourth-character\ncode indicating the substance class (0 for alcohol, 1 for cannabis and so on). The y represents Depressive disorder, a bipolar disorder, or schizophrenia or another primary psychotic\ndisorder. evidence supporting a diagnosis of another mental disorder would include\nmood symptoms preceding the onset of the substance..."
+}

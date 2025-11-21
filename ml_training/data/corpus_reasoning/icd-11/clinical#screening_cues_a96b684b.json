@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_a96b684b",
+  "content": "episode severe, without psychotic symptoms (6A71.3), with melancholia (6A80.3).\nAnother form of postcoordination is through the use of “extension codes”, which are generic\ncodes that can be applied across the categories in the different chapters of ICD-11. Extension\ncodes for severity – none (XS8H), mild (XS5W), moderate (XS0T) and severe (XS25) – are\nused in several places in the ICD-11 chapter on mental, behavioural and neurodevelopmental\ndisorders. Extension codes are appended to the diagnostic code they are modifying using an\nampersand (&). For example, 6D80&XS0T is the code for dementia due to Alzheimer disease\n(6D80) of moderate severity (XS0T). Extension codes can also be used to indicate a provisional\ndiagnosis (XY7Z) or to designate a differential diagnosis (XY75). For example, 6A02&XY7Z is\nthe code to indicate a provisional diagnosis (XY7Z) of autism spectrum disorder (6A02).\nThe coding for schizophrenia illustrates how a combination of precoordinated and postcoordinated\ncodes, including extension codes for severity, can be used to characterize course and symptomatic\nmanifestations more fully. Clinical course of schizophrenia is indicated using a combination of\nfifth-character codes (“0” for first episode, “1” for multiple episodes, “2” for continuous course)",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "study",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues episode severe, without psychotic symptoms (6A71.3), with melancholia (6A80.3).\nAnother form of postcoordination is through the use of “extension codes”, which are generic\ncodes that can be applied across the categories in the different chapters of ICD-11. Extension\ncodes for severity – none (XS8H), mild (XS5W), moderate (XS0T) and severe (XS25) – are\nused in several places in the ICD-11 chapter on mental, behavioural and neurodevelopmental\ndisorders. Extension codes are appended to the diagnostic code they are modifying using an\nampersand (&). For example, 6D80&XS0T is the code for dementia due to Alzheimer disease\n(6D80) of moderate severity (XS0T). Extension codes can also be used to indicate a provisional\ndiagnosis (XY7Z) or to designate a differential diagnosis (XY75). For example, 6A02&XY7Z is\nthe code to indicate a provisional diagnosis (XY7Z) of autism spectrum disorder (6A02).\nThe coding for schizophrenia illustrates how a combination of precoordinated and postcoordinated\ncodes, including extension codes for severity, can be used to characterize course and symptomatic\nmanifestations more fully. Clinical course of schizophrenia is indicated using a combination of\nfifth-character codes (“0” for first episode, “1” for multiple episodes, “2” for continuous course) Episode severe, without psychotic symptoms (6a71.3), with melancholia (6a80.3). another form of postcoordination is through the use of “extension codes”, which are generic\ncodes that can be applied across the categories ..."
+}

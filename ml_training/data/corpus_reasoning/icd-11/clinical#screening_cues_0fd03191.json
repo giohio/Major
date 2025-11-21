@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_0fd03191",
+  "content": "necessary. This is meant to control variability inherent in diagnostic processes that rely on the\ninterviewer’s diagnostic interviewing skills (different interviewers may ask different questions to\nassess the same clinical phenomena) and clinical judgement (different interviewers may arrive at\ndifferent diagnostic conclusions). For example, studies of the efficacy of treatments for particular\ndisorders require consistency in diagnostic procedures to ensure that the population being studied\nhas been assigned the diagnosis for which the treatment is intended according to consistent and\nexplicit diagnostic rules to reduce random diagnostic heterogeneity. Similarly, epidemiological\nstudies that utilize lay (i.e. not clinically trained) interviewers to apply the ICD-11 CDDR require\npre-scripted questions and strict decision rules because they cannot rely on the clinical expertise\nof the interviewer to make judgements about which features are present. For these reasons, several\nWHO-sponsored diagnostic instruments are being developed to facilitate the application of the\nICD-11 CDDR in particular research settings.\nThe Structured Clinical Interview for ICD-11 (SCII-11) is a semi-structured diagnostic interview\nthat requires experience in clinical interviewing on the part of the interviewer. The SCII-11 is\ndesigned to be used in conjunction with the CDDR, and provides a standardized set of questions",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues necessary. This is meant to control variability inherent in diagnostic processes that rely on the\ninterviewer’s diagnostic interviewing skills (different interviewers may ask different questions to\nassess the same clinical phenomena) and clinical judgement (different interviewers may arrive at\ndifferent diagnostic conclusions). For example, studies of the efficacy of treatments for particular\ndisorders require consistency in diagnostic procedures to ensure that the population being studied\nhas been assigned the diagnosis for which the treatment is intended according to consistent and\nexplicit diagnostic rules to reduce random diagnostic heterogeneity. Similarly, epidemiological\nstudies that utilize lay (i.e. not clinically trained) interviewers to apply the ICD-11 CDDR require\npre-scripted questions and strict decision rules because they cannot rely on the clinical expertise\nof the interviewer to make judgements about which features are present. For these reasons, several\nWHO-sponsored diagnostic instruments are being developed to facilitate the application of the\nICD-11 CDDR in particular research settings.\nThe Structured Clinical Interview for ICD-11 (SCII-11) is a semi-structured diagnostic interview\nthat requires experience in clinical interviewing on the part of the interviewer. The SCII-11 is\ndesigned to be used in conjunction with the CDDR, and provides a standardized set of questions Necessary. this is meant to control variability inherent in diagnostic processes that rely on the\ninterviewer’s diagnostic interviewing skills (different interviewers may ask different questions to\nassess the same clinic..."
+}

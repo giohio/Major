@@ -1,0 +1,19 @@
+{
+  "id": "clinical#screening_cues_67c2e392",
+  "content": "substance (e.g., a drug of abuse, a medication).\nH. Coexisting mental disorders and medical conditions do not ade-\nquately explain the predominant complaint of insomnia.\nSpecify if:\nWith non–sleep disorder mental comorbidity, including sub-\nstance use disorders\n181\n182 Sleep-Wake Disorders\nWith other medical comorbidity\nWith other sleep disorder\nCoding note: The code 307.42 (F51.01) applies to all three spec-\nifiers. Code also the relevant associated mental disorder, medi-\ncal condition, or other sleep disorder immediately after the code\nfor insomnia disorder in order to indicate the association.\nSpecify if:\nEpisodic: Symptoms last at least 1 month but less than 3 months.\nPersistent: Symptoms last 3 months or longer.\nRecurrent: Two (or more) episodes within the space of 1 year.\nNote: Acute and short-term insomnia (i.e., symptoms lasting less\nthan 3 months but otherwise meeting all criteria with regard to fre-\nquency, intensity, distress, and/or impairment) should be coded as\nan other specified insomnia disorder.\nHypersomnolence Disorder\n307.44 (F51.11)\nA. Self-reported excessive sleepiness (hypersomnolence) despite\na main sleep period lasting at least 7 hours, with at least one of\nthe following symptoms:\n1. Recurrent periods of sleep or lapses into sleep within the\nsame day.\n2. A prolonged main sleep episode of more than 9 hours per",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "stress",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues substance (e.g., a drug of abuse, a medication).\nH. Coexisting mental disorders and medical conditions do not ade-\nquately explain the predominant complaint of insomnia.\nSpecify if:\nWith non–sleep disorder mental comorbidity, including sub-\nstance use disorders\n181\n182 Sleep-Wake Disorders\nWith other medical comorbidity\nWith other sleep disorder\nCoding note: The code 307.42 (F51.01) applies to all three spec-\nifiers. Code also the relevant associated mental disorder, medi-\ncal condition, or other sleep disorder immediately after the code\nfor insomnia disorder in order to indicate the association.\nSpecify if:\nEpisodic: Symptoms last at least 1 month but less than 3 months.\nPersistent: Symptoms last 3 months or longer.\nRecurrent: Two (or more) episodes within the space of 1 year.\nNote: Acute and short-term insomnia (i.e., symptoms lasting less\nthan 3 months but otherwise meeting all criteria with regard to fre-\nquency, intensity, distress, and/or impairment) should be coded as\nan other specified insomnia disorder.\nHypersomnolence Disorder\n307.44 (F51.11)\nA. Self-reported excessive sleepiness (hypersomnolence) despite\na main sleep period lasting at least 7 hours, with at least one of\nthe following symptoms:\n1. Recurrent periods of sleep or lapses into sleep within the\nsame day.\n2. A prolonged main sleep episode of more than 9 hours per Substance (e.g., a drug of abuse, a medication). h."
+}

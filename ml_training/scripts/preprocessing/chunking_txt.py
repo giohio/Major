@@ -2,88 +2,70 @@ import re, json, hashlib
 from pathlib import Path
 from typing import List, Tuple
 
-# ========= CẤU HÌNH =========
-RAW_TXT_DIR = Path("../../data/raw")           # tất cả .txt nằm ở đây
-OUT_DIR     = Path("../../data/corpus_processed")       # nơi xuất snippets .json
-OUT_DIR.mkdir(parents=True, exist_ok=True)
+# ==============================================================================
+# 1. CẤU HÌNH HỆ THỐNG
+# ==============================================================================
+SCRIPT_DIR = Path(__file__).parent.resolve()
+RAW_TXT_DIR = SCRIPT_DIR / "../../data/raw"
+OUT_DIR_REASONING = SCRIPT_DIR / "../../data/corpus_reasoning" # Kho Bác sĩ
+OUT_DIR_ADVICE    = SCRIPT_DIR / "../../data/corpus_advice"    # Kho Counselor
 
-# Kích thước & overlap
-MIN_WORDS   = 120
-MAX_WORDS   = 220
-OVERLAP_FR  = 0.20    # 20%
+for p in [OUT_DIR_REASONING, OUT_DIR_ADVICE]:
+    p.mkdir(parents=True, exist_ok=True)
 
-CHUNK_CONFIG = {
-    "clinical":  (120, 220, 0.20),
-    "everyday":  (80, 160, 0.15),
-    "advice":    (80, 140, 0.10),
-}
+# Cấu hình cắt đoạn
+CHUNK_TARGET = 200  
+CHUNK_MAX    = 350  # Nới rộng để giữ trọn vẹn danh sách A, B, C
 
-# Nếu muốn chỉ giữ 1 số condition (để MVP gọn). Để set() nếu giữ tất cả.
-ALLOW_CONDITIONS = set()   # giữ trống để lấy tất cả
+ALLOW_CONDITIONS = set()
 
-# Nhận diện nguồn theo tên file hoặc nội dung
+# ==============================================================================
+# 2. BỘ NHẬN DIỆN (METADATA EXTRACTOR)
+# ==============================================================================
+
 def detect_source_from_file(name: str, content_sample: str) -> Tuple[str, str]:
     n = name.lower()
     c = content_sample.lower()
-    if "mhgap" in n or "mh gap" in c:
-        return "WHO mhGAP-IG 2023", "https://www.who.int/"
-    if "icd11" in n or "icd-11" in n or "icd 11" in c:
-        return "WHO ICD-11", "https://icd.who.int/"
+    if "mhgap" in n or "mh gap" in c: return "WHO mhGAP-IG 2023", "https://www.who.int/"
+    if "icd11" in n or "icd-11" in n: return "WHO ICD-11", "https://icd.who.int/"
+    if "dsm" in n: return "DSM-5", "https://psychiatry.org/"
     return "Everyday Essentials", ""
 
-# Suy đoán condition theo tên file
 COND_HINTS = {
-    "depress": "Depression",
-    "anxiety": "Anxiety",
-    "gad": "Anxiety",
-    "panic": "Anxiety",
-    "ptsd": "PTSD",
-    "ocd": "OCD",
-    "insomnia": "Sleep",
-    "sleep": "Sleep",
-    "substance": "SubstanceUse",
-    "eating": "Eating",
-    "suicid": "SuicideRisk",
-    "self-harm": "SuicideRisk",
+    "depress": "Depression", "anxiety": "Anxiety", "gad": "Anxiety",
+    "panic": "Anxiety", "ptsd": "PTSD", "ocd": "OCD",
+    "insomnia": "Sleep", "sleep": "Sleep", "substance": "SubstanceUse",
+    "eating": "Eating", "suicid": "SuicideRisk", "self-harm": "SuicideRisk",
 }
 def infer_condition(file_name: str) -> str:
     n = file_name.lower()
     for k, v in COND_HINTS.items():
-        if k in n:
-            return v
+        if k in n: return v
     return "General"
 
-# Từ khóa gán nhãn
+# TỪ KHÓA PHÂN LOẠI
 CLINICAL_SECTIONS = {
-    "risk_safety": ["risk", "safety", "self-harm", "suicid", "crisis", "urgent", "danger"],
-    "screening_cues": ["screen", "assessment", "identify", "symptom", "criteria", "evaluate"],
+    "risk_safety": ["risk", "safety", "self-harm", "suicid", "crisis", "urgent", "danger", "emergency"],
+    "screening_cues": ["screen", "assessment", "identify", "symptom", "criteria", "evaluate", "diagnos"],
     "referral": ["refer", "specialist", "urgent referral", "follow-up", "escalate"],
+    "management": ["management", "treatment", "therapy", "cognitive", "antidepressant", "medication"],
     "psychoeducation": ["psychoeducation", "advice", "support", "self-help", "education"],
-    "do_not_do": ["do not", "avoid", "contraindicat", "not recommended"]
 }
-CLINICAL_SECTIONS.update({
-    "management": ["management", "treatment", "therapy", "cognitive", "antidepressant", "follow-up"],
-    "caregiver": ["family", "caregiver", "support person", "guardian"]
-})
 EVERYDAY_TOPICS = {
-    "sleep": ["sleep", "insomnia", "sleep hygiene", "bedtime", "circadian"],
+    "sleep": ["sleep", "insomnia", "sleep hygiene", "bedtime"],
     "stress": ["stress", "tension", "overwhelm", "relaxation", "breathing"],
-    "study": ["study", "exam", "focus", "procrastination", "time management"],
-    "work": ["work", "burnout", "deadline", "overwork", "workload"],
-    "relationships": ["relationship", "family", "partner", "friends", "conflict", "boundary"],
-    "self_esteem": ["self-esteem", "confidence", "negative self-talk"],
-    "digital": ["phone", "social media", "screen time", "doomscroll"],
-    "grief": ["grief", "loss", "bereavement"]
+    "study": ["study", "exam", "focus", "procrastination"],
+    "work": ["work", "burnout", "deadline", "overwork"],
+    "relationships": ["relationship", "family", "partner", "friends", "conflict"],
+    "emotions": ["grief", "loss", "sadness", "lonely", "anger"]
 }
 ADVICE_SECTIONS = {
-    "coping_skill": ["breath", "relax", "grounding", "mindfulness", "journaling", "reappraisal"],
+    "coping_skill": ["breath", "relax", "grounding", "mindfulness", "journaling", "reappraisal", "exercise"],
     "communication_tips": ["i-statement", "assertive", "boundary", "active listening"],
-    "sleep_hygiene": ["sleep hygiene", "caffeine", "screen", "regular schedule"],
-    "study_habits": ["pomodoro", "time management", "study plan", "breaks"],
-    "work_habits": ["prioritize", "break tasks", "burnout", "rest", "workload"]
+    "habits": ["sleep hygiene", "pomodoro", "time management", "routine", "schedule", "habit"]
 }
 
-# gloss VI đơn giản (tóm tắt 1–2 câu + thay từ khóa phổ biến)
+# TỪ ĐIỂN DỊCH THUẬT MINI
 GLOSS_MAP = {
     "depression":"trầm cảm","anxiety":"lo âu","suicide":"tự sát","self-harm":"tự hại",
     "ideation":"ý nghĩ","risk":"nguy cơ","safety":"an toàn","screening":"sàng lọc",
@@ -91,90 +73,27 @@ GLOSS_MAP = {
     "support":"hỗ trợ","urgent":"khẩn cấp","sleep":"giấc ngủ","hygiene":"vệ sinh giấc ngủ",
     "stress":"căng thẳng","breathing":"hít thở","grounding":"neo tâm trí","mindfulness":"chánh niệm",
     "communication":"giao tiếp","boundary":"ranh giới","assertive":"quả quyết",
-    "study":"học tập","work":"công việc","burnout":"kiệt sức",
+    "study":"học tập","work":"công việc","burnout":"kiệt sức"
 }
 
 def normalize(text: str) -> str:
     text = re.sub(r"\s+", " ", text)
-    text = re.sub(r"(^|\s)page\s*\d+(\s*of\s*\d+)?", " ", text, flags=re.I)  # bỏ số trang
+    text = re.sub(r"(^|\s)page\s*\d+(\s*of\s*\d+)?", " ", text, flags=re.I)
     return text.strip()
-
-def split_paragraphs(raw: str) -> List[str]:
-    paras = [normalize(p) for p in re.split(r"\n\s*\n", raw) if p.strip()]
-    return paras
-
-def chunk_paragraphs(paras: List[str], min_words=MIN_WORDS, max_words=MAX_WORDS, overlap_fr=OVERLAP_FR) -> List[str]:
-    """Ghép đoạn văn thành chunk 120–220 từ, với overlap ~20%."""
-    out, buf, wc = [], [], 0
-    for p in paras:
-        words = p.split()
-        if wc + len(words) > max_words and buf:
-            out.append(" ".join(buf))
-            # overlap
-            keep = max(1, int(len(buf) * overlap_fr))
-            buf = buf[-keep:]
-            wc  = sum(len(x.split()) for x in buf)
-        buf.append(p)
-        wc += len(words)
-    if buf:
-        out.append(" ".join(buf))
-
-    # Nếu chunk nào quá ngắn < min_words, gộp vào hàng xóm
-    fixed = []
-    for ch in out:
-        if len(ch.split()) >= min_words:
-            fixed.append(ch)
-        else:
-            if fixed:
-                fixed[-1] = (fixed[-1] + " " + ch).strip()
-            else:
-                fixed.append(ch)
-    # Nếu còn quá dài > ~320 từ, tách đôi
-    final = []
-    for ch in fixed:
-        wc = len(ch.split())
-        if wc > 320:
-            tokens = ch.split()
-            mid = wc // 2
-            final.append(" ".join(tokens[:mid]))
-            final.append(" ".join(tokens[mid:]))
-        else:
-            final.append(ch)
-    return final
 
 def detect_axes(text: str):
     tl = text.lower()
-    # clinical sections
-    clinical = []
-    for sec, keys in CLINICAL_SECTIONS.items():
-        if any(k in tl for k in keys):
-            clinical.append(sec)
-    # everyday topics
-    life_topics = []
-    for tpc, keys in EVERYDAY_TOPICS.items():
-        if any(k in tl for k in keys):
-            life_topics.append(tpc)
-    # advice
-    advice = []
-    for sec, keys in ADVICE_SECTIONS.items():
-        if any(k in tl for k in keys):
-            advice.append(sec)
-    # risk band
+    clinical = [sec for sec, keys in CLINICAL_SECTIONS.items() if any(k in tl for k in keys)]
+    life_topics = [tpc for tpc, keys in EVERYDAY_TOPICS.items() if any(k in tl for k in keys)]
+    advice = [sec for sec, keys in ADVICE_SECTIONS.items() if any(k in tl for k in keys)]
+    
     risk = "low"
-    if any(k in tl for k in ["suicid","self-harm","crisis","urgent","danger"]):
+    if any(k in tl for k in ["suicid", "self-harm", "kill myself", "end my life", "tự sát", "tự tử", "chết"]):
         risk = "high"
+    elif any(k in tl for k in ["crisis", "urgent", "danger", "emergency", "cấp cứu"]):
+        risk = "medium"
 
-    # type: clinical vs everyday (ưu tiên clinical nếu có)
-    types = []
-    if clinical:
-        types.append("clinical")
-    if life_topics or advice:
-        types.append("everyday")
-    if not types:
-        # nếu thật sự không khớp gì, coi như general-everyday (để không mất mát)
-        types = ["everyday"]
-
-    return types, clinical, life_topics, advice, risk
+    return clinical, life_topics, advice, risk
 
 def gloss_vi_short(text_en: str) -> str:
     sents = re.split(r"(?<=[\.\!\?])\s+", text_en.strip())
@@ -186,91 +105,144 @@ def gloss_vi_short(text_en: str) -> str:
     return (low[:220] + "...") if len(low) > 220 else low
 
 def make_id(source: str, main_section: str, text: str) -> str:
-    h = hashlib.sha1((main_section + text[:120]).encode()).hexdigest()[:8]
-    src_tag = "mhgap" if "mhgap" in source.lower() else ("icd11" if "icd-11" in source.lower() or "icd11" in source.lower() else "everyday")
+    h = hashlib.sha1((main_section + text[:100]).encode()).hexdigest()[:8]
+    src_tag = "mhgap" if "mhgap" in source.lower() else ("everyday" if "everyday" in source.lower() else "clinical")
     return f"{src_tag}#{main_section}_{h}"
 
+# ==============================================================================
+# 3. HÀM CẮT THÔNG MINH (STRUCTURE PRESERVING)
+# ==============================================================================
+
+def chunk_smart_preserve_structure(text: str) -> List[str]:
+    """
+    Giữ nguyên danh sách A. B. C. hoặc 1. 2. 3. để bảo toàn logic chẩn đoán.
+    """
+    text = re.sub(r'[ \t]+', ' ', text)
+    lines = text.split('\n')
+    
+    chunks = []
+    current_chunk = []
+    current_wc = 0
+    
+    list_pattern = re.compile(r'^\s*(\d+\.|[A-Z]\.|-|•|\*)\s+')
+
+    for line in lines:
+        line = line.strip()
+        if not line: continue
+        wc = len(line.split())
+        is_list_item = bool(list_pattern.match(line))
+        
+        if current_wc + wc <= CHUNK_TARGET:
+            current_chunk.append(line)
+            current_wc += wc
+        elif is_list_item and (current_wc + wc <= CHUNK_MAX):
+            current_chunk.append(line)
+            current_wc += wc
+        else:
+            if current_chunk: chunks.append("\n".join(current_chunk))
+            overlap = current_chunk[-2:] if len(current_chunk) > 2 else current_chunk[-1:]
+            current_chunk = overlap + [line]
+            current_wc = sum(len(l.split()) for l in current_chunk)
+
+    if current_chunk: chunks.append("\n".join(current_chunk))
+    return chunks
+
+# ==============================================================================
+# 4. MAIN LOOP: LOGIC ĐỊNH TUYẾN AN TOÀN (SAFETY ROUTING)
+# ==============================================================================
+
 def main():
-    total_snips = 0
+    stats = {
+        "reasoning": 0, 
+        "advice": 0, 
+        "high_risk_blocked": 0,
+        "clinical_source_blocked": 0 
+    }
+    print(f"🚀 Bắt đầu Routing V5 (DSM/ICD Hard Block)...")
+
     for path in sorted(RAW_TXT_DIR.glob("*.txt")):
         raw = path.read_text("utf-8", errors="ignore")
-        # sample để đoán nguồn
         sample = raw[:2000]
         source, url = detect_source_from_file(path.name, sample)
         condition = infer_condition(path.name)
 
-        # lọc theo allowlist nếu có
-        if ALLOW_CONDITIONS and condition not in ALLOW_CONDITIONS and source != "Everyday Essentials":
-            # cho clinical: bỏ nếu không thuộc allow; everyday thì vẫn giữ (vì nhu cầu phủ rộng)
-            pass
-
-        paras  = split_paragraphs(raw)
-        chunk_type = (
-            "clinical" if "who" in source.lower() or "icd" in source.lower()
-            else "everyday"
-        )
-        min_w, max_w, overlap_fr = CHUNK_CONFIG[chunk_type]
-        chunks = chunk_paragraphs(paras, min_w, max_w, overlap_fr)
+        chunks = chunk_smart_preserve_structure(raw)
 
         for ch in chunks:
-            # gán axes
-            types, clinical_sec, life_topics, advice, risk_band = detect_axes(ch)
+            clinical_sec, life_topics, advice_sec, risk_band = detect_axes(ch)
 
-            # bỏ đoạn quá chung chung (không có clinical/life/advice)
-            if not (clinical_sec or life_topics or advice):
+            if not (clinical_sec or life_topics or advice_sec):
                 continue
 
-            # source/type logic: nếu source là WHO → bảo đảm có "clinical" trong types
-            if "WHO" in source and "clinical" not in types:
-                types = ["clinical"] + types
-
-            # main section để hiển thị/ID
-            main_sec = (clinical_sec[0] if clinical_sec else (advice[0] if advice else "general"))
-
-            # tiêu đề song ngữ
+            main_sec = (clinical_sec[0] if clinical_sec else (advice_sec[0] if advice_sec else "general"))
             title_en = f"{condition} — {main_sec.replace('_',' ').title()}"
-            title_vi = (title_en.replace("Depression","Trầm cảm")
-                                   .replace("Anxiety","Lo âu")
-                                   .replace("SuicideRisk","Nguy cơ tự hại/tự sát")
-                                   .replace("Risk Safety","Nguy cơ An toàn")
-                                   .replace("Screening Cues","Dấu hiệu sàng lọc")
-                                   .replace("Psychoeducation","Giáo dục tâm lý")
-                                   .replace("Referral","Chuyển tuyến"))
-
             gloss_vi = gloss_vi_short(ch)
             sid = make_id(source, main_sec, ch)
 
             item = {
                 "id": sid,
-                "title_en": title_en,
-                "title_vi": title_vi,
-                "text_en": ch,
-                "gloss_vi": gloss_vi,
-                "source": source,
-                "url": url,
-                "lang": "en",
-                "axes": {
-                    "type": list(dict.fromkeys(types)),
-                    "condition": [condition] if condition else ["General"],
-                    "clinical_section": clinical_sec,
-                    "life_topics": life_topics,
-                    "advice_section": advice,
-                    "audience": [],
-                    "risk_band": risk_band
+                "content": ch,
+                "metadata": {
+                    "source": source,
+                    "url": url,
+                    "condition": condition,
+                    "risk_band": risk_band,
+                    "topics": life_topics + advice_sec + clinical_sec,
+                    "is_clinical": bool(clinical_sec),
+                    "is_advice": False 
                 },
-                "index_text": ""
+                "index_text": f"{title_en} {ch} {gloss_vi}"
             }
-            item["index_text"] = " ".join([
-                item["title_en"], item["title_vi"], item["text_en"], item["gloss_vi"]
-            ]).strip()
 
-            subdir = OUT_DIR / path.stem.lower()
-            subdir.mkdir(exist_ok=True)
-            out_path = subdir / f"{sid.replace('#','_')}.json"
-            out_path.write_text(json.dumps(item, ensure_ascii=False, indent=2), "utf-8")
-            total_snips += 1
+            # ------------------------------------------------------
+            # 🛑 QUY TẮC AN TOÀN CỐT LÕI (CORE SAFETY RULES)
+            # ------------------------------------------------------
+            
+            # Biến cờ nhận diện nguồn Chẩn đoán thuần túy
+            is_pure_diagnostic_source = "dsm" in source.lower() or "icd" in source.lower()
 
-    print(f"Done. Wrote {total_snips} snippets to {OUT_DIR}")
+            # 🟢 KHO 1: REASONING (Bác sĩ) - Lưu tất cả những gì có mùi Y khoa
+            if clinical_sec or "who" in source.lower() or is_pure_diagnostic_source:
+                subdir = OUT_DIR_REASONING / path.stem.lower()
+                subdir.mkdir(exist_ok=True)
+                with open(subdir / f"{sid}.json", "w", encoding="utf-8") as f:
+                    json.dump(item, f, ensure_ascii=False, indent=2)
+                stats["reasoning"] += 1
+
+            # 🟠 KHO 2: ADVICE (Counselor) - Chỉ lưu Lời khuyên An toàn
+            has_advice_content = (advice_sec or life_topics or "psychoeducation" in clinical_sec)
+            
+            if has_advice_content:
+                # 🔒 RULE 1: CHẶN High Risk (Tự sát -> Không khuyên lung tung)
+                if risk_band == "high":
+                    stats["high_risk_blocked"] += 1
+                    continue 
+
+                # 🔒 RULE 2: CHẶN Nguồn Chẩn đoán (DSM/ICD -> Không phải lời khuyên)
+                # Đây là fix cho trường hợp ASD "Habit" bạn phát hiện
+                if is_pure_diagnostic_source:
+                    stats["clinical_source_blocked"] += 1
+                    continue
+
+                # ✅ Đã qua các chốt chặn -> Lưu vào Advice
+                subdir = OUT_DIR_ADVICE / path.stem.lower()
+                subdir.mkdir(exist_ok=True)
+                
+                item_advice = item.copy()
+                item_advice["metadata"]["is_advice"] = True
+                item_advice["id"] = f"adv_{sid}"
+                
+                with open(subdir / f"adv_{sid}.json", "w", encoding="utf-8") as f:
+                    json.dump(item_advice, f, ensure_ascii=False, indent=2)
+                stats["advice"] += 1
+
+    print(f"="*50)
+    print(f"📊 THỐNG KÊ FINAL:")
+    print(f"   ✅ Reasoning DB:    {stats['reasoning']} chunks (Gồm cả DSM/ICD/mhGAP)")
+    print(f"   ✅ Advice DB:       {stats['advice']} chunks (Sạch, an toàn)")
+    print(f"   🛡️ Chặn High-Risk:  {stats['high_risk_blocked']} chunks")
+    print(f"   🛡️ Chặn DSM/ICD:    {stats['clinical_source_blocked']} chunks (Loại bỏ False Positive)")
+    print(f"="*50)
 
 if __name__ == "__main__":
     main()

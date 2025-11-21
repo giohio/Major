@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_884e2da8",
+  "content": "classes (e.g., dexamethasone), the code for “other substance” should\nbe used; and in cases in which a substance is judged to be an etiolog-\nical factor but the specific class of substance is unknown, the cate-\ngory “unknown substance” should be used.\nWhen recording the name of the disorder, the comorbid substance\nuse disorder (if any) is listed first, followed by the word “with,” fol-\nlowed by the name of the substance intoxication delirium, followed\nby the course (i.e., acute, persistent), followed by the specifier indi-\ncating level of psychomotor activity (i.e., hyperactive, hypoactive,\nmixed level of activity). For example, in the case of acute hyperactive\nintoxication delirium occurring in a man with a severe cocaine use\ndisorder, the diagnosis is F14.221 severe cocaine use disorder with\ncocaine intoxication delirium, acute, hyperactive. A separate diagno-\nsis of the comorbid severe cocaine use disorder is not given. If the\nintoxication delirium occurs without a comorbid substance use dis-\norder (e.g., after a one-time heavy use of the substance), no accompa-\nnying substance use disorder is noted (e.g., F16.921 phencyclidine in-\ntoxication delirium, acute, hypoactive).\nSubstance withdrawal delirium\nICD-9-CM. The name of the substance/medication withdrawal de-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues classes (e.g., dexamethasone), the code for “other substance” should\nbe used; and in cases in which a substance is judged to be an etiolog-\nical factor but the specific class of substance is unknown, the cate-\ngory “unknown substance” should be used.\nWhen recording the name of the disorder, the comorbid substance\nuse disorder (if any) is listed first, followed by the word “with,” fol-\nlowed by the name of the substance intoxication delirium, followed\nby the course (i.e., acute, persistent), followed by the specifier indi-\ncating level of psychomotor activity (i.e., hyperactive, hypoactive,\nmixed level of activity). For example, in the case of acute hyperactive\nintoxication delirium occurring in a man with a severe cocaine use\ndisorder, the diagnosis is F14.221 severe cocaine use disorder with\ncocaine intoxication delirium, acute, hyperactive. A separate diagno-\nsis of the comorbid severe cocaine use disorder is not given. If the\nintoxication delirium occurs without a comorbid substance use dis-\norder (e.g., after a one-time heavy use of the substance), no accompa-\nnying substance use disorder is noted (e.g., F16.921 phencyclidine in-\ntoxication delirium, acute, hypoactive).\nSubstance withdrawal delirium\nICD-9-CM. The name of the substance/medication withdrawal de- Classes (e.g., dexamethasone), the code for “other substance” should\nbe used; and in cases in which a substance is judged to be an etiolog-\nical factor but the specific class of substance is unknown, the cate-\ngory “unkn..."
+}

@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "corpus": "DSM-5",
+    "num_snippets": 203,
+    "db_path": "E:\\Major\\ml_training\\scripts\\vector_db\\..\\..\\vector_db\\Deep_Reasoning\\DSM-5"
+  },
+  {
+    "corpus": "ICD-11",
+    "num_snippets": 27,
+    "db_path": "E:\\Major\\ml_training\\scripts\\vector_db\\..\\..\\vector_db\\Deep_Reasoning\\ICD-11"
+  },
+  {
+    "corpus": "mhGAP",
+    "num_snippets": 1,
+    "db_path": "E:\\Major\\ml_training\\scripts\\vector_db\\..\\..\\vector_db\\Deep_Reasoning\\mhGAP"
+  },
+  {
+    "corpus": "mhGAPv2",
+    "num_snippets": 47,
+    "db_path": "E:\\Major\\ml_training\\scripts\\vector_db\\..\\..\\vector_db\\Deep_Reasoning\\mhGAPv2"
+  }
+]

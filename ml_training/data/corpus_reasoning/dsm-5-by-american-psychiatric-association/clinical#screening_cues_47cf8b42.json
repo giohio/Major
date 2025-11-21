@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_47cf8b42",
+  "content": "the comorbid severe alcohol use disorder is not given. If the substance-\ninduced neurocognitive disorder occurs without a comorbid sub-\nstance use disorder (e.g., after a sporadic heavy use of inhalants), no\naccompanying substance use disorder is noted (e.g., F18.988 inhal-\nant-induced mild neurocognitive disorder).\nMajor or Mild Neurocognitive Disorder\nDue to HIV Infection\nA. The criteria are met for major or mild neurocognitive disorder.\nB. There is documented infection with human immunodeficiency vi-\nrus (HIV).\nC. The neurocognitive disorder is not better explained by non-HIV\nconditions, including secondary brain diseases such as progres-\nsive multifocal leukoencephalopathy or cryptococcal meningitis.\nD. The neurocognitive disorder is not attributable to another medi-\ncal condition and is not better explained by a mental disorder.\nCoding note: For major neurocognitive disorder due to HIV infection,\nwith behavioral disturbance, code first 042 (B20) HIV infection, fol-\nlowed by 294.11 (F02.81) major neurocognitive disorder due to HIV in-\nfection, with behavioral disturbance. For major neurocognitive disorder\ndue to HIV infection, without behavioral disturbance, code first 042\n(B20) HIV infection, followed by 294.10 (F02.80) major neurocognitive\ndisorder due to HIV infection, without behavioral disturbance.\n316 Neurocognitive Disorders\nFor mild neurocognitive disorder due to HIV infection, code 331.83",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues the comorbid severe alcohol use disorder is not given. If the substance-\ninduced neurocognitive disorder occurs without a comorbid sub-\nstance use disorder (e.g., after a sporadic heavy use of inhalants), no\naccompanying substance use disorder is noted (e.g., F18.988 inhal-\nant-induced mild neurocognitive disorder).\nMajor or Mild Neurocognitive Disorder\nDue to HIV Infection\nA. The criteria are met for major or mild neurocognitive disorder.\nB. There is documented infection with human immunodeficiency vi-\nrus (HIV).\nC. The neurocognitive disorder is not better explained by non-HIV\nconditions, including secondary brain diseases such as progres-\nsive multifocal leukoencephalopathy or cryptococcal meningitis.\nD. The neurocognitive disorder is not attributable to another medi-\ncal condition and is not better explained by a mental disorder.\nCoding note: For major neurocognitive disorder due to HIV infection,\nwith behavioral disturbance, code first 042 (B20) HIV infection, fol-\nlowed by 294.11 (F02.81) major neurocognitive disorder due to HIV in-\nfection, with behavioral disturbance. For major neurocognitive disorder\ndue to HIV infection, without behavioral disturbance, code first 042\n(B20) HIV infection, followed by 294.10 (F02.80) major neurocognitive\ndisorder due to HIV infection, without behavioral disturbance.\n316 Neurocognitive Disorders\nFor mild neurocognitive disorder due to HIV infection, code 331.83 The comorbid severe alcohol use disorder is not given. if the substance-\ninduced neurocognitive disorder occurs without a comorbid sub-\nstance use disorder (e.g., after a sporadic heavy use of inhalants), no\naccompanying..."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_c9e48782",
+  "content": "other stimulant use disorder with amphetamine-type or other stimu-\nlant-induced depressive disorder. Similarly, if there is comorbid co-\ncaine-induced depressive disorder and cocaine use disorder, only the\ncocaine-induced depressive disorder code is given, with the 4th char-\nacter indicating whether the comorbid cocaine use disorder is mild,\nmoderate, or severe: F14.14 for mild cocaine use disorder with co-\ncaine-induced depressive disorder or F14.24 for a moderate or severe\ncocaine use disorder with cocaine-induced depressive disorder.\nSpecify current severity:\nMild: Presence of 2–3 symptoms\n305.70 (F15.10) Amphetamine-type substance\n305.60 (F14.10) Cocaine\n305.70 (F15.10) Other or unspecified stimulant\n270 Substance-Related and Addictive Disorders\nModerate: Presence of 4–5 symptoms\n304.40 (F15.20) Amphetamine-type substance\n304.20 (F14.20) Cocaine\n304.40 (F15.20) Other or unspecified stimulant\nSevere: Presence of 6 or more symptoms\n304.40 (F15.20) Amphetamine-type substance\n304.20 (F14.20) Cocaine\n304.40 (F15.20) Other or unspecified stimulant\nStimulant Intoxication\nA. Recent use of an amphetamine-type substance, cocaine, or\nother stimulant.\nB. Clinically significant problematic behavioral or psychological\nchanges (e.g., euphoria or affective blunting; changes in socia-\nbility; hypervigilance; interpersonal sensitivity; anxiety, tension,\nor anger; stereotyped behaviors; impaired judgment) that devel-\noped during, or shortly after, use of a stimulant.\nC. Two (or more) of the following signs or symptoms, developing",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "emotions",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues other stimulant use disorder with amphetamine-type or other stimu-\nlant-induced depressive disorder. Similarly, if there is comorbid co-\ncaine-induced depressive disorder and cocaine use disorder, only the\ncocaine-induced depressive disorder code is given, with the 4th char-\nacter indicating whether the comorbid cocaine use disorder is mild,\nmoderate, or severe: F14.14 for mild cocaine use disorder with co-\ncaine-induced depressive disorder or F14.24 for a moderate or severe\ncocaine use disorder with cocaine-induced depressive disorder.\nSpecify current severity:\nMild: Presence of 2–3 symptoms\n305.70 (F15.10) Amphetamine-type substance\n305.60 (F14.10) Cocaine\n305.70 (F15.10) Other or unspecified stimulant\n270 Substance-Related and Addictive Disorders\nModerate: Presence of 4–5 symptoms\n304.40 (F15.20) Amphetamine-type substance\n304.20 (F14.20) Cocaine\n304.40 (F15.20) Other or unspecified stimulant\nSevere: Presence of 6 or more symptoms\n304.40 (F15.20) Amphetamine-type substance\n304.20 (F14.20) Cocaine\n304.40 (F15.20) Other or unspecified stimulant\nStimulant Intoxication\nA. Recent use of an amphetamine-type substance, cocaine, or\nother stimulant.\nB. Clinically significant problematic behavioral or psychological\nchanges (e.g., euphoria or affective blunting; changes in socia-\nbility; hypervigilance; interpersonal sensitivity; anxiety, tension,\nor anger; stereotyped behaviors; impaired judgment) that devel-\noped during, or shortly after, use of a stimulant.\nC. Two (or more) of the following signs or symptoms, developing Other stimulant use disorder with amphetamine-type or other stimu-\nlant-induced depressive disorder. similarly, if there is comorbid co-\ncaine-induced depressive disorder and cocaine use disorder, only the\ncocaine-induce..."
+}

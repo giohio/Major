@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_0e105dd7",
+  "content": "episode is perinatal.\nSymptomatic and course presentation specifiers for mood episodes\nin bipolar type I and bipolar type II disorders\nAdditional specifiers may be applied to describe a current mood episode in the context of bipolar\ntype I disorder (depressive, manic, mixed or hypomanic episodes) and bipolar type II disorder\n(depressive or hypomanic episodes). These specifiers indicate other important features of the\nclinical presentation or of the course, onset and pattern of mood episodes. These specifiers are\nnot mutually exclusive, and as many may be added as apply. (Note that these same specifiers may\nalso be applied to current depressive episodes in the context of depressive disorders, with the\nexception of rapid cycling, which is specific to bipolar type I and bipolar type II disorders.)\nAvailable specifiers are as follows:\n6A80.0 with prominent anxiety symptoms\n• This specifier can be applied if, in the context of a current depressive, manic, mixed\nor hypomanic episode, prominent and clinically significant anxiety symptoms (e.g.\nfeeling nervous, anxious or on edge, not being able to control worrying thoughts, fear\nthat something awful will happen, having trouble relaxing, muscle tension, autonomic",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "coping_skill",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues episode is perinatal.\nSymptomatic and course presentation specifiers for mood episodes\nin bipolar type I and bipolar type II disorders\nAdditional specifiers may be applied to describe a current mood episode in the context of bipolar\ntype I disorder (depressive, manic, mixed or hypomanic episodes) and bipolar type II disorder\n(depressive or hypomanic episodes). These specifiers indicate other important features of the\nclinical presentation or of the course, onset and pattern of mood episodes. These specifiers are\nnot mutually exclusive, and as many may be added as apply. (Note that these same specifiers may\nalso be applied to current depressive episodes in the context of depressive disorders, with the\nexception of rapid cycling, which is specific to bipolar type I and bipolar type II disorders.)\nAvailable specifiers are as follows:\n6A80.0 with prominent anxiety symptoms\n• This specifier can be applied if, in the context of a current depressive, manic, mixed\nor hypomanic episode, prominent and clinically significant anxiety symptoms (e.g.\nfeeling nervous, anxious or on edge, not being able to control worrying thoughts, fear\nthat something awful will happen, having trouble relaxing, muscle tension, autonomic Episode is perinatal. symptomatic and course presentation specifiers for mood episodes\nin bipolar type i and bipolar type ii disorders\nadditional specifiers may be applied to describe a current mood episode in the contex..."
+}

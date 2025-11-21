@@ -1,0 +1,16 @@
+{
+  "id": "clinical#screening_cues_91c1d3a8",
+  "content": "6C41.23 SF\nSynthetic 6C42.0 6C42.10 E 6C42.20 C 6C42.3 6C42.4\ncannabinoids\n6C42.11 C 6C42.21 EF\n6C42.22 SP\n6C42.23 SF\nOpioids 6C43.0 6C43.10 E 6C43.20 C 6C43.3 6C43.4\n6C43.11 C 6C43.21 EF\n6C43.22 SP\n6C43.23 SF\nDiagnostic categories that apply to the various classes of psychoactive substances\nDisorders due to substance use or addictive behaviours 451\nTable 6.13. contd\nEpisode Harmful pattern Substance Substance Substance\nof harmful of psychoactive dependenceb intoxication withdrawalc\npsychoactive substance usea\nsubstance use\nSedatives, hypnotics 6C44.0 6C44.10 E 6C44.20 C 6C44.3 6C44.40 U\nor anxiolytics\n6C44.11 C 6C44.21 EF 6C44.41 PD\n6C44.22 SP 6C44.42 S\n6C44.23 SF 6C44.43 PD&S\nCocaine 6C45.0 6C45.10 E 6C45.20 C 6C45.3 6C45.4\n6C45.11 C 6C45.21 EF\n6C45.22 SP\n6C45.23 SF\nStimulants, including 6C46.0 6C46.10 E 6C46.20 C 6C46.3 6C46.4\namfetamines,\nmethamfetamine and 6C46.11 C 6C46.21 EF\nmethcathinone\n6C46.22 SP\n6C46.23 SF\nSynthetic cathinones 6C47.0 6C47.10 E 6C47.20 C 6C47.3 6C47.4\n6C47.11 C 6C47.21 EF\n6C47.22 SP\n6C47.23 SF\nCaffeine 6C48.0 6C48.10 E N/A 6C48.2 6C48.3\n6C48.11 C\nHallucinogens 6C49.0 6C49.10 E 6C49.20 C 6C49.3 N/A\n6C49.11 C 6C49.21 EF\n6C49.22 SP\n6C49.23 SF",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues 6C41.23 SF\nSynthetic 6C42.0 6C42.10 E 6C42.20 C 6C42.3 6C42.4\ncannabinoids\n6C42.11 C 6C42.21 EF\n6C42.22 SP\n6C42.23 SF\nOpioids 6C43.0 6C43.10 E 6C43.20 C 6C43.3 6C43.4\n6C43.11 C 6C43.21 EF\n6C43.22 SP\n6C43.23 SF\nDiagnostic categories that apply to the various classes of psychoactive substances\nDisorders due to substance use or addictive behaviours 451\nTable 6.13. contd\nEpisode Harmful pattern Substance Substance Substance\nof harmful of psychoactive dependenceb intoxication withdrawalc\npsychoactive substance usea\nsubstance use\nSedatives, hypnotics 6C44.0 6C44.10 E 6C44.20 C 6C44.3 6C44.40 U\nor anxiolytics\n6C44.11 C 6C44.21 EF 6C44.41 PD\n6C44.22 SP 6C44.42 S\n6C44.23 SF 6C44.43 PD&S\nCocaine 6C45.0 6C45.10 E 6C45.20 C 6C45.3 6C45.4\n6C45.11 C 6C45.21 EF\n6C45.22 SP\n6C45.23 SF\nStimulants, including 6C46.0 6C46.10 E 6C46.20 C 6C46.3 6C46.4\namfetamines,\nmethamfetamine and 6C46.11 C 6C46.21 EF\nmethcathinone\n6C46.22 SP\n6C46.23 SF\nSynthetic cathinones 6C47.0 6C47.10 E 6C47.20 C 6C47.3 6C47.4\n6C47.11 C 6C47.21 EF\n6C47.22 SP\n6C47.23 SF\nCaffeine 6C48.0 6C48.10 E N/A 6C48.2 6C48.3\n6C48.11 C\nHallucinogens 6C49.0 6C49.10 E 6C49.20 C 6C49.3 N/A\n6C49.11 C 6C49.21 EF\n6C49.22 SP\n6C49.23 SF 6c41.23 sf\nsynthetic 6c42.0 6c42.10 e 6c42.20 c 6c42.3 6c42.4\ncannabinoids\n6c42.11 c 6c42.21 ef\n6c42.22 sp\n6c42.23 sf\nopioids 6c43.0 6c43.10 e 6c43.20 c 6c43.3 6c43.4\n6c43.11 c 6c43.21 ef\n6c43.22 sp\n6c43.23 sf\ndiagnostic..."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_678f1e5c",
+  "content": "medications\n6C4G.5 Delirium induced by unknown or unspecified psychoactive substance\nA diagnosis corresponding to the pattern of use of the relevant psychoactive substance (e.g.\nepisode of harmful psychoactive substance use, harmful pattern of psychoactive substance use,\nsubstance dependence) may also be assigned.\nIf the delirium is attributed to a substance or medication together with one or more medical\nconditions, the category 6D70.2 Delirium due to multiple etiological factors should be used\ninstead. This may include medications being used to manage the medical condition.\n6D70.2 Delirium due to multiple etiological factors\nEssential (required) features\n• All diagnostic requirements for delirium are met.\n• There is evidence from the history, physical examination or laboratory findings that the\ndelirium is caused by either:\n• the direct physiological consequences of multiple diseases classified elsewhere; or\n• one or more diseases classified elsewhere and the direct effects of a substance or medication\non the central nervous system.\n• This judgement depends on establishing the following.\n• The medical conditions are known to be capable of producing delirium.\n• If applicable, the amount and duration of use of the substance or withdrawal from the\nsubstance is known to be capable of producing delirium.\n• If applicable, the duration or severity of the symptoms is substantially in excess of the",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues medications\n6C4G.5 Delirium induced by unknown or unspecified psychoactive substance\nA diagnosis corresponding to the pattern of use of the relevant psychoactive substance (e.g.\nepisode of harmful psychoactive substance use, harmful pattern of psychoactive substance use,\nsubstance dependence) may also be assigned.\nIf the delirium is attributed to a substance or medication together with one or more medical\nconditions, the category 6D70.2 Delirium due to multiple etiological factors should be used\ninstead. This may include medications being used to manage the medical condition.\n6D70.2 Delirium due to multiple etiological factors\nEssential (required) features\n• All diagnostic requirements for delirium are met.\n• There is evidence from the history, physical examination or laboratory findings that the\ndelirium is caused by either:\n• the direct physiological consequences of multiple diseases classified elsewhere; or\n• one or more diseases classified elsewhere and the direct effects of a substance or medication\non the central nervous system.\n• This judgement depends on establishing the following.\n• The medical conditions are known to be capable of producing delirium.\n• If applicable, the amount and duration of use of the substance or withdrawal from the\nsubstance is known to be capable of producing delirium.\n• If applicable, the duration or severity of the symptoms is substantially in excess of the Medications\n6c4g.5 delirium induced by unknown or unspecified psychoactive substance\na diagnosis corresponding to the pattern of use of the relevant psychoactive substance (e.g. episode of harmful psychoactive substance ..."
+}

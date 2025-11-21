@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_153829d3",
+  "content": "For opioid intoxication without perceptual disturbances: If a\nmild opioid use disorder is comorbid, the ICD-10-CM code is\nF11.129, and if a moderate or severe opioid use disorder is co-\nmorbid, the ICD-10-CM code is F11.229. If there is no comorbid\nopioid use disorder, then the ICD-10-CM code is F11.929.\nFor opioid intoxication with perceptual disturbances: If a\nmild opioid use disorder is comorbid, the ICD-10-CM code is\nF11.122, and if a moderate or severe opioid use disorder is co-\nmorbid, the ICD-10-CM code is F11.222. If there is no comorbid\nopioid use disorder, then the ICD-10-CM code is F11.922.\nOpioid Withdrawal\n292.0 (F11.23)\nA. Presence of either of the following:\n1. Cessation of (or reduction in) opioid use that has been heavy\nand prolonged (i.e., several weeks or longer).\n2. Administration of an opioid antagonist after a period of opioid\nuse.\nB. Three (or more) of the following developing within minutes to\nseveral days after Criterion A:\n1. Dysphoric mood.\n2. Nausea or vomiting.\n260 Substance-Related and Addictive Disorders\n3. Muscle aches.\n4. Lacrimation or rhinorrhea.\n5. Pupillary dilation, piloerection, or sweating.\n6. Diarrhea.\n7. Yawning.\n8. Fever.\n9. Insomnia.\nC. The signs or symptoms in Criterion B cause clinically significant",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues For opioid intoxication without perceptual disturbances: If a\nmild opioid use disorder is comorbid, the ICD-10-CM code is\nF11.129, and if a moderate or severe opioid use disorder is co-\nmorbid, the ICD-10-CM code is F11.229. If there is no comorbid\nopioid use disorder, then the ICD-10-CM code is F11.929.\nFor opioid intoxication with perceptual disturbances: If a\nmild opioid use disorder is comorbid, the ICD-10-CM code is\nF11.122, and if a moderate or severe opioid use disorder is co-\nmorbid, the ICD-10-CM code is F11.222. If there is no comorbid\nopioid use disorder, then the ICD-10-CM code is F11.922.\nOpioid Withdrawal\n292.0 (F11.23)\nA. Presence of either of the following:\n1. Cessation of (or reduction in) opioid use that has been heavy\nand prolonged (i.e., several weeks or longer).\n2. Administration of an opioid antagonist after a period of opioid\nuse.\nB. Three (or more) of the following developing within minutes to\nseveral days after Criterion A:\n1. Dysphoric mood.\n2. Nausea or vomiting.\n260 Substance-Related and Addictive Disorders\n3. Muscle aches.\n4. Lacrimation or rhinorrhea.\n5. Pupillary dilation, piloerection, or sweating.\n6. Diarrhea.\n7. Yawning.\n8. Fever.\n9. Insomnia.\nC. The signs or symptoms in Criterion B cause clinically significant For opioid intoxication without perceptual disturbances: if a\nmild opioid use disorder is comorbid, the icd-10-cm code is\nf11.129, and if a moderate or severe opioid use disorder is co-\nmorbid, the icd-10-cm code is f11...."
+}

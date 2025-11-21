@@ -1,0 +1,16 @@
+{
+  "id": "clinical#general_c2050860",
+  "content": "episode. Codes are as follows:\nSeverity/course specifier Single episode Recurrent episode*\nMild (p. 114) 296.21 (F32.0) 296.31 (F33.0)\nModerate (p. 114) 296.22 (F32.1) 296.32 (F33.1)\nSevere (p. 114) 296.23 (F32.2) 296.33 (F33.2)\nWith psychotic features** 296.24 (F32.3) 296.34 (F33.3)\n(p. 111)\nIn partial remission (p. 114) 296.25 (F32.4) 296.35 (F33.41)\n1In distinguishing grief from a major depressive episode (MDE), it is useful to\nconsider that in grief the predominant affect is feelings of emptiness and loss,\nwhile in an MDE, it is persistent depressed mood and the inability to anticipate\nhappiness or pleasure. The dysphoria in grief is likely to decrease in intensity\nover days to weeks and occurs in waves, the so-called pangs of grief. These\nwaves tend to be associated with thoughts or reminders of the deceased. The\ndepressed mood of an MDE is more persistent and not tied to specific thoughts\nor preoccupations. The pain of grief may be accompanied by positive emotions\nand humor that are uncharacteristic of the pervasive unhappiness and misery\ncharacteristic of an MDE. The thought content associated with grief generally\nfeatures a preoccupation with thoughts and memories of the deceased, rather",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "emotions"
+    ],
+    "is_clinical": false,
+    "is_advice": false
+  },
+  "index_text": "General — General episode. Codes are as follows:\nSeverity/course specifier Single episode Recurrent episode*\nMild (p. 114) 296.21 (F32.0) 296.31 (F33.0)\nModerate (p. 114) 296.22 (F32.1) 296.32 (F33.1)\nSevere (p. 114) 296.23 (F32.2) 296.33 (F33.2)\nWith psychotic features** 296.24 (F32.3) 296.34 (F33.3)\n(p. 111)\nIn partial remission (p. 114) 296.25 (F32.4) 296.35 (F33.41)\n1In distinguishing grief from a major depressive episode (MDE), it is useful to\nconsider that in grief the predominant affect is feelings of emptiness and loss,\nwhile in an MDE, it is persistent depressed mood and the inability to anticipate\nhappiness or pleasure. The dysphoria in grief is likely to decrease in intensity\nover days to weeks and occurs in waves, the so-called pangs of grief. These\nwaves tend to be associated with thoughts or reminders of the deceased. The\ndepressed mood of an MDE is more persistent and not tied to specific thoughts\nor preoccupations. The pain of grief may be accompanied by positive emotions\nand humor that are uncharacteristic of the pervasive unhappiness and misery\ncharacteristic of an MDE. The thought content associated with grief generally\nfeatures a preoccupation with thoughts and memories of the deceased, rather Episode. codes are as follows:\nseverity/course specifier single episode recurrent episode*\nmild (p."
+}

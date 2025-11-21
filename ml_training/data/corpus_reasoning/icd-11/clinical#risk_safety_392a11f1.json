@@ -1,0 +1,18 @@
+{
+  "id": "clinical#risk_safety_392a11f1",
+  "content": "Mild The person expresses significant depressed mood, but there are intermittent\n6A25.2&XS5W periods of relief. The depressive symptoms have some, but not considerable,\nimpact on at least some areas of personal, social or occupational functioning.\nModerate The depressed mood is present continually, although its intensity may vary.\n6A25.2&XS0T Suicidal ideation may accompany the depressed mood when it is more intense.\nThe depressive symptoms cause considerable difficulty with personal, social or\noccupational functioning.\nSevere The intensity of the depressed mood is overwhelming to the person. This level\n6A25.2&XS255 of severity may be indicated by intense suicidal ideation or suicide attempts. The\ndepressive symptoms seriously affect all areas of functioning (personal, social\nand occupational) to such an extent that the person is unable to function, except\nto a very limited degree.\nSeverity unspecified Depressive mood symptoms have been present during the past week, but it is\nnot possible to make a severity rating based on the available information.\n6A25.2\n6A25.3 Manic mood symptoms\nThis specifier may be used together with a diagnosis from the grouping of schizophrenia and\nother primary psychotic disorders to indicate the extent to which manic mood symptoms are",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "high",
+    "topics": [
+      "stress",
+      "risk_safety",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Risk Safety Mild The person expresses significant depressed mood, but there are intermittent\n6A25.2&XS5W periods of relief. The depressive symptoms have some, but not considerable,\nimpact on at least some areas of personal, social or occupational functioning.\nModerate The depressed mood is present continually, although its intensity may vary.\n6A25.2&XS0T Suicidal ideation may accompany the depressed mood when it is more intense.\nThe depressive symptoms cause considerable difficulty with personal, social or\noccupational functioning.\nSevere The intensity of the depressed mood is overwhelming to the person. This level\n6A25.2&XS255 of severity may be indicated by intense suicidal ideation or suicide attempts. The\ndepressive symptoms seriously affect all areas of functioning (personal, social\nand occupational) to such an extent that the person is unable to function, except\nto a very limited degree.\nSeverity unspecified Depressive mood symptoms have been present during the past week, but it is\nnot possible to make a severity rating based on the available information.\n6A25.2\n6A25.3 Manic mood symptoms\nThis specifier may be used together with a diagnosis from the grouping of schizophrenia and\nother primary psychotic disorders to indicate the extent to which manic mood symptoms are Mild the person expresses significant depressed mood, but there are intermittent\n6a25.2&xs5w periods of relief. the depressive symptoms have some, but not considerable,\nimpact on at least some areas of personal, social o..."
+}

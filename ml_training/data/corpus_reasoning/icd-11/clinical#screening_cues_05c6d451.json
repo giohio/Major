@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_05c6d451",
+  "content": "feeling nervous, anxious or on edge, not being able to control worrying thoughts, fear\nthat something awful will happen, having trouble relaxing, muscle tension, autonomic\nsymptoms) have been present for most of the time during the episode. If there have been\npanic attacks during the current depressive or mixed episode, these should be recorded\nseparately (see the with panic attacks specifier). When the diagnostic requirements for\nboth a mood episode and an anxiety or fear-related disorder are met, the anxiety or fear-\nrelated disorder should also be diagnosed.\n6A80.1 with panic attacks\n• This specifier can be applied if, in the context of a current episode, there have been panic\nattacks during the past month that occur specifically in response to depressive ruminations\nor other anxiety-provoking cognitions. If panic attacks occur exclusively in response to\nsuch thoughts, the with panic attacks specifier should be applied rather than an additional\nco-occurring diagnosis of panic disorder. If some panic attacks over the course of the\ndepressive or mixed episode have been unexpected and not exclusively in response to\ndepressive or anxiety-provoking thoughts, and the full diagnostic requirements for panic\ndisorder are met, a separate diagnosis of panic disorder should be assigned.",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "coping_skill",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues feeling nervous, anxious or on edge, not being able to control worrying thoughts, fear\nthat something awful will happen, having trouble relaxing, muscle tension, autonomic\nsymptoms) have been present for most of the time during the episode. If there have been\npanic attacks during the current depressive or mixed episode, these should be recorded\nseparately (see the with panic attacks specifier). When the diagnostic requirements for\nboth a mood episode and an anxiety or fear-related disorder are met, the anxiety or fear-\nrelated disorder should also be diagnosed.\n6A80.1 with panic attacks\n• This specifier can be applied if, in the context of a current episode, there have been panic\nattacks during the past month that occur specifically in response to depressive ruminations\nor other anxiety-provoking cognitions. If panic attacks occur exclusively in response to\nsuch thoughts, the with panic attacks specifier should be applied rather than an additional\nco-occurring diagnosis of panic disorder. If some panic attacks over the course of the\ndepressive or mixed episode have been unexpected and not exclusively in response to\ndepressive or anxiety-provoking thoughts, and the full diagnostic requirements for panic\ndisorder are met, a separate diagnosis of panic disorder should be assigned. Feeling nervous, anxious or on edge, not being able to control worrying thoughts, fear\nthat something awful will happen, having trouble relaxing, muscle tension, autonomic\nsymptoms) have been present for most of the time..."
+}

@@ -19,7 +19,7 @@ CORPUS_DIR = SCRIPT_DIR / "../../data/reasoning"     # 4 folder tri thức: dsm5
 DB_DIR     = SCRIPT_DIR / "../../vector_db/Deep_Reasoning"              # nơi lưu vector database
 DB_DIR.mkdir(parents=True, exist_ok=True)
 
-EMB_MODEL  = "BAAI/bge-m3"           # model embedding mạnh, đa ngôn ngữ
+EMB_MODEL  = "BAAI/bge-small-en-v1.5"  # Smaller model for 4GB GPU
 os.environ["USE_TF"] = "0"           # tắt TensorFlow để tránh xung đột Keras 3
 
 # ====== 2️⃣ KHỞI TẠO EMBEDDING MODEL ======
@@ -27,7 +27,7 @@ print(f"🚀 Loading embedding model: {EMB_MODEL}")
 emb = HuggingFaceEmbeddings(
     model_name=EMB_MODEL,
     model_kwargs={"device": "cuda"},
-    encode_kwargs={"batch_size": 1}  # Reduced to 1 to prevent OOM
+    encode_kwargs={"batch_size": 8}  # Can use larger batch with smaller model
 )
 # ====== 3️⃣ TẠO VECTOR DATABASE RIÊNG CHO MỖI FOLDER ======
 manifest = []

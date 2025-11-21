@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_2adaee13",
+  "content": "nist, an agonist/antagonist, or a full antagonist such as oral nal-\ntrexone or depot naltrexone.\nIn a controlled environment: This additional specifier is used if the\nindividual is in an environment where access to opioids is restricted.\nCoding based on current severity: Note for ICD-10-CM codes: If an\nopioid intoxication, opioid withdrawal, or another opioid-induced mental\ndisorder is also present, do not use the codes below for opioid use\ndisorder. Instead, the comorbid opioid use disorder is indicated in the\n4th character of the opioid-induced disorder code (see the coding note\nfor opioid intoxication, opioid withdrawal, or specific opioid-induced\nmental disorder). For example, if there is comorbid opioid-induced de-\npressive disorder and opioid use disorder, only the opioid-induced\ndepressive disorder code is given, with the 4th character indicating\nwhether the comorbid opioid use disorder is mild, moderate, or se-\nvere: F11.14 for mild opioid use disorder with opioid-induced depres-\nsive disorder or F11.24 for a moderate or severe opioid use disorder\nwith opioid-induced depressive disorder.\nSpecify current severity:\n305.50 (F11.10) Mild: Presence of 2–3 symptoms.\n304.00 (F11.20) Moderate: Presence of 4–5 symptoms.\n304.00 (F11.20) Severe: Presence of 6 or more symptoms.\nOpioid Intoxication\nA. Recent use of an opioid.\nB. Clinically significant problematic behavioral or psychological",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues nist, an agonist/antagonist, or a full antagonist such as oral nal-\ntrexone or depot naltrexone.\nIn a controlled environment: This additional specifier is used if the\nindividual is in an environment where access to opioids is restricted.\nCoding based on current severity: Note for ICD-10-CM codes: If an\nopioid intoxication, opioid withdrawal, or another opioid-induced mental\ndisorder is also present, do not use the codes below for opioid use\ndisorder. Instead, the comorbid opioid use disorder is indicated in the\n4th character of the opioid-induced disorder code (see the coding note\nfor opioid intoxication, opioid withdrawal, or specific opioid-induced\nmental disorder). For example, if there is comorbid opioid-induced de-\npressive disorder and opioid use disorder, only the opioid-induced\ndepressive disorder code is given, with the 4th character indicating\nwhether the comorbid opioid use disorder is mild, moderate, or se-\nvere: F11.14 for mild opioid use disorder with opioid-induced depres-\nsive disorder or F11.24 for a moderate or severe opioid use disorder\nwith opioid-induced depressive disorder.\nSpecify current severity:\n305.50 (F11.10) Mild: Presence of 2–3 symptoms.\n304.00 (F11.20) Moderate: Presence of 4–5 symptoms.\n304.00 (F11.20) Severe: Presence of 6 or more symptoms.\nOpioid Intoxication\nA. Recent use of an opioid.\nB. Clinically significant problematic behavioral or psychological Nist, an agonist/antagonist, or a full antagonist such as oral nal-\ntrexone or depot naltrexone. in a controlled environment: this additional specifier is used if the\nindividual is in an environment where access to opioi..."
+}

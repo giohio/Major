@@ -1,0 +1,16 @@
+{
+  "id": "clinical#screening_cues_b4569d0c",
+  "content": "When ingestion of psychoactive substances results in symptoms of overdose (e.g. coma, life-\nthreatening cardiac or respiratory suppression), a diagnosis from the grouping of harmful effects\nof substances in Chapter 22 on injury, poisoning or certain other consequences of external causes\nshould also be assigned.\nHarmful pattern of psychoactive substance use\nAvailable categories by substance class\n6C40.1 Harmful pattern of use of alcohol\n6C41.1 Harmful pattern of use of cannabis\n6C42.1 Harmful pattern of use of synthetic cannabinoids\n6C43.1 Harmful pattern of use of opioids\n6C44.1 Harmful pattern of use of sedatives, hypnotics or anxiolytics\n6C45.1 Harmful pattern of use of cocaine\n6C46.1 Harmful pattern of use of stimulants, including amfetamines, methamfetamine\nand methcathinone\n6C47.1 Harmful pattern of use of synthetic cathinones\n6C48.1 Harmful pattern of use of caffeine\n6C49.1 Harmful pattern of use of hallucinogens\n6C4A.1 Harmful pattern of use of nicotine\n6C4B.1 Harmful pattern of use of volatile inhalants\n6C4C.1 Harmful pattern of use of MDMA or related drugs, including MDA\n6C4D.1 Harmful pattern of use of dissociative drugs, including ketamine and PCP\n6C4E.1 Harmful pattern of use of other specified psychoactive substance\n6C4F.1 Harmful pattern of use of multiple specified psychoactive substances",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues When ingestion of psychoactive substances results in symptoms of overdose (e.g. coma, life-\nthreatening cardiac or respiratory suppression), a diagnosis from the grouping of harmful effects\nof substances in Chapter 22 on injury, poisoning or certain other consequences of external causes\nshould also be assigned.\nHarmful pattern of psychoactive substance use\nAvailable categories by substance class\n6C40.1 Harmful pattern of use of alcohol\n6C41.1 Harmful pattern of use of cannabis\n6C42.1 Harmful pattern of use of synthetic cannabinoids\n6C43.1 Harmful pattern of use of opioids\n6C44.1 Harmful pattern of use of sedatives, hypnotics or anxiolytics\n6C45.1 Harmful pattern of use of cocaine\n6C46.1 Harmful pattern of use of stimulants, including amfetamines, methamfetamine\nand methcathinone\n6C47.1 Harmful pattern of use of synthetic cathinones\n6C48.1 Harmful pattern of use of caffeine\n6C49.1 Harmful pattern of use of hallucinogens\n6C4A.1 Harmful pattern of use of nicotine\n6C4B.1 Harmful pattern of use of volatile inhalants\n6C4C.1 Harmful pattern of use of MDMA or related drugs, including MDA\n6C4D.1 Harmful pattern of use of dissociative drugs, including ketamine and PCP\n6C4E.1 Harmful pattern of use of other specified psychoactive substance\n6C4F.1 Harmful pattern of use of multiple specified psychoactive substances When ingestion of psychoactive substances results in symptoms of overdose (e.g. coma, life-\nthreatening cardiac or respiratory suppression), a diagnosis from the grouping of harmful effects\nof substances in chapter 22 on..."
+}

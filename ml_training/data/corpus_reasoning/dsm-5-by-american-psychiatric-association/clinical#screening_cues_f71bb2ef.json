@@ -1,0 +1,19 @@
+{
+  "id": "clinical#screening_cues_f71bb2ef",
+  "content": "Note: The four diagnostic criteria are to be met based on a clinical\nsynthesis of the individual’s history (developmental, medical, family,\neducational), school reports, and psychoeducational assessment.\nCoding note: Specify all academic domains and subskills that are\nimpaired. When more than one domain is impaired, each one should\nbe coded individually according to the following specifiers.\nSpecify if:\n315.00 (F81.0) With impairment in reading:\nWord reading accuracy\nReading rate or fluency\nReading comprehension\nNote: Dyslexia is an alternative term used to refer to a pattern of\nlearning difficulties characterized by problems with accurate or\nfluent word recognition, poor decoding, and poor spelling abili-\nties. If dyslexia is used to specify this particular pattern of difficul-\nties, it is important also to specify any additional difficulties that\nare present, such as difficulties with reading comprehension or\nmath reasoning.\n315.2 (F81.81) With impairment in written expression:\nSpelling accuracy\nGrammar and punctuation accuracy\nClarity or organization of written expression\n315.1 (F81.2) With impairment in mathematics:\nNumber sense\nMemorization of arithmetic facts\n38 Neurodevelopmental Disorders\nAccurate or fluent calculation\nAccurate math reasoning\nNote: Dyscalculia is an alternative term used to refer to a pattern\nof difficulties characterized by problems processing numerical in-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "relationships",
+      "screening_cues",
+      "referral",
+      "psychoeducation"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Note: The four diagnostic criteria are to be met based on a clinical\nsynthesis of the individual’s history (developmental, medical, family,\neducational), school reports, and psychoeducational assessment.\nCoding note: Specify all academic domains and subskills that are\nimpaired. When more than one domain is impaired, each one should\nbe coded individually according to the following specifiers.\nSpecify if:\n315.00 (F81.0) With impairment in reading:\nWord reading accuracy\nReading rate or fluency\nReading comprehension\nNote: Dyslexia is an alternative term used to refer to a pattern of\nlearning difficulties characterized by problems with accurate or\nfluent word recognition, poor decoding, and poor spelling abili-\nties. If dyslexia is used to specify this particular pattern of difficul-\nties, it is important also to specify any additional difficulties that\nare present, such as difficulties with reading comprehension or\nmath reasoning.\n315.2 (F81.81) With impairment in written expression:\nSpelling accuracy\nGrammar and punctuation accuracy\nClarity or organization of written expression\n315.1 (F81.2) With impairment in mathematics:\nNumber sense\nMemorization of arithmetic facts\n38 Neurodevelopmental Disorders\nAccurate or fluent calculation\nAccurate math reasoning\nNote: Dyscalculia is an alternative term used to refer to a pattern\nof difficulties characterized by problems processing numerical in- Note: the four diagnostic criteria are to be met based on a clinical\nsynthesis of the individual’s history (developmental, medical, family,\neducational), school reports, and psychoeducational đánh giá. coding note: speci..."
+}

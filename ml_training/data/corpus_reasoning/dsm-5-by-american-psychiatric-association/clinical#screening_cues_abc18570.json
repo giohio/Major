@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_abc18570",
+  "content": "296.55 (F31.75) In partial remission\n296.56 (F31.76) In full remission\n296.50 (F31.9) Unspecified\n296.7 (F31.9) Current or most recent episode unspecified\n296.89 (F31.81) Bipolar II Disordera (71)\nSpecify current or most recent episode: Hypomanic,\nDepressed\nSpecify course if full criteria for a mood episode\nare not currently met: In partial remission, In\nfull remission\nSpecify severity if full criteria for a mood episode\nare currently met: Mild, Moderate, Severe\n301.13 (F34.0) Cyclothymic Disorder (76)\nSpecify if: With anxious distress\nDSM-5 Classification xv\n___.__ (___.__) Substance/Medication-Induced Bipolar and\nRelated Disorder (76)\nNote: See the criteria set and corresponding record-\ning procedures for substance-specific codes and\nICD-9-CM and ICD-10-CM coding.\nSpecify if: With onset during intoxication, With on-\nset during withdrawal\n293.83 (___.__) Bipolar and Related Disorder Due to Another\nMedical Condition (80)\nSpecify if:\n(F06.33) With manic features\n(F06.33) With manic- or hypomanic-like episode\n(F06.34) With mixed features\n296.89 (F31.89) Other Specified Bipolar and Related Disorder (81)\n296.80 (F31.9) Unspecified Bipolar and Related Disorder (83)\nDepressive Disorders (93)\nThe following specifiers apply to Depressive Disorders where indicated:\naSpecify: With anxious distress (specify current severity: mild, moderate,\nmoderate-severe, severe); With mixed features; With melancholic fea-",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues 296.55 (F31.75) In partial remission\n296.56 (F31.76) In full remission\n296.50 (F31.9) Unspecified\n296.7 (F31.9) Current or most recent episode unspecified\n296.89 (F31.81) Bipolar II Disordera (71)\nSpecify current or most recent episode: Hypomanic,\nDepressed\nSpecify course if full criteria for a mood episode\nare not currently met: In partial remission, In\nfull remission\nSpecify severity if full criteria for a mood episode\nare currently met: Mild, Moderate, Severe\n301.13 (F34.0) Cyclothymic Disorder (76)\nSpecify if: With anxious distress\nDSM-5 Classification xv\n___.__ (___.__) Substance/Medication-Induced Bipolar and\nRelated Disorder (76)\nNote: See the criteria set and corresponding record-\ning procedures for substance-specific codes and\nICD-9-CM and ICD-10-CM coding.\nSpecify if: With onset during intoxication, With on-\nset during withdrawal\n293.83 (___.__) Bipolar and Related Disorder Due to Another\nMedical Condition (80)\nSpecify if:\n(F06.33) With manic features\n(F06.33) With manic- or hypomanic-like episode\n(F06.34) With mixed features\n296.89 (F31.89) Other Specified Bipolar and Related Disorder (81)\n296.80 (F31.9) Unspecified Bipolar and Related Disorder (83)\nDepressive Disorders (93)\nThe following specifiers apply to Depressive Disorders where indicated:\naSpecify: With anxious distress (specify current severity: mild, moderate,\nmoderate-severe, severe); With mixed features; With melancholic fea- 296.55 (f31.75) in partial remission\n296.56 (f31.76) in full remission\n296.50 (f31.9) unspecified\n296.7 (f31.9) current or most recent episode unspecified\n296.89 (f31.81) bipolar ii disordera (71)\nspecify current or most..."
+}

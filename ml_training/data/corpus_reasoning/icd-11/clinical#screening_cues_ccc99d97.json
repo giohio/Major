@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_ccc99d97",
+  "content": "Use of this table assumes that the clinician has already made their diagnosis according to the\nICD-11 CDDR. This table is not valid for mapping categories from the ICD-10 mental and\nbehavioural disorders to ICD-11 because it does not reflect the full content of the ICD-10 mental\nand behavioural disorders.\nThis crosswalk is not intended for use in health statistics or in the coding of medical records\nbecause, in a substantial number of instances, selecting among multiple possible ICD-10\ncategories depends on clinical information that will not be available in those contexts. Additional\ninformation to assist clinicians in making these distinctions is provided in the “Notes” column\non the right.\nIn the table that follows, the ICD-11 categories are listed in the left column in the order in which\nthey appear in the classification. The closest available ICD-10 category to represent that ICD-11\ndisorder (i.e. the preferred code) is provided as the first entry in the middle column. Many of these\nare 4-character ICD-10 codes (e.g. F80.1), but in other instances a 3-character code (e.g. F20) or\na 5-character code (e.g. F10.24) best captures the ICD-11 category. Where ICD-10 5-character",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "referral"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues Use of this table assumes that the clinician has already made their diagnosis according to the\nICD-11 CDDR. This table is not valid for mapping categories from the ICD-10 mental and\nbehavioural disorders to ICD-11 because it does not reflect the full content of the ICD-10 mental\nand behavioural disorders.\nThis crosswalk is not intended for use in health statistics or in the coding of medical records\nbecause, in a substantial number of instances, selecting among multiple possible ICD-10\ncategories depends on clinical information that will not be available in those contexts. Additional\ninformation to assist clinicians in making these distinctions is provided in the “Notes” column\non the right.\nIn the table that follows, the ICD-11 categories are listed in the left column in the order in which\nthey appear in the classification. The closest available ICD-10 category to represent that ICD-11\ndisorder (i.e. the preferred code) is provided as the first entry in the middle column. Many of these\nare 4-character ICD-10 codes (e.g. F80.1), but in other instances a 3-character code (e.g. F20) or\na 5-character code (e.g. F10.24) best captures the ICD-11 category. Where ICD-10 5-character Use of this table assumes that the clinician has already made their diagnosis according to the\nicd-11 cddr. this table is not valid for mapping categories from the icd-10 mental and\nbehavioural disorders to icd-11 becaus..."
+}

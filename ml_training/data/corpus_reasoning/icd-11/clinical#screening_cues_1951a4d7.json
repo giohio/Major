@@ -1,0 +1,16 @@
+{
+  "id": "clinical#screening_cues_1951a4d7",
+  "content": "6A61.9 Bipolar type II disorder, currently in partial remission, most recent episode\nunspecified\n6A61.A Bipolar type II disorder, currently in full remission\n6A61.Y Other specified bipolar type II disorder\n6A61.Z Bipolar type II disorder, unspecified.\n6A61.0 Bipolar type II disorder, current episode hypomanic\n• All diagnostic requirements for a hypomanic episode (see p. 222) are currently met.\n6A61.1 Bipolar type II disorder, current episode depressive, mild\n• All diagnostic requirements for a mild depressive episode (see p. 216) are currently met.\n6A61.2 Bipolar type II disorder, current episode depressive, moderate, without\npsychotic symptoms\n• All diagnostic requirements for a moderate depressive episode (see p. 216) are currently met.\n• There are no delusions or hallucinations during the current depressive episode.\n6A61.3 Bipolar type II disorder, current episode depressive, moderate, with\npsychotic symptoms\n• All diagnostic requirements for a moderate depressive episode (see p. 217) are currently met.\n• There are delusions or hallucinations during the current depressive episode.\n6A61.4 Bipolar type II disorder, current episode depressive, severe, without\npsychotic symptoms\n• All diagnostic requirements for a severe depressive episode (see p. 217) are currently met.\n• There are no delusions or hallucinations during the current depressive episode.",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues 6A61.9 Bipolar type II disorder, currently in partial remission, most recent episode\nunspecified\n6A61.A Bipolar type II disorder, currently in full remission\n6A61.Y Other specified bipolar type II disorder\n6A61.Z Bipolar type II disorder, unspecified.\n6A61.0 Bipolar type II disorder, current episode hypomanic\n• All diagnostic requirements for a hypomanic episode (see p. 222) are currently met.\n6A61.1 Bipolar type II disorder, current episode depressive, mild\n• All diagnostic requirements for a mild depressive episode (see p. 216) are currently met.\n6A61.2 Bipolar type II disorder, current episode depressive, moderate, without\npsychotic symptoms\n• All diagnostic requirements for a moderate depressive episode (see p. 216) are currently met.\n• There are no delusions or hallucinations during the current depressive episode.\n6A61.3 Bipolar type II disorder, current episode depressive, moderate, with\npsychotic symptoms\n• All diagnostic requirements for a moderate depressive episode (see p. 217) are currently met.\n• There are delusions or hallucinations during the current depressive episode.\n6A61.4 Bipolar type II disorder, current episode depressive, severe, without\npsychotic symptoms\n• All diagnostic requirements for a severe depressive episode (see p. 217) are currently met.\n• There are no delusions or hallucinations during the current depressive episode. 6a61.9 bipolar type ii disorder, currently in partial remission, most recent episode\nunspecified\n6a61.a bipolar type ii disorder, currently in full remission\n6a61.y other specified bipolar type ii disorder\n6a61.z bipolar..."
+}

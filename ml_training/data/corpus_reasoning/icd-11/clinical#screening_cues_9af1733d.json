@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_9af1733d",
+  "content": "disorder indicates whether it is the first episode (6A23.0) or one of multiple episodes (6A23.1).\nIndicating whether it is currently symptomatic or in remission requires a sixth character. That is,\nfor 6A23.0 Acute and transient psychotic disorder, first episode, 6A23.00 is currently symptomatic;\n6A23.01 is currently in partial remission; and 6A23.02 is currently in full remission. ICD-11\nrefers to this method of providing unique codes for all possible combinations of first or multiple\nepisodes and currently symptomatic or partial remission or full remission for acute and transient\npsychotic disorder as “precoordination”.\nICD-11 offers an additional coding convention that goes beyond just capturing clinical\ninformation within the confines of a single diagnostic code by allowing additional codes to be\nlinked to the initial diagnostic code for the purpose of indicating additional clinically significant\nfeatures. ICD-11 refers to this method of combining codes as “postcoordination”. One type of\npostcoordination used in the chapter on mental, behavioural and neurodevelopmental disorders\ninvolves appending codes that indicate specific symptomatic or course presentations that are\napplicable only to diagnoses within a particular diagnostic grouping. These include symptomatic\nmanifestations of primary psychotic disorders; symptomatic and course presentations for mood",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "referral"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues disorder indicates whether it is the first episode (6A23.0) or one of multiple episodes (6A23.1).\nIndicating whether it is currently symptomatic or in remission requires a sixth character. That is,\nfor 6A23.0 Acute and transient psychotic disorder, first episode, 6A23.00 is currently symptomatic;\n6A23.01 is currently in partial remission; and 6A23.02 is currently in full remission. ICD-11\nrefers to this method of providing unique codes for all possible combinations of first or multiple\nepisodes and currently symptomatic or partial remission or full remission for acute and transient\npsychotic disorder as “precoordination”.\nICD-11 offers an additional coding convention that goes beyond just capturing clinical\ninformation within the confines of a single diagnostic code by allowing additional codes to be\nlinked to the initial diagnostic code for the purpose of indicating additional clinically significant\nfeatures. ICD-11 refers to this method of combining codes as “postcoordination”. One type of\npostcoordination used in the chapter on mental, behavioural and neurodevelopmental disorders\ninvolves appending codes that indicate specific symptomatic or course presentations that are\napplicable only to diagnoses within a particular diagnostic grouping. These include symptomatic\nmanifestations of primary psychotic disorders; symptomatic and course presentations for mood Disorder indicates whether it is the first episode (6a23.0) or one of multiple episodes (6a23.1). indicating whether it is currently symptomatic or in remission requires a sixth character."
+}

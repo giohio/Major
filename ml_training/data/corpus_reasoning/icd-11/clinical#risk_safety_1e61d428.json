@@ -1,0 +1,21 @@
+{
+  "id": "clinical#risk_safety_1e61d428",
+  "content": "prompting.\nSevere Example symptoms (not all are required)\n6A25.1&XS25 The person reports feeling empty or robotic most of the time. Generally the\nindividual does not initiate speech, even to indicate immediate needs and desires.\nThe person is not capable of initiating behaviour even with significant prompting,\nwhich may lead to serious neglect of self-care to the extent that it puts the\nperson at risk of harm (e.g. infrequently taking life-sustaining medication).\nSeverity unspecified Negative symptoms have been present during the past week, but it is not\npossible to make a severity rating based on the available information.\n6A25.1\n6A25.2 Depressive mood symptoms\nThis specifier may be used together with a diagnosis from the grouping of schizophrenia and\nother primary psychotic disorders to indicate the degree to which depressive mood symptoms are\na prominent part of the current clinical presentation (see Table 6.9). The specifier refers only to\ndepressive mood symptoms, as reported by the individual (feeling down, sad) or as observed by\nthe clinician (e.g. tearful, defeated appearance). The severity of associated non-mood symptoms\nof a depressive episode (e.g. anhedonia or other negative symptoms, changes in sleep or appetite)",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "study",
+      "risk_safety",
+      "screening_cues",
+      "referral",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Risk Safety prompting.\nSevere Example symptoms (not all are required)\n6A25.1&XS25 The person reports feeling empty or robotic most of the time. Generally the\nindividual does not initiate speech, even to indicate immediate needs and desires.\nThe person is not capable of initiating behaviour even with significant prompting,\nwhich may lead to serious neglect of self-care to the extent that it puts the\nperson at risk of harm (e.g. infrequently taking life-sustaining medication).\nSeverity unspecified Negative symptoms have been present during the past week, but it is not\npossible to make a severity rating based on the available information.\n6A25.1\n6A25.2 Depressive mood symptoms\nThis specifier may be used together with a diagnosis from the grouping of schizophrenia and\nother primary psychotic disorders to indicate the degree to which depressive mood symptoms are\na prominent part of the current clinical presentation (see Table 6.9). The specifier refers only to\ndepressive mood symptoms, as reported by the individual (feeling down, sad) or as observed by\nthe clinician (e.g. tearful, defeated appearance). The severity of associated non-mood symptoms\nof a depressive episode (e.g. anhedonia or other negative symptoms, changes in sleep or appetite) Prompting. severe example symptoms (not all are required)\n6a25.1&xs25 the person reports feeling empty or robotic most of the time."
+}

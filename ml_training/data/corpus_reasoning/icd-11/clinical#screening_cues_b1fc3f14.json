@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_b1fc3f14",
+  "content": "6C40.Z Disorder due to use of alcohol, unspecified\n6C41.Z Disorder due to use of cannabis, unspecified\n6C42.Z Disorder due to use of synthetic cannabinoids, unspecified\n6C43.Z Disorder due to use of opioids, unspecified\nSubstance-induced impulse control disorders\n500 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\n6C44.Z Disorder due to use of sedatives, hypnotics or anxiolytics, unspecified\n6C45.Z Disorder due to use of cocaine, unspecified\n6C46.Z Disorder due to use of stimulants, including amfetamines, methamfetamine\nand methcathinone, unspecified\n6C47.Z Disorder due to use of synthetic cathinones, unspecified\n6C48.Z Disorder due to use of caffeine, unspecified\n6C49.Z Disorder due to use of hallucinogens, unspecified\n6C4A.Z Disorder due to use of nicotine, unspecified\n6C4B.Z Disorder due to use of volatile inhalants, unspecified\n6C4C.Z Disorder due to use of MDMA or related drugs, including MDA, unspecified\n6C4D.Z Disorder due to use of dissociative drugs, including ketamine and PCP,\nunspecified\n6C4E.Z Disorder due to use of other specified psychoactive substance, including\nmedications, unspecified\n6C4F.Z Disorder due to use of multiple specified psychoactive substances, unspecified\n6C4G.Z Disorder due to use of unknown or unspecified psychoactive substances,\nunspecified\n6C4H Disorders due to use of non-psychoactive substances",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues 6C40.Z Disorder due to use of alcohol, unspecified\n6C41.Z Disorder due to use of cannabis, unspecified\n6C42.Z Disorder due to use of synthetic cannabinoids, unspecified\n6C43.Z Disorder due to use of opioids, unspecified\nSubstance-induced impulse control disorders\n500 Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders\n6C44.Z Disorder due to use of sedatives, hypnotics or anxiolytics, unspecified\n6C45.Z Disorder due to use of cocaine, unspecified\n6C46.Z Disorder due to use of stimulants, including amfetamines, methamfetamine\nand methcathinone, unspecified\n6C47.Z Disorder due to use of synthetic cathinones, unspecified\n6C48.Z Disorder due to use of caffeine, unspecified\n6C49.Z Disorder due to use of hallucinogens, unspecified\n6C4A.Z Disorder due to use of nicotine, unspecified\n6C4B.Z Disorder due to use of volatile inhalants, unspecified\n6C4C.Z Disorder due to use of MDMA or related drugs, including MDA, unspecified\n6C4D.Z Disorder due to use of dissociative drugs, including ketamine and PCP,\nunspecified\n6C4E.Z Disorder due to use of other specified psychoactive substance, including\nmedications, unspecified\n6C4F.Z Disorder due to use of multiple specified psychoactive substances, unspecified\n6C4G.Z Disorder due to use of unknown or unspecified psychoactive substances,\nunspecified\n6C4H Disorders due to use of non-psychoactive substances 6c40.z disorder due to use of alcohol, unspecified\n6c41.z disorder due to use of cannabis, unspecified\n6c42.z disorder due to use of synthetic cannabinoids, unspecified\n6c43.z disorder due to use of opioids, unspecified\n..."
+}

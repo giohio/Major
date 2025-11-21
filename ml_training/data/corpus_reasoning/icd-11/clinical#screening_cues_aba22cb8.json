@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_aba22cb8",
+  "content": "MB24.Z Symptoms or signs involving mood or affect, unspecified\nMB25 Symptoms or signs involving form of thought\nThis grouping includes symptoms or signs involving the logical sequence and coherence of\nthought, typically manifested in speech or writing, including thought disorder (circumstantiality,\ntangentiality, disorganized thinking and incoherence), flight of ideas, neologisms and\nthought blocking.\nMB25.0 Symptoms or signs of thought disorder\n• Symptoms or signs of thought disorder refer to disturbances in the associative thought\nprocess, typically manifested in speech or writing, that range from circumstantiality to\nincoherence. These may be indicative of schizophrenia and other primary psychotic\ndisorders, but can also occur in other mental disorders (e.g. delirium). It includes the\nfollowing subcategories.\nMB25.00 Circumstantiality\n• Circumstantiality refers to a relatively mild disturbance in the associative thought process,\ntypically manifested in speech or writing, exemplified by delay in getting to the point\nbecause of the interpolation of unnecessary details and irrelevant parenthetical remarks.\nMB25.01 Tangentiality\n• Tangentiality refers to a disturbance in the associative thought process, typically manifested\nin speech, in which the person tends to digress readily from the topic under discussion to\nother topics through associations, without ever returning to the original topic.",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "referral"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues MB24.Z Symptoms or signs involving mood or affect, unspecified\nMB25 Symptoms or signs involving form of thought\nThis grouping includes symptoms or signs involving the logical sequence and coherence of\nthought, typically manifested in speech or writing, including thought disorder (circumstantiality,\ntangentiality, disorganized thinking and incoherence), flight of ideas, neologisms and\nthought blocking.\nMB25.0 Symptoms or signs of thought disorder\n• Symptoms or signs of thought disorder refer to disturbances in the associative thought\nprocess, typically manifested in speech or writing, that range from circumstantiality to\nincoherence. These may be indicative of schizophrenia and other primary psychotic\ndisorders, but can also occur in other mental disorders (e.g. delirium). It includes the\nfollowing subcategories.\nMB25.00 Circumstantiality\n• Circumstantiality refers to a relatively mild disturbance in the associative thought process,\ntypically manifested in speech or writing, exemplified by delay in getting to the point\nbecause of the interpolation of unnecessary details and irrelevant parenthetical remarks.\nMB25.01 Tangentiality\n• Tangentiality refers to a disturbance in the associative thought process, typically manifested\nin speech, in which the person tends to digress readily from the topic under discussion to\nother topics through associations, without ever returning to the original topic. Mb24.z symptoms or signs involving mood or affect, unspecified\nmb25 symptoms or signs involving form of thought\nthis grouping includes symptoms or signs involving the logical sequence and coherence of\nthought, typically ..."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "clinical#management_83c72bdb",
+  "content": "from the hypothyroidism grouping – for example, transient congenital hypothyroidism\n(5A00.03), yielding the combination code 6E62.0/5A00.03. This coding convention also applies\nto neurocognitive disorders such as dementia due to different types of underlying diseases; for\nexample, frontotemporal dementia requires two codes: 6D83 for the syndrome of frontotemporal\ndementia plus 8A23 frontotemporal lobar degeneration from Chapter 8 on diseases of the\nnervous system, yielding a combined code of 6D83/8A23. Importantly, the order of the codes\nbeing combined is not meaningful in this situation; it is not necessary to list the primary disorder\nfirst. That is, 6D83/8A23 has the same meaning as 8A23/6D83.\nSecondary parenting\nThe ICD-11 classification is divided into 25 chapters, generally based on organ system (e.g.\ndiseases of the digestive system), anatomic location (e.g. diseases of the ear and mastoid process),\ncommon pathophysiological process (e.g. certain infectious or parasitic disorders; neoplasms)\nor medical specialty (e.g. separating diseases of the nervous system from mental, behavioural\nand neurodevelopmental disorders). Many diseases in ICD-11 could have been placed in more\nthan one chapter (e.g. pancreatic cancer could have been plausibly placed in either the diseases\nof the digestive system or the neoplasms chapter). ICD-11 acknowledges this fact by sometimes",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Management from the hypothyroidism grouping – for example, transient congenital hypothyroidism\n(5A00.03), yielding the combination code 6E62.0/5A00.03. This coding convention also applies\nto neurocognitive disorders such as dementia due to different types of underlying diseases; for\nexample, frontotemporal dementia requires two codes: 6D83 for the syndrome of frontotemporal\ndementia plus 8A23 frontotemporal lobar degeneration from Chapter 8 on diseases of the\nnervous system, yielding a combined code of 6D83/8A23. Importantly, the order of the codes\nbeing combined is not meaningful in this situation; it is not necessary to list the primary disorder\nfirst. That is, 6D83/8A23 has the same meaning as 8A23/6D83.\nSecondary parenting\nThe ICD-11 classification is divided into 25 chapters, generally based on organ system (e.g.\ndiseases of the digestive system), anatomic location (e.g. diseases of the ear and mastoid process),\ncommon pathophysiological process (e.g. certain infectious or parasitic disorders; neoplasms)\nor medical specialty (e.g. separating diseases of the nervous system from mental, behavioural\nand neurodevelopmental disorders). Many diseases in ICD-11 could have been placed in more\nthan one chapter (e.g. pancreatic cancer could have been plausibly placed in either the diseases\nof the digestive system or the neoplasms chapter). ICD-11 acknowledges this fact by sometimes From the hypothyroidism grouping – for example, transient congenital hypothyroidism\n(5a00.03), yielding the combination code 6e62.0/5a00.03. this coding convention also applies\nto neurocognitive disorders such as dementi..."
+}

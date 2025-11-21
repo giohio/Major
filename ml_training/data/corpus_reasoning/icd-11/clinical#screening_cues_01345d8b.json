@@ -1,0 +1,19 @@
+{
+  "id": "clinical#screening_cues_01345d8b",
+  "content": "often involves language use and social responsiveness. Loss of previously acquired skills is rarely\nobserved after 3 years of age. If it occurs after age 3, it is more likely to involve loss of cognitive and\nadaptive skills (e.g. loss of bowel and bladder control, impaired sleep), regression of language and\nsocial abilities, and increasing emotional and behavioural disturbances.\nThere are two alternative specifiers to denote whether or not loss of previously acquired skills is an\naspect of the clinical history, where x corresponds to the final digit shown in Table 6.5:\n• 6A02.x0 without loss of previously acquired skills\n• 6A02.x1 with loss of previously acquired skills.\nNeurodevelopmental disorders | Autism spectrum disorder\nNeurodevelopmental disorders 127\nAdditional clinical features\n• Common symptom presentations of autism spectrum disorder in young children are\nparental or caregiver concerns about intellectual or other developmental delays (e.g.\nproblems in language and motor coordination). When there is no significant impairment\nof intellectual functioning, clinical services may only be sought later (e.g. due to behaviour\nor social problems when starting school). In middle childhood, there may be prominent\nsymptoms of anxiety, including social anxiety disorder, school refusal and specific phobia.",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "emotions",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues often involves language use and social responsiveness. Loss of previously acquired skills is rarely\nobserved after 3 years of age. If it occurs after age 3, it is more likely to involve loss of cognitive and\nadaptive skills (e.g. loss of bowel and bladder control, impaired sleep), regression of language and\nsocial abilities, and increasing emotional and behavioural disturbances.\nThere are two alternative specifiers to denote whether or not loss of previously acquired skills is an\naspect of the clinical history, where x corresponds to the final digit shown in Table 6.5:\n• 6A02.x0 without loss of previously acquired skills\n• 6A02.x1 with loss of previously acquired skills.\nNeurodevelopmental disorders | Autism spectrum disorder\nNeurodevelopmental disorders 127\nAdditional clinical features\n• Common symptom presentations of autism spectrum disorder in young children are\nparental or caregiver concerns about intellectual or other developmental delays (e.g.\nproblems in language and motor coordination). When there is no significant impairment\nof intellectual functioning, clinical services may only be sought later (e.g. due to behaviour\nor social problems when starting school). In middle childhood, there may be prominent\nsymptoms of anxiety, including social anxiety disorder, school refusal and specific phobia. Often involves language use and social responsiveness. loss of previously acquired skills is rarely\nobserved after 3 years of age."
+}

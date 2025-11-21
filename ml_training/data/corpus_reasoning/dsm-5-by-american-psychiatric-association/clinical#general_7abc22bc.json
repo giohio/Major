@@ -1,0 +1,16 @@
+{
+  "id": "clinical#general_7abc22bc",
+  "content": "disorder).\nSpecify if:\nCode based on the phobic stimulus:\n300.29 (F40.218) Animal (e.g., spiders, insects, dogs)\n300.29 (F40.228) Natural environment (e.g., heights, storms,\nwater)\n300.29 (F40.23x) Blood-injection-injury (e.g., needles, inva-\nsive medical procedures)\nCoding note: Select specific ICD-10-CM code as follows:\nF40.230 fear of blood; F40.231 fear of injections and trans-\nfusions; F40.232 fear of other medical care; or F40.233 fear\nof injury.\n300.29 (F40.248) Situational (e.g., airplanes, elevators, en-\nclosed places)\n300.29 (F40.298) Other (e.g., situations that may lead to choking\nor vomiting; in children, e.g., loud sounds or costumed characters)\nCoding note. When more than one phobic stimulus is present, code all\nICD-10-CM codes that apply (e.g., for fear of snakes and flying, F40.218\nspecific phobia, animal, and F40.248 specific phobia, situational).\n118 Anxiety Disorders\nSocial Anxiety Disorder (Social Phobia)\n300.23 (F40.10)\nA. Marked fear or anxiety about one or more social situations in\nwhich the individual is exposed to possible scrutiny by others.\nExamples include social interactions (e.g., having a conver-\nsation, meeting unfamiliar people), being observed (e.g., eating\nor drinking), and performing in front of others (e.g., giving a\nspeech).\nNote: In children, the anxiety must occur in peer settings and not",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "study"
+    ],
+    "is_clinical": false,
+    "is_advice": false
+  },
+  "index_text": "General — General disorder).\nSpecify if:\nCode based on the phobic stimulus:\n300.29 (F40.218) Animal (e.g., spiders, insects, dogs)\n300.29 (F40.228) Natural environment (e.g., heights, storms,\nwater)\n300.29 (F40.23x) Blood-injection-injury (e.g., needles, inva-\nsive medical procedures)\nCoding note: Select specific ICD-10-CM code as follows:\nF40.230 fear of blood; F40.231 fear of injections and trans-\nfusions; F40.232 fear of other medical care; or F40.233 fear\nof injury.\n300.29 (F40.248) Situational (e.g., airplanes, elevators, en-\nclosed places)\n300.29 (F40.298) Other (e.g., situations that may lead to choking\nor vomiting; in children, e.g., loud sounds or costumed characters)\nCoding note. When more than one phobic stimulus is present, code all\nICD-10-CM codes that apply (e.g., for fear of snakes and flying, F40.218\nspecific phobia, animal, and F40.248 specific phobia, situational).\n118 Anxiety Disorders\nSocial Anxiety Disorder (Social Phobia)\n300.23 (F40.10)\nA. Marked fear or anxiety about one or more social situations in\nwhich the individual is exposed to possible scrutiny by others.\nExamples include social interactions (e.g., having a conver-\nsation, meeting unfamiliar people), being observed (e.g., eating\nor drinking), and performing in front of others (e.g., giving a\nspeech).\nNote: In children, the anxiety must occur in peer settings and not Disorder). specify if:\ncode based on the phobic stimulus:\n300.29 (f40.218) animal (e.g., spiders, insects, dogs)\n300.29 (f40.228) natural environment (e.g., heights, storms,\nwater)\n300.29 (f40.23x) blood-injection-injury..."
+}

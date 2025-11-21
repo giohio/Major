@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_46e6623d",
+  "content": "6A23 Acute and transient psychotic disorder 180\n6A24 Delusional disorder 185\n6A2Y Other specified primary psychotic disorder 189\n6A2Z Schizophrenia or other primary psychotic disorder, unspecified 189\nSpecifier scales for symptomatic manifestations of primary psychotic disorders 191\nCatatonia 201\nGeneral diagnostic requirements for catatonia 202\n6A40 Catatonia associated with another mental disorder 203\n6A41 Catatonia induced by substances or medications 204\n6E69 Secondary catatonia syndrome 205\n6A4Z Catatonia, unspecified 207\nMood disorders 211\nMood episode descriptions 212\nDepressive episode 212\nManic episode 217\nMixed episode 220\nHypomanic episode 222\nBipolar and related disorders 225\n6A60 Bipolar type i disorder 225\n6A61 Bipolar type ii disorder 230\n6A62 Cyclothymic disorder 240\n6A6Y Other specified bipolar or related disorder 243\n6A6Z Bipolar or related disorder, unspecified 243\nDepressive disorders 244\n6A70 Single episode depressive disorder 244\n6A71 Recurrent depressive disorder 246\n6A72 Dysthymic disorder 255\nvi\n6A73 Mixed depressive and anxiety disorder 258\n6A7Y Other specified depressive disorder 260\n6A7Z Depressive disorder, unspecified 261\nSecondary-parented category in depressive disorders 261\nGA34.41 Premenstrual dysphoric disorder 261\n6A8Y Other specified mood disorder 263\n6A8Z Mood disorder, unspecified 263\nAnxiety and fear-related disorders 265\n6B00 Generalized anxiety disorder 266\n6B01 Panic disorder 271",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues 6A23 Acute and transient psychotic disorder 180\n6A24 Delusional disorder 185\n6A2Y Other specified primary psychotic disorder 189\n6A2Z Schizophrenia or other primary psychotic disorder, unspecified 189\nSpecifier scales for symptomatic manifestations of primary psychotic disorders 191\nCatatonia 201\nGeneral diagnostic requirements for catatonia 202\n6A40 Catatonia associated with another mental disorder 203\n6A41 Catatonia induced by substances or medications 204\n6E69 Secondary catatonia syndrome 205\n6A4Z Catatonia, unspecified 207\nMood disorders 211\nMood episode descriptions 212\nDepressive episode 212\nManic episode 217\nMixed episode 220\nHypomanic episode 222\nBipolar and related disorders 225\n6A60 Bipolar type i disorder 225\n6A61 Bipolar type ii disorder 230\n6A62 Cyclothymic disorder 240\n6A6Y Other specified bipolar or related disorder 243\n6A6Z Bipolar or related disorder, unspecified 243\nDepressive disorders 244\n6A70 Single episode depressive disorder 244\n6A71 Recurrent depressive disorder 246\n6A72 Dysthymic disorder 255\nvi\n6A73 Mixed depressive and anxiety disorder 258\n6A7Y Other specified depressive disorder 260\n6A7Z Depressive disorder, unspecified 261\nSecondary-parented category in depressive disorders 261\nGA34.41 Premenstrual dysphoric disorder 261\n6A8Y Other specified mood disorder 263\n6A8Z Mood disorder, unspecified 263\nAnxiety and fear-related disorders 265\n6B00 Generalized anxiety disorder 266\n6B01 Panic disorder 271 6a23 acute and transient psychotic disorder 180\n6a24 delusional disorder 185\n6a2y other specified primary psychotic disorder 189\n6a2z schizophrenia or other primary psychotic disorder, unspecified 189\nspecifier scales fo..."
+}

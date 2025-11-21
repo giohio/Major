@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_215c5576",
+  "content": "character is “1,” and the clinician should record “mild [substance] use\ndisorder” before the substance-induced psychotic disorder (e.g.,\n“mild cocaine use disorder with cocaine-induced psychotic disorder”).\nIf a moderate or severe substance use disorder is comorbid with the\nsubstance-induced psychotic disorder, the 4th position character is\n“2,” and the clinician should record “moderate [substance] use disor-\nder” or “severe [substance] use disorder” depending on the severity\nof the comorbid substance use disorder. If there is no comorbid sub-\nstance use disorder (e.g., after a one-time heavy use of the substance),\nthen the 4th position character is “9,” and the clinician should record\nonly the substance-induced psychotic disorder.\nICD-10-CM\nWith use\nWith use disorder, Without\ndisorder, moderate use\nICD-9-CM mild or severe disorder\nAlcohol 291.9 F10.159 F10.259 F10.959\nCannabis 292.9 F12.159 F12.259 F12.959\nPhencyclidine 292.9 F16.159 F16.259 F16.959\nOther hallucinogen 292.9 F16.159 F16.259 F16.959\nInhalant 292.9 F18.159 F18.259 F18.959\nSedative, hypnotic, or 292.9 F13.159 F13.259 F13.959\nanxiolytic\nAmphetamine 292.9 F15.159 F15.259 F15.959\n(or other stimulant)\nCocaine 292.9 F14.159 F14.259 F14.959\nOther (or unknown) 292.9 F19.159 F19.259 F19.959\nsubstance\nSubstance/Medication-Induced Psychotic Disorder 57\nSpecify if (see Table 1 in the chapter “Substance-Related and Addic-\ntive Disorders” for diagnoses associated with substance class):",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues character is “1,” and the clinician should record “mild [substance] use\ndisorder” before the substance-induced psychotic disorder (e.g.,\n“mild cocaine use disorder with cocaine-induced psychotic disorder”).\nIf a moderate or severe substance use disorder is comorbid with the\nsubstance-induced psychotic disorder, the 4th position character is\n“2,” and the clinician should record “moderate [substance] use disor-\nder” or “severe [substance] use disorder” depending on the severity\nof the comorbid substance use disorder. If there is no comorbid sub-\nstance use disorder (e.g., after a one-time heavy use of the substance),\nthen the 4th position character is “9,” and the clinician should record\nonly the substance-induced psychotic disorder.\nICD-10-CM\nWith use\nWith use disorder, Without\ndisorder, moderate use\nICD-9-CM mild or severe disorder\nAlcohol 291.9 F10.159 F10.259 F10.959\nCannabis 292.9 F12.159 F12.259 F12.959\nPhencyclidine 292.9 F16.159 F16.259 F16.959\nOther hallucinogen 292.9 F16.159 F16.259 F16.959\nInhalant 292.9 F18.159 F18.259 F18.959\nSedative, hypnotic, or 292.9 F13.159 F13.259 F13.959\nanxiolytic\nAmphetamine 292.9 F15.159 F15.259 F15.959\n(or other stimulant)\nCocaine 292.9 F14.159 F14.259 F14.959\nOther (or unknown) 292.9 F19.159 F19.259 F19.959\nsubstance\nSubstance/Medication-Induced Psychotic Disorder 57\nSpecify if (see Table 1 in the chapter “Substance-Related and Addic-\ntive Disorders” for diagnoses associated with substance class): Character is “1,” and the clinician should record “mild [substance] use\ndisorder” before the substance-induced psychotic disorder (e.g.,\n“mild cocaine use disorder with cocaine-induced psychotic disorder”). if a moderate..."
+}

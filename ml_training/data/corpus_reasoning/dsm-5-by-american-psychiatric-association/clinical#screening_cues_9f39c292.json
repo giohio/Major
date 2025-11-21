@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_9f39c292",
+  "content": "tended to be mutually exclusive or jointly exhaustive, and as a con-\nsequence, more than one specifier may be given. Specifiers are\nindicated by the instruction “Specify” or “Specify if” in the criteria set.\nSpecifiers provide an opportunity to define a more homogeneous\nsubgrouping of individuals with the disorder who share certain fea-\ntures (e.g., major depressive disorder, with mixed features) and to\nconvey information that is relevant to the management of the indi-\nvidual’s disorder, such as the “with other medical comorbidity”\nspecifier in sleep-wake disorders. Although a fifth digit is sometimes\nassigned to code a subtype or specifier (e.g., 294.11 [F02.81] major\nneurocognitive disorder due to Alzheimer’s disease, with behavioral\ndisturbance) or severity (296.21 [F32.0] major depressive disorder, sin-\ngle episode, mild), the majority of subtypes and specifiers included in\n8 Use of the Manual\nDSM-5 cannot be coded within the ICD-9-CM and ICD-10-CM sys-\ntems and are indicated only by including the subtype or specifier af-\nter the name of the disorder (e.g., social anxiety disorder [social\nphobia], performance type). Note that in some cases, a specifier or sub-\ntype is codable in ICD-10-CM but not in ICD-9-CM. Accordingly, in",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues tended to be mutually exclusive or jointly exhaustive, and as a con-\nsequence, more than one specifier may be given. Specifiers are\nindicated by the instruction “Specify” or “Specify if” in the criteria set.\nSpecifiers provide an opportunity to define a more homogeneous\nsubgrouping of individuals with the disorder who share certain fea-\ntures (e.g., major depressive disorder, with mixed features) and to\nconvey information that is relevant to the management of the indi-\nvidual’s disorder, such as the “with other medical comorbidity”\nspecifier in sleep-wake disorders. Although a fifth digit is sometimes\nassigned to code a subtype or specifier (e.g., 294.11 [F02.81] major\nneurocognitive disorder due to Alzheimer’s disease, with behavioral\ndisturbance) or severity (296.21 [F32.0] major depressive disorder, sin-\ngle episode, mild), the majority of subtypes and specifiers included in\n8 Use of the Manual\nDSM-5 cannot be coded within the ICD-9-CM and ICD-10-CM sys-\ntems and are indicated only by including the subtype or specifier af-\nter the name of the disorder (e.g., social anxiety disorder [social\nphobia], performance type). Note that in some cases, a specifier or sub-\ntype is codable in ICD-10-CM but not in ICD-9-CM. Accordingly, in Tended to be mutually exclusive or jointly exhaustive, and as a con-\nsequence, more than one specifier may be given. specifiers are\nindicated by the instruction “specify” or “specify if” in the criteria set."
+}

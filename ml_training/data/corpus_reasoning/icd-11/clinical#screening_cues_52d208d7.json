@@ -1,0 +1,17 @@
+{
+  "id": "clinical#screening_cues_52d208d7",
+  "content": "substance use applies.\n• The pattern of use of the relevant substance is evident over a period of at least 12 months if\nsubstance use is episodic, or at least 1 month if use is continuous.\n• The harm to health is not better accounted for by another medical condition or another\nmental disorder, including another disorder due to substance use (e.g. substance\nwithdrawal).\nNote: harm to the health of the person to whom the diagnosis applies includes injuries caused by\nbehaviour related to intoxication (e.g. impulsive aggressive behaviour, psychomotor impairment\nleading to injury; see Table 6.15, p. 475); acute health problems resulting from substance use\n(e.g. overdose, acute gastritis, the effects of hypoxia or prolonged hyperactivity or inactivity), and\nexacerbation or decompensation of pre-existing chronic health problems (e.g. hypertension, liver\ndisease, or peptic ulceration). Harm may also result from a harmful route of administration (e.g.\ninjecting drug use causing bloodborne virus infections, cocaine use causing a perforated nasal\nseptum). The relevant diagnostic codes from other ICD-11 chapters – including Chapter 22 on\ninjury, poisoning or certain other consequences of external causes – should be used to describe\nthe specific health consequences of the harmful substance use.",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "screening_cues"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues substance use applies.\n• The pattern of use of the relevant substance is evident over a period of at least 12 months if\nsubstance use is episodic, or at least 1 month if use is continuous.\n• The harm to health is not better accounted for by another medical condition or another\nmental disorder, including another disorder due to substance use (e.g. substance\nwithdrawal).\nNote: harm to the health of the person to whom the diagnosis applies includes injuries caused by\nbehaviour related to intoxication (e.g. impulsive aggressive behaviour, psychomotor impairment\nleading to injury; see Table 6.15, p. 475); acute health problems resulting from substance use\n(e.g. overdose, acute gastritis, the effects of hypoxia or prolonged hyperactivity or inactivity), and\nexacerbation or decompensation of pre-existing chronic health problems (e.g. hypertension, liver\ndisease, or peptic ulceration). Harm may also result from a harmful route of administration (e.g.\ninjecting drug use causing bloodborne virus infections, cocaine use causing a perforated nasal\nseptum). The relevant diagnostic codes from other ICD-11 chapters – including Chapter 22 on\ninjury, poisoning or certain other consequences of external causes – should be used to describe\nthe specific health consequences of the harmful substance use. Substance use applies. • the pattern of use of the relevant substance is evident over a period of at least 12 months if\nsubstance use is episodic, or at least 1 month if use is continuous."
+}

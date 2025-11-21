@@ -1,0 +1,20 @@
+{
+  "id": "clinical#screening_cues_e4aceef1",
+  "content": "specifiers and extensions. For example, schizophrenia, first episode, currently symptomatic with\nmoderate positive symptoms, with severe negative symptoms, absent depressed mood symptoms,\nabsent manic mood symptoms, mild psychomotor symptoms and severe cognitive symptoms\nyields the following combined diagnostic code:\n6A20.00/6A25.0&XS0T/6A25.1&XS25/6A25.2&XS8H/6A25.3&XS8H/6A25.4&XS5W/6A25.5&XS25\nAs indicated, generating and interpreting this type of complex, multipart code will be most\nfeasible for relatively sophisticated electronic health information systems. It is not expected that\nsuch complex codes will be used routinely by individual clinicians recording diagnoses by hand,\nfor example.\nCoding of mental disorders caused by health conditions not classified\nunder mental, behavioural and neurodevelopmental disorders\nICD-11, as was the case with ICD-10, requires that two diagnostic codes be given for symptomatic\npresentations of mental disorders that are judged to be a manifestation of a health condition (i.e.\ndisorder, disease or injury) classified outside Chapter 6.\n4 ICD-11 for Mortality and Morbidity Statistics (ICD-11 MMS) [website]. Geneva: World Health Organization; 2023 (https://ICD.who.\nint/browse11/l-m/en#/).\nUsing the CDDR for ICD-11 mental, behavioural and neurodevelopmental disorders in clinical settings 33\nOne code from the mental, behavioural and neurodevelopmental disorders chapter indicates\nthe mental disorder diagnosis, and a second code indicates the etiological medical condition.",
+  "metadata": {
+    "source": "WHO ICD-11",
+    "url": "https://icd.who.int/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "stress",
+      "study",
+      "habits",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues specifiers and extensions. For example, schizophrenia, first episode, currently symptomatic with\nmoderate positive symptoms, with severe negative symptoms, absent depressed mood symptoms,\nabsent manic mood symptoms, mild psychomotor symptoms and severe cognitive symptoms\nyields the following combined diagnostic code:\n6A20.00/6A25.0&XS0T/6A25.1&XS25/6A25.2&XS8H/6A25.3&XS8H/6A25.4&XS5W/6A25.5&XS25\nAs indicated, generating and interpreting this type of complex, multipart code will be most\nfeasible for relatively sophisticated electronic health information systems. It is not expected that\nsuch complex codes will be used routinely by individual clinicians recording diagnoses by hand,\nfor example.\nCoding of mental disorders caused by health conditions not classified\nunder mental, behavioural and neurodevelopmental disorders\nICD-11, as was the case with ICD-10, requires that two diagnostic codes be given for symptomatic\npresentations of mental disorders that are judged to be a manifestation of a health condition (i.e.\ndisorder, disease or injury) classified outside Chapter 6.\n4 ICD-11 for Mortality and Morbidity Statistics (ICD-11 MMS) [website]. Geneva: World Health Organization; 2023 (https://ICD.who.\nint/browse11/l-m/en#/).\nUsing the CDDR for ICD-11 mental, behavioural and neurodevelopmental disorders in clinical settings 33\nOne code from the mental, behavioural and neurodevelopmental disorders chapter indicates\nthe mental disorder diagnosis, and a second code indicates the etiological medical condition. Specifiers and extensions. for example, schizophrenia, first episode, currently symptomatic with\nmoderate positive symptoms, with severe negative symptoms, absent depressed mood symptoms,\nabsent manic mood symptoms, mild..."
+}

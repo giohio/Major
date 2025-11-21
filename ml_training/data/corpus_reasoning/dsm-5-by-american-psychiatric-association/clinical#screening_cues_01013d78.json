@@ -1,0 +1,18 @@
+{
+  "id": "clinical#screening_cues_01013d78",
+  "content": "sleep problem characterized by multiple types of sleep symp-\ntoms, but no symptom clearly predominates.\nSpecify if (see Table 1 in the chapter “Substance-Related and Addic-\ntive Disorders” for diagnoses associated with substance class):\n196 Sleep-Wake Disorders\nWith onset during intoxication: This specifier should be used\nif criteria are met for intoxication with the substance/medication\nand symptoms developed during the intoxication period.\nWith onset during discontinuation/withdrawal: This specifier\nshould be used if criteria are met for discontinuation/withdrawal\nfrom the substance/medication and symptoms developed during,\nor shortly after, discontinuation of the substance/medication.\nRecording Procedures\nICD-9-CM. The name of the substance/medication-induced sleep\ndisorder begins with the specific substance (e.g., cocaine, bupropion)\nthat is presumed to be causing the sleep disturbance. The diagnostic\ncode is selected from the table included in the criteria set, which is\nbased on the drug class. For substances that do not fit into any of the\nclasses (e.g., bupropion), the code for “other substance” should be\nused; and in cases in which a substance is judged to be an etiological\nfactor but the specific class of substance is unknown, the category\n“unknown substance” should be used.\nThe name of the disorder is followed by the specification of onset",
+  "metadata": {
+    "source": "DSM-5",
+    "url": "https://psychiatry.org/",
+    "condition": "General",
+    "risk_band": "low",
+    "topics": [
+      "sleep",
+      "screening_cues",
+      "management"
+    ],
+    "is_clinical": true,
+    "is_advice": false
+  },
+  "index_text": "General — Screening Cues sleep problem characterized by multiple types of sleep symp-\ntoms, but no symptom clearly predominates.\nSpecify if (see Table 1 in the chapter “Substance-Related and Addic-\ntive Disorders” for diagnoses associated with substance class):\n196 Sleep-Wake Disorders\nWith onset during intoxication: This specifier should be used\nif criteria are met for intoxication with the substance/medication\nand symptoms developed during the intoxication period.\nWith onset during discontinuation/withdrawal: This specifier\nshould be used if criteria are met for discontinuation/withdrawal\nfrom the substance/medication and symptoms developed during,\nor shortly after, discontinuation of the substance/medication.\nRecording Procedures\nICD-9-CM. The name of the substance/medication-induced sleep\ndisorder begins with the specific substance (e.g., cocaine, bupropion)\nthat is presumed to be causing the sleep disturbance. The diagnostic\ncode is selected from the table included in the criteria set, which is\nbased on the drug class. For substances that do not fit into any of the\nclasses (e.g., bupropion), the code for “other substance” should be\nused; and in cases in which a substance is judged to be an etiological\nfactor but the specific class of substance is unknown, the category\n“unknown substance” should be used.\nThe name of the disorder is followed by the specification of onset Giấc ngủ problem characterized by multiple types of giấc ngủ symp-\ntoms, but no symptom clearly predominates. specify if (see table 1 in the chapter “substance-related and addic-\ntive disorders” for diagnoses associated ..."
+}
