@@ -264,3 +264,62 @@ class PaymentService:
             db.session.rollback()
             print(f"Error checking expired subscriptions: {str(e)}")
             return 0
+    
+    @staticmethod
+    def create_stripe_payment(payment_id, amount, description, success_url, cancel_url):
+        """
+        Create Stripe payment session
+        
+        Args:
+            payment_id: Payment ID
+            amount: Amount to charge
+            description: Payment description
+            success_url: URL to redirect on success
+            cancel_url: URL to redirect on cancel
+            
+        Returns:
+            dict: Stripe session with url and session_id
+        """
+        try:
+            # Note: This requires stripe library installed
+            # pip install stripe
+            # import stripe
+            # stripe.api_key = os.getenv('STRIPE_SECRET_KEY')
+            
+            # For now, return a mock response
+            # In production, uncomment the code below:
+            
+            # session = stripe.checkout.Session.create(
+            #     payment_method_types=['card'],
+            #     line_items=[{
+            #         'price_data': {
+            #             'currency': 'usd',
+            #             'product_data': {
+            #                 'name': description,
+            #             },
+            #             'unit_amount': int(amount * 100),  # Stripe uses cents
+            #         },
+            #         'quantity': 1,
+            #     }],
+            #     mode='payment',
+            #     success_url=success_url,
+            #     cancel_url=cancel_url,
+            #     metadata={
+            #         'payment_id': payment_id
+            #     }
+            # )
+            # 
+            # return {
+            #     'url': session.url,
+            #     'session_id': session.id
+            # }
+            
+            # Mock response for development
+            return {
+                'url': f'{success_url}?session_id=mock_stripe_session_{payment_id}',
+                'session_id': f'mock_stripe_session_{payment_id}'
+            }
+            
+        except Exception as e:
+            print(f"Error creating Stripe payment: {str(e)}")
+            return None

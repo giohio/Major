@@ -28,6 +28,7 @@ export const API_ENDPOINTS = {
     EMOTIONS: '/users/emotions',
     HISTORY: '/users/history',
     STATS: '/users/stats',
+    APPOINTMENTS: '/users/appointments',
   },
   
   // Chat
@@ -53,6 +54,8 @@ export const API_ENDPOINTS = {
   // Doctor
   DOCTOR: {
     DASHBOARD: '/doctors/dashboard',
+    LIST: '/doctors',
+    GET: (id: number) => `/doctors/${id}`,
     PATIENTS: '/doctors/patients',
     ADD_PATIENT: '/doctors/patients/add',
     GET_PATIENT: (id: number) => `/doctors/patients/${id}`,

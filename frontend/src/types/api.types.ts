@@ -226,6 +226,20 @@ export interface Appointment {
   updated_at?: string;
 }
 
+export interface Payment {
+  id: number;
+  user_id: number;
+  plan_id: number;
+  amount: number;
+  payment_method: 'vnpay' | 'momo' | 'stripe';
+  billing_cycle: 'monthly' | 'yearly';
+  status: 'pending' | 'completed' | 'failed' | 'refunded';
+  transaction_id?: string;
+  description?: string;
+  created_at: string;
+  updated_at?: string;
+}
+
 export interface Patient extends User {
   patient_record?: PatientRecord;
   recent_alerts?: Alert[];

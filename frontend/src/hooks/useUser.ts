@@ -1,5 +1,6 @@
 import { useState, useCallback } from 'react';
-import { userService } from '../services/user.service';
+import { apiClient } from '../services/api.client';
+import { API_ENDPOINTS } from '../config/api.config';
 import type { User, Subscription, EmotionStats, UserStats } from '../types/api.types';
 
 export const useUser = () => {
@@ -14,7 +15,7 @@ export const useUser = () => {
     try {
       setLoading(true);
       setError(null);
-      const data = await userService.getProfile();
+      const data = await apiClient.get<User>(API_ENDPOINTS.USERS.ME);
       setProfile(data);
       return data;
     } catch (err) {
@@ -31,7 +32,7 @@ export const useUser = () => {
       try {
         setLoading(true);
         setError(null);
-        const response = await userService.updateProfile(data);
+        const response = await apiClient.put<{ message: string; user: User }>(API_ENDPOINTS.USERS.ME, data);
         setProfile(response.user);
         return response;
       } catch (err) {
@@ -49,7 +50,7 @@ export const useUser = () => {
     try {
       setLoading(true);
       setError(null);
-      const data = await userService.getSubscription();
+      const data = await apiClient.get<Subscription>(API_ENDPOINTS.USERS.SUBSCRIPTION);
       setSubscription(data);
       return data;
     } catch (err) {
@@ -66,7 +67,7 @@ export const useUser = () => {
       try {
         setLoading(true);
         setError(null);
-        const data = await userService.getEmotionStats(period);
+        const data = await apiClient.get<EmotionStats>(`${API_ENDPOINTS.USERS.EMOTIONS}?period=${period}`);
         setEmotionStats(data);
         return data;
       } catch (err) {
@@ -84,7 +85,7 @@ export const useUser = () => {
     try {
       setLoading(true);
       setError(null);
-      const data = await userService.getStats();
+      const data = await apiClient.get<UserStats>(API_ENDPOINTS.USERS.STATS);
       setUserStats(data);
       return data;
     } catch (err) {
@@ -100,13 +101,13 @@ export const useUser = () => {
     profile,
     subscription,
     emotionStats,
-    userStats,
+    stats: userStats,
     loading,
     error,
     loadProfile,
     updateProfile,
     loadSubscription,
     loadEmotionStats,
-    loadUserStats,
+    loadStats: loadUserStats,
   };
 };

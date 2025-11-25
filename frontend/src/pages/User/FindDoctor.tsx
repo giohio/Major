@@ -1,6 +1,11 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './FindDoctor.css';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '../../components/ui/card';
+import { Badge } from '../../components/ui/badge';
+import { Button } from '../../components/ui/button';
+import { Input } from '../../components/ui/input';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../../components/ui/select';
+import { Search, Star, Clock, DollarSign, CheckCircle, Calendar } from 'lucide-react';
 
 interface Doctor {
   id: number;
@@ -20,9 +25,8 @@ const FindDoctor = () => {
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedSpecialty, setSelectedSpecialty] = useState<string>('all');
-  const [priceRange, setPriceRange] = useState<string>('all');
 
-  const [doctors] = useState<Doctor[]>([
+  const doctors: Doctor[] = [
     {
       id: 1,
       name: 'Dr. Nguyễn Văn An',
@@ -78,172 +82,168 @@ const FindDoctor = () => {
     {
       id: 5,
       name: 'Dr. Hoàng Minh Đức',
-      specialty: 'Lo âu & Trầm cảm',
-      rating: 4.8,
-      reviews: 142,
-      experience: 9,
+      specialty: 'Tâm lý học tích cực',
+      rating: 4.6,
+      reviews: 74,
+      experience: 6,
       available: true,
       nextSlot: 'Ngày mai, 10:30',
-      price: 580000,
-      languages: ['Tiếng Việt'],
-      verified: true
-    },
-    {
-      id: 6,
-      name: 'Dr. Vũ Thu Hằng',
-      specialty: 'Mindfulness & Thiền',
-      rating: 4.6,
-      reviews: 78,
-      experience: 7,
-      available: true,
-      nextSlot: 'Hôm nay, 17:00',
       price: 450000,
-      languages: ['Tiếng Việt', 'English'],
+      languages: ['Tiếng Việt'],
       verified: false
     }
-  ]);
+  ];
 
   const specialties = [
-    'Tất cả',
     'Tâm lý lâm sàng',
     'Trị liệu CBT',
     'Tâm lý trẻ em',
     'Tâm lý gia đình',
-    'Lo âu & Trầm cảm',
-    'Mindfulness & Thiền'
+    'Tâm lý học tích cực'
   ];
 
   const filteredDoctors = doctors.filter(doctor => {
-    const matchesSearch =
-      doctor.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      doctor.specialty.toLowerCase().includes(searchQuery.toLowerCase());
-    const matchesSpecialty =
-      selectedSpecialty === 'all' || doctor.specialty === selectedSpecialty;
-    const matchesPrice =
-      priceRange === 'all' ||
-      (priceRange === 'low' && doctor.price < 500000) ||
-      (priceRange === 'medium' && doctor.price >= 500000 && doctor.price < 600000) ||
-      (priceRange === 'high' && doctor.price >= 600000);
-
-    return matchesSearch && matchesSpecialty && matchesPrice;
+    const matchesSearch = doctor.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                         doctor.specialty.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesSpecialty = selectedSpecialty === 'all' || doctor.specialty === selectedSpecialty;
+    return matchesSearch && matchesSpecialty;
   });
 
+  const handleBookAppointment = (doctorId: number) => {
+    navigate(`/user/book-appointment/${doctorId}`);
+  };
+
+  const formatPrice = (price: number) => {
+    return new Intl.NumberFormat('vi-VN', {
+      style: 'currency',
+      currency: 'VND'
+    }).format(price);
+  };
+
   return (
-    <div className="find-doctor-page">
+    <div className="p-6 space-y-6 max-w-7xl mx-auto">
       {/* Header */}
-      <div className="doctor-header">
-        <div>
-          <h1 className="doctor-title">Tìm Bác Sĩ Phù Hợp</h1>
-          <p className="doctor-subtitle">
-            Kết nối với {doctors.length}+ chuyên gia tâm lý chuyên nghiệp
-          </p>
-        </div>
+      <div>
+        <h1 className="text-3xl font-bold text-foreground">Tìm Bác Sĩ</h1>
+        <p className="text-muted-foreground mt-1">
+          Kết nối với các chuyên gia tâm lý hàng đầu
+        </p>
       </div>
 
-      {/* Search and Filters */}
-      <div className="search-filters">
-        <div className="search-bar">
-          <span className="search-icon">🔍</span>
-          <input
-            type="text"
-            className="search-input"
-            placeholder="Tìm kiếm bác sĩ, chuyên môn..."
-            value={searchQuery}
-            onChange={e => setSearchQuery(e.target.value)}
-          />
-        </div>
+      {/* Filters */}
+      <Card>
+        <CardContent className="pt-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="relative">
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+              <Input
+                placeholder="Tìm theo tên bác sĩ hoặc chuyên môn..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="pl-10"
+              />
+            </div>
+            <Select value={selectedSpecialty} onValueChange={setSelectedSpecialty}>
+              <SelectTrigger>
+                <SelectValue placeholder="Chọn chuyên môn" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">Tất cả chuyên môn</SelectItem>
+                {specialties.map((specialty) => (
+                  <SelectItem key={specialty} value={specialty}>
+                    {specialty}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+        </CardContent>
+      </Card>
 
-        <div className="filter-row">
-          <select
-            className="filter-select"
-            value={selectedSpecialty}
-            onChange={e => setSelectedSpecialty(e.target.value)}
-          >
-            <option value="all">Tất cả chuyên môn</option>
-            {specialties.slice(1).map(specialty => (
-              <option key={specialty} value={specialty}>
-                {specialty}
-              </option>
-            ))}
-          </select>
-
-          <select
-            className="filter-select"
-            value={priceRange}
-            onChange={e => setPriceRange(e.target.value)}
-          >
-            <option value="all">Tất cả mức giá</option>
-            <option value="low">&lt; 500k</option>
-            <option value="medium">500k - 600k</option>
-            <option value="high">&gt; 600k</option>
-          </select>
-        </div>
+      {/* Results Count */}
+      <div className="text-sm text-muted-foreground">
+        Tìm thấy {filteredDoctors.length} bác sĩ
       </div>
 
       {/* Doctor Cards */}
-      <div className="doctors-grid">
-        {filteredDoctors.map(doctor => (
-          <div key={doctor.id} className="doctor-card">
-            <div className="doctor-avatar">
-              <div className="avatar-placeholder">
-                {doctor.name.split(' ').slice(-1)[0].charAt(0)}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {filteredDoctors.map((doctor) => (
+          <Card key={doctor.id} className="flex flex-col">
+            <CardHeader>
+              <div className="flex items-start justify-between">
+                <div className="flex-1">
+                  <CardTitle className="flex items-center gap-2">
+                    {doctor.name}
+                    {doctor.verified && (
+                      <CheckCircle className="w-4 h-4 text-blue-500" />
+                    )}
+                  </CardTitle>
+                  <CardDescription className="mt-1">
+                    {doctor.specialty}
+                  </CardDescription>
+                </div>
               </div>
-              {doctor.verified && (
-                <span className="verified-badge" title="Đã xác minh">
-                  ✓
+
+              <div className="flex items-center gap-1 mt-2">
+                <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                <span className="text-sm font-medium">{doctor.rating}</span>
+                <span className="text-sm text-muted-foreground">
+                  ({doctor.reviews} đánh giá)
                 </span>
-              )}
-            </div>
+              </div>
+            </CardHeader>
 
-            <div className="doctor-info">
-              <h3 className="doctor-name">{doctor.name}</h3>
-              <p className="doctor-specialty">{doctor.specialty}</p>
-
-              <div className="doctor-rating">
-                <span className="rating-stars">⭐ {doctor.rating}</span>
-                <span className="rating-reviews">({doctor.reviews} đánh giá)</span>
+            <CardContent className="flex-1 space-y-3">
+              <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                <Clock className="w-4 h-4" />
+                <span>{doctor.experience} năm kinh nghiệm</span>
               </div>
 
-              <div className="doctor-details">
-                <div className="detail-item">
-                  <span className="detail-icon">💼</span>
-                  <span>{doctor.experience} năm kinh nghiệm</span>
-                </div>
-                <div className="detail-item">
-                  <span className="detail-icon">💰</span>
-                  <span>{(doctor.price / 1000).toFixed(0)}k / buổi</span>
-                </div>
-                <div className="detail-item">
-                  <span className="detail-icon">🌐</span>
-                  <span>{doctor.languages.join(', ')}</span>
-                </div>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                <DollarSign className="w-4 h-4" />
+                <span>{formatPrice(doctor.price)}/buổi</span>
+              </div>
+
+              <div className="flex flex-wrap gap-1">
+                {doctor.languages.map((lang, index) => (
+                  <Badge key={index} variant="secondary" className="text-xs">
+                    {lang}
+                  </Badge>
+                ))}
               </div>
 
               {doctor.available && doctor.nextSlot && (
-                <div className="next-slot">
-                  <span className="slot-icon">📅</span>
-                  <span>Lịch trống: {doctor.nextSlot}</span>
+                <div className="flex items-center gap-2 pt-2">
+                  <Calendar className="w-4 h-4 text-green-600" />
+                  <span className="text-sm text-green-600 font-medium">
+                    {doctor.nextSlot}
+                  </span>
                 </div>
               )}
+            </CardContent>
 
-              <button
-                className={`btn ${doctor.available ? 'btn-primary' : 'btn-outline'} btn-block`}
-                onClick={() => navigate(`/user/book-appointment/${doctor.id}`)}
+            <CardFooter>
+              <Button
+                className="w-full"
+                variant={doctor.available ? 'default' : 'outline'}
                 disabled={!doctor.available}
+                onClick={() => handleBookAppointment(doctor.id)}
               >
-                {doctor.available ? 'Đặt lịch ngay' : 'Không có lịch trống'}
-              </button>
-            </div>
-          </div>
+                {doctor.available ? 'Đặt lịch ngay' : 'Không khả dụng'}
+              </Button>
+            </CardFooter>
+          </Card>
         ))}
       </div>
 
       {filteredDoctors.length === 0 && (
-        <div className="empty-state">
-          <div className="empty-icon">🔍</div>
-          <h3>Không tìm thấy bác sĩ</h3>
-          <p>Thử điều chỉnh bộ lọc hoặc từ khóa tìm kiếm</p>
-        </div>
+        <Card>
+          <CardContent className="py-12 text-center">
+            <p className="text-muted-foreground">
+              Không tìm thấy bác sĩ phù hợp với tiêu chí tìm kiếm
+            </p>
+          </CardContent>
+        </Card>
       )}
     </div>
   );

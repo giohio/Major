@@ -1,309 +1,205 @@
-import { useState } from 'react';
-import './Exercises.css';
-
-type ExerciseCategory = 'all' | 'breathing' | 'meditation' | 'cbt' | 'mindfulness' | 'relaxation';
-type DifficultyLevel = 'beginner' | 'intermediate' | 'advanced';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../components/ui/card';
+import { Badge } from '../../components/ui/badge';
+import { Button } from '../../components/ui/button';
+import { Progress } from '../../components/ui/progress';
+import { Play, Clock, Heart, Brain, Smile, Wind } from 'lucide-react';
 
 interface Exercise {
-  id: string;
+  id: number;
   title: string;
   description: string;
-  category: ExerciseCategory;
-  duration: number; // minutes
-  difficulty: DifficultyLevel;
-  icon: string;
-  steps?: string[];
-  benefits?: string[];
+  duration: string;
+  difficulty: 'Dễ' | 'Trung bình' | 'Khó';
+  category: string;
+  icon: React.ReactNode;
+  completed?: boolean;
+  progress?: number;
 }
 
 const Exercises = () => {
-  const [selectedCategory, setSelectedCategory] = useState<ExerciseCategory>('all');
-  const [searchQuery, setSearchQuery] = useState('');
-
-  // Mock data - replace with API
   const exercises: Exercise[] = [
     {
-      id: '1',
-      title: 'Hít thở 4-7-8',
-      description: 'Kỹ thuật thở giúp giảm căng thẳng và cải thiện giấc ngủ',
-      category: 'breathing',
-      duration: 5,
-      difficulty: 'beginner',
-      icon: '🌬️',
-      steps: [
-        'Ngồi thoải mái, lưng thẳng',
-        'Thở ra hoàn toàn qua miệng',
-        'Hít vào qua mũi đếm đến 4',
-        'Nín thở đếm đến 7',
-        'Thở ra qua miệng đếm đến 8',
-        'Lặp lại 4 chu kỳ'
-      ],
-      benefits: ['Giảm lo âu', 'Cải thiện giấc ngủ', 'Giảm huyết áp']
+      id: 1,
+      title: 'Thở Sâu 4-7-8',
+      description: 'Kỹ thuật thở giúp giảm căng thẳng và lo lắng nhanh chóng',
+      duration: '5 phút',
+      difficulty: 'Dễ',
+      category: 'Thở',
+      icon: <Wind className="w-6 h-6" />,
+      completed: true,
+      progress: 100
     },
     {
-      id: '2',
+      id: 2,
       title: 'Thiền Chánh Niệm',
       description: 'Tập trung vào hiện tại, quan sát suy nghĩ không phán xét',
-      category: 'meditation',
-      duration: 15,
-      difficulty: 'intermediate',
-      icon: '🧘',
-      steps: [
-        'Tìm nơi yên tĩnh, ngồi thoải mái',
-        'Nhắm mắt, tập trung vào hơi thở',
-        'Quan sát suy nghĩ đến và đi',
-        'Không phán xét, chấp nhận',
-        'Nếu xao lãng, nhẹ nhàng quay về hơi thở'
-      ],
-      benefits: ['Tăng tập trung', 'Giảm stress', 'Cải thiện nhận thức']
+      duration: '10 phút',
+      difficulty: 'Trung bình',
+      category: 'Thiền',
+      icon: <Brain className="w-6 h-6" />,
+      completed: false,
+      progress: 60
     },
     {
-      id: '3',
-      title: 'Ghi Nhật Ký Suy Nghĩ',
-      description: 'Kỹ thuật CBT để nhận diện và thay đổi suy nghĩ tiêu cực',
-      category: 'cbt',
-      duration: 10,
-      difficulty: 'beginner',
-      icon: '📝',
-      steps: [
-        'Viết ra tình huống gây lo lắng',
-        'Ghi lại suy nghĩ tự động',
-        'Xác định cảm xúc và mức độ (0-10)',
-        'Tìm bằng chứng ủng hộ và phản bác',
-        'Viết suy nghĩ cân bằng hơn'
-      ],
-      benefits: ['Nhận diện suy nghĩ tiêu cực', 'Tăng tự nhận thức', 'Giảm trầm cảm']
+      id: 3,
+      title: 'Yoga Buổi Sáng',
+      description: 'Các động tác yoga nhẹ nhàng để khởi động ngày mới',
+      duration: '15 phút',
+      difficulty: 'Dễ',
+      category: 'Vận động',
+      icon: <Heart className="w-6 h-6" />,
+      completed: false,
+      progress: 0
     },
     {
-      id: '4',
-      title: 'Quét Cơ Thể',
-      description: 'Mindfulness quét từng phần cơ thể, giải phóng căng thẳng',
-      category: 'mindfulness',
-      duration: 20,
-      difficulty: 'beginner',
-      icon: '🔍',
-      steps: [
-        'Nằm ngửa, mắt nhắm',
-        'Bắt đầu từ ngón chân, chú ý cảm giác',
-        'Di chuyển lên bàn chân, cẳng chân',
-        'Tiếp tục lên đùi, bụng, ngực',
-        'Quét vai, cánh tay, bàn tay',
-        'Kết thúc ở cổ, mặt, đầu'
-      ],
-      benefits: ['Giảm căng thẳng cơ bắp', 'Cải thiện giấc ngủ', 'Tăng nhận thức cơ thể']
+      id: 4,
+      title: 'Ghi Nhật Ký Biết Ơn',
+      description: 'Viết ra 3 điều bạn biết ơn trong ngày',
+      duration: '5 phút',
+      difficulty: 'Dễ',
+      category: 'Viết',
+      icon: <Smile className="w-6 h-6" />,
+      completed: true,
+      progress: 100
     },
     {
-      id: '5',
+      id: 5,
       title: 'Thư Giãn Cơ Tiến Triển',
       description: 'Căng và thả lỏng từng nhóm cơ để giảm căng thẳng',
-      category: 'relaxation',
-      duration: 12,
-      difficulty: 'beginner',
-      icon: '💆',
-      steps: [
-        'Ngồi hoặc nằm thoải mái',
-        'Căng cơ bàn chân 5 giây, thả lỏng',
-        'Lặp lại với cẳng chân',
-        'Tiếp tục với đùi, bụng, ngực',
-        'Căng vai, cánh tay, bàn tay',
-        'Kết thúc với mặt và cổ'
-      ],
-      benefits: ['Giảm căng thẳng', 'Cải thiện tuần hoàn', 'Giảm đau đầu']
+      duration: '20 phút',
+      difficulty: 'Trung bình',
+      category: 'Thư giãn',
+      icon: <Heart className="w-6 h-6" />,
+      completed: false,
+      progress: 30
     },
     {
-      id: '6',
-      title: 'Thiền Từ Bi',
-      description: 'Phát triển lòng từ bi với bản thân và người khác',
-      category: 'meditation',
-      duration: 15,
-      difficulty: 'intermediate',
-      icon: '💖',
-      steps: [
-        'Ngồi yên tĩnh, thở sâu',
-        'Nghĩ về bản thân với lòng yêu thương',
-        'Lặp lại: "Mong tôi được bình an và hạnh phúc"',
-        'Mở rộng ra người thân',
-        'Mở rộng ra tất cả chúng sinh'
-      ],
-      benefits: ['Tăng lòng từ bi', 'Giảm tự trách', 'Cải thiện mối quan hệ']
-    },
-    {
-      id: '7',
-      title: 'Kỹ Thuật Nền Tảng 5-4-3-2-1',
-      description: 'Sử dụng 5 giác quan để kết nối với hiện tại',
-      category: 'mindfulness',
-      duration: 5,
-      difficulty: 'beginner',
-      icon: '👁️',
-      steps: [
-        'Quan sát 5 thứ bạn thấy',
-        'Chạm vào 4 thứ bạn cảm nhận',
-        'Lắng nghe 3 âm thanh',
-        'Ngửi 2 mùi hương',
-        'Nếm 1 hương vị'
-      ],
-      benefits: ['Giảm lo âu cấp tính', 'Kết nối hiện tại', 'Ngăn cơn hoảng loạn']
-    },
-    {
-      id: '8',
-      title: 'Thách Thức Suy Nghĩ',
-      description: 'CBT để đặt câu hỏi và thay đổi niềm tin tiêu cực',
-      category: 'cbt',
-      duration: 15,
-      difficulty: 'advanced',
-      icon: '🤔',
-      steps: [
-        'Xác định suy nghĩ tiêu cực cụ thể',
-        'Hỏi: "Bằng chứng gì ủng hộ?"',
-        'Hỏi: "Có góc nhìn khác không?"',
-        'Hỏi: "Tôi sẽ nói gì với bạn?"',
-        'Viết lại suy nghĩ cân bằng hơn'
-      ],
-      benefits: ['Thay đổi tư duy', 'Giảm lo âu', 'Tăng tự tin']
+      id: 6,
+      title: 'Tưởng Tượng Hướng Dẫn',
+      description: 'Hình dung một nơi yên bình để thư giãn tâm trí',
+      duration: '8 phút',
+      difficulty: 'Dễ',
+      category: 'Tưởng tượng',
+      icon: <Brain className="w-6 h-6" />,
+      completed: false,
+      progress: 0
     }
   ];
 
-  const categories = [
-    { id: 'all', name: 'Tất cả', icon: '📚' },
-    { id: 'breathing', name: 'Hít thở', icon: '🌬️' },
-    { id: 'meditation', name: 'Thiền', icon: '🧘' },
-    { id: 'cbt', name: 'CBT', icon: '📝' },
-    { id: 'mindfulness', name: 'Chánh niệm', icon: '🔍' },
-    { id: 'relaxation', name: 'Thư giãn', icon: '💆' }
-  ];
-
-  const filteredExercises = exercises.filter(exercise => {
-    const matchesCategory = selectedCategory === 'all' || exercise.category === selectedCategory;
-    const matchesSearch = exercise.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                         exercise.description.toLowerCase().includes(searchQuery.toLowerCase());
-    return matchesCategory && matchesSearch;
-  });
-
-  const getDifficultyLabel = (difficulty: DifficultyLevel) => {
-    const labels = {
-      beginner: 'Cơ bản',
-      intermediate: 'Trung bình',
-      advanced: 'Nâng cao'
-    };
-    return labels[difficulty];
+  const getDifficultyColor = (difficulty: string) => {
+    switch (difficulty) {
+      case 'Dễ':
+        return 'bg-green-500';
+      case 'Trung bình':
+        return 'bg-yellow-500';
+      case 'Khó':
+        return 'bg-red-500';
+      default:
+        return 'bg-gray-500';
+    }
   };
 
-  const getDifficultyColor = (difficulty: DifficultyLevel) => {
-    const colors = {
-      beginner: 'var(--success)',
-      intermediate: 'var(--warning)',
-      advanced: 'var(--danger)'
-    };
-    return colors[difficulty];
-  };
+  const completedCount = exercises.filter(e => e.completed).length;
+  const totalProgress = Math.round(
+    exercises.reduce((sum, e) => sum + (e.progress || 0), 0) / exercises.length
+  );
 
   return (
-    <div className="exercises-page">
+    <div className="p-6 space-y-6 max-w-7xl mx-auto">
       {/* Header */}
-      <div className="exercises-header">
-        <div>
-          <h1 className="exercises-title">Bài Tập Tự Chăm Sóc</h1>
-          <p className="exercises-subtitle">
-            Thư viện bài tập CBT, mindfulness và kỹ thuật thư giãn
-          </p>
-        </div>
-        <div className="exercises-stats">
-          <div className="stat-badge">
-            <span className="stat-icon">✅</span>
-            <span className="stat-text">12 hoàn thành</span>
-          </div>
-          <div className="stat-badge">
-            <span className="stat-icon">🔥</span>
-            <span className="stat-text">7 ngày liên tiếp</span>
-          </div>
-        </div>
+      <div>
+        <h1 className="text-3xl font-bold text-foreground">Bài Tập Tâm Lý</h1>
+        <p className="text-muted-foreground mt-1">
+          Thực hành các kỹ thuật giúp cải thiện sức khỏe tinh thần
+        </p>
       </div>
 
-      {/* Search Bar */}
-      <div className="search-section">
-        <div className="search-input-wrapper">
-          <span className="search-icon">🔍</span>
-          <input
-            type="text"
-            className="search-input"
-            placeholder="Tìm kiếm bài tập..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
-          {searchQuery && (
-            <button
-              className="clear-search"
-              onClick={() => setSearchQuery('')}
-            >
-              ✕
-            </button>
-          )}
-        </div>
-      </div>
-
-      {/* Category Filters */}
-      <div className="category-filters">
-        {categories.map(category => (
-          <button
-            key={category.id}
-            className={`category-btn ${selectedCategory === category.id ? 'active' : ''}`}
-            onClick={() => setSelectedCategory(category.id as ExerciseCategory)}
-          >
-            <span className="category-icon">{category.icon}</span>
-            <span className="category-name">{category.name}</span>
-          </button>
-        ))}
-      </div>
-
-      {/* Exercises Grid */}
-      <div className="exercises-grid">
-        {filteredExercises.map(exercise => (
-          <div key={exercise.id} className="exercise-card">
-            <div className="exercise-icon-wrapper">
-              <span className="exercise-icon">{exercise.icon}</span>
+      {/* Stats */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <Card>
+          <CardHeader className="pb-3">
+            <CardTitle className="text-sm font-medium text-muted-foreground">
+              Hoàn Thành
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="text-2xl font-bold">
+              {completedCount}/{exercises.length}
             </div>
-            <div className="exercise-content">
-              <h3 className="exercise-title">{exercise.title}</h3>
-              <p className="exercise-description">{exercise.description}</p>
-              
-              <div className="exercise-meta">
-                <span className="meta-item">
-                  <span className="meta-icon">⏱️</span>
-                  {exercise.duration} phút
-                </span>
-                <span
-                  className="difficulty-badge"
-                  style={{ background: getDifficultyColor(exercise.difficulty) }}
-                >
-                  {getDifficultyLabel(exercise.difficulty)}
-                </span>
+            <Progress value={(completedCount / exercises.length) * 100} className="mt-2 h-2" />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader className="pb-3">
+            <CardTitle className="text-sm font-medium text-muted-foreground">
+              Tiến Độ Tổng
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="text-2xl font-bold">{totalProgress}%</div>
+            <Progress value={totalProgress} className="mt-2 h-2" />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader className="pb-3">
+            <CardTitle className="text-sm font-medium text-muted-foreground">
+              Streak
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="text-2xl font-bold">7 ngày</div>
+            <p className="text-xs text-muted-foreground mt-1">Tiếp tục phát huy!</p>
+          </CardContent>
+        </Card>
+      </div>
+
+      {/* Exercise Cards */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {exercises.map((exercise) => (
+          <Card key={exercise.id} className="flex flex-col">
+            <CardHeader>
+              <div className="flex items-start justify-between mb-2">
+                <div className="p-2 rounded-lg bg-primary/10 text-primary">
+                  {exercise.icon}
+                </div>
+                <Badge variant="secondary">{exercise.category}</Badge>
+              </div>
+              <CardTitle className="text-lg">{exercise.title}</CardTitle>
+              <CardDescription>{exercise.description}</CardDescription>
+            </CardHeader>
+
+            <CardContent className="flex-1 space-y-4">
+              <div className="flex items-center justify-between text-sm">
+                <div className="flex items-center gap-2 text-muted-foreground">
+                  <Clock className="w-4 h-4" />
+                  <span>{exercise.duration}</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className={`w-2 h-2 rounded-full ${getDifficultyColor(exercise.difficulty)}`} />
+                  <span className="text-muted-foreground text-sm">{exercise.difficulty}</span>
+                </div>
               </div>
 
-              {exercise.benefits && (
-                <div className="exercise-benefits">
-                  {exercise.benefits.slice(0, 2).map((benefit, index) => (
-                    <span key={index} className="benefit-tag">
-                      ✓ {benefit}
-                    </span>
-                  ))}
+              {exercise.progress !== undefined && exercise.progress > 0 && (
+                <div className="space-y-1">
+                  <div className="flex items-center justify-between text-xs text-muted-foreground">
+                    <span>Tiến độ</span>
+                    <span>{exercise.progress}%</span>
+                  </div>
+                  <Progress value={exercise.progress} className="h-1.5" />
                 </div>
               )}
 
-              <button className="btn btn-primary btn-sm start-btn">
-                Bắt đầu
-              </button>
-            </div>
-          </div>
+              <Button className="w-full gap-2" variant={exercise.completed ? 'outline' : 'default'}>
+                <Play className="w-4 h-4" />
+                {exercise.completed ? 'Luyện lại' : exercise.progress ? 'Tiếp tục' : 'Bắt đầu'}
+              </Button>
+            </CardContent>
+          </Card>
         ))}
       </div>
-
-      {filteredExercises.length === 0 && (
-        <div className="empty-state">
-          <div className="empty-icon">🔍</div>
-          <h3>Không tìm thấy bài tập</h3>
-          <p>Thử thay đổi từ khóa tìm kiếm hoặc danh mục</p>
-        </div>
-      )}
     </div>
   );
 };

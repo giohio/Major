@@ -12,10 +12,7 @@ import Login from './pages/Auth/Login';
 import Register from './pages/Auth/Register';
 import SubscriptionPlans from './pages/SubscriptionPlans';
 import Contact from './pages/Contact';
-<<<<<<< HEAD
-=======
 import About from './pages/About';
->>>>>>> 89f2b86b3ec12af45c68d1d95aaa12497dd62e81
 
 // User Pages
 import ChatBot from './pages/User/ChatBot';
@@ -28,6 +25,7 @@ import Settings from './pages/User/Settings';
 import AlertPage from './pages/User/AlertPage';
 import FindDoctor from './pages/User/FindDoctor';
 import BookAppointment from './pages/User/BookAppointment';
+import UserAppointments from './pages/User/UserAppointments';
 
 // Doctor Pages
 import DoctorDashboard from './pages/Doctor/Dashboard';
@@ -49,10 +47,9 @@ import AuditLogs from './pages/Admin/AuditLogs';
 
 // Context & Hooks
 import { AuthProvider } from './contexts/AuthContext';
+import { ThemeProvider } from './contexts/ThemeProvider';
 import { useAuth } from './hooks/useAuth';
 
-import './styles/design-system.css';
-import './styles/theme.css';
 import './App.css';
 
 // Protected Route Component
@@ -78,8 +75,9 @@ const ProtectedRoute = ({
 
 function App() {
   return (
-    <AuthProvider>
-      <BrowserRouter>
+    <ThemeProvider>
+      <AuthProvider>
+        <BrowserRouter>
         <Routes>
           {/* Public Routes */}
           <Route element={<MainLayout />}>
@@ -87,21 +85,12 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/plans" element={<SubscriptionPlans />} />
-<<<<<<< HEAD
-            <Route path="/contact" element={<Contact />} />
-          </Route>
-
-          {/* User Routes */}
-          <Route path="/chat" element={<ChatBot />} />
-=======
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/chat" element={<ChatBot />} />
           </Route>
 
           {/* User Routes */}
->>>>>>> 89f2b86b3ec12af45c68d1d95aaa12497dd62e81
-          
           <Route
             path="/user"
             element={
@@ -117,7 +106,9 @@ function App() {
             <Route path="payments" element={<PaymentHistory />} />
             <Route path="settings" element={<Settings />} />
             <Route path="alert" element={<AlertPage />} />
+            <Route path="alerts" element={<AlertPage />} />
             <Route path="find-doctor" element={<FindDoctor />} />
+            <Route path="appointments" element={<UserAppointments />} />
             <Route path="book-appointment/:doctorId" element={<BookAppointment />} />
           </Route>
 
@@ -161,7 +152,8 @@ function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </BrowserRouter>
-    </AuthProvider>
+      </AuthProvider>
+    </ThemeProvider>
   );
 }
 

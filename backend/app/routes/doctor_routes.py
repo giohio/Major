@@ -374,3 +374,128 @@ def end_session(current_user, session_id):
     except Exception as e:
         db.session.rollback()
         return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/appointments', methods=['GET'])
+@doctor_required
+def get_appointments(current_user):
+    """Get appointments for doctor"""
+    try:
+        from app.models.models import Appointment, DoctorProfile
+        
+        # Get doctor profile
+        doctor_profile = DoctorProfile.query.filter_by(user_id=current_user.id).first()
+        if not doctor_profile:
+            return jsonify({'error': 'Doctor profile not found'}), 404
+        
+        # Get appointments for this doctor
+        appointments = Appointment.query.filter_by(doctor_id=doctor_profile.id).order_by(Appointment.appointment_date.desc()).all()
+        
+        # Get user names for each appointment
+        result = []
+        for apt in appointments:
+            apt_dict = apt.to_dict()
+            user = db.session.get(User, apt.user_id)
+            if user:
+                apt_dict['user_name'] = user.full_name
+                apt_dict['user_email'] = user.email
+            result.append(apt_dict)
+        
+        return jsonify(result), 200
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/appointments', methods=['POST'])
+@doctor_required
+def create_appointment(current_user):
+    """Create a new appointment"""
+    try:
+        from app.models.models import Appointment, DoctorProfile
+        
+        data = request.get_json()
+        
+        required_fields = ['user_id', 'appointment_date']
+        for field in required_fields:
+            if field not in data:
+                return jsonify({'error': f'Missing required field: {field}'}), 400
+        
+        # Get doctor profile
+        doctor_profile = DoctorProfile.query.filter_by(user_id=current_user.id).first()
+        if not doctor_profile:
+            return jsonify({'error': 'Doctor profile not found'}), 404
+        
+        # Parse appointment date
+        try:
+            appointment_date = datetime.fromisoformat(data['appointment_date'].replace('Z', '+00:00'))
+        except:
+            return jsonify({'error': 'Invalid date format'}), 400
+        
+        # Create appointment
+        appointment = Appointment(
+            user_id=data['user_id'],
+            doctor_id=doctor_profile.id,
+            appointment_date=appointment_date,
+            duration_minutes=data.get('duration_minutes', 60),
+            status=data.get('status', 'scheduled'),
+            appointment_type=data.get('appointment_type', 'video'),
+            notes=data.get('notes')
+        )
+        
+        db.session.add(appointment)
+        db.session.commit()
+        
+        return jsonify({
+            'message': 'Appointment created successfully',
+            'appointment': appointment.to_dict()
+        }), 201
+        
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/appointments/<int:appointment_id>', methods=['PUT'])
+@doctor_required
+def update_appointment(current_user, appointment_id):
+    """Update an appointment"""
+    try:
+        from app.models.models import Appointment, DoctorProfile
+        
+        # Get doctor profile
+        doctor_profile = DoctorProfile.query.filter_by(user_id=current_user.id).first()
+        if not doctor_profile:
+            return jsonify({'error': 'Doctor profile not found'}), 404
+        
+        appointment = db.session.get(Appointment, appointment_id)
+        
+        if not appointment or appointment.doctor_id != doctor_profile.id:
+            return jsonify({'error': 'Appointment not found or unauthorized'}), 404
+        
+        data = request.get_json()
+        
+        # Update allowed fields
+        if 'status' in data:
+            appointment.status = data['status']
+        if 'doctor_notes' in data:
+            appointment.doctor_notes = data['doctor_notes']
+        if 'appointment_date' in data:
+            try:
+                appointment.appointment_date = datetime.fromisoformat(data['appointment_date'].replace('Z', '+00:00'))
+            except:
+                return jsonify({'error': 'Invalid date format'}), 400
+        if 'duration_minutes' in data:
+            appointment.duration_minutes = data['duration_minutes']
+        
+        appointment.updated_at = datetime.utcnow()
+        db.session.commit()
+        
+        return jsonify({
+            'message': 'Appointment updated successfully',
+            'appointment': appointment.to_dict()
+        }), 200
+        
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({'error': str(e)}), 500

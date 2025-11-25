@@ -15,6 +15,14 @@ class User(db.Model):
     is_verified = db.Column(db.Boolean, default=False)
     avatar_url = db.Column(db.String(255), nullable=True)
     
+    # Password reset
+    reset_token = db.Column(db.String(255), nullable=True)
+    reset_token_expires = db.Column(db.DateTime, nullable=True)
+    
+    # OAuth fields
+    oauth_provider = db.Column(db.String(20), nullable=True)  # google, facebook
+    oauth_uid = db.Column(db.String(255), nullable=True)
+    
     # Subscription info
     subscription_plan = db.Column(db.String(50), default='free')  # free, personal, family
     subscription_status = db.Column(db.String(20), default='active')  # active, cancelled, expired
@@ -36,9 +44,17 @@ class User(db.Model):
     doctor_profile = db.relationship('DoctorProfile', backref='user', uselist=False, cascade='all, delete-orphan')
     
     def set_password(self, password):
-        self.password_hash = generate_password_hash(password)
+        """Set password hash"""
+        if password:
+            self.password_hash = generate_password_hash(password)
+        else:
+            # For OAuth users without password
+            self.password_hash = generate_password_hash('oauth_user_no_password')
     
     def check_password(self, password):
+        """Check password"""
+        if not self.password_hash:
+            return False
         return check_password_hash(self.password_hash, password)
     
     def to_dict(self):

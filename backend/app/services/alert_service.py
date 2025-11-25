@@ -2,6 +2,16 @@ from app.models.models import Alert, User
 from app.extensions import db
 from datetime import datetime
 import json
+import logging
+
+logger = logging.getLogger(__name__)
+
+try:
+    from app.services.notification_service import NotificationService
+    notification_service = NotificationService()
+except ImportError:
+    notification_service = None
+    logger.warning('NotificationService not available')
 
 class AlertService:
     """
@@ -116,8 +126,27 @@ class AlertService:
             db.session.add(alert)
             db.session.commit()
             
-            # TODO: Send notification to doctors/admin
-            # TODO: Trigger webhook for real-time notification
+            # Send notifications if high severity
+            if severity in ['high', 'critical'] and notification_service:
+                user = User.query.get(user_id)
+                if user:
+                    # Get assigned doctors
+                    from app.models.models import PatientRecord
+                    patient_records = PatientRecord.query.filter_by(patient_id=user_id).all()
+                    doctor_emails = []
+                    for record in patient_records:
+                        if record.doctor and record.doctor.email:
+                            doctor_emails.append(record.doctor.email)
+                    
+                    # Send alert notification
+                    notification_service.send_alert_notification(
+                        user_email=user.email,
+                        user_name=user.full_name,
+                        alert_type=alert_type,
+                        severity=severity,
+                        message=message,
+                        doctor_emails=doctor_emails
+                    )
             
             return alert
             
