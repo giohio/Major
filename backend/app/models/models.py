@@ -10,6 +10,8 @@ class User(db.Model):
     password_hash = db.Column(db.String(255), nullable=False)
     full_name = db.Column(db.String(100), nullable=False)
     phone = db.Column(db.String(20), nullable=True)
+    date_of_birth = db.Column(db.Date, nullable=True)
+    address = db.Column(db.String(255), nullable=True)
     role = db.Column(db.String(20), nullable=False, default='user')  # user, doctor, admin
     is_active = db.Column(db.Boolean, default=True)
     is_verified = db.Column(db.Boolean, default=False)
@@ -28,6 +30,9 @@ class User(db.Model):
     subscription_status = db.Column(db.String(20), default='active')  # active, cancelled, expired
     subscription_start_date = db.Column(db.DateTime, nullable=True)
     subscription_end_date = db.Column(db.DateTime, nullable=True)
+    
+    # User settings (JSON)
+    settings = db.Column(db.Text, nullable=True)  # JSON string of user preferences
     
     # Timestamps
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
@@ -63,12 +68,16 @@ class User(db.Model):
             'email': self.email,
             'full_name': self.full_name,
             'phone': self.phone,
+            'date_of_birth': self.date_of_birth.isoformat() if self.date_of_birth else None,
+            'address': self.address,
             'role': self.role,
             'is_active': self.is_active,
             'is_verified': self.is_verified,
             'avatar_url': self.avatar_url,
             'subscription_plan': self.subscription_plan,
             'subscription_status': self.subscription_status,
+            'subscription_start_date': self.subscription_start_date.isoformat() if self.subscription_start_date else None,
+            'subscription_end_date': self.subscription_end_date.isoformat() if self.subscription_end_date else None,
             'created_at': self.created_at.isoformat() if self.created_at else None,
             'last_login': self.last_login.isoformat() if self.last_login else None
         }
@@ -293,6 +302,55 @@ class Exercise(db.Model):
             'duration_minutes': self.duration_minutes,
             'instructions': self.instructions,
             'benefits': self.benefits
+        }
+
+
+class UserExerciseProgress(db.Model):
+    __tablename__ = 'user_exercise_progress'
+    
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False, index=True)
+    exercise_id = db.Column(db.Integer, db.ForeignKey('exercises.id'), nullable=False, index=True)
+    
+    status = db.Column(db.String(20), default='not_started')  # not_started, in_progress, completed
+    progress_percentage = db.Column(db.Integer, default=0)  # 0-100
+    
+    started_at = db.Column(db.DateTime, nullable=True)
+    completed_at = db.Column(db.DateTime, nullable=True)
+    last_practiced_at = db.Column(db.DateTime, nullable=True)
+    
+    times_completed = db.Column(db.Integer, default=0)
+    total_time_spent_minutes = db.Column(db.Integer, default=0)
+    
+    notes = db.Column(db.Text, nullable=True)  # User's reflection after completion
+    
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    
+    # Relationships
+    user = db.relationship('User', backref='exercise_progress')
+    exercise = db.relationship('Exercise', backref='user_progress')
+    
+    # Unique constraint: one progress record per user per exercise
+    __table_args__ = (
+        db.UniqueConstraint('user_id', 'exercise_id', name='unique_user_exercise'),
+    )
+    
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'user_id': self.user_id,
+            'exercise_id': self.exercise_id,
+            'status': self.status,
+            'progress_percentage': self.progress_percentage,
+            'started_at': self.started_at.isoformat() if self.started_at else None,
+            'completed_at': self.completed_at.isoformat() if self.completed_at else None,
+            'last_practiced_at': self.last_practiced_at.isoformat() if self.last_practiced_at else None,
+            'times_completed': self.times_completed,
+            'total_time_spent_minutes': self.total_time_spent_minutes,
+            'notes': self.notes,
+            'created_at': self.created_at.isoformat() if self.created_at else None,
+            'updated_at': self.updated_at.isoformat() if self.updated_at else None
         }
 
 

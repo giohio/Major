@@ -5,7 +5,11 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { User, Shield, CreditCard, Calendar, Heart, Clock } from 'lucide-react';
+import { User, Shield, CreditCard, Calendar as CalendarIcon, Heart, Clock } from 'lucide-react';
+import { format } from "date-fns";
+import { cn } from "@/lib/utils";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { Calendar } from "@/components/ui/calendar";
 import { useUser } from '@/hooks/useUser';
 import { toast } from 'sonner';
 
@@ -14,7 +18,9 @@ const Profile = () => {
   const [formData, setFormData] = useState({
     full_name: '',
     phone: '',
-    email: ''
+    email: '',
+    date_of_birth: '',
+    address: ''
   });
   const [passwordData, setPasswordData] = useState({
     current_password: '',
@@ -30,10 +36,24 @@ const Profile = () => {
 
   useEffect(() => {
     if (profile) {
+      let formattedDob = '';
+      if (profile.date_of_birth) {
+        try {
+          const date = new Date(profile.date_of_birth);
+          if (!isNaN(date.getTime())) {
+            formattedDob = date.toISOString().split('T')[0];
+          }
+        } catch (e) {
+          console.error('Invalid date format:', profile.date_of_birth);
+        }
+      }
+
       setFormData({
         full_name: profile.full_name || '',
         phone: profile.phone || '',
-        email: profile.email || ''
+        email: profile.email || '',
+        date_of_birth: formattedDob,
+        address: profile.address || ''
       });
     }
   }, [profile]);
@@ -100,7 +120,7 @@ const Profile = () => {
           <div className="flex gap-4">
             <div className="text-center">
               <div className="flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 mb-2">
-                <Calendar size={20} className="text-primary" />
+                <CalendarIcon size={20} className="text-primary" />
               </div>
               <div className="text-xl font-bold text-foreground">{user.sessionsCompleted}</div>
               <div className="text-xs text-muted-foreground">Sessions</div>
@@ -177,12 +197,43 @@ const Profile = () => {
                     placeholder="0901234567"
                   />
                 </div>
-                <div className="space-y-2">
+                <div className="space-y-2 flex flex-col">
                   <Label htmlFor="dob">Ngày sinh</Label>
-                  <Input
-                    id="dob"
-                    type="date"
-                  />
+                  <Popover>
+                    <PopoverTrigger asChild>
+                      <Button
+                        variant={"outline"}
+                        className={cn(
+                          "w-full pl-3 text-left font-normal",
+                          !formData.date_of_birth && "text-muted-foreground"
+                        )}
+                      >
+                        {formData.date_of_birth ? (
+                          format(new Date(formData.date_of_birth), "dd/MM/yyyy")
+                        ) : (
+                          <span>Chọn ngày sinh</span>
+                        )}
+                        <CalendarIcon className="ml-auto h-4 w-4 opacity-50" />
+                      </Button>
+                    </PopoverTrigger>
+                    <PopoverContent className="w-auto p-0" align="start">
+                      <Calendar
+                        mode="single"
+                        selected={formData.date_of_birth ? new Date(formData.date_of_birth) : undefined}
+                        onSelect={(date) => {
+                          if (date) {
+                            // Adjust for timezone offset to prevent date shifting
+                            const offsetDate = new Date(date.getTime() - (date.getTimezoneOffset() * 60000));
+                            setFormData({ ...formData, date_of_birth: offsetDate.toISOString().split('T')[0] });
+                          }
+                        }}
+                        disabled={(date) =>
+                          date > new Date() || date < new Date("1900-01-01")
+                        }
+                        initialFocus
+                      />
+                    </PopoverContent>
+                  </Popover>
                 </div>
               </div>
               <div className="space-y-2">
@@ -190,16 +241,31 @@ const Profile = () => {
                 <Input
                   id="address"
                   type="text"
+                  value={formData.address}
+                  onChange={(e) => setFormData({ ...formData, address: e.target.value })}
                   placeholder="Nhập địa chỉ của bạn"
                 />
               </div>
               <div className="flex justify-end gap-3 pt-4">
                 <Button type="button" variant="outline" onClick={() => {
                   if (profile) {
+                    let formattedDob = '';
+                    if (profile.date_of_birth) {
+                      try {
+                        const date = new Date(profile.date_of_birth);
+                        if (!isNaN(date.getTime())) {
+                          formattedDob = date.toISOString().split('T')[0];
+                        }
+                      } catch (e) {
+                        console.error('Invalid date format:', profile.date_of_birth);
+                      }
+                    }
                     setFormData({
                       full_name: profile.full_name || '',
                       phone: profile.phone || '',
-                      email: profile.email || ''
+                      email: profile.email || '',
+                      date_of_birth: formattedDob,
+                      address: profile.address || ''
                     });
                   }
                 }}>Hủy</Button>

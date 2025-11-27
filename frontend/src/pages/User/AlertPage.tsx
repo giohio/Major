@@ -1,8 +1,7 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '../../components/ui/card';
 import { Badge } from '../../components/ui/badge';
 import { Button } from '../../components/ui/button';
-import { Alert, AlertDescription, AlertTitle } from '../../components/ui/alert';
-import { AlertCircle, AlertTriangle, Info, CheckCircle2, X, Bell, Trash2 } from 'lucide-react';
+import { AlertCircle, AlertTriangle, Info, CheckCircle2, Bell, Trash2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 interface AlertItem {
@@ -78,17 +77,13 @@ const AlertPage = () => {
     }
   };
 
-  const getAlertVariant = (type: string): 'default' | 'destructive' => {
-    return type === 'critical' ? 'destructive' : 'default';
-  };
-
   const unreadCount = alerts.filter(a => !a.read).length;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-background to-muted/20">
       <div className="p-6 space-y-6 max-w-6xl mx-auto">
         {/* Header */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -122,7 +117,7 @@ const AlertPage = () => {
         </motion.div>
 
         {/* Stats */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
@@ -194,7 +189,7 @@ const AlertPage = () => {
         </motion.div>
 
         {/* Alerts List */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
@@ -207,30 +202,41 @@ const AlertPage = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.3, delay: index * 0.05 }}
             >
-              <Alert
-                variant={getAlertVariant(alert.type)}
-                className={`relative border-2 shadow-sm hover:shadow-md transition-all duration-300 ${
-                  !alert.read ? 'border-l-4 bg-gradient-to-r from-muted/50 to-background' : 'opacity-70'
-                }`}
+              <div
+                className={`relative rounded-xl border p-4 transition-all duration-300 hover:shadow-md ${alert.type === 'critical'
+                  ? 'bg-red-50/50 border-red-200 dark:bg-red-950/10 dark:border-red-900/50'
+                  : alert.type === 'warning'
+                    ? 'bg-yellow-50/50 border-yellow-200 dark:bg-yellow-950/10 dark:border-yellow-900/50'
+                    : alert.type === 'success'
+                      ? 'bg-green-50/50 border-green-200 dark:bg-green-950/10 dark:border-green-900/50'
+                      : 'bg-blue-50/50 border-blue-200 dark:bg-blue-950/10 dark:border-blue-900/50'
+                  } ${!alert.read ? 'border-l-4' : 'opacity-80'}`}
               >
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 mt-1">
+                  <div className={`flex-shrink-0 mt-1 p-2 rounded-full ${alert.type === 'critical' ? 'bg-red-100 text-red-600 dark:bg-red-900/30 dark:text-red-400' :
+                    alert.type === 'warning' ? 'bg-yellow-100 text-yellow-600 dark:bg-yellow-900/30 dark:text-yellow-400' :
+                      alert.type === 'success' ? 'bg-green-100 text-green-600 dark:bg-green-900/30 dark:text-green-400' :
+                        'bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400'
+                    }`}>
                     {getAlertIcon(alert.type)}
                   </div>
+
                   <div className="flex-1 space-y-3">
                     <div className="flex items-start justify-between gap-4">
-                      <div className="flex-1 space-y-2">
-                        <AlertTitle className="flex items-center gap-2 text-lg font-semibold">
-                          {alert.title}
+                      <div className="flex-1 space-y-1">
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <h3 className="text-lg font-semibold text-foreground">
+                            {alert.title}
+                          </h3>
                           {!alert.read && (
-                            <Badge className="text-xs bg-gradient-to-r from-purple-500 to-blue-500 text-white">Mới</Badge>
+                            <Badge className="text-xs bg-gradient-to-r from-purple-500 to-blue-500 text-white border-0">Mới</Badge>
                           )}
-                        </AlertTitle>
-                        <AlertDescription className="text-base leading-relaxed">
+                        </div>
+                        <p className="text-base text-muted-foreground leading-relaxed">
                           {alert.message}
-                        </AlertDescription>
-                        <div className="flex items-center gap-3 text-xs text-muted-foreground">
-                          <span className="flex items-center gap-1">
+                        </p>
+                        <div className="flex items-center gap-3 text-xs text-muted-foreground pt-1">
+                          <span className="flex items-center gap-1 bg-background/50 px-2 py-1 rounded-md border">
                             <Info className="w-3 h-3" />
                             {new Date(alert.timestamp).toLocaleString('vi-VN')}
                           </span>
@@ -239,24 +245,26 @@ const AlertPage = () => {
                       <Button
                         variant="ghost"
                         size="icon"
-                        className="flex-shrink-0 hover:bg-destructive/10 hover:text-destructive transition-colors"
+                        className="flex-shrink-0 hover:bg-destructive/10 hover:text-destructive transition-colors -mt-1 -mr-1"
                       >
                         <Trash2 className="w-4 h-4" />
                       </Button>
                     </div>
 
                     {alert.actionUrl && (
-                      <Button 
-                        variant="default" 
-                        size="sm" 
-                        className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white shadow-md"
-                      >
-                        Xem chi tiết →
-                      </Button>
+                      <div className="pt-1">
+                        <Button
+                          variant="default"
+                          size="sm"
+                          className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white shadow-sm h-8"
+                        >
+                          Xem chi tiết →
+                        </Button>
+                      </div>
                     )}
                   </div>
                 </div>
-              </Alert>
+              </div>
             </motion.div>
           ))}
         </motion.div>

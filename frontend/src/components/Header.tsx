@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
 import { Button } from './ui/button';
-import { MessageCircle, BarChart3, Users, Calendar, Heart, Settings, LogOut, Bell } from 'lucide-react';
+import { MessageCircle, BarChart3, Users, Calendar, Heart, Settings, LogOut, Bell, Brain } from 'lucide-react';
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -29,7 +29,7 @@ const Header = () => {
   };
 
   const userMenuItems = [
-    { icon: MessageCircle, label: 'Chat', href: '/user/chat' },
+    { icon: MessageCircle, label: 'Chat', href: '/chat' },
     { icon: BarChart3, label: 'Cảm xúc', href: '/user/dashboard' },
     { icon: Users, label: 'Bác sĩ', href: '/user/find-doctor' },
     { icon: Calendar, label: 'Lịch hẹn', href: '/user/appointments' },
@@ -40,11 +40,13 @@ const Header = () => {
     <header className="sticky top-0 z-40 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link to={getDashboardRoute()} className="flex items-center gap-2 font-bold text-xl">
-          <div className="w-8 h-8 rounded-lg bg-linear-to-br from-primary to-secondary flex items-center justify-center text-white">
-            MC
+        <Link to={getDashboardRoute()} className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center shadow-lg shadow-purple-500/30">
+            <Brain className="w-5 h-5 text-white" />
           </div>
-          <span className="text-foreground">MindCare</span>
+          <span className="text-lg font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+            MindCare AI
+          </span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -92,7 +94,7 @@ const Header = () => {
                       <Settings size={16} />
                       <span>Cài đặt</span>
                     </Link>
-                    <button 
+                    <button
                       onClick={handleLogout}
                       className="w-full flex items-center gap-3 px-4 py-2 text-sm text-foreground hover:bg-accent/50 transition-colors text-left"
                     >

@@ -4,6 +4,8 @@ export interface User {
   email: string;
   full_name: string;
   phone?: string;
+  date_of_birth?: string;
+  address?: string;
   role: 'user' | 'doctor' | 'admin';
   is_active: boolean;
   is_verified: boolean;
@@ -153,6 +155,19 @@ export interface SubscribeRequest {
 }
 
 // Doctor types
+export interface Doctor {
+  id: number;
+  name: string;
+  specialty: string;
+  image: string;
+  rating: number;
+  reviews: number;
+  experience: number;
+  price: number;
+  about?: string;
+  patients?: number;
+}
+
 export interface PatientRecord {
   id: number;
   user_id: number;

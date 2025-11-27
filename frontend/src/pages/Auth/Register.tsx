@@ -20,7 +20,7 @@ const Register = () => {
   const [agreeTerms, setAgreeTerms] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
-  const { login } = useAuth();
+  const { register } = useAuth();
   const navigate = useNavigate();
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -77,8 +77,8 @@ const Register = () => {
     setIsLoading(true);
 
     try {
-      // Mock registration - in real app, call registration API first
-      await login(formData.email, formData.password);
+      // Call registration API
+      await register(formData.name, formData.email, formData.password);
       navigate('/user/profile');
     } catch (error) {
       console.error('Registration failed:', error);
@@ -105,7 +105,7 @@ const Register = () => {
             <div className="mx-auto w-16 h-16 rounded-2xl bg-linear-to-br from-purple-500 to-pink-600 flex items-center justify-center shadow-lg shadow-pink-500/30 animate-scale-in">
               <Brain className="w-8 h-8 text-white" />
             </div>
-            
+
             <div className="space-y-2">
               <CardTitle className="text-3xl font-bold bg-linear-to-r from-purple-600 to-pink-600 dark:from-purple-400 dark:to-pink-400 bg-clip-text text-transparent">
                 Tạo tài khoản miễn phí
@@ -347,8 +347,8 @@ const Register = () => {
               {/* Login Link */}
               <p className="text-center text-sm text-muted-foreground pt-2">
                 Đã có tài khoản?{' '}
-                <Link 
-                  to="/login" 
+                <Link
+                  to="/login"
                   className="text-primary hover:underline font-semibold transition-all"
                 >
                   Đăng nhập ngay

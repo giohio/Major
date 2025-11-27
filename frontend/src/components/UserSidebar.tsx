@@ -55,11 +55,10 @@ const UserSidebar = () => {
 
       {/* Sidebar */}
       <aside
-        className={`fixed top-0 left-0 z-40 h-screen w-64 bg-sidebar border-r border-sidebar-border transform transition-transform lg:translate-x-0 ${
-          open ? 'translate-x-0' : '-translate-x-full'
-        }`}
+        className={`fixed top-0 left-0 z-40 h-screen w-64 bg-sidebar border-r border-sidebar-border transform transition-transform lg:translate-x-0 flex flex-col ${open ? 'translate-x-0' : '-translate-x-full'
+          }`}
       >
-        <div className="p-6 border-b border-sidebar-border">
+        <div className="p-6 border-b border-sidebar-border flex-shrink-0">
           <Link to="/user/profile" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center shadow-lg shadow-purple-500/30">
               <Brain className="w-6 h-6 text-white" />
@@ -70,7 +69,7 @@ const UserSidebar = () => {
           </Link>
         </div>
 
-        <nav className="p-4 space-y-2 overflow-y-auto h-[calc(100vh-200px)]">
+        <nav className="p-4 space-y-2 flex-1 overflow-y-auto">
           {menuItems.map((item) => {
             const Icon = item.icon;
             const isActive = location.pathname === item.path;
@@ -78,21 +77,20 @@ const UserSidebar = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`flex items-center gap-3 px-4 py-3 rounded-lg transition-colors ${
-                  isActive
-                    ? 'bg-sidebar-accent text-sidebar-accent-foreground'
-                    : 'text-sidebar-foreground hover:bg-sidebar-accent/50'
-                }`}
+                className={`flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 group ${isActive
+                  ? 'bg-sidebar-accent text-sidebar-accent-foreground shadow-sm'
+                  : 'text-sidebar-foreground hover:bg-sidebar-accent/50 hover:translate-x-1'
+                  }`}
                 onClick={() => setOpen(false)}
               >
-                <Icon size={20} />
+                <Icon size={20} className={`transition-transform duration-200 ${isActive ? 'scale-110' : 'group-hover:scale-110'}`} />
                 <span className="font-medium">{item.label}</span>
               </Link>
             );
           })}
         </nav>
 
-        <div className="absolute bottom-0 left-0 right-0 p-4 border-t border-sidebar-border space-y-2">
+        <div className="p-4 border-t border-sidebar-border space-y-2 flex-shrink-0 bg-sidebar">
           <Link
             to="/user/settings"
             className="flex items-center gap-3 px-4 py-3 rounded-lg text-sidebar-foreground hover:bg-sidebar-accent/50 transition-colors"
@@ -108,7 +106,7 @@ const UserSidebar = () => {
             <LogOut size={20} />
             <span>Đăng xuất</span>
           </Button>
-          
+
           <div className="mt-4 p-4 rounded-lg bg-destructive/10 border border-destructive/20">
             <div className="flex items-start gap-2">
               <Phone size={16} className="text-destructive mt-0.5" />

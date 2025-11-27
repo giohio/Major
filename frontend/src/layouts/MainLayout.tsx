@@ -4,11 +4,13 @@ import Footer from '../components/Footer';
 
 const MainLayout = () => {
   const location = useLocation();
-  const hideFooter = location.pathname === '/chat';
+  const isLandingPage = location.pathname === '/';
+  const hideHeader = isLandingPage;
+  const hideFooter = location.pathname === '/chat' || isLandingPage;
 
   return (
     <div className="main-layout">
-      <Header />
+      {!hideHeader && <Header />}
       <main className="main-content">
         <Outlet />
       </main>

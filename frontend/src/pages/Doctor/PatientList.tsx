@@ -1,4 +1,6 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { apiClient } from '../../services/api.client';
+import { API_ENDPOINTS } from '../../config/api.config';
 import { Card, CardContent, CardHeader, CardTitle } from '../../components/ui/card';
 import { Badge } from '../../components/ui/badge';
 import { Button } from '../../components/ui/button';
@@ -21,61 +23,37 @@ interface Patient {
 const PatientList = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
-  const patients: Patient[] = [
-    {
-      id: 1,
-      name: 'Nguyễn Văn A',
-      age: 28,
-      gender: 'Nam',
-      condition: 'Lo âu',
-      severity: 'high',
-      lastSession: '2024-01-20',
-      progress: 'improving',
-      nextAppointment: '2024-01-25'
-    },
-    {
-      id: 2,
-      name: 'Trần Thị B',
-      age: 34,
-      gender: 'Nữ',
-      condition: 'Trầm cảm',
-      severity: 'high',
-      lastSession: '2024-01-19',
-      progress: 'stable',
-      nextAppointment: '2024-01-26'
-    },
-    {
-      id: 3,
-      name: 'Lê Văn C',
-      age: 45,
-      gender: 'Nam',
-      condition: 'Căng thẳng',
-      severity: 'medium',
-      lastSession: '2024-01-18',
-      progress: 'improving'
-    },
-    {
-      id: 4,
-      name: 'Phạm Thị D',
-      age: 22,
-      gender: 'Nữ',
-      condition: 'Lo âu xã hội',
-      severity: 'medium',
-      lastSession: '2024-01-17',
-      progress: 'declining',
-      nextAppointment: '2024-01-23'
-    },
-    {
-      id: 5,
-      name: 'Hoàng Văn E',
-      age: 31,
-      gender: 'Nam',
-      condition: 'Mất ngủ',
-      severity: 'low',
-      lastSession: '2024-01-16',
-      progress: 'stable'
-    }
-  ];
+  const [patients, setPatients] = useState<Patient[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchPatients = async () => {
+      try {
+        setLoading(true);
+        const response = await apiClient.get<{ patients: any[] }>(API_ENDPOINTS.DOCTOR.PATIENTS);
+
+        const mappedPatients: Patient[] = response.patients.map((p: any) => ({
+          id: p.id,
+          name: p.full_name,
+          age: p.date_of_birth ? new Date().getFullYear() - new Date(p.date_of_birth).getFullYear() : 0,
+          gender: 'N/A',
+          condition: p.record?.diagnosis || 'Chưa có chẩn đoán',
+          severity: 'medium',
+          lastSession: p.last_activity || new Date().toISOString(),
+          progress: 'stable',
+          nextAppointment: undefined
+        }));
+
+        setPatients(mappedPatients);
+      } catch (error) {
+        console.error('Error fetching patients:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchPatients();
+  }, []);
 
   const filteredPatients = patients.filter(patient => {
     const searchLower = searchQuery.toLowerCase();
@@ -127,6 +105,10 @@ const PatientList = () => {
   const totalPatients = patients.length;
   const highSeverity = patients.filter(p => p.severity === 'high').length;
   const improving = patients.filter(p => p.progress === 'improving').length;
+
+  if (loading) {
+    return <div className="flex items-center justify-center h-screen">Đang tải danh sách bệnh nhân...</div>;
+  }
 
   return (
     <div className="p-6 space-y-6 max-w-7xl mx-auto">

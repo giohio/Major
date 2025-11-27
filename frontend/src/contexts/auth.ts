@@ -10,6 +10,7 @@ export interface User {
 export interface AuthContextType {
   user: User | null;
   login: (email: string, password: string) => Promise<User>;
+  register: (name: string, email: string, password: string) => Promise<User>;
   loginWithOAuth: (provider: 'google' | 'facebook', firebaseUser: any) => Promise<User>;
   logout: () => void;
 }

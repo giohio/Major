@@ -1,4 +1,5 @@
 from flask import Blueprint, request, jsonify
+from flask_jwt_extended import jwt_required
 from app.middleware.role_middleware import doctor_required
 from app.models.models import User, PatientRecord, DoctorNote, Task, TherapySession, Alert, EmotionLog, ChatSession
 from app.extensions import db
@@ -47,6 +48,120 @@ def get_dashboard(current_user):
         return jsonify({'error': str(e)}), 500
 
 
+@bp.route('/', methods=['GET'])
+@jwt_required()
+def get_all_doctors():
+    """Get list of all available doctors"""
+    try:
+        from app.models.models import DoctorProfile, User
+        
+        # Get all doctors with their user info
+        doctors = db.session.query(DoctorProfile, User).join(User).filter(
+            User.role == 'doctor',
+            User.is_active == True,
+            DoctorProfile.is_verified == True
+        ).all()
+        
+        result = []
+        for profile, user in doctors:
+            doctor_data = profile.to_dict()
+            doctor_data['name'] = user.full_name
+            doctor_data['avatar_url'] = user.avatar_url
+            doctor_data['email'] = user.email
+            
+            # Calculate review count (mock for now or from relationships)
+            doctor_data['reviews'] = 0 # Placeholder
+            
+            # Format price
+            doctor_data['price'] = float(profile.consultation_fee)
+            
+            # Parse languages
+            if isinstance(doctor_data['languages'], str):
+                doctor_data['languages'] = [lang.strip() for lang in doctor_data['languages'].split(',')]
+            else:
+                doctor_data['languages'] = []
+                
+            # Mock availability for now
+            doctor_data['available'] = profile.is_available
+            doctor_data['nextSlot'] = 'Hôm nay' # Placeholder
+            
+            # Map fields for frontend
+            doctor_data['specialty'] = profile.specialization
+            doctor_data['experience'] = profile.years_of_experience
+            doctor_data['verified'] = profile.is_verified
+            
+            result.append(doctor_data)
+            
+        return jsonify({'doctors': result}), 200
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+
+
+
+
+@bp.route('/<int:doctor_id>', methods=['GET'])
+@jwt_required()
+def get_doctor_details(doctor_id):
+    """Get details of a specific doctor"""
+    try:
+        from app.models.models import DoctorProfile, User
+        
+        # Get doctor profile
+        # Note: doctor_id here likely refers to the User ID of the doctor (as used in frontend links)
+        # But let's check if frontend passes User ID or DoctorProfile ID.
+        # In FindDoctor.tsx: key={doctor.id}. doctor.id usually comes from backend.
+        # My get_all_doctors returns profile.to_dict() which has 'id' (DoctorProfile ID) and 'user_id'.
+        # But usually we link by User ID or Profile ID.
+        # Let's assume it's DoctorProfile ID for now, but check if we can find by User ID too.
+        
+        # Actually, let's look at get_all_doctors again.
+        # doctor_data = profile.to_dict() -> 'id' is profile.id.
+        # So the frontend uses profile.id.
+        
+        profile = db.session.get(DoctorProfile, doctor_id)
+        
+        if not profile:
+            return jsonify({'error': 'Doctor not found'}), 404
+            
+        user = db.session.get(User, profile.user_id)
+        
+        if not user or not user.is_active:
+             return jsonify({'error': 'Doctor not active'}), 404
+
+        doctor_data = profile.to_dict()
+        doctor_data['name'] = user.full_name
+        doctor_data['avatar_url'] = user.avatar_url
+        doctor_data['email'] = user.email
+        doctor_data['image'] = user.avatar_url # Frontend uses 'image' in BookAppointment
+        
+        # Calculate review count
+        doctor_data['reviews'] = 0 
+        
+        # Format price
+        doctor_data['price'] = float(profile.consultation_fee)
+        
+        # Parse languages
+        if isinstance(doctor_data['languages'], str):
+            doctor_data['languages'] = [lang.strip() for lang in doctor_data['languages'].split(',')]
+        else:
+            doctor_data['languages'] = []
+            
+        # Mock availability
+        doctor_data['available'] = profile.is_available
+        doctor_data['nextSlot'] = 'Hôm nay'
+        
+        # Map fields
+        doctor_data['specialty'] = profile.specialization
+        doctor_data['experience'] = profile.years_of_experience
+        doctor_data['verified'] = profile.is_verified
+        
+        return jsonify(doctor_data), 200
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 @bp.route('/patients', methods=['GET'])
 @doctor_required
 def get_patients(current_user):

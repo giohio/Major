@@ -28,7 +28,7 @@ export const useUser = () => {
   }, []);
 
   const updateProfile = useCallback(
-    async (data: { full_name?: string; phone?: string; avatar_url?: string }) => {
+    async (data: { full_name?: string; phone?: string; avatar_url?: string; date_of_birth?: string; address?: string }) => {
       try {
         setLoading(true);
         setError(null);

@@ -1,82 +1,125 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../components/ui/card';
 import { Badge } from '../../components/ui/badge';
 import { Button } from '../../components/ui/button';
 import { Input } from '../../components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../../components/ui/select';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '../../components/ui/table';
-import { Users, Search, Filter, Crown, MoreVertical, Mail, Phone } from 'lucide-react';
+import { Users, Search, Filter, Crown, MoreVertical, Mail, Phone, Edit, Trash2, Check, X } from 'lucide-react';
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from '../../components/ui/dialog';
+import { Label } from '../../components/ui/label';
+import { apiClient } from '../../services/api.client';
+import { API_ENDPOINTS } from '../../config/api.config';
+import { toast } from 'sonner';
+
+interface User {
+  id: number;
+  full_name: string;
+  email: string;
+  phone: string;
+  role: string;
+  subscription_plan: string;
+  subscription_status: string;
+  is_active: boolean;
+  created_at: string;
+  last_login: string;
+}
 
 const UserManagement = () => {
+  const [users, setUsers] = useState<User[]>([]);
+  const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [roleFilter, setRoleFilter] = useState('all');
   const [planFilter, setPlanFilter] = useState('all');
   const [statusFilter, setStatusFilter] = useState('all');
 
-  const users = [
-    {
-      id: 1,
-      name: 'Nguyễn Văn A',
-      email: 'nguyenvana@email.com',
-      phone: '0901234567',
-      role: 'user',
-      plan: 'Premium',
-      status: 'active',
-      lastActive: '2 giờ trước',
-      joinedDate: '15/01/2024'
-    },
-    {
-      id: 2,
-      name: 'Trần Thị B',
-      email: 'tranthib@email.com',
-      phone: '0912345678',
-      role: 'user',
-      plan: 'Free',
-      status: 'active',
-      lastActive: '1 ngày trước',
-      joinedDate: '20/01/2024'
-    },
-    {
-      id: 3,
-      name: 'Lê Văn C',
-      email: 'levanc@email.com',
-      phone: '0923456789',
-      role: 'doctor',
-      plan: 'Enterprise',
-      status: 'active',
-      lastActive: '30 phút trước',
-      joinedDate: '10/01/2024'
-    },
-    {
-      id: 4,
-      name: 'Phạm Thị D',
-      email: 'phamthid@email.com',
-      phone: '0934567890',
-      role: 'user',
-      plan: 'Premium',
-      status: 'suspended',
-      lastActive: '5 ngày trước',
-      joinedDate: '05/02/2024'
-    },
-    {
-      id: 5,
-      name: 'Hoàng Văn E',
-      email: 'hoangvane@email.com',
-      phone: '0945678901',
-      role: 'admin',
-      plan: 'Enterprise',
-      status: 'active',
-      lastActive: '1 giờ trước',
-      joinedDate: '01/01/2024'
-    }
-  ];
+  // Edit Dialog State
+  const [editingUser, setEditingUser] = useState<User | null>(null);
+  const [isEditOpen, setIsEditOpen] = useState(false);
+  const [editForm, setEditForm] = useState({
+    full_name: '',
+    role: '',
+    subscription_plan: '',
+    is_active: true
+  });
 
-  const stats = [
-    { label: 'Tổng người dùng', value: '1,234', change: '+12%', color: 'text-blue-600' },
-    { label: 'Hoạt động', value: '892', change: '+8%', color: 'text-green-600' },
-    { label: 'Premium', value: '342', change: '+15%', color: 'text-purple-600' },
-    { label: 'Tạm khóa', value: '12', change: '-3%', color: 'text-red-600' }
-  ];
+  useEffect(() => {
+    fetchUsers();
+  }, [roleFilter, statusFilter]);
+
+  const fetchUsers = async () => {
+    try {
+      setLoading(true);
+      const queryParams = new URLSearchParams();
+      if (roleFilter !== 'all') queryParams.append('role', roleFilter);
+      if (statusFilter !== 'all') queryParams.append('status', statusFilter);
+
+      const queryString = queryParams.toString();
+      const url = queryString ? `${API_ENDPOINTS.ADMIN.USERS}?${queryString}` : API_ENDPOINTS.ADMIN.USERS;
+
+      const response = await apiClient.get<{ users: User[] }>(url);
+      setUsers(response.users);
+    } catch (error) {
+      console.error('Failed to fetch users:', error);
+      toast.error('Không thể tải danh sách người dùng');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleEditClick = (user: User) => {
+    setEditingUser(user);
+    setEditForm({
+      full_name: user.full_name,
+      role: user.role,
+      subscription_plan: user.subscription_plan,
+      is_active: user.is_active
+    });
+    setIsEditOpen(true);
+  };
+
+  const handleUpdateUser = async () => {
+    if (!editingUser) return;
+
+    try {
+      await apiClient.put(API_ENDPOINTS.ADMIN.USER(editingUser.id), editForm);
+      toast.success('Cập nhật người dùng thành công');
+      setIsEditOpen(false);
+      fetchUsers();
+    } catch (error) {
+      console.error('Failed to update user:', error);
+      toast.error('Cập nhật thất bại');
+    }
+  };
+
+  const handleDeleteUser = async (userId: number) => {
+    if (!confirm('Bạn có chắc chắn muốn xóa người dùng này? Hành động này không thể hoàn tác.')) return;
+
+    try {
+      await apiClient.delete(API_ENDPOINTS.ADMIN.USER(userId));
+      toast.success('Xóa người dùng thành công');
+      fetchUsers();
+    } catch (error) {
+      console.error('Failed to delete user:', error);
+      toast.error('Xóa thất bại');
+    }
+  };
+
+  const filteredUsers = users.filter(user => {
+    const matchesSearch = user.full_name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      user.email.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesPlan = planFilter === 'all' || user.subscription_plan === planFilter;
+
+    return matchesSearch && matchesPlan;
+  });
+
+  const getRoleBadge = (role: string) => {
+    switch (role) {
+      case 'admin': return <Badge className="bg-red-600">Admin</Badge>;
+      case 'doctor': return <Badge className="bg-blue-600">Bác sĩ</Badge>;
+      default: return <Badge variant="secondary">Người dùng</Badge>;
+    }
+  };
 
   return (
     <div className="space-y-6 p-6">
@@ -91,25 +134,10 @@ const UserManagement = () => {
             Quản lý tài khoản người dùng và bác sĩ trong hệ thống
           </p>
         </div>
-        <Button className="gap-2">
+        <Button className="gap-2" onClick={() => toast.info('Chức năng thêm người dùng đang phát triển')}>
           <Users className="w-4 h-4" />
           Thêm người dùng mới
         </Button>
-      </div>
-
-      {/* Stats */}
-      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-        {stats.map((stat, index) => (
-          <Card key={index} className="card-hover">
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium">{stat.label}</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">{stat.value}</div>
-              <p className={`text-xs ${stat.color}`}>{stat.change} so tháng trước</p>
-            </CardContent>
-          </Card>
-        ))}
       </div>
 
       {/* Filters & Table */}
@@ -154,8 +182,8 @@ const UserManagement = () => {
               <SelectContent>
                 <SelectItem value="all">Tất cả gói</SelectItem>
                 <SelectItem value="free">Free</SelectItem>
-                <SelectItem value="premium">Premium</SelectItem>
-                <SelectItem value="enterprise">Enterprise</SelectItem>
+                <SelectItem value="personal">Personal</SelectItem>
+                <SelectItem value="family">Family</SelectItem>
               </SelectContent>
             </Select>
 
@@ -167,8 +195,7 @@ const UserManagement = () => {
               <SelectContent>
                 <SelectItem value="all">Tất cả</SelectItem>
                 <SelectItem value="active">Hoạt động</SelectItem>
-                <SelectItem value="suspended">Tạm khóa</SelectItem>
-                <SelectItem value="pending">Chờ xác thực</SelectItem>
+                <SelectItem value="inactive">Không hoạt động</SelectItem>
               </SelectContent>
             </Select>
           </div>
@@ -188,101 +215,169 @@ const UserManagement = () => {
                 </TableRow>
               </TableHeader>
               <TableBody>
-                {users.map((user) => (
-                  <TableRow key={user.id}>
-                    <TableCell>
-                      <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
-                          <span className="text-sm font-medium">
-                            {user.name.split(' ').map(n => n[0]).join('')}
-                          </span>
-                        </div>
-                        <div>
-                          <div className="font-medium">{user.name}</div>
-                          <div className="text-xs text-muted-foreground">
-                            Tham gia: {user.joinedDate}
+                {loading ? (
+                  <TableRow>
+                    <TableCell colSpan={7} className="text-center py-8">Đang tải...</TableCell>
+                  </TableRow>
+                ) : filteredUsers.length === 0 ? (
+                  <TableRow>
+                    <TableCell colSpan={7} className="text-center py-8">Không tìm thấy người dùng</TableCell>
+                  </TableRow>
+                ) : (
+                  filteredUsers.map((user) => (
+                    <TableRow key={user.id}>
+                      <TableCell>
+                        <div className="flex items-center gap-3">
+                          <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center overflow-hidden">
+                            <span className="text-sm font-medium">
+                              {user.full_name.charAt(0)}
+                            </span>
+                          </div>
+                          <div>
+                            <div className="font-medium">{user.full_name}</div>
+                            <div className="text-xs text-muted-foreground">
+                              ID: {user.id}
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </TableCell>
-                    <TableCell>
-                      <div className="space-y-1">
-                        <div className="flex items-center gap-2 text-sm">
-                          <Mail className="w-3 h-3" />
-                          {user.email}
+                      </TableCell>
+                      <TableCell>
+                        <div className="space-y-1">
+                          <div className="flex items-center gap-2 text-sm">
+                            <Mail className="w-3 h-3" />
+                            {user.email}
+                          </div>
+                          {user.phone && (
+                            <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                              <Phone className="w-3 h-3" />
+                              {user.phone}
+                            </div>
+                          )}
                         </div>
-                        <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                          <Phone className="w-3 h-3" />
-                          {user.phone}
+                      </TableCell>
+                      <TableCell>
+                        {getRoleBadge(user.role)}
+                      </TableCell>
+                      <TableCell>
+                        <div className="flex items-center gap-2">
+                          {user.subscription_plan !== 'free' && (
+                            <Crown className="w-4 h-4 text-yellow-500" />
+                          )}
+                          <Badge variant="outline" className="capitalize">
+                            {user.subscription_plan}
+                          </Badge>
                         </div>
-                      </div>
-                    </TableCell>
-                    <TableCell>
-                      <Badge variant={user.role === 'admin' ? 'default' : 'secondary'}>
-                        {user.role === 'user' && 'Người dùng'}
-                        {user.role === 'doctor' && 'Bác sĩ'}
-                        {user.role === 'admin' && 'Admin'}
-                      </Badge>
-                    </TableCell>
-                    <TableCell>
-                      <div className="flex items-center gap-2">
-                        {(user.plan === 'Premium' || user.plan === 'Enterprise') && (
-                          <Crown className="w-4 h-4 text-yellow-500" />
-                        )}
+                      </TableCell>
+                      <TableCell>
                         <Badge
-                          variant={
-                            user.plan === 'Free' ? 'outline' :
-                            user.plan === 'Premium' ? 'default' : 'secondary'
-                          }
+                          variant={user.is_active ? 'default' : 'secondary'}
                         >
-                          {user.plan}
+                          {user.is_active ? 'Hoạt động' : 'Đã khóa'}
                         </Badge>
-                      </div>
-                    </TableCell>
-                    <TableCell>
-                      <Badge
-                        variant={
-                          user.status === 'active' ? 'default' :
-                          user.status === 'suspended' ? 'destructive' : 'secondary'
-                        }
-                      >
-                        {user.status === 'active' && 'Hoạt động'}
-                        {user.status === 'suspended' && 'Tạm khóa'}
-                        {user.status === 'pending' && 'Chờ xác thực'}
-                      </Badge>
-                    </TableCell>
-                    <TableCell>
-                      <span className="text-sm text-muted-foreground">
-                        {user.lastActive}
-                      </span>
-                    </TableCell>
-                    <TableCell className="text-right">
-                      <Button variant="ghost" size="sm">
-                        <MoreVertical className="w-4 h-4" />
-                      </Button>
-                    </TableCell>
-                  </TableRow>
-                ))}
+                      </TableCell>
+                      <TableCell>
+                        <span className="text-sm text-muted-foreground">
+                          {user.last_login ? new Date(user.last_login).toLocaleDateString('vi-VN') : 'Chưa đăng nhập'}
+                        </span>
+                      </TableCell>
+                      <TableCell className="text-right">
+                        <div className="flex justify-end gap-2">
+                          <Button variant="ghost" size="icon" onClick={() => handleEditClick(user)}>
+                            <Edit className="w-4 h-4" />
+                          </Button>
+                          <Button variant="ghost" size="icon" className="text-red-500 hover:text-red-600" onClick={() => handleDeleteUser(user.id)}>
+                            <Trash2 className="w-4 h-4" />
+                          </Button>
+                        </div>
+                      </TableCell>
+                    </TableRow>
+                  ))
+                )}
               </TableBody>
             </Table>
           </div>
-
-          {/* Pagination */}
-          <div className="flex items-center justify-between mt-4">
-            <p className="text-sm text-muted-foreground">
-              Hiển thị <strong>1-5</strong> trong <strong>1,234</strong> người dùng
-            </p>
-            <div className="flex gap-2">
-              <Button variant="outline" size="sm" disabled>
-                Trước
-              </Button>
-              <Button variant="outline" size="sm">
-                Sau
-              </Button>
-            </div>
-          </div>
         </CardContent>
       </Card>
+
+      {/* Edit User Dialog */}
+      <Dialog open={isEditOpen} onOpenChange={setIsEditOpen}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle>Chỉnh sửa người dùng</DialogTitle>
+            <DialogDescription>
+              Cập nhật thông tin cho {editingUser?.full_name}
+            </DialogDescription>
+          </DialogHeader>
+          <div className="grid gap-4 py-4">
+            <div className="grid grid-cols-4 items-center gap-4">
+              <Label htmlFor="name" className="text-right">Họ tên</Label>
+              <Input
+                id="name"
+                value={editForm.full_name}
+                onChange={(e) => setEditForm({ ...editForm, full_name: e.target.value })}
+                className="col-span-3"
+              />
+            </div>
+            <div className="grid grid-cols-4 items-center gap-4">
+              <Label htmlFor="role" className="text-right">Vai trò</Label>
+              <Select
+                value={editForm.role}
+                onValueChange={(value) => setEditForm({ ...editForm, role: value })}
+              >
+                <SelectTrigger className="col-span-3">
+                  <SelectValue placeholder="Chọn vai trò" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="user">Người dùng</SelectItem>
+                  <SelectItem value="doctor">Bác sĩ</SelectItem>
+                  <SelectItem value="admin">Admin</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+            <div className="grid grid-cols-4 items-center gap-4">
+              <Label htmlFor="plan" className="text-right">Gói dịch vụ</Label>
+              <Select
+                value={editForm.subscription_plan}
+                onValueChange={(value) => setEditForm({ ...editForm, subscription_plan: value })}
+              >
+                <SelectTrigger className="col-span-3">
+                  <SelectValue placeholder="Chọn gói" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="free">Free</SelectItem>
+                  <SelectItem value="personal">Personal</SelectItem>
+                  <SelectItem value="family">Family</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+            <div className="grid grid-cols-4 items-center gap-4">
+              <Label htmlFor="status" className="text-right">Trạng thái</Label>
+              <div className="flex items-center gap-2 col-span-3">
+                <Button
+                  type="button"
+                  variant={editForm.is_active ? "default" : "outline"}
+                  onClick={() => setEditForm({ ...editForm, is_active: true })}
+                  className="flex-1"
+                >
+                  <Check className="w-4 h-4 mr-2" /> Hoạt động
+                </Button>
+                <Button
+                  type="button"
+                  variant={!editForm.is_active ? "destructive" : "outline"}
+                  onClick={() => setEditForm({ ...editForm, is_active: false })}
+                  className="flex-1"
+                >
+                  <X className="w-4 h-4 mr-2" /> Khóa
+                </Button>
+              </div>
+            </div>
+          </div>
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setIsEditOpen(false)}>Hủy</Button>
+            <Button onClick={handleUpdateUser}>Lưu thay đổi</Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 };

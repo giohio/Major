@@ -59,6 +59,9 @@ def register():
         
     except Exception as e:
         db.session.rollback()
+        import traceback
+        print(f"Registration error: {str(e)}")
+        print(traceback.format_exc())
         return jsonify({'error': str(e)}), 500
 
 
@@ -97,6 +100,10 @@ def login():
         }), 200
         
     except Exception as e:
+        db.session.rollback()
+        import traceback
+        print(f"Login error: {str(e)}")
+        print(traceback.format_exc())
         return jsonify({'error': str(e)}), 500
 
 
@@ -239,6 +246,46 @@ def get_current_user():
         return jsonify(user.to_dict()), 200
         
     except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/change-password', methods=['POST'])
+@jwt_required()
+def change_password():
+    """Change user password"""
+    try:
+        current_user_id = get_jwt_identity()
+        user = db.session.get(User, current_user_id)
+        
+        if not user:
+            return jsonify({'error': 'User not found'}), 404
+        
+        data = request.get_json()
+        
+        required_fields = ['current_password', 'new_password']
+        for field in required_fields:
+            if field not in data:
+                return jsonify({'error': f'Missing required field: {field}'}), 400
+        
+        # Verify current password
+        if not user.check_password(data['current_password']):
+            return jsonify({'error': 'Current password is incorrect'}), 401
+        
+        # Validate new password
+        new_password = data['new_password']
+        if len(new_password) < 6:
+            return jsonify({'error': 'New password must be at least 6 characters'}), 400
+        
+        # Update password
+        user.set_password(new_password)
+        db.session.commit()
+        
+        return jsonify({
+            'message': 'Password changed successfully'
+        }), 200
+        
+    except Exception as e:
+        db.session.rollback()
         return jsonify({'error': str(e)}), 500
 
 

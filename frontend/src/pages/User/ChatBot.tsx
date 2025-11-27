@@ -1,9 +1,21 @@
 import { useState, useRef, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card } from '@/components/ui/card';
-import { Send, Plus, Sparkles, Phone } from 'lucide-react';
+import {
+  Send,
+  Plus,
+  Sparkles,
+  MessageSquare,
+  Phone,
+  Menu
+} from 'lucide-react';
+import { apiClient } from '@/services/api.client';
+import { API_ENDPOINTS } from '@/config/api.config';
+import { toast } from 'sonner';
+import { cn } from '@/lib/utils';
+import type { ChatSession } from '@/types/api.types';
 
 interface Message {
   id: number;
@@ -15,39 +27,64 @@ interface Message {
 
 const ChatBot = () => {
   const navigate = useNavigate();
-  const [messages, setMessages] = useState<Message[]>([
-    {
-      id: 1,
-      type: 'ai',
-      content: 'Xin chào! Tôi là AI tâm lý học của MindCare. Tôi ở đây để lắng nghe và hỗ trợ bạn. Hôm nay bạn cảm thấy thế nào?',
-      timestamp: new Date(Date.now() - 60000),
-      emotion: 'positive'
-    }
-  ]);
+  const { sessionId } = useParams();
+  const [sessions, setSessions] = useState<ChatSession[]>([]);
+  const [messages, setMessages] = useState<Message[]>([]);
   const [inputValue, setInputValue] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const commonTopics = [
-    { text: 'Tôi đang cảm thấy lo lắng', id: 1 },
-    { text: 'Áp lực công việc', id: 2 },
-    { text: 'Vấn đề về giấc ngủ', id: 3 },
-    { text: 'Cảm thấy buồn và chán nản', id: 4 },
+    { text: 'Tôi đang cảm thấy lo lắng', icon: '😰' },
+    { text: 'Áp lực công việc quá lớn', icon: '💼' },
+    { text: 'Khó ngủ mấy ngày nay', icon: '🌙' },
+    { text: 'Cảm thấy buồn không rõ lý do', icon: '😢' },
   ];
+
+  useEffect(() => {
+    loadSessions();
+  }, []);
+
+  useEffect(() => {
+    if (sessionId) {
+      loadSessionMessages(parseInt(sessionId));
+    } else {
+      setMessages([]);
+    }
+  }, [sessionId]);
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
 
-  const analyzeEmotion = (text: string): { score: number; emotion: Message['emotion'] } => {
-    // Simple emotion analysis (replace with real API)
-    const negativeWords = ['buồn', 'lo lắng', 'stress', 'mệt mỏi', 'tự tử', 'chết', 'không muốn sống'];
-    const score = negativeWords.filter(word => text.toLowerCase().includes(word)).length;
-    
-    if (score >= 3) return { score, emotion: 'critical' };
-    if (score >= 2) return { score, emotion: 'negative' };
-    if (score >= 1) return { score, emotion: 'neutral' };
-    return { score, emotion: 'positive' };
+  const loadSessions = async () => {
+    try {
+      const response = await apiClient.get<{ sessions: ChatSession[] }>(`${API_ENDPOINTS.CHAT.RECENT}?limit=20`);
+      setSessions(response.sessions);
+    } catch (error) {
+      console.error('Failed to load sessions:', error);
+    }
+  };
+
+  const loadSessionMessages = async (id: number) => {
+    try {
+      setIsLoading(true);
+      // Note: In a real app, we would fetch messages for this session
+      // For now, we'll simulate it or just clear if it's a new chat
+      // const response = await apiClient.get(...)
+      setMessages([]); // Placeholder
+    } catch (error) {
+      console.error('Failed to load messages:', error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleNewChat = () => {
+    navigate('/chat');
+    setMessages([]);
+    setIsSidebarOpen(false);
   };
 
   const handleSendMessage = async (text?: string) => {
@@ -65,209 +102,244 @@ const ChatBot = () => {
     setInputValue('');
     setIsLoading(true);
 
-    // Analyze emotion
-    const { score, emotion } = analyzeEmotion(messageText);
+    try {
+      const response = await apiClient.post<{
+        message: string;
+        ai_response: string;
+        emotion_analysis?: {
+          risk_level: string;
+        };
+        alert_created?: boolean;
+        session_id?: number;
+      }>(API_ENDPOINTS.CHAT.SEND, {
+        message: messageText,
+        session_id: sessionId ? parseInt(sessionId) : undefined
+      });
 
-    // Simulate AI response
-    setTimeout(() => {
+      // If new session created, update URL and list
+      if (response.session_id && !sessionId) {
+        loadSessions();
+        // We don't navigate to avoid reload, just keep state
+      }
+
+      let emotion: Message['emotion'] = 'positive';
+      if (response.emotion_analysis) {
+        const riskLevel = response.emotion_analysis.risk_level;
+        if (riskLevel === 'critical') emotion = 'critical';
+        else if (riskLevel === 'high') emotion = 'negative';
+        else if (riskLevel === 'medium') emotion = 'neutral';
+        else emotion = 'positive';
+      }
+
       const aiMessage: Message = {
         id: Date.now() + 1,
         type: 'ai',
-        content: score >= 3 
-          ? '🚨 Tôi nhận thấy bạn đang trải qua giai đoạn khó khăn. Tôi nghĩ bạn nên được hỗ trợ từ chuyên gia y tế. Bạn có muốn tôi giúp kết nối với bác sĩ không?'
-          : 'Tôi hiểu bạn đang trải qua. Hãy kể cho tôi nghe thêm về cảm giác của bạn...',
+        content: response.ai_response,
         timestamp: new Date(),
         emotion
       };
-      
-      setMessages(prev => [...prev, aiMessage]);
-      setIsLoading(false);
 
-      // Show alert if critical
-      if (score >= 3) {
-        setTimeout(() => {
-          const shouldNavigate = window.confirm('Tôi phát hiện bạn có nguy cơ cao. Bạn có muốn xem danh sách bác sĩ không?');
-          if (shouldNavigate) {
-            navigate('/user/alert');
-          }
-        }, 1000);
+      setMessages(prev => [...prev, aiMessage]);
+
+      if (response.emotion_analysis?.risk_level === 'critical' || response.alert_created) {
+        toast.error('Phát hiện nguy cơ cao. Vui lòng tìm sự trợ giúp y tế.');
       }
-    }, 1500);
+    } catch (error: any) {
+      console.error('Failed to send message:', error);
+      toast.error('Không thể gửi tin nhắn. Vui lòng thử lại.');
+    } finally {
+      setIsLoading(false);
+    }
   };
 
+  // Group sessions by date
+  const groupedSessions = sessions.reduce((groups, session) => {
+    const date = new Date(session.created_at).toLocaleDateString('vi-VN');
+    if (!groups[date]) groups[date] = [];
+    groups[date].push(session);
+    return groups;
+  }, {} as Record<string, ChatSession[]>);
+
   return (
-    <div className="flex h-[calc(100vh-4rem)] gap-0">
-      {/* Sidebar - Chat History */}
-      <div className="w-80 border-r border-border/50 bg-background/50 backdrop-blur flex flex-col">
-        {/* Sidebar Header */}
-        <div className="p-4 border-b border-border/50">
-          <Button 
-            className="w-full justify-start gap-2 bg-primary hover:bg-primary/90"
-            onClick={() => setMessages([{
-              id: Date.now(),
-              type: 'ai',
-              content: 'Xin chào! Tôi là AI tâm lý học của MindCare. Tôi ở đây để lắng nghe và hỗ trợ bạn. Hôm nay bạn cảm thấy thế nào?',
-              timestamp: new Date(),
-              emotion: 'positive'
-            }])}
+    <div className="flex h-[calc(100vh-4rem)] bg-background overflow-hidden">
+      {/* Mobile Sidebar Overlay */}
+      {isSidebarOpen && (
+        <div
+          className="fixed inset-0 bg-black/50 z-40 lg:hidden"
+          onClick={() => setIsSidebarOpen(false)}
+        />
+      )}
+
+      {/* Sidebar */}
+      <div className={cn(
+        "fixed inset-y-0 left-0 z-50 w-72 bg-card border-r border-border transform transition-transform duration-300 ease-in-out lg:relative lg:translate-x-0 flex flex-col",
+        isSidebarOpen ? "translate-x-0" : "-translate-x-full"
+      )}>
+        <div className="p-4">
+          <Button
+            onClick={handleNewChat}
+            className="w-full justify-start gap-2 bg-primary/10 text-primary hover:bg-primary/20 border-0 h-11"
           >
-            <Plus size={18} />
-            <span>Cuộc trò chuyện mới</span>
+            <Plus size={20} />
+            <span className="font-medium">Cuộc trò chuyện mới</span>
           </Button>
         </div>
 
-        {/* Chat Sessions List */}
-        <div className="flex-1 overflow-y-auto p-3 space-y-2">
-          <div className="px-3 py-2 text-xs font-semibold text-muted-foreground">Hôm nay</div>
-          <Button 
-            variant="ghost" 
-            className="w-full justify-start text-left h-auto py-3 px-3 bg-accent/50"
-          >
-            <div className="flex-1 min-w-0">
-              <div className="text-sm font-medium truncate">Cuộc trò chuyện hiện tại</div>
-              <div className="text-xs text-muted-foreground truncate">Tôi đang cảm thấy lo lắng...</div>
+        <div className="flex-1 overflow-y-auto px-3 py-2 custom-scrollbar">
+          {Object.entries(groupedSessions).map(([date, groupSessions]) => (
+            <div key={date} className="mb-6">
+              <h3 className="px-3 text-xs font-medium text-muted-foreground mb-2">{date}</h3>
+              <div className="space-y-1">
+                {groupSessions.map(session => (
+                  <button
+                    key={session.id}
+                    onClick={() => {
+                      navigate(`/chat?session=${session.id}`); // Using query param for now or just handle state
+                      // For this demo, let's just load messages if we had the API
+                      setIsSidebarOpen(false);
+                    }}
+                    className="w-full text-left px-3 py-2.5 rounded-lg text-sm text-foreground/80 hover:bg-accent hover:text-accent-foreground transition-colors truncate flex items-center gap-2 group"
+                  >
+                    <MessageSquare size={16} className="shrink-0 text-muted-foreground group-hover:text-primary" />
+                    <span className="truncate">{session.title || 'Cuộc trò chuyện mới'}</span>
+                  </button>
+                ))}
+              </div>
             </div>
-          </Button>
+          ))}
+        </div>
 
-          <div className="px-3 py-2 text-xs font-semibold text-muted-foreground mt-4">Hôm qua</div>
-          <Button variant="ghost" className="w-full justify-start text-left h-auto py-3 px-3">
-            <div className="flex-1 min-w-0">
-              <div className="text-sm font-medium truncate">Áp lực công việc</div>
-              <div className="text-xs text-muted-foreground truncate">Giúp tôi với stress...</div>
+        <div className="p-4 border-t border-border bg-card">
+          <div className="flex items-center gap-3 px-2">
+            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-purple-500 to-blue-500 flex items-center justify-center text-white text-xs font-bold">
+              AI
             </div>
-          </Button>
-          <Button variant="ghost" className="w-full justify-start text-left h-auto py-3 px-3">
             <div className="flex-1 min-w-0">
-              <div className="text-sm font-medium truncate">Vấn đề về giấc ngủ</div>
-              <div className="text-xs text-muted-foreground truncate">Tôi không ngủ được...</div>
+              <p className="text-sm font-medium truncate">MindCare AI Pro</p>
+              <p className="text-xs text-muted-foreground">Gói cao cấp</p>
             </div>
-          </Button>
-
-          <div className="px-3 py-2 text-xs font-semibold text-muted-foreground mt-4">7 ngày trước</div>
-          <Button variant="ghost" className="w-full justify-start text-left h-auto py-3 px-3">
-            <div className="flex-1 min-w-0">
-              <div className="text-sm font-medium truncate">Cảm thấy buồn</div>
-              <div className="text-xs text-muted-foreground truncate">Tôi cảm thấy chán nản...</div>
-            </div>
-          </Button>
+          </div>
         </div>
       </div>
 
       {/* Main Chat Area */}
-      <div className="flex-1 flex flex-col">
-        {/* Header */}
-        <div className="border-b border-border/50 px-6 py-4 bg-background/50 backdrop-blur">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-linear-to-br from-primary to-primary/70 flex items-center justify-center">
-              <Sparkles size={20} className="text-white" />
-            </div>
-            <div>
-              <h1 className="font-semibold text-foreground">MindCare AI</h1>
-              <p className="text-xs text-muted-foreground">Hoạt động 24/7</p>
-            </div>
-          </div>
+      <div className="flex-1 flex flex-col min-w-0 bg-background/50 backdrop-blur-sm relative">
+        {/* Mobile Header */}
+        <div className="lg:hidden flex items-center p-4 border-b border-border bg-background/80 backdrop-blur sticky top-0 z-30">
+          <Button variant="ghost" size="icon" onClick={() => setIsSidebarOpen(true)}>
+            <Menu size={20} />
+          </Button>
+          <span className="ml-2 font-semibold">MindCare AI</span>
         </div>
 
-        {/* Chat Area */}
-        <div className="flex-1 overflow-y-auto px-6 py-6 space-y-4">
-        {messages.map((message) => (
-          <div
-            key={message.id}
-            className={`flex ${message.type === 'user' ? 'justify-end' : 'justify-start'} animate-in fade-in duration-300`}
-          >
-            <div
-              className={`max-w-sm px-4 py-3 rounded-2xl ${
-                message.type === 'user'
-                  ? 'bg-primary text-primary-foreground rounded-br-none'
-                  : 'bg-secondary/20 text-foreground border border-secondary/30 rounded-bl-none'
-              }`}
-            >
-              <p className="text-sm leading-relaxed">{message.content}</p>
-              <p className="text-xs opacity-60 mt-2">
-                {message.timestamp.toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' })}
-              </p>
-            </div>
-          </div>
-        ))}
-        {isLoading && (
-          <div className="flex justify-start">
-            <div className="bg-secondary/20 text-foreground border border-secondary/30 px-4 py-3 rounded-2xl rounded-bl-none">
-              <div className="flex gap-2">
-                <div className="w-2.5 h-2.5 bg-secondary rounded-full animate-bounce"></div>
-                <div className="w-2.5 h-2.5 bg-secondary rounded-full animate-bounce [animation-delay:0.1s]"></div>
-                <div className="w-2.5 h-2.5 bg-secondary rounded-full animate-bounce [animation-delay:0.2s]"></div>
+        {/* Messages Area */}
+        <div className="flex-1 overflow-y-auto custom-scrollbar p-4 md:p-6 scroll-smooth">
+          {messages.length === 0 ? (
+            <div className="h-full flex flex-col items-center justify-center text-center max-w-2xl mx-auto px-4 animate-in fade-in zoom-in duration-500">
+              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-purple-600 flex items-center justify-center mb-6 shadow-lg shadow-primary/20">
+                <Sparkles size={32} className="text-white" />
+              </div>
+              <h2 className="text-2xl font-bold mb-2">Xin chào! Tôi có thể giúp gì cho bạn?</h2>
+              <p className="text-muted-foreground mb-8">Tôi ở đây để lắng nghe, chia sẻ và hỗ trợ sức khỏe tinh thần của bạn.</p>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 w-full">
+                {commonTopics.map((topic, index) => (
+                  <button
+                    key={index}
+                    onClick={() => handleSendMessage(topic.text)}
+                    className="flex items-center gap-3 p-4 rounded-xl border border-border bg-card hover:bg-accent/50 hover:border-primary/50 transition-all duration-200 text-left group"
+                  >
+                    <span className="text-2xl group-hover:scale-110 transition-transform">{topic.icon}</span>
+                    <span className="text-sm font-medium text-foreground/80 group-hover:text-primary">{topic.text}</span>
+                  </button>
+                ))}
               </div>
             </div>
-          </div>
-        )}
-          <div ref={messagesEndRef} />
-        </div>
+          ) : (
+            <div className="max-w-3xl mx-auto space-y-6 py-4">
+              {messages.map((message) => (
+                <div
+                  key={message.id}
+                  className={cn(
+                    "flex gap-4 animate-in fade-in slide-in-from-bottom-2 duration-300",
+                    message.type === 'user' ? "flex-row-reverse" : "flex-row"
+                  )}
+                >
+                  <div className={cn(
+                    "w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm",
+                    message.type === 'user' ? "bg-primary text-primary-foreground" : "bg-gradient-to-br from-purple-600 to-blue-600 text-white"
+                  )}>
+                    {message.type === 'user' ? <span className="text-xs font-bold">You</span> : <Sparkles size={14} />}
+                  </div>
 
-        {/* Quick Topics */}
-        {messages.length === 1 && (
-          <div className="px-6 pb-4 flex flex-wrap gap-2">
-            {commonTopics.map((topic) => (
-              <Button
-                key={topic.id}
-                variant="outline"
-                size="sm"
-                onClick={() => handleSendMessage(topic.text)}
-                className="rounded-full text-xs"
-              >
-                {topic.text}
-              </Button>
-            ))}
-          </div>
-        )}
+                  <div className={cn(
+                    "max-w-[85%] md:max-w-[75%] rounded-2xl px-5 py-3.5 shadow-sm",
+                    message.type === 'user'
+                      ? "bg-primary text-primary-foreground rounded-tr-none"
+                      : "bg-card border border-border rounded-tl-none"
+                  )}>
+                    <p className="text-sm leading-relaxed whitespace-pre-wrap">{message.content}</p>
+                    {message.emotion && message.emotion !== 'positive' && message.emotion !== 'neutral' && (
+                      <div className="mt-2 pt-2 border-t border-white/20 flex items-center gap-2 text-xs opacity-90">
+                        {message.emotion === 'critical' ? '🚨 Cần chú ý cao' : '⚠️ Cảm xúc tiêu cực'}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))}
+              {isLoading && (
+                <div className="flex gap-4">
+                  <div className="w-8 h-8 rounded-full bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center shrink-0 text-white">
+                    <Sparkles size={14} />
+                  </div>
+                  <div className="bg-card border border-border rounded-2xl rounded-tl-none px-5 py-4 shadow-sm">
+                    <div className="flex gap-1.5">
+                      <div className="w-2 h-2 bg-primary/40 rounded-full animate-bounce [animation-delay:-0.3s]"></div>
+                      <div className="w-2 h-2 bg-primary/40 rounded-full animate-bounce [animation-delay:-0.15s]"></div>
+                      <div className="w-2 h-2 bg-primary/40 rounded-full animate-bounce"></div>
+                    </div>
+                  </div>
+                </div>
+              )}
+              <div ref={messagesEndRef} />
+            </div>
+          )}
+        </div>
 
         {/* Input Area */}
-        <div className="border-t border-border/50 px-6 py-4 bg-background/50 backdrop-blur">
-        <div className="flex gap-3">
-          <Input
-            placeholder="Chia sẻ cảm xúc của bạn..."
-            value={inputValue}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInputValue(e.target.value)}
-            onKeyPress={(e: React.KeyboardEvent<HTMLInputElement>) => {
-              if (e.key === 'Enter' && !e.shiftKey) {
-                e.preventDefault();
-                handleSendMessage();
-              }
-            }}
-            className="border-input bg-background/50 rounded-full"
-            disabled={isLoading}
-          />
-          <Button
-            onClick={() => handleSendMessage()}
-            disabled={!inputValue.trim() || isLoading}
-            className="btn-primary rounded-full w-10 h-10 p-0 flex items-center justify-center"
-            size="icon"
-          >
-            <Send size={18} />
-          </Button>
-        </div>
-        
-        {/* Emergency Card */}
-        <Card className="mt-4 p-4 bg-destructive/5 border-destructive/20">
-          <div className="flex items-start gap-3">
-            <div className="w-8 h-8 rounded-full bg-destructive/10 flex items-center justify-center shrink-0">
-              <Phone size={16} className="text-destructive" />
-            </div>
-            <div className="flex-1">
-              <h3 className="font-semibold text-sm text-destructive mb-1">Hỗ trợ khẩn cấp</h3>
-              <p className="text-xs text-muted-foreground mb-2">
-                Nếu bạn đang có ý định tự hại, hãy liên hệ ngay:
-              </p>
-              <Button 
-                variant="destructive" 
-                size="sm" 
-                className="w-full"
-                onClick={() => window.open('tel:1900-1234')}
+        <div className="p-4 md:p-6 bg-gradient-to-t from-background via-background to-transparent">
+          <div className="max-w-3xl mx-auto relative">
+            <div className="relative flex items-end gap-2 bg-card border border-border shadow-lg rounded-2xl p-2 focus-within:ring-2 focus-within:ring-primary/20 focus-within:border-primary transition-all duration-200">
+              <Input
+                value={inputValue}
+                onChange={(e) => setInputValue(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' && !e.shiftKey) {
+                    e.preventDefault();
+                    handleSendMessage();
+                  }
+                }}
+                placeholder="Nhập tin nhắn của bạn..."
+                className="border-0 bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 min-h-[44px] py-3 px-3 resize-none"
+                disabled={isLoading}
+                autoComplete="off"
+              />
+              <Button
+                onClick={() => handleSendMessage()}
+                disabled={!inputValue.trim() || isLoading}
+                size="icon"
+                className={cn(
+                  "h-10 w-10 rounded-xl transition-all duration-200 shrink-0 mb-0.5",
+                  inputValue.trim() ? "bg-primary text-primary-foreground hover:bg-primary/90" : "bg-muted text-muted-foreground hover:bg-muted/80"
+                )}
               >
-                Gọi hotline: 1900 1234
+                <Send size={18} />
               </Button>
             </div>
+            <p className="text-center text-xs text-muted-foreground mt-3">
+              MindCare AI có thể mắc lỗi. Hãy luôn kiểm tra các thông tin quan trọng.
+            </p>
           </div>
-        </Card>
         </div>
       </div>
     </div>

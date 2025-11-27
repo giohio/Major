@@ -46,6 +46,15 @@ def update_profile():
             user.phone = data['phone']
         if 'avatar_url' in data:
             user.avatar_url = data['avatar_url']
+        if 'date_of_birth' in data:
+            if data['date_of_birth']:
+                try:
+                    from datetime import datetime
+                    user.date_of_birth = datetime.fromisoformat(data['date_of_birth']).date()
+                except:
+                    pass
+        if 'address' in data:
+            user.address = data['address']
         
         user.updated_at = datetime.utcnow()
         db.session.commit()
@@ -272,3 +281,82 @@ def update_user_appointment(appointment_id):
     except Exception as e:
         db.session.rollback()
         return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/settings', methods=['GET'])
+@jwt_required()
+def get_settings():
+    """Get user settings"""
+    try:
+        import json
+        
+        current_user_id = int(get_jwt_identity())
+        user = db.session.get(User, current_user_id)
+        
+        if not user:
+            return jsonify({'error': 'User not found'}), 404
+        
+        # Parse settings JSON or return defaults
+        if user.settings:
+            try:
+                settings = json.loads(user.settings)
+            except:
+                settings = get_default_settings()
+        else:
+            settings = get_default_settings()
+        
+        return jsonify(settings), 200
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/settings', methods=['PUT'])
+@jwt_required()
+def update_settings():
+    """Update user settings"""
+    try:
+        import json
+        
+        current_user_id = int(get_jwt_identity())
+        user = db.session.get(User, current_user_id)
+        
+        if not user:
+            return jsonify({'error': 'User not found'}), 404
+        
+        data = request.get_json()
+        
+        # Validate settings structure (optional)
+        # Store as JSON string
+        user.settings = json.dumps(data)
+        user.updated_at = datetime.utcnow()
+        
+        db.session.commit()
+        
+        return jsonify({
+            'message': 'Settings updated successfully',
+            'settings': data
+        }), 200
+        
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({'error': str(e)}), 500
+
+
+def get_default_settings():
+    """Return default user settings"""
+    return {
+        'emailNotifications': True,
+        'pushNotifications': True,
+        'sessionReminders': True,
+        'weeklyReports': False,
+        'shareDataForResearch': False,
+        'anonymousAnalytics': True,
+        'showOnlineStatus': True,
+        'theme': 'light',
+        'language': 'vi',
+        'fontSize': 'medium',
+        'highContrast': False,
+        'reduceMotion': False,
+        'screenReader': False
+    }

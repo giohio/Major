@@ -42,24 +42,53 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
   const login = async (email: string, password: string): Promise<User> => {
     try {
       const response = await apiClient.post<any>(API_ENDPOINTS.AUTH.LOGIN, { email, password }, false);
-      
+
       // Store tokens
       localStorage.setItem(STORAGE_KEYS.ACCESS_TOKEN, response.access_token);
       if (response.refresh_token) {
         localStorage.setItem(STORAGE_KEYS.REFRESH_TOKEN, response.refresh_token);
       }
-      
+
       const userData: User = {
         id: response.user.id.toString(),
         name: response.user.full_name,
         email: response.user.email,
         role: response.user.role
       };
-      
+
       setUser(userData);
       return userData;
     } catch (error) {
       console.error('Login failed:', error);
+      throw error;
+    }
+  };
+
+  const register = async (name: string, email: string, password: string): Promise<User> => {
+    try {
+      const response = await apiClient.post<any>(API_ENDPOINTS.AUTH.REGISTER, {
+        full_name: name,
+        email,
+        password
+      }, false);
+
+      // Store tokens
+      localStorage.setItem(STORAGE_KEYS.ACCESS_TOKEN, response.access_token);
+      if (response.refresh_token) {
+        localStorage.setItem(STORAGE_KEYS.REFRESH_TOKEN, response.refresh_token);
+      }
+
+      const userData: User = {
+        id: response.user.id.toString(),
+        name: response.user.full_name,
+        email: response.user.email,
+        role: response.user.role
+      };
+
+      setUser(userData);
+      return userData;
+    } catch (error) {
+      console.error('Registration failed:', error);
       throw error;
     }
   };
@@ -116,7 +145,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
   }
 
   return (
-    <AuthContext.Provider value={{ user, login, loginWithOAuth, logout }}>
+    <AuthContext.Provider value={{ user, login, register, loginWithOAuth, logout }}>
       {children}
     </AuthContext.Provider>
   );

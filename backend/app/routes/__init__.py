@@ -14,6 +14,7 @@ def register_routes(app: Flask):
     from app.routes import emotion_routes
     from app.routes import alert_routes
     from app.routes import patient_routes
+    from app.routes import exercise_routes
     
     # Register blueprints with URL prefixes
     app.register_blueprint(auth_routes.bp, url_prefix='/api/auth')
@@ -26,6 +27,7 @@ def register_routes(app: Flask):
     app.register_blueprint(emotion_routes.emotion_bp)  # Uses /api/emotion prefix
     app.register_blueprint(alert_routes.alert_bp)      # Uses /api/alert prefix
     app.register_blueprint(patient_routes.patient_bp)  # Uses /api/patient prefix
+    app.register_blueprint(exercise_routes.exercise_bp, url_prefix='/api')  # Uses /api prefix
     
     # Import and register LLM routes if exists
     try:

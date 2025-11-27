@@ -1,12 +1,16 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Label } from '@/components/ui/label';
 import { Switch } from '@/components/ui/switch';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Bell, Lock, Palette, Accessibility, AlertTriangle } from 'lucide-react';
+import { apiClient } from '@/services/api.client';
+import { API_ENDPOINTS } from '@/config/api.config';
+import { toast } from 'sonner';
 
 const Settings = () => {
+  const [loading, setLoading] = useState(true);
   const [settings, setSettings] = useState({
     // Notifications
     emailNotifications: true,
@@ -30,19 +34,55 @@ const Settings = () => {
     screenReader: false
   });
 
+  // Load settings on mount
+  useEffect(() => {
+    loadSettings();
+  }, []);
+
+  const loadSettings = async () => {
+    try {
+      setLoading(true);
+      const data = await apiClient.get<typeof settings>(API_ENDPOINTS.USERS.SETTINGS);
+      setSettings(data);
+    } catch (error: any) {
+      console.error('Failed to load settings:', error);
+      toast.error('Không thể tải cài đặt');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const saveSettings = async (newSettings: typeof settings) => {
+    try {
+      await apiClient.put(API_ENDPOINTS.USERS.SETTINGS, newSettings);
+      toast.success('Cài đặt đã được lưu');
+    } catch (error: any) {
+      console.error('Failed to save settings:', error);
+      toast.error('Không thể lưu cài đặt');
+    }
+  };
+
   const handleToggle = (key: string) => {
-    setSettings(prev => ({
-      ...prev,
-      [key]: !prev[key as keyof typeof prev]
-    }));
+    const newSettings = {
+      ...settings,
+      [key]: !settings[key as keyof typeof settings]
+    };
+    setSettings(newSettings);
+    saveSettings(newSettings);
   };
 
   const handleSelect = (key: string, value: string) => {
-    setSettings(prev => ({
-      ...prev,
+    const newSettings = {
+      ...settings,
       [key]: value
-    }));
+    };
+    setSettings(newSettings);
+    saveSettings(newSettings);
   };
+
+  if (loading) {
+    return <div className="flex items-center justify-center h-screen">Đang tải cài đặt...</div>;
+  }
 
   return (
     <div className="max-w-4xl mx-auto space-y-6">

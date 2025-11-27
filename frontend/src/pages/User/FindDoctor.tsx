@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '../../components/ui/card';
 import { Badge } from '../../components/ui/badge';
@@ -6,6 +6,9 @@ import { Button } from '../../components/ui/button';
 import { Input } from '../../components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../../components/ui/select';
 import { Search, Star, Clock, DollarSign, CheckCircle, Calendar } from 'lucide-react';
+import { apiClient } from '../../services/api.client';
+import { API_ENDPOINTS } from '../../config/api.config';
+import { toast } from 'sonner';
 
 interface Doctor {
   id: number;
@@ -25,74 +28,25 @@ const FindDoctor = () => {
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedSpecialty, setSelectedSpecialty] = useState<string>('all');
+  const [doctors, setDoctors] = useState<Doctor[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  const doctors: Doctor[] = [
-    {
-      id: 1,
-      name: 'Dr. Nguyễn Văn An',
-      specialty: 'Tâm lý lâm sàng',
-      rating: 4.8,
-      reviews: 127,
-      experience: 10,
-      available: true,
-      nextSlot: 'Hôm nay, 14:00',
-      price: 500000,
-      languages: ['Tiếng Việt', 'English'],
-      verified: true
-    },
-    {
-      id: 2,
-      name: 'Dr. Trần Thị Bình',
-      specialty: 'Trị liệu CBT',
-      rating: 4.9,
-      reviews: 203,
-      experience: 8,
-      available: true,
-      nextSlot: 'Ngày mai, 09:00',
-      price: 600000,
-      languages: ['Tiếng Việt'],
-      verified: true
-    },
-    {
-      id: 3,
-      name: 'Dr. Lê Văn Cường',
-      specialty: 'Tâm lý trẻ em',
-      rating: 4.7,
-      reviews: 89,
-      experience: 12,
-      available: false,
-      nextSlot: '12/01, 15:00',
-      price: 550000,
-      languages: ['Tiếng Việt', 'English'],
-      verified: true
-    },
-    {
-      id: 4,
-      name: 'Dr. Phạm Mai Dung',
-      specialty: 'Tâm lý gia đình',
-      rating: 4.9,
-      reviews: 156,
-      experience: 15,
-      available: true,
-      nextSlot: 'Hôm nay, 16:30',
-      price: 700000,
-      languages: ['Tiếng Việt', 'English', '中文'],
-      verified: true
-    },
-    {
-      id: 5,
-      name: 'Dr. Hoàng Minh Đức',
-      specialty: 'Tâm lý học tích cực',
-      rating: 4.6,
-      reviews: 74,
-      experience: 6,
-      available: true,
-      nextSlot: 'Ngày mai, 10:30',
-      price: 450000,
-      languages: ['Tiếng Việt'],
-      verified: false
+  useEffect(() => {
+    loadDoctors();
+  }, []);
+
+  const loadDoctors = async () => {
+    try {
+      setLoading(true);
+      const response = await apiClient.get<{ doctors: Doctor[] }>(API_ENDPOINTS.DOCTOR.LIST);
+      setDoctors(response.doctors || []);
+    } catch (error: any) {
+      console.error('Failed to load doctors:', error);
+      toast.error('Không thể tải danh sách bác sĩ');
+    } finally {
+      setLoading(false);
     }
-  ];
+  };
 
   const specialties = [
     'Tâm lý lâm sàng',
@@ -104,7 +58,7 @@ const FindDoctor = () => {
 
   const filteredDoctors = doctors.filter(doctor => {
     const matchesSearch = doctor.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                         doctor.specialty.toLowerCase().includes(searchQuery.toLowerCase());
+      doctor.specialty.toLowerCase().includes(searchQuery.toLowerCase());
     const matchesSpecialty = selectedSpecialty === 'all' || doctor.specialty === selectedSpecialty;
     return matchesSearch && matchesSpecialty;
   });
@@ -119,6 +73,10 @@ const FindDoctor = () => {
       currency: 'VND'
     }).format(price);
   };
+
+  if (loading) {
+    return <div className="flex items-center justify-center h-screen">Đang tải danh sách bác sĩ...</div>;
+  }
 
   return (
     <div className="p-6 space-y-6 max-w-7xl mx-auto">
