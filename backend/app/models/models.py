@@ -270,6 +270,8 @@ class Appointment(db.Model):
             'duration_minutes': self.duration_minutes,
             'status': self.status,
             'appointment_type': self.appointment_type,
+            'notes': self.notes,
+            'doctor_notes': self.doctor_notes,
             'created_at': self.created_at.isoformat() if self.created_at else None
         }
 

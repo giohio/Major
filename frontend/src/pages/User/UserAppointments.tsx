@@ -3,7 +3,9 @@ import { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '../../components/ui/card';
 import { Badge } from '../../components/ui/badge';
 import { Button } from '../../components/ui/button';
-import { Calendar, Clock, User, AlertCircle, Plus, CalendarDays, Video, MessageSquare, Phone, MoreHorizontal } from 'lucide-react';
+import { Calendar, Clock, User, AlertCircle, Plus, CalendarDays, Video, MessageSquare, Phone, MoreHorizontal, XCircle } from 'lucide-react';
+import VideoCall from '../../components/VideoCall';
+import { STORAGE_KEYS } from '../../config/api.config';
 import { apiClient } from '../../services/api.client';
 import { API_ENDPOINTS } from '../../config/api.config';
 import { toast } from 'sonner';
@@ -27,6 +29,11 @@ interface Appointment {
 const UserAppointments = () => {
   const [appointments, setAppointments] = useState<Appointment[]>([]);
   const [loading, setLoading] = useState(true);
+  const [activeCall, setActiveCall] = useState<Appointment | null>(null);
+
+  // Get current user info from storage
+  const userJson = localStorage.getItem(STORAGE_KEYS.USER);
+  const currentUser = userJson ? JSON.parse(userJson) : null;
 
   useEffect(() => {
     loadAppointments();
@@ -146,6 +153,27 @@ const UserAppointments = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-8 space-y-10">
+      {activeCall && currentUser && (
+        <div className="fixed inset-0 z-50 bg-background/80 backdrop-blur-sm flex items-center justify-center p-4">
+          <div className="w-full max-w-5xl h-[80vh] bg-black rounded-xl overflow-hidden shadow-2xl relative">
+            <Button
+              variant="ghost"
+              className="absolute top-4 right-4 z-50 text-white hover:bg-white/20"
+              onClick={() => setActiveCall(null)}
+            >
+              <XCircle className="w-6 h-6" />
+            </Button>
+            <VideoCall
+              roomId={activeCall.id.toString()}
+              userId={currentUser.id.toString()}
+              userName={currentUser.full_name || 'Patient'}
+              isDoctor={false}
+              onEndCall={() => setActiveCall(null)}
+            />
+          </div>
+        </div>
+      )}
+
       {/* Modern Minimal Header */}
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
         <div>
@@ -240,6 +268,16 @@ const UserAppointments = () => {
                     )}
 
                     <div className="pt-2 flex gap-3">
+                      {appointment.status === 'scheduled' && appointment.appointment_type === 'video' && (
+                        <Button
+                          className="flex-1 bg-teal-600 hover:bg-teal-700 text-white"
+                          onClick={() => setActiveCall(appointment)}
+                        >
+                          <Video className="w-4 h-4 mr-2" />
+                          Tham gia
+                        </Button>
+                      )}
+
                       <Button className="flex-1 bg-white border border-slate-200 text-slate-700 hover:bg-teal-50 hover:text-teal-700 hover:border-teal-200 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-teal-900/20 dark:hover:text-teal-300 transition-colors shadow-sm">
                         Chi tiết
                       </Button>

@@ -31,6 +31,8 @@ const FindDoctor = () => {
   const [doctors, setDoctors] = useState<Doctor[]>([]);
   const [loading, setLoading] = useState(true);
 
+  const [error, setError] = useState<string | null>(null);
+
   useEffect(() => {
     loadDoctors();
   }, []);
@@ -38,23 +40,23 @@ const FindDoctor = () => {
   const loadDoctors = async () => {
     try {
       setLoading(true);
+      setError(null);
+      console.log('Fetching doctors from:', API_ENDPOINTS.DOCTOR.LIST);
       const response = await apiClient.get<{ doctors: Doctor[] }>(API_ENDPOINTS.DOCTOR.LIST);
+      console.log('Doctors response:', response);
       setDoctors(response.doctors || []);
     } catch (error: any) {
       console.error('Failed to load doctors:', error);
-      toast.error('Không thể tải danh sách bác sĩ');
+      const errorMessage = error.message || 'Không thể tải danh sách bác sĩ';
+      setError(errorMessage);
+      toast.error(errorMessage);
     } finally {
       setLoading(false);
     }
   };
 
-  const specialties = [
-    'Tâm lý lâm sàng',
-    'Trị liệu CBT',
-    'Tâm lý trẻ em',
-    'Tâm lý gia đình',
-    'Tâm lý học tích cực'
-  ];
+  // Extract unique specialties from doctors list
+  const specialties = Array.from(new Set(doctors.map(d => d.specialty))).filter(Boolean).sort();
 
   const filteredDoctors = doctors.filter(doctor => {
     const matchesSearch = doctor.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -75,16 +77,25 @@ const FindDoctor = () => {
   };
 
   if (loading) {
-    return <div className="flex items-center justify-center h-screen">Đang tải danh sách bác sĩ...</div>;
+    return <div className="flex items-center justify-center h-screen">Loading doctors...</div>;
+  }
+
+  if (error) {
+    return (
+      <div className="flex flex-col items-center justify-center h-screen gap-4">
+        <div className="text-red-500 font-medium">An error occurred: {error}</div>
+        <Button onClick={loadDoctors}>Try Again</Button>
+      </div>
+    );
   }
 
   return (
     <div className="p-6 space-y-6 max-w-7xl mx-auto">
       {/* Header */}
       <div>
-        <h1 className="text-3xl font-bold text-foreground">Tìm Bác Sĩ</h1>
+        <h1 className="text-3xl font-bold text-foreground">Find a Doctor</h1>
         <p className="text-muted-foreground mt-1">
-          Kết nối với các chuyên gia tâm lý hàng đầu
+          Connect with top mental health experts
         </p>
       </div>
 
@@ -95,7 +106,7 @@ const FindDoctor = () => {
             <div className="relative">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
               <Input
-                placeholder="Tìm theo tên bác sĩ hoặc chuyên môn..."
+                placeholder="Search by doctor name or specialty..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="pl-10"
@@ -103,10 +114,10 @@ const FindDoctor = () => {
             </div>
             <Select value={selectedSpecialty} onValueChange={setSelectedSpecialty}>
               <SelectTrigger>
-                <SelectValue placeholder="Chọn chuyên môn" />
+                <SelectValue placeholder="Select Specialty" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="all">Tất cả chuyên môn</SelectItem>
+                <SelectItem value="all">All Specialties</SelectItem>
                 {specialties.map((specialty) => (
                   <SelectItem key={specialty} value={specialty}>
                     {specialty}
@@ -120,7 +131,7 @@ const FindDoctor = () => {
 
       {/* Results Count */}
       <div className="text-sm text-muted-foreground">
-        Tìm thấy {filteredDoctors.length} bác sĩ
+        Found {filteredDoctors.length} doctors
       </div>
 
       {/* Doctor Cards */}
@@ -146,7 +157,7 @@ const FindDoctor = () => {
                 <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                 <span className="text-sm font-medium">{doctor.rating}</span>
                 <span className="text-sm text-muted-foreground">
-                  ({doctor.reviews} đánh giá)
+                  ({doctor.reviews} reviews)
                 </span>
               </div>
             </CardHeader>
@@ -154,12 +165,12 @@ const FindDoctor = () => {
             <CardContent className="flex-1 space-y-3">
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Clock className="w-4 h-4" />
-                <span>{doctor.experience} năm kinh nghiệm</span>
+                <span>{doctor.experience} years experience</span>
               </div>
 
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <DollarSign className="w-4 h-4" />
-                <span>{formatPrice(doctor.price)}/buổi</span>
+                <span>{formatPrice(doctor.price)}/session</span>
               </div>
 
               <div className="flex flex-wrap gap-1">
@@ -187,7 +198,7 @@ const FindDoctor = () => {
                 disabled={!doctor.available}
                 onClick={() => handleBookAppointment(doctor.id)}
               >
-                {doctor.available ? 'Đặt lịch ngay' : 'Không khả dụng'}
+                {doctor.available ? 'Book Now' : 'Unavailable'}
               </Button>
             </CardFooter>
           </Card>
@@ -198,7 +209,7 @@ const FindDoctor = () => {
         <Card>
           <CardContent className="py-12 text-center">
             <p className="text-muted-foreground">
-              Không tìm thấy bác sĩ phù hợp với tiêu chí tìm kiếm
+              No doctors found matching your criteria
             </p>
           </CardContent>
         </Card>

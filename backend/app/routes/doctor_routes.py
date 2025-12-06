@@ -3,6 +3,7 @@ from flask_jwt_extended import jwt_required
 from app.middleware.role_middleware import doctor_required
 from app.models.models import User, PatientRecord, DoctorNote, Task, TherapySession, Alert, EmotionLog, ChatSession
 from app.extensions import db
+from app.utils.cache import cache_response
 from datetime import datetime, timedelta
 
 bp = Blueprint('doctors', __name__)
@@ -48,8 +49,9 @@ def get_dashboard(current_user):
         return jsonify({'error': str(e)}), 500
 
 
-@bp.route('/', methods=['GET'])
+@bp.route('', methods=['GET'], strict_slashes=False)
 @jwt_required()
+@cache_response(timeout=600)  # Cache for 10 minutes
 def get_all_doctors():
     """Get list of all available doctors"""
     try:
@@ -186,6 +188,46 @@ def get_patients(current_user):
                 result.append(patient_data)
         
         return jsonify({'patients': result}), 200
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/users/search', methods=['GET'])
+@doctor_required
+def search_users(current_user):
+    """Search for users to add as patients"""
+    try:
+        query = request.args.get('query', '').strip()
+        
+        if not query or len(query) < 3:
+            return jsonify({'users': []}), 200
+            
+        # Search by email or phone
+        # Exclude users who are already patients of this doctor
+        # And exclude admins/doctors
+        
+        # Get current patient IDs
+        current_patient_ids = [
+            r.user_id for r in PatientRecord.query.filter_by(doctor_id=current_user.id).all()
+        ]
+        
+        users = User.query.filter(
+            (User.email.ilike(f"%{query}%")) | (User.phone.ilike(f"%{query}%")),
+            User.role == 'user',
+            User.is_active == True,
+            ~User.id.in_(current_patient_ids)
+        ).limit(10).all()
+        
+        return jsonify({
+            'users': [{
+                'id': u.id,
+                'full_name': u.full_name,
+                'email': u.email,
+                'phone': u.phone,
+                'avatar_url': u.avatar_url
+            } for u in users]
+        }), 200
         
     except Exception as e:
         return jsonify({'error': str(e)}), 500
@@ -407,8 +449,16 @@ def get_alerts(current_user):
         
         alerts = query.order_by(Alert.created_at.desc()).all()
         
+        result = []
+        for alert in alerts:
+            alert_data = alert.to_dict()
+            patient = db.session.get(User, alert.user_id)
+            if patient:
+                alert_data['patient_name'] = patient.full_name
+            result.append(alert_data)
+        
         return jsonify({
-            'alerts': [alert.to_dict() for alert in alerts]
+            'alerts': result
         }), 200
         
     except Exception as e:

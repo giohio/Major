@@ -1,6 +1,6 @@
 // API Configuration
 export const API_CONFIG = {
-  BASE_URL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000',
+  BASE_URL: import.meta.env.VITE_API_BASE_URL || '',
   API_PREFIX: '/api',
   TIMEOUT: 30000,
   // Expose endpoints
@@ -57,6 +57,7 @@ export const API_ENDPOINTS = {
   DOCTOR: {
     DASHBOARD: '/doctors/dashboard',
     LIST: '/doctors',
+    SEARCH_USERS: '/doctors/users/search',
     GET: (id: number) => `/doctors/${id}`,
     PATIENTS: '/doctors/patients',
     ADD_PATIENT: '/doctors/patients/add',

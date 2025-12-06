@@ -4,12 +4,14 @@ from app.extensions import db
 from app.models.models import Exercise, UserExerciseProgress, User
 from datetime import datetime, timedelta
 from sqlalchemy import func
+from app.utils.cache import cache_response
 
 exercise_bp = Blueprint('exercise', __name__)
 
 
 @exercise_bp.route('/exercises', methods=['GET'])
 @jwt_required()
+@cache_response(timeout=3600)  # Cache for 1 hour
 def get_exercises():
     """Get list of all active exercises with optional filtering"""
     try:
@@ -66,6 +68,7 @@ def get_exercise(exercise_id):
 
 @exercise_bp.route('/exercises/categories', methods=['GET'])
 @jwt_required()
+@cache_response(timeout=86400)  # Cache for 24 hours
 def get_categories():
     """Get list of all exercise categories"""
     try:

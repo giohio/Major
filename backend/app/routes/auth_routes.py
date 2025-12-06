@@ -1,7 +1,7 @@
 from flask import Blueprint, request, jsonify, current_app
-from flask_jwt_extended import create_access_token, create_refresh_token, jwt_required, get_jwt_identity
+from flask_jwt_extended import create_access_token, create_refresh_token, jwt_required, get_jwt_identity, get_jwt
 from app.models.models import User
-from app.extensions import db
+from app.extensions import db, redis_client
 from datetime import datetime, timedelta
 import secrets
 
@@ -104,6 +104,26 @@ def login():
         import traceback
         print(f"Login error: {str(e)}")
         print(traceback.format_exc())
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/logout', methods=['POST'])
+@jwt_required()
+def logout():
+    """Logout user (revoke token)"""
+    try:
+        jti = get_jwt()["jti"]
+        # TTL for the blocked token in Redis
+        ttl = current_app.config['JWT_ACCESS_TOKEN_EXPIRES']
+        
+        if current_app.config['REDIS_URL'] and redis_client:
+            redis_client.setex(jti, ttl, 'true')
+            
+        return jsonify({
+            'message': 'Successfully logged out'
+        }), 200
+        
+    except Exception as e:
         return jsonify({'error': str(e)}), 500
 
 
