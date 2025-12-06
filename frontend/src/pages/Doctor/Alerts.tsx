@@ -15,7 +15,7 @@ interface DoctorAlert {
   severity: 'high' | 'medium';
 }
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { apiClient } from '../../services/api.client';
 import { API_ENDPOINTS } from '../../config/api.config';
 import { toast } from 'sonner';
@@ -25,34 +25,6 @@ import { toast } from 'sonner';
 const Alerts = () => {
   const [alerts, setAlerts] = useState<DoctorAlert[]>([]);
   const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetchAlerts();
-  }, []);
-
-  const fetchAlerts = async () => {
-    try {
-      const response = await apiClient.get<{ alerts: any[] }>(API_ENDPOINTS.DOCTOR.ALERTS);
-
-      const mappedAlerts: DoctorAlert[] = response.alerts.map((alert: any) => ({
-        id: alert.id,
-        type: mapAlertType(alert.alert_type),
-        patientName: alert.patient_name || 'Unknown Patient',
-        patientId: alert.user_id,
-        message: alert.message,
-        timestamp: alert.created_at,
-        read: alert.is_resolved,
-        severity: mapSeverity(alert.severity)
-      }));
-
-      setAlerts(mappedAlerts);
-    } catch (error) {
-      console.error('Failed to fetch alerts:', error);
-      toast.error('Không thể tải cảnh báo');
-    } finally {
-      setLoading(false);
-    }
-  };
 
   const mapAlertType = (type: string): 'critical' | 'warning' | 'info' => {
     switch (type) {
@@ -72,6 +44,34 @@ const Alerts = () => {
   const mapSeverity = (severity: string): 'high' | 'medium' => {
     return severity === 'high' || severity === 'critical' ? 'high' : 'medium';
   };
+
+  const fetchAlerts = useCallback(async () => {
+    try {
+      const response = await apiClient.get<{ alerts: Record<string, unknown>[] }>(API_ENDPOINTS.DOCTOR.ALERTS);
+
+      const mappedAlerts: DoctorAlert[] = response.alerts.map((alert: Record<string, unknown>) => ({
+        id: Number(alert.id),
+        type: mapAlertType(String(alert.alert_type)),
+        patientName: alert.patient_name ? String(alert.patient_name) : 'Unknown Patient',
+        patientId: Number(alert.user_id),
+        message: String(alert.message),
+        timestamp: String(alert.created_at),
+        read: Boolean(alert.is_resolved),
+        severity: mapSeverity(String(alert.severity))
+      }));
+
+      setAlerts(mappedAlerts);
+    } catch (error) {
+      console.error('Failed to fetch alerts:', error);
+      toast.error('Không thể tải cảnh báo');
+    } finally {
+      setLoading(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    fetchAlerts();
+  }, [fetchAlerts]);
 
   const criticalCount = alerts.filter(a => a.type === 'critical' && !a.read).length;
   const warningCount = alerts.filter(a => a.type === 'warning' && !a.read).length;

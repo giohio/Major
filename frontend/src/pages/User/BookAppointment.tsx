@@ -1,7 +1,7 @@
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Card, CardContent, CardHeader, CardTitle } from '../../components/ui/card';
+import { Card, CardContent, CardTitle } from '../../components/ui/card';
 import { Button } from '../../components/ui/button';
 import { Calendar } from '../../components/ui/calendar';
 import { Textarea } from '../../components/ui/textarea';
@@ -24,11 +24,7 @@ const BookAppointment = () => {
   const [submitting, setSubmitting] = useState(false);
   const [step, setStep] = useState(1);
 
-  useEffect(() => {
-    loadDoctorInfo();
-  }, [doctorId]);
-
-  const loadDoctorInfo = async () => {
+  const loadDoctorInfo = useCallback(async () => {
     if (!doctorId) {
       toast.error('Không tìm thấy thông tin bác sĩ');
       navigate('/user/find-doctor');
@@ -39,14 +35,19 @@ const BookAppointment = () => {
       setLoading(true);
       const data = await apiClient.get<Doctor>(API_ENDPOINTS.DOCTOR.GET(parseInt(doctorId)));
       setDoctor(data);
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Failed to load doctor info:', error);
-      toast.error(error.message || 'Không thể tải thông tin bác sĩ');
+      const errorMessage = error instanceof Error ? error.message : 'Không thể tải thông tin bác sĩ';
+      toast.error(errorMessage);
       navigate('/user/find-doctor');
     } finally {
       setLoading(false);
     }
-  };
+  }, [doctorId, navigate]);
+
+  useEffect(() => {
+    loadDoctorInfo();
+  }, [loadDoctorInfo]);
 
   const availableTimes = [
     '09:00', '09:30', '10:00', '10:30', '11:00', '11:30',
@@ -93,9 +94,10 @@ const BookAppointment = () => {
 
       toast.success('Đặt lịch thành công!');
       navigate('/user/appointments');
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Failed to create appointment:', error);
-      toast.error(error.message || 'Không thể đặt lịch. Vui lòng thử lại sau.');
+      const errorMessage = error instanceof Error ? error.message : 'Không thể đặt lịch. Vui lòng thử lại sau.';
+      toast.error(errorMessage);
     } finally {
       setSubmitting(false);
     }

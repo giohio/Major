@@ -2,13 +2,11 @@ import { useState, useRef, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { Card } from '@/components/ui/card';
 import {
   Send,
   Plus,
   Sparkles,
   MessageSquare,
-  Phone,
   Menu
 } from 'lucide-react';
 import { apiClient } from '@/services/api.client';
@@ -42,22 +40,6 @@ const ChatBot = () => {
     { text: 'Cảm thấy buồn không rõ lý do', icon: '😢' },
   ];
 
-  useEffect(() => {
-    loadSessions();
-  }, []);
-
-  useEffect(() => {
-    if (sessionId) {
-      loadSessionMessages(parseInt(sessionId));
-    } else {
-      setMessages([]);
-    }
-  }, [sessionId]);
-
-  useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [messages]);
-
   const loadSessions = async () => {
     try {
       const response = await apiClient.get<{ sessions: ChatSession[] }>(`${API_ENDPOINTS.CHAT.RECENT}?limit=20`);
@@ -67,7 +49,7 @@ const ChatBot = () => {
     }
   };
 
-  const loadSessionMessages = async (id: number) => {
+  const loadSessionMessages = async () => {
     try {
       setIsLoading(true);
       // Note: In a real app, we would fetch messages for this session
@@ -80,6 +62,22 @@ const ChatBot = () => {
       setIsLoading(false);
     }
   };
+
+  useEffect(() => {
+    loadSessions();
+  }, []);
+
+  useEffect(() => {
+    if (sessionId) {
+      loadSessionMessages();
+    } else {
+      setMessages([]);
+    }
+  }, [sessionId]);
+
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }, [messages]);
 
   const handleNewChat = () => {
     navigate('/chat');
@@ -144,7 +142,7 @@ const ChatBot = () => {
       if (response.emotion_analysis?.risk_level === 'critical' || response.alert_created) {
         toast.error('Phát hiện nguy cơ cao. Vui lòng tìm sự trợ giúp y tế.');
       }
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Failed to send message:', error);
       toast.error('Không thể gửi tin nhắn. Vui lòng thử lại.');
     } finally {

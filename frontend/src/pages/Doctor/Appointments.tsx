@@ -35,15 +35,15 @@ const Appointments = () => {
 
   const fetchAppointments = async () => {
     try {
-      const response = await apiClient.get<any[]>(API_ENDPOINTS.DOCTOR.APPOINTMENTS);
+      const response = await apiClient.get<Record<string, unknown>[]>(API_ENDPOINTS.DOCTOR.APPOINTMENTS);
 
-      const mappedAppointments: Appointment[] = response.map((apt: any) => ({
-        id: apt.id,
-        patientName: apt.user_name || 'Unknown Patient',
-        time: new Date(apt.appointment_date).toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' }),
-        type: apt.appointment_type as 'video' | 'chat',
-        status: apt.status as 'scheduled' | 'completed' | 'cancelled' | 'no-show',
-        notes: apt.notes
+      const mappedAppointments: Appointment[] = response.map((apt: Record<string, unknown>) => ({
+        id: Number(apt.id),
+        patientName: apt.user_name ? String(apt.user_name) : 'Unknown Patient',
+        time: new Date(String(apt.appointment_date)).toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' }),
+        type: String(apt.appointment_type) as 'video' | 'chat',
+        status: String(apt.status) as 'scheduled' | 'completed' | 'cancelled' | 'no-show',
+        notes: apt.notes ? String(apt.notes) : undefined
       }));
 
       setAppointments(mappedAppointments);

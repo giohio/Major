@@ -40,9 +40,10 @@ const Login = () => {
           navigate('/user/profile');
           break;
       }
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Google login failed:', error);
-      toast.error(error.message || 'Đăng nhập Google thất bại');
+      const errorMessage = error instanceof Error ? error.message : 'Đăng nhập Google thất bại';
+      toast.error(errorMessage);
     } finally {
       setIsLoading(false);
     }
@@ -69,9 +70,10 @@ const Login = () => {
           navigate('/user/profile');
           break;
       }
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Facebook login failed:', error);
-      toast.error(error.message || 'Đăng nhập Facebook thất bại');
+      const errorMessage = error instanceof Error ? error.message : 'Đăng nhập Facebook thất bại';
+      toast.error(errorMessage);
     } finally {
       setIsLoading(false);
     }

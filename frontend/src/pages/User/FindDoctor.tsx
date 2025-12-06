@@ -45,9 +45,9 @@ const FindDoctor = () => {
       const response = await apiClient.get<{ doctors: Doctor[] }>(API_ENDPOINTS.DOCTOR.LIST);
       console.log('Doctors response:', response);
       setDoctors(response.doctors || []);
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Failed to load doctors:', error);
-      const errorMessage = error.message || 'Không thể tải danh sách bác sĩ';
+      const errorMessage = error instanceof Error ? error.message : 'Không thể tải danh sách bác sĩ';
       setError(errorMessage);
       toast.error(errorMessage);
     } finally {

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Card, CardContent, CardHeader } from '../../components/ui/card';
 import { Button } from '../../components/ui/button';
@@ -44,11 +44,28 @@ const ExerciseDetail = () => {
     const [notes, setNotes] = useState('');
     const [showCompletion, setShowCompletion] = useState(false);
 
+    const loadExercise = useCallback(async (exerciseId: number) => {
+        try {
+            setLoading(true);
+            const response = await apiClient.get<{ exercise: Exercise }>(
+                API_ENDPOINTS.EXERCISE.GET(exerciseId)
+            );
+            setExercise(response.exercise);
+            setTimeLeft(response.exercise.duration_minutes * 60);
+        } catch (error: unknown) {
+            console.error('Failed to load exercise:', error);
+            toast.error('Không thể tải bài tập');
+            navigate('/user/exercises');
+        } finally {
+            setLoading(false);
+        }
+    }, [navigate]);
+
     useEffect(() => {
         if (id) {
             loadExercise(parseInt(id));
         }
-    }, [id]);
+    }, [id, loadExercise]);
 
     useEffect(() => {
         let interval: number;
@@ -69,23 +86,6 @@ const ExerciseDetail = () => {
         return () => clearInterval(interval);
     }, [isRunning, timeLeft]);
 
-    const loadExercise = async (exerciseId: number) => {
-        try {
-            setLoading(true);
-            const response = await apiClient.get<{ exercise: Exercise }>(
-                API_ENDPOINTS.EXERCISE.GET(exerciseId)
-            );
-            setExercise(response.exercise);
-            setTimeLeft(response.exercise.duration_minutes * 60);
-        } catch (error: any) {
-            console.error('Failed to load exercise:', error);
-            toast.error('Không thể tải bài tập');
-            navigate('/user/exercises');
-        } finally {
-            setLoading(false);
-        }
-    };
-
     const handleStart = async () => {
         if (!exercise) return;
 
@@ -93,7 +93,7 @@ const ExerciseDetail = () => {
             await apiClient.post(API_ENDPOINTS.EXERCISE.START(exercise.id), {});
             setIsRunning(true);
             toast.success('Bắt đầu bài tập!');
-        } catch (error: any) {
+        } catch (error: unknown) {
             console.error('Failed to start exercise:', error);
             toast.error('Không thể bắt đầu bài tập');
         }
@@ -127,7 +127,7 @@ const ExerciseDetail = () => {
 
             toast.success('Đã lưu tiến độ!');
             navigate('/user/exercises');
-        } catch (error: any) {
+        } catch (error: unknown) {
             console.error('Failed to complete exercise:', error);
             toast.error('Không thể lưu tiến độ');
         }

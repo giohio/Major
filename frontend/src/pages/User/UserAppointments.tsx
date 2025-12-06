@@ -1,9 +1,8 @@
 
 import { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '../../components/ui/card';
-import { Badge } from '../../components/ui/badge';
 import { Button } from '../../components/ui/button';
-import { Calendar, Clock, User, AlertCircle, Plus, CalendarDays, Video, MessageSquare, Phone, MoreHorizontal, XCircle } from 'lucide-react';
+import { Calendar, Clock, User, Plus, CalendarDays, Video, MessageSquare, Phone, MoreHorizontal, XCircle } from 'lucide-react';
 import VideoCall from '../../components/VideoCall';
 import { STORAGE_KEYS } from '../../config/api.config';
 import { apiClient } from '../../services/api.client';

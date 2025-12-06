@@ -46,11 +46,12 @@ export const signInWithGoogle = async (): Promise<FirebaseUser> => {
   try {
     const result = await signInWithPopup(auth, googleProvider);
     return result.user;
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('Google sign in error:', error);
+    const errorMessage = error instanceof Error ? error.message : 'Failed to sign in with Google';
     throw {
       error: 'google_signin_failed',
-      message: error.message || 'Failed to sign in with Google'
+      message: errorMessage
     };
   }
 };
@@ -62,11 +63,12 @@ export const signInWithFacebook = async (): Promise<FirebaseUser> => {
   try {
     const result = await signInWithPopup(auth, facebookProvider);
     return result.user;
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('Facebook sign in error:', error);
+    const errorMessage = error instanceof Error ? error.message : 'Failed to sign in with Facebook';
     throw {
       error: 'facebook_signin_failed',
-      message: error.message || 'Failed to sign in with Facebook'
+      message: errorMessage
     };
   }
 };
@@ -77,11 +79,12 @@ export const signInWithFacebook = async (): Promise<FirebaseUser> => {
 export const signInWithGoogleRedirect = async (): Promise<void> => {
   try {
     await signInWithRedirect(auth, googleProvider);
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('Google redirect sign in error:', error);
+    const errorMessage = error instanceof Error ? error.message : 'Failed to redirect to Google sign in';
     throw {
       error: 'google_redirect_failed',
-      message: error.message || 'Failed to redirect to Google sign in'
+      message: errorMessage
     };
   }
 };
@@ -92,11 +95,12 @@ export const signInWithGoogleRedirect = async (): Promise<void> => {
 export const signInWithFacebookRedirect = async (): Promise<void> => {
   try {
     await signInWithRedirect(auth, facebookProvider);
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('Facebook redirect sign in error:', error);
+    const errorMessage = error instanceof Error ? error.message : 'Failed to redirect to Facebook sign in';
     throw {
       error: 'facebook_redirect_failed',
-      message: error.message || 'Failed to redirect to Facebook sign in'
+      message: errorMessage
     };
   }
 };
@@ -108,11 +112,12 @@ export const handleRedirectResult = async (): Promise<FirebaseUser | null> => {
   try {
     const result = await getRedirectResult(auth);
     return result?.user || null;
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('Redirect result error:', error);
+    const errorMessage = error instanceof Error ? error.message : 'Failed to get redirect result';
     throw {
       error: 'redirect_result_failed',
-      message: error.message || 'Failed to get redirect result'
+      message: errorMessage
     };
   }
 };
@@ -123,7 +128,7 @@ export const handleRedirectResult = async (): Promise<FirebaseUser | null> => {
 export const firebaseSignOutUser = async (): Promise<void> => {
   try {
     await firebaseSignOut(auth);
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('Firebase sign out error:', error);
     throw error;
   }

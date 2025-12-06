@@ -63,7 +63,7 @@ const Exercises = () => {
         API_ENDPOINTS.EXERCISE.USER_PROGRESS
       );
       setExercises(response.exercises || []);
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Failed to load exercises:', error);
       toast.error('Không thể tải danh sách bài tập');
     } finally {
@@ -77,7 +77,7 @@ const Exercises = () => {
         API_ENDPOINTS.EXERCISE.STATS
       );
       setStats(response.stats);
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Failed to load stats:', error);
     }
   };

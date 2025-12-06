@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Label } from '@/components/ui/label';
@@ -34,29 +34,29 @@ const Settings = () => {
     screenReader: false
   });
 
-  // Load settings on mount
-  useEffect(() => {
-    loadSettings();
-  }, []);
-
-  const loadSettings = async () => {
+  const loadSettings = useCallback(async () => {
     try {
       setLoading(true);
       const data = await apiClient.get<typeof settings>(API_ENDPOINTS.USERS.SETTINGS);
       setSettings(data);
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Failed to load settings:', error);
       toast.error('Không thể tải cài đặt');
     } finally {
       setLoading(false);
     }
-  };
+  }, []);
+
+  // Load settings on mount
+  useEffect(() => {
+    loadSettings();
+  }, [loadSettings]);
 
   const saveSettings = async (newSettings: typeof settings) => {
     try {
       await apiClient.put(API_ENDPOINTS.USERS.SETTINGS, newSettings);
       toast.success('Cài đặt đã được lưu');
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Failed to save settings:', error);
       toast.error('Không thể lưu cài đặt');
     }

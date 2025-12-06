@@ -45,14 +45,14 @@ const PatientList = () => {
   const fetchPatients = async () => {
     try {
       setLoading(true);
-      const response = await apiClient.get<{ patients: any[] }>(API_ENDPOINTS.DOCTOR.PATIENTS);
+      const response = await apiClient.get<{ patients: Record<string, unknown>[] }>(API_ENDPOINTS.DOCTOR.PATIENTS);
 
-      const mappedPatients: Patient[] = response.patients.map((p: any) => ({
-        id: p.id,
-        name: p.full_name,
-        age: p.date_of_birth ? new Date().getFullYear() - new Date(p.date_of_birth).getFullYear() : 0,
-        condition: p.record?.diagnosis || 'No diagnosis',
-        lastSession: p.last_activity || new Date().toISOString()
+      const mappedPatients: Patient[] = response.patients.map((p: Record<string, unknown>) => ({
+        id: Number(p.id),
+        name: String(p.full_name),
+        age: p.date_of_birth ? new Date().getFullYear() - new Date(String(p.date_of_birth)).getFullYear() : 0,
+        condition: (p.record && typeof p.record === 'object' && 'diagnosis' in p.record ? String(p.record.diagnosis) : null) || 'No diagnosis',
+        lastSession: p.last_activity ? String(p.last_activity) : new Date().toISOString()
       }));
 
       setPatients(mappedPatients);
@@ -90,9 +90,13 @@ const PatientList = () => {
       fetchPatients(); // Refresh list
       setSearchResults([]);
       setUserSearchQuery('');
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Add patient failed:', error);
-      toast.error(error.response?.data?.error || 'Failed to add patient');
+      const errorMessage = error && typeof error === 'object' && 'response' in error && 
+        error.response && typeof error.response === 'object' && 'data' in error.response &&
+        error.response.data && typeof error.response.data === 'object' && 'error' in error.response.data
+        ? String(error.response.data.error) : 'Failed to add patient';
+      toast.error(errorMessage);
     } finally {
       setIsAdding(false);
     }

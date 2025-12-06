@@ -41,7 +41,7 @@ const ChatHistory = () => {
       await apiClient.delete(API_ENDPOINTS.CHAT.DELETE_SESSION(sessionId));
       setSessions(sessions.filter(s => s.id !== sessionId));
       toast.success('Đã xóa cuộc trò chuyện');
-    } catch (error) {
+    } catch {
       toast.error('Không thể xóa cuộc trò chuyện');
     }
   };

@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../components/ui/card';
-import { Badge } from '../../components/ui/badge';
 import { Button } from '../../components/ui/button';
-import { Progress } from '../../components/ui/progress';
 import { TrendingUp, TrendingDown, Minus, Brain, Clock, BarChart3, Smile, AlertCircle, Lightbulb } from 'lucide-react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { apiClient } from '../../services/api.client';
@@ -13,8 +11,8 @@ type TimeRange = 'week' | 'month' | 'year';
 
 const EmotionDashboard = () => {
   const [timeRange, setTimeRange] = useState<TimeRange>('week');
-  const [emotionStats, setEmotionStats] = useState<any>(null);
-  const [userStats, setUserStats] = useState<any>(null);
+  const [emotionStats, setEmotionStats] = useState<EmotionStats | null>(null);
+  const [userStats, setUserStats] = useState<UserStats | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -46,12 +44,13 @@ const EmotionDashboard = () => {
   const totalSessions = userStats?.total_chat_sessions || 0;
   const averageSessionTime = '32 phút';
 
-  const emotions = [
-    { name: 'Vui vẻ', value: 35, color: 'bg-green-500', icon: '😊' },
-    { name: 'Bình thường', value: 40, color: 'bg-yellow-500', icon: '😐' },
-    { name: 'Lo lắng', value: 15, color: 'bg-red-500', icon: '😰' },
-    { name: 'Buồn bã', value: 10, color: 'bg-purple-500', icon: '😢' }
-  ];
+  // Emotion distribution data (currently using hardcoded values for visualization)
+  // const emotions = [
+  //   { name: 'Vui vẻ', value: 35, color: 'bg-green-500', icon: '😊' },
+  //   { name: 'Bình thường', value: 40, color: 'bg-yellow-500', icon: '😐' },
+  //   { name: 'Lo lắng', value: 15, color: 'bg-red-500', icon: '😰' },
+  //   { name: 'Buồn bã', value: 10, color: 'bg-purple-500', icon: '😢' }
+  // ];
 
   const weeklyData = [
     { date: '06/11', happiness: 65, anxiety: 35, stress: 40 },

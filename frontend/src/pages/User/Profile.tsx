@@ -43,7 +43,7 @@ const Profile = () => {
           if (!isNaN(date.getTime())) {
             formattedDob = date.toISOString().split('T')[0];
           }
-        } catch (e) {
+        } catch {
           console.error('Invalid date format:', profile.date_of_birth);
         }
       }
@@ -63,7 +63,7 @@ const Profile = () => {
     try {
       await updateProfile(formData);
       toast.success('Cập nhật thông tin thành công!');
-    } catch (error) {
+    } catch {
       toast.error('Cập nhật thất bại. Vui lòng thử lại.');
     }
   };
@@ -256,7 +256,7 @@ const Profile = () => {
                         if (!isNaN(date.getTime())) {
                           formattedDob = date.toISOString().split('T')[0];
                         }
-                      } catch (e) {
+                      } catch {
                         console.error('Invalid date format:', profile.date_of_birth);
                       }
                     }
