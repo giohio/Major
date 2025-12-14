@@ -1,586 +1,265 @@
 import { Link } from 'react-router-dom';
-import './LandingPage.css';
-<<<<<<< HEAD
-=======
-import heroImage from '../assets/z7181096252558_04827206b9f87aa9e4467abf5907eb6d.jpg';
->>>>>>> 89f2b86b3ec12af45c68d1d95aaa12497dd62e81
+import { Button } from '../components/ui/button';
+import { Card } from '../components/ui/card';
+import { MessageCircle, Users, Activity, Calendar, Lock, Brain, ArrowRight, Star } from 'lucide-react';
+import { useTheme } from '../contexts/ThemeProvider';
+import { useState, useEffect } from 'react';
 
 const LandingPage = () => {
+  const { theme, toggleTheme } = useTheme();
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <div className="landing-page">
-      {/* Hero Section */}
-<<<<<<< HEAD
-      <section className="hero-section">
-        <div className="container">
-          <div className="hero-content">
-            <div className="hero-text">
-              <h1 className="hero-title">
-                Chăm sóc <span className="text-teal">sức khỏe<br />
-                tinh thần</span> với AI
-              </h1>
-              <p className="hero-description">
-                Nền tảng AI tâm lý học tiên tiến, kết nối bạn với các chuyên gia hàng đầu. 
-                Hỗ trợ 24/7, phát hiện sớm các dấu hiệu rủi ro và đưa ra can thiệp kịp thời.
-              </p>
-              <div className="hero-buttons">
-                <Link to="/chat" className="btn btn-primary btn-hero">
-                  💬 Trò chuyện với AI ngay
-                </Link>
-                <Link to="/about" className="btn btn-outline-teal btn-hero">
-                  Tìm hiểu thêm
-                </Link>
-              </div>
-              <div className="hero-stats">
-                <div className="stat-item">
-                  <span className="stat-icon">✓</span>
-                  <span className="stat-text">Hỗ trợ 24/7</span>
-                </div>
-                <div className="stat-item">
-                  <span className="stat-icon">✓</span>
-                  <span className="stat-text">Tư vấn 24/7</span>
-                </div>
-                <div className="stat-item">
-                  <span className="stat-icon">✓</span>
-                  <span className="stat-text">Miễn phí dùng thử</span>
-                </div>
-              </div>
+    <div className="w-full min-h-screen bg-background overflow-hidden">
+      {/* Decorative Background Elements */}
+      <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] rounded-full bg-purple-500/10 blur-[100px] animate-pulse" />
+        <div className="absolute bottom-[-10%] left-[-5%] w-[500px] h-[500px] rounded-full bg-blue-500/10 blur-[100px] animate-pulse animation-delay-2000" />
+      </div>
+
+      {/* Navigation */}
+      <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-background/80 backdrop-blur-md border-b border-border/50 shadow-sm' : 'bg-transparent border-transparent'}`}>
+        <div className="w-full px-6 md:px-8 py-4 flex items-center justify-between max-w-7xl mx-auto">
+          <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity group">
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center shadow-lg shadow-purple-500/30 group-hover:scale-110 transition-transform duration-300">
+              <Brain className="w-6 h-6 text-white" />
             </div>
-            {/* <div className="hero-visual">
-              <div className="bunny-container">
-                <div className="bunny-mascot">🐰</div>
-              </div>
-            </div> */}
-=======
-      <section 
-        className="hero-section-custom"
-        style={{
-          position: 'relative',
-          minHeight: '650px',
-          height: 'calc(100vh - 80px)',
-          maxHeight: '800px',
-          display: 'flex',
-          alignItems: 'center',
-          overflow: 'hidden',
-          padding: '60px 0 40px',
-          marginTop: '80px'
-        }}
-      >
-        <div 
-          style={{
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            width: '100%',
-            height: '100%',
-            zIndex: 0
-          }}
-        >
-          <img 
-            src={heroImage} 
-            alt="MindCare AI Background"
-            className="hero-image-custom"
-            style={{
-              width: 'auto',
-              height: '100%',
-              minWidth: '100%',
-              objectFit: 'cover',
-              objectPosition: 'center center',
-              filter: 'brightness(1.05) contrast(1.05)'
-            }}
-          />
-          <div 
-            style={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              width: '100%',
-              height: '100%',
-              background: 'linear-gradient(to right, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.2) 40%, rgba(255, 255, 255, 0.05) 70%, transparent 100%)'
-            }}
-          />
-        </div>
-        <div className="container">
-          <div 
-            style={{
-              position: 'relative',
-              zIndex: 2,
-              maxWidth: '500px'
-            }}
-          >
-            <h1 
-              style={{
-                fontSize: '2.5rem',
-                fontWeight: 900,
-                lineHeight: 1.1,
-                color: '#1F2937',
-                marginBottom: '14px',
-                textShadow: '0 2px 8px rgba(255, 255, 255, 0.95), 0 1px 4px rgba(0, 0, 0, 0.15)'
-              }}
+            <span className="text-xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">MindCare AI</span>
+          </Link>
+
+          <div className="flex items-center gap-4">
+            <button
+              onClick={toggleTheme}
+              className="p-2.5 hover:bg-muted rounded-full transition-all duration-300 hover:rotate-12"
+              aria-label="Toggle theme"
             >
-              Chăm sóc <span 
-                style={{
-                  color: '#4FD1C7',
-                  display: 'block',
-                  fontWeight: 900,
-                  textShadow: '0 2px 8px rgba(255, 255, 255, 0.95), 0 1px 4px rgba(79, 209, 199, 0.3)'
-                }}
-              >
-                sức khỏe<br />
-                tinh thần
-              </span> <span 
-                style={{
-                  color: '#1F2937',
-                  fontWeight: 900,
-                  textShadow: '0 2px 8px rgba(255, 255, 255, 0.95), 0 1px 4px rgba(0, 0, 0, 0.15)'
-                }}
-              >
-                với AI
+              {theme === 'light' ? '🌙' : '☀️'}
+            </button>
+            <Link to="/login" className="hidden sm:block">
+              <Button variant="ghost" className="text-base hover:bg-purple-50 dark:hover:bg-purple-900/20 hover:text-purple-600 dark:hover:text-purple-400">Đăng nhập</Button>
+            </Link>
+            <Link to="/register">
+              <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white rounded-full px-6 shadow-lg shadow-purple-500/25 hover:shadow-purple-500/40 transition-all hover:scale-105">
+                Bắt đầu ngay
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </nav>
+
+      {/* Hero Section */}
+      <section className="relative pt-32 pb-20 px-6 min-h-screen flex items-center justify-center z-10">
+        <div className="max-w-7xl mx-auto w-full text-center">
+          <div className="space-y-8 animate-fade-in-up">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/50 dark:bg-white/5 backdrop-blur-sm border border-purple-200 dark:border-purple-800 shadow-sm hover:shadow-md transition-all cursor-default">
+              <Brain className="w-4 h-4 text-purple-600 dark:text-purple-400 animate-pulse" />
+              <span className="text-sm font-medium text-purple-700 dark:text-purple-300">Trợ lý sức khỏe tâm lý AI hàng đầu</span>
+            </div>
+
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight tracking-tight">
+              <span className="bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-600 bg-clip-text text-transparent animate-gradient-x">
+                Chăm sóc tâm lý
+              </span>
+              <br />
+              <span className="text-foreground relative">
+                trong tầm tay bạn
+                <svg className="absolute w-full h-3 -bottom-1 left-0 text-purple-500/30 -z-10" viewBox="0 0 100 10" preserveAspectRatio="none">
+                  <path d="M0 5 Q 50 10 100 5" stroke="currentColor" strokeWidth="8" fill="none" />
+                </svg>
               </span>
             </h1>
-            <p 
-              style={{
-                fontSize: '0.9rem',
-                lineHeight: 1.5,
-                color: '#374151',
-                marginBottom: '18px',
-                fontWeight: 500,
-                textShadow: '0 2px 6px rgba(255, 255, 255, 0.9), 0 1px 3px rgba(0, 0, 0, 0.1)'
-              }}
-            >
-              Nền tảng AI tâm lý học tiên tiến, kết nối bạn với các chuyên gia hàng đầu. 
-              Hỗ trợ 24/7, phát hiện sớm các dấu hiệu rủi ro và đưa ra can thiệp kịp thời.
+
+            <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+              Kết nối với AI chatbot thấu hiểu, bác sĩ chuyên khoa tận tâm và công cụ theo dõi cảm xúc thông minh.
+              <span className="block mt-2 font-medium text-foreground">An toàn. Bảo mật. Luôn bên bạn 24/7.</span>
             </p>
-            <div 
-              style={{
-                display: 'flex',
-                gap: '10px',
-                marginBottom: '16px',
-                flexWrap: 'wrap'
-              }}
-            >
-              <Link 
-                to="/chat" 
-                style={{
-                  padding: '10px 20px',
-                  fontSize: '0.9rem',
-                  fontWeight: 600,
-                  borderRadius: '6px',
-                  textDecoration: 'none',
-                  display: 'inline-block',
-                  transition: 'all 0.3s ease',
-                  background: '#4FD1C7',
-                  color: 'white',
-                  border: 'none',
-                  boxShadow: '0 2px 8px rgba(79, 209, 199, 0.3)'
-                }}
-              >
-                💬 Trò chuyện với AI ngay
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
+              <Link to="/register">
+                <Button size="lg" className="w-full sm:w-auto bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white text-lg rounded-full h-14 px-10 gap-2 shadow-xl shadow-purple-500/30 transition-all hover:scale-105 hover:shadow-purple-500/50">
+                  Trải nghiệm miễn phí <ArrowRight className="w-5 h-5" />
+                </Button>
               </Link>
-              <Link 
-                to="/about" 
-                style={{
-                  padding: '10px 20px',
-                  fontSize: '0.9rem',
-                  fontWeight: 600,
-                  borderRadius: '6px',
-                  textDecoration: 'none',
-                  display: 'inline-block',
-                  transition: 'all 0.3s ease',
-                  background: 'rgba(255, 255, 255, 0.2)',
-                  color: '#4FD1C7',
-                  border: '2px solid #4FD1C7',
-                  backdropFilter: 'blur(6px)'
-                }}
-              >
+              <Button size="lg" variant="outline" className="w-full sm:w-auto text-lg rounded-full h-14 px-10 border-2 hover:bg-muted/50 transition-all hover:scale-105 backdrop-blur-sm bg-background/50">
                 Tìm hiểu thêm
-              </Link>
-            </div>
-            <div 
-              style={{
-                display: 'flex',
-                gap: '16px',
-                flexWrap: 'wrap'
-              }}
-            >
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <span 
-                  style={{
-                    color: '#4FD1C7',
-                    fontSize: '0.95rem',
-                    fontWeight: 700,
-                    textShadow: '0 2px 6px rgba(255, 255, 255, 0.9)'
-                  }}
-                >
-                  ✓
-                </span>
-                <span 
-                  style={{
-                    color: '#374151',
-                    fontSize: '0.8rem',
-                    fontWeight: 600,
-                    textShadow: '0 2px 6px rgba(255, 255, 255, 0.9)'
-                  }}
-                >
-                  Hỗ trợ 24/7
-                </span>
-              </div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <span 
-                  style={{
-                    color: '#4FD1C7',
-                    fontSize: '0.95rem',
-                    fontWeight: 700,
-                    textShadow: '0 2px 6px rgba(255, 255, 255, 0.9)'
-                  }}
-                >
-                  ✓
-                </span>
-                <span 
-                  style={{
-                    color: '#374151',
-                    fontSize: '0.8rem',
-                    fontWeight: 600,
-                    textShadow: '0 2px 6px rgba(255, 255, 255, 0.9)'
-                  }}
-                >
-                  Tư vấn 24/7
-                </span>
-              </div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <span 
-                  style={{
-                    color: '#4FD1C7',
-                    fontSize: '0.95rem',
-                    fontWeight: 700,
-                    textShadow: '0 2px 6px rgba(255, 255, 255, 0.9)'
-                  }}
-                >
-                  ✓
-                </span>
-                <span 
-                  style={{
-                    color: '#374151',
-                    fontSize: '0.8rem',
-                    fontWeight: 600,
-                    textShadow: '0 2px 6px rgba(255, 255, 255, 0.9)'
-                  }}
-                >
-                  Miễn phí dùng thử
-                </span>
-              </div>
-            </div>
->>>>>>> 89f2b86b3ec12af45c68d1d95aaa12497dd62e81
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose Section */}
-      <section className="features-section">
-        <div className="container">
-          <div className="section-head">
-            <h2 className="section-heading">
-              Tại sao chọn <span className="text-teal">MindCare AI</span>?
-            </h2>
-            <p className="section-desc">
-              Chúng tôi kết hợp công nghệ AI tiên tiến với chuyên môn y khoa để mang đến giải pháp chăm sóc tâm lý toàn diện.
-            </p>
-          </div>
-          
-          <div className="features-grid">
-            <div className="feature-box">
-              <div className="feature-icon bg-blue">
-                <span>🏠</span>
-              </div>
-              <h3 className="feature-name">AI Tư vấn 24/7</h3>
-              <p className="feature-text">
-                Trò chuyện với AI được đào tạo chuyên sâu về tâm lý học. Hệ thống phân tích cảm xúc và phát hiện dấu hiệu bất thường.
-              </p>
+              </Button>
             </div>
 
-            <div className="feature-box">
-              <div className="feature-icon bg-green">
-                <span>🔗</span>
-              </div>
-              <h3 className="feature-name">Kết nối Chuyên gia</h3>
-              <p className="feature-text">
-                Được kết nối với bác sĩ tâm lý có kinh nghiệm khi AI phát hiện dấu hiệu cần can thiệp. Tạo hồ sơ bệnh nhân và bắt đầu điều trị.
-              </p>
-            </div>
-
-            <div className="feature-box">
-              <div className="feature-icon bg-purple">
-                <span>💜</span>
-              </div>
-              <h3 className="feature-name">Theo dõi Sức khỏe</h3>
-              <p className="feature-text">
-                Hệ thống theo dõi và phân tích tình trạng cảm xúc, đưa ra cảnh báo kịp thời.
-              </p>
-            </div>
-
-            <div className="feature-box">
-              <div className="feature-icon bg-red">
-                <span>🛡️</span>
-              </div>
-              <h3 className="feature-name">Bảo mật Tuyệt đối</h3>
-              <p className="feature-text">
-                Thông tin cá nhân được mã hóa và bảo vệ theo tiêu chuẩn quốc tế.
-              </p>
+            {/* Hero Stats */}
+            <div className="pt-16 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              {[
+                { value: '50K+', label: 'Người dùng tin tưởng', color: 'from-purple-600 to-blue-600' },
+                { value: '4.9/5', label: 'Đánh giá hài lòng', color: 'from-blue-600 to-cyan-600' },
+                { value: '24/7', label: 'Hỗ trợ tức thì', color: 'from-cyan-600 to-purple-600' }
+              ].map((stat, i) => (
+                <div key={i} className="p-6 rounded-2xl bg-white/50 dark:bg-white/5 backdrop-blur-md border border-white/20 dark:border-white/10 shadow-lg hover:transform hover:-translate-y-1 transition-all duration-300">
+                  <div className={`text-4xl font-bold bg-gradient-to-r ${stat.color} bg-clip-text text-transparent`}>{stat.value}</div>
+                  <div className="text-sm text-muted-foreground mt-1 font-medium">{stat.label}</div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
       </section>
 
-      {/* How It Works */}
-      <section className="process-section">
-        <div className="container">
-          <div className="section-head">
-            <h2 className="section-heading">
-              <span className="text-teal">Quy trình</span> hoạt động
+      {/* Features Section */}
+      <section className="py-24 px-6 relative z-10">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16 space-y-4">
+            <h2 className="text-4xl md:text-5xl font-bold">
+              Tính năng <span className="text-purple-600">vượt trội</span>
             </h2>
-            <p className="section-desc">
-              Hệ thống AI thông minh phát hiện và can thiệp kịp thời khi phát hiện dấu hiệu rủi ro.
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Công nghệ AI tiên tiến kết hợp với chuyên môn y khoa
             </p>
           </div>
 
-          <div className="process-steps">
-            <div className="step-card">
-              <div className="step-number">01</div>
-              <div className="step-image">
-                <div className="step-img-box">
-                  <span className="step-emoji">�‍💻</span>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {features.map((feature, i) => (
+              <Card key={i} className="group relative overflow-hidden p-8 border border-border/50 bg-background/50 backdrop-blur-sm hover:bg-background/80 transition-all duration-500 hover:shadow-2xl hover:shadow-purple-500/10 hover:-translate-y-2 rounded-3xl">
+                <div className="absolute inset-0 bg-gradient-to-br from-purple-600/5 to-blue-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="relative z-10">
+                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center mb-6 shadow-lg shadow-purple-500/20 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+                    {feature.icon}
+                  </div>
+                  <h3 className="text-xl font-bold mb-3 group-hover:text-purple-600 transition-colors">{feature.title}</h3>
+                  <p className="text-muted-foreground leading-relaxed">{feature.description}</p>
                 </div>
-              </div>
-              <div className="step-icon">
-                <span>💬</span>
-              </div>
-              <h3 className="step-title">Trò chuyện với AI</h3>
-              <p className="step-desc">
-                Bắt đầu cuộc trò chuyện với AI tâm lý học. Hệ thống phân tích cảm xúc và phát hiện dấu hiệu bất thường.
-              </p>
-            </div>
-
-            <div className="step-card">
-              <div className="step-number">02</div>
-              <div className="step-image">
-                <div className="step-img-box">
-                  <span className="step-emoji">📊</span>
-                </div>
-              </div>
-              <div className="step-icon">
-                <span>⚠️</span>
-              </div>
-              <h3 className="step-title">AI phát hiện rủi ro</h3>
-              <p className="step-desc">
-                Khi AI phát hiện stress cao hoặc nguy cơ tự hại, hệ thống sẽ hiển thị cảnh báo và đề xuất bác sĩ phù hợp.
-              </p>
-            </div>
-
-            <div className="step-card">
-              <div className="step-number">03</div>
-              <div className="step-image">
-                <div className="step-img-box">
-                  <span className="step-emoji">👨‍⚕️</span>
-                </div>
-              </div>
-              <div className="step-icon">
-                <span>👥</span>
-              </div>
-              <h3 className="step-title">Kết nối chuyên gia</h3>
-              <p className="step-desc">
-                Được kết nối trực tiếp với bác sĩ tâm lý có kinh nghiệm. Tạo hồ sơ bệnh nhân và bắt đầu điều trị.
-              </p>
-            </div>
+              </Card>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Pricing Section */}
-      <section className="pricing-section">
-        <div className="container">
-          <div className="section-head">
-            <h2 className="section-heading">
-              <span className="text-teal">Gói dịch vụ</span> phù hợp với bạn
-            </h2>
-            <p className="section-desc">
-              Lựa chọn gói dịch vụ phù hợp với nhu cầu và ngân sách của bạn.
-            </p>
+      {/* Trust Section */}
+      <section className="py-24 px-6 bg-muted/30 relative overflow-hidden">
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">Được tin dùng bởi cộng đồng</h2>
+            <div className="flex justify-center gap-1 mb-2">
+              {[1, 2, 3, 4, 5].map((star) => (
+                <Star key={star} className="w-6 h-6 fill-yellow-400 text-yellow-400 animate-pulse" style={{ animationDelay: `${star * 100}ms` }} />
+              ))}
+            </div>
+            <p className="text-lg text-muted-foreground">Hơn 50,000 người đã cải thiện sức khỏe tinh thần</p>
           </div>
-          <div className="pricing-grid">
-            <div className="pricing-card">
-              <h3 className="pricing-plan-name">Dùng thử</h3>
-              <div className="pricing-price">
-                <span className="price-amount">Miễn phí</span>
-              </div>
-              <ul className="pricing-features">
-                <li><span className="check">✓</span> 5 cuộc trò chuyện/ngày với AI</li>
-                <li><span className="check">✓</span> Đánh giá tâm lý cơ bản</li>
-                <li><span className="check">✓</span> Theo dõi cảm xúc hàng ngày</li>
-                <li><span className="check">✓</span> Hỗ trợ qua email</li>
-              </ul>
-              <Link to="/register" className="btn btn-outline-teal btn-block">
-                Bắt đầu miễn phí
-              </Link>
-            </div>
 
-            <div className="pricing-card featured">
-              <div className="popular-badge">Phổ biến nhất</div>
-              <h3 className="pricing-plan-name">Cá nhân</h3>
-              <div className="pricing-price">
-                <span className="price-amount">299,000₫</span>
-                <span className="price-period">/tháng</span>
-              </div>
-              <ul className="pricing-features">
-                <li><span className="check">✓</span> Trò chuyện không giới hạn với AI</li>
-                <li><span className="check">✓</span> Kết nối với bác sĩ tâm lý</li>
-                <li><span className="check">✓</span> Báo cáo chi tiết hàng tuần</li>
-                <li><span className="check">✓</span> Cảnh báo khẩn cấp 24/7</li>
-                <li><span className="check">✓</span> Hỗ trợ ưu tiên</li>
-              </ul>
-              <Link to="/register" className="btn btn-primary btn-block">
-                Chọn gói này
-              </Link>
-            </div>
-
-            <div className="pricing-card">
-              <h3 className="pricing-plan-name">Gia đình</h3>
-              <div className="pricing-price">
-                <span className="price-amount">599,000₫</span>
-                <span className="price-period">/tháng</span>
-              </div>
-              <ul className="pricing-features">
-                <li><span className="check">✓</span> Tất cả tính năng gói Cá nhân</li>
-                <li><span className="check">✓</span> Hỗ trợ tối đa 4 thành viên</li>
-                <li><span className="check">✓</span> Dashboard gia đình</li>
-                <li><span className="check">✓</span> Tư vấn gia đình</li>
-                <li><span className="check">✓</span> Báo cáo tổng hợp</li>
-              </ul>
-              <Link to="/register" className="btn btn-outline-teal btn-block">
-                Chọn gói này
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials Section */}
-      <section className="testimonials-section">
-        <div className="container">
-          <div className="section-head">
-            <h2 className="section-heading">
-              <span className="text-teal">Người dùng</span> nói gì về chúng tôi
-            </h2>
-            <p className="section-desc">
-              Hàng nghìn người đã tin tưởng và cải thiện sức khỏe tinh thần cùng MindCare AI.
-            </p>
-          </div>
-          <div className="testimonials-grid">
-            <div className="testimonial-card">
-              <div className="testimonial-header">
-                <div className="testimonial-avatar">
-                  <span>👩</span>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              { name: 'Nguyễn Văn A', role: 'Nhân viên văn phòng', text: 'MindCare thực sự thay đổi cuộc sống của tôi. Việc có quyền truy cập vào hỗ trợ tâm lý bất cứ lúc nào đã giúp tôi vượt qua những thời điểm khó khăn.' },
+              { name: 'Trần Thị B', role: 'Sinh viên', text: 'Chatbot AI rất thông minh và bác sĩ tư vấn nhiệt tình. Tôi cảm thấy tự tin hơn nhiều sau khi sử dụng dịch vụ.' },
+              { name: 'Lê Văn C', role: 'Giáo viên', text: 'Giao diện đẹp, dễ sử dụng và quan trọng nhất là bảo mật tuyệt đối. Tôi hoàn toàn tin tưởng vào MindCare.' }
+            ].map((testimonial, i) => (
+              <div key={i} className="bg-background p-8 rounded-3xl border border-border/50 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                <div className="flex gap-1 mb-4">
+                  {[1, 2, 3, 4, 5].map((star) => (
+                    <Star key={star} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                  ))}
                 </div>
-                <div className="testimonial-info">
-                  <h4 className="testimonial-name">Nguyễn Thị Lan</h4>
-                  <p className="testimonial-role">Nhân viên văn phòng</p>
+                <p className="text-muted-foreground italic mb-6 leading-relaxed">"{testimonial.text}"</p>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-100 to-blue-100 flex items-center justify-center text-purple-600 font-bold text-lg">
+                    {testimonial.name.charAt(0)}
+                  </div>
+                  <div>
+                    <div className="font-bold text-foreground">{testimonial.name}</div>
+                    <div className="text-sm text-muted-foreground">{testimonial.role}</div>
+                  </div>
                 </div>
               </div>
-              <div className="testimonial-stars">⭐⭐⭐⭐⭐</div>
-              <p className="testimonial-text">
-                "MindCare AI đã giúp tôi vượt qua giai đoạn stress căng việc. AI rất thông minh và bác sĩ tư vấn rất tận tâm."
-              </p>
-            </div>
-
-            <div className="testimonial-card">
-              <div className="testimonial-header">
-                <div className="testimonial-avatar">
-                  <span>👨</span>
-                </div>
-                <div className="testimonial-info">
-                  <h4 className="testimonial-name">Trần Văn Minh</h4>
-                  <p className="testimonial-role">Sinh viên đại học</p>
-                </div>
-              </div>
-              <div className="testimonial-stars">⭐⭐⭐⭐⭐</div>
-              <p className="testimonial-text">
-                "Dịch vụ tuyệt vời! AI phát hiện được tình trạng lo âu của tôi và kết nối với bác sĩ phù hợp. Cảm ơn MindCare AI!"
-              </p>
-            </div>
-
-            <div className="testimonial-card">
-              <div className="testimonial-header">
-                <div className="testimonial-avatar">
-                  <span>�‍🦰</span>
-                </div>
-                <div className="testimonial-info">
-                  <h4 className="testimonial-name">Lê Thị Hương</h4>
-                  <p className="testimonial-role">Mẹ của 2 con</p>
-                </div>
-              </div>
-              <div className="testimonial-stars">⭐⭐⭐⭐⭐</div>
-              <p className="testimonial-text">
-                "Gói gia đình rất hữu ích. Cả gia đình tôi đều được chăm sóc tâm lý tốt. Hệ thống cảnh báo rất kịp thời."
-              </p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="cta-section">
-        <div className="container">
-          <div className="cta-box">
-            <h2 className="cta-heading">
-              Bắt đầu hành trình chăm sóc tâm lý ngay hôm nay
-            </h2>
-            <p className="cta-text">
-              Đừng để stress và lo âu ảnh hưởng đến cuộc sống. Hãy để AI và các chuyên gia đồng hành cùng bạn.
-            </p>
-            <div className="cta-actions">
-              <Link to="/chat" className="btn btn-white-solid btn-lg">
-                Trò chuyện miễn phí ngay
-              </Link>
-              <Link to="/register" className="btn btn-white-outline btn-lg">
-                Đăng ký tài khoản
-              </Link>
-            </div>
+      <section className="py-32 px-6 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-blue-900 to-black opacity-90" />
+        <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20" />
+
+        <div className="max-w-4xl mx-auto text-center relative z-10 text-white">
+          <h2 className="text-5xl md:text-6xl font-bold mb-8 leading-tight">
+            Sẵn sàng cho một tâm trí <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">khỏe mạnh hơn?</span>
+          </h2>
+          <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
+            Hãy để MindCare đồng hành cùng bạn trên hành trình chăm sóc sức khỏe tinh thần. Bắt đầu ngay hôm nay, hoàn toàn miễn phí.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-6 justify-center">
+            <Link to="/register">
+              <Button size="lg" className="bg-white text-purple-900 hover:bg-gray-100 text-xl rounded-full h-16 px-12 shadow-2xl transition-transform hover:scale-105 font-bold">
+                Đăng ký ngay
+              </Button>
+            </Link>
           </div>
+          <p className="mt-8 text-sm text-gray-400">
+            Không cần thẻ tín dụng • Hủy bất cứ lúc nào
+          </p>
         </div>
       </section>
 
-      {/* Floating Talk with Us Button */}
-      <Link 
-        to="/chat"
-        style={{
-          position: 'fixed',
-          bottom: '30px',
-          right: '30px',
-          background: '#4FD1C7',
-          color: 'white',
-          padding: '14px 28px',
-          borderRadius: '30px',
-          fontSize: '0.95rem',
-          fontWeight: 600,
-          textDecoration: 'none',
-          boxShadow: '0 4px 20px rgba(79, 209, 199, 0.4)',
-          transition: 'all 0.3s ease',
-          zIndex: 1000,
-          display: 'flex',
-          alignItems: 'center',
-          gap: '8px'
-        }}
-        onMouseEnter={(e) => {
-          e.currentTarget.style.transform = 'translateY(-2px)';
-          e.currentTarget.style.boxShadow = '0 6px 25px rgba(79, 209, 199, 0.5)';
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.transform = 'translateY(0)';
-          e.currentTarget.style.boxShadow = '0 4px 20px rgba(79, 209, 199, 0.4)';
-        }}
-      >
-        💬 Talk with Us
-      </Link>
+      {/* Footer */}
+      <footer className="py-12 px-6 border-t border-border/50 bg-background">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center">
+              <Brain className="w-5 h-5 text-white" />
+            </div>
+            <span className="font-bold text-lg">MindCare AI</span>
+          </div>
+          <div className="text-sm text-muted-foreground">
+            &copy; 2025 MindCare. All rights reserved.
+          </div>
+          <div className="flex gap-6 text-sm text-muted-foreground">
+            <a href="#" className="hover:text-purple-600 transition-colors">Điều khoản</a>
+            <a href="#" className="hover:text-purple-600 transition-colors">Bảo mật</a>
+            <a href="#" className="hover:text-purple-600 transition-colors">Liên hệ</a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
+
+const features = [
+  {
+    icon: <Brain className="w-7 h-7 text-white" />,
+    title: 'AI Chatbot 24/7',
+    description: 'Trò chuyện với AI thông minh, thấu hiểu cảm xúc để nhận hỗ trợ tâm lý bất cứ lúc nào, mọi nơi.'
+  },
+  {
+    icon: <Users className="w-7 h-7 text-white" />,
+    title: 'Bác sĩ chuyên khoa',
+    description: 'Kết nối và tư vấn 1-1 với mạng lưới các chuyên gia tâm lý hàng đầu, giàu kinh nghiệm.'
+  },
+  {
+    icon: <Activity className="w-7 h-7 text-white" />,
+    title: 'Theo dõi cảm xúc',
+    description: 'Biểu đồ trực quan giúp bạn ghi lại và nhận diện xu hướng tâm trạng của bản thân mỗi ngày.'
+  },
+  {
+    icon: <MessageCircle className="w-7 h-7 text-white" />,
+    title: 'Cộng đồng hỗ trợ',
+    description: 'Tham gia vào cộng đồng an toàn, nơi bạn có thể chia sẻ và nhận được sự đồng cảm.'
+  },
+  {
+    icon: <Calendar className="w-7 h-7 text-white" />,
+    title: 'Lịch hẹn thông minh',
+    description: 'Dễ dàng đặt lịch, quản lý cuộc hẹn và nhận nhắc nhở tự động để không bỏ lỡ buổi tư vấn.'
+  },
+  {
+    icon: <Lock className="w-7 h-7 text-white" />,
+    title: 'Bảo mật tuyệt đối',
+    description: 'Dữ liệu của bạn được mã hóa cấp cao nhất, đảm bảo sự riêng tư và an toàn tuyệt đối.'
+  }
+];
 
 export default LandingPage;

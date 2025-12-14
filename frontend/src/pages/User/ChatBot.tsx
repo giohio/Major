@@ -1,64 +1,90 @@
 import { useState, useRef, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import './ChatBot.css';
+import { useNavigate, useParams } from 'react-router-dom';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Card } from '@/components/ui/card';
+import {
+  Send,
+  Plus,
+  Sparkles,
+  MessageSquare,
+  Phone,
+  Menu
+} from 'lucide-react';
+import { apiClient } from '@/services/api.client';
+import { API_ENDPOINTS } from '@/config/api.config';
+import { toast } from 'sonner';
+import { cn } from '@/lib/utils';
+import type { ChatSession } from '@/types/api.types';
 
 interface Message {
   id: number;
   type: 'user' | 'ai';
   content: string;
-  timestamp: string;
+  timestamp: Date;
   emotion?: 'positive' | 'neutral' | 'negative' | 'critical';
 }
 
 const ChatBot = () => {
   const navigate = useNavigate();
-  const [messages, setMessages] = useState<Message[]>([
-    {
-      id: 1,
-      type: 'ai',
-      content: 'Xin chào! Tôi là AI tâm lý học của MindCare. Tôi ở đây để lắng nghe và hỗ trợ bạn. Hôm nay bạn cảm thấy thế nào?',
-      timestamp: '18:34',
-      emotion: 'positive'
-    }
-  ]);
+  const { sessionId } = useParams();
+  const [sessions, setSessions] = useState<ChatSession[]>([]);
+  const [messages, setMessages] = useState<Message[]>([]);
   const [inputValue, setInputValue] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  // const [emotionScore, setEmotionScore] = useState(0);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const commonTopics = [
-    { icon: '😰', text: 'Tôi đang cảm thấy lo lắng', id: 1 },
-    { icon: '💼', text: 'Áp lực công việc', id: 2 },
-    { icon: '😴', text: 'Vấn đề về giấc ngủ', id: 3 },
-    { icon: '😢', text: 'Cảm thấy buồn và chán nản', id: 4 },
+    { text: 'Tôi đang cảm thấy lo lắng', icon: '😰' },
+    { text: 'Áp lực công việc quá lớn', icon: '💼' },
+    { text: 'Khó ngủ mấy ngày nay', icon: '🌙' },
+    { text: 'Cảm thấy buồn không rõ lý do', icon: '😢' },
   ];
 
   useEffect(() => {
-    // Auto scroll to bottom when new message arrives
-    const scrollToBottom = () => {
-      const messagesContainer = messagesEndRef.current?.closest('.chatbot-messages');
-      if (messagesContainer) {
-        messagesContainer.scrollTo({
-          top: messagesContainer.scrollHeight,
-          behavior: 'smooth'
-        });
-      }
-    };
+    loadSessions();
+  }, []);
 
-    // Delay to ensure DOM is updated
-    const timeoutId = setTimeout(scrollToBottom, 100);
-    return () => clearTimeout(timeoutId);
+  useEffect(() => {
+    if (sessionId) {
+      loadSessionMessages(parseInt(sessionId));
+    } else {
+      setMessages([]);
+    }
+  }, [sessionId]);
+
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
 
-  const analyzeEmotion = (text: string): { score: number; emotion: Message['emotion'] } => {
-    // Simple emotion analysis (replace with real API)
-    const negativeWords = ['buồn', 'lo lắng', 'stress', 'mệt mỏi', 'tự tử', 'chết', 'không muốn sống'];
-    const score = negativeWords.filter(word => text.toLowerCase().includes(word)).length;
-    
-    if (score >= 3) return { score, emotion: 'critical' };
-    if (score >= 2) return { score, emotion: 'negative' };
-    if (score >= 1) return { score, emotion: 'neutral' };
-    return { score, emotion: 'positive' };
+  const loadSessions = async () => {
+    try {
+      const response = await apiClient.get<{ sessions: ChatSession[] }>(`${API_ENDPOINTS.CHAT.RECENT}?limit=20`);
+      setSessions(response.sessions);
+    } catch (error) {
+      console.error('Failed to load sessions:', error);
+    }
+  };
+
+  const loadSessionMessages = async (id: number) => {
+    try {
+      setIsLoading(true);
+      // Note: In a real app, we would fetch messages for this session
+      // For now, we'll simulate it or just clear if it's a new chat
+      // const response = await apiClient.get(...)
+      setMessages([]); // Placeholder
+    } catch (error) {
+      console.error('Failed to load messages:', error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleNewChat = () => {
+    navigate('/chat');
+    setMessages([]);
+    setIsSidebarOpen(false);
   };
 
   const handleSendMessage = async (text?: string) => {
@@ -69,224 +95,253 @@ const ChatBot = () => {
       id: Date.now(),
       type: 'user',
       content: messageText,
-      timestamp: new Date().toLocaleTimeString('vi-VN')
+      timestamp: new Date()
     };
 
     setMessages(prev => [...prev, userMessage]);
     setInputValue('');
     setIsLoading(true);
 
-    // Analyze emotion
-    const { score, emotion } = analyzeEmotion(messageText);
-    // setEmotionScore(prev => prev + score);
+    try {
+      const response = await apiClient.post<{
+        message: string;
+        ai_response: string;
+        emotion_analysis?: {
+          risk_level: string;
+        };
+        alert_created?: boolean;
+        session_id?: number;
+      }>(API_ENDPOINTS.CHAT.SEND, {
+        message: messageText,
+        session_id: sessionId ? parseInt(sessionId) : undefined
+      });
 
-    // Simulate AI response
-    setTimeout(() => {
+      // If new session created, update URL and list
+      if (response.session_id && !sessionId) {
+        loadSessions();
+        // We don't navigate to avoid reload, just keep state
+      }
+
+      let emotion: Message['emotion'] = 'positive';
+      if (response.emotion_analysis) {
+        const riskLevel = response.emotion_analysis.risk_level;
+        if (riskLevel === 'critical') emotion = 'critical';
+        else if (riskLevel === 'high') emotion = 'negative';
+        else if (riskLevel === 'medium') emotion = 'neutral';
+        else emotion = 'positive';
+      }
+
       const aiMessage: Message = {
         id: Date.now() + 1,
         type: 'ai',
-        content: score >= 3 
-          ? '🚨 Tôi nhận thấy bạn đang trải qua giai đoạn khó khăn. Tôi nghĩ bạn nên được hỗ trợ từ chuyên gia y tế. Bạn có muốn tôi giúp kết nối với bác sĩ không?'
-          : 'Tôi hiểu bạn đang trải qua. Hãy kể cho tôi nghe thêm về cảm giác của bạn...',
-        timestamp: new Date().toLocaleTimeString('vi-VN'),
+        content: response.ai_response,
+        timestamp: new Date(),
         emotion
       };
-      
-      setMessages(prev => [...prev, aiMessage]);
-      setIsLoading(false);
 
-      // Show alert if critical
-      if (score >= 3) {
-        setTimeout(() => {
-          const shouldNavigate = window.confirm('Tôi phát hiện bạn có nguy cơ cao. Bạn có muốn xem danh sách bác sĩ không?');
-          if (shouldNavigate) {
-            navigate('/user/alert');
-          }
-        }, 1000);
+      setMessages(prev => [...prev, aiMessage]);
+
+      if (response.emotion_analysis?.risk_level === 'critical' || response.alert_created) {
+        toast.error('Phát hiện nguy cơ cao. Vui lòng tìm sự trợ giúp y tế.');
       }
-    }, 1500);
+    } catch (error: any) {
+      console.error('Failed to send message:', error);
+      toast.error('Không thể gửi tin nhắn. Vui lòng thử lại.');
+    } finally {
+      setIsLoading(false);
+    }
   };
 
+  // Group sessions by date
+  const groupedSessions = sessions.reduce((groups, session) => {
+    const date = new Date(session.created_at).toLocaleDateString('vi-VN');
+    if (!groups[date]) groups[date] = [];
+    groups[date].push(session);
+    return groups;
+  }, {} as Record<string, ChatSession[]>);
+
   return (
-    <div className="chatbot-page">
-      {/* Header */}
-      <div className="chatbot-page-header">
-        <div className="container">
-          <div className="header-content-chat">
-            <h2 className="logo-chat">MindCare AI</h2>
-            <div className="header-right">
-              <span className="online-status">🟢 AI đang online</span>
-              <button onClick={() => navigate('/user/dashboard')} className="btn-header-link">Dashboard</button>
-              <button onClick={() => navigate('/')} className="btn-header-primary">Hồ sơ</button>
-            </div>
-          </div>
+    <div className="flex h-[calc(100vh-4rem)] bg-background overflow-hidden">
+      {/* Mobile Sidebar Overlay */}
+      {isSidebarOpen && (
+        <div
+          className="fixed inset-0 bg-black/50 z-40 lg:hidden"
+          onClick={() => setIsSidebarOpen(false)}
+        />
+      )}
+
+      {/* Sidebar */}
+      <div className={cn(
+        "fixed inset-y-0 left-0 z-50 w-72 bg-card border-r border-border transform transition-transform duration-300 ease-in-out lg:relative lg:translate-x-0 flex flex-col",
+        isSidebarOpen ? "translate-x-0" : "-translate-x-full"
+      )}>
+        <div className="p-4">
+          <Button
+            onClick={handleNewChat}
+            className="w-full justify-start gap-2 bg-primary/10 text-primary hover:bg-primary/20 border-0 h-11"
+          >
+            <Plus size={20} />
+            <span className="font-medium">Cuộc trò chuyện mới</span>
+          </Button>
         </div>
-      </div>
 
-      <div className="chatbot-main-container">
-        <div className="container">
-          <div className="chatbot-layout">
-            {/* Sidebar Left - Conversations */}
-            <div className="chatbot-sidebar-left">
-              <div className="sidebar-left-header">
-                <h3>Đoạn chat</h3>
-              </div>
-              <div className="conversations-list">
-                <div className="conversation-item active">
-                  <div className="conversation-avatar">🛡️</div>
-                  <div className="conversation-info">
-                    <p className="conversation-name">AI Tâm lý học</p>
-                    <p className="conversation-preview">Tôi hiểu bạn đang trải qua...</p>
-                  </div>
-                  <span className="conversation-time">18:34</span>
-                </div>
-                <div className="conversation-item">
-                  <div className="conversation-avatar">👨‍⚕️</div>
-                  <div className="conversation-info">
-                    <p className="conversation-name">Bác sĩ Nguyễn</p>
-                    <p className="conversation-preview">Hẹn gặp bạn vào thứ 5...</p>
-                  </div>
-                  <span className="conversation-time">Hôm qua</span>
-                </div>
-                <div className="conversation-item">
-                  <div className="conversation-avatar">💊</div>
-                  <div className="conversation-info">
-                    <p className="conversation-name">Hỗ trợ y tế</p>
-                    <p className="conversation-preview">Lịch uống thuốc của bạn</p>
-                  </div>
-                  <span className="conversation-time">2 ngày</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Chat Area - Center */}
-            <div className="chatbot-chat-area">
-              <div className="chat-header">
-                <div className="ai-profile">
-                  <div className="ai-avatar-circle">🛡️</div>
-                  <div>
-                    <h3>AI Tâm lý học</h3>
-                    <span className="ai-status">Đang online • Phản hồi tức thì</span>
-                  </div>
-                </div>
-                <div className="chat-actions">
-                  <button className="icon-btn">📞</button>
-                  <button className="icon-btn">📹</button>
-                </div>
-              </div>
-
-              {/* Messages */}
-              <div className="chatbot-messages">
-                {messages.map((message) => (
-                  <div key={message.id} className={`message ${message.type}`}>
-                    {message.type === 'ai' && <div className="message-avatar">🛡️</div>}
-                    <div className="message-content">{message.content}</div>
-                    <div className="message-time">{message.timestamp}</div>
-                  </div>
-                ))}
-                {isLoading && (
-                  <div className="message ai">
-                    <div className="message-avatar">🛡️</div>
-                    <div className="message-content typing">
-                      <span></span><span></span><span></span>
-                    </div>
-                  </div>
-                )}
-                <div ref={messagesEndRef} />
-              </div>
-
-              {/* Quick Topics */}
-              <div className="quick-topics">
-                <div className="topics-label">Phản hồi nhanh:</div>
-                {commonTopics.map((topic) => (
+        <div className="flex-1 overflow-y-auto px-3 py-2 custom-scrollbar">
+          {Object.entries(groupedSessions).map(([date, groupSessions]) => (
+            <div key={date} className="mb-6">
+              <h3 className="px-3 text-xs font-medium text-muted-foreground mb-2">{date}</h3>
+              <div className="space-y-1">
+                {groupSessions.map(session => (
                   <button
-                    key={topic.id}
-                    className="topic-btn"
-                    onClick={() => handleSendMessage(topic.text)}
+                    key={session.id}
+                    onClick={() => {
+                      navigate(`/chat?session=${session.id}`); // Using query param for now or just handle state
+                      // For this demo, let's just load messages if we had the API
+                      setIsSidebarOpen(false);
+                    }}
+                    className="w-full text-left px-3 py-2.5 rounded-lg text-sm text-foreground/80 hover:bg-accent hover:text-accent-foreground transition-colors truncate flex items-center gap-2 group"
                   >
-                    {topic.text}
+                    <MessageSquare size={16} className="shrink-0 text-muted-foreground group-hover:text-primary" />
+                    <span className="truncate">{session.title || 'Cuộc trò chuyện mới'}</span>
                   </button>
                 ))}
               </div>
-
-              {/* Input */}
-              <div className="chatbot-input">
-                <input
-                  type="text"
-                  placeholder="Nhập tin nhắn của bạn..."
-                  value={inputValue}
-                  onChange={(e) => setInputValue(e.target.value)}
-                  onKeyPress={(e) => e.key === 'Enter' && handleSendMessage()}
-                />
-                <button 
-                  className="send-btn" 
-                  onClick={() => handleSendMessage()}
-                  disabled={!inputValue.trim() || isLoading}
-                >
-                  ✈️
-                </button>
-              </div>
             </div>
+          ))}
+        </div>
 
-            {/* Sidebar - Right */}
-            <div className="chatbot-sidebar">
-              {/* Emotion Status Card */}
-              <div className="sidebar-card">
-                <h3>Trạng thái cảm xúc</h3>
-                <div className="emotion-levels">
-                  <div className="emotion-dots">
-                    <span className="dot active"></span>
-                    <span className="dot active"></span>
-                    <span className="dot active"></span>
-                    <span className="dot"></span>
-                    <span className="dot"></span>
-                  </div>
-                  <span className="emotion-label">Mức độ tích cực</span>
-                </div>
-                <div className="emotion-status-box">
-                  Bình thường
-                </div>
-              </div>
-
-              {/* Session Info Card */}
-              <div className="sidebar-card">
-                <h3>Phiên trò chuyện</h3>
-                <div className="session-info">
-                  <div className="info-row">
-                    <span>Thời gian</span>
-                    <strong>15 phút</strong>
-                  </div>
-                  <div className="info-row">
-                    <span>Tin nhắn</span>
-                    <strong>{messages.length}</strong>
-                  </div>
-                  <div className="info-row">
-                    <span>Trạng thái</span>
-                    <strong className="status-active">Đang hoạt động</strong>
-                  </div>
-                </div>
-              </div>
-
-              {/* Emergency Support Card */}
-              <div className="sidebar-card emergency-card">
-                <h3>Hỗ trợ khẩn cấp</h3>
-                <p>Nếu bạn đang có ý định tự hại, hãy liên hệ ngay:</p>
-                <button className="emergency-btn">
-                  📞 Gọi hotline: 1900 1234
-                </button>
-              </div>
+        <div className="p-4 border-t border-border bg-card">
+          <div className="flex items-center gap-3 px-2">
+            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-purple-500 to-blue-500 flex items-center justify-center text-white text-xs font-bold">
+              AI
+            </div>
+            <div className="flex-1 min-w-0">
+              <p className="text-sm font-medium truncate">MindCare AI Pro</p>
+              <p className="text-xs text-muted-foreground">Gói cao cấp</p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Floating Talk with Us Button */}
-      <button 
-        className="floating-talk-btn"
-        onClick={() => handleSendMessage()}
-      >
-        Talk with Us
-      </button>
+      {/* Main Chat Area */}
+      <div className="flex-1 flex flex-col min-w-0 bg-background/50 backdrop-blur-sm relative">
+        {/* Mobile Header */}
+        <div className="lg:hidden flex items-center p-4 border-b border-border bg-background/80 backdrop-blur sticky top-0 z-30">
+          <Button variant="ghost" size="icon" onClick={() => setIsSidebarOpen(true)}>
+            <Menu size={20} />
+          </Button>
+          <span className="ml-2 font-semibold">MindCare AI</span>
+        </div>
+
+        {/* Messages Area */}
+        <div className="flex-1 overflow-y-auto custom-scrollbar p-4 md:p-6 scroll-smooth">
+          {messages.length === 0 ? (
+            <div className="h-full flex flex-col items-center justify-center text-center max-w-2xl mx-auto px-4 animate-in fade-in zoom-in duration-500">
+              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-purple-600 flex items-center justify-center mb-6 shadow-lg shadow-primary/20">
+                <Sparkles size={32} className="text-white" />
+              </div>
+              <h2 className="text-2xl font-bold mb-2">Xin chào! Tôi có thể giúp gì cho bạn?</h2>
+              <p className="text-muted-foreground mb-8">Tôi ở đây để lắng nghe, chia sẻ và hỗ trợ sức khỏe tinh thần của bạn.</p>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 w-full">
+                {commonTopics.map((topic, index) => (
+                  <button
+                    key={index}
+                    onClick={() => handleSendMessage(topic.text)}
+                    className="flex items-center gap-3 p-4 rounded-xl border border-border bg-card hover:bg-accent/50 hover:border-primary/50 transition-all duration-200 text-left group"
+                  >
+                    <span className="text-2xl group-hover:scale-110 transition-transform">{topic.icon}</span>
+                    <span className="text-sm font-medium text-foreground/80 group-hover:text-primary">{topic.text}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          ) : (
+            <div className="max-w-3xl mx-auto space-y-6 py-4">
+              {messages.map((message) => (
+                <div
+                  key={message.id}
+                  className={cn(
+                    "flex gap-4 animate-in fade-in slide-in-from-bottom-2 duration-300",
+                    message.type === 'user' ? "flex-row-reverse" : "flex-row"
+                  )}
+                >
+                  <div className={cn(
+                    "w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm",
+                    message.type === 'user' ? "bg-primary text-primary-foreground" : "bg-gradient-to-br from-purple-600 to-blue-600 text-white"
+                  )}>
+                    {message.type === 'user' ? <span className="text-xs font-bold">You</span> : <Sparkles size={14} />}
+                  </div>
+
+                  <div className={cn(
+                    "max-w-[85%] md:max-w-[75%] rounded-2xl px-5 py-3.5 shadow-sm",
+                    message.type === 'user'
+                      ? "bg-primary text-primary-foreground rounded-tr-none"
+                      : "bg-card border border-border rounded-tl-none"
+                  )}>
+                    <p className="text-sm leading-relaxed whitespace-pre-wrap">{message.content}</p>
+                    {message.emotion && message.emotion !== 'positive' && message.emotion !== 'neutral' && (
+                      <div className="mt-2 pt-2 border-t border-white/20 flex items-center gap-2 text-xs opacity-90">
+                        {message.emotion === 'critical' ? '🚨 Cần chú ý cao' : '⚠️ Cảm xúc tiêu cực'}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))}
+              {isLoading && (
+                <div className="flex gap-4">
+                  <div className="w-8 h-8 rounded-full bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center shrink-0 text-white">
+                    <Sparkles size={14} />
+                  </div>
+                  <div className="bg-card border border-border rounded-2xl rounded-tl-none px-5 py-4 shadow-sm">
+                    <div className="flex gap-1.5">
+                      <div className="w-2 h-2 bg-primary/40 rounded-full animate-bounce [animation-delay:-0.3s]"></div>
+                      <div className="w-2 h-2 bg-primary/40 rounded-full animate-bounce [animation-delay:-0.15s]"></div>
+                      <div className="w-2 h-2 bg-primary/40 rounded-full animate-bounce"></div>
+                    </div>
+                  </div>
+                </div>
+              )}
+              <div ref={messagesEndRef} />
+            </div>
+          )}
+        </div>
+
+        {/* Input Area */}
+        <div className="p-4 md:p-6 bg-gradient-to-t from-background via-background to-transparent">
+          <div className="max-w-3xl mx-auto relative">
+            <div className="relative flex items-end gap-2 bg-card border border-border shadow-lg rounded-2xl p-2 focus-within:ring-2 focus-within:ring-primary/20 focus-within:border-primary transition-all duration-200">
+              <Input
+                value={inputValue}
+                onChange={(e) => setInputValue(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' && !e.shiftKey) {
+                    e.preventDefault();
+                    handleSendMessage();
+                  }
+                }}
+                placeholder="Nhập tin nhắn của bạn..."
+                className="border-0 bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 min-h-[44px] py-3 px-3 resize-none"
+                disabled={isLoading}
+                autoComplete="off"
+              />
+              <Button
+                onClick={() => handleSendMessage()}
+                disabled={!inputValue.trim() || isLoading}
+                size="icon"
+                className={cn(
+                  "h-10 w-10 rounded-xl transition-all duration-200 shrink-0 mb-0.5",
+                  inputValue.trim() ? "bg-primary text-primary-foreground hover:bg-primary/90" : "bg-muted text-muted-foreground hover:bg-muted/80"
+                )}
+              >
+                <Send size={18} />
+              </Button>
+            </div>
+            <p className="text-center text-xs text-muted-foreground mt-3">
+              MindCare AI có thể mắc lỗi. Hãy luôn kiểm tra các thông tin quan trọng.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

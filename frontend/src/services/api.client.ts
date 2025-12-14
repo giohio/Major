@@ -29,7 +29,7 @@ class ApiClient {
     return headers;
   }
 
-  private async handleResponse<T>(response: Response): Promise<T> {
+  private async handleResponse<T>(response: Response, endpoint: string): Promise<T> {
     if (!response.ok) {
       const error: ApiError = await response.json().catch(() => ({
         error: 'Network error',
@@ -37,8 +37,11 @@ class ApiClient {
       }));
 
       // Handle specific error cases
-      if (response.status === 401) {
-        // Token expired or invalid
+      // Don't redirect to login if we're already on login/register endpoints
+      const isAuthEndpoint = endpoint.includes('/auth/login') || endpoint.includes('/auth/register') || endpoint.includes('/auth/oauth');
+
+      if (response.status === 401 && !isAuthEndpoint) {
+        // Token expired or invalid - only for authenticated requests
         this.clearAuth();
         window.location.href = '/login';
       }
@@ -66,7 +69,7 @@ class ApiClient {
         signal: controller.signal,
       });
 
-      return this.handleResponse<T>(response);
+      return this.handleResponse<T>(response, endpoint);
     } finally {
       clearTimeout(timeoutId);
     }
@@ -88,7 +91,7 @@ class ApiClient {
         signal: controller.signal,
       });
 
-      return this.handleResponse<T>(response);
+      return this.handleResponse<T>(response, endpoint);
     } finally {
       clearTimeout(timeoutId);
     }
@@ -110,7 +113,7 @@ class ApiClient {
         signal: controller.signal,
       });
 
-      return this.handleResponse<T>(response);
+      return this.handleResponse<T>(response, endpoint);
     } finally {
       clearTimeout(timeoutId);
     }
@@ -127,7 +130,7 @@ class ApiClient {
         signal: controller.signal,
       });
 
-      return this.handleResponse<T>(response);
+      return this.handleResponse<T>(response, endpoint);
     } finally {
       clearTimeout(timeoutId);
     }

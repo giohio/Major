@@ -80,8 +80,17 @@ def create_payment():
                 return_url=data.get('return_url', f"{current_app.config.get('FRONTEND_URL')}/payment/callback")
             )
         elif data['payment_method'] == 'stripe':
-            # TODO: Implement Stripe payment
-            pass
+            # Create Stripe payment session
+            stripe_session = payment_service.create_stripe_payment(
+                payment_id=payment.id,
+                amount=float(data['amount']),
+                description=data.get('description', 'Payment'),
+                success_url=data.get('return_url', f"{current_app.config.get('FRONTEND_URL')}/payment/success"),
+                cancel_url=data.get('cancel_url', f"{current_app.config.get('FRONTEND_URL')}/payment/cancel")
+            )
+            payment_url = stripe_session.get('url') if stripe_session else None
+            if stripe_session:
+                payment.transaction_id = stripe_session.get('session_id')
         
         return jsonify({
             'message': 'Payment created successfully',

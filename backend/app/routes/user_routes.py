@@ -14,7 +14,7 @@ bp = Blueprint('users', __name__)
 def get_profile():
     """Get current user profile"""
     try:
-        current_user_id = get_jwt_identity()
+        current_user_id = int(get_jwt_identity())
         user = db.session.get(User, current_user_id)
         
         if not user:
@@ -31,7 +31,7 @@ def get_profile():
 def update_profile():
     """Update user profile"""
     try:
-        current_user_id = get_jwt_identity()
+        current_user_id = int(get_jwt_identity())
         user = db.session.get(User, current_user_id)
         
         if not user:
@@ -46,6 +46,15 @@ def update_profile():
             user.phone = data['phone']
         if 'avatar_url' in data:
             user.avatar_url = data['avatar_url']
+        if 'date_of_birth' in data:
+            if data['date_of_birth']:
+                try:
+                    from datetime import datetime
+                    user.date_of_birth = datetime.fromisoformat(data['date_of_birth']).date()
+                except:
+                    pass
+        if 'address' in data:
+            user.address = data['address']
         
         user.updated_at = datetime.utcnow()
         db.session.commit()
@@ -65,7 +74,7 @@ def update_profile():
 def get_subscription():
     """Get current subscription information"""
     try:
-        current_user_id = get_jwt_identity()
+        current_user_id = int(get_jwt_identity())
         user = db.session.get(User, current_user_id)
         
         if not user:
@@ -91,7 +100,7 @@ def get_subscription():
 def get_emotions():
     """Get emotion statistics"""
     try:
-        current_user_id = get_jwt_identity()
+        current_user_id = int(get_jwt_identity())
         period = request.args.get('period', 'week')  # week, month, year
         
         stats = EmotionService.get_emotion_stats(current_user_id, period)
@@ -107,7 +116,7 @@ def get_emotions():
 def get_history():
     """Get chat history"""
     try:
-        current_user_id = get_jwt_identity()
+        current_user_id = int(get_jwt_identity())
         limit = int(request.args.get('limit', 20))
         
         sessions = ChatService.get_user_sessions(current_user_id, limit)
@@ -126,7 +135,7 @@ def get_history():
 def get_user_stats():
     """Get user statistics (chat count, emotion trends, etc.)"""
     try:
-        current_user_id = get_jwt_identity()
+        current_user_id = int(get_jwt_identity())
         user = db.session.get(User, current_user_id)
         
         if not user:
@@ -149,3 +158,205 @@ def get_user_stats():
         
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/appointments', methods=['GET'])
+@jwt_required()
+def get_user_appointments():
+    """Get user's appointments"""
+    try:
+        from app.models.models import Appointment, DoctorProfile
+        
+        current_user_id = int(get_jwt_identity())
+        
+        # Get appointments for this user
+        appointments = Appointment.query.filter_by(user_id=current_user_id).order_by(Appointment.appointment_date.desc()).all()
+        
+        # Get doctor names for each appointment
+        result = []
+        for apt in appointments:
+            apt_dict = apt.to_dict()
+            doctor_profile = db.session.get(DoctorProfile, apt.doctor_id)
+            if doctor_profile:
+                doctor_user = db.session.get(User, doctor_profile.user_id)
+                if doctor_user:
+                    apt_dict['doctor_name'] = doctor_user.full_name
+                    apt_dict['doctor_specialization'] = doctor_profile.specialization
+            result.append(apt_dict)
+        
+        return jsonify(result), 200
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/appointments', methods=['POST'])
+@jwt_required()
+def create_user_appointment():
+    """Create a new appointment (patient books appointment)"""
+    try:
+        from app.models.models import Appointment, DoctorProfile
+        
+        current_user_id = int(get_jwt_identity())
+        data = request.get_json()
+        
+        required_fields = ['doctor_id', 'appointment_date']
+        for field in required_fields:
+            if field not in data:
+                return jsonify({'error': f'Missing required field: {field}'}), 400
+        
+        # Check if doctor exists
+        doctor_profile = db.session.get(DoctorProfile, data['doctor_id'])
+        if not doctor_profile:
+            return jsonify({'error': 'Doctor not found'}), 404
+        
+        # Parse appointment date
+        try:
+            appointment_date = datetime.fromisoformat(data['appointment_date'].replace('Z', '+00:00'))
+        except:
+            return jsonify({'error': 'Invalid date format'}), 400
+        
+        # Create appointment
+        appointment = Appointment(
+            user_id=current_user_id,
+            doctor_id=data['doctor_id'],
+            appointment_date=appointment_date,
+            duration_minutes=data.get('duration_minutes', 60),
+            status='scheduled',
+            appointment_type=data.get('appointment_type', 'video'),
+            notes=data.get('notes')
+        )
+        
+        db.session.add(appointment)
+        db.session.commit()
+        
+        return jsonify({
+            'message': 'Appointment booked successfully',
+            'appointment': appointment.to_dict()
+        }), 201
+        
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/appointments/<int:appointment_id>', methods=['PUT'])
+@jwt_required()
+def update_user_appointment(appointment_id):
+    """Update user's appointment (cancel, reschedule)"""
+    try:
+        from app.models.models import Appointment
+        
+        current_user_id = int(get_jwt_identity())
+        appointment = db.session.get(Appointment, appointment_id)
+        
+        if not appointment or appointment.user_id != current_user_id:
+            return jsonify({'error': 'Appointment not found or unauthorized'}), 404
+        
+        data = request.get_json()
+        
+        # Users can only cancel or reschedule
+        if 'status' in data:
+            if data['status'] not in ['cancelled', 'scheduled']:
+                return jsonify({'error': 'Invalid status'}), 400
+            appointment.status = data['status']
+        
+        if 'appointment_date' in data:
+            try:
+                appointment.appointment_date = datetime.fromisoformat(data['appointment_date'].replace('Z', '+00:00'))
+            except:
+                return jsonify({'error': 'Invalid date format'}), 400
+        
+        if 'notes' in data:
+            appointment.notes = data['notes']
+        
+        appointment.updated_at = datetime.utcnow()
+        db.session.commit()
+        
+        return jsonify({
+            'message': 'Appointment updated successfully',
+            'appointment': appointment.to_dict()
+        }), 200
+        
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/settings', methods=['GET'])
+@jwt_required()
+def get_settings():
+    """Get user settings"""
+    try:
+        import json
+        
+        current_user_id = int(get_jwt_identity())
+        user = db.session.get(User, current_user_id)
+        
+        if not user:
+            return jsonify({'error': 'User not found'}), 404
+        
+        # Parse settings JSON or return defaults
+        if user.settings:
+            try:
+                settings = json.loads(user.settings)
+            except:
+                settings = get_default_settings()
+        else:
+            settings = get_default_settings()
+        
+        return jsonify(settings), 200
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/settings', methods=['PUT'])
+@jwt_required()
+def update_settings():
+    """Update user settings"""
+    try:
+        import json
+        
+        current_user_id = int(get_jwt_identity())
+        user = db.session.get(User, current_user_id)
+        
+        if not user:
+            return jsonify({'error': 'User not found'}), 404
+        
+        data = request.get_json()
+        
+        # Validate settings structure (optional)
+        # Store as JSON string
+        user.settings = json.dumps(data)
+        user.updated_at = datetime.utcnow()
+        
+        db.session.commit()
+        
+        return jsonify({
+            'message': 'Settings updated successfully',
+            'settings': data
+        }), 200
+        
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({'error': str(e)}), 500
+
+
+def get_default_settings():
+    """Return default user settings"""
+    return {
+        'emailNotifications': True,
+        'pushNotifications': True,
+        'sessionReminders': True,
+        'weeklyReports': False,
+        'shareDataForResearch': False,
+        'anonymousAnalytics': True,
+        'showOnlineStatus': True,
+        'theme': 'light',
+        'language': 'vi',
+        'fontSize': 'medium',
+        'highContrast': False,
+        'reduceMotion': False,
+        'screenReader': False
+    }

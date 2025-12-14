@@ -1,4 +1,5 @@
 from flask import Blueprint, request, jsonify
+from flask_jwt_extended import jwt_required
 from app.middleware.role_middleware import doctor_required
 from app.models.models import User, PatientRecord, DoctorNote, Task, TherapySession, Alert, EmotionLog, ChatSession
 from app.extensions import db
@@ -47,6 +48,120 @@ def get_dashboard(current_user):
         return jsonify({'error': str(e)}), 500
 
 
+@bp.route('/', methods=['GET'])
+@jwt_required()
+def get_all_doctors():
+    """Get list of all available doctors"""
+    try:
+        from app.models.models import DoctorProfile, User
+        
+        # Get all doctors with their user info
+        doctors = db.session.query(DoctorProfile, User).join(User).filter(
+            User.role == 'doctor',
+            User.is_active == True,
+            DoctorProfile.is_verified == True
+        ).all()
+        
+        result = []
+        for profile, user in doctors:
+            doctor_data = profile.to_dict()
+            doctor_data['name'] = user.full_name
+            doctor_data['avatar_url'] = user.avatar_url
+            doctor_data['email'] = user.email
+            
+            # Calculate review count (mock for now or from relationships)
+            doctor_data['reviews'] = 0 # Placeholder
+            
+            # Format price
+            doctor_data['price'] = float(profile.consultation_fee)
+            
+            # Parse languages
+            if isinstance(doctor_data['languages'], str):
+                doctor_data['languages'] = [lang.strip() for lang in doctor_data['languages'].split(',')]
+            else:
+                doctor_data['languages'] = []
+                
+            # Mock availability for now
+            doctor_data['available'] = profile.is_available
+            doctor_data['nextSlot'] = 'Hôm nay' # Placeholder
+            
+            # Map fields for frontend
+            doctor_data['specialty'] = profile.specialization
+            doctor_data['experience'] = profile.years_of_experience
+            doctor_data['verified'] = profile.is_verified
+            
+            result.append(doctor_data)
+            
+        return jsonify({'doctors': result}), 200
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+
+
+
+
+@bp.route('/<int:doctor_id>', methods=['GET'])
+@jwt_required()
+def get_doctor_details(doctor_id):
+    """Get details of a specific doctor"""
+    try:
+        from app.models.models import DoctorProfile, User
+        
+        # Get doctor profile
+        # Note: doctor_id here likely refers to the User ID of the doctor (as used in frontend links)
+        # But let's check if frontend passes User ID or DoctorProfile ID.
+        # In FindDoctor.tsx: key={doctor.id}. doctor.id usually comes from backend.
+        # My get_all_doctors returns profile.to_dict() which has 'id' (DoctorProfile ID) and 'user_id'.
+        # But usually we link by User ID or Profile ID.
+        # Let's assume it's DoctorProfile ID for now, but check if we can find by User ID too.
+        
+        # Actually, let's look at get_all_doctors again.
+        # doctor_data = profile.to_dict() -> 'id' is profile.id.
+        # So the frontend uses profile.id.
+        
+        profile = db.session.get(DoctorProfile, doctor_id)
+        
+        if not profile:
+            return jsonify({'error': 'Doctor not found'}), 404
+            
+        user = db.session.get(User, profile.user_id)
+        
+        if not user or not user.is_active:
+             return jsonify({'error': 'Doctor not active'}), 404
+
+        doctor_data = profile.to_dict()
+        doctor_data['name'] = user.full_name
+        doctor_data['avatar_url'] = user.avatar_url
+        doctor_data['email'] = user.email
+        doctor_data['image'] = user.avatar_url # Frontend uses 'image' in BookAppointment
+        
+        # Calculate review count
+        doctor_data['reviews'] = 0 
+        
+        # Format price
+        doctor_data['price'] = float(profile.consultation_fee)
+        
+        # Parse languages
+        if isinstance(doctor_data['languages'], str):
+            doctor_data['languages'] = [lang.strip() for lang in doctor_data['languages'].split(',')]
+        else:
+            doctor_data['languages'] = []
+            
+        # Mock availability
+        doctor_data['available'] = profile.is_available
+        doctor_data['nextSlot'] = 'Hôm nay'
+        
+        # Map fields
+        doctor_data['specialty'] = profile.specialization
+        doctor_data['experience'] = profile.years_of_experience
+        doctor_data['verified'] = profile.is_verified
+        
+        return jsonify(doctor_data), 200
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 @bp.route('/patients', methods=['GET'])
 @doctor_required
 def get_patients(current_user):
@@ -369,6 +484,131 @@ def end_session(current_user, session_id):
         return jsonify({
             'message': 'Session ended successfully',
             'session': session.to_dict()
+        }), 200
+        
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/appointments', methods=['GET'])
+@doctor_required
+def get_appointments(current_user):
+    """Get appointments for doctor"""
+    try:
+        from app.models.models import Appointment, DoctorProfile
+        
+        # Get doctor profile
+        doctor_profile = DoctorProfile.query.filter_by(user_id=current_user.id).first()
+        if not doctor_profile:
+            return jsonify({'error': 'Doctor profile not found'}), 404
+        
+        # Get appointments for this doctor
+        appointments = Appointment.query.filter_by(doctor_id=doctor_profile.id).order_by(Appointment.appointment_date.desc()).all()
+        
+        # Get user names for each appointment
+        result = []
+        for apt in appointments:
+            apt_dict = apt.to_dict()
+            user = db.session.get(User, apt.user_id)
+            if user:
+                apt_dict['user_name'] = user.full_name
+                apt_dict['user_email'] = user.email
+            result.append(apt_dict)
+        
+        return jsonify(result), 200
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/appointments', methods=['POST'])
+@doctor_required
+def create_appointment(current_user):
+    """Create a new appointment"""
+    try:
+        from app.models.models import Appointment, DoctorProfile
+        
+        data = request.get_json()
+        
+        required_fields = ['user_id', 'appointment_date']
+        for field in required_fields:
+            if field not in data:
+                return jsonify({'error': f'Missing required field: {field}'}), 400
+        
+        # Get doctor profile
+        doctor_profile = DoctorProfile.query.filter_by(user_id=current_user.id).first()
+        if not doctor_profile:
+            return jsonify({'error': 'Doctor profile not found'}), 404
+        
+        # Parse appointment date
+        try:
+            appointment_date = datetime.fromisoformat(data['appointment_date'].replace('Z', '+00:00'))
+        except:
+            return jsonify({'error': 'Invalid date format'}), 400
+        
+        # Create appointment
+        appointment = Appointment(
+            user_id=data['user_id'],
+            doctor_id=doctor_profile.id,
+            appointment_date=appointment_date,
+            duration_minutes=data.get('duration_minutes', 60),
+            status=data.get('status', 'scheduled'),
+            appointment_type=data.get('appointment_type', 'video'),
+            notes=data.get('notes')
+        )
+        
+        db.session.add(appointment)
+        db.session.commit()
+        
+        return jsonify({
+            'message': 'Appointment created successfully',
+            'appointment': appointment.to_dict()
+        }), 201
+        
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/appointments/<int:appointment_id>', methods=['PUT'])
+@doctor_required
+def update_appointment(current_user, appointment_id):
+    """Update an appointment"""
+    try:
+        from app.models.models import Appointment, DoctorProfile
+        
+        # Get doctor profile
+        doctor_profile = DoctorProfile.query.filter_by(user_id=current_user.id).first()
+        if not doctor_profile:
+            return jsonify({'error': 'Doctor profile not found'}), 404
+        
+        appointment = db.session.get(Appointment, appointment_id)
+        
+        if not appointment or appointment.doctor_id != doctor_profile.id:
+            return jsonify({'error': 'Appointment not found or unauthorized'}), 404
+        
+        data = request.get_json()
+        
+        # Update allowed fields
+        if 'status' in data:
+            appointment.status = data['status']
+        if 'doctor_notes' in data:
+            appointment.doctor_notes = data['doctor_notes']
+        if 'appointment_date' in data:
+            try:
+                appointment.appointment_date = datetime.fromisoformat(data['appointment_date'].replace('Z', '+00:00'))
+            except:
+                return jsonify({'error': 'Invalid date format'}), 400
+        if 'duration_minutes' in data:
+            appointment.duration_minutes = data['duration_minutes']
+        
+        appointment.updated_at = datetime.utcnow()
+        db.session.commit()
+        
+        return jsonify({
+            'message': 'Appointment updated successfully',
+            'appointment': appointment.to_dict()
         }), 200
         
     except Exception as e:

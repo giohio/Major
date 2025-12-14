@@ -17,10 +17,11 @@ export const API_ENDPOINTS = {
     VERIFY_EMAIL: '/auth/verify-email',
     FORGOT_PASSWORD: '/auth/forgot-password',
     RESET_PASSWORD: '/auth/reset-password',
+    CHANGE_PASSWORD: '/auth/change-password',
     REFRESH: '/auth/refresh',
     ME: '/auth/me',
   },
-  
+
   // Users
   USERS: {
     ME: '/users/me',
@@ -28,8 +29,10 @@ export const API_ENDPOINTS = {
     EMOTIONS: '/users/emotions',
     HISTORY: '/users/history',
     STATS: '/users/stats',
+    APPOINTMENTS: '/users/appointments',
+    SETTINGS: '/users/settings',
   },
-  
+
   // Chat
   CHAT: {
     SEND: '/chat/send',
@@ -39,7 +42,7 @@ export const API_ENDPOINTS = {
     ARCHIVE_SESSION: (id: number) => `/chat/session/${id}/archive`,
     FEEDBACK: '/chat/feedback',
   },
-  
+
   // Plans
   PLANS: {
     LIST: '/plans',
@@ -49,10 +52,12 @@ export const API_ENDPOINTS = {
     CREATE: '/plans',
     UPDATE: (id: number) => `/plans/${id}`,
   },
-  
+
   // Doctor
   DOCTOR: {
     DASHBOARD: '/doctors/dashboard',
+    LIST: '/doctors',
+    GET: (id: number) => `/doctors/${id}`,
     PATIENTS: '/doctors/patients',
     ADD_PATIENT: '/doctors/patients/add',
     GET_PATIENT: (id: number) => `/doctors/patients/${id}`,
@@ -64,7 +69,7 @@ export const API_ENDPOINTS = {
     START_SESSION: '/doctors/session/start',
     END_SESSION: (id: number) => `/doctors/session/${id}/end`,
   },
-  
+
   // Admin
   ADMIN: {
     USERS: '/admin/users',
@@ -114,6 +119,18 @@ export const API_ENDPOINTS = {
     TESTS: '/patient/tests',
     TEST: (id: number) => `/patient/tests/${id}`,
     SUBMIT_TEST: (id: number) => `/patient/tests/${id}/submit`,
+  },
+
+  // Exercise
+  EXERCISE: {
+    LIST: '/exercises',
+    GET: (id: number) => `/exercises/${id}`,
+    CATEGORIES: '/exercises/categories',
+    USER_PROGRESS: '/users/exercises/progress',
+    START: (id: number) => `/users/exercises/${id}/start`,
+    COMPLETE: (id: number) => `/users/exercises/${id}/complete`,
+    UPDATE_PROGRESS: (id: number) => `/users/exercises/${id}/progress`,
+    STATS: '/users/exercises/stats',
   },
 };
 

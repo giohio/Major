@@ -1,190 +1,230 @@
-import { useState } from 'react';
-import './PaymentHistory.css';
-
-interface Transaction {
-  id: string;
-  date: string;
-  description: string;
-  amount: number;
-  status: 'completed' | 'pending' | 'failed';
-  method: string;
-  invoice?: string;
-}
+import { useState, useEffect } from 'react';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../components/ui/card';
+import { Badge } from '../../components/ui/badge';
+import { Button } from '../../components/ui/button';
+import { Input } from '../../components/ui/input';
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '../../components/ui/table';
+import { Search, Download, CreditCard, CheckCircle, XCircle, Clock } from 'lucide-react';
+import { apiClient } from '../../services/api.client';
+import { API_ENDPOINTS } from '../../config/api.config';
+import { toast } from 'sonner';
+import type { Payment } from '../../types/api.types';
 
 const PaymentHistory = () => {
-  const [filter, setFilter] = useState<'all' | 'completed' | 'pending' | 'failed'>('all');
+  const [searchQuery, setSearchQuery] = useState('');
+  const [payments, setPayments] = useState<Payment[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  const transactions: Transaction[] = [
-    {
-      id: 'TXN001',
-      date: '2024-01-10',
-      description: 'Gói Pro - Thanh toán tháng 1',
-      amount: 299000,
-      status: 'completed',
-      method: 'Momo',
-      invoice: 'INV-2024-001'
-    },
-    {
-      id: 'TXN002',
-      date: '2024-01-08',
-      description: 'Buổi tư vấn với Dr. Trần Thị B',
-      amount: 500000,
-      status: 'completed',
-      method: 'ZaloPay',
-      invoice: 'INV-2024-002'
-    },
-    {
-      id: 'TXN003',
-      date: '2024-01-05',
-      description: 'Gói Pro - Thanh toán tháng 12',
-      amount: 299000,
-      status: 'completed',
-      method: 'Momo',
-      invoice: 'INV-2023-12'
-    },
-    {
-      id: 'TXN004',
-      date: '2024-01-03',
-      description: 'Buổi tư vấn với Dr. Nguyễn Văn A',
-      amount: 450000,
-      status: 'pending',
-      method: 'Chuyển khoản'
-    },
-    {
-      id: 'TXN005',
-      date: '2023-12-28',
-      description: 'Gói Pro - Thanh toán tháng 11',
-      amount: 299000,
-      status: 'completed',
-      method: 'Thẻ visa',
-      invoice: 'INV-2023-11'
-    },
-    {
-      id: 'TXN006',
-      date: '2023-12-20',
-      description: 'Buổi tư vấn với Dr. Lê Văn C',
-      amount: 550000,
-      status: 'failed',
-      method: 'Momo'
+  useEffect(() => {
+    loadPayments();
+  }, []);
+
+  const loadPayments = async () => {
+    try {
+      setLoading(true);
+      const response = await apiClient.get<{ payments: Payment[] }>(`${API_ENDPOINTS.PAYMENT.HISTORY}?per_page=50`);
+      setPayments(response.payments || []);
+    } catch (error) {
+      console.error('Failed to load payments:', error);
+      toast.error('Không thể tải lịch sử thanh toán');
+    } finally {
+      setLoading(false);
     }
-  ];
+  };
 
-  const filteredTransactions = transactions.filter(
-    t => filter === 'all' || t.status === filter
-  );
+  const filteredPayments = payments.filter(payment => {
+    const searchLower = searchQuery.toLowerCase();
+    return (
+      payment.description?.toLowerCase().includes(searchLower) ||
+      payment.payment_method.toLowerCase().includes(searchLower)
+    );
+  });
 
-  const totalSpent = transactions
-    .filter(t => t.status === 'completed')
-    .reduce((sum, t) => sum + t.amount, 0);
+  const totalSpent = payments
+    .filter(p => p.status === 'completed')
+    .reduce((sum, p) => sum + p.amount, 0);
+  const successPayments = payments.filter(p => p.status === 'completed').length;
+  const pendingPayments = payments.filter(p => p.status === 'pending').length;
+
+  if (loading) {
+    return <div className="flex items-center justify-center h-screen">Đang tải...</div>;
+  }
+
+  const formatPrice = (price: number) => {
+    return new Intl.NumberFormat('vi-VN', {
+      style: 'currency',
+      currency: 'VND'
+    }).format(price);
+  };
+
+  const getStatusIcon = (status: string) => {
+    switch (status) {
+      case 'completed':
+        return <CheckCircle className="w-4 h-4 text-green-600" />;
+      case 'pending':
+        return <Clock className="w-4 h-4 text-yellow-600" />;
+      case 'failed':
+        return <XCircle className="w-4 h-4 text-red-600" />;
+      default:
+        return null;
+    }
+  };
 
   const getStatusBadge = (status: string) => {
-    const badges = {
-      completed: { label: 'Thành công', class: 'status-success' },
-      pending: { label: 'Đang xử lý', class: 'status-pending' },
-      failed: { label: 'Thất bại', class: 'status-failed' }
-    };
-    return badges[status as keyof typeof badges];
+    switch (status) {
+      case 'completed':
+        return <Badge className="bg-green-600">Thành công</Badge>;
+      case 'pending':
+        return <Badge variant="secondary">Đang xử lý</Badge>;
+      case 'failed':
+        return <Badge variant="destructive">Thất bại</Badge>;
+      default:
+        return null;
+    }
   };
 
   return (
-    <div className="payment-history-page">
+    <div className="p-6 space-y-6 max-w-7xl mx-auto">
       {/* Header */}
-      <div className="payment-header">
-        <div>
-          <h1 className="payment-title">Lịch Sử Thanh Toán</h1>
-          <p className="payment-subtitle">Quản lý hóa đơn và giao dịch</p>
-        </div>
-        <div className="total-spent">
-          <div className="spent-label">Tổng chi tiêu</div>
-          <div className="spent-amount">
-            {(totalSpent / 1000000).toFixed(2)}M ₫
+      <div>
+        <h1 className="text-3xl font-bold text-foreground">Lịch Sử Thanh Toán</h1>
+        <p className="text-muted-foreground mt-1">
+          Quản lý các giao dịch và hóa đơn của bạn
+        </p>
+      </div>
+
+      {/* Stats */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <Card>
+          <CardHeader className="pb-3">
+            <CardTitle className="text-sm font-medium text-muted-foreground">
+              Tổng Chi Tiêu
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="text-2xl font-bold">{formatPrice(totalSpent)}</div>
+            <p className="text-xs text-muted-foreground mt-1">Từ {successPayments} giao dịch</p>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader className="pb-3">
+            <CardTitle className="text-sm font-medium text-muted-foreground">
+              Giao Dịch Thành Công
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="text-2xl font-bold">{successPayments}</div>
+            <p className="text-xs text-green-600 mt-1">Đã hoàn tất</p>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader className="pb-3">
+            <CardTitle className="text-sm font-medium text-muted-foreground">
+              Đang Xử Lý
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="text-2xl font-bold">{pendingPayments}</div>
+            <p className="text-xs text-yellow-600 mt-1">Chờ xác nhận</p>
+          </CardContent>
+        </Card>
+      </div>
+
+      {/* Payment Table */}
+      <Card>
+        <CardHeader>
+          <CardTitle>Lịch Sử Giao Dịch</CardTitle>
+          <CardDescription>Chi tiết các khoản thanh toán của bạn</CardDescription>
+        </CardHeader>
+        <CardContent className="space-y-4">
+          {/* Search */}
+          <div className="relative">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+            <Input
+              placeholder="Tìm theo mô tả, bác sĩ, phương thức..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="pl-10"
+            />
           </div>
-        </div>
-      </div>
 
-      {/* Filters */}
-      <div className="payment-filters">
-        <button
-          className={`filter-btn ${filter === 'all' ? 'active' : ''}`}
-          onClick={() => setFilter('all')}
-        >
-          Tất cả ({transactions.length})
-        </button>
-        <button
-          className={`filter-btn ${filter === 'completed' ? 'active' : ''}`}
-          onClick={() => setFilter('completed')}
-        >
-          Thành công ({transactions.filter(t => t.status === 'completed').length})
-        </button>
-        <button
-          className={`filter-btn ${filter === 'pending' ? 'active' : ''}`}
-          onClick={() => setFilter('pending')}
-        >
-          Đang xử lý ({transactions.filter(t => t.status === 'pending').length})
-        </button>
-        <button
-          className={`filter-btn ${filter === 'failed' ? 'active' : ''}`}
-          onClick={() => setFilter('failed')}
-        >
-          Thất bại ({transactions.filter(t => t.status === 'failed').length})
-        </button>
-      </div>
-
-      {/* Transactions List */}
-      <div className="transactions-list">
-        {filteredTransactions.map(transaction => {
-          const badge = getStatusBadge(transaction.status);
-          return (
-            <div key={transaction.id} className="transaction-card">
-              <div className="transaction-icon">
-                {transaction.status === 'completed' && '✅'}
-                {transaction.status === 'pending' && '⏳'}
-                {transaction.status === 'failed' && '❌'}
-              </div>
-
-              <div className="transaction-info">
-                <div className="transaction-header">
-                  <h3 className="transaction-description">
-                    {transaction.description}
-                  </h3>
-                  <span className={`status-badge ${badge.class}`}>
-                    {badge.label}
-                  </span>
-                </div>
-
-                <div className="transaction-details">
-                  <span className="transaction-id">#{transaction.id}</span>
-                  <span className="transaction-date">
-                    📅 {new Date(transaction.date).toLocaleDateString('vi-VN')}
-                  </span>
-                  <span className="transaction-method">
-                    💳 {transaction.method}
-                  </span>
-                </div>
-              </div>
-
-              <div className="transaction-right">
-                <div className="transaction-amount">
-                  {(transaction.amount / 1000).toFixed(0)}k ₫
-                </div>
-                {transaction.invoice && (
-                  <button className="btn btn-outline btn-xs">
-                    Tải hóa đơn
-                  </button>
+          {/* Table */}
+          <div className="rounded-md border">
+            <Table>
+              <TableHeader>
+                <TableRow>
+                  <TableHead>Ngày</TableHead>
+                  <TableHead>Mô tả</TableHead>
+                  <TableHead>Phương thức</TableHead>
+                  <TableHead className="text-right">Số tiền</TableHead>
+                  <TableHead>Trạng thái</TableHead>
+                  <TableHead className="text-right">Hành động</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                {filteredPayments.length > 0 ? (
+                  filteredPayments.map((payment) => (
+                    <TableRow key={payment.id}>
+                      <TableCell className="font-medium">
+                        {new Date(payment.created_at).toLocaleDateString('vi-VN')}
+                      </TableCell>
+                      <TableCell>
+                        <div>
+                          <div className="font-medium">{payment.description || `Thanh toán #${payment.id}`}</div>
+                          <div className="text-xs text-muted-foreground">
+                            {payment.billing_cycle === 'yearly' ? 'Gói năm' : 'Gói tháng'}
+                          </div>
+                        </div>
+                      </TableCell>
+                      <TableCell>
+                        <div className="flex items-center gap-2">
+                          <CreditCard className="w-4 h-4 text-muted-foreground" />
+                          {payment.payment_method.toUpperCase()}
+                        </div>
+                      </TableCell>
+                      <TableCell className="text-right font-medium">
+                        {formatPrice(payment.amount)}
+                      </TableCell>
+                      <TableCell>
+                        <div className="flex items-center gap-2">
+                          {getStatusIcon(payment.status)}
+                          {getStatusBadge(payment.status)}
+                        </div>
+                      </TableCell>
+                      <TableCell className="text-right">
+                        {payment.status === 'completed' && (
+                          <Button variant="ghost" size="sm" className="gap-2">
+                            <Download className="w-4 h-4" />
+                            Hóa đơn
+                          </Button>
+                        )}
+                        {payment.status === 'pending' && (
+                          <Button variant="ghost" size="sm">
+                            Kiểm tra
+                          </Button>
+                        )}
+                        {payment.status === 'failed' && (
+                          <Button variant="ghost" size="sm">
+                            Thử lại
+                          </Button>
+                        )}
+                      </TableCell>
+                    </TableRow>
+                  ))
+                ) : (
+                  <TableRow>
+                    <TableCell colSpan={6} className="text-center text-muted-foreground py-8">
+                      Không tìm thấy kết quả phù hợp
+                    </TableCell>
+                  </TableRow>
                 )}
-              </div>
-            </div>
-          );
-        })}
-      </div>
-
-      {filteredTransactions.length === 0 && (
-        <div className="empty-state">
-          <div className="empty-icon">🧾</div>
-          <h3>Không có giao dịch</h3>
-          <p>Chưa có giao dịch nào trong danh mục này</p>
-        </div>
-      )}
+              </TableBody>
+            </Table>
+          </div>
+        </CardContent>
+      </Card>
     </div>
   );
 };

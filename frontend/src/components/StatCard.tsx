@@ -1,4 +1,4 @@
-import './StatCard.css';
+
 
 interface StatCardProps {
   icon: string;
