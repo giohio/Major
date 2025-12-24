@@ -2,7 +2,9 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
 import { Button } from './ui/button';
+import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar';
 import { MessageCircle, BarChart3, Users, Calendar, Heart, Settings, LogOut, Bell, Brain } from 'lucide-react';
+import { getAvatarUrl } from '../utils/avatar';
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -30,10 +32,10 @@ const Header = () => {
 
   const userMenuItems = [
     { icon: MessageCircle, label: 'Chat', href: '/chat' },
-    { icon: BarChart3, label: 'Cảm xúc', href: '/user/dashboard' },
-    { icon: Users, label: 'Bác sĩ', href: '/user/find-doctor' },
-    { icon: Calendar, label: 'Lịch hẹn', href: '/user/appointments' },
-    { icon: Heart, label: 'Bài tập', href: '/user/exercises' },
+    { icon: BarChart3, label: 'Emotions', href: '/user/dashboard' },
+    { icon: Users, label: 'Doctors', href: '/user/find-doctor' },
+    { icon: Calendar, label: 'Appointments', href: '/user/appointments' },
+    { icon: Heart, label: 'Exercises', href: '/user/exercises' },
   ];
 
   return (
@@ -81,10 +83,13 @@ const Header = () => {
                   onClick={() => setOpen(!open)}
                   className="flex items-center gap-2 px-3 py-2 hover:bg-accent rounded-lg transition-colors"
                 >
-                  <div className="w-8 h-8 rounded-full bg-linear-to-br from-primary to-secondary flex items-center justify-center text-white text-sm font-bold">
-                    {user.name?.charAt(0).toUpperCase() || 'U'}
-                  </div>
-                  <span className="text-sm text-foreground hidden sm:inline">{user.name}</span>
+                  <Avatar className="w-8 h-8">
+                    <AvatarImage src={getAvatarUrl(user.avatar_url)} alt={user.full_name} />
+                    <AvatarFallback className="bg-gradient-to-br from-primary to-secondary text-white text-sm font-bold">
+                      {user.full_name?.charAt(0).toUpperCase() || 'U'}
+                    </AvatarFallback>
+                  </Avatar>
+                  <span className="text-sm text-foreground hidden sm:inline">{user.full_name}</span>
                 </button>
 
                 {/* Dropdown Menu */}
@@ -92,14 +97,14 @@ const Header = () => {
                   <div className="absolute right-0 mt-2 w-48 bg-card border border-border rounded-lg shadow-lg py-2 z-50">
                     <Link to="/user/settings" className="flex items-center gap-3 px-4 py-2 text-sm text-foreground hover:bg-accent/50 transition-colors">
                       <Settings size={16} />
-                      <span>Cài đặt</span>
+                      <span>Settings</span>
                     </Link>
                     <button
                       onClick={handleLogout}
                       className="w-full flex items-center gap-3 px-4 py-2 text-sm text-foreground hover:bg-accent/50 transition-colors text-left"
                     >
                       <LogOut size={16} />
-                      <span>Đăng xuất</span>
+                      <span>Logout</span>
                     </button>
                   </div>
                 )}
@@ -108,10 +113,10 @@ const Header = () => {
           ) : (
             <>
               <Link to="/login">
-                <Button variant="ghost" size="sm">Đăng nhập</Button>
+                <Button variant="ghost" size="sm">Login</Button>
               </Link>
               <Link to="/register">
-                <Button size="sm">Đăng ký</Button>
+                <Button size="sm">Register</Button>
               </Link>
             </>
           )}

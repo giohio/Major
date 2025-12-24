@@ -1,0 +1,1123 @@
+COGNITIVE BEHAVIOR THERAPY
+Also by Judith S. Beck 
+Cognitive Therapy for Challenging Problems: What to Do When the Basics Don’t Work
+COGNITIVE  BEHAVIOR  THERAPY 
+BASICS AND BEYOND THIRD EDITION 
+Judith S. Beck Foreword by Aaron T. Beck 
+
+THE GUILFORD PRESS 
+New York London
+Copyright © 2021 Judith S. Beck 
+Published by The Guilford Press 
+A Division of Guilford Publications, Inc. 
+370 Seventh Avenue, Suite 1200, New York, NY 10001 
+www.guilford.com 
+All rights reserved 
+No part of this book may be reproduced, translated, stored in a retrieval  system, or transmitted, in any form or by any means, electronic,  mechanical, photocopying, microfilming, recording, or otherwise,  without written permission from the publisher. 
+Printed in the United States of America 
+This book is printed on acid-free paper. 
+Last digit is print number: 9 8 7 6 5 4 3 2 1 
+The author has checked with sources believed to be reliable in her effort  to provide information that is complete and generally in accord with the  standards of practice that are accepted at the time of publication. However,  in view of the possibility of human error or changes in behavioral, mental  health, or medical sciences, neither the author, nor the editors and  publisher, nor any other party who has been involved in the preparation  or publication of this work warrants that the information contained herein  is in every respect accurate or complete, and they are not responsible  for any errors or omissions or the results obtained from the use of  such information. Readers are encouraged to confirm the information  contained in this book with other sources. 
+Library of Congress Cataloging-in-Publication Data 
+Names: Beck, Judith S., author. 
+Title: Cognitive behavior therapy : basics and beyond / Judith S. Beck. Description: Third edition. | New York : The Guilford Press, [2021] | Includes bibliographical references and index. 
+Identifiers: LCCN 2020006172 | ISBN 9781462544196 (cloth) Subjects: LCSH: Cognitive therapy. 
+Classification: LCC RC489.C63 B43 2021 | DDC 616.89/1425—dc23 LC record available at https://lccn.loc.gov/2020006172
+To my father, Aaron T. Beck,  
+and the wonderful staff of  
+the Beck Institute for Cognitive Behavior Therapy
+ABOUT THE AUTHOR
+Judith S. Beck, PhD, is President of the Beck Institute for Cognitive  Behavior Therapy (www.beckinstitute.org), a nonprofit organization that  provides state-of-the-art training and certification in CBT to individu als and organizations, offers online courses on a variety of CBT topics,  conducts research, and serves as a leading global resource in CBT. She  is also Clinical Professor of Psychology in Psychiatry at the University  of Pennsylvania Perelman School of Medicine. Dr. Beck has written  over 100 articles and chapters as well as several books for professionals  and general readers, including Cognitive Therapy for Challenging Prob 
+lems: What to Do When the Basics Don’t Work. She has made hundreds  of presentations around the world on topics related to CBT, is codevel oper of the Beck Youth Inventories and the Personality Belief Ques tionnaire, and has won numerous awards for her contributions to the  field. She also continues to treat clients at the Beck Institute’s in-house  clinic in suburban Philadelphia. 
+vii 
+FOREWORD
+I am delighted that this third edition of Cognitive Behavior Therapy:  
+Basics and Beyond is being published. The field of cognitive behav ior therapy (CBT) has grown by leaps and bounds in the past decade  alone. One factor that makes this new edition so valuable is its adapta tion of techniques from a wide variety of psychotherapies into treat ment, in the context of the cognitive model. You’ll find important  interventions from acceptance and commitment therapy, dialectical  behavior therapy, mindfulness-based cognitive therapy, and others.  Equally important, though, is its emphasis on a recovery or strengths based orientation as part of the foundation of CBT. A single depressed  client is followed throughout the book, along with opportunities to  stream the videos of therapy sessions and download worksheets. A  second, more complex client is also portrayed throughout the book to  
+illustrate variations of treatment when difficulties arise. When I first developed cognitive therapy in the 1960s and 1970s,  I focused the conceptualization and treatment of individuals on their  problems, negative cognitions, and dysfunctional coping strategies.  By the mid-1980s, I could claim that cognitive therapy had attained  the status of a “system of psychotherapy.” It consisted of (1) a theory  of personality and psychopathology with solid empirical findings to  support its basic postulates; (2) a model of psychotherapy with sets of  principles and strategies that blended with the theory of psychopathol ogy; and (3) solid empirical findings based on clinical outcome studies  to support the efficacy of this approach. 
+ix 
+x Foreword
+Now, at the start of the third decade of the third millennium, we  have developed a different focus in conceptualization and treatment.  While negative aspects of individuals’ experiences are still important,  it is at least equally important to conceptualize individuals’ aspira 
+tions, values, goals, strengths, and resources, and to incorporate these  positive characteristics in helping them to take specific steps that are  linked to what is most important to them. It’s also critical to anticipate  obstacles to taking these steps, to use basic CBT skills (such as cogni 
+tive restructuring, problem solving, and skills training) to overcome  the obstacles, and to help individuals draw positive conclusions about  what their experiences say about them. 
+This third edition of the basic text in the field offers readers fresh  insights into 21st-century CBT and will be important for those who  are already proficient in traditional CBT as well as students new to the  field. Given the tremendous amount of new research and expansion  of ideas that continue to move the field in exciting new directions, I  applaud the efforts to expand this volume to incorporate some of the  different ways of conceptualizing and treating our clients. 
+The applications of CBT to a host of psychological and medical  disorders extend far beyond anything I could have imagined when  I treated my first few depressed and anxious clients with cognitive  therapy. The formidable array of different applications of CBT is  based on fundamental principles outlined in this volume. This book  was written by Dr. Judith Beck, one of the foremost second-generation  CBT educators, who, as a teenager, was one of the first to listen to me  expound on my new theory. It will help aspiring therapists to learn the  cutting-edge nuts and bolts of this therapy. Even CBT therapists who  are skilled at delivering traditional CBT should find this book quite  helpful in adopting a strengths-based approach, sharpening their con ceptualization skills, expanding their repertoire of therapeutic tech 
+niques, planning more effective treatment, and troubleshooting dif ficulties in therapy. Of course, no book can substitute for supervision  in CBT. But this book is an important volume and can enrich the  supervision experience. 
+Dr. Judith Beck is eminently qualified to offer this guide to CBT.  For the past 35 years, she has conducted many hundreds of workshops  and trainings in CBT all over the world as well as online, supervised  both beginners and experienced therapists, helped develop treat 
+ment protocols for various disorders, and participated actively in CBT  research. With such a background to draw on, she has written a book  with a rich lode of information to apply this therapy, the earlier edi tions of which have been the leading CBT texts in most graduate psy chology, psychiatry, social work, and counseling programs. 
+Foreword xi
+The practice of CBT is not simple. Too many mental health profes sionals call themselves CBT therapists but lack even the most basic con ceptual and treatment skills. The purpose of Dr. Judith Beck’s book is  to educate, to teach, and to train both the novice and the experienced  therapist in CBT, and she has succeeded admirably in this mission. 
+Aaron T. Beck, MD 
+PREFACE
+I’m excited to introduce this third edition of Cognitive Behavior Ther apy: Basics and Beyond to you. Before beginning this revision, I asked  for feedback on the second edition from health and mental health  practitioners all over the world. What would they like to see improved?  What worked and what didn’t? The responses I received were excellent  and really helped me conceptualize the changes and additions I chose  to make. This edition incorporates the feedback I received from many  readers and reflects the most recent research and current directions  for the field of cognitive behavior therapy (CBT). 
+Readers consistently commented that they wanted to see a more  complex client to serve as the key example throughout the book. “Abe,”  the client illustration in this edition, is more severely depressed than  “Sally,” the client who appeared throughout the second edition. In  addition to depression, Abe also struggles with moderate anxiety and  complicating problems including unemployment and a recent divorce.  I have also included a second client example, “Maria,” who has bor 
+derline personality traits. I’ve included links so you can watch videos  of full and partial therapy sessions with Abe and you can download  worksheets. 
+Another important change is that I’ve revised much of the mate rial to include both our traditional orientation and also a recovery  orientation. Recovery-oriented cognitive therapy (CT-R) is a cutting edge evidence-based treatment for individuals diagnosed with severe  mental illness, including schizophrenia, many of whom have been  hospitalized for decades. CT-R was developed, and is currently being  
+xiii 
+xiv Preface
+researched, by my father, Dr. Aaron T. Beck, and his research/training  group, which is now part of the Beck Institute for Cognitive Behav ior Therapy. Our other clinician/educators and I have been adapting  this approach for use with our nonhospitalized clients who experi ence a wide range of psychiatric disorders, psychological problems,  and medical conditions with psychological components. The recovery  orientation focuses on identifying clients’ values and aspirations (and  the meaning of their aspirations) and helping them create a sense of  purpose and empowerment in their lives by taking steps each week in  pursuit of their goals. We also focus on helping clients reach positive  conclusions about themselves, others, and their future as a result of  taking these positive actions, and we identify and reinforce their posi tive qualities, skills, and resources. We emphasize experiencing posi tive emotion both in and out of sessions. We expect that the recovery  movement will play a large role in shaping the future of CBT, and  
+psychotherapy in general, in the coming years and decades. Finally, I have written this edition in a more reader-friendly style.  When I teach workshops at the Beck Institute in Philadelphia, or  online courses, I often include anecdotes from my own clinical prac tice. I also encourage participants to take part in interactive activities,  where I ask them to role-play with another participant, respond to  questions, and present their own challenging cases for feedback and  discussion. Most participants find these interactive components to be  very meaningful and inspiring. In this edition of the book, I not only  use a more personal approach in my writing but also have included  clinical tips from my own practice, reflection questions, and suggested  activities to help readers engage with the material. 
+I hope you enjoy reading this book as much as I enjoyed writing it.  I always say that learning CBT is a lifelong endeavor. No matter where  you are on your journey, I hope this book inspires you to learn more  about CBT. 
+ACKNOWLEDGMENTS
+At the age of 98, Aaron Beck, my father, is still teaching me about cog nitive behavior therapy (CBT). Most recently, he and our colleagues  at the Beck Institute for Cognitive Behavior Therapy, in suburban  Philadelphia, have developed, and are researching, recovery-oriented  cognitive therapy (CT-R) for individuals diagnosed with serious men tal health conditions. I have been applying CT-R to the clients I treat  in our outpatient clinic with great results. I’m very excited about this  new development in the field, with its emphasis on motivating clients  through identifying their aspirations and values, meaning and pur 
+pose; focusing on their strengths and resources; helping them over come obstacles to working toward their aspirations each week; and  drawing positive conclusions about their experiences and themselves.  I am grateful to my father and to our CT-R team, headed by Paul  Grant and Ellen Inverso, for inspiring the recovery orientation I have  included in this book. 
+I am equally fortunate to interact with our team of excellent cli nicians, Rob Hindman, Norman Cotterell, Fran Broder, and Allen  Miller. They treat clients, teach at our workshops, supervise therapists  (from beginners to experts), and participate in program development.  I learn so much by discussing my clients with them every week at our  case conferences. They and Brianna Bliss helped improve this manu script. 
+I am also grateful to Lisa Pote who has transformed the Beck Insti tute into a worldwide training and resource center, and Kitty Moore of  
+xv 
+xvi Acknowledgments
+The Guilford Press, who has been my friend and editor for nearly 25  years. And great thanks to my husband, Richard Busis, who provided  daily encouragement and final edits to the manuscript. 
+And a last note of overwhelming gratitude to my most excellent  and wonderful assistant, Sarah Fleming, who helped in immeasurable  ways in getting this book to press. 
+Thank you all. 
+CONTENTS
+1. Introduction to Cognitive Behavior Therapy 1 2. Overview of Treatment 16 3. Cognitive Conceptualization 26 4. The Therapeutic Relationship 56 5. The Evaluation Session 71 6. The First Therapy Session 87 7. Activity Scheduling 117 8. Action Plans 135 9. Treatment Planning 160 
+10. Structuring Sessions 174 11. Problems in Structuring Sessions 192 12. Identifying Automatic Thoughts 210 
+xvii 
+xviii Contents
+13. Emotions 227 14. Evaluating Automatic Thoughts 239 15. Responding to Automatic Thoughts 260 16. Integrating Mindfulness into CBT 273 17. Introduction to Beliefs 282 18. Modifying Beliefs 303 19. Additional Techniques 322 20. Imagery 340 21. Termination and Relapse Prevention 353 22. Problems in Therapy 365 
+APPENDIX A. CBT Resources 377 
+APPENDIX B. Beck Institute Case Write‑Up: 379 Summary and Conceptualization 
+APPENDIX C. Steps in the AWARE Technique 386 
+APPENDIX D. Restructuring the Meaning of Early Memories 387 through Experiential Techniques 
+References 391 Index 401 
+Blank worksheets and other resources are available  
+at beckinstitute.org/CBTresources. 
+1 
+INTRODUCTION TO  
+COGNITIVE BEHAVIOR THERAPY
+Abe1 is a 55-year-old divorced man of European heritage who became  
+severely depressed over 2 years ago, following very significant diffi culties at work and in his marriage. By the time I started treating him,  he was fairly isolated and inactive, spending most of his time in his  apartment, watching television and surfing the net, and occasionally  playing video games. 
+Abe and I met for a total of 18 sessions over 8 months, using  both a traditional cognitive behavior therapy (CBT) and a recovery oriented cognitive therapy (CT-R) conceptualization and correspond ing interventions. You’ll read more about the recovery orientation in  this chapter and throughout the book. First, I conducted a diagnostic  evaluation. In the next session, our first treatment session, I gave Abe  information about his diagnosis, the theory of CBT, the process of  therapy, and my proposed treatment plan. I asked about his aspira tions (how he wanted his life to be) and values (what was really impor tant to him) and then we set goals. Abe wanted to have a better life,  to be productive and helpful to others, and to be optimistic, resilient,  and in control. More specifically, it was important to him to manage  better at home, find a job, improve the relationships with his ex-wife  and children, reconnect with friends, start going to church again, and  get in shape. We discussed how he could become more active in the  coming week and agreed on an Action Plan (therapy “homework”).  Then I elicited Abe’s reaction to the session. 
+1I’ve changed his name and some identifying characteristics. 
+1 
+2 Cognitive Behavior Therapy: Basics and Beyond
+The major part of each subsequent session focused on helping  Abe identify his goals for the session, decide what steps he wanted  to take in the coming week, create solutions to potential obstacles,  reduce negative mood, and increase positive mood. We often did  problem solving and skill building, especially skills related to chang 
+ing his depressed thinking and behavior. I not only used various inter ventions with Abe but also taught him how to use these skills himself,  to build resilience and prevent relapse. The structure and techniques  we used were essential as was the development of a good therapeutic  relationship. You’ll be learning much more about Abe and his treat ment throughout this book. 
+You’ll also follow Maria2 throughout this book. Maria is 37 years  old. She has recurrent severe depression and traits of borderline per sonality disorder. Her treatment was much more complex and lasted  a good deal longer. Maria saw herself as helpless, inferior, unlovable,  and emotionally vulnerable. She viewed others as potentially critical,  uncaring, and likely to hurt her. These beliefs were often triggered  during our sessions. Initially she was quite suspicious of me, on guard  lest I harm her in some way. It was much more difficult to establish  a strong therapeutic relationship with Maria. Her intense hopeless 
+ness and anxiety about therapy and about me interfered with her fully  engaging in treatment for quite a while. While Abe’s treatment exem plifies a standard approach, I had to adapt treatment considerably for  Maria. 
+In the rest of this chapter, you’ll find answers to the following  questions: 
+What is CBT? 
+What is the theory behind CBT? 
+What does research tell us about its effectiveness? 
+How was it developed? 
+What is CT-R? 
+What does a typical cognitive intervention look like? 
+How can you become an effective CBT therapist? 
+How can you best use this book? 
+2I’ve changed her name and some identifying characteristics. 
+Introduction to Cognitive Behavior Therapy 3WHAT IS CBT? 
+Aaron Beck developed a form of psychotherapy in the 1960s and 1970s  that he originally named “cognitive therapy,” a term that is often used  synonymously with “cognitive behavior therapy” (CBT) by much of  our field. Beck devised a structured, short-term, present-oriented  psychotherapy for depression (Beck, 1964). Since that time, he and  others around the world have successfully adapted this therapy to a  surprisingly diverse set of populations with a wide range of disorders  and problems, in many settings and formats. These adaptations have  changed the focus, techniques, and length of treatment, but the theo retical assumptions themselves have remained constant. 
+In all forms of CBT that are derived from Beck’s model, clinicians  base treatment on a cognitive formulation: the maladaptive beliefs,  behavioral strategies, and maintaining factors that characterize a spe cific disorder (Alford & Beck, 1997). You will also base treatment on  your conceptualization, or understanding, of individual clients and  their specific underlying beliefs and patterns of behavior. One of  Abe’s underlying negative beliefs was “I’m a failure,” and he engaged  in extensive behavioral avoidance so his (perceived) incompetence, or  failure, wouldn’t be apparent. But his avoidance ironically strength 
+ened his belief of failure. 
+Originally trained as a psychoanalyst, Beck drew on multiple  sources when he developed this form of psychotherapy, including early  philosophers, such as Epictetus, and theorists, such as Karen Horney,  Alfred Adler, George Kelly, Albert Ellis, Richard Lazarus, Albert Ban 
+dura, and many others. Beck’s work, in turn, has been expanded by  a host of researchers and theorists, too numerous to recount here, in  the United States and abroad. Historical overviews of the field provide  a rich description of how the different streams of CBT originated and  grew (Arnkoff & Glass, 1992; Beck, 2005; Dobson & Dozois, 2009;  Thoma et al., 2015). 
+Some forms of CBT share characteristics of Beck’s therapy, but  their formulations and emphases in treatment vary to some degree.  These include rational emotional behavior therapy (Ellis, 1962), dia lectical behavior therapy (Linehan, 1993), problem-solving therapy  (D’Zurilla & Nezu, 2006), acceptance and commitment therapy (Hayes  et al., 1999), exposure therapy (Foa & Rothbaum, 1998), cognitive pro cessing therapy (Resick & Schnicke, 1993), cognitive behavioral analy sis system of psychotherapy (McCullough, 1999), behavioral activation  (Lewinsohn et al., 1980; Martell et al., 2001), cognitive behavior modi fication (Meichenbaum, 1977), and others. The form of CBT derived  from Beck’s model often incorporates techniques from all these  
+4 Cognitive Behavior Therapy: Basics and Beyond
+therapies, as well as other evidence-based psychotherapies, within a  cognitive framework. As time goes on, it will be useful for you to learn  more about other evidence-based interventions. But it would be over whelming to do so in any depth while you are still learning CBT. I  would encourage you to master the basics of CBT first and then learn  additional techniques to implement within the framework of a cogni tive conceptualization. 
+CBT has been adapted for clients with diverse levels of education  and income as well as a variety of cultures and ages, from young chil dren to older adults. It is now used in hospitals and clinics, schools,  vocational programs, prisons, and many other settings. It is used in  group, couple, and family formats. While the treatment described in  this book focuses on individual 45- to 50-minute sessions with outpa tients, therapeutic interactions can be briefer. Full sessions are inap propriate for some clients, such as individuals who are hospitalized for  treatment of severe schizophrenia. And many different health care and  allied health care providers use CBT techniques, without conducting  full therapy sessions, within brief medical or rehabilitation appoint ments or medication checks. Paraprofessionals and peer specialists,  too, use appropriately adapted CBT techniques. 
+THE CBT THEORETICAL MODEL 
+In a nutshell, the cognitive model proposes that dysfunctional thinking  (which influences the client’s mood and behavior) is common to all  psychological disturbances. When people learn to evaluate their think ing in a more realistic and adaptive way, they experience a decrease in  negative emotion and maladaptive behavior. For example, if you were  quite depressed and had difficulty concentrating and paying your  bills, you might have an automatic thought, an idea (in words or images)  that just seemed to pop up in your mind: “I can’t do anything right.”  This thought then leads to a particular reaction: You might feel sad  (emotion) and retreat to bed (behavior). 
+In traditional CBT, your therapist would likely help you exam ine the validity of this thought, and you might conclude that you had  overgeneralized and, in fact, you still do many things well, despite  your depression. Looking at your experience from this new perspec tive would probably decrease your dysphoria and you might engage in  more functional behavior (start paying bills). In a recovery-oriented  approach, your therapist would help you evaluate your automatic  thoughts. But the focus would be less on cognitions that have already  arisen and more on cognitions that are likely to arise in the coming  
+Introduction to Cognitive Behavior Therapy 5
+week that could interfere with your taking steps to achieve a specific  goal. 
+Cognitions (both adaptive and maladaptive) occur at three lev els. Automatic thoughts (e.g., “I’m too tired to do anything”) are at  the most superficial level. You also have intermediate beliefs, such as  underlying assumptions (e.g., “If I try to initiate relationships, I’ll get  rejected”). At the deepest level are your core beliefs about yourself,  others, and the world (e.g., “I’m helpless”; “Other people will hurt me”;  “The world is dangerous”). For lasting improvement in clients’ mood  and behavior, you will work at all three levels. Modifying both auto matic thoughts and underlying dysfunctional beliefs produces endur ing change. 
+For example, let’s say you continually underestimate your abili ties. If so, you might have a core belief of incompetence. Modifying  this general belief (i.e., seeing yourself in a more realistic light) can  alter your perception of specific situations that you encounter daily.  You will no longer have as many thoughts with the theme of incom petence. Instead, in specific situations where you make mistakes, you  will probably think, “I’m not good at this [specific task].” In addition,  it’s important in a recovery orientation to cultivate realistically positive  automatic thoughts (e.g., “I can do a lot of things well”) and interme diate and core beliefs (e.g., “If I persevere, I can probably learn what  I need to” and “I have strengths and weaknesses like everyone else”). 
+CBT RESEARCH 
+CBT has been extensively tested since the first outcome study was pub lished in 1977 (Rush et al., 1977). At this point, more than 2,000 out come studies have demonstrated the efficacy of CBT for a wide range  of psychiatric disorders, psychological problems, and medical prob lems with psychological components. Many studies have also shown  that CBT helps prevent or reduce the severity of future episodes. A  study by von Brachel and colleagues (2019), for example, showed that  outpatients with a range of psychiatric disorders who were treated  with CBT in routine care continued to improve between 5 and 20 years  after the end of therapy, more so than those who received medical  treatment. (For meta-analyses and reviews of CBT, see Butler et al.,  2006; Carpenter et al., 2018; Chambless & Ollendick, 2001; Dobson  et al., 2008; Dutra et al., 2008; Fairburn et al., 2015; Hanrahan et  al., 2013; Hofmann et al., 2012; Hollon et al., 2014; Linardon et al.,  2017; Magill & Ray, 2009; Matusiewicz et al., 2010; Mayo-Wilson et  al., 2014; Öst et al., 2015; and Wuthrich & Rapee, 2013. (For lists of  
+6 Cognitive Behavior Therapy: Basics and Beyond
+conditions for which CBT has been shown to be effective, see www. div12.org/psychological-treatments/treatments and www.nice.org.uk/about/ what-we-do/our-programmes/nice-guidance/nice-guidelines. For research  on CT-R, see Beck et al., in press; Grant et al., 2012, 2017.) 
+THE DEVELOPMENT OF BECK’S CBT 
+In the late 1950s, Dr. Beck was a certified psychoanalyst; his clients  free-associated on a couch while he made interpretations. Beck recog nized that the concepts of psychoanalysis needed to be experimentally  validated if this school of psychotherapy were to be taken seriously by  scientists. In the early 1960s, Beck decided to test the psychoanalytic  concept that depression is the result of hostility turned inward toward  the self. 
+He investigated the dreams of depressed clients, which, he pre dicted, would manifest greater themes of hostility than the dreams of  psychiatric clients without depression. To his surprise, he ultimately  found that the dreams of depressed clients contained fewer themes  of hostility and far greater themes of defectiveness, deprivation, and  loss. He recognized that these themes paralleled his clients’ thinking  when they were awake. The results of other studies Beck conducted  led him to believe that a related psychoanalytic idea—that depressed  clients have a need to suffer—might be inaccurate (Beck, 1967). At that  point, it was almost as if a stacked row of dominoes began to fall. If  these psychoanalytic concepts weren’t valid, how else could depression  be understood? 
+As Dr. Beck listened to his clients on the couch, he realized that  they occasionally reported two types of thinking: a free-association  stream and a stream of quick, evaluative thoughts, especially about  themselves. One woman, for example, detailed her sexual exploits. At  the end of the session, she spontaneously reported that she had been  feeling anxious. Dr. Beck made an interpretation: “You thought I was  criticizing you.” The client disagreed: “No, I was afraid I was boring you.” When he questioned his other depressed clients, Dr. Beck rec 
+ognized that all of them experienced “automatic” negative thoughts  that were closely tied to their emotions. He began to help his clients  identify, evaluate, and respond to their unrealistic and maladaptive  thinking. When he did so, they rapidly improved. 
+Dr. Beck then began to teach his psychiatric residents at the Uni versity of Pennsylvania to use this form of treatment. They, too, found  that their clients responded well. The chief resident, A. John Rush,  MD, who became a leading authority in the field of depression, dis cussed conducting an outcome trial with Dr. Beck. They agreed that  
+Introduction to Cognitive Behavior Therapy 7
+such a study was necessary to demonstrate the efficacy of cognitive  therapy. Their randomized controlled study of depressed clients, pub lished in 1977, established that cognitive therapy was as effective as  imipramine, a common antidepressant. This was an astounding study.  It was one of the first times that a talk therapy had been compared  to a medication. In a follow-up study, cognitive therapy was shown to  be much more effective than imipramine in preventing relapse. Beck  and colleagues (1979) published the first cognitive therapy treatment  manual 2 years later. 
+Starting in the late 1970s, Dr. Beck and his postdoctoral fellows at  the University of Pennsylvania began to study anxiety, substance use,  personality disorders, couples’ problems, hostility, bipolar disorder,  and other conditions, using the same process. First, they made clinical  observations about the disorder; they outlined the maintaining factors  and key cognitions (thoughts and underlying beliefs, emotions, and  behaviors). Then they tested their theories, adapted treatment, and  undertook randomized controlled trials. Fast-forward several decades.  Dr. Beck and I and researchers worldwide continue to study, theorize,  adapt, and test treatments for clients who suffer from an ever-growing  list of problems. CBT is now taught in most graduate schools in the  United States and in many other countries. It is the most broadly prac ticed therapy in the world (David et al., 2018; Knapp et al., 2015). 
+RECOVERY‑ORIENTED COGNITIVE THERAPY 
+In recent decades, there has been an innovation in the field of men tal health: the recovery movement, which was started as an alternative  approach to the medical model for individuals diagnosed with a serious  mental health condition. Aaron Beck, our colleagues at the Beck Insti tute for Cognitive Behavior Therapy, and I are now refining recovery oriented cognitive therapy (CT-R) for individuals diagnosed with a wide  range of conditions. CT-R, an adaptation of traditional CBT, maintains  the theoretical foundation of the cognitive model in conceptualizing  individuals and planning and delivering treatment. But it adds an  additional emphasis on the cognitive formulation of clients’ adaptive beliefs and behavioral strategies, and factors that maintain a positive  mood. Rather than emphasizing symptoms and psychopathology, CT-R  
+emphasizes clients’ strengths, personal qualities, skills, and resources. Taking a recovery orientation, I elicited and conceptualized Abe’s  aspirations and values to plan treatment. Family, for example, was very  important to Abe, and despite his deep depression, he was willing to  push himself to increase his interaction with them. We set up many  potentially rewarding activities for Abe to engage in between sessions  
+8 Cognitive Behavior Therapy: Basics and Beyond
+and helped him draw positive conclusions about these experiences. We culti vated positive cognitions and memories and used the therapeutic rela tionship and a variety of techniques to strengthen an adaptive core  belief about the self and to experience positive emotion in and out of  session. 
+One difference between traditional CBT and CT-R is the time ori entation. In traditional CBT we tend to talk about problems that arose  in the past week and use CBT techniques to address them. In CT-R,  we focus more on clients’ aspirations for the future, their values, and  steps they can take each week toward their goals. The usual CBT tech niques are used in overcoming challenges or obstacles clients will face  in taking these steps. 
+A TYPICAL COGNITIVE INTERVENTION 
+Below is an excerpt from a therapy session with Abe. It provides the  flavor of a typical CBT intervention. First, we agree to talk about a goal  Abe wants to work on. We discuss steps he can take and the obstacles  that could get in the way. 
+Judith: Okay, did you want to start by talking about your goal to get  a job? 
+Abe: Yeah, I really need the money. 
+Judith: What’s one step you’d like to take this coming week? Abe: (Sighs.) I guess I should update my résumé. 
+Judith: That’s important. [starting problem solving] How will you go  about doing that? 
+Abe: I don’t know. I haven’t even looked at it in years. Judith: Do you know where it is? 
+Abe: Yeah. But I’m not sure what to put on it. 
+Judith: What are some ways you could figure this out? Abe: I guess I could go online. But my concentration hasn’t been too  good lately. 
+Judith: Would you be better off talking to someone who knows more  about résumés than you do? 
+Abe: Yeah. (Thinks.) I could talk to my son. 
+Judith: What would you think about calling him today? Could any thing get in the way? 
+Abe: I don’t know. I should be able to figure out what to do myself,  without bothering him. 
+Introduction to Cognitive Behavior Therapy 9
+Judith: That’s an interesting idea—that you should be able to figure  it out. Have you had a lot of experience looking at other people’s  résumés? 
+Abe: No, I don’t know that I ever saw one from someone else. Judith: How much bother do you think it would be for your son? Abe: Not that much, I guess. 
+Judith: So, what would be good to remind yourself before you call  him? 
+Abe: That he’s had much more recent experience with résumés than  I’ve had. That he’d probably be okay with helping me. Judith: (Praising Abe.) That’s excellent. Could you call him today? Abe: Tonight would be better. 
+Abe was easily able to identify and respond to an unhelpful thought  that could have posed an obstacle to taking a step toward achieving a  valued goal. I asked him to imagine that, with his son’s help, he had  successfully revised his résumé. Then I asked him how he felt emo 
+tionally in the image and helped him experience some of the positive  feeling right in our session. (Some clients, facing a similar problem,  might require a greater therapeutic effort before they’re able to follow  through behaviorally.) 
+BECOMING AN EFFECTIVE CBT THERAPIST 
+I hope you have an aspiration to become an excellent therapist and  help hundreds or thousands of individuals in your career. Keeping  this aspiration in mind can help you persevere if you become anx ious while reading this book. If you do feel nervous, remember that  the cognitive model proposes you’ve had some negative thoughts.  You’ll be learning tools throughout the book to address these kinds  of unhelpful thoughts. Meanwhile, it helps to think about a specific  reading goal each week and the obstacles you might face in taking the  steps you need to. And make sure your expectations for yourself are  reasonable. 
+I’d like you to know that I wasn’t a very good therapist when I first  began doing CBT. How could it have been any different? I had never  done therapy before. So, give yourself a break if you’re just starting out  or if you’re fairly new to CBT. You’re in good company. Recognize and  give yourself credit for each chapter you read. Also give yourself credit  for answering the reflection questions and doing the practice exercises  you’ll find at the end of each chapter. Compare yourself to your peers,  not to expert CBT therapists. 
+10 Cognitive Behavior Therapy: Basics and Beyond
+We often use analogies and metaphors in CBT (Stott et al., 2010).  Here’s a common one we use with clients that you may find useful  yourself. 
+“Do you remember learning how to drive or to play a musical  instrument? At first, did you feel a little awkward? Did you have  to pay a great deal of attention to small details and motions that  now come smoothly and automatically to you? Did you ever feel  discouraged? As you progressed, did the process make more and  more sense and feel more and more comfortable? Did you finally  master it to the point where you were able to perform the task  with relative ease and confidence? Most people have had just such  an experience learning a skill in which they are now proficient.” 
+The learning process is the same for the beginning CBT therapist.  Keep your goals small, well defined, and realistic. Compare your prog ress to your ability level before you started reading this book or to the  time you first started learning about CBT. Be careful not to under mine your confidence by contrasting your current level of skill with  your ultimate objective. 
+If you feel anxious about starting to use CBT with clients, make  yourself a “coping card,” a physical or virtual index card on which  you have written statements that are important to remember. You’ll  be using coping cards or their equivalents with your clients (because  we make sure that anything we want clients to remember is written  down). My psychiatric residents often have unhelpful thoughts before  they see their first outpatients. After a discussion, they create a card  that addresses these thoughts. The card is individualized but generally  says something such as follows: 
+My goal is not to cure this client today. No one expects me to. 
+My goal is to establish a good relationship, to inspire hope, to identify
+what’s really important to the client, and perhaps to figure out a step
+the client can take this week toward achieving his or her goals.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction to Cognitive Behavior Therapy 11
+Reading a card like this can help you reduce your anxiety so you can  focus on your clients and be more effective. 
+To the untrained observer, CBT sometimes appears deceptively  simple. The cognitive model, the proposition that one’s thoughts influ ence one’s emotions and behavior (and sometimes physiology), is quite  straightforward. Experienced CBT therapists, however, seamlessly  accomplish many tasks at once: building rapport, socializing and edu cating the client, collecting data, conceptualizing the case, working  toward clients’ goals and overcoming obstacles, teaching skills, sum marizing, and eliciting feedback. As they’re accomplishing these tasks,  they sound almost conversational. 
+If you’re new to the field, you will need to be more deliberate and  structured, concentrating on fewer elements at one time. Although  the ultimate goal is to interweave these elements and conduct therapy  as effectively and efficiently as possible, you first need to learn skills  to develop the therapeutic relationship and to conceptualize clients.  You’ll also learn the techniques of CBT (and other modalities), all of  which is best done in a step-by-step manner. 
+You can view the development of expertise as a CBT therapist  in four stages. (These descriptions assume that you are already profi cient in basic counseling skills: listening, empathy, concern, positive  regard, and genuineness, as well as accurate understanding, reflec tion, and summarizing.) In Stage 1, you learn basic skills of concep tualizing a case in cognitive terms based on an intake evaluation and  data collected in session. You learn how to develop a strong thera peutic relationship. You learn how to structure the session and use  your conceptualization of the client and good common sense to plan  treatment, considering your clients’ values, aspirations, and goals.  You help clients develop solutions to the obstacles they face and view  their dysfunctional thoughts in a different way. You learn to use basic  cognitive and behavioral techniques and to teach your clients how to  use them. 
+In Stage 2 you become more proficient at integrating your concep tualization with your knowledge of techniques. You strengthen your  ability to understand the flow of therapy. You become more easily able  to identify critical objectives of treatment and more skillful at con ceptualizing clients, refining your conceptualization, and using the  conceptualization to make moment-to-moment decisions about inter ventions. You expand your repertoire of strategies and become more  proficient in selecting, timing, and implementing appropriate tech niques and in strengthening the therapeutic relationship. 
+In Stage 3 you more automatically integrate new data into the con ceptualization. You refine your ability to make hypotheses to confirm  or revise your view of the client. You vary the structure and techniques  of basic CBT as appropriate, particularly for clients with personality  
+12 Cognitive Behavior Therapy: Basics and Beyond
+disorders and other difficult disorders and problems. You become  more skilled at preventing and also repairing ruptures in the thera peutic alliance. 
+In Stage 4 you continue learning CBT for the rest of your profes sional life. I keep learning from every client I treat. I participate in  weekly case conferences, consult on clinical matters with colleagues  and supervisees, and stay current with CBT research and practice by  reading books and articles and regularly attending conferences. I’m  a much better therapist today than I was 5 years ago. And I hope to  be a better therapist 5 years from now. I hope you will adopt a similar  attitude about the importance of lifelong learning. 
+If you already practice in another psychotherapeutic modality but  are new to CBT, you will likely be more effective if you start imple menting it with new clients. If you decide to implement it with existing  clients, it will be important for you to do so collaboratively. You should  describe what you would like to do differently, provide a rationale, and  seek the client’s agreement. Most clients agree to such changes when  they are phrased positively, to the client’s benefit. When clients are  hesitant, you can suggest a change (such as setting an agenda) as an  “experiment,” rather than a commitment, to motivate them to try it. 
+Therapist: I was reading an important book on making therapy more  effective and I thought of you. 
+Client: Oh? 
+Therapist: Yes, and I have some ideas about how you might be able to  feel better faster. [being collaborative] Is it okay if I tell you about  it? 
+Client: Okay. 
+Therapist: One thing I read was called “setting the agenda.” That  means at the beginning of sessions, I’d like to ask you which goals  or issues you want to work on in the session. For example, you  might say that you’d like to work on socializing more or getting  more done around the house. This will help us figure out how to  spend our time in session better. (pause) How does that sound? 
+MAKING THE BEST USE OF THIS BOOK 
+This book is intended for students and clinicians at any stage of expe rience and skill development who lack mastery in the fundamental  building blocks of cognitive conceptualization and treatment—or who  want to learn how to incorporate principles of CT-R into treatment.  It’s critical to master the basic elements of CBT (and CT-R) so you can  
+Introduction to Cognitive Behavior Therapy 13
+understand how and when to vary standard treatment for individual  clients. 
+The chapters of this book are designed to be read in the order  presented. You might be eager to skip over introductory chapters and  jump to the “how-to” chapters. The sum of CBT, however, is not merely  the use of cognitive and behavioral techniques. Among other attri 
+butes, it entails the artful selection and effective use of many different  kinds of interventions based on your conceptualization of the client.  Visit beckinstitute.org/CBTresources to find videos of Abe’s treatment  and downloadable worksheets. You’ll find a list of additional CBT  resources in Appendix A. 
+A note about worksheets: You’ll need to print out some work sheets, such as the Thought Record and the Testing Your Thoughts  Worksheet (from Chapter 15), because they contain a great amount  of information. And you may need to print out additional worksheets  when you’re first starting to use CBT. But once you become familiar  with the material, it’s often preferable to hand draw worksheets as you  sit in the session with a client. Doing this allows you to individualize  them as necessary, and you are more likely to avoid a negative reaction  from clients who don’t like formal worksheets. 
+Your growth as a CBT therapist will be enhanced if you start  applying what you learn to yourself. Make sure to do all the practice  exercises. For example, in the practice exercise at the end of this chap ter, you’ll be directed to identify your own automatic thoughts as you  read this book. You can note them and refocus on your reading. Or  after identifying them, you could use the questions on the next page to  create a coping card for yourself. By turning the spotlight on your own  thinking, you can boost your CBT skills, modify your dysfunctional  thoughts, and positively influence your mood (and behavior), making  you more receptive to learning. 
+Other practice exercises ask you to role-play with a peer, friend,  colleague, or family member. If you can’t find a role-play partner, you  can write a transcript with an imaginary client. Or you might do both.  The more you practice the vocabulary and concepts of CBT, the better  your treatment will be. 
+Teaching yourself the basic skills of CBT using yourself as the  subject will enhance your ability to teach your clients these same skills.  As an added bonus, when you use skills that are helpful, you can do  some relevant self-disclosure with clients—which can encourage them  to practice the skill too. An online course also provides you with many  opportunities to practice using CBT skills on yourself; it’s one of the  best ways to really grasp and practice this kind of therapy. 
+It’s also important for you to know what this book doesn’t cover.  Its focus is depression, and important variations are needed to treat  
+14 Cognitive Behavior Therapy: Basics and Beyond
+other disorders. It doesn’t include how to adapt treatment for youth  or older adults. And it doesn’t address the very important topics of  self-harm, substance use, suicidality, or homicidality. You will need to  supplement your learning to be effective with individuals who vary  substantially from our major client example, Abe. 
+SUMMARY 
+CBT was developed by Dr. Aaron Beck in the 1960s and 1970s and has  since been demonstrated to be effective in more than 2,000 published  outcome studies. Today, it is considered the “gold standard” of psy chotherapy (David et al., 2018). It’s based on the theory that people’s  thinking influences their emotions and behavior. By helping their cli ents evaluate and change dysfunctional or unhelpful thinking, CBT  therapists can bring about lasting change in mood and behavior. CBT  therapists employ techniques from many different psychotherapeutic  modalities, applied within the context of the cognitive model and of  their individualized conceptualizations of their clients. A recovery ori entation focus has recently been added to traditional CBT, emphasiz ing values and aspirations, drawing positive conclusions from their  day-to-day activities, and experiencing positive emotion in and outside  of the therapy session. 
+REFLECTION QUESTIONS 
+What new ideas have you learned about CBT or CT-R in this chapter? How  could CBT techniques help you? What thoughts could readers have that  would deter them from applying CBT skills to themselves? What would be  good responses to those thoughts? 
+PRACTICE EXERCISE 
+As of right now, start noticing when 
+•  your mood has changed or intensified in a negative direction, •  you are having bodily sensations associated with negative emotion  (such as your heart beating fast when you become anxious), and/or •  you are engaging in unhelpful behavior or avoiding engaging in help ful behavior. 
+Introduction to Cognitive Behavior Therapy 15
+Ask yourself what emotion you are experiencing, as well as the cardi nal question of cognitive therapy: 
+“What was just going through my mind?” 
+This is how you’ll teach yourself to identify your own automatic  thoughts. Pay particular attention to automatic thoughts that get in the way  of achieving your goals, especially the ones that interfere with reading this  book and trying techniques with clients. You may recognize thoughts such  as these: 
+“This is too hard.” 
+“I may not be able to master this.” 
+“This doesn’t feel comfortable to me.” 
+“What if I try it and it doesn’t help my client?” 
+Experienced therapists whose primary orientation has not been CBT  may be aware of a different set of automatic thoughts: 
+“This won’t work.” 
+“The client won’t like it.” 
+“It’s too superficial/structured/unempathic/simple.” 
+2 
+OVERVIEW OF TREATMENT
+In this chapter, you’ll read about CBT principles of treatment. While  
+CBT is individualized for each person, there are certain common alities that apply to most clients. But don’t worry about remembering  everything in this chapter because you’ll be exposed to all the con cepts at various points throughout the book. I just want you to have  a sense of what CBT is like. You may want to watch a full therapy ses sion and use the Principles of Treatment Checklist (you’ll find both at  beckinstitute.org/CBTresources) to note which principles below are illus trated in the video. 
+PRINCIPLES OF TREATMENT 
+1. CBT treatment plans are based on an ever-evolving cognitive  conceptualization. 
+2. CBT requires a sound therapeutic relationship. 
+3. CBT continually monitors client progress. 
+4. CBT is culturally adapted and tailors treatment to the individual. 5. CBT emphasizes the positive. 
+6. CBT stresses collaboration and active participation. 
+7. CBT is aspirational, values based, and goal oriented. 
+8. CBT initially emphasizes the present. 
+9. CBT is educative. 
+16 
+Overview of Treatment 17
+10. CBT is time sensitive. 
+11. CBT sessions are structured. 
+12. CBT uses guided discovery and teaches clients to respond to  their dysfunctional cognitions. 
+13. CBT includes Action Plans (therapy homework). 
+14. CBT uses a variety of techniques to change thinking, mood,  and behavior. 
+Principle 1: CBT treatment plans are based on an ever-evolving cog nitive conceptualization. I base my conceptualization of clients on the  data they provide at the evaluation, informed by the cognitive formu lation (key cognitions, behavioral strategies, and maintaining factors  that characterize their disorder[s]). From the beginning, I incorpo rate their strengths, positive qualities, and resources into my concep tualization too. I continue to refine this conceptualization throughout  therapy as I collect additional data, and I use the conceptualization to  plan treatment. 
+My treatment plan for Abe initially focused on current cogni tions and problematic behaviors that interfered with working toward  his goals. We discussed increasing action in line with Abe’s values  and aspirations, and he began monitoring his positive experiences.  Toward the middle of therapy, we added a focus on underlying beliefs  that undermined his confidence. At the end of treatment, we added  an emphasis on planning for the future, anticipating obstacles, and  developing a plan to overcome these obstacles. We also responded to  maladaptive cognitions about termination and focused on cognitions  and behaviors that are important for relapse prevention. 
+I conceptualize Abe’s difficulties in three time frames. From the  beginning, I identify current cognitions that are obstacles to his aspira tions (“I’m a failure”; “I can’t do anything right”). I also identify behav ioral obstacles that serve to maintain his depression (isolating himself,  inactivity). Second, I identify precipitating factors that influenced Abe’s  perceptions at the onset of his depression. He struggled at work and  then lost his job; his wife became increasingly critical and divorced  him. These events led to his belief that he was incompetent. Third,  I hypothesize about the key developmental events and his enduring pat terns of interpreting these kinds of events that may have predisposed  him to depression. As a preteen, Abe’s mother expected him to take  on significant responsibilities at home, for which he was developmen tally ill equipped. Rather than seeing that his overwhelmed mother  was expecting too much of him, he interpreted her criticism as valid. 
+18 Cognitive Behavior Therapy: Basics and Beyond
+Principle 2: CBT requires a sound therapeutic relationship. Clients  vary in the degree to which they are initially able to develop a good  therapeutic alliance. It wasn’t difficult to establish the relationship  with Abe, though initially he was skeptical that I could help him. Using  good Rogerian counseling skills, asking him for his reaction to the  treatment plan, making collaborative decisions about treatment, pro 
+viding rationales for interventions, using self-disclosure, eliciting feed back during and at the end of sessions, and working hard to achieve  (and have him recognize) progress contributed to our alliance. 
+In general, you spend enough time developing the therapeutic  relationship to engage clients in working effectively with you as a  team. You use the relationship to provide evidence that clients’ nega tive beliefs, especially beliefs about the self (and sometimes about oth ers), are inaccurate and that more positive beliefs are valid. If the  alliance is sound, you can maximize the time you spend helping cli ents resolve obstacles they will face in the coming week. Some clients,  particularly those with personality disorders, do require a far greater  emphasis on the therapeutic relationship and advanced strategies to  forge a good working alliance (J. S. Beck, 2005; Beck et al., 2015;  Young, 1999). 
+Principle 3: CBT continually monitors client progress. The earli est CBT treatment manual, Cognitive Therapy of Depression (Beck et  al., 1979), advised therapists to use weekly symptom checklists and to  elicit both verbal and written feedback from clients at the end of ses sions. Various studies have since demonstrated that routine monitor ing improves outcomes (Boswell et al., 2015; Lambert et al., 2001, 2002;  Weck et al., 2017). Client outcomes are enhanced when both clients  and therapists receive feedback on how clients are progressing. With  an increased emphasis on a recovery orientation, many CBT therapists  now also measure clients’ general functioning, progress toward their  goals, and sense of satisfaction, connection, and well-being. 
+Principle 4: CBT is culturally adapted and tailors treatment to the  individual. CBT has traditionally reflected the values of the domi nant culture in the United States. Clients with different ethnic and  cultural backgrounds, though, have better outcomes when their thera pists appreciate the significance of cultural and ethnic differences,  preferences, and practices (Beck, 2016; Smith et al., 2011; Sue et al.,  2009). CBT tends to emphasize rationality, the scientific method, and  individualism. Clients from other cultures may hold different values  and preferences: for example, emotional reasoning, varying degrees  of emotional expression, and collectivism or interdependence. 
+Overview of Treatment 19
+When clients’ cultures are different from your own, you may need  to improve your cultural competency. You may, in fact, be largely  unaware of your own cultural biases. You may also be unaware of the  extent of cultural bias some clients experience in their community,  especially if they are not part of the majority culture. Such biases and  prejudice may play a significant role in your clients’ difficulties. 
+Your clients may differ from you in many ways, in addition to  culture. These include age, religious or spiritual orientation, ethnic ity, socioeconomic status, disability, gender, sexual identity, and sexual  orientation (Iwamasa & Hays, 2019). Make sure to educate yourself  about your clients’ characteristics and anticipate how these differences  might be relevant to treatment. Hays (2009) describes strategies to  make CBT culturally responsive, including assessing the client’s and  family’s needs, emphasizing culturally respectful behavior, identifying  culturally related strengths and supports, and validating clients’ expe 
+riences of oppression. Of course, you still need to conceptualize the  individual client and refrain from assuming that you’ll need to vary  treatment for a given individual. 
+Principle 5: CBT emphasizes the positive. Recent research demon strates the importance of emphasizing positive emotion and cognition  in treating depression (see, e.g., Chaves et al., 2019). You help clients  actively work toward cultivating positive moods and thinking. It is also  very important to inspire hope. 
+Abe was like most depressed clients. He tended to focus on the  negative. When he was in the depressive mode, he automatically (i.e.,  without conscious awareness) and selectively attended to negative  experiences. He also misread neutral experiences as negative at times.  In addition, he often discounted or failed to recognize more positive  experiences. His difficulty in processing positive data in a straightfor 
+ward manner led him to develop a distorted sense of himself. To coun teract this feature of depression, you continually help clients attend  to the positive. I want Abe to start engaging in experiences in which  he concludes he is a resourceful person who can solve problems, over come obstacles, and lead a satisfying life. 
+Principle 6: CBT stresses collaboration and active participation. Both therapists and clients are active. I encourage Abe to view ther apy as teamwork; together we decide what to work on each session,  how often we should meet, and what Abe can do between sessions.  At first, I’m more active in suggesting a direction for therapy sessions  and for some Action Plans (therapy homework). As Abe becomes  less depressed and more socialized to treatment, I encourage him to  
+20 Cognitive Behavior Therapy: Basics and Beyond
+become increasingly active in the session: deciding which steps to take  toward his goals, problem solving potential obstacles, evaluating his  dysfunctional cognitions, summarizing important points, and devis ing Action Plans. 
+Principle 7: CBT is aspirational, values based, and goal oriented. In  your initial session with clients, you should ask them about their values  (what is really important to them in life), their aspirations (how they  want to be, how they want their life to be), and their specific goals for  treatment (what they want to accomplish as a result of therapy). Being  responsible, competent, productive, and helpful to others were impor 
+tant values for Abe. He aspired to have a better life, to regain his sense  of optimism and well-being, and to feel in control. His specific goals  included being a better father and grandfather and getting a good  job. But thoughts such as “I’m such a failure” and “I’ll never get a job”  were obstacles. They had contributed to his avoiding steps he needed  to take to reach his goals. 
+Principle 8: CBT initially emphasizes the present. The treatment of  most clients involves a strong focus on the skills they need to improve  their mood (and their lives). Clients who use these skills consistently  (during and after treatment) have better outcomes than those who  don’t, even in the face of significant stressful life events (Vittengl et  al., 2019). When Abe viewed distressing situations more realistically,  solved problems, and worked toward his goals, he felt less depressed.  His mood became more positive as he focused his attention on what  was going well in his life and what admirable qualities those experi ences indicated about him as a person. 
+You shift the focus to the past in three circumstances: 
+1. When the client expresses a strong desire to do so, 
+2. When work directed toward current problems and future aspirations  produces insufficient change, or 
+3. When you judge that it’s important for you and clients to understand  how and when their key dysfunctional ideas and behavioral coping  strategies originated and became maintained. 
+Afterward, you’ll discuss what your clients now understand about the  past and how they can make use of their new understanding in the  coming week. 
+For example, midway through treatment, Abe and I briefly dis cussed some childhood events to help him identify a belief he learned  
+Overview of Treatment 21
+as a child: “If I ask for help, people will see how incompetent I am.” I  helped Abe evaluate the validity of this belief in both the past and the  present. Doing so led him, in part, to develop a more functional, more  reasonable belief. If he had had a personality disorder, I may have  spent proportionally more time discussing his developmental history  and childhood origin of beliefs and coping behaviors. 
+Principle 9: CBT is educative. A major goal of treatment is to make  the process of therapy understandable. Abe felt more comfortable  once he knew what to expect from treatment, when he clearly under stood what I wanted him to do, when he felt as if he and I were a team,  and when he had a concrete idea of how therapy would proceed, both  within a session and over the course of treatment. In our first session, I  educated Abe about the nature and course of his disorder, the process  of CBT, the structure of sessions, and the cognitive model. I provided  him with additional psychoeducation in future sessions, presenting my  ongoing and refined conceptualization and asking him for feedback.  I used diagrams throughout treatment to help Abe understand why  he sometimes had distorted thoughts and maladaptive reactions. (See  Boisvert & Ahmed [2018] for many kinds of diagrams that are helpful  in educating clients.) 
+Throughout treatment, after using various techniques, I taught Abe  how to use the techniques himself, so he could learn to be his own thera pist. At each session, I encouraged Abe to record the most important  ideas he had learned so he could review his new understandings daily.  Abe also occasionally reviewed these notes after termination, when he  found himself slipping back into old patterns of thinking and behavior. 
+Principle 10: CBT is time sensitive. We used to say that CBT was a  short-term therapy. Many straightforward clients with depression and  anxiety disorders require between 6 and 16 sessions. But the treat ment for some conditions needs to be much longer. We try to make  treatment as short term as possible while still fulfilling our objectives:  to help clients recover from their disorder(s); work toward fulfilling  their aspirations, values, and goals; resolve their most pressing issues;  promote satisfaction and enjoyment in life; and learn skills to promote  resilience and avoid relapse. 
+Abe initially had weekly therapy sessions. (Had his depression  been more severe or had he been suicidal, I may have arranged more  frequent sessions.) After 2½ months, Abe was feeling somewhat better  and was able to use his skills between sessions. So, we collaboratively  decided to experiment with every other week and then monthly ses 
+sions. Even after termination, we planned periodic “booster” sessions  every 3 months for a year. 
+22 Cognitive Behavior Therapy: Basics and Beyond
+Some clients need considerably more treatment over a longer  period of time. Sometimes these clients have chaotic lives or face  ongoing severe challenges such as poverty or violence. Some have  chronic or treatment-resistant disorders. Others have personality dis 
+orders, entrenched substance use, bipolar disorder, eating disorders,  or schizophrenia. A year or even two of therapy may be insufficient.  Even after termination, they may need periodic sessions or additional  (usually shorter) courses of treatment. 
+Principle 11: CBT sessions are structured. CBT therapists aim to  conduct therapy as efficiently as possible to help clients feel better as  quickly as possible. Adhering to a standard format (as well as teaching  the therapeutic techniques to clients) facilitates these objectives. You  will tend to use this format in every session (unless your client objects,  in which case you may need to negotiate the structure initially). 
+I start planning Abe’s treatment before he enters my office. I  quickly review his chart, especially his goals for treatment and Action  Plans (including therapy notes) from the previous session(s). My over arching therapeutic goal is to improve Abe’s mood during the session  and to create an Action Plan so he can feel better and behave more  functionally during the week. What I do in any given session is influ enced by Abe’s goals and issues, my conceptualization, the strength  of our therapeutic relationship, Abe’s preferences, and the stage of  treatment. 
+Your goal in the first part of a therapy session is to reestablish the  therapeutic alliance, review the Action Plan, and collect data so you  and the client can collaboratively set and prioritize the agenda. In the  second part of the session, you and the client discuss the issues or goals  on the agenda. These kinds of discussions and interventions naturally  lead to Action Plans. In the final part of the session, you or the client  summarizes the session. You make sure the Action Plan is reasonable  and then elicit and respond to clients’ feedback. While experienced  CBT therapists may deviate from this format at times, novice therapists  are usually more effective when they follow the specified structure. 
+Principle 12: CBT uses guided discovery and teaches clients to  respond to their dysfunctional cognitions. In the context of discussing a  problem or goal, you ask clients questions to help them identify their  dysfunctional thinking (by asking what was going through their mind),  evaluate the validity and utility of their thoughts (using a number of  techniques), and devise a plan of action. With Abe, I use gentle Socratic  questioning, which helps foster his sense that I am truly interested in  collaborative empiricism, that is, helping him determine the accuracy  and utility of his ideas through a careful review of the evidence. Note  
+Overview of Treatment 23
+that we refrain from challenging cognitions (by stating or trying to  convince clients that their thoughts or beliefs aren’t valid); rather, we  help clients through cognitive restructuring, a process of assessing and  responding to maladaptive thinking. 
+In other sessions, I ask Abe about the meaning of his thoughts  to uncover underlying beliefs he holds about himself, his world, and  other people. Through questioning, I also guide him in evaluating the  validity and functionality of his beliefs. And from the beginning of  treatment, I help Abe fortify positive beliefs about himself by teaching  him to give himself credit and guiding him to draw positive conclu 
+sions about the steps he has taken toward his goals. 
+Depending on the kind of cognition you’ve agreed to address, you  might substitute or add additional techniques to those above. When  automatic thoughts are part of a dysfunctional thought process such  as rumination, obsession, or continual self-criticism, you might help  clients accept their thoughts nonjudgmentally and allow them to come  and go on their own. To change cognitions at the emotional or gut  level, you might use imagery, tell a story, offer analogies and meta 
+phors, employ experiential techniques, do role-playing, or suggest  behavioral experiments. 
+Principle 13: CBT includes Action Plans (therapy homework). An  important aim of treatment is to help clients feel better by the end of  the session and to set them up to have a better week. Action Plans usu ally consist of 
+•  identifying and evaluating automatic thoughts that  
+are obstacles to clients’ goals, 
+•  implementing solutions to problems and obstacles  
+that could arise in the coming week, and/or 
+•  practicing behavioral skills learned in session. 
+Clients tend to forget much of what occurs in therapy sessions, and  when they do, they tend to have poorer outcomes (Lee et al., 2020). So  here’s our rule of thumb: 
+Anything we want clients to remember is recorded. 
+You or your client should write down therapy notes and Action  Plans, either on paper or in the client’s phone or tablet. Or you can  
+24 Cognitive Behavior Therapy: Basics and Beyond
+record therapy notes on a cell phone by using an app. Here’s an exam ple of a therapy note that Abe and I collaboratively composed: 
+If I start to think that I can’t sit down and pay bills, remind myself:
+
+
+∙ I’m only going to do it for 10 minutes.
+∙ It may be difficult but probably won’t be impossible.
+∙ The first minute or two will probably be the hardest and then
+it’s likely to get easier.
+∙ I should focus on the positive feeling I will get from accomplishing
+something I haven’t been able to do.
+
+
+
+
+
+
+
+
+
+Action Plans naturally flow from the discussion of each goal or  issue on the agenda. You’ll need to craft them carefully with clients,  based on the nature of the issue, your conceptualization of what will  help most, practical considerations (such as time, energy, and oppor 
+tunity), and client variables (e.g., level of motivation and concentra tion, and preferences). A frequent mistake of therapists is suggesting  Action Plans that are much too difficult. 
+Principle 14: CBT uses a variety of techniques to change thinking,  mood, and behavior. In fact, we adapt strategies from many psycho therapeutic modalities within the context of the cognitive framework.  For example, depending on my conceptualization of a client, I may use  techniques from acceptance and commitment therapy, behavior ther apy, compassion-focused psychotherapy, dialectical behavior therapy,  Gestalt therapy, interpersonal psychotherapy, meta-cognitive therapy,  mindfulness-based cognitive therapy, person-centered psychotherapy,  psychodynamic psychotherapy, schema therapy, solution-based ther apy, well-being therapy, or others. While you’re still learning CBT, it  will be difficult for you to incorporate a wider variety of interventions  than the ones you’ll read about in this book. I would encourage you to  master the basics of CBT first and then learn additional techniques to  implement within the framework of a cognitive conceptualization. As  you progress as a CBT clinician, it will be worthwhile to study these  and other evidence-based treatments. 
+Overview of Treatment 25
+SUMMARY 
+The basic principles described in this chapter apply to most clients.  Guided by your cognitive conceptualization of each client, you will  vary the techniques you use to tailor treatment to the individual. CBT  treatment takes into account individuals’ cultures, family history, and  other important characteristics; the nature of their difficulties; their  goals and aspirations; their ability to form a strong therapeutic bond;  their motivation to change; their previous experience with therapy;  and their preferences. The foundation of treatment is always a solid  therapeutic relationship. 
+REFLECTION QUESTIONS 
+Which of the 14 principles of treatment did you already know were  important elements of CBT? Which were new? Did any of them surprise  you? 
+PRACTICE EXERCISES 
+Review the principles of treatment. Describe in your own words why each  is important. Then think about what else you’d like to know about each prin ciple and compose a relevant question. 
+Consider watching an entire therapy session. Use the Principles of  Treatment Checklist (beckinstitute.org/CBTresources) to note which prin ciples are demonstrated in the video. 
+3 
+COGNITIVE CONCEPTUALIZATION
+A cognitive conceptualization is the cornerstone of CBT. You’ll be  
+learning more about the various elements and the process of con ceptualization throughout this book. In this chapter, you’ll find the  answers to the following questions: 
+What is a cognitive conceptualization? 
+How do you initiate the process of conceptualization? 
+How do automatic thoughts help you understand clients’ reactions? What are core beliefs and intermediate beliefs? 
+What is a more complex cognitive model? 
+What is Abe’s conceptualization? 
+How do you complete a Cognitive Conceptualization Diagram? 
+INTRODUCTION TO COGNITIVE CONCEPTUALIZATION 
+Your conceptualization provides the framework for treatment. It helps  you 
+•  understand clients, their strengths and weaknesses, their aspirations  and challenges; 
+•  recognize how it is that clients developed a psychological disorder  with dysfunctional thinking and maladaptive behavior; 
+26 
+Cognitive Conceptualization 27
+•  strengthen the therapeutic relationship; 
+•  plan treatment within and across sessions; 
+•  select appropriate interventions and adapt treatment as needed; and •  overcome stuck points. 
+An organic, evolving formulation helps you plan for efficient and effec tive therapy (Kuyken et al., 2009; Needleman, 1999; Persons, 2008;  Tarrier, 2006). You begin to construct the conceptualization during  your first contact with a client and refine it at every subsequent con tact. It’s important to understand the cognitive formulation for the  client’s diagnosis(es), the typical cognitions, behavioral strategies, and  maintaining factors. But then you need to see whether the formulation  fits your specific client. You continually collect data, summarize what  you’ve heard, check out your hypotheses with the client, and modify  your conceptualization as needed. For example, I didn’t know in the  first few sessions that Maria had a belief of worthlessness. It wasn’t  until she had a shouting match with her mother and sister that this  belief came to light. 
+You confirm, disconfirm, or modify your hypotheses as clients  present new information. You continually ask yourself, “Is the new  data I’ve just learned part of a pattern I’ve already identified—or is it  something new?” If new, make a note to check in future sessions to see  if these data are part of another pattern. 
+You share your conceptualization and ask the client whether it  “rings true” or “seems right.” If your conceptualization is accurate, the  client invariably says something like “Yes, I think that’s right.” If you’re  wrong, the client usually says, “No, it’s not exactly like that. It’s more  like       .” Eliciting the client’s feedback strengthens the alli 
+ance and allows you to more accurately conceptualize and conduct  effective treatment. In fact, sharing your conceptualization can itself  be therapeutic (Ezzamel et al., 2015; Johnstone et al., 2011). Abe felt  better when I suggested that he really had only one problem: seeing  himself as incompetent and a failure. 
+“I think you believe this so strongly that you avoid doing things  that seem hard. And when you’re depressed, almost everything seems hard. (pause) Do you think I could be right?” 
+It’s important to put yourself in your clients’ shoes, to develop  empathy for what they are experiencing, to understand how they are  feeling, and to perceive the world through their eyes. Clients’ percep tions, thoughts, emotions, and behavior should make sense given their  
+28 Cognitive Behavior Therapy: Basics and Beyond
+interpretation of past and current experiences, their strengths and  vulnerabilities, their values and personal attributes, their biology, and  their genetics and epigenetics. 
+Your conceptualization also helps you understand and build on  your clients’ positive attributes and skills. Helping clients become more  aware of their strengths and resources can lead to better functioning  and improved mood and resilience (Kuyken et al., 2009). It also helps  you understand how and why obstacles to achieving their goals have  arisen and been maintained. 
+INITIATING THE PROCESS OF CONCEPTUALIZATION 
+There are many questions you should keep in mind throughout treat ment to develop and refine your conceptualization. See Chapter 5 for  a description of the evaluation session, in which you’ll start to collect a  great deal of information: clients’ identifying information; chief com plaint, major symptoms, mental status, and diagnosis; current psychi atric medications and concurrent treatment; significant relationships;  best lifetime functioning; and various aspects of their history. You’ll  continue to gather data throughout treatment. 
+AUTOMATIC THOUGHTS  
+HELP EXPLAIN CLIENTS’ REACTIONS 
+CBT is based on the cognitive model, which hypothesizes that people’s  emotions, behaviors, and physiology are influenced by their percep tion of events (both external, such as failing a test, and internal, such  as distressing physical symptoms). 
+Situation/event 
+🠛 
+Automatic thoughts 
+🠛 
+Reaction (emotional, behavioral, physiological) 
+It’s not a situation in and of itself that determines what people  feel and do but rather how individuals construe a situation (Beck, 1964;  Ellis, 1962). Imagine, for example, a situation in which several people  are reading a basic text on CBT. They have quite different emotional  
+Cognitive Conceptualization 29
+and behavioral responses to the same situation, based on what is going  through their minds as they read. 
+•  Reader A thinks, “This really makes sense. Finally, a book that  will really teach me to be a good therapist!” Reader A feels mildly  excited and keeps reading. 
+•  Reader B, on the other hand, thinks, “This approach is too simplistic.  It will never work.” Reader B feels disappointed and closes the book. •  Reader C has the following thoughts: “This book isn’t what I  expected. What a waste of money.” Reader C is disgusted and  discards the book altogether. 
+•  Reader D thinks, “I really need to learn all this. What if I don’t  understand it? What if I never get good at it?” Reader D feels  anxious and keeps reading the same few pages over and over. 
+•  Reader E has different thoughts: “This is just too hard. I’m so dumb.  I’ll never master this. I’ll never make it as a therapist.” Reader E feels  sad and turns on the television. 
+The way people feel emotionally and the way they behave are asso ciated with how they interpret and think about a situation. The situa tion itself does not directly determine how they feel or what they do. 
+PEOPLE’S REACTIONS ALWAYS MAKE SENSE  
+ONCE WE KNOW WHAT THEY’RE THINKING. 
+You will be particularly interested in the level of thinking that may  operate simultaneously with a more obvious, surface level of thinking.  As you’re reading this text, you may notice these two levels. Part of  your mind is focusing on the information in the text; that is, you are  trying to understand and integrate factual information. At another  level, however, you may be having some quick, evaluative thoughts  about the situation. These cognitions are called automatic thoughts and  are not the result of deliberation or reasoning. Rather, these thoughts  seem to spring up spontaneously; they are often quite rapid and brief.  You may barely be aware of these thoughts; you are far more likely to  be aware of the emotion or behavior that follows. 
+Even if you are aware of your thoughts, you most likely accept them  uncritically, believing they are true. You don’t even think of question ing them. You can learn, however, to identify your automatic thoughts  
+30 Cognitive Behavior Therapy: Basics and Beyond
+by attending to your shifts in affect, behavior, and/or physiology. Ask  yourself, “What was just going through my mind?” when 
+•  you begin to feel dysphoric, 
+•  you feel inclined to behave in a dysfunctional way (or to avoid  behaving in an adaptive way), and/or 
+•  you notice changes in your body or mind that distress you (e.g.,  shortness of breath or racing thoughts). 
+Having identified your automatic thoughts, you can, and prob ably already do to some extent, evaluate the validity of your thinking.  For example, when I have a lot do, I sometimes have the automatic  thought “I’ll never get it all finished.” But I do an automatic reality  check, recalling past experiences and reminding myself, “It’s okay. You  know you always get done what you need to.” 
+When people find their interpretation of a situation is erroneous  and correct it, they probably discover that their mood improves, they  behave in a more functional way, and/or their physiological arousal  decreases. In cognitive terms, when dysfunctional thoughts are sub 
+jected to objective reflection, one’s emotions, behavior, and physiologi cal reaction generally change. 
+But where do automatic thoughts spring from? What makes one  person interpret a situation differently from another person? Why  may the same person interpret an identical event differently at one  time from another? The answer has more to do with enduring cogni 
+tive phenomena: beliefs. 
+THE THEMES IN PEOPLE’S AUTOMATIC THOUGHTS ALWAYS MAKE SENSE  ONCE WE UNDERSTAND THEIR BELIEFS. 
+BELIEFS 
+Beginning in childhood, people develop certain ideas about them selves, other people, and their world. Their most central or core beliefs are enduring understandings so fundamental and deep that they often  do not articulate them, even to themselves. Individuals regard these  ideas as absolute truths—just the way things “are” (Beck, 1987). Well adjusted individuals primarily hold realistically positive beliefs much  of the time. But we all have latent negative beliefs that can become  
+Cognitive Conceptualization 31
+partially or fully activated in the presence of thematically related vul nerabilities or stressors. 
+Adaptive Beliefs 
+Many clients, like Abe, had been predominantly psychologically  healthy before the onset of their disorder; they were reasonably effec tive, had basically good relationships, and lived in environments that  were mostly safe. If so, they most likely developed flexible, helpful,  reality-based beliefs about themselves, their worlds, other people, and  the future (Figure 3.1). They probably saw themselves as reasonably  effective, likeable, and worthwhile. They had accurate and nuanced  views about other people, seeing many of them as basically benign  or neutral and only some as potentially hurtful (but they most likely  believed they could reasonably protect themselves). They saw their  world realistically too as composed of a mixture of predictability and  unpredictability, safety and danger (but believed they could cope with  most things that came their way). They perceived their future as hav 
+ing positive, neutral, and negative experiences (believing they could  cope with misfortune—sometimes with the help of other people—and  that they would be okay in the end). 
+EFFECTIVE CORE BELIEFS 
+•  “I am reasonably competent, effective, in control, successful, and useful.” •  “I can reasonably do most things, protect myself, and take care of myself.” •  “I have strengths and weaknesses [in terms of effectiveness, productivity,  achievement].” 
+•  “I have relative freedom.” 
+•  “I mostly measure up to other people.” 
+LOVABLE CORE BELIEFS 
+•  “I am reasonably lovable, likeable, desirable, attractive, wanted, and cared  for.” 
+•  “I am okay, and my differences don’t impair my relationships.” •  “I am good enough [to be loved by others].” 
+•  “I am unlikely to be abandoned or rejected or end up alone.” 
+WORTHY CORE BELIEFS 
+•  “I am reasonably worthwhile, acceptable, moral, good, and benign.” 
+FIGURE 3.1. Adaptive (positive) core beliefs about the self. Copyright © 2018  CBT Worksheet Packet. Beck Institute for Cognitive Behavior Therapy, Phila delphia, Pennsylvania. 
+32 Cognitive Behavior Therapy: Basics and Beyond
+The latent negative counterparts to these beliefs might temporar ily surface when these clients negatively interpret a setback related to  their effectiveness, an interpersonal problem, or an action they took  that was contrary to their moral code. But they probably reverted back  to their more reality-based core beliefs after a short period of time— that is, unless they developed an acute disorder. When this happens,  they may need treatment to help them reestablish their primarily  adaptive beliefs. The situation is different for other clients, though,  especially those with personality disorders, like Maria. Their positive,  adaptive beliefs may have been fairly weak or actually nonexistent  when they were growing up and on into adulthood, and they usually  need treatment to help them develop and strengthen adaptive beliefs. 
+Note that some clients hold overly positive beliefs, especially if  they’re manic or hypomanic. They may see themselves, others, the  world, and/or the future in an unrealistically positive light. When  these beliefs are dysfunctional, they may need help in viewing their  experiences more realistically, which is in a negative direction. 
+Dysfunctional Negative Beliefs 
+People who have a history of being less psychologically healthy, or who  live in more dangerous physical or interpersonal environments, tend  to function more poorly; they may have troubled relationships, and  they may hold core beliefs that are more negative. These beliefs may or  may not have been realistic and/or helpful when they first developed.  In the presence of an acute episode, however, these beliefs tend to  be extreme, unrealistic, and highly maladaptive. Negative core beliefs  about the self tend to fall into three categories (Figure 3.2): 
+•  helplessness (being ineffective—in getting things done, self protection, and/or measuring up to others); 
+•  unlovability (having personal qualities resulting in an inability to get  or maintain love and intimacy from others); and 
+•  worthlessness (being an immoral sinner or dangerous to others). 
+Clients may hold beliefs in one, two, or all three of these categories,  and they may hold more than one belief in a given category. 
+Case Example 
+Reader E, who thought she was too unintelligent to master this text,  frequently has a similar concern when she has to engage in a new  
+Cognitive Conceptualization 33
+HELPLESS CORE BELIEFS 
+•  “I am ineffective in getting things done.” 
+•  “I’m incompetent, ineffective, helpless, useless, and needy; I can’t cope.” •  “I am ineffective in protecting myself.” 
+•  “I am powerless, weak, vulnerable, trapped, out of control, and likely to get  hurt.” 
+•  “I am ineffective compared to others.” 
+•  “I am inferior, a failure, a loser, defective, useless.” 
+•  “I’m not good enough [in terms of achievement]; I don’t measure up.” 
+UNLOVABLE CORE BELIEFS 
+•  “I am unlovable, unlikeable, undesirable, unattractive, boring, unimportant,  and unwanted.” 
+•  “[I won’t be accepted or loved by others because] I am different, a nerd, bad,  defective, not good enough, have nothing to offer, and there’s something  wrong with me.” 
+•  “I am bound to be rejected, abandoned, and alone.” 
+WORTHLESS CORE BELIEFS 
+•  “I am immoral, morally bad, a sinner, worthless, and unacceptable.” •  “I am dangerous, toxic, crazy, and evil.” 
+•  “I don’t deserve to live.” 
+FIGURE 3.2. Dysfunctional core beliefs about the self. 
+task (e.g., renting a car, figuring out how to put together a bookcase,  or applying for a bank loan). She seems to have the core belief “I’m  incompetent.” This belief may operate only when she is in a depressed  state; it may be active some or much of the time; or it may be fairly dor 
+mant. When this core belief is active, Reader E interprets situations  through the lens of this belief, even though the interpretation may, on  a rational basis, be patently invalid. 
+Reader E tends to selectively focus on information that confirms  her core belief, disregarding or discounting information to the con trary. For example, Reader E did not consider that other intelligent,  competent people might not fully understand the material in their  first reading. Nor did she entertain the possibility that the author had  not presented the material well. She didn’t recognize that her diffi culty in comprehension could be due to a lack of concentration, rather  than a lack of brainpower. She forgot that she often had difficulty  initially when presented with a body of new information but later  had a good track record of mastery. Because her incompetence belief  was activated, she automatically interpreted the situation in a highly  
+34 Cognitive Behavior Therapy: Basics and Beyond
+negative, self-critical manner. In this way, her belief is maintained,  even though it’s inaccurate and dysfunctional. It is important to note  that she’s not purposely trying to process information in this way; it  occurs automatically. 
+Figure 3.3 illustrates this distorted way of processing information.  The circle with a rectangular opening represents Reader E’s schema.  In Piagetian terms, the schema is a hypothesized mental structure that  
+– 
+Difficulty reading text 
+– 
+Thinking of applying 
+for a bank loan 
+
+“I’m 
+incompetent” 
++ 
+Finished 
+paperwork+ Figured 
+out 
+ambiguous 
+diagnosis 
++ 
+Sessions 
+with a client 
+went well 
+– 
+But it’s because she’s so eager to please me 
++ 
+Finished 
+reading text 
+– 
+But it took me 
+so long 
+
+FIGURE 3.3. Information processing diagram. This diagram demonstrates  how negative data are immediately processed, strengthening the core belief,  while positive data are discounted (changed into negative data) or unnoticed. 
+Cognitive Conceptualization 35
+organizes information. Within this schema is Reader E’s core belief:  “I’m incompetent.” When Reader E is exposed to a relevant experi ence, this schema becomes active, and the data, contained in negative  rectangles, are immediately processed as confirming her core belief— which makes the belief stronger. 
+But a different process occurs when Reader E encounters an expe rience in which she does well. Positive data are encoded in the equiva lent of positive triangles, which cannot fit into the schema. Her mind  automatically discounts the data. (“Yes, the session with my client went  well, but that’s because she was so eager to please me.”) These inter pretations, in essence, change the shape of the data from positive tri angles to negative rectangles. Now the data fit into the schema and, as  a result, strengthen the negative core belief. 
+There are also positive data that Reader E just doesn’t notice. She  doesn’t negate some evidence of competence, such as paying her bills  on time or helping a friend with a problem. But had she failed to take  these actions, she probably would have interpreted her inaction as sup 
+porting her dysfunctional core belief. Though she doesn’t discount the  positive data, she doesn’t seem to notice or process the positive data  as being relevant to her core belief; this kind of data bounces off the  schema. Over time, Reader E’s core belief of incompetence becomes  stronger and stronger. 
+Abe, too, has a core belief of incompetence. Fortunately, when  Abe is not depressed, a different schema (which contains the core  belief “I’m reasonably competent”) is active most of the time, and his  belief “I’m incompetent” is latent. But when he’s depressed, the incom 
+petence schema predominates. One important objective of treatment  is to help Abe view his experiences (both positive and negative) in a  more realistic and adaptive way. 
+INTERMEDIATE BELIEFS:  
+ATTITUDES, RULES, AND ASSUMPTIONS 
+Core beliefs are the most fundamental level of belief; when clients are  depressed, these beliefs tend to be negative, extreme, global, rigid,  and overgeneralized. Automatic thoughts, the actual words or images  that go through a person’s mind, are situation specific and may be  considered the most superficial level of cognition. Intermediate beliefs 
+exist between the two. Core beliefs influence the development of this  intermediate class of beliefs, which consists of (often unarticulated)  attitudes, rules, and assumptions. Note that many attitudes indicate  clients’ values. Reader E, for example, had the following intermediate  beliefs: 
+36 Cognitive Behavior Therapy: Basics and Beyond
+•  Attitude: “It’s terrible to fail.” 
+•  Rule: “I should give up if a challenge seems too great.” •  Assumptions: “If I try to do something difficult, I’ll fail. If I avoid  doing it, I’ll be okay.” 
+These beliefs influence her view of a situation, which in turn influ ences how she thinks, feels, and behaves. The relationship of these  intermediate beliefs to core beliefs and automatic thoughts is depicted  below. 
+Core beliefs 
+🠛 
+Intermediate beliefs (rules, attitudes, assumptions) 
+🠛 
+Automatic thoughts 
+How do core beliefs and intermediate beliefs arise? People try  to make sense of their environment from their early developmental  stages. They need to organize their experience in a coherent way to  function adaptively (Rosen, 1988). Their interactions with the world  and other people, influenced by their genetic predisposition, lead to  certain understandings: their beliefs, which may vary in their accu 
+racy and functionality. Of particular significance to the CBT thera pist is that dysfunctional beliefs can be unlearned, and more reality based and functional new beliefs can be developed and strengthened  through treatment. 
+The quickest way to help clients feel better and behave more  adaptively is to help them identify and strengthen their more positive  adaptive beliefs and to modify their inaccurate beliefs. Once this is  accomplished, clients tend to interpret current and future situations  or problems in a more constructive way. In most cases we can work  both directly and indirectly on positive beliefs from the beginning  of treatment. But we usually need to work indirectly on negative core  beliefs at first and more directly later on. Even the identification of  negative core beliefs can trigger significant negative affect that can  lead clients to feel unsafe. 
+A MORE COMPLEX COGNITIVE MODEL 
+The hierarchy of cognition, as it has been explained to this point, can  be illustrated as follows: 
+Cognitive Conceptualization 37
+Core beliefs 
+🠛 
+Intermediate beliefs (rules, attitudes, assumptions) 
+🠛 
+Situation 
+🠛 
+Automatic thoughts 
+🠛 
+Reaction (emotional, behavioral, physiological) 
+It’s important to note that the sequence of the perception of situa tions leading to automatic thoughts that then influence people’s reac tions is an oversimplification at times. Thinking, mood, behavior, and  physiology can affect one another. 
+Core beliefs 
+🠛 
+Intermediate beliefs (rules, attitudes, assumptions) 
+🠛 
+Trigger Situation 
+🠛 
+Automatic thoughts 
+     
+Emotion Behavior 
+There are also many different kinds of internal and external trig gering situations about which clients have automatic thoughts: 
+•  Discrete events (such as failing to get a job offer) 
+•  A stream of thoughts (such as thinking about being unemployed) •  A memory (such as getting fired from a job) 
+•  An image (such as the disapproving face of a boss) 
+•  An emotion (such as noticing how intense one’s dysphoria is) •  A behavior (such as staying in bed) 
+•  A physiological or mental experience (such as noticing one’s rapid  heartbeat or slowed-down thinking) 
+38 Cognitive Behavior Therapy: Basics and Beyond
+Individuals may experience a complex sequence of events with  many different triggering situations, automatic thoughts, and reac tions. (See Chapter 12, pp. 217–218, for an example of an extended  cognitive model.) 
+CONCEPTUALIZATION OF ABE 
+At intake, it’s clear that Abe is suffering from persistent sadness, anxi ety, and loneliness. I diagnose him with major depression, severe, with  anxious distress. I ask some specific questions to help me develop an  initial conceptualization. For example, I ask Abe when he generally  feels the worst—which situations and/or times of day. He tells me that  he pretty much feels the same all day long, but perhaps a little worse in  the evenings. Then I ask him how he felt the previous evening. When  Abe confirms that he was as depressed as usual, I ask, “What was  going through your mind?” 
+Right from the beginning, I obtain a sample of important auto matic thoughts. Abe reports that he often thinks, “There’s so much  I should be doing but I’m so tired. If I even try [to do things like  cleaning up the apartment], I’ll just do a bad job” and “I feel so down.  Nothing will make me feel better.” He also reports an image, a mental  picture that had flashed through his mind. He saw himself, sometime  in the indeterminate future, sitting in the dark, feeling utterly hope less and helpless. 
+I also look for factors that maintain Abe’s depression. Avoid ance is a major problem. He avoids cleaning up his apartment, doing  errands, socializing with friends, looking for a new job, and asking  others for help. Therefore, he lacks experiences that could have given  him a sense of mastery, pleasure, or connection. His negative think ing leads to his being inactive and passive. His inactivity and passivity  reinforce his sense of being helpless and out of control. 
+As a child, Abe tried to make sense of himself, others, and his  world, learning from, for example, his experiences, interactions with  others, and direct observation. His perceptions were also undoubt edly influenced by his genetic inheritance. Early experiences within  the family laid the groundwork for his core belief of competence and  incompetence. 
+Abe was the oldest of three boys. When he was 11, his father left  the family and never returned. His mother, a single parent, worked  two jobs and relied heavily on him. Once his father left, she often  asked Abe to do things that were quite difficult—for example, keeping  the house clean, doing the laundry, and taking care of his younger  brothers. Abe had a strong value of being a good son, accomplishing  
+Cognitive Conceptualization 39
+what was asked of him and helping others. He expected himself to be  able to do everything his mother asked, but he was often not up to the  task. He had thoughts such as “I should be doing this [task] better”;  “I should be helping Mom more”; and “I should be able to make them  [his brothers] behave.” On the few occasions when he asked his mother  what he should do to control his brothers’ behavior better, she said  irritably, “Figure it out for yourself.” 
+Not all youth in this kind of situation perceive themselves as lack ing. Some youth, for example, blame their mothers for expecting too  much. Abe’s mother did, in fact, expect too much of him, for his age  and developmental level. She criticized him when she came home and  saw his brothers “running wild” or found the kitchen messy. At these  times, she became upset and told Abe, “You can’t do anything right.  You’re letting me down.” Abe thought what she said was true, and he  felt distressed. He then often retreated to his room and ruminated  over his shortcomings. 
+Abe’s Core Beliefs 
+Over time, Abe’s belief that he was reasonably competent began to  erode, in the specific context of his home life. He began to notice what  he considered to be his failures. Even when he saw he was doing a  good job, he tended to discount his accomplishments. “I cleaned up the  kitchen, but the living room is still messy”; “I got them [brothers] to do  their homework, but I couldn’t make them stop fighting.” No wonder  Abe began to feel incompetent. The result of putting too much weight  on his perceived weaknesses and discounting or failing to notice his  strengths led to the development of his core belief: “I’m incompetent.” 
+Abe’s negative belief was fairly circumscribed to “failures” at  home. He received average grades at school, as did his friends. His  teachers and mother generally seemed satisfied with his performance,  so he was satisfied too. He was an above-average athlete and received  praise and support from his coaches. So Abe saw himself as reasonably  competent in the context of school and sports. He also saw himself as  reasonably likeable and worthwhile. 
+Abe’s beliefs about his world and other people were, for the most  part, realistically positive and adaptive. He generally believed that many  people were benign—or would be benign as long as he performed well.  He saw his world as relatively safe. Influenced by his father’s abandon 
+ment of the family, he saw the world as potentially unpredictable, but  he also thought he’d be able to cope with most circumstances. He  viewed his future as unknown but potentially pretty good. 
+Abe was at his best when he finished high school, became  employed, and moved into an apartment with a friend. During this  
+40 Cognitive Behavior Therapy: Basics and Beyond
+time, his adaptive core beliefs were mostly active. He did well on the  job, socialized often with good friends, exercised and kept himself  in good shape, and started saving money for the future. He was hon est, forthright, responsible, and a hard worker. He was pleasant to be  around, often helping family and friends without being asked. He  married at age 23, a year after meeting his wife. Although she tended  to criticize him, he nevertheless saw himself as basically competent,  worthwhile, and likeable. But he had an underlying vulnerability of  viewing himself as incompetent when he didn’t live up to his self 
+imposed high expectations. This vulnerability developed primarily as  a result of negative interactions with his mother when he was a youth. Abe became more stressed once his children were born, and he  sometimes criticized himself for not spending enough time with them.  His wife was stressed too and became more critical of him. But he  didn’t become depressed at this point. He continued to function well  as long as he perceived that he was performing at a high level at work  and at home. His related belief was “If I perform highly, it means I’m  okay.” A problem arose when he perceived himself as functioning at  a lower level, associated with his belief “If I don’t perform highly, it  shows I’m incompetent.” It wasn’t until he put a very negative meaning  on his difficulties at work and on the dissolution of his marriage that  his previously latent negative core beliefs became strongly activated.  In addition, he saw himself as helpless and out of control (which he  described as related to incompetence/failure). 
+Abe’s Intermediate Beliefs and Values 
+Abe’s intermediate beliefs were somewhat more amenable to modifica tion than his core beliefs. These attitudes (such as “It’s important to  work hard, be productive, be responsible, be reliable, be considerate  to others, honor commitments, do the right thing, and give back to  others”) reflected his values and his behavior, as did his rules (e.g., “I  should work hard”). They developed in the same way as core beliefs, as  Abe tried to make sense of his world, of others, and of himself. Mostly  through interactions with his family, and to a lesser degree with oth ers, he developed the following assumptions: 
+“If I work hard, I’ll be okay (but if I don’t, I’ll be a failure).” “If I figure things out for myself, I’ll be okay (but if I ask for help,  it will show I’m incompetent).” 
+Abe had not fully articulated these intermediate beliefs or values  before therapy. But they nevertheless influenced his thinking and  guided his behavior. 
+Cognitive Conceptualization 41
+Abe’s Behavioral Strategies 
+Beginning in adolescence, Abe developed certain patterns of behav ior, which were mostly quite functional, to live up to his values and to  avoid the activation of his core belief (and the emotional discomfort  connected with it). He worked hard when he was at home, when play ing sports, and when he got his first job. He set high standards for  himself at work and went out of his way to help other people. On the  other hand, Abe rarely asked for help, even when it was reasonable to  do so. He feared others would criticize him and view him as incompe tent. He felt vulnerable at times and tried to make up for what he saw  as his weaknesses. While Abe’s assumptions were fairly inflexible, he  nevertheless got along well in life—until he perceived himself as incom petent and not living up to his values. 
+Sequence Leading to Abe’s Depression 
+Throughout his life, Abe regularly had some negative thoughts about  himself, particularly in situations in which he perceived his performance  was subpar. “I should have done that better” was a common thought he  had had growing up and later at work and at home, especially after he  married and had children. The thoughts usually led to mild dysphoria,  but when he resolved to put in more effort, he generally felt better. 
+These kinds of automatic thoughts became fairly frequent and  intense preceding the onset of Abe’s depressive episode, in the context  of work, marriage, and home life. He had a new boss, Joseph, a man  15 years younger than he. Joseph changed Abe’s work responsibilities.  Abe had been in charge of customer service at a lighting company. He  enjoyed working with customers and interacting with the two employ 
+ees whom he supervised. 
+But Joseph moved him over to inventory management, which  entailed little interaction with others and required him to use a soft ware program with which he was unfamiliar. Abe started making mis takes and became highly self-critical. He had thoughts such as “What’s  the matter with me? This shouldn’t be so hard.” He interpreted his dif ficulties with his new responsibilities as due to his own incompetence.  He became dysphoric and anxious. But he didn’t become depressed— not yet. 
+Abe finally asked for help, but Joseph growled at him, saying that  Abe should be able to figure out what to do. Instead of continuing to  ask for help, Abe tried harder, but he still couldn’t understand how to  fulfill some of his new responsibilities. When he even considered ask 
+ing for help again, he thought, “Joseph will think less of me. What if he  says I’m incompetent? I could get fired.” His beliefs of incompetence  and vulnerability became stronger. 
+42 Cognitive Behavior Therapy: Basics and Beyond
+Soon his negative emotions started to spill over at home, as he  ruminated over his perceived failures. When he developed symptoms  of depression (especially a depressed mood and great fatigue), he  changed his activities. He started to withdraw from others, includ 
+ing his wife. At dinner, he would sit almost silently, despite his wife’s  efforts to get him to open up. After dinner, instead of doing household  tasks, he mostly sat in his armchair, ruminating over his perceived  failings. On weekends, he sat on the couch for hours at a time, watch 
+ing television. His wife became very impatient with him when he was  reluctant to make social plans, when he helped much less around the  house, and when he spoke little to her. She began to nag and criticize  him much more than before. His own self-critical thoughts became  more and more intense too. His avoidance led to few opportunities  for him to feel competent, in control, productive, and connected to  others—crucial values of his—and to a dearth of pleasurable or enjoy 
+able activities that could have lifted his mood. 
+As he developed stronger symptoms of depression, he started  avoiding additional tasks he thought he wouldn’t do well, for example,  paying bills and doing yard work. He had many automatic thoughts  across situations about the likelihood that he would fail. These  thoughts led him to feel sad, anxious, and hopeless. He viewed his dif 
+ficulties as due to an innate flaw and not as the result of encroaching  depression. He developed a generalized sense of incompetence and  helplessness and curtailed his activities further. His relationship with  his wife became quite strained, and they started having significant  conflict. He interpreted the conflict as meaning he was failing in the  marriage, that he was incompetent as a husband. 
+Over the course of several months, Abe’s problems at work became  even worse. Joseph became quite critical of Abe and downgraded him  at his yearly performance review. Abe’s depression intensified signifi cantly when his wife filed for divorce. He became preoccupied with  thoughts of how he had let her and his children and his boss down. He  felt like (that is, he had a belief that he was) an incompetent failure.  He felt (believed he was) at the mercy of his sad and hopeless feelings  (“I’m out of control”) and thought there was nothing he could do to  feel better (“I’m helpless”). And then he lost his job. 
+This sequence of events illustrates the diathesis–stress model. Abe  had certain vulnerabilities: very strong and rigid values of productivity  and responsibility, biased information processing, a tendency to see  himself as incompetent, and genetic risk factors. When these vulner 
+abilities were exposed to relevant stressors (loss of job and marriage),  he became depressed. 
+Abe’s depression became maintained by the following factors or  mechanisms: 
+Cognitive Conceptualization 43
+•  An ongoing negative interpretation of his experiences 
+•  Attentional bias (noticing everything he wasn’t doing well or  not doing at all) 
+•  Avoidance and inactivity (which resulted in few opportunities  for pleasure, a sense of accomplishment, and connection) 
+•  Social withdrawal 
+•  Increased self-criticism 
+•  Deterioration of problem-solving skills 
+•  Negative memories 
+•  Rumination over perceived failures 
+•  Worrying about the future 
+These factors negatively affected Abe’s self-image and helped main tain his depression. They became important targets in treatment. 
+Abe’s Strengths, Resources, and Personal Assets 
+Even though Abe was severely depressed when he first came to see  me, his life wasn’t unremittingly negative. His children and their  spouses offered him support. His mood lifted somewhat when he  interacted with his grandchildren, especially around sports. He was  still doing very basic self-care. Although his funds were dwindling, he  had some money in savings. He was able to do a minimal amount of  housework and meal preparation. Historically, he had been a highly  responsible, hardworking husband, father, and employee. He had  learned many skills on the job that were potentially transferable to  other jobs. He had good common sense and had been a good prob lem solver. 
+To summarize, Abe’s belief that he was incompetent stemmed  from childhood events, especially through interaction with his critical  mother, who kept telling him that he was doing a poor job (at tasks  beyond his abilities) and that he was letting her down. Nonetheless, he  had neutral or relatively positive school experiences, and his dominant  core belief was that he was okay. Years later, significant stress at work  and at home contributed to the activation of his core belief of incom 
+petence and to his use of maladaptive coping strategies, most notably  avoidance, which triggered his belief of helplessness. He avoided ask ing for help, he withdrew from his wife and friends, and he sat on the  couch for hours instead of being productive. In addition, he became  highly self-critical. Ultimately, Abe became depressed, and his mal adaptive core beliefs became fully active. 
+44 Cognitive Behavior Therapy: Basics and Beyond
+Abe’s beliefs made him vulnerable to interpreting events in a neg ative way. He didn’t question his thoughts but rather accepted them  uncritically. The thoughts and beliefs by themselves did not cause the  depression. (Depression is undoubtedly caused by a variety of psycho social, genetic, and biological factors.) Abe may have had a genetic pre disposition for depression; however, his perception of and behavior in  the circumstances at the time undoubtedly facilitated the expression  of a biological and psychological vulnerability. Once his depression set  in, these negative cognitions strongly influenced his mood and helped  maintain the disorder. 
+THE COGNITIVE CONCEPTUALIZATION DIAGRAMS 
+It’s important to develop both strengths-based and problem-based con ceptualizations. Cognitive Conceptualization Diagrams (CCDs) help  you organize the considerable amount of data you get from clients.  You can start filling out these diagrams (between sessions) as soon as  you identify relevant information during the evaluation and first ses sion. You’ll continue to look for pertinent data throughout treatment.  Most clients, like Abe, provide you with negative data at the begin ning of treatment, so it’s important to ask questions to elicit positive  information. It’s also important to be continually on the lookout for  positive data that clients overlook or discount. 
+The Strengths‑Based Cognitive Conceptualization Diagram 
+The Strengths-Based Cognitive Conceptualization Diagram (SB-CCD;  Figure 3.4) helps you pay attention to and organize the client’s patterns  of helpful cognitions and behavior. It depicts, among other things, the  relationship among 
+•  important life events and adaptive core beliefs, 
+•  adaptive core beliefs and the meaning of the client’s automatic  thoughts, 
+•  adaptive core beliefs, related intermediate beliefs, and adaptive  coping strategies, and 
+•  situations, adaptive automatic thoughts, and adaptive behaviors. 
+Figure 3.5 contains the questions you should ask yourself to fill it  out. You’ll elicit relevant data at the evaluation (e.g., when you ask cli ents to describe the best period in their life) for the top of the diagram  
+Cognitive Conceptualization 45
+RELEVANT LIFE HISTORY (including accomplishments, strengths, personal qualities, and  resources prior to current difficulties): People described Abe as “a good kid.” Some positive  interactions with family, maternal uncle, and coaches growing up. Took father’s abandonment  in stride. Tried hard when given age-inappropriate responsibilities at home at age 11. Good  friends, average grades, above-average athlete, high school diploma. Likeable, a “good  family man”; good relationships with children/grandchildren, a cousin, two male friends;  made a reasonable living; always budgeted and saved money. 
+STRENGTHS, ASSETS: Strongly motivated, good sense of humor, liked by most people.  Sees two grown children and four grandchildren often, helps them out, close relationships  with them, a cousin, and several male friends. Had made a reasonable living; always  budgeted and saved money. Highly motivated. Excellent work history; many interpersonal,  organizational, and supervisory skills; reliable and responsible. Good problem-solver and  good common sense.
+
+
+
+ADAPTIVE CORE BELIEFS (prior to onset of current difficulties): 
+“I’m responsible, considerate, competent, self-reliant, helpful, a good person, likeable,  resourceful. Most people are neutral or benign. The world is potentially unpredictable but  relatively safe and stable. I can cope (if bad things happen).”
+
+
+
+ADAPTIVE INTERMEDIATE BELIEFS: RULES, ATTITUDES, ASSUMPTIONS  (prior to onset of current difficulties): 
+“Family, work, and community are important. It’s important to work hard, be productive,  self-reliant, responsible, and reliable, honor commitments, consider others’ feelings, do the  right thing; do what I say I’m going to do. I should figure things out for myself. If I persist on a  difficult task, I’ll probably succeed. If I perform highly, it means I’m competent; I’m okay.”
+
+
+
+ADAPTIVE PATTERNS OF BEHAVIOR (prior to onset of current difficulties): Sets high standards for himself, works hard, tries to increase his competence, perseveres  and solves problems himself; is kind and considerate to others, honors his commitments,  does what he sees as “the right thing,” helps others.
+
+
+
+
+
+SITUATION 1: 
+Thinking about meeting  buddies for breakfast
+
+
+
+AUTOMATIC THOUGHT(S): “I’m really tired, but I don’t  want to disappoint them.”
+
+
+
+EMOTIONS: 
+Neutral
+
+
+
+BEHAVIOR: 
+Goes to breakfast
+
+
+
+SITUATION 2: 
+Fixing neighbor’s car
+
+
+
+AUTOMATIC THOUGHT(S): “I don’t know if I can get it  to run.”
+
+
+
+EMOTIONS: 
+Neutral
+
+
+
+BEHAVIOR: 
+Keeps trying
+
+
+
+SITUATION 3: 
+Surfing the Web
+
+
+
+AUTOMATIC THOUGHT(S): “I’d like a better TV, but I  have to cover my bills.”
+
+
+
+EMOTIONS: 
+Mild disappointment
+
+
+
+BEHAVIOR: 
+Doesn’t order TV
+
+
+
+
+FIGURE 3.4. Abe’s SB-CCD. Copyright © 2018 CBT Worksheet Packet. Beck  Institute for Cognitive Behavior Therapy, Philadelphia, Pennsylvania. 
+46 Cognitive Behavior Therapy: Basics and Beyond
+and additional data for the whole diagram throughout treatment. The  list in Figure 3.6 (adapted from Gottman & Gottman, 2014) can help  specify their positive qualities. 
+The SB-CCD is too complex to present to many clients. If you  do, show them a blank copy. You can fill it out together, choosing  historical (premorbid) situations in which they had adaptive automatic  thoughts and behaviors. Or you can wait until the clients are currently  perceiving themselves and their experiences more realistically and are  engaging in helpful coping strategies. 
+RELEVANT LIFE HISTORY (including accomplishments, strengths, personal qualities, and  resources prior to current difficulties): What experiences contributed to the development  and maintenance of the adaptive core belief(s)? What have the client’s strengths, skills,  personal and material assets, and positive relationships been like? What are the client’s skills,  strengths, and positive qualities? What internal and external resources does the client have?
+
+
+
+ADAPTIVE CORE BELIEFS (prior to onset of current difficulties): 
+What are the client’s most central adaptive beliefs about him/herself? Others? The world?
+
+
+
+ADAPTIVE INTERMEDIATE BELIEFS: RULES, ATTITUDES, ASSUMPTIONS  (prior to onset of current difficulties) 
+What general assumptions, rules, attitudes, and values does the client have?
+
+
+
+ADAPTIVE PATTERNS OF BEHAVIOR (prior to onset of current difficulties): What adaptive coping strategies and behaviors does the client display?
+
+
+
+
+
+SITUATION 1: 
+What was the problematic  situation?
+
+
+
+AUTOMATIC THOUGHT(S): What went through the  client’s mind?
+
+
+
+EMOTIONS: 
+What emotions were  
+associated with the  
+automatic thought?
+
+
+
+BEHAVIOR: 
+What did the client do that  was helpful?
+
+
+
+SITUATION 2: 
+
+
+
+AUTOMATIC THOUGHT(S): 
+
+
+
+EMOTIONS: 
+
+
+
+BEHAVIOR: 
+
+
+
+SITUATION 3:
+
+
+
+AUTOMATIC THOUGHT(S):
+
+
+
+EMOTIONS:
+
+
+
+BEHAVIOR:
+
+
+
+
+FIGURE 3.5. The SB-CCD: Questions. Copyright © 2018 CBT Worksheet Packet.  Beck Institute for Cognitive Behavior Therapy, Philadelphia, Pennsylvania. 
+Cognitive Conceptualization 47
+1. Loving 
+2. Sensitive 
+3. Brave 
+4. Intelligent 
+5. Thoughtful 
+6. Generous 
+7. Loyal 
+8. Truthful 
+9. Strong 
+10. Energetic 
+11. Sexy 
+12. Decisive 
+13. Creative 
+14. Imaginative 
+15. Fun 
+16. Attractive 
+17. Interesting 
+18. Supportive 
+19. Funny 
+20. Considerate 
+21. Affectionate 
+22. Organized 
+23. Resourceful 
+24. Athletic
+25. Cheerful 
+26. Coordinated 
+27. Graceful 
+28. Elegant 
+29. Gracious 
+30. Playful 
+31. Caring 
+32. A great friend 
+33. Exciting 
+34. Thrifty 
+35. Planful 
+36. Committed 
+37. Involved 
+38. Expressive 
+39. Active 
+40. Careful 
+41. Reserved 
+42. Adventurous 
+43. Receptive 
+44. Reliable 
+45. Responsible 
+46. Dependable 
+47. Nurturing 
+48. Warm
+49. Virile 
+50. Kind 
+51. Gentle 
+52. Practical 
+53. Lusty 
+54. Witty 
+55. Relaxed 
+56. Beautiful 
+57. Handsome 
+58. Rich 
+59. Calm 
+60. Lively 
+61. A great partner 
+62. A great parent 
+63. Assertive 
+64. Protective 
+65. Sweet 
+66. Tender 
+67. Powerful 
+68. Flexible 
+69. Understanding 
+70. Totally silly 
+71. Shy 
+72. Vulnerable
+
+
+
+FIGURE 3.6. List of positive qualities. Adapted with permission from Gottman  and Gottman (2014). Copyright © 2014 J. Gottman and J. S. Gottman. 
+The (Traditional) Cognitive Conceptualization Diagram 
+The traditional (i.e., problem-based) CCD (Figure 3.7) organizes the  maladaptive information you collect about clients. You’ll gather data  at the evaluation and throughout treatment. Begin filling it out as  soon as you begin to see patterns in the themes of clients’ automatic  thoughts or unhelpful behaviors. This CCD depicts, among other  things, the relationship among 
+•  important life events and core beliefs, 
+•  core beliefs and the meaning of clients’ automatic thoughts, •  core beliefs, intermediate beliefs, and dysfunctional coping  strategies, and 
+•  trigger situations, automatic thoughts, and reactions. 
+48 Cognitive Behavior Therapy: Basics and Beyond
+RELEVANT LIFE HISTORY and PRECIPITANTS: 
+Father leaves family when Abe is 11 years old. He never sees him again. Mom is overburdened,  very critical when he can't meet her unrealistic expectations. Precipitants to current disorder:  Abe struggles and then loses his job and undergoes divorce. 
+
+“I'm incompetent/a failure.” 
+CORE BELIEF(S) (during current episode): 
+
+INTERMEDIATE BELIEFS: CONDITIONAL ASSUMPTIONS/ATTITUDES/RULES (during current episode): 
+“It’s important to be responsible, competent, reliable, and helpful.” 
+“It’s important to work hard and be productive.” 
+During depression: 
+(1) “If I avoid challenges, I’ll be okay, but if I try to do hard things, I’ll fail.” 
+(2) “If I avoid asking for help, my incompetence won’t show, but if I do ask for help, people will see   how incompetent I am.” 
+COPING STRATEGIES (during current episode): 
+Avoids asking for help and avoids challenges. 
+
+SITUATION 1: 
+Thinking about bills 
+AUTOMATIC THOUGHT(S): “What if I run out of money?” 
+MEANING OF A.T.: 
+“I’m a failure.” 
+EMOTIONS: 
+Anxious 
+BEHAVIOR: 
+Continues to sit on couch; ruminates about his failures 
+SITUATION 2: 
+Thinking of asking son  for help in revising resume 
+AUTOMATIC THOUGHT(S): “I should be able to do this on my own.” 
+MEANING OF A.T.: 
+“I’m incompetent.” 
+EMOTIONS: 
+Sad 
+BEHAVIOR: 
+Avoids asking son for help 
+SITUATION 3: 
+Memory of being criticized by boss 
+AUTOMATIC THOUGHT(S): “I should have tried harder.” 
+MEANING OF A.T.: 
+“I’m a failure.” 
+EMOTIONS: 
+Sad 
+BEHAVIOR: 
+Ruminates about 
+what a failure he was 
+
+FIGURE 3.7. (Traditional) CCD. Copyright © 2018 CBT Worksheet Packet.  Beck Institute for Cognitive Behavior Therapy, Philadelphia, Pennsylvania. 
+Cognitive Conceptualization 49
+Figure 3.8 presents questions to help you fill out the CCD. When  you start, regard your first efforts as tentative; you have not yet col lected enough information to determine the extent to which the auto matic thoughts clients have expressed are typical and important. The  completed diagram will mislead you if you choose situations in which the  themes of clients’ automatic thoughts are not part of an overall pattern. 
+You share your partial conceptualization with clients verbally at  every session as you summarize their experiences in the form of the  
+RELEVANT LIFE HISTORY and PRECIPITANTS: 
+Which experiences contributed to the development and maintenance of the core belief(s)? 
+CORE BELIEF(S) (during current episode): 
+What are the client’s most central dysfunctional beliefs about him/herself? Other people? The world? 
+INTERMEDIATE BELIEFS: CONDITIONAL ASSUMPTIONS/ATTITUDES/RULES 
+(during current episode): 
+Which assumptions, rules, and beliefs help him/her cope with the core belief(s]? 
+COPING STRATEGIES (during current episode): 
+Which dysfunctional behaviors help him/her cope with the belief(s)? 
+
+SITUATION 1: 
+What was  
+the problematic situation? 
+AUTOMATIC THOUGHT(S): What went through 
+his/her mind? 
+MEANING OF A.T.: 
+What did the automatic thought mean to him/her? 
+EMOTIONS: 
+Which emotion(s) were associated with the automatic thought(s)? 
+BEHAVIOR: 
+What did the client do then? 
+SITUATION 2: 
+AUTOMATIC THOUGHT(S): MEANING OF A.T.: 
+EMOTIONS: 
+BEHAVIOR: 
+SITUATION 3: 
+AUTOMATIC THOUGHT(S): MEANING OF A.T.: 
+EMOTIONS: 
+BEHAVIOR: 
+
+FIGURE 3.8. (Traditional) CCD: Questions. Copyright © 2018 CBT Worksheet  Packet. Beck Institute for Cognitive Behavior Therapy, Philadelphia, Penn sylvania. 
+50 Cognitive Behavior Therapy: Basics and Beyond
+cognitive model. At times, especially initially, you’ll illustrate your  summary via a handwritten diagram of the cognitive model. Initially,  you may have data to complete only the top box (important lifetime  data) and the bottom of the diagram (three cognitive models). Leave  the other boxes blank or fill in items you have inferred with a question  mark to indicate their tentative status. You will check out missing or  inferred items with the client at future sessions. 
+Fill in the bottom half of the CCD, starting with three typical  current situations related to the presenting problems in which clients  became upset or behaved in an unhelpful way. If clients have one more  theme in their automatic thoughts, make sure to choose situations that  reflect those themes. Next, fill in the key automatic thoughts and the  subsequent emotion, relevant behavior (if any), and physiological reac 
+tion (sometimes important for clients with intense anxiety). If clients  experience more than one emotion in a given situation, make sure to  have separate boxes for each key automatic thought, followed by the  emotional and behavioral reaction to that thought (Figure 3.9). 
+Early in treatment, you may avoid asking clients for the meaning of  their negative thoughts because eliciting these deeper-level cognitions  can evoke significant distress. You can hypothesize about the meanings,  but include a question mark next to your hypotheses, to remind you  that you need to confirm their accuracy with clients at some point. The  meaning of the automatic thought box in Figure 3.8 is below the auto 
+matic thought box because you identify the automatic thought first. In  actuality, the core belief becomes activated and triggered (actually, the  
+Situation: 
+Charlie cancels 
+Sunday breakfast. 
+
+Automatic Thought: “What if there’s 
+something wrong?” 
+Automatic Thought: “He probably doesn’t want to get together.” 
+
+Emotion: Anxiety 
+Behavior: — 
+Emotion: Sadness 
+Behavior: 
+Sits on couch and ruminates. 
+
+FIGURE 3.9. Adapting the CCD for additional emotions. 
+Cognitive Conceptualization 51
+schema containing the core belief becomes activated) in a particular  situation and gives rise to automatic thoughts (see Chapter 17). When appropriate, usually a little later in treatment, you’ll ask  clients directly about the meaning of their thoughts, using the “down ward arrow” technique (pp. 291–292). The meaning of the automatic  thought for each situation should be logically connected with one of  the client’s core beliefs. Note that you don’t have to ask for the mean ing of an automatic thought when the cognition is pervasive and over generalized (not just specific to only one or a few situations). Abe’s  automatic thought “I’m a failure” was also a core belief because he  didn’t believe he was a failure in just one situation (e.g., when he saw  the pile of mail on the table); when he had that thought, he meant he  was an overall failure as a person. 
+To complete the top box of the diagram, ask yourself (and the  client): 
+•  How did the core belief originate and become maintained? •  What life events (often including those in childhood and adoles cence, if any are relevant) did the client experience that might  be related to developing and maintaining the beliefs? 
+Typical relevant childhood data include such significant events as  continual or periodic strife among parents or other family members;  parental divorce; negative interactions with parents, siblings, teachers,  peers, or others in which the child felt blamed, criticized, or otherwise  devalued; serious medical conditions or disabilities; deaths of signifi 
+cant others; bullying; physical or sexual abuse; emotional trauma; and  other adverse life conditions, such as moving frequently, experiencing  trauma, growing up in poverty, or facing chronic discrimination, to  name a few. 
+The relevant data may, however, be more subtle: for example,  youths’ perceptions (which may or may not have been valid) that they  did not measure up in important ways to their siblings; that they were  different from or demeaned by peers; that they did not meet expecta 
+tions of parents, teachers, or others; or that their parents favored a  sibling over them. 
+Next ask yourself, “What are the client’s most important interme diate beliefs: rules, attitudes, and conditional assumptions?” Unhelp ful rules often start with “I should” or “I shouldn’t,” and unhelpful  attitudes often start with “It’s bad to.” These rules and attitudes are  often connected to client’s values, or they may serve to protect the cli ent from the activation of the core belief. Clients’ broad assumptions  often reflect their rules and attitudes and link their maladaptive cop ing strategies to the core belief. They are often phrased in this way: 
+52 Cognitive Behavior Therapy: Basics and Beyond
+“If I [engage in the coping strategy], then [my core belief  
+may not immediately come true; I’ll be okay for the moment].  However, if I [do not engage in my coping strategy], then  
+[my core belief is likely to come true].” 
+See Figure 3.10 for Reader E’s intermediate beliefs and coping  strategies, the patterns of dysfunctional behaviors that are linked to  clients’ intermediate beliefs. Note that most coping strategies are pat terns of normal behaviors that everyone engages in at times. The dif ficulty clients experience is in the inflexible overuse of these strategies  at the expense of more adaptive strategies in certain situations. 
+At some point, usually in the middle part of treatment, you  will share the information from both the top and the bottom of the  CCD, when your goal for a session is to help the client understand  the broader picture. Review the conceptualization verbally, draw a  simplified diagram for your client (Figure 3.11), and elicit feedback.  Occasionally, clients benefit from completing a blank CCD with you.  (Don’t present a filled-out CCD to clients because it won’t be as good  a learning experience.) But many clients would find it confusing (or  demeaning if they interpret the diagram as your attempt to “fit” them  into boxes). Ask clients questions to get the needed data to fill in the  diagram. If you present a hypothesis, make sure to do so tentatively  and ask clients whether it “rings true.” Correct hypotheses generally  resonate well with the client. 
+To summarize, the CCDs are based on data clients present, their  actual words. You should regard your hypotheses as tentative until  confirmed by the client. You will continually reevaluate and refine the  diagrams as you collect additional data, and your conceptualization is  not complete until the client terminates treatment. While you might  not show the actual diagram to clients, you will verbally (and often  on paper) conceptualize their experience from the first session on,  to help them make sense of their current reactions to situations. At  some point, you will present the larger picture to clients so they can  understand 
+•  how their earlier experiences contributed to the development of  their beliefs, 
+•  how they developed certain assumptions or rules for living, and •  how these assumptions led to developing particular coping  strategies or patterns of behavior. 
+Cognitive Conceptualization 53
+CORE BELIEF(S) 
+“I’m incompetent.”
+
+
+
+INTERMEDIATE BELIEFS:  
+CONDITIONAL ASSUMPTIONS/ATTITUDES/RULES 
+“It’s terrible to fail.” 
+“I should give up if a challenge seems too great.” 
+“If I set low goals for myself, I’ll be okay, but if I set high goals, I’ll fail.” “If I rely on others, I’ll be okay, but if I rely on myself, I’ll fail.” “If I avoid difficult tasks, I’ll be okay, but if I don’t, I’ll fail.”
+
+
+
+COPING STRATEGIES 
+Developing low standards, relying on others, avoiding hard work
+
+
+
+SITUATION 
+Reads CBT textbook
+
+
+
+AUTOMATIC THOUGHT(S) 
+“This is just too hard. I’m so dumb. I’ll never master this.  I’ll never make it as a therapist.”
+
+
+
+MEANING OF A.T. 
+“I’m incompetent.”
+
+
+
+EMOTIONS 
+Sad
+
+
+
+BEHAVIOR 
+Turns on the television
+
+
+
+FIGURE 3.10. Cognitive conceptualization of Reader E. 
+Some clients are intellectually and emotionally ready to see the  larger picture early on in therapy. You should wait to present it to oth ers (especially those with whom you do not have a sound therapeutic  relationship or who don’t fully grasp the cognitive model or accept it  as true). As mentioned previously, whenever you present your concep tualization, ask the client for confirmation, disconfirmation, or modi fication of each part. 
+54 Cognitive Behavior Therapy: Basics and Beyond
+Core beliefs 
+🠛 
+Intermediate beliefs (rules, attitudes, assumptions) 
+🠛 
+Situation 
+🠛 
+Automatic thoughts 
+🠛 
+Reaction (emotional, behavioral, physiological) 
+FIGURE 3.11. Simplified CCD. 
+Finally, an online course (beckinstitute.org/CBTresources) can help  you master the complex process of conceptualization. And it’s often  helpful to practice by conceptualizing characters in a movie or a novel. 
+SUMMARY 
+Conceptualizing clients in cognitive terms is crucial to determine the  most effective and efficient course of treatment. It also aids in develop ing empathy, an ingredient that is critical in establishing a good thera peutic relationship. Conceptualization begins at the first contact and  is an ongoing process, always subject to modification as new data are  uncovered and previous hypotheses are confirmed or rejected. You  base your hypotheses on the information you collect, using the most  parsimonious explanations and refraining from interpretations and  inferences not clearly based on actual data. You continually check out  the conceptualization with clients for several reasons: to ensure that  it is accurate, to demonstrate your accurate understanding to them,  and to help them understand themselves, their experiences, and the  meanings they put to their experiences. The ongoing process of con ceptualization is emphasized throughout this book, as are techniques  to present your conceptualization to clients. 
+REFLECTION QUESTIONS 
+How does an individual develop depression? Why is conceptualization so  important? 
+Cognitive Conceptualization 55
+PRACTICE EXERCISE 
+Download a traditional CCD and start filling it out using Maria as the client.  You’ll find information about her on pages 2, 27, and 32. Keep adding to it as  you get additional information. Remember to put question marks next to  anything you have inferred. 
+4 
+THE THERAPEUTIC RELATIONSHIP
+I think it’s an act of courage for most clients to enter treatment. Many  
+have automatic thoughts such as “What is therapy going to be like?”;  “Is it really going to work?”; “Could it make me feel even worse?”;  “What am I going to have to do?”; “What if my therapist pushes me  too hard?”; and “What if my therapist expects too much or criticizes  me?” So while I am warm, kind, and realistically optimistic through 
+out therapy, I am especially so at the beginning of treatment. As far back as 1979, Aaron Beck and colleagues devoted an entire  chapter to the therapeutic relationship in the first CBT treatment  manual, Cognitive Therapy of Depression. They emphasized the Roge rian counseling skills of warmth, accuracy, empathy, and genuineness,  along with basic trust and rapport. They also prescribed tailoring the  relationship to the individual client, seeking agreement on the goals  and tasks of treatment, sharing an interpersonal bond, and attending  to clients’ negative reactions to therapists and vice versa. You will find the answers to these questions in this chapter. 
+What are four essential guidelines to keep in mind  
+at every session? 
+How do you demonstrate good counseling skills? 
+How do you monitor clients’ affect and elicit feedback? 
+How do you collaborate with clients? 
+How do you tailor the therapeutic relationship to the individual? How do you use self-disclosure? 
+56 
+The Therapeutic Relationship 57
+How do you repair ruptures? 
+How do you help clients generalize what have they learned to other  relationships? 
+How do you manage your negative reactions? 
+FOUR ESSENTIAL GUIDELINES 
+When I teach psychiatric residents at the University of Pennsylvania,  we start our discussion on how to establish a good therapeutic rela tionship. Then I ask them to write themselves a virtual or actual card  with four ideas, which they express in their own words. Here’s a typical  card: 
+Treat every client at every session the way I’d like to be treated
+if I were a client. 
+
+
+Be a nice human being in the room and help the client feel safe.
+
+
+Remember, clients are supposed to pose challenges; that’s why they
+need treatment.
+
+
+Keep expectations for my client and myself reasonable.
+
+
+
+
+
+
+
+I ask the residents to read their card before every therapy session. It’s  essential to start building trust and rapport with your clients from  your first contact with them. Research demonstrates that positive alli ances are correlated with positive treatment outcomes (e.g., Norcross &  Lambert, 2018; Norcross & Wampold, 2011; Raue & Goldfried, 1994).  Your objective is to make your clients feel safe, respected, understood,  and cared for. Spend enough time on the relationship to make that  happen, but ensure that you have sufficient time to help clients reach  their goals, alleviate their distress, and enhance their functioning and  positive mood. Research has demonstrated that the therapeutic alli 
+ance becomes strengthened when clients perceive improvement from  one session to the next (DeRubeis & Feeley, 1990; Zilcha-Mano et al.,  2019). So, roll up your sleeves and get to work. 
+58 Cognitive Behavior Therapy: Basics and Beyond
+You will need to focus more heavily on the relationship when  you treat clients with strong, dysfunctional personality traits or seri ous mental health conditions. They tend to bring the same extreme  negative beliefs about themselves and others to treatment—and may  assume, until strongly demonstrated otherwise, that you will view  them negatively (J. S. Beck, 2005; Beck et al., 2015; Young, 1999). A  good case conceptualization can help you avoid problems. 
+For example, Abe believed that people would look down on him  because he was unemployed. He was concerned that I would too. For tunately, I noticed a change in his facial expression during the evalua tion when he first told me he was unemployed. I asked him how he was  feeling. He said, “A little anxious.” I asked him what was going through  his mind. He told me he was afraid I was viewing him negatively. I  praised him for telling me that and assured him that it made sense to  me that he would have been having difficulty getting himself to look  for a job, given his level of depression. He was relieved. I asked him if  he’d be willing to let me know if he had any other thoughts about my  being critical in the future. And I made a mental note to be on the  lookout for future instances where that could happen. 
+DEMONSTRATING GOOD COUNSELING SKILLS 
+Norcross and Lambert (2018) have reviewed the research and drawn  the following conclusions about the therapeutic relationship: 
+•  Collaboration, goal consensus, empathy, positive regard and  affirmation, and collecting and delivering client feedback are  effective. 
+•  Congruence/genuineness, emotional expression, cultivating  positive expectations, promoting treatment credibility, managing  countertransference, and repairing ruptures are probably effective. 
+•  Self-disclosure and immediacy are promising but have not yet been  sufficiently researched. 
+•  Therapist humor, self-doubt/humility, and deliberate practice also  lack sufficient research. 
+In CBT, the Rogerian counseling skills of empathy, genuineness,  and positive regard are especially important (Elliott et al., 2011). You  will continuously demonstrate your commitment to and understand ing of clients through your empathic statements, choice of words, tone  
+The Therapeutic Relationship 59
+of voice, facial expressions, and body language. You will try to impart  the following implicit (and sometimes explicit) messages, when you  genuinely endorse them: 
+“I care about you and value you.” 
+“I want to understand what you are experiencing and help you.” “I’m confident we can work well together and that CBT will help.” “I’m not overwhelmed by your problems, even though you might be.” “I’ve helped other clients with issues like yours.” 
+If you cannot honestly endorse these messages, you may need help  from a supervisor or colleague to respond to your automatic thoughts  about the client, about CBT, or about yourself. And you may need  additional training and supervision to increase your competence. 
+Important basic counseling skills, along with examples, are below. 
+•  Empathy (“It must be so difficult for you when your ex-wife is  angry”). 
+•  Acceptance of client (“It makes sense to me, given how upset you  were, that you [engaged in a dysfunctional coping strategy] this  week”). 
+•  Validation (“It can be really hard to start difficult conversations with  people”). 
+•  Accurate understanding (“Did I get this right? She  
+said,       ; you felt       ; you then  
+[did       ]”). 
+•  Inspiring hope (“The reason I’m so hopeful for you is       ”). •  Genuine warmth (“I’m glad you were able to get out of your  apartment so many times this week!”). 
+•  Interest (“Tell me more about your grandsons”). 
+•  Positive regard (“Offering to help your neighbor was such a kind  thing to do! I’m not sure everyone would be willing to put themselves  out the way you did”). 
+•  Caring (“It’s really important to me that I make this therapy right for  you”). 
+•  Encouragement (“You know, the fact that you felt a little better when  you spent some time with your friends is such a good sign”). •  Positive reinforcement (“How great that you finally got your taxes  done!”). 
+60 Cognitive Behavior Therapy: Basics and Beyond
+•  Offering a positive view of the client (“It sounds like it was so  complicated to figure out what was wrong with your cousin’s car.  You’re so good at things like that”). 
+•  Compassion (“I’m sorry you had such an upsetting conversation  with your ex-wife”). 
+•  Humor (“You should have seen me when I       ”). 
+As described later on, you’ll need to figure out when and to what  degree to use these basic counseling skills. But the using the right  amount at the right times, can help clients 
+•  feel likeable, when you are warm, friendly, and interested; •  feel less alone, when you describe the process of working together  as a team to resolve their issues and work toward their goals; •  feel more optimistic, as you present yourself as realistically hopeful  that treatment will help; and 
+•  feel a greater sense of self-efficacy, when you help them see how  much credit they deserve for solving problems, completing Action  Plans, and engaging in other productive activities. 
+MONITORING CLIENTS’ AFFECT AND ELICITING FEEDBACK 
+You will be continuously alert for your clients’ emotional reactions  throughout the session. You’ll observe their facial expressions and  body language, their choice of words, and tone of voice. When you  recognize or infer that clients are experiencing increased distress, you  will often address the issue right at the moment—for example: “You’re  looking a little upset. [or ‘How are you feeling right now?’] What was  just going through your mind?” 
+Clients often express negative thoughts about themselves, the pro cess of therapy, or you. When they do, make sure to positively rein force them. “It’s good you told me that.” 
+Then conceptualize the problem and plan a strategy to resolve it.  You’ll read more about how to do this later in the chapter. I hope you  won’t let a concern about getting negative feedback prevent you from  eliciting clients’ responses. If there’s a problem, you need to know what  it is so you can solve it! If you aren’t sure what to say, try this: “It’s good  you told me that. I’d like to think more about it. Is it okay if we discuss  it at our next session?” 
+The Therapeutic Relationship 61
+Then get advice from your supervisor or colleague and practice  role-playing your response. If you don’t address clients’ negative feed back, they will probably be less able to focus on the work of the session.  They may even decide not to return to therapy the following week. 
+Even when you discern that your alliance with clients is strong,  elicit feedback from them at the end of sessions. For the first few ses sions, you might ask, “What did you think about the session? Was there  anything that bothered you, or you thought I misunderstood? Is there  anything you want to do differently next time?” 
+After several sessions, when you believe clients will give you hon est feedback, you can just ask, “What did you think of the session?” Asking these questions can strengthen the alliance significantly.  You may be the first health or mental health professional who has ever asked the client for feedback. I find that clients usually feel honored  and respected by our genuine concern for their reactions. You won’t necessarily elicit feedback every time you infer the client  has had a negative reaction. For example, you may be able to ignore  teenage eye-rolling the first couple of times your young client engages  in it. I remember an adult client of mine who often sighed. Initially,  I helped her respond to her unhelpful thought, “I wish I didn’t have  to do that.” When she sighed in subsequent sessions, I judged that we  could continue with the issue we were discussing without needing to  address the automatic thought associated with her sighing. 
+COLLABORATING WITH CLIENTS 
+As mentioned previously, collaboration is a hallmark of CBT. In chapter  6, you’ll read more about how to start the collaborative process in the  first session, and you’ll see collaboration in action in many of the videos.  Throughout treatment, you will foster collaboration in many ways. For  example, you and your client will jointly make decisions such as 
+•  which goals to work toward during a session; 
+•  how much time to spend on various goals and obstacles; •  which automatic thoughts, emotions, behaviors, or  
+physiological responses to target; 
+•  which interventions to try; 
+•  which self-help activities to do at home; 
+•  how often to meet; and 
+•  when to start tapering sessions and ending treatment. 

@@ -19,6 +19,7 @@ class ApiClient {
   private getHeaders(includeAuth: boolean = true): HeadersInit {
     const headers: HeadersInit = {
       'Content-Type': 'application/json',
+      'ngrok-skip-browser-warning': 'true', // Bypass ngrok warning page
     };
 
     if (includeAuth) {
@@ -139,6 +140,9 @@ class ApiClient {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), this.timeout);
 
+    console.log(`[API] GET ${endpoint} - Start`);
+    const startTime = performance.now();
+
     try {
       const fullUrl = `${this.baseURL}${endpoint}`;
 
@@ -148,8 +152,13 @@ class ApiClient {
         signal: controller.signal,
       };
 
+      console.log(`[API] Fetching ${fullUrl}...`);
       const response = await fetch(fullUrl, options);
+      console.log(`[API] GET ${endpoint} - Response in ${(performance.now() - startTime).toFixed(0)}ms, status=${response.status}`);
       return this.handleResponse<T>(response, endpoint, options);
+    } catch (error) {
+      console.error(`[API] GET ${endpoint} - Error after ${(performance.now() - startTime).toFixed(0)}ms:`, error);
+      throw error;
     } finally {
       clearTimeout(timeoutId);
     }
@@ -210,6 +219,38 @@ class ApiClient {
         headers: this.getHeaders(includeAuth),
         signal: controller.signal,
       };
+      const response = await fetch(`${this.baseURL}${endpoint}`, options);
+      return this.handleResponse<T>(response, endpoint, options);
+    } finally {
+      clearTimeout(timeoutId);
+    }
+  }
+
+  async postFormData<T>(
+    endpoint: string,
+    formData: FormData,
+    includeAuth: boolean = true
+  ): Promise<T> {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), this.timeout);
+
+    try {
+      const headers: HeadersInit = {};
+      if (includeAuth) {
+        const token = this.getAuthToken();
+        if (token) {
+          headers['Authorization'] = `Bearer ${token}`;
+        }
+      }
+      // Don't set Content-Type for FormData, browser will set it with boundary
+
+      const options = {
+        method: 'POST',
+        headers: headers,
+        body: formData,
+        signal: controller.signal,
+      };
+
       const response = await fetch(`${this.baseURL}${endpoint}`, options);
       return this.handleResponse<T>(response, endpoint, options);
     } finally {

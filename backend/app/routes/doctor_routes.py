@@ -1,10 +1,11 @@
 from flask import Blueprint, request, jsonify
 from flask_jwt_extended import jwt_required
 from app.middleware.role_middleware import doctor_required
-from app.models.models import User, PatientRecord, DoctorNote, Task, TherapySession, Alert, EmotionLog, ChatSession
+from app.models.models import User, PatientRecord, DoctorNote, Task, TherapySession, Alert, ChatMessage, ChatSession, Appointment
 from app.extensions import db
 from app.utils.cache import cache_response
 from datetime import datetime, timedelta
+import os
 
 bp = Blueprint('doctors', __name__)
 
@@ -13,20 +14,62 @@ bp = Blueprint('doctors', __name__)
 def get_dashboard(current_user):
     """Get doctor dashboard overview"""
     try:
+        from app.models.models import DoctorProfile
+        
+        # Get doctor profile first
+        doctor_profile = DoctorProfile.query.filter_by(user_id=current_user.id).first()
+        if not doctor_profile:
+            return jsonify({'error': 'Doctor profile not found'}), 404
+            
+        doctor_id = doctor_profile.id
+        
         # Get doctor's patients
-        patients = PatientRecord.query.filter_by(doctor_id=current_user.id).all()
+        patients = PatientRecord.query.filter_by(doctor_id=doctor_id).all()
         patient_count = len(patients)
+        patient_ids = [p.user_id for p in patients] if patients else []
         
         # Get active alerts for doctor's patients
-        patient_ids = [p.user_id for p in patients]
-        active_alerts = Alert.query.filter(
-            Alert.user_id.in_(patient_ids),
-            Alert.is_resolved == False
-        ).order_by(Alert.created_at.desc()).limit(10).all()
+        if patient_ids:
+            active_alerts = Alert.query.filter(
+                Alert.user_id.in_(patient_ids),
+                Alert.is_resolved == False
+            ).order_by(Alert.created_at.desc()).limit(10).all()
+        else:
+            active_alerts = []
         
-        # Get upcoming sessions
+        critical_alerts_count = sum(1 for alert in active_alerts if alert.severity == 'critical')
+        
+        # Get today's appointments
+        today_start = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
+        today_end = today_start + timedelta(days=1)
+        
+        today_appointments = Appointment.query.filter(
+            Appointment.doctor_id == doctor_id,
+            Appointment.appointment_date >= today_start,
+            Appointment.appointment_date < today_end
+        ).all()
+        
+        pending_appointments = sum(1 for apt in today_appointments if apt.status == 'pending')
+        
+        # Get upcoming appointments with patient info
+        upcoming_appointments = Appointment.query.filter(
+            Appointment.doctor_id == doctor_id,
+            Appointment.appointment_date >= datetime.utcnow(),
+            Appointment.status.in_(['pending', 'confirmed', 'scheduled'])
+        ).order_by(Appointment.appointment_date.asc()).limit(10).all()
+        
+        appointments_with_patient = []
+        for apt in upcoming_appointments:
+            apt_dict = apt.to_dict()
+            patient_user = db.session.get(User, apt.user_id)
+            if patient_user:
+                apt_dict['patient_name'] = patient_user.full_name
+                apt_dict['patient_avatar'] = patient_user.avatar_url
+            appointments_with_patient.append(apt_dict)
+        
+        # Get upcoming sessions  
         upcoming_sessions = TherapySession.query.filter_by(
-            doctor_id=current_user.id,
+            doctor_id=doctor_id,
             status='scheduled'
         ).filter(
             TherapySession.start_time >= datetime.utcnow()
@@ -34,18 +77,30 @@ def get_dashboard(current_user):
         
         # Get recent notes
         recent_notes = DoctorNote.query.filter_by(
-            doctor_id=current_user.id
+            doctor_id=doctor_id
         ).order_by(DoctorNote.created_at.desc()).limit(5).all()
         
+        # Calculate improvement rate (placeholder - can be enhanced)
+        improvement_rate = 76  # TODO: Calculate based on patient progress
+        
         return jsonify({
-            'patient_count': patient_count,
+            'stats': {
+                'patient_count': patient_count,
+                'today_appointments': len(today_appointments),
+                'pending_appointments': pending_appointments,
+                'critical_alerts': critical_alerts_count,
+                'improvement_rate': improvement_rate
+            },
+            'upcoming_appointments': appointments_with_patient,
             'active_alerts': [alert.to_dict() for alert in active_alerts],
-            'active_alerts_count': len(active_alerts),
             'upcoming_sessions': [session.to_dict() for session in upcoming_sessions],
             'recent_notes': [note.to_dict() for note in recent_notes]
         }), 200
         
     except Exception as e:
+        print(f"[DOCTOR_DASHBOARD] Error: {str(e)}")
+        import traceback
+        traceback.print_exc()
         return jsonify({'error': str(e)}), 500
 
 
@@ -56,6 +111,7 @@ def get_all_doctors():
     """Get list of all available doctors"""
     try:
         from app.models.models import DoctorProfile, User
+        from app.services.review_service import ReviewService
         
         # Get all doctors with their user info
         doctors = db.session.query(DoctorProfile, User).join(User).filter(
@@ -71,8 +127,10 @@ def get_all_doctors():
             doctor_data['avatar_url'] = user.avatar_url
             doctor_data['email'] = user.email
             
-            # Calculate review count (mock for now or from relationships)
-            doctor_data['reviews'] = 0 # Placeholder
+            # Get review stats
+            review_stats = ReviewService.get_review_stats(profile.id)
+            doctor_data['reviews'] = review_stats['review_count']
+            doctor_data['rating'] = review_stats['average_rating']
             
             # Format price
             doctor_data['price'] = float(profile.consultation_fee)
@@ -139,8 +197,17 @@ def get_doctor_details(doctor_id):
         doctor_data['email'] = user.email
         doctor_data['image'] = user.avatar_url # Frontend uses 'image' in BookAppointment
         
-        # Calculate review count
-        doctor_data['reviews'] = 0 
+        # Get review stats
+        from app.services.review_service import ReviewService
+        review_stats = ReviewService.get_review_stats(profile.id)
+        doctor_data['reviews'] = review_stats['review_count']
+        doctor_data['rating'] = review_stats['average_rating']
+        doctor_data['rating_breakdown'] = {
+            'professionalism': review_stats['avg_professionalism'],
+            'communication': review_stats['avg_communication'],
+            'effectiveness': review_stats['avg_effectiveness']
+        }
+        doctor_data['rating_distribution'] = review_stats['rating_distribution']
         
         # Format price
         doctor_data['price'] = float(profile.consultation_fee)
@@ -171,12 +238,27 @@ def get_patients(current_user):
     try:
         patients = PatientRecord.query.filter_by(doctor_id=current_user.id).all()
         
+        # Track seen user_ids to avoid duplicates
+        seen_user_ids = set()
         result = []
+        
         for record in patients:
+            # Skip if we've already added this patient
+            if record.user_id in seen_user_ids:
+                continue
+            
             patient = db.session.get(User, record.user_id)
             if patient:
+                seen_user_ids.add(record.user_id)
                 patient_data = patient.to_dict()
                 patient_data['record'] = record.to_dict()
+                
+                # Count appointments for this patient with this doctor
+                appointment_count = Appointment.query.filter_by(
+                    user_id=patient.id,
+                    doctor_id=current_user.id
+                ).count()
+                patient_data['appointment_count'] = appointment_count
                 
                 # Add recent activity
                 recent_chats = ChatSession.query.filter_by(
@@ -184,6 +266,14 @@ def get_patients(current_user):
                 ).order_by(ChatSession.updated_at.desc()).limit(1).first()
                 
                 patient_data['last_activity'] = recent_chats.updated_at.isoformat() if recent_chats else None
+                
+                # Risk level based on appointment count and recent activity
+                if appointment_count > 5 or (recent_chats and recent_chats.status == 'active'):
+                    patient_data['risk_level'] = 'high'
+                elif appointment_count > 2:
+                    patient_data['risk_level'] = 'medium'
+                else:
+                    patient_data['risk_level'] = 'low'
                 
                 result.append(patient_data)
         
@@ -296,10 +386,14 @@ def get_patient(current_user, patient_id):
         
         patient = db.session.get(User, patient_id)
         
-        # Get emotion logs
-        emotion_logs = EmotionLog.query.filter_by(
-            user_id=patient_id
-        ).order_by(EmotionLog.logged_at.desc()).limit(30).all()
+        # Get recent emotion data from chat messages
+        emotion_messages = db.session.query(ChatMessage)\
+            .join(ChatSession)\
+            .filter(
+                ChatSession.user_id == patient_id,
+                ChatMessage.role == 'user',
+                ChatMessage.emotion_detected.isnot(None)
+            ).order_by(ChatMessage.created_at.desc()).limit(30).all()
         
         # Get alerts
         alerts = Alert.query.filter_by(
@@ -326,7 +420,13 @@ def get_patient(current_user, patient_id):
         return jsonify({
             'patient': patient.to_dict(),
             'record': record.to_dict(),
-            'emotion_logs': [log.to_dict() for log in emotion_logs],
+            'emotion_logs': [{
+                'id': msg.id,
+                'emotion': msg.emotion_detected,
+                'sentiment_score': float(msg.sentiment_score) if msg.sentiment_score else 0,
+                'risk_level': msg.risk_level,
+                'created_at': msg.created_at.isoformat()
+            } for msg in emotion_messages],
             'alerts': [alert.to_dict() for alert in alerts],
             'notes': [note.to_dict() for note in notes],
             'tasks': [task.to_dict() for task in tasks],
@@ -564,6 +664,7 @@ def get_appointments(current_user):
             if user:
                 apt_dict['user_name'] = user.full_name
                 apt_dict['user_email'] = user.email
+                apt_dict['user_avatar_url'] = user.avatar_url
             result.append(apt_dict)
         
         return jsonify(result), 200
@@ -621,6 +722,38 @@ def create_appointment(current_user):
         return jsonify({'error': str(e)}), 500
 
 
+@bp.route('/appointments/<int:appointment_id>', methods=['GET'])
+@doctor_required
+def get_appointment(current_user, appointment_id):
+    """Get a single appointment"""
+    try:
+        from app.models.models import Appointment, DoctorProfile
+        
+        # Get doctor profile
+        doctor_profile = DoctorProfile.query.filter_by(user_id=current_user.id).first()
+        if not doctor_profile:
+            return jsonify({'error': 'Doctor profile not found'}), 404
+        
+        appointment = db.session.get(Appointment, appointment_id)
+        
+        if not appointment or appointment.doctor_id != doctor_profile.id:
+            return jsonify({'error': 'Appointment not found or unauthorized'}), 404
+        
+        apt_dict = appointment.to_dict()
+        
+        # Get user info
+        user = db.session.get(User, appointment.user_id)
+        if user:
+            apt_dict['user_name'] = user.full_name
+            apt_dict['patient_name'] = user.full_name
+            apt_dict['user_email'] = user.email
+        
+        return jsonify(apt_dict), 200
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
 @bp.route('/appointments/<int:appointment_id>', methods=['PUT'])
 @doctor_required
 def update_appointment(current_user, appointment_id):
@@ -659,6 +792,158 @@ def update_appointment(current_user, appointment_id):
         return jsonify({
             'message': 'Appointment updated successfully',
             'appointment': appointment.to_dict()
+        }), 200
+        
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/profile', methods=['GET'])
+@doctor_required
+def get_profile(current_user):
+    """Get current doctor's profile"""
+    try:
+        from app.models.models import DoctorProfile
+        
+        profile = DoctorProfile.query.filter_by(user_id=current_user.id).first()
+        
+        if not profile:
+            return jsonify({'error': 'Doctor profile not found'}), 404
+        
+        profile_data = profile.to_dict()
+        profile_data['full_name'] = current_user.full_name
+        profile_data['email'] = current_user.email
+        profile_data['phone'] = current_user.phone
+        profile_data['avatar_url'] = current_user.avatar_url
+        
+        return jsonify(profile_data), 200
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/profile', methods=['PUT'])
+@doctor_required
+def update_profile(current_user):
+    """Update doctor's profile"""
+    try:
+        from app.models.models import DoctorProfile
+        from decimal import Decimal
+        
+        profile = DoctorProfile.query.filter_by(user_id=current_user.id).first()
+        
+        if not profile:
+            return jsonify({'error': 'Doctor profile not found'}), 404
+        
+        data = request.get_json()
+        
+        # Update DoctorProfile fields
+        if 'bio' in data:
+            profile.bio = data['bio']
+        if 'specialization' in data:
+            profile.specialization = data['specialization']
+        if 'years_of_experience' in data:
+            profile.years_of_experience = int(data['years_of_experience'])
+        if 'consultation_fee' in data:
+            try:
+                # Validate consultation fee is positive
+                fee = float(data['consultation_fee'])
+                if fee < 0:
+                    return jsonify({'error': 'Consultation fee must be positive'}), 400
+                profile.consultation_fee = Decimal(str(fee))
+            except (ValueError, TypeError):
+                return jsonify({'error': 'Invalid consultation fee format'}), 400
+        if 'languages' in data:
+            # Convert array to comma-separated string
+            if isinstance(data['languages'], list):
+                profile.languages = ', '.join(data['languages'])
+            else:
+                profile.languages = data['languages']
+        if 'is_available' in data:
+            profile.is_available = bool(data['is_available'])
+        if 'education' in data:
+            profile.education = data['education']
+        if 'certifications' in data:
+            profile.certifications = data['certifications']
+        
+        # Update User fields
+        if 'full_name' in data:
+            current_user.full_name = data['full_name']
+        if 'phone' in data:
+            current_user.phone = data['phone']
+        if 'avatar_url' in data:
+            current_user.avatar_url = data['avatar_url']
+        
+        profile.updated_at = datetime.utcnow()
+        current_user.updated_at = datetime.utcnow()
+        db.session.commit()
+        
+        profile_data = profile.to_dict()
+        profile_data['full_name'] = current_user.full_name
+        profile_data['email'] = current_user.email
+        profile_data['phone'] = current_user.phone
+        profile_data['avatar_url'] = current_user.avatar_url
+        
+        return jsonify({
+            'message': 'Profile updated successfully',
+            'profile': profile_data
+        }), 200
+        
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/avatar/upload', methods=['POST'])
+@doctor_required
+def upload_doctor_avatar(current_user):
+    """Upload avatar image file for doctor"""
+    try:
+        if 'file' not in request.files:
+            return jsonify({'error': 'No file provided'}), 400
+        
+        file = request.files['file']
+        
+        if file.filename == '':
+            return jsonify({'error': 'No file selected'}), 400
+        
+        # Check file type
+        allowed_extensions = {'png', 'jpg', 'jpeg', 'gif', 'webp'}
+        file_ext = file.filename.rsplit('.', 1)[1].lower() if '.' in file.filename else ''
+        
+        if file_ext not in allowed_extensions:
+            return jsonify({'error': 'Invalid file type. Allowed: png, jpg, jpeg, gif, webp'}), 400
+        
+        # Check file size (5MB max)
+        file.seek(0, os.SEEK_END)
+        file_size = file.tell()
+        file.seek(0)
+        
+        if file_size > 5 * 1024 * 1024:  # 5MB
+            return jsonify({'error': 'File too large. Maximum size: 5MB'}), 400
+        
+        # Create uploads directory if it doesn't exist
+        upload_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'uploads', 'avatars')
+        os.makedirs(upload_dir, exist_ok=True)
+        
+        # Generate unique filename
+        import uuid
+        unique_filename = f"{current_user.id}_{uuid.uuid4().hex}.{file_ext}"
+        file_path = os.path.join(upload_dir, unique_filename)
+        
+        # Save file
+        file.save(file_path)
+        
+        # Update user avatar_url
+        avatar_url = f"/uploads/avatars/{unique_filename}"
+        current_user.avatar_url = avatar_url
+        current_user.updated_at = datetime.utcnow()
+        db.session.commit()
+        
+        return jsonify({
+            'message': 'Avatar uploaded successfully',
+            'avatar_url': avatar_url
         }), 200
         
     except Exception as e:

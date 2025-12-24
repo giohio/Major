@@ -1,248 +1,322 @@
-import re, json, hashlib
+import os
+import re
+import json
+import uuid
 from pathlib import Path
-from typing import List, Tuple
 
 # ==============================================================================
-# 1. CẤU HÌNH HỆ THỐNG
+# 1. CẤU HÌNH & TỪ ĐIỂN CHUẨN HÓA
 # ==============================================================================
-SCRIPT_DIR = Path(__file__).parent.resolve()
-RAW_TXT_DIR = SCRIPT_DIR / "../../data/raw"
-OUT_DIR_REASONING = SCRIPT_DIR / "../../data/corpus_reasoning" # Kho Bác sĩ
-OUT_DIR_ADVICE    = SCRIPT_DIR / "../../data/corpus_advice"    # Kho Counselor
+SCRIPT_DIR = Path(__file__).parent
+RAW_INPUT_DIR = (SCRIPT_DIR / "../../data/raw/processed").resolve() 
+BASE_OUT_DIR = (SCRIPT_DIR / "../../data/ready_for_rag").resolve()
+os.makedirs(BASE_OUT_DIR, exist_ok=True)
 
-for p in [OUT_DIR_REASONING, OUT_DIR_ADVICE]:
-    p.mkdir(parents=True, exist_ok=True)
+# Mapping file -> Chiến lược xử lý
+# Cần đặt tên file chính xác để code nhận diện
+FILE_STRATEGY_MAP = {
+    "Phac-do-Tam-than_2020.txt": "medical_protocol",
+    "DSM-5-By-American-Psychiatric-Association.txt": "medical_dsm5", # Xử lý đặc biệt
+    "ICD-11.txt": "medical_icd11", 
+    "mhGAP ver2.txt": "medical_protocol",
+    "be38edbbfc79330a.txt": "theory_concept", 
+    "cognitive-behavior-therapy-basics-and-beyond-3nbsped-1462544193-9781462544196_compress.txt": "theory_concept",
+    "Giao-Trinh-Tham-Vấn-Tam-Lý-NXB-Đại-Học-Quốc-Gia-2012-Trần-Thị-Minh-Đức.txt": "theory_concept"
+}
 
-# Cấu hình cắt đoạn
-CHUNK_TARGET = 200  
-CHUNK_MAX    = 350  # Nới rộng để giữ trọn vẹn danh sách A, B, C
-
-ALLOW_CONDITIONS = set()
+# Từ điển sửa lỗi dịch thuật (Quan trọng để Bot không nói ngọng)
+MEDICAL_TERM_MAPPING = {
+    "rung rinh cơ thể": "bồn chồn (restlessness)",
+    "căng thẳng cơ": "căng cơ (muscle tension)",
+    "giảm hứng thú": "mất hứng thú (anhedonia)",
+    "buồn chán": "khí sắc trầm cảm (depressed mood)",
+    "đứng ngồi không yên": "kích động tâm thần vận động"
+}
 
 # ==============================================================================
-# 2. BỘ NHẬN DIỆN (METADATA EXTRACTOR)
+# 2. HELPER FUNCTIONS
 # ==============================================================================
 
-def detect_source_from_file(name: str, content_sample: str) -> Tuple[str, str]:
-    n = name.lower()
-    c = content_sample.lower()
-    if "mhgap" in n or "mh gap" in c: return "WHO mhGAP-IG 2023", "https://www.who.int/"
-    if "icd11" in n or "icd-11" in n: return "WHO ICD-11", "https://icd.who.int/"
-    if "dsm" in n: return "DSM-5", "https://psychiatry.org/"
-    return "Everyday Essentials", ""
-
-COND_HINTS = {
-    "depress": "Depression", "anxiety": "Anxiety", "gad": "Anxiety",
-    "panic": "Anxiety", "ptsd": "PTSD", "ocd": "OCD",
-    "insomnia": "Sleep", "sleep": "Sleep", "substance": "SubstanceUse",
-    "eating": "Eating", "suicid": "SuicideRisk", "self-harm": "SuicideRisk",
-}
-def infer_condition(file_name: str) -> str:
-    n = file_name.lower()
-    for k, v in COND_HINTS.items():
-        if k in n: return v
-    return "General"
-
-# TỪ KHÓA PHÂN LOẠI
-CLINICAL_SECTIONS = {
-    "risk_safety": ["risk", "safety", "self-harm", "suicid", "crisis", "urgent", "danger", "emergency"],
-    "screening_cues": ["screen", "assessment", "identify", "symptom", "criteria", "evaluate", "diagnos"],
-    "referral": ["refer", "specialist", "urgent referral", "follow-up", "escalate"],
-    "management": ["management", "treatment", "therapy", "cognitive", "antidepressant", "medication"],
-    "psychoeducation": ["psychoeducation", "advice", "support", "self-help", "education"],
-}
-EVERYDAY_TOPICS = {
-    "sleep": ["sleep", "insomnia", "sleep hygiene", "bedtime"],
-    "stress": ["stress", "tension", "overwhelm", "relaxation", "breathing"],
-    "study": ["study", "exam", "focus", "procrastination"],
-    "work": ["work", "burnout", "deadline", "overwork"],
-    "relationships": ["relationship", "family", "partner", "friends", "conflict"],
-    "emotions": ["grief", "loss", "sadness", "lonely", "anger"]
-}
-ADVICE_SECTIONS = {
-    "coping_skill": ["breath", "relax", "grounding", "mindfulness", "journaling", "reappraisal", "exercise"],
-    "communication_tips": ["i-statement", "assertive", "boundary", "active listening"],
-    "habits": ["sleep hygiene", "pomodoro", "time management", "routine", "schedule", "habit"]
-}
-
-# TỪ ĐIỂN DỊCH THUẬT MINI
-GLOSS_MAP = {
-    "depression":"trầm cảm","anxiety":"lo âu","suicide":"tự sát","self-harm":"tự hại",
-    "ideation":"ý nghĩ","risk":"nguy cơ","safety":"an toàn","screening":"sàng lọc",
-    "assessment":"đánh giá","referral":"chuyển tuyến","psychoeducation":"giáo dục tâm lý",
-    "support":"hỗ trợ","urgent":"khẩn cấp","sleep":"giấc ngủ","hygiene":"vệ sinh giấc ngủ",
-    "stress":"căng thẳng","breathing":"hít thở","grounding":"neo tâm trí","mindfulness":"chánh niệm",
-    "communication":"giao tiếp","boundary":"ranh giới","assertive":"quả quyết",
-    "study":"học tập","work":"công việc","burnout":"kiệt sức"
-}
-
-def normalize(text: str) -> str:
-    text = re.sub(r"\s+", " ", text)
-    text = re.sub(r"(^|\s)page\s*\d+(\s*of\s*\d+)?", " ", text, flags=re.I)
-    return text.strip()
-
-def detect_axes(text: str):
-    tl = text.lower()
-    clinical = [sec for sec, keys in CLINICAL_SECTIONS.items() if any(k in tl for k in keys)]
-    life_topics = [tpc for tpc, keys in EVERYDAY_TOPICS.items() if any(k in tl for k in keys)]
-    advice = [sec for sec, keys in ADVICE_SECTIONS.items() if any(k in tl for k in keys)]
+def clean_and_normalize_text(text):
+    """Làm sạch rác và chuẩn hóa thuật ngữ y khoa."""
+    if not text: return ""
     
-    risk = "low"
-    if any(k in tl for k in ["suicid", "self-harm", "kill myself", "end my life", "tự sát", "tự tử", "chết"]):
-        risk = "high"
-    elif any(k in tl for k in ["crisis", "urgent", "danger", "emergency", "cấp cứu"]):
-        risk = "medium"
-
-    return clinical, life_topics, advice, risk
-
-def gloss_vi_short(text_en: str) -> str:
-    sents = re.split(r"(?<=[\.\!\?])\s+", text_en.strip())
-    pick = " ".join(sents[:2]) if sents else text_en
-    low  = pick.lower()
-    for en, vi in GLOSS_MAP.items():
-        low = re.sub(rf"\b{re.escape(en)}\b", vi, low)
-    low  = low[:1].upper() + low[1:]
-    return (low[:220] + "...") if len(low) > 220 else low
-
-def make_id(source: str, main_section: str, text: str) -> str:
-    h = hashlib.sha1((main_section + text[:100]).encode()).hexdigest()[:8]
-    src_tag = "mhgap" if "mhgap" in source.lower() else ("everyday" if "everyday" in source.lower() else "clinical")
-    return f"{src_tag}#{main_section}_{h}"
-
-# ==============================================================================
-# 3. HÀM CẮT THÔNG MINH (STRUCTURE PRESERVING)
-# ==============================================================================
-
-def chunk_smart_preserve_structure(text: str) -> List[str]:
-    """
-    Giữ nguyên danh sách A. B. C. hoặc 1. 2. 3. để bảo toàn logic chẩn đoán.
-    """
-    text = re.sub(r'[ \t]+', ' ', text)
-    lines = text.split('\n')
+    # Xóa rác PDF (Source tag, số trang lẻ loi)
+    text = text.replace('\ufeff', '')  # Xóa BOM
+    text = re.sub(r'\n\s*\d+\s*\n', '\n', text) # Xóa số trang đứng 1 mình
     
-    chunks = []
-    current_chunk = []
-    current_wc = 0
+    text = re.sub(r'\s+', ' ', text).strip()
     
-    list_pattern = re.compile(r'^\s*(\d+\.|[A-Z]\.|-|•|\*)\s+')
+    # Thay thế thuật ngữ sai
+    text_lower = text.lower()
+    for bad_term, good_term in MEDICAL_TERM_MAPPING.items():
+        if bad_term in text_lower:
+            text = re.sub(bad_term, good_term, text, flags=re.IGNORECASE)
+            
+    return text
 
-    for line in lines:
-        line = line.strip()
-        if not line: continue
-        wc = len(line.split())
-        is_list_item = bool(list_pattern.match(line))
+def split_large_text(text, max_chars=2000, overlap=200):
+    """Cắt nhỏ văn bản nếu quá dài, nhưng cố gắng cắt tại dấu chấm câu."""
+    if len(text) <= max_chars:
+        return [text]
+    
+    sub_chunks = []
+    start = 0
+    while start < len(text):
+        end = start + max_chars
+        if end < len(text):
+            # Tìm dấu chấm câu gần nhất để cắt cho đẹp
+            last_period = text.rfind('.', start, end)
+            if last_period != -1 and last_period > start + 1500: # Chỉ lùi lại nếu không mất quá nhiều
+                end = last_period + 1
         
-        if current_wc + wc <= CHUNK_TARGET:
-            current_chunk.append(line)
-            current_wc += wc
-        elif is_list_item and (current_wc + wc <= CHUNK_MAX):
-            current_chunk.append(line)
-            current_wc += wc
-        else:
-            if current_chunk: chunks.append("\n".join(current_chunk))
-            overlap = current_chunk[-2:] if len(current_chunk) > 2 else current_chunk[-1:]
-            current_chunk = overlap + [line]
-            current_wc = sum(len(l.split()) for l in current_chunk)
+        chunk = text[start:end].strip()
+        if len(chunk) > 50: # Bỏ qua chunk quá ngắn
+            sub_chunks.append(chunk)
+        start = end - overlap
+    return sub_chunks
 
-    if current_chunk: chunks.append("\n".join(current_chunk))
+# ==============================================================================
+# 3. PROCESSORS (CHIẾN LƯỢC CẮT THÔNG MINH)
+# ==============================================================================
+
+def process_dsm5(text, filename):
+    """Chiến lược DSM-5: Giữ nguyên khối tiêu chuẩn (A-F)."""
+    chunks = []
+    # FIX: Thêm \s* sau (?:^|\n) để bỏ qua khoảng trắng thụt đầu dòng
+    pattern = r"(?im)(?:^|\n)\s*(Diagnostic Criteria for|Tiêu chuẩn chẩn đoán|TIÊU CHUẨN CHẨN ĐOÁN)\s*[:\-]?\s*([A-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠƯẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỂỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪỬỮỰỲỴÝỶỸ\s\(\)\-]+?)(?=\n|$|:)"
+    
+    matches = list(re.finditer(pattern, text))
+    if not matches:
+        print(f"⚠️ {filename}: Fallback sang cắt thường (Không tìm thấy header DSM).")
+        return process_theory_concept(text, filename) 
+
+    print(f"   --> Tìm thấy {len(matches)} rối loạn trong DSM-5.")
+
+    for i, match in enumerate(matches):
+        start = match.start()
+        end = matches[i+1].start() if i + 1 < len(matches) else len(text)
+        
+        full_content = text[start:end]
+        disorder_name = match.group(2).strip().strip(":")
+        
+        if len(full_content) < 50: continue
+
+        anchored_content = f"[Nguồn: DSM-5 (Tiêu chuẩn gốc) | Bệnh: {disorder_name}]\n{clean_and_normalize_text(full_content)}"
+        
+        if len(anchored_content) <= 3500:
+            chunks.append({
+                "id": str(uuid.uuid4()),
+                "content": anchored_content,
+                "metadata": {
+                    "source": filename,
+                    "type": "medical_protocol",
+                    "standard": "DSM-5",
+                    "disease_name": disorder_name
+                }
+            })
+        else:
+            sub_texts = split_large_text(anchored_content, max_chars=2000)
+            for idx, sub in enumerate(sub_texts):
+                chunks.append({
+                    "id": str(uuid.uuid4()),
+                    "content": sub,
+                    "metadata": {
+                        "source": filename,
+                        "type": "medical_protocol",
+                        "standard": "DSM-5",
+                        "disease_name": disorder_name,
+                        "part": idx + 1
+                    }
+                })
     return chunks
 
-# ==============================================================================
-# 4. MAIN LOOP: LOGIC ĐỊNH TUYẾN AN TOÀN (SAFETY ROUTING)
-# ==============================================================================
+def process_medical_protocol(text, filename):
+    """Xử lý Protocol chung & ICD-11 & mhGAP."""
+    chunks = []
+    
+    std = "General_Protocol"
+    if "ICD-11" in filename: std = "ICD-11"
+    elif "mhGAP" in filename: std = "mhGAP"
+    elif "Phac-do" in filename: std = "BYT-Vietnam"
 
-def main():
-    stats = {
-        "reasoning": 0, 
-        "advice": 0, 
-        "high_risk_blocked": 0,
-        "clinical_source_blocked": 0 
-    }
-    print(f"🚀 Bắt đầu Routing V5 (DSM/ICD Hard Block)...")
+    # FIX:
+    # 1. ^\s* : Bắt đầu dòng + khoảng trắng tùy ý
+    # 2. Thêm [A-Z0-9]+\. : Để bắt các mã như 6B00. (ICD-11)
+    pattern = r"(?im)^\s*((?:\d+\.|[IVX]+\.|[A-Z0-9]+\.|[A-Z]\.|MODULE|CHƯƠNG|BÀI)\s*)([A-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠƯẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỂỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪỬỮỰỲỴÝỶỸ\s\-\(\)\:]+?)(?=\n|$)"
+    
+    matches = list(re.finditer(pattern, text))
+    if not matches:
+        print(f"⚠️ {filename}: Không bắt được Header Protocol -> Chuyển sang cắt đoạn.")
+        return process_theory_concept(text, filename) 
 
-    for path in sorted(RAW_TXT_DIR.glob("*.txt")):
-        raw = path.read_text("utf-8", errors="ignore")
-        sample = raw[:2000]
-        source, url = detect_source_from_file(path.name, sample)
-        condition = infer_condition(path.name)
+    print(f"   --> Tìm thấy {len(matches)} mục trong {std}.")
 
-        chunks = chunk_smart_preserve_structure(raw)
+    for i, match in enumerate(matches):
+        start_idx = match.start()
+        end_idx = matches[i+1].start() if i + 1 < len(matches) else len(text)
+        
+        full_content = text[start_idx:end_idx]
+        header_full = match.group(0).strip()
+        disease_name = match.group(2).strip().strip(":")
 
-        for ch in chunks:
-            clinical_sec, life_topics, advice_sec, risk_band = detect_axes(ch)
+        anchored_content = f"[Nguồn: {filename} | Chuẩn: {std} | Mục: {disease_name}]\n{clean_and_normalize_text(full_content)}"
 
-            if not (clinical_sec or life_topics or advice_sec):
-                continue
+        sub_texts = split_large_text(anchored_content, max_chars=2000)
 
-            main_sec = (clinical_sec[0] if clinical_sec else (advice_sec[0] if advice_sec else "general"))
-            title_en = f"{condition} — {main_sec.replace('_',' ').title()}"
-            gloss_vi = gloss_vi_short(ch)
-            sid = make_id(source, main_sec, ch)
-
-            item = {
-                "id": sid,
-                "content": ch,
+        for idx, sub_text in enumerate(sub_texts):
+            chunks.append({
+                "id": str(uuid.uuid4()),
+                "content": sub_text,
                 "metadata": {
-                    "source": source,
-                    "url": url,
-                    "condition": condition,
-                    "risk_band": risk_band,
-                    "topics": life_topics + advice_sec + clinical_sec,
-                    "is_clinical": bool(clinical_sec),
-                    "is_advice": False 
-                },
-                "index_text": f"{title_en} {ch} {gloss_vi}"
+                    "source": filename,
+                    "type": "medical_protocol",
+                    "standard": std,
+                    "disease_name": disease_name,
+                    "part": idx + 1
+                }
+            })
+    return chunks    
+
+def process_theory_concept(text, filename, chunk_size=2000, overlap=200):
+    """
+    Xử lý sách lý thuyết: Cắt theo đoạn văn để giữ cấu trúc bảng/list.
+    Không dùng split() theo từ vì sẽ mất dấu xuống dòng.
+    """
+    chunks = []
+    
+    # 1. Làm sạch nhưng GIỮ NGUYÊN cấu trúc dòng
+    text = clean_and_normalize_text(text) 
+    
+    # 2. Cắt thông minh dựa trên hàm split_large_text đã có (giữ dấu chấm câu)
+    # Tăng chunk_size lên 2000-2500 để lấy trọn vẹn các bảng biểu lớn
+    sub_texts = split_large_text(text, max_chars=2500, overlap=300)
+
+    for i, sub_text in enumerate(sub_texts):
+        if len(sub_text) < 100: continue
+        
+        # Thêm chỉ dẫn nguồn rõ ràng
+        anchored_content = f"[Nguồn: {filename} | Loại: Lý thuyết/Sách giáo khoa | Phần {i+1}]\n{sub_text}"
+
+        chunks.append({
+            "id": str(uuid.uuid4()),
+            "content": anchored_content,
+            "metadata": {
+                "source": filename,
+                "type": "theory_concept",
+                "part": i + 1
             }
+        })
+    return chunks
+def process_workflow_session(text, filename):
+    """Xử lý Quy trình trị liệu (Brief CBT). Lọc bỏ mục lục."""
+    chunks = []
+    pattern = r"(?im)^((?:SESSION|PHIÊN|BUỔI|MODULE|CHAPTER|PHẦN)\s+(\d+))(.+?)(?=\n(?:SESSION|PHIÊN|BUỔI|MODULE|CHAPTER|PHẦN)\s+\d+|$)"
+    
+    matches = list(re.finditer(pattern, text, re.DOTALL))
+    if not matches:
+        return process_theory_concept(text, filename)
 
-            # ------------------------------------------------------
-            # 🛑 QUY TẮC AN TOÀN CỐT LÕI (CORE SAFETY RULES)
-            # ------------------------------------------------------
+    for match in matches:
+        full_block = match.group(0)
+        session_title = match.group(1).strip()
+        session_id = match.group(2).strip()
+        content_body = match.group(3).strip()
+
+        # Lọc bỏ nếu nội dung quá ngắn (nghi ngờ là Mục lục)
+        if len(content_body) < 150: 
+            continue 
+        
+        anchored_content = f"[Nguồn: {filename} | Loại: Quy trình thực hành]\n{clean_and_normalize_text(full_block)}"
+        sub_texts = split_large_text(anchored_content, max_chars=1500)
+
+        for idx, sub_text in enumerate(sub_texts):
+            chunks.append({
+                "id": str(uuid.uuid4()),
+                "content": sub_text,
+                "metadata": {
+                    "source": filename,
+                    "type": "workflow_guide",
+                    "session_id": session_id,
+                    "session_title": session_title,
+                    "part": idx + 1
+                }
+            })
+    return chunks
+
+def process_theory_concept(text, filename, chunk_size=1000, overlap=150):
+    """Xử lý sách lý thuyết (Cắt đoạn)."""
+    chunks = []
+    text = clean_and_normalize_text(text)
+    words = text.split()
+    if not words: return []
+
+    for i in range(0, len(words), chunk_size - overlap):
+        chunk_words = words[i : i + chunk_size]
+        chunk_str = " ".join(chunk_words)
+        if len(chunk_str) < 100: continue
+        
+        anchored_content = f"[Nguồn: {filename} | Loại: Lý thuyết]\n{chunk_str}"
+
+        chunks.append({
+            "id": str(uuid.uuid4()),
+            "content": anchored_content,
+            "metadata": {
+                "source": filename,
+                "type": "theory_concept"
+            }
+        })
+    return chunks
+
+def save_to_jsonl(chunks, filename):
+    if not chunks: 
+        print(f"⚠️ Không có chunk nào để lưu cho {filename}")
+        return
+    out_path = BASE_OUT_DIR / f"{filename.replace('.txt', '')}_chunked.jsonl"
+    with open(out_path, 'w', encoding='utf-8') as f:
+        for chunk in chunks:
+            f.write(json.dumps(chunk, ensure_ascii=False) + '\n')
+    print(f"✅ Saved {len(chunks)} chunks -> {out_path.name}")
+
+# ==============================================================================
+# 4. MAIN RUN
+# ==============================================================================
+def main():
+    print(f"🚀 PROCESSING DATA FROM: {RAW_INPUT_DIR}")
+    if not RAW_INPUT_DIR.exists(): 
+        print("❌ Input directory not found!")
+        return
+    
+    files = [f for f in os.listdir(RAW_INPUT_DIR) if f.lower().endswith('.txt')]
+    for filename in files:
+        strategy = FILE_STRATEGY_MAP.get(filename)
+        if not strategy: 
+            # Fallback cho file lạ
+            if "DSM" in filename: strategy = "medical_dsm5"
+            elif "ICD" in filename: strategy = "medical_icd11"
+            else: 
+                print(f"⏩ Skipping unknown file: {filename}")
+                continue
+        
+        print(f"📂 Processing: {filename} -> Strategy: {strategy}")
+        try:
+            with open(RAW_INPUT_DIR / filename, 'r', encoding='utf-8') as f:
+                content = f.read()
             
-            # Biến cờ nhận diện nguồn Chẩn đoán thuần túy
-            is_pure_diagnostic_source = "dsm" in source.lower() or "icd" in source.lower()
-
-            # 🟢 KHO 1: REASONING (Bác sĩ) - Lưu tất cả những gì có mùi Y khoa
-            if clinical_sec or "who" in source.lower() or is_pure_diagnostic_source:
-                subdir = OUT_DIR_REASONING / path.stem.lower()
-                subdir.mkdir(exist_ok=True)
-                with open(subdir / f"{sid}.json", "w", encoding="utf-8") as f:
-                    json.dump(item, f, ensure_ascii=False, indent=2)
-                stats["reasoning"] += 1
-
-            # 🟠 KHO 2: ADVICE (Counselor) - Chỉ lưu Lời khuyên An toàn
-            has_advice_content = (advice_sec or life_topics or "psychoeducation" in clinical_sec)
+            if strategy == "medical_dsm5":
+                chunks = process_dsm5(content, filename)
+            elif strategy == "medical_icd11": # ICD-11 thường cấu trúc giống protocol
+                chunks = process_medical_protocol(content, filename)
+            elif strategy == "medical_protocol":
+                chunks = process_medical_protocol(content, filename)
+            elif strategy == "workflow_session":
+                chunks = process_workflow_session(content, filename)
+            else:
+                chunks = process_theory_concept(content, filename)
             
-            if has_advice_content:
-                # 🔒 RULE 1: CHẶN High Risk (Tự sát -> Không khuyên lung tung)
-                if risk_band == "high":
-                    stats["high_risk_blocked"] += 1
-                    continue 
-
-                # 🔒 RULE 2: CHẶN Nguồn Chẩn đoán (DSM/ICD -> Không phải lời khuyên)
-                # Đây là fix cho trường hợp ASD "Habit" bạn phát hiện
-                if is_pure_diagnostic_source:
-                    stats["clinical_source_blocked"] += 1
-                    continue
-
-                # ✅ Đã qua các chốt chặn -> Lưu vào Advice
-                subdir = OUT_DIR_ADVICE / path.stem.lower()
-                subdir.mkdir(exist_ok=True)
-                
-                item_advice = item.copy()
-                item_advice["metadata"]["is_advice"] = True
-                item_advice["id"] = f"adv_{sid}"
-                
-                with open(subdir / f"adv_{sid}.json", "w", encoding="utf-8") as f:
-                    json.dump(item_advice, f, ensure_ascii=False, indent=2)
-                stats["advice"] += 1
-
-    print(f"="*50)
-    print(f"📊 THỐNG KÊ FINAL:")
-    print(f"   ✅ Reasoning DB:    {stats['reasoning']} chunks (Gồm cả DSM/ICD/mhGAP)")
-    print(f"   ✅ Advice DB:       {stats['advice']} chunks (Sạch, an toàn)")
-    print(f"   🛡️ Chặn High-Risk:  {stats['high_risk_blocked']} chunks")
-    print(f"   🛡️ Chặn DSM/ICD:    {stats['clinical_source_blocked']} chunks (Loại bỏ False Positive)")
-    print(f"="*50)
+            save_to_jsonl(chunks, filename)
+        except Exception as e:
+            print(f"❌ Error processing {filename}: {e}")
 
 if __name__ == "__main__":
     main()

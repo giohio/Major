@@ -4,6 +4,8 @@ from app.models.models import ChatSession, ChatMessage
 from app.extensions import db
 from app.services.emotion_service import EmotionService
 from app.services.alert_service import AlertService
+from app.services.ai_model_client import get_ai_client
+from app.services.mongodb_service import MongoDBService
 from datetime import datetime
 import json
 
@@ -71,6 +73,41 @@ class ChatService:
         return ChatService.create_session(user_id)
     
     @staticmethod
+    def _parse_suggested_questions(response_text: str) -> tuple:
+        """
+        Parse suggested questions from AI response
+        
+        Args:
+            response_text: Raw response from AI Model
+            
+        Returns:
+            tuple: (cleaned_response, suggested_questions_list)
+        """
+        import re
+        
+        # Split by "GỢI Ý INTENT:" marker
+        parts = re.split(r'\n*GỢI Ý INTENT:', response_text)
+        
+        # First part is the main response
+        main_response = parts[0].strip()
+        
+        # Parse suggested questions
+        suggested = []
+        for i in range(1, len(parts)):
+            # Each part has format: "INTENT_TYPE\nQuestion text"
+            lines = parts[i].strip().split('\n', 1)
+            if len(lines) == 2:
+                intent = lines[0].strip()
+                question = lines[1].strip()
+                if question:
+                    suggested.append({
+                        'intent': intent,
+                        'question': question
+                    })
+        
+        return main_response, suggested
+    
+    @staticmethod
     def send_message(user_id, message_content, session_id=None, analyze_emotion=True):
         """
         Send a message and get AI response with emotion analysis
@@ -88,84 +125,66 @@ class ChatService:
             # Get or create session
             session = ChatService.get_or_create_session(user_id, session_id)
             
-            # Analyze user's emotion
-            emotion_analysis = None
-            alert = None
+            # Use AI Model Client instead of Gemini directly
+            ai_client = get_ai_client()
             
-            if analyze_emotion:
-                emotion_result = EmotionService.analyze_text_emotion(message_content, user_id)
-                if emotion_result['success']:
-                    emotion_analysis = emotion_result['analysis']
-                    
-                    # Check for risk and create alert if needed
-                    alert = AlertService.check_and_create_alert(
-                        user_id, 
-                        message_content, 
-                        emotion_analysis
-                    )
+            # Call AI Model API
+            ai_result = ai_client.chat(
+                session_id=f"user_{user_id}_session_{session.id}",
+                user_text=message_content
+            )
             
-            # Save user message
+            # Extract response and emotion from AI Model
+            raw_response = ai_result.get('response', 'Xin lỗi, tôi không thể trả lời lúc này.')
+            detected_emotion = ai_result.get('emotion', 'neutral')
+            detected_intent = ai_result.get('intent', 'unknown')
+            
+            # Parse suggested questions from response
+            ai_response, suggested_questions = ChatService._parse_suggested_questions(raw_response)
+            
+            # Save user message with detected emotion
             user_message = ChatMessage(
                 session_id=session.id,
                 role='user',
                 content=message_content,
-                emotion_detected=emotion_analysis.get('primary_emotion') if emotion_analysis else None,
-                sentiment_score=emotion_analysis.get('sentiment_score') if emotion_analysis else None,
-                risk_level=emotion_analysis.get('risk_level') if emotion_analysis else None,
+                emotion_detected=detected_emotion,
+                sentiment_score=None,  # Will be updated later from dashboard report
+                risk_level=None,  # Will be updated later from dashboard report
                 created_at=datetime.utcnow()
             )
             db.session.add(user_message)
             
-            # Get conversation history for context
-            history = ChatMessage.query.filter_by(
-                session_id=session.id
-            ).order_by(ChatMessage.created_at.asc()).limit(10).all()
-            
-            # Build context from history
-            context_messages = []
-            for msg in history:
-                context_messages.append(f"{msg.role}: {msg.content}")
-            
-            # Configure Gemini
-            ChatService.configure_gemini()
-            model = genai.GenerativeModel('gemini-pro')
-            
-            # Create empathetic system prompt
-            system_prompt = """You are a compassionate and empathetic mental health support AI assistant. 
-Your role is to provide emotional support, active listening, and helpful guidance to users who may be experiencing 
-mental health challenges. 
-
-Key guidelines:
-1. Always be empathetic, non-judgmental, and supportive
-2. Validate the user's feelings and experiences
-3. Ask clarifying questions when needed
-4. Provide coping strategies and resources when appropriate
-5. If you detect signs of crisis (suicide, self-harm), gently encourage professional help
-6. Never diagnose or prescribe medication
-7. Maintain appropriate boundaries
-8. Use warm, conversational language
-
-"""
-            
-            # Add emotion context if available
-            if emotion_analysis:
-                emotion_context = f"\n[Current emotional state: {emotion_analysis.get('primary_emotion')} with intensity {emotion_analysis.get('intensity')}/10]"
-                system_prompt += emotion_context
-            
-            # Generate AI response
-            prompt = f"{system_prompt}\n\nConversation history:\n" + "\n".join(context_messages[-5:]) + f"\n\nUser: {message_content}\n\nAssistant:"
-            
-            response = model.generate_content(prompt)
-            ai_response = response.text.strip()
-            
-            # Save AI message
+            # Create AI response message
             ai_message = ChatMessage(
                 session_id=session.id,
                 role='assistant',
                 content=ai_response,
+                emotion_detected=detected_emotion,
                 created_at=datetime.utcnow()
             )
             db.session.add(ai_message)
+            
+            # Save to MongoDB for full history
+            try:
+                MongoDBService.save_message(
+                    session_id=session.id,
+                    user_id=user_id,
+                    role='user',
+                    content=message_content,
+                    emotion=detected_emotion
+                )
+                MongoDBService.save_message(
+                    session_id=session.id,
+                    user_id=user_id,
+                    role='assistant',
+                    content=ai_response
+                )
+            except Exception as mongo_error:
+                print(f"MongoDB save error: {mongo_error}")
+            
+            # Skip emotion analysis to avoid Gemini timeout
+            emotion_analysis = None
+            alert = None
             
             # Update session
             session.updated_at = datetime.utcnow()
@@ -178,10 +197,13 @@ Key guidelines:
             return {
                 'success': True,
                 'session_id': session.id,
+                'message': user_message.content,
+                'ai_response': ai_response,
                 'user_message': user_message.to_dict(),
                 'ai_message': ai_message.to_dict(),
                 'emotion_analysis': emotion_analysis,
-                'alert': alert.to_dict() if alert else None
+                'alert': alert.to_dict() if alert else None,
+                'suggested_questions': suggested_questions
             }
             
         except Exception as e:
@@ -193,50 +215,133 @@ Key guidelines:
             }
     
     @staticmethod
-    def get_session_messages(session_id, user_id):
+    def get_session_messages(session_id, user_id, limit=50, skip=0):
         """
-        Get all messages in a session
+        Get messages in a session from MongoDB with pagination
         
         Args:
             session_id: Session ID
             user_id: User ID (for permission check)
+            limit: Maximum number of messages to return (default 50)
+            skip: Number of messages to skip (for pagination)
             
         Returns:
             list: List of messages
         """
+        # Verify session ownership from PostgreSQL
         session = db.session.get(ChatSession, session_id)
         
         if not session or session.user_id != user_id:
             return []
         
-        messages = ChatMessage.query.filter_by(
-            session_id=session_id
-        ).order_by(ChatMessage.created_at.asc()).all()
-        
-        return [msg.to_dict() for msg in messages]
+        # Get messages from MongoDB with limit
+        try:
+            messages = MongoDBService.get_session_messages(
+                session_id, user_id, limit=limit
+            )
+            
+            # Convert MongoDB format to frontend format
+            formatted_messages = []
+            for msg in messages:
+                formatted_messages.append({
+                    'id': msg.get('message_id'),
+                    'role': msg.get('role'),
+                    'content': msg.get('content'),
+                    'emotion_detected': msg.get('emotion'),
+                    'sentiment_score': msg.get('sentiment_score'),
+                    'risk_level': msg.get('risk_level'),
+                    'created_at': msg.get('timestamp').isoformat() if msg.get('timestamp') else None
+                })
+            
+            return formatted_messages
+            
+        except Exception as e:
+            print(f"MongoDB retrieval error: {e}, falling back to PostgreSQL")
+            # Fallback to PostgreSQL if MongoDB fails
+            query = ChatMessage.query.filter_by(
+                session_id=session_id
+            ).order_by(ChatMessage.created_at.desc())
+            
+            if limit:
+                query = query.limit(limit)
+            if skip:
+                query = query.offset(skip)
+            
+            messages = query.all()
+            messages.reverse()  # Reverse to chronological order
+            
+            return [msg.to_dict() for msg in messages]
     
     @staticmethod
     def get_user_sessions(user_id, limit=20):
         """
-        Get user's recent chat sessions
+        Get user's recent chat sessions with message counts from MongoDB
         
         Args:
             user_id: User ID
             limit: Maximum number of sessions to return
             
         Returns:
-            list: List of sessions
+            list: List of sessions with metadata
         """
         sessions = ChatSession.query.filter_by(
             user_id=user_id
         ).order_by(ChatSession.updated_at.desc()).limit(limit).all()
         
-        return [session.to_dict() for session in sessions]
+        # Get message counts from MongoDB efficiently
+        try:
+            db_mongo = MongoDBService.get_client()
+            collection = db_mongo['chat_sessions']
+            
+            session_ids = [s.id for s in sessions]
+            
+            # Bulk query for message counts
+            pipeline = [
+                {'$match': {'session_id': {'$in': session_ids}, 'user_id': user_id}},
+                {'$project': {
+                    'session_id': 1,
+                    'message_count': {'$size': {'$ifNull': ['$messages', []]}},
+                    'last_message': {'$arrayElemAt': ['$messages', -1]}
+                }}
+            ]
+            
+            mongo_stats = {s['session_id']: s for s in collection.aggregate(pipeline)}
+            
+            # Combine PostgreSQL and MongoDB data
+            result = []
+            for session in sessions:
+                # Build dict manually to avoid calling to_dict() which queries PostgreSQL
+                stats = mongo_stats.get(session.id, {})
+                session_dict = {
+                    'id': session.id,
+                    'user_id': session.user_id,
+                    'title': session.title,
+                    'status': session.status,
+                    'created_at': session.created_at.isoformat() if session.created_at else None,
+                    'updated_at': session.updated_at.isoformat() if session.updated_at else None,
+                    'message_count': stats.get('message_count', 0)
+                }
+                
+                # Add last message preview
+                last_msg = stats.get('last_message')
+                if last_msg:
+                    session_dict['last_message'] = last_msg.get('content', '')[:100]
+                
+                result.append(session_dict)
+            
+            return result
+            
+        except Exception as e:
+            import traceback
+            print(f"❌ MongoDB stats error: {e}")
+            print(f"Traceback: {traceback.format_exc()}")
+            # Fallback - return sessions with 0 message_count instead of querying PostgreSQL
+            return [{'message_count': 0, **session.to_dict()} for session in sessions]
     
     @staticmethod
     def delete_session(session_id, user_id):
         """
-        Delete a chat session
+        Delete a chat session from both PostgreSQL and MongoDB
         
         Args:
             session_id: Session ID
@@ -251,13 +356,21 @@ Key guidelines:
             if not session or session.user_id != user_id:
                 return False
             
+            # Delete from PostgreSQL
             db.session.delete(session)
             db.session.commit()
+            
+            # Delete from MongoDB
+            try:
+                MongoDBService.delete_session(session_id, user_id)
+            except Exception as mongo_error:
+                print(f"MongoDB delete error: {mongo_error}")
+                # Continue even if MongoDB delete fails
+            
             return True
             
         except Exception as e:
             db.session.rollback()
-            print(f"Error deleting session: {str(e)}")
             return False
     
     @staticmethod

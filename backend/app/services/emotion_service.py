@@ -1,6 +1,6 @@
 import google.generativeai as genai
 from flask import current_app
-from app.models.models import EmotionLog, Alert
+from app.models.models import Alert
 from app.extensions import db
 from datetime import datetime
 import json
@@ -73,18 +73,8 @@ class EmotionService:
                     'needs_attention': False
                 }
             
-            # Save emotion log if user_id provided
-            if user_id:
-                emotion_log = EmotionLog(
-                    user_id=user_id,
-                    emotion=result.get('primary_emotion', 'neutral'),
-                    intensity=result.get('intensity', 5),
-                    sentiment_score=result.get('sentiment_score', 0.0),
-                    triggers=result.get('triggers', ''),
-                    logged_at=datetime.utcnow()
-                )
-                db.session.add(emotion_log)
-                db.session.commit()
+            # Note: Emotions are now stored in ChatMessage, not EmotionLog
+            # This function only returns analysis; saving happens in chat routes
             
             return {
                 'success': True,
@@ -129,13 +119,19 @@ class EmotionService:
         else:
             start_date = now - timedelta(days=7)
         
-        # Get emotion logs
-        logs = EmotionLog.query.filter(
-            EmotionLog.user_id == user_id,
-            EmotionLog.logged_at >= start_date
-        ).order_by(EmotionLog.logged_at.desc()).all()
+        # Get emotion data from chat messages
+        from app.models.models import ChatMessage, ChatSession
         
-        if not logs:
+        messages = db.session.query(ChatMessage)\
+            .join(ChatSession)\
+            .filter(
+                ChatSession.user_id == user_id,
+                ChatMessage.role == 'user',
+                ChatMessage.emotion_detected.isnot(None),
+                ChatMessage.created_at >= start_date
+            ).order_by(ChatMessage.created_at.desc()).all()
+        
+        if not messages:
             return {
                 'period': period,
                 'total_logs': 0,
@@ -147,17 +143,15 @@ class EmotionService:
         
         # Calculate statistics
         emotion_counts = {}
-        total_intensity = 0
         total_sentiment = 0
         
-        for log in logs:
-            emotion_counts[log.emotion] = emotion_counts.get(log.emotion, 0) + 1
-            total_intensity += log.intensity
-            if log.sentiment_score:
-                total_sentiment += float(log.sentiment_score)
+        for msg in messages:
+            emotion_counts[msg.emotion_detected] = emotion_counts.get(msg.emotion_detected, 0) + 1
+            if msg.sentiment_score:
+                total_sentiment += float(msg.sentiment_score)
         
-        avg_intensity = total_intensity / len(logs)
-        avg_sentiment = total_sentiment / len(logs)
+        avg_sentiment = total_sentiment / len(messages)
+        avg_intensity = 5  # Default value for backward compatibility
         
         # Determine trend
         if avg_sentiment > 0.3:
@@ -169,10 +163,15 @@ class EmotionService:
         
         return {
             'period': period,
-            'total_logs': len(logs),
+            'total_logs': len(messages),
             'emotion_distribution': emotion_counts,
             'average_intensity': round(avg_intensity, 2),
             'average_sentiment': round(avg_sentiment, 2),
             'trend': trend,
-            'recent_logs': [log.to_dict() for log in logs[:10]]
+            'recent_logs': [{
+                'id': msg.id,
+                'emotion': msg.emotion_detected,
+                'sentiment_score': float(msg.sentiment_score) if msg.sentiment_score else 0,
+                'created_at': msg.created_at.isoformat()
+            } for msg in messages[:10]]
         }

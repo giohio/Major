@@ -1,0 +1,149 @@
+# Page snapshot
+
+```yaml
+- main [ref=e4]:
+  - generic [ref=e5]:
+    - navigation [ref=e6]:
+      - generic [ref=e7]:
+        - link "MindCare AI" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img [ref=e10]
+          - generic [ref=e18]: MindCare AI
+        - generic [ref=e19]:
+          - button "Toggle theme" [ref=e20]: 🌙
+          - link "Đăng nhập" [ref=e21] [cursor=pointer]:
+            - /url: /login
+            - button "Đăng nhập" [ref=e22]
+          - link "Bắt đầu ngay" [ref=e23] [cursor=pointer]:
+            - /url: /register
+            - button "Bắt đầu ngay" [ref=e24]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - img [ref=e29]
+        - generic [ref=e37]: Trợ lý sức khỏe tâm lý AI hàng đầu
+      - heading "Chăm sóc tâm lý trong tầm tay bạn" [level=1] [ref=e38]:
+        - text: Chăm sóc tâm lý
+        - generic [ref=e39]:
+          - text: trong tầm tay bạn
+          - img [ref=e40]
+      - paragraph [ref=e42]:
+        - text: Kết nối với AI chatbot thấu hiểu, bác sĩ chuyên khoa tận tâm và công cụ theo dõi cảm xúc thông minh.
+        - generic [ref=e43]: An toàn. Bảo mật. Luôn bên bạn 24/7.
+      - generic [ref=e44]:
+        - link "Trải nghiệm miễn phí" [ref=e45] [cursor=pointer]:
+          - /url: /register
+          - button "Trải nghiệm miễn phí" [ref=e46]:
+            - text: Trải nghiệm miễn phí
+            - img
+        - button "Tìm hiểu thêm" [ref=e47]
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - generic [ref=e50]: 50K+
+          - generic [ref=e51]: Người dùng tin tưởng
+        - generic [ref=e52]:
+          - generic [ref=e53]: 4.9/5
+          - generic [ref=e54]: Đánh giá hài lòng
+        - generic [ref=e55]:
+          - generic [ref=e56]: 24/7
+          - generic [ref=e57]: Hỗ trợ tức thì
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - heading "Tính năng vượt trội" [level=2] [ref=e61]
+        - paragraph [ref=e62]: Công nghệ AI tiên tiến kết hợp với chuyên môn y khoa
+      - generic [ref=e63]:
+        - generic [ref=e66]:
+          - img [ref=e68]
+          - heading "AI Chatbot 24/7" [level=3] [ref=e76]
+          - paragraph [ref=e77]: Trò chuyện với AI thông minh, thấu hiểu cảm xúc để nhận hỗ trợ tâm lý bất cứ lúc nào, mọi nơi.
+        - generic [ref=e80]:
+          - img [ref=e82]
+          - heading "Bác sĩ chuyên khoa" [level=3] [ref=e87]
+          - paragraph [ref=e88]: Kết nối và tư vấn 1-1 với mạng lưới các chuyên gia tâm lý hàng đầu, giàu kinh nghiệm.
+        - generic [ref=e91]:
+          - img [ref=e93]
+          - heading "Theo dõi cảm xúc" [level=3] [ref=e95]
+          - paragraph [ref=e96]: Biểu đồ trực quan giúp bạn ghi lại và nhận diện xu hướng tâm trạng của bản thân mỗi ngày.
+        - generic [ref=e99]:
+          - img [ref=e101]
+          - heading "Cộng đồng hỗ trợ" [level=3] [ref=e103]
+          - paragraph [ref=e104]: Tham gia vào cộng đồng an toàn, nơi bạn có thể chia sẻ và nhận được sự đồng cảm.
+        - generic [ref=e107]:
+          - img [ref=e109]
+          - heading "Lịch hẹn thông minh" [level=3] [ref=e111]
+          - paragraph [ref=e112]: Dễ dàng đặt lịch, quản lý cuộc hẹn và nhận nhắc nhở tự động để không bỏ lỡ buổi tư vấn.
+        - generic [ref=e115]:
+          - img [ref=e117]
+          - heading "Bảo mật tuyệt đối" [level=3] [ref=e120]
+          - paragraph [ref=e121]: Dữ liệu của bạn được mã hóa cấp cao nhất, đảm bảo sự riêng tư và an toàn tuyệt đối.
+    - generic [ref=e123]:
+      - generic [ref=e124]:
+        - heading "Trusted by the community" [level=2] [ref=e125]
+        - generic [ref=e126]:
+          - img [ref=e127]
+          - img [ref=e129]
+          - img [ref=e131]
+          - img [ref=e133]
+          - img [ref=e135]
+        - paragraph [ref=e137]: Hơn 50,000 người đã cải thiện sức khỏe tinh thần
+      - generic [ref=e138]:
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - img [ref=e141]
+            - img [ref=e143]
+            - img [ref=e145]
+            - img [ref=e147]
+            - img [ref=e149]
+          - paragraph [ref=e151]: "\"MindCare truly changed my life. Having access to mental health support anytime helped me through difficult times.\""
+          - generic [ref=e152]:
+            - generic [ref=e153]: "N"
+            - generic [ref=e154]:
+              - generic [ref=e155]: Nguyen Van A
+              - generic [ref=e156]: Office Worker
+        - generic [ref=e157]:
+          - generic [ref=e158]:
+            - img [ref=e159]
+            - img [ref=e161]
+            - img [ref=e163]
+            - img [ref=e165]
+            - img [ref=e167]
+          - paragraph [ref=e169]: "\"Chatbot AI rất thông minh và bác sĩ tư vấn nhiệt tình. Tôi cảm thấy tự tin hơn nhiều sau khi sử dụng dịch vụ.\""
+          - generic [ref=e170]:
+            - generic [ref=e171]: T
+            - generic [ref=e172]:
+              - generic [ref=e173]: Trần Thị B
+              - generic [ref=e174]: Sinh viên
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - img [ref=e177]
+            - img [ref=e179]
+            - img [ref=e181]
+            - img [ref=e183]
+            - img [ref=e185]
+          - paragraph [ref=e187]: "\"Giao diện đẹp, dễ sử dụng và quan trọng nhất là bảo mật tuyệt đối. Tôi hoàn toàn tin tưởng vào MindCare.\""
+          - generic [ref=e188]:
+            - generic [ref=e189]: L
+            - generic [ref=e190]:
+              - generic [ref=e191]: Lê Văn C
+              - generic [ref=e192]: Giáo viên
+    - generic [ref=e196]:
+      - heading "Sẵn sàng cho một tâm trí khỏe mạnh hơn?" [level=2] [ref=e197]:
+        - text: Sẵn sàng cho một tâm trí
+        - text: khỏe mạnh hơn?
+      - paragraph [ref=e198]: Hãy để MindCare đồng hành cùng bạn trên hành trình chăm sóc sức khỏe tinh thần. Bắt đầu ngay hôm nay, hoàn toàn miễn phí.
+      - link "Đăng ký ngay" [ref=e200] [cursor=pointer]:
+        - /url: /register
+        - button "Đăng ký ngay" [ref=e201]
+      - paragraph [ref=e202]: Không cần thẻ tín dụng • Hủy bất cứ lúc nào
+    - generic [ref=e204]:
+      - generic [ref=e205]:
+        - img [ref=e207]
+        - generic [ref=e215]: MindCare AI
+      - generic [ref=e216]: © 2025 MindCare. All rights reserved.
+      - generic [ref=e217]:
+        - link "Terms" [ref=e218] [cursor=pointer]:
+          - /url: "#"
+        - link "Bảo mật" [ref=e219] [cursor=pointer]:
+          - /url: "#"
+        - link "Liên hệ" [ref=e220] [cursor=pointer]:
+          - /url: "#"
+```

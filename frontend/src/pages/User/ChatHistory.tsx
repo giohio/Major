@@ -63,7 +63,7 @@ const ChatHistory = () => {
   const completedSessions = sessions.filter(s => s.status === 'completed').length;
 
   if (loading) {
-    return <div className="flex items-center justify-center h-screen">Đang tải...</div>;
+    return <div className="flex items-center justify-center h-screen">Loading...</div>;
   }
 
   return (

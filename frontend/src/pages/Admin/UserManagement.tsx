@@ -5,8 +5,8 @@ import { Button } from '../../components/ui/button';
 import { Input } from '../../components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../../components/ui/select';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '../../components/ui/table';
-import { Users, Search, Filter, Crown, MoreVertical, Mail, Phone, Edit, Trash2, Check, X } from 'lucide-react';
-import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from '../../components/ui/dialog';
+import { Users, Search, Filter, Crown, Mail, Phone, Edit, Trash2, Check, X } from 'lucide-react';
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from '../../components/ui/dialog';
 import { Label } from '../../components/ui/label';
 import { apiClient } from '../../services/api.client';
 import { API_ENDPOINTS } from '../../config/api.config';
@@ -134,7 +134,7 @@ const UserManagement = () => {
             Quản lý tài khoản người dùng và bác sĩ trong hệ thống
           </p>
         </div>
-        <Button className="gap-2" onClick={() => toast.info('Chức năng thêm người dùng đang phát triển')}>
+        <Button className="gap-2" onClick={() => toast.info('Add user feature under development')}>
           <Users className="w-4 h-4" />
           Thêm người dùng mới
         </Button>
@@ -217,7 +217,7 @@ const UserManagement = () => {
               <TableBody>
                 {loading ? (
                   <TableRow>
-                    <TableCell colSpan={7} className="text-center py-8">Đang tải...</TableCell>
+                    <TableCell colSpan={7} className="text-center py-8">Loading...</TableCell>
                   </TableRow>
                 ) : filteredUsers.length === 0 ? (
                   <TableRow>

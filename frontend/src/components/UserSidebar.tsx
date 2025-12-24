@@ -27,15 +27,15 @@ const UserSidebar = () => {
   const { logout } = useAuth();
 
   const menuItems = [
-    { path: '/user/profile', icon: User, label: 'Trang cá nhân' },
-    { path: '/user/dashboard', icon: BarChart3, label: 'Dashboard cảm xúc' },
-    { path: '/chat', icon: MessageCircle, label: 'Chat với AI' },
-    { path: '/user/find-doctor', icon: Users, label: 'Tìm bác sĩ' },
-    { path: '/user/appointments', icon: Calendar, label: 'Lịch hẹn của tôi' },
-    { path: '/user/alert', icon: AlertCircle, label: 'Cảnh báo' },
-    { path: '/user/exercises', icon: Heart, label: 'Bài tập' },
-    { path: '/user/history', icon: FileText, label: 'Lịch sử' },
-    { path: '/user/payments', icon: CreditCard, label: 'Thanh toán' },
+    { path: '/user/profile', icon: User, label: 'Profile' },
+    { path: '/user/dashboard', icon: BarChart3, label: 'Emotion Dashboard' },
+    { path: '/chat', icon: MessageCircle, label: 'Chat with AI' },
+    { path: '/user/find-doctor', icon: Users, label: 'Find Doctors' },
+    { path: '/user/appointments', icon: Calendar, label: 'My Appointments' },
+    { path: '/user/alert', icon: AlertCircle, label: 'Alerts' },
+    { path: '/user/exercises', icon: Heart, label: 'Exercises' },
+    { path: '/user/history', icon: FileText, label: 'History' },
+    { path: '/user/payments', icon: CreditCard, label: 'Payments' },
   ];
 
   const handleLogout = () => {
@@ -96,7 +96,7 @@ const UserSidebar = () => {
             className="flex items-center gap-3 px-4 py-3 rounded-lg text-sidebar-foreground hover:bg-sidebar-accent/50 transition-colors"
           >
             <Settings size={20} />
-            <span className="font-medium">Cài đặt</span>
+            <span className="font-medium">Settings</span>
           </Link>
           <Button
             variant="outline"
@@ -104,15 +104,15 @@ const UserSidebar = () => {
             onClick={handleLogout}
           >
             <LogOut size={20} />
-            <span>Đăng xuất</span>
+            <span>Logout</span>
           </Button>
 
           <div className="mt-4 p-4 rounded-lg bg-destructive/10 border border-destructive/20">
             <div className="flex items-start gap-2">
               <Phone size={16} className="text-destructive mt-0.5" />
               <div>
-                <h4 className="font-semibold text-sm text-foreground">Khẩn cấp?</h4>
-                <p className="text-xs text-muted-foreground">Hotline 24/7</p>
+                <h4 className="font-semibold text-sm text-foreground">Emergency?</h4>
+                <p className="text-xs text-muted-foreground">24/7 Hotline</p>
                 <a
                   href="tel:1900xxxx"
                   className="text-sm font-bold text-destructive hover:underline"

@@ -143,7 +143,7 @@ const LandingPage = () => {
       <section className="py-24 px-6 bg-muted/30 relative overflow-hidden">
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">Được tin dùng bởi cộng đồng</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">Trusted by the community</h2>
             <div className="flex justify-center gap-1 mb-2">
               {[1, 2, 3, 4, 5].map((star) => (
                 <Star key={star} className="w-6 h-6 fill-yellow-400 text-yellow-400 animate-pulse" style={{ animationDelay: `${star * 100}ms` }} />
@@ -154,7 +154,7 @@ const LandingPage = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { name: 'Nguyễn Văn A', role: 'Nhân viên văn phòng', text: 'MindCare thực sự thay đổi cuộc sống của tôi. Việc có quyền truy cập vào hỗ trợ tâm lý bất cứ lúc nào đã giúp tôi vượt qua những thời điểm khó khăn.' },
+              { name: 'Nguyen Van A', role: 'Office Worker', text: 'MindCare truly changed my life. Having access to mental health support anytime helped me through difficult times.' },
               { name: 'Trần Thị B', role: 'Sinh viên', text: 'Chatbot AI rất thông minh và bác sĩ tư vấn nhiệt tình. Tôi cảm thấy tự tin hơn nhiều sau khi sử dụng dịch vụ.' },
               { name: 'Lê Văn C', role: 'Giáo viên', text: 'Giao diện đẹp, dễ sử dụng và quan trọng nhất là bảo mật tuyệt đối. Tôi hoàn toàn tin tưởng vào MindCare.' }
             ].map((testimonial, i) => (
@@ -219,7 +219,7 @@ const LandingPage = () => {
             &copy; 2025 MindCare. All rights reserved.
           </div>
           <div className="flex gap-6 text-sm text-muted-foreground">
-            <a href="#" className="hover:text-purple-600 transition-colors">Điều khoản</a>
+            <a href="#" className="hover:text-purple-600 transition-colors">Terms</a>
             <a href="#" className="hover:text-purple-600 transition-colors">Bảo mật</a>
             <a href="#" className="hover:text-purple-600 transition-colors">Liên hệ</a>
           </div>

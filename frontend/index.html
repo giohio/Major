@@ -10,6 +10,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Caveat:wght@700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <title>MindCare AI - Chăm sóc sức khỏe tinh thần với AI</title>
+    <script>
+      // Polyfills for simple-peer MUST be loaded before any module
+      window.global = window;
+      window.process = {
+        env: {},
+        nextTick: function(fn) {
+          setTimeout(fn, 0);
+        },
+        version: '',
+        browser: true
+      };
+    </script>
   </head>
   <body>
     <div id="root"></div>

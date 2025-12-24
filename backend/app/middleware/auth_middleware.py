@@ -3,6 +3,7 @@ from flask import jsonify
 from flask_jwt_extended import verify_jwt_in_request, get_jwt_identity
 from app.models.models import User
 from app.extensions import db
+import time
 
 def token_required(fn):
     """
@@ -10,6 +11,7 @@ def token_required(fn):
     """
     @wraps(fn)
     def wrapper(*args, **kwargs):
+        start = time.time()
         try:
             verify_jwt_in_request()
             current_user_id = get_jwt_identity()
@@ -21,10 +23,14 @@ def token_required(fn):
                 
             if not user.is_active:
                 return jsonify({'error': 'Account is inactive'}), 403
-                
+            
+            elapsed = (time.time() - start) * 1000
+            print(f"[AUTH] Token verification took {elapsed:.1f}ms")
             return fn(current_user=user, *args, **kwargs)
             
         except Exception as e:
+            elapsed = (time.time() - start) * 1000
+            print(f"[AUTH] Token verification failed after {elapsed:.1f}ms: {e}")
             return jsonify({'error': 'Invalid or expired token', 'details': str(e)}), 401
             
     return wrapper

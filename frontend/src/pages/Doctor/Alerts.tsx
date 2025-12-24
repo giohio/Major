@@ -3,6 +3,7 @@ import { Badge } from '../../components/ui/badge';
 import { Button } from '../../components/ui/button';
 import { Alert, AlertDescription, AlertTitle } from '../../components/ui/alert';
 import { AlertCircle, AlertTriangle, TrendingDown, Clock, CheckCircle } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 interface DoctorAlert {
   id: number;
@@ -25,6 +26,7 @@ import { toast } from 'sonner';
 const Alerts = () => {
   const [alerts, setAlerts] = useState<DoctorAlert[]>([]);
   const [loading, setLoading] = useState(true);
+  const navigate = useNavigate();
 
   const mapAlertType = (type: string): 'critical' | 'warning' | 'info' => {
     switch (type) {
@@ -160,7 +162,7 @@ const Alerts = () => {
       {/* Alerts List */}
       <div className="space-y-4">
         {loading ? (
-          <div className="text-center py-12 text-muted-foreground">Đang tải cảnh báo...</div>
+          <div className="text-center py-12 text-muted-foreground">Loading alerts...</div>
         ) : (
           alerts.map((alert) => (
             <Alert
@@ -191,14 +193,22 @@ const Alerts = () => {
                   </div>
 
                   <div className="flex gap-2 mt-3">
-                    <Button size="sm">
+                    <Button size="sm" onClick={() => navigate(`/doctor/patients/${alert.patientId}`)}>
                       Xem hồ sơ
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button variant="outline" size="sm" onClick={() => navigate(`/doctor/chat/${alert.patientId}`)}>
                       Liên hệ
                     </Button>
                     {!alert.read && (
-                      <Button variant="ghost" size="sm">
+                      <Button variant="ghost" size="sm" onClick={async () => {
+                        try {
+                          await apiClient.post(`${API_ENDPOINTS.DOCTOR.ALERTS}/${alert.id}/resolve`);
+                          toast.success('Đã đánh dấu đã đọc');
+                          fetchAlerts();
+                        } catch (error) {
+                          toast.error('Không thể cập nhật');
+                        }
+                      }}>
                         Đánh dấu đã đọc
                       </Button>
                     )}

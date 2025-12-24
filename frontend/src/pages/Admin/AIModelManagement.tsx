@@ -98,9 +98,9 @@ const AIModelManagement = () => {
   const getStatusBadge = (status: string) => {
     switch (status) {
       case 'active':
-        return <Badge className="bg-green-600">Đang hoạt động</Badge>;
+        return <Badge className="bg-green-600">Active</Badge>;
       case 'training':
-        return <Badge className="bg-yellow-600">Đang training</Badge>;
+        return <Badge className="bg-yellow-600">Training</Badge>;
       case 'idle':
         return <Badge variant="secondary">Không hoạt động</Badge>;
       default:
@@ -203,7 +203,7 @@ const AIModelManagement = () => {
                   </div>
                   {model.latency > 0 && (
                     <div className="text-xs text-muted-foreground">
-                      {model.latency < 200 ? '✓ Tốt' : model.latency < 300 ? '⚠ Chấp nhận được' : '✗ Cần tối ưu'}
+                      {model.latency < 200 ? '✓ Good' : model.latency < 300 ? '⚠ Acceptable' : '✗ Needs Optimization'}
                     </div>
                   )}
                 </div>
@@ -233,7 +233,7 @@ const AIModelManagement = () => {
                     </span>
                   </div>
                   <div className="text-xs text-muted-foreground">
-                    {model.status === 'training' ? 'Đang training...' : 'Hoạt động bình thường'}
+                    {model.status === 'training' ? 'Training...' : 'Operating normally'}
                   </div>
                 </div>
               </div>

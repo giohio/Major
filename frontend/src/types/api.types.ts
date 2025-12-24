@@ -346,6 +346,48 @@ export interface PaginatedResponse<T> {
   pages: number;
 }
 
+// Plan Limits types
+export interface PlanLimits {
+  plan_name: string;
+  features: {
+    chat: {
+      limit: number;
+      remaining: number;
+      unlimited: boolean;
+    };
+    doctor_access: {
+      enabled: boolean;
+      message?: string;
+    };
+    video: {
+      enabled: boolean;
+      message?: string;
+    };
+    appointments: {
+      enabled: boolean;
+      free_remaining: number;
+      has_discount: boolean;
+      discount_percentage?: number;
+    };
+  };
+  subscription: {
+    status: string;
+    start_date?: string;
+    end_date?: string;
+  };
+}
+
+// Appointment Booking Response
+export interface AppointmentBookingResponse {
+  message: string;
+  appointment: Appointment;
+  payment_url?: string;
+  amount?: number;
+  is_free?: boolean;
+  has_discount?: boolean;
+  free_sessions_remaining?: number;
+}
+
 // Error types
 export interface ApiError {
   error: string;
@@ -354,3 +396,38 @@ export interface ApiError {
   upgrade_required?: boolean;
   current_plan?: string;
 }
+
+// ML Model - Emotion Analysis types
+export interface EmotionAnalysisMessage {
+  role: 'user' | 'assistant';
+  content: string;
+}
+
+export interface EmotionAnalysisRequest {
+  conversation: EmotionAnalysisMessage[];
+}
+
+export interface EmotionalProgressionStep {
+  step: number;
+  emotion: string;
+  intensity: number;
+  sentiment: number;
+  timestamp: string;
+}
+
+export interface SessionAnalysis {
+  dominant_emotion: string;
+  emotional_breakdown: Record<string, number>;
+  overall_sentiment: number;
+  intensity_average: number;
+  risk_level?: 'low' | 'medium' | 'high';
+}
+
+export interface EmotionAnalysisResponse {
+  session_analysis: SessionAnalysis;
+  emotional_progression: EmotionalProgressionStep[];
+  trend: 'improving' | 'declining' | 'stable';
+  triggers: string[];
+  summary_message: string;
+}
+

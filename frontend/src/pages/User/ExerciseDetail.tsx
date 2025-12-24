@@ -21,6 +21,7 @@ import {
 import { apiClient } from '../../services/api.client';
 import { API_ENDPOINTS } from '../../config/api.config';
 import { toast } from 'sonner';
+import { BreathingCircle } from '../../components/BreathingCircle';
 
 interface Exercise {
     id: number;
@@ -86,6 +87,13 @@ const ExerciseDetail = () => {
         return () => clearInterval(interval);
     }, [isRunning, timeLeft]);
 
+    // Show completion dialog when timer finishes
+    useEffect(() => {
+        if (timeLeft === 0 && !showCompletion) {
+            setShowCompletion(true);
+        }
+    }, [timeLeft, showCompletion]);
+
     const handleStart = async () => {
         if (!exercise) return;
 
@@ -93,9 +101,17 @@ const ExerciseDetail = () => {
             await apiClient.post(API_ENDPOINTS.EXERCISE.START(exercise.id), {});
             setIsRunning(true);
             toast.success('Bắt đầu bài tập!');
-        } catch (error: unknown) {
+        } catch (error: any) {
             console.error('Failed to start exercise:', error);
-            toast.error('Không thể bắt đầu bài tập');
+            const errorMessage = error?.message || error?.error || error?.data?.error || 'Không thể bắt đầu bài tập';
+            console.error('[ExerciseDetail] Start error details:', {
+                message: error?.message,
+                error: error?.error,
+                data: error?.data,
+                status: error?.status,
+                full: error
+            });
+            toast.error(errorMessage);
         }
     };
 
@@ -181,7 +197,7 @@ const ExerciseDetail = () => {
             <div className="flex items-center justify-center h-screen">
                 <div className="text-center">
                     <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
-                    <p>Đang tải bài tập...</p>
+                    <p>Loading exercise...</p>
                 </div>
             </div>
         );
@@ -232,6 +248,11 @@ const ExerciseDetail = () => {
             {/* Timer */}
             <Card>
                 <CardContent className="pt-6">
+                    {/* Breathing Animation for breathing exercises */}
+                    {exercise.category === 'breathing' && isRunning && (
+                        <BreathingCircle isActive={isRunning} />
+                    )}
+                    
                     <div className="text-center space-y-4">
                         <div className="text-6xl font-bold text-primary">{formatTime(timeLeft)}</div>
                         <Progress value={progressPercentage} className="h-2" />

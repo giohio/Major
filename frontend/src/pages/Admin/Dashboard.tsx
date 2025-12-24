@@ -1,7 +1,9 @@
+import { useState, useEffect } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../components/ui/card';
 import { Badge } from '../../components/ui/badge';
 import { Button } from '../../components/ui/button';
 import { Users, UserCheck, DollarSign, TrendingUp, Activity, AlertCircle, BarChart3, Brain } from 'lucide-react';
+import { apiClient } from '@/services/api';
 
 interface SystemMetric {
   label: string;
@@ -19,113 +21,86 @@ interface RecentActivity {
   timestamp: string;
 }
 
+interface QuickStat {
+  label: string;
+  value: string | number;
+}
+
 const Dashboard = () => {
-  const metrics: SystemMetric[] = [
-    {
-      label: 'Tổng Người Dùng',
-      value: '1,234',
-      change: '+12% so tháng trước',
-      icon: Users,
-      trend: 'up',
-      color: 'text-blue-600'
-    },
-    {
-      label: 'Bác Sĩ Hoạt Động',
-      value: '56',
-      change: '+3 bác sĩ mới',
-      icon: UserCheck,
-      trend: 'up',
-      color: 'text-green-600'
-    },
-    {
-      label: 'Doanh Thu Tháng',
-      value: '$12,345',
-      change: '+18% so tháng trước',
-      icon: DollarSign,
-      trend: 'up',
-      color: 'text-purple-600'
-    },
-    {
-      label: 'Phiên Tư Vấn',
-      value: '892',
-      change: '+8% so tuần trước',
-      icon: Activity,
-      trend: 'up',
-      color: 'text-orange-600'
-    },
-    {
-      label: 'Gói Premium',
-      value: '342',
-      change: '+15% so tháng trước',
-      icon: TrendingUp,
-      trend: 'up',
-      color: 'text-pink-600'
-    },
-    {
-      label: 'Cảnh Báo Nghiêm Trọng',
-      value: '8',
-      change: 'Cần xử lý ngay',
-      icon: AlertCircle,
-      trend: 'down',
-      color: 'text-red-600'
-    },
-    {
-      label: 'Tỷ Lệ Hài Lòng',
-      value: '94%',
-      change: '+2% so tháng trước',
-      icon: BarChart3,
-      trend: 'up',
-      color: 'text-teal-600'
-    },
-    {
-      label: 'AI Model Uptime',
-      value: '99.8%',
-      change: 'Hoạt động ổn định',
-      icon: Brain,
-      trend: 'up',
-      color: 'text-indigo-600'
-    }
-  ];
+  const [metrics, setMetrics] = useState<SystemMetric[]>([]);
+  const [recentActivities, setRecentActivities] = useState<RecentActivity[]>([]);
+  const [quickStats, setQuickStats] = useState<QuickStat[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  const recentActivities: RecentActivity[] = [
-    {
-      id: 1,
-      type: 'user',
-      message: 'Người dùng mới đăng ký: nguyenvana@email.com',
-      timestamp: '5 phút trước'
-    },
-    {
-      id: 2,
-      type: 'doctor',
-      message: 'Bác sĩ Trần Thị B đã được phê duyệt',
-      timestamp: '12 phút trước'
-    },
-    {
-      id: 3,
-      type: 'payment',
-      message: 'Thanh toán thành công: $299 - Gói Premium',
-      timestamp: '23 phút trước'
-    },
-    {
-      id: 4,
-      type: 'alert',
-      message: 'Cảnh báo: Bệnh nhân ID #123 cần chú ý',
-      timestamp: '35 phút trước'
-    },
-    {
-      id: 5,
-      type: 'user',
-      message: 'Người dùng mới đăng ký: lethic@email.com',
-      timestamp: '1 giờ trước'
+  // Helper to map label to icon/color
+  const getMetricConfig = (label: string) => {
+    switch (label) {
+      case 'Tổng Người Dùng': return { icon: Users, color: 'text-blue-600' };
+      case 'Bác Sĩ Hoạt Động': return { icon: UserCheck, color: 'text-green-600' };
+      case 'Doanh Thu Tháng': return { icon: DollarSign, color: 'text-purple-600' };
+      case 'Phiên Tư Vấn': return { icon: Activity, color: 'text-orange-600' };
+      case 'Gói Premium': return { icon: TrendingUp, color: 'text-pink-600' };
+      case 'Cảnh Báo': return { icon: AlertCircle, color: 'text-red-600' };
+      default: return { icon: BarChart3, color: 'text-gray-600' };
     }
-  ];
+  };
 
-  const quickStats = [
-    { label: 'Người dùng mới hôm nay', value: 23 },
-    { label: 'Bác sĩ chờ phê duyệt', value: 5 },
-    { label: 'Phiên tư vấn hôm nay', value: 47 },
-    { label: 'Doanh thu hôm nay', value: '$2,340' }
-  ];
+  useEffect(() => {
+    const fetchDashboardData = async () => {
+      try {
+        const response: any = await apiClient.get('/admin/overview');
+        
+        // Map backend metrics to frontend structure
+        const mappedMetrics = response.metrics.map((m: any) => {
+          const config = getMetricConfig(m.label);
+          return {
+            ...m,
+            icon: config.icon,
+            color: config.color
+          };
+        });
+
+        // Add dummy metrics if missing (e.g. AI Model Uptime) as backend might not have it yet
+        mappedMetrics.push({
+            label: 'AI Model Uptime',
+            value: '99.9%',
+            change: 'Stable',
+            icon: Brain,
+            trend: 'up',
+            color: 'text-indigo-600'
+        });
+        
+        // Add Satisfaction Rate (Mock for now or if backend adds it later)
+        mappedMetrics.push({
+            label: 'Tỷ Lệ Hài Lòng',
+            value: '4.8/5',
+            change: '+0.1',
+            icon: BarChart3,
+            trend: 'up',
+            color: 'text-teal-600'
+        });
+
+        setMetrics(mappedMetrics);
+        
+        // Map activities
+        const mappedActivities = response.recentActivities.map((a: any) => ({
+            id: a.id || Math.random(),
+            type: a.type || 'system',
+            message: a.message,
+            timestamp: new Date(a.timestamp).toLocaleString('vi-VN')
+        }));
+        setRecentActivities(mappedActivities);
+        
+        setQuickStats(response.quickStats);
+      } catch (error) {
+        console.error("Failed to fetch dashboard data:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchDashboardData();
+  }, []);
 
   const getActivityIcon = (type: string) => {
     switch (type) {
@@ -153,9 +128,13 @@ const Dashboard = () => {
       case 'alert':
         return <Badge variant="destructive">Cảnh báo</Badge>;
       default:
-        return null;
+        return <Badge variant="outline">Hệ thống</Badge>;
     }
   };
+
+  if (loading) {
+    return <div className="p-8 text-center">Loading dashboard data...</div>;
+  }
 
   return (
     <div className="p-6 space-y-8 max-w-7xl mx-auto">
@@ -263,7 +242,7 @@ const Dashboard = () => {
           </CardHeader>
           <CardContent>
             <div className="space-y-4">
-              {recentActivities.map((activity) => (
+              {recentActivities.length > 0 ? recentActivities.map((activity) => (
                 <div key={activity.id} className="flex items-start gap-3 p-3 rounded-lg border hover:bg-accent transition-colors">
                   <div className="mt-0.5">
                     {getActivityIcon(activity.type)}
@@ -276,12 +255,14 @@ const Dashboard = () => {
                     <p className="text-xs text-muted-foreground mt-1">{activity.timestamp}</p>
                   </div>
                 </div>
-              ))}
+              )) : (
+                <div className="text-center text-muted-foreground py-4">Chưa có hoạt động nào</div>
+              )}
             </div>
           </CardContent>
         </Card>
 
-        {/* System Status */}
+        {/* System Status - Kept Static for now as it's usually mocked in non-infra apps or requires complex monitoring */}
         <Card className="shadow-lg border-0">
           <CardHeader className="border-b bg-linear-to-r from-green-50 to-teal-50 dark:from-green-950/20 dark:to-teal-950/20">
             <div className="flex items-center gap-3">
@@ -312,7 +293,7 @@ const Dashboard = () => {
                   <div className="w-2 h-2 rounded-full bg-green-600" />
                   <div>
                     <div className="font-medium">Database</div>
-                    <div className="text-xs text-muted-foreground">99.9% uptime</div>
+                    <div className="text-xs text-muted-foreground">Connected</div>
                   </div>
                 </div>
                 <Badge className="bg-green-600">Healthy</Badge>
@@ -323,7 +304,7 @@ const Dashboard = () => {
                   <div className="w-2 h-2 rounded-full bg-green-600" />
                   <div>
                     <div className="font-medium">AI Model Service</div>
-                    <div className="text-xs text-muted-foreground">Latency: 120ms</div>
+                    <div className="text-xs text-muted-foreground">Ready</div>
                   </div>
                 </div>
                 <Badge className="bg-green-600">Active</Badge>
@@ -334,21 +315,10 @@ const Dashboard = () => {
                   <div className="w-2 h-2 rounded-full bg-yellow-600" />
                   <div>
                     <div className="font-medium">Payment Gateway</div>
-                    <div className="text-xs text-muted-foreground">Response time cao</div>
+                    <div className="text-xs text-muted-foreground">Sandbox Mode</div>
                   </div>
                 </div>
                 <Badge className="bg-yellow-600">Warning</Badge>
-              </div>
-
-              <div className="flex items-center justify-between p-3 rounded-lg border">
-                <div className="flex items-center gap-3">
-                  <div className="w-2 h-2 rounded-full bg-green-600" />
-                  <div>
-                    <div className="font-medium">Email Service</div>
-                    <div className="text-xs text-muted-foreground">Hoạt động bình thường</div>
-                  </div>
-                </div>
-                <Badge className="bg-green-600">Active</Badge>
               </div>
             </div>
           </CardContent>

@@ -30,13 +30,34 @@ def register():
         if existing_user:
             return jsonify({'error': 'Email already registered'}), 409
         
+        role = data.get('role', 'user')
+        
+        # Validate doctor-specific fields
+        if role == 'doctor':
+            if 'license_number' not in data or not data['license_number']:
+                return jsonify({'error': 'License number is required for doctor registration'}), 400
+            if 'specialization' not in data or not data['specialization']:
+                return jsonify({'error': 'Specialization is required for doctor registration'}), 400
+            
+            # Check if license number already exists
+            from app.models.models import DoctorProfile
+            existing_license = DoctorProfile.query.filter_by(license_number=data['license_number']).first()
+            if existing_license:
+                return jsonify({'error': 'License number already registered'}), 409
+        
+        # Get free plan ID
+        from app.models.models import Plan
+        free_plan = Plan.query.filter_by(name='Free').first()
+        if not free_plan:
+            return jsonify({'error': 'Free plan not found in database'}), 500
+        
         # Create new user
         user = User(
             email=data['email'],
             full_name=data['full_name'],
             phone=data.get('phone'),
-            role=data.get('role', 'user'),  # Default to 'user'
-            subscription_plan='free',
+            role=role,
+            subscription_plan=free_plan.id if free_plan else None,
             subscription_status='active',
             is_active=True,
             is_verified=False
@@ -44,18 +65,40 @@ def register():
         user.set_password(data['password'])
         
         db.session.add(user)
+        db.session.flush()  # Get user.id before creating doctor profile
+        
+        # Create doctor profile if role is doctor
+        if role == 'doctor':
+            from app.models.models import DoctorProfile
+            doctor_profile = DoctorProfile(
+                user_id=user.id,
+                license_number=data['license_number'],
+                specialization=data['specialization'],
+                bio=data.get('bio', ''),
+                years_of_experience=data.get('years_of_experience', 0),
+                consultation_fee=data.get('consultation_fee', 300000),  # Default 300k
+                is_verified=False,  # Needs admin verification
+                is_available=False  # Not available until verified
+            )
+            db.session.add(doctor_profile)
+        
         db.session.commit()
         
         # Generate tokens
         access_token = create_access_token(identity=str(user.id))
         refresh_token = create_refresh_token(identity=str(user.id))
         
-        return jsonify({
+        response_data = {
             'message': 'User registered successfully',
             'user': user.to_dict(),
             'access_token': access_token,
             'refresh_token': refresh_token
-        }), 201
+        }
+        
+        if role == 'doctor':
+            response_data['message'] = 'Doctor registered successfully. Awaiting admin verification.'
+        
+        return jsonify(response_data), 201
         
     except Exception as e:
         db.session.rollback()
@@ -329,6 +372,12 @@ def oauth_login():
         if provider not in ['google', 'facebook']:
             return jsonify({'error': 'Invalid provider. Use google or facebook'}), 400
         
+        # Get free plan ID
+        from app.models.models import Plan
+        free_plan = Plan.query.filter_by(name='Free').first()
+        if not free_plan:
+            return jsonify({'error': 'Free plan not found in database'}), 500
+        
         # Check if user exists by email
         user = User.query.filter_by(email=email).first()
         
@@ -351,7 +400,7 @@ def oauth_login():
                 full_name=full_name,
                 avatar_url=avatar_url,
                 role='user',
-                subscription_plan='free',
+                subscription_plan=free_plan.id if free_plan else None,
                 subscription_status='active',
                 is_active=True,
                 is_verified=True,  # OAuth users are pre-verified

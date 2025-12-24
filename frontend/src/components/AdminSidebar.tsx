@@ -24,11 +24,11 @@ const AdminSidebar = () => {
 
   const menuItems = [
     { path: '/admin/dashboard', icon: LayoutDashboard, label: 'Dashboard' },
-    { path: '/admin/users', icon: Users, label: 'Người dùng' },
-    { path: '/admin/doctors', icon: UserCog, label: 'Bác sĩ' },
-    { path: '/admin/subscriptions', icon: CreditCard, label: 'Gói & Thanh toán' },
-    { path: '/admin/ai-models', icon: Brain, label: 'Mô hình AI' },
-    { path: '/admin/analytics', icon: BarChart3, label: 'Thống kê' },
+    { path: '/admin/users', icon: Users, label: 'Users' },
+    { path: '/admin/doctors', icon: UserCog, label: 'Doctors' },
+    { path: '/admin/subscriptions', icon: CreditCard, label: 'Plans & Payments' },
+    { path: '/admin/ai-models', icon: Brain, label: 'AI Models' },
+    { path: '/admin/analytics', icon: BarChart3, label: 'Analytics' },
     { path: '/admin/audit', icon: Shield, label: 'Audit' },
   ];
 
@@ -90,7 +90,7 @@ const AdminSidebar = () => {
             className="flex items-center gap-3 px-4 py-3 rounded-lg text-sidebar-foreground hover:bg-sidebar-accent/50 transition-colors"
           >
             <Settings size={20} />
-            <span className="font-medium">Cài đặt</span>
+            <span className="font-medium">Settings</span>
           </Link>
           <Button
             variant="outline"
@@ -98,7 +98,7 @@ const AdminSidebar = () => {
             onClick={handleLogout}
           >
             <LogOut size={20} />
-            <span>Đăng xuất</span>
+            <span>Logout</span>
           </Button>
         </div>
       </aside>

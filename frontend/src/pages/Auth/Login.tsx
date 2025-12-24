@@ -37,7 +37,7 @@ const Login = () => {
           break;
         case 'user':
         default:
-          navigate('/user/profile');
+          navigate('/user/dashboard');
           break;
       }
     } catch (error: unknown) {
@@ -67,7 +67,7 @@ const Login = () => {
           break;
         case 'user':
         default:
-          navigate('/user/profile');
+          navigate('/user/dashboard');
           break;
       }
     } catch (error: unknown) {
@@ -102,8 +102,8 @@ const Login = () => {
           break;
         case 'user':
         default:
-          console.log('Redirecting to user profile');
-          navigate('/user/profile');
+          console.log('Redirecting to user dashboard');
+          navigate('/user/dashboard');
           break;
       }
     } catch (error) {
@@ -232,7 +232,7 @@ const Login = () => {
                 {isLoading ? (
                   <span className="flex items-center gap-2">
                     <div className="w-4 h-4 border-2 border-white/20 border-t-white rounded-full animate-spin" />
-                    Đang đăng nhập...
+                    Logging in...
                   </span>
                 ) : (
                   'Đăng nhập'
@@ -313,7 +313,7 @@ const Login = () => {
         <p className="text-center text-xs text-muted-foreground mt-6">
           Bằng việc đăng nhập, bạn đồng ý với{' '}
           <Link to="/terms" className="underline hover:text-foreground">
-            Điều khoản dịch vụ
+            Terms of Service
           </Link>{' '}
           và{' '}
           <Link to="/privacy" className="underline hover:text-foreground">

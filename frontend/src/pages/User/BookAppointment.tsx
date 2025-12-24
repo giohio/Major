@@ -5,12 +5,14 @@ import { Card, CardContent, CardTitle } from '../../components/ui/card';
 import { Button } from '../../components/ui/button';
 import { Calendar } from '../../components/ui/calendar';
 import { Textarea } from '../../components/ui/textarea';
-import { Clock, Video, MessageSquare, ChevronLeft, ArrowRight, Info, Check } from 'lucide-react';
+import { Clock, Video, MessageSquare, ChevronLeft, ArrowRight, Info, Check, Gift, Tag, Crown, Sparkles } from 'lucide-react';
+import { Badge } from '../../components/ui/badge';
 import { apiClient } from '../../services/api.client';
 import { API_ENDPOINTS } from '../../config/api.config';
 import { toast } from 'sonner';
-import type { Doctor, Appointment } from '../../types/api.types';
+import type { Doctor, Appointment, PlanLimits, AppointmentBookingResponse, ApiError } from '../../types/api.types';
 import { cn } from '../../lib/utils';
+import UpgradeModal from '../../components/UpgradeModal';
 
 const BookAppointment = () => {
   const { doctorId } = useParams();
@@ -20,9 +22,12 @@ const BookAppointment = () => {
   const [consultationType, setConsultationType] = useState<string>('');
   const [notes, setNotes] = useState<string>('');
   const [doctor, setDoctor] = useState<Doctor | null>(null);
+  const [planLimits, setPlanLimits] = useState<PlanLimits | null>(null);
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [step, setStep] = useState(1);
+  const [showUpgradeModal, setShowUpgradeModal] = useState(false);
+  const [upgradeMessage, setUpgradeMessage] = useState('');
 
   const loadDoctorInfo = useCallback(async () => {
     if (!doctorId) {
@@ -45,9 +50,25 @@ const BookAppointment = () => {
     }
   }, [doctorId, navigate]);
 
+  const loadPlanLimits = useCallback(async () => {
+    try {
+      const limits = await apiClient.get<PlanLimits>('/plans/my-limits');
+      setPlanLimits(limits);
+      
+      // Check if user has doctor access
+      if (!limits.features.doctor_access.enabled) {
+        setUpgradeMessage(limits.features.doctor_access.message || 'Bạn cần nâng cấp gói Premium hoặc VIP để đặt lịch tư vấn với bác sĩ');
+        setShowUpgradeModal(true);
+      }
+    } catch (error) {
+      console.error('Failed to load plan limits:', error);
+    }
+  }, []);
+
   useEffect(() => {
     loadDoctorInfo();
-  }, [loadDoctorInfo]);
+    loadPlanLimits();
+  }, [loadDoctorInfo, loadPlanLimits]);
 
   const availableTimes = [
     '09:00', '09:30', '10:00', '10:30', '11:00', '11:30',
@@ -56,27 +77,38 @@ const BookAppointment = () => {
 
   const consultationTypes = [
     {
-      value: 'consultation',
+      value: 'video',
       label: 'Video Call',
       icon: <Video className="w-5 h-5" />,
-      desc: 'Tư vấn trực tuyến'
+      desc: 'Tư vấn trực tiếp qua video',
+      requiresVideoAccess: true
+    },
+    {
+      value: 'chat',
+      label: 'Chat Text',
+      icon: <MessageSquare className="w-5 h-5" />,
+      desc: 'Tư vấn qua tin nhắn văn bản',
+      requiresVideoAccess: false
     },
     {
       value: 'initial',
       label: 'Khám đầu tiên',
-      icon: <MessageSquare className="w-5 h-5" />,
-      desc: 'Đánh giá ban đầu'
-    },
-    {
-      value: 'follow_up',
-      label: 'Tái khám',
       icon: <Clock className="w-5 h-5" />,
-      desc: 'Theo dõi tiến trình'
+      desc: 'Đánh giá tổng quát ban đầu',
+      requiresVideoAccess: false
     }
   ];
 
   const handleBooking = async () => {
     if (!selectedDate || !selectedTime || !consultationType || !doctor) return;
+
+    // Check video access if consultation type requires video
+    const selectedTypeConfig = consultationTypes.find(t => t.value === consultationType);
+    if (selectedTypeConfig?.requiresVideoAccess && planLimits && !planLimits.features.video.enabled) {
+      setUpgradeMessage(planLimits.features.video.message || 'Bạn cần nâng cấp để sử dụng tư vấn video');
+      setShowUpgradeModal(true);
+      return;
+    }
 
     try {
       setSubmitting(true);
@@ -85,17 +117,43 @@ const BookAppointment = () => {
       const [hours, minutes] = selectedTime.split(':');
       appointmentDateTime.setHours(parseInt(hours), parseInt(minutes), 0, 0);
 
-      await apiClient.post<{ message: string; appointment: Appointment }>(API_ENDPOINTS.USERS.APPOINTMENTS, {
+      const response = await apiClient.post<AppointmentBookingResponse>(API_ENDPOINTS.USERS.APPOINTMENTS, {
         doctor_id: doctor.id,
         appointment_type: consultationType,
         appointment_date: appointmentDateTime.toISOString(),
-        notes: notes || undefined
+        notes: notes || undefined,
+        return_url: `${window.location.origin}/payment-result`
       });
 
-      toast.success('Đặt lịch thành công!');
+      // Handle payment redirect for paid appointments
+      if (response.payment_url) {
+        toast.success('Chuyển đến trang thanh toán...');
+        window.location.href = response.payment_url;
+        return;
+      }
+
+      // Handle free appointments
+      if (response.is_free) {
+        const remaining = response.free_sessions_remaining ?? 0;
+        toast.success(`Đã sử dụng 1 buổi miễn phí! Còn ${remaining} buổi miễn phí.`);
+      } else {
+        toast.success('Đặt lịch thành công!');
+      }
+      
       navigate('/user/appointments');
     } catch (error: unknown) {
       console.error('Failed to create appointment:', error);
+      
+      // Handle upgrade required error
+      if (typeof error === 'object' && error !== null) {
+        const apiError = error as ApiError;
+        if (apiError.upgrade_required) {
+          setUpgradeMessage(apiError.message || 'Vui lòng nâng cấp gói để tiếp tục');
+          setShowUpgradeModal(true);
+          return;
+        }
+      }
+      
       const errorMessage = error instanceof Error ? error.message : 'Không thể đặt lịch. Vui lòng thử lại sau.';
       toast.error(errorMessage);
     } finally {
@@ -140,7 +198,7 @@ const BookAppointment = () => {
               <div className={cn("w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold transition-colors",
                 step >= 1 ? "bg-teal-600 text-white" : "bg-slate-200 text-slate-500"
               )}>1</div>
-              <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100">Hình thức tư vấn</h3>
+              <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100">Consultation Type</h3>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pl-11">
               {consultationTypes.map((type) => (
@@ -180,7 +238,7 @@ const BookAppointment = () => {
               <div className={cn("w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold transition-colors",
                 step >= 2 ? "bg-teal-600 text-white" : "bg-slate-200 text-slate-500"
               )}>2</div>
-              <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100">Thời gian</h3>
+              <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100">Time</h3>
             </div>
             <div className="pl-11">
               <div className="flex flex-col md:flex-row gap-8 bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
@@ -195,7 +253,7 @@ const BookAppointment = () => {
                 </div>
                 <div className="flex-1">
                   <h4 className="font-medium mb-4 flex items-center gap-2 text-sm text-slate-500">
-                    <Clock className="w-4 h-4" /> Giờ khả dụng
+                    <Clock className="w-4 h-4" /> Available Times
                   </h4>
                   <div className="grid grid-cols-3 gap-2">
                     {availableTimes.map((time) => (
@@ -227,7 +285,7 @@ const BookAppointment = () => {
               <div className={cn("w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold transition-colors",
                 step >= 3 ? "bg-teal-600 text-white" : "bg-slate-200 text-slate-500"
               )}>3</div>
-              <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100">Thông tin bổ sung</h3>
+              <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100">Additional Information</h3>
             </div>
             <div className="pl-11 space-y-4">
               <Textarea
@@ -239,7 +297,7 @@ const BookAppointment = () => {
 
               <div className="bg-slate-50 dark:bg-slate-900/50 p-4 rounded-xl flex gap-3 text-sm text-slate-600 dark:text-slate-400 border border-slate-100 dark:border-slate-800">
                 <Info className="w-5 h-5 shrink-0 text-teal-600" />
-                <p>Thông tin của bạn được bảo mật tuyệt đối. Bác sĩ sẽ xem trước ghi chú này để chuẩn bị tốt nhất cho buổi tư vấn.</p>
+                <p>Your information is completely confidential. The doctor will review this note beforehand to best prepare for the consultation.</p>
               </div>
             </div>
           </div>
@@ -262,6 +320,45 @@ const BookAppointment = () => {
               </div>
             </div>
             <CardContent className="space-y-6 pt-6">
+              {/* Plan Benefits - Show for VIP users */}
+              {planLimits && planLimits.plan_name === 'VIP' && (
+                <div className="bg-gradient-to-br from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 p-4 rounded-xl border border-purple-200 dark:border-purple-800">
+                  <div className="flex items-center gap-2 mb-3">
+                    <Crown className="w-5 h-5 text-purple-600" />
+                    <span className="font-semibold text-purple-900 dark:text-purple-300">Đặc quyền VIP</span>
+                  </div>
+                  <div className="space-y-2 text-sm">
+                    {planLimits.features.appointments.free_remaining > 0 && (
+                      <div className="flex items-center gap-2 text-green-700 dark:text-green-400">
+                        <Gift className="w-4 h-4" />
+                        <span>
+                          Còn <strong>{planLimits.features.appointments.free_remaining} buổi MIỄN PHÍ</strong> trong tháng
+                        </span>
+                      </div>
+                    )}
+                    {planLimits.features.appointments.has_discount && (
+                      <div className="flex items-center gap-2 text-purple-700 dark:text-purple-400">
+                        <Tag className="w-4 h-4" />
+                        <span>Giảm <strong>20%</strong> cho các buổi tư vấn thêm</span>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
+
+              {/* Premium Benefits */}
+              {planLimits && planLimits.plan_name === 'Premium' && (
+                <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-xl border border-blue-200 dark:border-blue-800">
+                  <div className="flex items-center gap-2 mb-2">
+                    <Sparkles className="w-5 h-5 text-blue-600" />
+                    <span className="font-semibold text-blue-900 dark:text-blue-300">Gói Premium</span>
+                  </div>
+                  <p className="text-sm text-blue-700 dark:text-blue-400">
+                    Bạn có quyền đặt lịch tư vấn với bác sĩ
+                  </p>
+                </div>
+              )}
+
               <div className="space-y-4">
                 <div className="flex justify-between items-center text-sm">
                   <span className="text-slate-500">Hình thức</span>
@@ -280,10 +377,39 @@ const BookAppointment = () => {
                   <span className="font-medium text-slate-900 dark:text-slate-100">{selectedTime || 'Chưa chọn'}</span>
                 </div>
                 <div className="h-px bg-slate-100 dark:bg-slate-800 my-2" />
-                <div className="flex justify-between items-center">
-                  <span className="font-semibold text-slate-900 dark:text-slate-100">Tổng cộng</span>
-                  <span className="text-xl font-bold text-teal-600">{formatPrice(doctor.price)}</span>
-                </div>
+                
+                {/* Price with VIP discount */}
+                {planLimits && planLimits.plan_name === 'VIP' && planLimits.features.appointments.free_remaining === 0 && (
+                  <>
+                    <div className="flex justify-between items-center text-sm">
+                      <span className="text-slate-500">Giá gốc</span>
+                      <span className="line-through text-slate-400">{formatPrice(doctor.price)}</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="font-semibold text-slate-900 dark:text-slate-100">Giá VIP (-20%)</span>
+                      <span className="text-xl font-bold text-purple-600">{formatPrice(doctor.price * 0.8)}</span>
+                    </div>
+                  </>
+                )}
+
+                {/* Free session for VIP */}
+                {planLimits && planLimits.plan_name === 'VIP' && planLimits.features.appointments.free_remaining > 0 && (
+                  <div className="flex justify-between items-center">
+                    <span className="font-semibold text-slate-900 dark:text-slate-100">Tổng cộng</span>
+                    <div className="text-right">
+                      <div className="text-xl font-bold text-green-600">MIỄN PHÍ</div>
+                      <div className="text-xs text-slate-500 line-through">{formatPrice(doctor.price)}</div>
+                    </div>
+                  </div>
+                )}
+
+                {/* Regular price for non-VIP */}
+                {(!planLimits || (planLimits.plan_name !== 'VIP' || (planLimits.plan_name === 'VIP' && planLimits.features.appointments.free_remaining === 0 && !planLimits.features.appointments.has_discount))) && (
+                  <div className="flex justify-between items-center">
+                    <span className="font-semibold text-slate-900 dark:text-slate-100">Tổng cộng</span>
+                    <span className="text-xl font-bold text-teal-600">{formatPrice(doctor.price)}</span>
+                  </div>
+                )}
               </div>
 
               <Button
@@ -291,7 +417,11 @@ const BookAppointment = () => {
                 onClick={handleBooking}
                 disabled={!selectedDate || !selectedTime || !consultationType || submitting}
               >
-                {submitting ? 'Đang xử lý...' : 'Xác nhận đặt lịch'}
+                {submitting ? 'Đang xử lý...' : (
+                  planLimits?.plan_name === 'VIP' && planLimits.features.appointments.free_remaining > 0 
+                    ? 'Đặt lịch miễn phí' 
+                    : 'Xác nhận đặt lịch'
+                )}
                 {!submitting && <ArrowRight className="w-4 h-4 ml-2" />}
               </Button>
 
@@ -302,6 +432,14 @@ const BookAppointment = () => {
           </Card>
         </div>
       </div>
+
+      {/* Upgrade Modal */}
+      <UpgradeModal 
+        isOpen={showUpgradeModal}
+        onClose={() => setShowUpgradeModal(false)}
+        message={upgradeMessage}
+        currentPlan={planLimits?.plan_name || 'Free'}
+      />
     </div>
   );
 };
