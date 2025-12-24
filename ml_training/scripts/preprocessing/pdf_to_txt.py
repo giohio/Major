@@ -1,8 +1,10 @@
 import pdfplumber, re
 from pathlib import Path
 
-SRC = Path("../../data/raw/DSM-5-By-American-Psychiatric-Association.pdf")   # đường dẫn file PDF
-OUT = Path("../../data/raw/processed")
+# Resolve paths relative to this script's location
+SCRIPT_DIR = Path(__file__).parent
+SRC = (SCRIPT_DIR / "../../data/raw/cognitive-behavior-therapy-basics-and-beyond-3nbsped-1462544193-9781462544196_compress.pdf").resolve()   # đường dẫn file PDF
+OUT = (SCRIPT_DIR / "../../data/raw/processed").resolve()
 OUT.mkdir(parents=True, exist_ok=True)
 
 PAGE_RANGES = {

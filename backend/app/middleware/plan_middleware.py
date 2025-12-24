@@ -48,12 +48,17 @@ def plan_feature_required(feature_name):
                     }), 402
                 
                 # Get user's plan
-                plan = Plan.query.filter_by(name=user.subscription_plan, is_active=True).first()
+                if user.subscription_plan:
+                    plan = db.session.get(Plan, user.subscription_plan)
+                else:
+                    plan = None
                 
                 if not plan:
+                    # Fallback to Free plan or error
+                    # If user has no plan ID, they might be on Free tier implicitly, but here we enforce plan validity
                     return jsonify({
                         'error': 'Plan not found',
-                        'message': 'Your subscription plan is not valid'
+                        'message': f'Your subscription plan is invalid. Please contact support.'
                     }), 404
                 
                 # Check if plan has the required feature
@@ -75,7 +80,30 @@ def plan_feature_required(feature_name):
                     'message': f'Feature "{feature_name}" is not a valid plan feature'
                 }), 500
             except Exception as e:
-                return jsonify({'error': 'Authorization error', 'details': str(e)}), 401
+                import traceback
+                error_details = str(e)
+                
+                # Better error messages for common JWT errors
+                if 'Signature verification failed' in error_details:
+                    return jsonify({
+                        'error': 'Invalid token',
+                        'message': 'Token signature is invalid. Please login again.'
+                    }), 401
+                elif 'Token has expired' in error_details or 'expired' in error_details.lower():
+                    return jsonify({
+                        'error': 'Token expired',
+                        'message': 'Your session has expired. Please login again.'
+                    }), 401
+                elif 'Authorization header' in error_details or 'Missing' in error_details:
+                    return jsonify({
+                        'error': 'Missing authorization',
+                        'message': 'No authorization token provided. Please login.'
+                    }), 401
+                else:
+                    return jsonify({
+                        'error': 'Authorization error',
+                        'message': error_details
+                    }), 401
                 
         return wrapper
     return decorator
@@ -84,6 +112,7 @@ def plan_feature_required(feature_name):
 def check_chat_limit(fn):
     """
     Decorator to check if user has remaining chat quota
+    Uses new plan_limits utility
     """
     @wraps(fn)
     def wrapper(*args, **kwargs):
@@ -98,40 +127,53 @@ def check_chat_limit(fn):
             
             # Admin always has unlimited access
             if user.role == 'admin':
-                return fn(current_user=user, *args, **kwargs)
+                return fn(current_user=user, plan=None, remaining=-1, *args, **kwargs)
             
-            # Get user's plan
-            plan = Plan.query.filter_by(name=user.subscription_plan, is_active=True).first()
+            # Use new plan_limits utility
+            from app.utils.plan_limits import check_chat_limit as check_limit
             
-            if not plan:
-                return jsonify({'error': 'Plan not found'}), 404
+            can_chat, error_msg, remaining = check_limit(user)
             
-            # -1 means unlimited
-            if plan.chat_limit == -1:
-                return fn(current_user=user, plan=plan, *args, **kwargs)
-            
-            # Count user's chat sessions this month
-            from datetime import datetime, timedelta
-            from app.models.models import ChatSession
-            
-            start_of_month = datetime.utcnow().replace(day=1, hour=0, minute=0, second=0, microsecond=0)
-            chat_count = ChatSession.query.filter(
-                ChatSession.user_id == user.id,
-                ChatSession.created_at >= start_of_month
-            ).count()
-            
-            if chat_count >= plan.chat_limit:
+            if not can_chat:
                 return jsonify({
                     'error': 'Chat limit reached',
-                    'message': f'You have reached your monthly limit of {plan.chat_limit} chat sessions.',
-                    'used': chat_count,
-                    'limit': plan.chat_limit,
+                    'message': error_msg,
                     'upgrade_required': True
                 }), 429
-                
-            return fn(current_user=user, plan=plan, remaining=plan.chat_limit - chat_count, *args, **kwargs)
+            
+            # Get user's plan
+            if user.subscription_plan:
+                plan = db.session.get(Plan, user.subscription_plan)
+            else:
+                # Fallback to Free Plan (ID 9) if no plan assigned
+                plan = db.session.get(Plan, 9)
+            
+            return fn(current_user=user, plan=plan, remaining=remaining, *args, **kwargs)
             
         except Exception as e:
-            return jsonify({'error': 'Authorization error', 'details': str(e)}), 401
+            import traceback
+            error_details = str(e)
+            
+            # Better error messages for common JWT errors
+            if 'Signature verification failed' in error_details:
+                return jsonify({
+                    'error': 'Invalid token',
+                    'message': 'Token signature is invalid. Please login again.'
+                }), 401
+            elif 'Token has expired' in error_details or 'expired' in error_details.lower():
+                return jsonify({
+                    'error': 'Token expired',
+                    'message': 'Your session has expired. Please login again.'
+                }), 401
+            elif 'Authorization header' in error_details or 'Missing' in error_details:
+                return jsonify({
+                    'error': 'Missing authorization',
+                    'message': 'No authorization token provided. Please login.'
+                }), 401
+            else:
+                return jsonify({
+                    'error': 'Authorization error',
+                    'message': error_details
+                }), 401
             
     return wrapper

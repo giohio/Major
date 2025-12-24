@@ -1,8 +1,8 @@
 // API Configuration
 export const API_CONFIG = {
-  BASE_URL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000',
+  BASE_URL: import.meta.env.VITE_API_BASE_URL || '',
   API_PREFIX: '/api',
-  TIMEOUT: 30000,
+  TIMEOUT: 120000,
   // Expose endpoints
   API_ENDPOINTS: {} as typeof API_ENDPOINTS,
 };
@@ -31,6 +31,9 @@ export const API_ENDPOINTS = {
     STATS: '/users/stats',
     APPOINTMENTS: '/users/appointments',
     SETTINGS: '/users/settings',
+    DOWNLOAD_DATA: '/users/download-data',
+    DEACTIVATE: '/users/deactivate',
+    DELETE_ACCOUNT: '/users/account',
   },
 
   // Chat
@@ -40,6 +43,7 @@ export const API_ENDPOINTS = {
     RECENT: '/chat/recent',
     DELETE_SESSION: (id: number) => `/chat/session/${id}`,
     ARCHIVE_SESSION: (id: number) => `/chat/session/${id}/archive`,
+    DELETE_HISTORY: '/chat/history',
     FEEDBACK: '/chat/feedback',
   },
 
@@ -57,6 +61,7 @@ export const API_ENDPOINTS = {
   DOCTOR: {
     DASHBOARD: '/doctors/dashboard',
     LIST: '/doctors',
+    SEARCH_USERS: '/doctors/users/search',
     GET: (id: number) => `/doctors/${id}`,
     PATIENTS: '/doctors/patients',
     ADD_PATIENT: '/doctors/patients/add',
@@ -100,6 +105,16 @@ export const API_ENDPOINTS = {
     STATS: '/emotion/stats',
     TRENDS: '/emotion/trends',
     INSIGHTS: '/emotion/insights',
+    SAVE_ANALYSIS: '/emotion/analysis/save',
+    ANALYSIS_HISTORY: '/emotion/analysis/history',
+    LATEST_ANALYSIS: '/emotion/analysis/latest',
+    ANALYZE_RECENT: '/emotion/analyze-recent',
+  },
+
+  // ML Model - Emotion Analysis (ngrok)
+  ML_MODEL: {
+    BASE_URL: 'https://lissotrichous-irreclaimably-jessenia.ngrok-free.dev',
+    USER_REPORT: '/report/user',
   },
 
   // Alert
@@ -130,6 +145,7 @@ export const API_ENDPOINTS = {
     START: (id: number) => `/users/exercises/${id}/start`,
     COMPLETE: (id: number) => `/users/exercises/${id}/complete`,
     UPDATE_PROGRESS: (id: number) => `/users/exercises/${id}/progress`,
+    FAVORITE: (id: number) => `/users/exercises/${id}/favorite`,
     STATS: '/users/exercises/stats',
   },
 };

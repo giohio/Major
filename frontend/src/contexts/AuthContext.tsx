@@ -5,6 +5,8 @@ import type { User } from './auth';
 import { apiClient } from '../services/api.client';
 import { STORAGE_KEYS, API_ENDPOINTS } from '../config/api.config';
 
+export { useAuth } from './auth';
+
 interface AuthProviderProps {
   children: ReactNode;
 }
@@ -22,9 +24,10 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
           const currentUser = await apiClient.get<any>(API_ENDPOINTS.AUTH.ME);
           setUser({
             id: currentUser.id.toString(),
-            name: currentUser.full_name,
+            full_name: currentUser.full_name,
             email: currentUser.email,
-            role: currentUser.role
+            role: currentUser.role,
+            avatar_url: currentUser.avatar_url
           });
         }
       } catch (error) {
@@ -51,9 +54,10 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
 
       const userData: User = {
         id: response.user.id.toString(),
-        name: response.user.full_name,
+        full_name: response.user.full_name,
         email: response.user.email,
-        role: response.user.role
+        role: response.user.role,
+        avatar_url: response.user.avatar_url
       };
 
       setUser(userData);
@@ -64,12 +68,13 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
     }
   };
 
-  const register = async (name: string, email: string, password: string): Promise<User> => {
+  const register = async (name: string, email: string, password: string, additionalData?: any): Promise<User> => {
     try {
       const response = await apiClient.post<any>(API_ENDPOINTS.AUTH.REGISTER, {
         full_name: name,
         email,
-        password
+        password,
+        ...additionalData
       }, false);
 
       // Store tokens
@@ -80,9 +85,10 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
 
       const userData: User = {
         id: response.user.id.toString(),
-        name: response.user.full_name,
+        full_name: response.user.full_name,
         email: response.user.email,
-        role: response.user.role
+        role: response.user.role,
+        avatar_url: response.user.avatar_url
       };
 
       setUser(userData);
@@ -115,9 +121,10 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
 
       const userData: User = {
         id: response.user.id.toString(),
-        name: response.user.full_name,
+        full_name: response.user.full_name,
         email: response.user.email,
-        role: response.user.role
+        role: response.user.role,
+        avatar_url: response.user.avatar_url
       };
 
       setUser(userData);
@@ -140,12 +147,30 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
     }
   };
 
+  const refreshUser = async () => {
+    try {
+      const token = localStorage.getItem(STORAGE_KEYS.ACCESS_TOKEN);
+      if (token) {
+        const currentUser = await apiClient.get<any>(API_ENDPOINTS.AUTH.ME);
+        setUser({
+          id: currentUser.id.toString(),
+          full_name: currentUser.full_name,
+          email: currentUser.email,
+          role: currentUser.role,
+          avatar_url: currentUser.avatar_url
+        });
+      }
+    } catch (error) {
+      console.error('Failed to refresh user:', error);
+    }
+  };
+
   if (loading) {
     return null; // Or a loading spinner
   }
 
   return (
-    <AuthContext.Provider value={{ user, login, register, loginWithOAuth, logout }}>
+    <AuthContext.Provider value={{ user, login, register, loginWithOAuth, logout, refreshUser }}>
       {children}
     </AuthContext.Provider>
   );

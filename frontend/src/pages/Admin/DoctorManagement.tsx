@@ -1,75 +1,62 @@
-import { useState } from 'react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../components/ui/card';
-import { Badge } from '../../components/ui/badge';
-import { Button } from '../../components/ui/button';
-import { Input } from '../../components/ui/input';
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '../../components/ui/table';
+import { useState, useEffect } from 'react';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { UserCheck, Search, Star, FileText, CheckCircle, XCircle, Clock, Mail, Phone } from 'lucide-react';
+import { apiClient } from '@/services/api';
+import { toast } from 'sonner';
+
+interface Doctor {
+  id: number;
+  name: string;
+  email: string;
+  phone: string;
+  specialty: string;
+  license: string;
+  experience: string;
+  patients: number;
+  rating: number;
+  status: 'approved' | 'pending' | 'rejected';
+  joinedDate: string;
+}
+
+interface DoctorStats {
+  label: string;
+  value: string;
+  change: string;
+  color: string;
+}
 
 const DoctorManagement = () => {
   const [searchQuery, setSearchQuery] = useState('');
+  const [doctors, setDoctors] = useState<Doctor[]>([]);
+  const [stats, setStats] = useState<DoctorStats[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  const doctors = [
-    {
-      id: 1,
-      name: 'BS. Nguyễn Văn A',
-      email: 'bsnguyenvana@email.com',
-      phone: '0901234567',
-      specialty: 'Tâm lý lâm sàng',
-      license: 'BS12345',
-      experience: '10 năm',
-      patients: 48,
-      rating: 4.8,
-      status: 'approved',
-      joinedDate: '10/01/2024'
-    },
-    {
-      id: 2,
-      name: 'BS. Trần Thị B',
-      email: 'bstranthib@email.com',
-      phone: '0912345678',
-      specialty: 'Tâm lý trị liệu',
-      license: 'BS67890',
-      experience: '8 năm',
-      patients: 35,
-      rating: 4.9,
-      status: 'pending',
-      joinedDate: '15/02/2024'
-    },
-    {
-      id: 3,
-      name: 'BS. Lê Văn C',
-      email: 'bslevanc@email.com',
-      phone: '0923456789',
-      specialty: 'Tâm thần học',
-      license: 'BS24680',
-      experience: '15 năm',
-      patients: 62,
-      rating: 4.7,
-      status: 'approved',
-      joinedDate: '05/01/2024'
-    },
-    {
-      id: 4,
-      name: 'BS. Phạm Thị D',
-      email: 'bsphamthid@email.com',
-      phone: '0934567890',
-      specialty: 'Tâm lý học phát triển',
-      license: 'BS13579',
-      experience: '6 năm',
-      patients: 28,
-      rating: 4.6,
-      status: 'rejected',
-      joinedDate: '20/02/2024'
+  useEffect(() => {
+    fetchDoctors();
+  }, []);
+
+  const fetchDoctors = async () => {
+    try {
+      const response = await apiClient.get<{ doctors: Doctor[], stats: DoctorStats[] }>('/admin/doctors');
+      setDoctors(response.doctors);
+      setStats(response.stats);
+    } catch (error) {
+      console.error('Failed to fetch doctors:', error);
+      toast.error('Không thể tải danh sách bác sĩ');
+    } finally {
+      setLoading(false);
     }
-  ];
+  };
 
-  const stats = [
-    { label: 'Tổng bác sĩ', value: '56', change: '+3 mới', color: 'text-blue-600' },
-    { label: 'Đã phê duyệt', value: '48', change: '85.7%', color: 'text-green-600' },
-    { label: 'Chờ duyệt', value: '5', change: 'Cần xử lý', color: 'text-yellow-600' },
-    { label: 'Từ chối', value: '3', change: '5.4%', color: 'text-red-600' }
-  ];
+  const filteredDoctors = doctors.filter(doc => 
+    doc.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    doc.specialty.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    doc.license.toLowerCase().includes(searchQuery.toLowerCase())
+  );
 
   return (
     <div className="space-y-6 p-6">
@@ -140,7 +127,26 @@ const DoctorManagement = () => {
                 </TableRow>
               </TableHeader>
               <TableBody>
-                {doctors.map((doctor) => (
+                {loading && (
+                  <TableRow>
+                    <TableCell colSpan={9} className="text-center py-8">
+                      <div className="flex justify-center items-center gap-2 text-muted-foreground">
+                        <div className="animate-spin rounded-full h-4 w-4 border-2 border-primary border-t-transparent"></div>
+                        Đang tải dữ liệu...
+                      </div>
+                    </TableCell>
+                  </TableRow>
+                )}
+
+                {!loading && filteredDoctors.length === 0 && (
+                  <TableRow>
+                    <TableCell colSpan={9} className="text-center py-8 text-muted-foreground">
+                      Không tìm thấy bác sĩ nào
+                    </TableCell>
+                  </TableRow>
+                )}
+
+                {!loading && filteredDoctors.length > 0 && filteredDoctors.map((doctor) => (
                   <TableRow key={doctor.id}>
                     <TableCell>
                       <div className="flex items-center gap-3">

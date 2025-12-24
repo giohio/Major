@@ -50,6 +50,8 @@ const Exercises = () => {
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  const [selectedDifficulty, setSelectedDifficulty] = useState<string>('all');
+  const [sortBy, setSortBy] = useState<string>('category');
 
   useEffect(() => {
     loadExercises();
@@ -60,10 +62,10 @@ const Exercises = () => {
     try {
       setLoading(true);
       const response = await apiClient.get<{ exercises: Exercise[] }>(
-        API_ENDPOINTS.EXERCISE.USER_PROGRESS
+        API_ENDPOINTS.EXERCISE.LIST
       );
       setExercises(response.exercises || []);
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Failed to load exercises:', error);
       toast.error('Không thể tải danh sách bài tập');
     } finally {
@@ -77,7 +79,7 @@ const Exercises = () => {
         API_ENDPOINTS.EXERCISE.STATS
       );
       setStats(response.stats);
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Failed to load stats:', error);
     }
   };
@@ -132,13 +134,29 @@ const Exercises = () => {
     }
   };
 
-  const filteredExercises = exercises.filter((exercise) => {
-    const matchesSearch =
-      exercise.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      exercise.description.toLowerCase().includes(searchQuery.toLowerCase());
-    const matchesCategory = selectedCategory === 'all' || exercise.category === selectedCategory;
-    return matchesSearch && matchesCategory;
-  });
+  const filteredAndSortedExercises = exercises
+    .filter((exercise) => {
+      const matchesSearch =
+        exercise.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        exercise.description.toLowerCase().includes(searchQuery.toLowerCase());
+      const matchesCategory = selectedCategory === 'all' || exercise.category === selectedCategory;
+      const matchesDifficulty = selectedDifficulty === 'all' || exercise.difficulty === selectedDifficulty;
+      return matchesSearch && matchesCategory && matchesDifficulty;
+    })
+    .sort((a, b) => {
+      switch (sortBy) {
+        case 'duration-asc':
+          return a.duration_minutes - b.duration_minutes;
+        case 'duration-desc':
+          return b.duration_minutes - a.duration_minutes;
+        case 'difficulty':
+          const difficultyOrder: Record<string, number> = { beginner: 1, intermediate: 2, advanced: 3 };
+          return (difficultyOrder[a.difficulty] || 0) - (difficultyOrder[b.difficulty] || 0);
+        case 'category':
+        default:
+          return a.category.localeCompare(b.category);
+      }
+    });
 
   const categories = Array.from(new Set(exercises.map((e) => e.category)));
 
@@ -151,7 +169,7 @@ const Exercises = () => {
       <div className="flex items-center justify-center h-screen">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
-          <p>Đang tải bài tập...</p>
+          <p>Loading exercises...</p>
         </div>
       </div>
     );
@@ -220,7 +238,7 @@ const Exercises = () => {
       {/* Filters */}
       <Card>
         <CardContent className="pt-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <div className="relative">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
               <Input
@@ -232,7 +250,7 @@ const Exercises = () => {
             </div>
             <Select value={selectedCategory} onValueChange={setSelectedCategory}>
               <SelectTrigger>
-                <SelectValue placeholder="Chọn danh mục" />
+                <SelectValue placeholder="Danh mục" />
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="all">Tất cả danh mục</SelectItem>
@@ -243,18 +261,40 @@ const Exercises = () => {
                 ))}
               </SelectContent>
             </Select>
+            <Select value={selectedDifficulty} onValueChange={setSelectedDifficulty}>
+              <SelectTrigger>
+                <SelectValue placeholder="Độ khó" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">Tất cả độ khó</SelectItem>
+                <SelectItem value="beginner">Dễ</SelectItem>
+                <SelectItem value="intermediate">Trung bình</SelectItem>
+                <SelectItem value="advanced">Khó</SelectItem>
+              </SelectContent>
+            </Select>
+            <Select value={sortBy} onValueChange={setSortBy}>
+              <SelectTrigger>
+                <SelectValue placeholder="Sắp xếp" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="category">Theo danh mục</SelectItem>
+                <SelectItem value="difficulty">Theo độ khó</SelectItem>
+                <SelectItem value="duration-asc">Thời gian ngắn nhất</SelectItem>
+                <SelectItem value="duration-desc">Thời gian dài nhất</SelectItem>
+              </SelectContent>
+            </Select>
           </div>
         </CardContent>
       </Card>
 
       {/* Results Count */}
       <div className="text-sm text-muted-foreground">
-        Tìm thấy {filteredExercises.length} bài tập
+        Tìm thấy {filteredAndSortedExercises.length} bài tập
       </div>
 
       {/* Exercise Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filteredExercises.map((exercise) => {
+        {filteredAndSortedExercises.map((exercise) => {
           const progress = exercise.progress;
           const isCompleted = progress?.status === 'completed';
           const progressPercentage = progress?.progress_percentage || 0;
@@ -324,7 +364,7 @@ const Exercises = () => {
         })}
       </div>
 
-      {filteredExercises.length === 0 && (
+      {filteredAndSortedExercises.length === 0 && (
         <Card>
           <CardContent className="py-12 text-center">
             <p className="text-muted-foreground">

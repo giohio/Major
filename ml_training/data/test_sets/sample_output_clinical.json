@@ -1,0 +1,75 @@
+{
+  "session_id": "TEST_CLINICAL_001",
+  "report_type": "clinical_assessment",
+  "timestamp": "2025-12-12T10:08:30Z",
+  
+  "dominant_emotion": "SADNESS",
+  "emotional_changes": "Cảm xúc từ SADNESS với burnout chuyển sang ANGER do áp lực công việc, cuối cùng chuyển sang JOY khi được lắng nghe và hỗ trợ",
+  
+  "data_driven_analysis": {
+    "dominant_emotion": "SADNESS",
+    "emotional_progression": "SADNESS (burnout, exhaustion) → ANGER (frustration với công việc) → JOY (relief sau khi được lắng nghe)",
+    "intensity_trend": "decreasing"
+  },
+  
+  "case_formulation": {
+    "precipitants": [
+      "Áp lực từ dự án mới tại công việc",
+      "Phê bình liên tục từ cấp trên",
+      "Làm việc quá giờ kéo dài"
+    ],
+    "automatic_thoughts": [
+      "Tôi chẳng muốn làm gì cả",
+      "Tôi chỉ muốn ngủ mãi không dậy nữa",
+      "Làm việc nhiều nhưng vẫn bị chê không đủ tốt",
+      "Tôi cần một kỳ nghỉ"
+    ],
+    "maladaptive_behaviors": [
+      "Muốn ngủ mãi không dậy (avoidance)",
+      "Thức khuya làm việc quá mức",
+      "Cô lập và mất động lực"
+    ],
+    "core_beliefs": [
+      "Tôi không đủ giỏi dù đã cố gắng",
+      "Nỗ lực của tôi không được công nhận",
+      "Tôi bất lực trước áp lực"
+    ]
+  },
+  
+  "risk_assessment": {
+    "suicidal_ideation": false,
+    "self_harm_risk": false,
+    "severity_level": "moderate",
+    "requires_immediate_intervention": false,
+    "notes": "Bệnh nhân phủ nhận ý định tự hại khi được hỏi trực tiếp. Chỉ thể hiện mong muốn nghỉ ngơi. Có dấu hiệu burnout rõ ràng nhưng không có risk nguy hiểm ngay lập tức. Cần theo dõi để tránh trầm trọng."
+  },
+  
+  "clinical_plan": {
+    "interventions_used": [
+      "Lắng nghe tích cực (Active Listening)",
+      "Tạo không gian an toàn cho bệnh nhân chia sẻ",
+      "Validation cảm xúc",
+      "Screening risk tự hại (suicidal ideation assessment)",
+      "Khuyến khích nhận thức về nhu cầu nghỉ ngơi"
+    ],
+    "recommended_interventions": [
+      "Cognitive Behavioral Therapy (CBT) để xử lý automatic thoughts và core beliefs",
+      "Stress management techniques: Progressive muscle relaxation, deep breathing",
+      "Work-life balance counseling",
+      "Time management và boundary setting với công việc",
+      "Sleep hygiene education",
+      "Mindfulness-based stress reduction (MBSR)"
+    ],
+    "next_steps": [
+      "Khuyến khích bệnh nhân thực hiện kỳ nghỉ ngắn để recovery",
+      "Lập kế hoạch quản lý stress hàng ngày",
+      "Giám sát triệu chứng burnout trong tuần tới",
+      "Đánh giá lại tình trạng sau 1-2 tuần",
+      "Xem xét tư vấn về career counseling nếu stress công việc tiếp tục",
+      "Theo dõi patterns của sleep và energy levels"
+    ],
+    "follow_up_timeline": "1-2 tuần"
+  },
+  
+  "summary": "Bệnh nhân là người trưởng thành đang trải qua tình trạng burnout nghề nghiệp cấp độ trung bình với triệu chứng chính là mệt mỏi, mất động lực, và suy nghĩ tiêu cực về năng lực bản thân. Precipitants chính là áp lực từ dự án mới và phê bình liên tục từ cấp trên kéo dài 2 tuần. Bệnh nhân thể hiện maladaptive coping (muốn ngủ để tránh né, overworking) nhưng may mắn là đã nhận thức được nhu cầu nghỉ ngơi. Không có risk tự hại ngay lập tức. Session có hiệu quả tích cực khi bệnh nhân thể hiện cảm giác nhẹ nhõm sau khi được lắng nghe. Khuyến nghị can thiệp CBT, stress management, và theo dõi sát để tránh tiến triển sang trầm cảm lâm sàng."
+}

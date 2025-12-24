@@ -29,7 +29,7 @@ const Contact = () => {
                   <div className="contact-icon-circle phone">
                     📞
                   </div>
-                  <h3>Điện thoại</h3>
+                  <h3>Phone</h3>
                   <p className="contact-detail">1900-XXXX</p>
                   <p className="contact-description">Hỗ trợ 24/7</p>
                 </div>
@@ -48,7 +48,7 @@ const Contact = () => {
                     📍
                   </div>
                   <h3>Địa chỉ</h3>
-                  <p className="contact-detail">123 Đường ABC</p>
+                  <p className="contact-detail">123 ABC Street</p>
                   <p className="contact-description">Quận XYZ, TP.HCM</p>
                 </div>
 
@@ -108,7 +108,7 @@ const Contact = () => {
 
                 <div className="form-row">
                   <div className="form-group">
-                    <label htmlFor="phone">Số điện thoại</label>
+                    <label htmlFor="phone">Phone Number</label>
                     <input 
                       type="tel" 
                       id="phone" 
@@ -157,8 +157,8 @@ const Contact = () => {
             <div className="emergency-icon">🚨</div>
             <div className="emergency-content">
               <h3>Cần hỗ trợ khẩn cấp?</h3>
-              <p>Nếu bạn đang gặp khủng hoảng tâm lý hoặc có ý định tự tử, 
-                hãy liên hệ ngay với đường dây nóng 24/7</p>
+              <p>If you are experiencing a mental health crisis or have suicidal thoughts, 
+                please contact our 24/7 hotline immediately</p>
               <div className="emergency-contacts">
                 <a href="tel:1900xxxx" className="emergency-btn emergency">
                   📞 1900-XXXX

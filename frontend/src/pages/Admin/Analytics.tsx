@@ -4,58 +4,64 @@ import { Button } from '../../components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../../components/ui/tabs';
 import { TrendingUp, Users, DollarSign, Activity, BarChart3, Calendar } from 'lucide-react';
 
+import { apiClient } from '@/services/api';
+import { toast } from 'sonner';
+import { useState, useEffect } from 'react';
+
+interface AnalyticsData {
+  overviewStats: {
+    label: string;
+    value: string | number;
+    change: string;
+    icon: string;
+    color: string;
+  }[];
+  revenueData: { month: string; revenue: number }[];
+  userGrowthData: { month: string; users: number; newUsers: number }[];
+  topDoctors: { name: string; sessions: number; rating: number; revenue: number }[];
+  popularExercises: { name: string; completions: number; avgRating: number }[];
+}
+
 const Analytics = () => {
-  const overviewStats = [
-    {
-      label: 'Tổng Doanh Thu',
-      value: '$147,213',
-      change: '+18.2%',
-      icon: DollarSign,
-      color: 'text-green-600'
-    },
-    {
-      label: 'Người Dùng Mới',
-      value: '1,234',
-      change: '+12.5%',
-      icon: Users,
-      color: 'text-blue-600'
-    },
-    {
-      label: 'Phiên Tư Vấn',
-      value: '3,892',
-      change: '+8.3%',
-      icon: Activity,
-      color: 'text-purple-600'
-    },
-    {
-      label: 'Tỷ Lệ Giữ Chân',
-      value: '87.4%',
-      change: '+3.1%',
-      icon: TrendingUp,
-      color: 'text-orange-600'
+  const [data, setData] = useState<AnalyticsData | null>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetchAnalytics();
+  }, []);
+
+  const fetchAnalytics = async () => {
+    try {
+      const response = await apiClient.get<AnalyticsData>('/admin/analytics');
+      console.log("Analytics data:", response);
+      setData(response);
+    } catch (error) {
+      console.error('Failed to fetch analytics:', error);
+      toast.error('Không thể tải dữ liệu phân tích');
+    } finally {
+      setLoading(false);
     }
-  ];
+  };
 
-  const userGrowthData = [
-    { month: 'T1', users: 850, newUsers: 120 },
-    { month: 'T2', users: 920, newUsers: 145 },
-    { month: 'T3', users: 1050, newUsers: 180 },
-    { month: 'T4', users: 1180, newUsers: 195 },
-    { month: 'T5', users: 1320, newUsers: 210 },
-    { month: 'T6', users: 1480, newUsers: 235 }
-  ];
+  const overviewStats = data?.overviewStats || [];
+  const userGrowthData = data?.userGrowthData || [];
+  const revenueData = data?.revenueData || [];
+  const topDoctors = data?.topDoctors || [];
+  const popularExercises = data?.popularExercises || [];
 
-  const revenueData = [
-    { month: 'T1', revenue: 98500 },
-    { month: 'T2', revenue: 105200 },
-    { month: 'T3', revenue: 118900 },
-    { month: 'T4', revenue: 126400 },
-    { month: 'T5', revenue: 139800 },
-    { month: 'T6', revenue: 147200 }
-  ];
-
-  const maxRevenue = Math.max(...revenueData.map(d => d.revenue));
-  const maxUsers = Math.max(...userGrowthData.map(d => d.users));
+  const maxRevenue = revenueData.length > 0 ? Math.max(...revenueData.map(d => d.revenue)) : 100000;
+  const maxUsers = userGrowthData.length > 0 ? Math.max(...userGrowthData.map(d => d.users)) : 100;
+  
+  // Icon mapping helper
+  const getIcon = (iconName: string) => {
+    switch(iconName) {
+      case 'DollarSign': return DollarSign;
+      case 'Users': return Users;
+      case 'Activity': return Activity;
+      case 'TrendingUp': return TrendingUp;
+      default: return Activity;
+    }
+  };
 
   const formatPrice = (price: number) => {
     return new Intl.NumberFormat('vi-VN', {
@@ -64,17 +70,7 @@ const Analytics = () => {
     }).format(price);
   };
 
-  const topDoctors = [
-    { name: 'Dr. Nguyễn Văn An', sessions: 145, rating: 4.9, revenue: 72500000 },
-    { name: 'Dr. Trần Thị Bình', sessions: 132, rating: 4.8, revenue: 66000000 },
-    { name: 'Dr. Lê Văn Cường', sessions: 98, rating: 4.7, revenue: 49000000 }
-  ];
 
-  const popularExercises = [
-    { name: 'Thiền Chánh Niệm', completions: 892, avgRating: 4.8 },
-    { name: 'Hơi Thở Sâu', completions: 756, avgRating: 4.7 },
-    { name: 'Thư Giãn Cơ', completions: 634, avgRating: 4.6 }
-  ];
 
   return (
     <div className="p-6 space-y-6 max-w-7xl mx-auto">
@@ -100,23 +96,25 @@ const Analytics = () => {
 
       {/* Overview Stats */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-        {overviewStats.map((stat, index) => (
+        {overviewStats.map((stat, index) => {
+          const IconComponent = getIcon(stat.icon);
+          return (
           <Card key={index}>
             <CardHeader className="pb-3">
               <CardTitle className="text-sm font-medium text-muted-foreground flex items-center gap-2">
-                <stat.icon className={`w-4 h-4 ${stat.color}`} />
+                <IconComponent className={`w-4 h-4 ${stat.color}`} />
                 {stat.label}
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">{stat.value}</div>
+              <div className="text-2xl font-bold">{typeof stat.value === 'number' && stat.label.includes('Doanh Thu') ? formatPrice(stat.value) : stat.value}</div>
               <p className="text-xs text-green-600 mt-1 flex items-center gap-1">
                 <TrendingUp className="w-3 h-3" />
                 {stat.change} so tháng trước
               </p>
             </CardContent>
           </Card>
-        ))}
+        )})}
       </div>
 
       {/* Charts */}
@@ -222,7 +220,7 @@ const Analytics = () => {
             <Card>
               <CardHeader>
                 <CardTitle>Bài Tập Phổ Biến</CardTitle>
-                <CardDescription>Bài tập được hoàn thành nhiều nhất</CardDescription>
+                <CardDescription>Most completed exercises</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">

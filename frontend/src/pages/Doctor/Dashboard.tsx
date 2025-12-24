@@ -1,6 +1,11 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../components/ui/card';
 import { Badge } from '../../components/ui/badge';
 import { Button } from '../../components/ui/button';
+import { useNavigate } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { apiClient } from '../../services/api.client';
+import { API_ENDPOINTS } from '../../config/api.config';
+import { toast } from 'sonner';
 import { 
   Users, 
   Calendar, 
@@ -14,11 +19,71 @@ import {
   Activity
 } from 'lucide-react';
 
+interface DashboardStats {
+  patient_count: number;
+  today_appointments: number;
+  pending_appointments: number;
+  critical_alerts: number;
+  improvement_rate: number;
+}
+
+interface Appointment {
+  id: number;
+  patient_name: string;
+  appointment_date: string;
+  appointment_type: string;
+  status: string;
+}
+
+interface Alert {
+  id: number;
+  user_id: number;
+  severity: string;
+  message: string;
+  created_at: string;
+}
+
 const Dashboard = () => {
-  const stats = [
+  const navigate = useNavigate();
+  const [loading, setLoading] = useState(true);
+  const [stats, setStats] = useState<DashboardStats>({
+    patient_count: 0,
+    today_appointments: 0,
+    pending_appointments: 0,
+    critical_alerts: 0,
+    improvement_rate: 0
+  });
+  const [appointments, setAppointments] = useState<Appointment[]>([]);
+  const [alerts, setAlerts] = useState<Alert[]>([]);
+
+  useEffect(() => {
+    loadDashboardData();
+  }, []);
+
+  const loadDashboardData = async () => {
+    try {
+      setLoading(true);
+      const response = await apiClient.get<{
+        stats: DashboardStats;
+        upcoming_appointments: Appointment[];
+        active_alerts: Alert[];
+      }>(API_ENDPOINTS.DOCTOR.DASHBOARD);
+
+      setStats(response.stats);
+      setAppointments(response.upcoming_appointments || []);
+      setAlerts(response.active_alerts || []);
+    } catch (error) {
+      console.error('Failed to load dashboard data:', error);
+      toast.error('Không thể tải dữ liệu dashboard');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const statsDisplay = [
     {
       title: 'Tổng bệnh nhân',
-      value: '48',
+      value: stats.patient_count.toString(),
       change: '+12%',
       icon: Users,
       color: 'text-blue-600 dark:text-blue-400',
@@ -26,15 +91,15 @@ const Dashboard = () => {
     },
     {
       title: 'Lịch hẹn hôm nay',
-      value: '8',
-      change: '3 đang chờ',
+      value: stats.today_appointments.toString(),
+      change: `${stats.pending_appointments} pending`,
       icon: Calendar,
       color: 'text-green-600 dark:text-green-400',
       bgColor: 'bg-green-50 dark:bg-green-950'
     },
     {
       title: 'Cảnh báo khẩn',
-      value: '3',
+      value: stats.critical_alerts.toString(),
       change: 'Cần xử lý',
       icon: AlertTriangle,
       color: 'text-red-600 dark:text-red-400',
@@ -42,7 +107,7 @@ const Dashboard = () => {
     },
     {
       title: 'Tỷ lệ cải thiện',
-      value: '76%',
+      value: `${stats.improvement_rate}%`,
       change: '+8%',
       icon: TrendingUp,
       color: 'text-purple-600 dark:text-purple-400',
@@ -50,76 +115,45 @@ const Dashboard = () => {
     }
   ];
 
-  const recentAppointments = [
-    {
-      id: 1,
-      patient: 'Nguyễn Văn A',
-      time: '09:00 AM',
-      type: 'Video Call',
-      status: 'upcoming',
-      severity: 'medium'
-    },
-    {
-      id: 2,
-      patient: 'Trần Thị B',
-      time: '10:30 AM',
-      type: 'Chat',
-      status: 'upcoming',
-      severity: 'high'
-    },
-    {
-      id: 3,
-      patient: 'Lê Văn C',
-      time: '02:00 PM',
-      type: 'Video Call',
-      status: 'scheduled',
-      severity: 'low'
-    },
-    {
-      id: 4,
-      patient: 'Phạm Thị D',
-      time: '03:30 PM',
-      type: 'Chat',
-      status: 'scheduled',
-      severity: 'medium'
-    }
-  ];
-
-  const alerts = [
-    {
-      id: 1,
-      patient: 'Nguyễn Văn E',
-      message: 'Điểm cảm xúc giảm đột ngột',
-      time: '30 phút trước',
-      severity: 'critical'
-    },
-    {
-      id: 2,
-      patient: 'Trần Thị F',
-      message: 'Không hoàn thành bài tập 3 ngày',
-      time: '2 giờ trước',
-      severity: 'warning'
-    },
-    {
-      id: 3,
-      patient: 'Lê Văn G',
-      message: 'Yêu cầu tư vấn khẩn cấp',
-      time: '4 giờ trước',
-      severity: 'critical'
-    }
-  ];
-
   const quickActions = [
-    { label: 'Thêm bệnh nhân mới', icon: UserPlus, color: 'bg-blue-500' },
-    { label: 'Tạo lịch hẹn', icon: Calendar, color: 'bg-green-500' },
-    { label: 'Viết báo cáo', icon: FileText, color: 'bg-purple-500' },
-    { label: 'Xem hoạt động', icon: Activity, color: 'bg-orange-500' }
+    { label: 'Thêm bệnh nhân mới', icon: UserPlus, color: 'bg-blue-500', path: '/doctor/patients' },
+    { label: 'Tạo lịch hẹn', icon: Calendar, color: 'bg-green-500', path: '/doctor/appointments' },
+    { label: 'Viết báo cáo', icon: FileText, color: 'bg-purple-500', path: '/doctor/patients' },
+    { label: 'Xem hoạt động', icon: Activity, color: 'bg-orange-500', path: '/doctor/dashboard' }
   ];
+
+  const formatTime = (dateString: string) => {
+    const date = new Date(dateString);
+    return date.toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' });
+  };
+
+  const formatRelativeTime = (dateString: string) => {
+    const date = new Date(dateString);
+    const now = new Date();
+    const diffMs = now.getTime() - date.getTime();
+    const diffMins = Math.floor(diffMs / 60000);
+    const diffHours = Math.floor(diffMins / 60);
+    
+    if (diffMins < 60) return `${diffMins} phút trước`;
+    if (diffHours < 24) return `${diffHours} giờ trước`;
+    return `${Math.floor(diffHours / 24)} ngày trước`;
+  };
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center h-screen">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
+          <p>Đang tải...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-8 p-6">
       {/* Page Header with Gradient */}
-      <div className="relative overflow-hidden rounded-2xl bg-linear-to-br from-blue-600 via-purple-600 to-pink-600 p-8 text-white shadow-2xl">
+      <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 p-8 text-white shadow-2xl">
         {/* Decorative elements */}
         <div className="absolute -right-20 -top-20 h-40 w-40 rounded-full bg-white/10 blur-3xl" />
         <div className="absolute -bottom-20 -left-20 h-40 w-40 rounded-full bg-white/10 blur-3xl" />
@@ -139,7 +173,7 @@ const Dashboard = () => {
           
           {/* Quick Stats in Header */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
-            {stats.map((stat, index) => {
+            {statsDisplay.map((stat, index) => {
               const Icon = stat.icon;
               return (
                 <div key={index} className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
@@ -164,7 +198,7 @@ const Dashboard = () => {
       <div className="grid gap-6 lg:grid-cols-2">
         {/* Recent Appointments */}
         <Card className="shadow-lg border-0">
-          <CardHeader className="border-b bg-linear-to-r from-blue-50 to-purple-50 dark:from-blue-950/20 dark:to-purple-950/20">
+          <CardHeader className="border-b bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-950/20 dark:to-purple-950/20">
             <CardTitle className="flex items-center gap-2 text-xl">
               <div className="p-2 rounded-lg bg-blue-500">
                 <Calendar className="w-5 h-5 text-white" />
@@ -175,50 +209,39 @@ const Dashboard = () => {
               Các buổi tư vấn hôm nay và sắp tới
             </CardDescription>
           </CardHeader>
-          <CardContent className="space-y-3">
-            {recentAppointments.map((appointment) => (
-              <div
-                key={appointment.id}
-                className="flex items-center justify-between p-3 rounded-lg border bg-card hover:bg-muted/50 transition-colors"
-              >
-                <div className="flex items-center gap-3">
-                  <div className="flex flex-col">
-                    <span className="font-medium">{appointment.patient}</span>
-                    <div className="flex items-center gap-2 mt-1">
-                      <Clock className="w-3 h-3 text-muted-foreground" />
-                      <span className="text-xs text-muted-foreground">
-                        {appointment.time}
-                      </span>
-                      {appointment.type === 'Video Call' ? (
-                        <Video className="w-3 h-3 text-blue-500" />
-                      ) : (
-                        <MessageSquare className="w-3 h-3 text-green-500" />
-                      )}
-                      <span className="text-xs">{appointment.type}</span>
+          <CardContent className="space-y-3 pt-6">
+            {appointments.length === 0 ? (
+              <p className="text-center text-muted-foreground py-8">Không có lịch hẹn sắp tới</p>
+            ) : (
+              appointments.slice(0, 4).map((appointment) => (
+                <div
+                  key={appointment.id}
+                  className="flex items-center justify-between p-3 rounded-lg border bg-card hover:bg-muted/50 transition-colors"
+                >
+                  <div className="flex items-center gap-3">
+                    <div className="flex flex-col">
+                      <span className="font-medium">{appointment.patient_name}</span>
+                      <div className="flex items-center gap-2 mt-1">
+                        <Clock className="w-3 h-3 text-muted-foreground" />
+                        <span className="text-xs text-muted-foreground">
+                          {formatTime(appointment.appointment_date)}
+                        </span>
+                        {appointment.appointment_type === 'video' ? (
+                          <Video className="w-3 h-3 text-blue-500" />
+                        ) : (
+                          <MessageSquare className="w-3 h-3 text-green-500" />
+                        )}
+                        <span className="text-xs">{appointment.appointment_type === 'video' ? 'Video Call' : 'Chat'}</span>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Badge
-                    variant={
-                      appointment.severity === 'high'
-                        ? 'destructive'
-                        : appointment.severity === 'medium'
-                        ? 'default'
-                        : 'secondary'
-                    }
-                  >
-                    {appointment.severity === 'high' && 'Cao'}
-                    {appointment.severity === 'medium' && 'Trung bình'}
-                    {appointment.severity === 'low' && 'Thấp'}
-                  </Badge>
-                  <Button size="sm" variant="ghost">
+                  <Button size="sm" variant="ghost" onClick={() => navigate('/doctor/appointments')}>
                     Xem
                   </Button>
                 </div>
-              </div>
-            ))}
-            <Button variant="outline" className="w-full mt-4">
+              ))
+            )}
+            <Button variant="outline" className="w-full mt-4" onClick={() => navigate('/doctor/appointments')}>
               Xem tất cả lịch hẹn
             </Button>
           </CardContent>
@@ -226,7 +249,7 @@ const Dashboard = () => {
 
         {/* Alerts */}
         <Card className="shadow-lg border-0">
-          <CardHeader className="border-b bg-linear-to-r from-red-50 to-orange-50 dark:from-red-950/20 dark:to-orange-950/20">
+          <CardHeader className="border-b bg-gradient-to-r from-red-50 to-orange-50 dark:from-red-950/20 dark:to-orange-950/20">
             <CardTitle className="flex items-center gap-2 text-xl">
               <div className="p-2 rounded-lg bg-red-500">
                 <AlertTriangle className="w-5 h-5 text-white" />
@@ -237,36 +260,39 @@ const Dashboard = () => {
               Các bệnh nhân cần chú ý đặc biệt
             </CardDescription>
           </CardHeader>
-          <CardContent className="space-y-3">
-            {alerts.map((alert) => (
-              <div
-                key={alert.id}
-                className="p-3 rounded-lg border bg-card hover:bg-muted/50 transition-colors"
-              >
-                <div className="flex items-start justify-between mb-2">
-                  <div className="flex items-center gap-2">
-                    <Badge
-                      variant={
-                        alert.severity === 'critical' ? 'destructive' : 'default'
-                      }
-                    >
-                      {alert.severity === 'critical' ? 'Khẩn cấp' : 'Cảnh báo'}
-                    </Badge>
-                    <span className="font-medium text-sm">{alert.patient}</span>
+          <CardContent className="space-y-3 pt-6">
+            {alerts.length === 0 ? (
+              <p className="text-center text-muted-foreground py-8">Không có cảnh báo</p>
+            ) : (
+              alerts.slice(0, 3).map((alert) => (
+                <div
+                  key={alert.id}
+                  className="p-3 rounded-lg border bg-card hover:bg-muted/50 transition-colors"
+                >
+                  <div className="flex items-start justify-between mb-2">
+                    <div className="flex items-center gap-2">
+                      <Badge
+                        variant={
+                          alert.severity === 'critical' ? 'destructive' : 'default'
+                        }
+                      >
+                        {alert.severity === 'critical' ? 'Khẩn cấp' : 'Cảnh báo'}
+                      </Badge>
+                    </div>
+                    <span className="text-xs text-muted-foreground">
+                      {formatRelativeTime(alert.created_at)}
+                    </span>
                   </div>
-                  <span className="text-xs text-muted-foreground">
-                    {alert.time}
-                  </span>
+                  <p className="text-sm text-muted-foreground mb-2">
+                    {alert.message}
+                  </p>
+                  <Button size="sm" variant="outline" className="w-full" onClick={() => navigate('/doctor/alerts')}>
+                    Xem chi tiết
+                  </Button>
                 </div>
-                <p className="text-sm text-muted-foreground mb-2">
-                  {alert.message}
-                </p>
-                <Button size="sm" variant="outline" className="w-full">
-                  Xem chi tiết
-                </Button>
-              </div>
-            ))}
-            <Button variant="outline" className="w-full mt-4">
+              ))
+            )}
+            <Button variant="outline" className="w-full mt-4" onClick={() => navigate('/doctor/alerts')}>
               Xem tất cả cảnh báo
             </Button>
           </CardContent>
@@ -275,7 +301,7 @@ const Dashboard = () => {
 
       {/* Quick Actions */}
       <Card className="shadow-lg border-0">
-        <CardHeader className="border-b bg-linear-to-r from-purple-50 to-pink-50 dark:from-purple-950/20 dark:to-pink-950/20">
+        <CardHeader className="border-b bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-950/20 dark:to-pink-950/20">
           <CardTitle className="flex items-center gap-2 text-xl">
             <div className="p-2 rounded-lg bg-purple-500">
               <Activity className="w-5 h-5 text-white" />
@@ -295,6 +321,7 @@ const Dashboard = () => {
                   key={index}
                   variant="outline"
                   className="h-auto py-6 flex-col gap-3 hover:scale-105 transition-all hover:shadow-lg border-2"
+                  onClick={() => navigate(action.path)}
                 >
                   <div className={`p-4 rounded-xl ${action.color} shadow-lg`}>
                     <Icon className="w-6 h-6 text-white" />

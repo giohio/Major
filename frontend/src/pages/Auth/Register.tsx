@@ -6,7 +6,8 @@ import { Button } from '../../components/ui/button';
 import { Input } from '../../components/ui/input';
 import { Label } from '../../components/ui/label';
 import { Checkbox } from '../../components/ui/checkbox';
-import { Brain, Mail, Lock, Eye, EyeOff, User, Sparkles, Shield, Zap } from 'lucide-react';
+import { RadioGroup, RadioGroupItem } from '../../components/ui/radio-group';
+import { Brain, Mail, Lock, Eye, EyeOff, User, Sparkles, Shield, Zap, Stethoscope, IdCard } from 'lucide-react';
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -14,6 +15,9 @@ const Register = () => {
     email: '',
     password: '',
     confirmPassword: '',
+    role: 'user',
+    licenseNumber: '',
+    specialization: '',
   });
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
@@ -60,7 +64,16 @@ const Register = () => {
     }
 
     if (!agreeTerms) {
-      newErrors.terms = 'Bạn cần đồng ý với điều khoản dịch vụ';
+      newErrors.terms = 'You must agree to the terms of service';
+    }
+
+    if (formData.role === 'doctor') {
+      if (!formData.licenseNumber.trim()) {
+        newErrors.licenseNumber = 'Vui lòng nhập số giấy phép hành nghề';
+      }
+      if (!formData.specialization.trim()) {
+        newErrors.specialization = 'Vui lòng nhập chuyên khoa';
+      }
     }
 
     setErrors(newErrors);
@@ -77,9 +90,27 @@ const Register = () => {
     setIsLoading(true);
 
     try {
-      // Call registration API
-      await register(formData.name, formData.email, formData.password);
-      navigate('/user/profile');
+      // Call registration API with role
+      const registrationData: any = {
+        full_name: formData.name,
+        email: formData.email,
+        password: formData.password,
+        role: formData.role
+      };
+
+      if (formData.role === 'doctor') {
+        registrationData.license_number = formData.licenseNumber;
+        registrationData.specialization = formData.specialization;
+      }
+
+      await register(formData.name, formData.email, formData.password, registrationData);
+      
+      // Navigate based on role
+      if (formData.role === 'doctor') {
+        navigate('/doctor/dashboard');
+      } else {
+        navigate('/user/dashboard');
+      }
     } catch (error) {
       console.error('Registration failed:', error);
       setErrors({ ...errors, submit: 'Đăng ký thất bại. Vui lòng thử lại.' });
@@ -134,6 +165,42 @@ const Register = () => {
 
           <CardContent className="pb-8">
             <form onSubmit={handleSubmit} className="space-y-5">
+              {/* Role Selection */}
+              <div className="space-y-3">
+                <Label className="text-sm font-medium">Loại tài khoản</Label>
+                <RadioGroup
+                  value={formData.role}
+                  onValueChange={(value) => {
+                    setFormData({ ...formData, role: value });
+                    setErrors({});
+                  }}
+                  className="grid grid-cols-2 gap-4"
+                >
+                  <div>
+                    <RadioGroupItem value="user" id="user" className="peer sr-only" />
+                    <Label
+                      htmlFor="user"
+                      className="flex flex-col items-center justify-center rounded-lg border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary peer-data-[state=checked]:bg-primary/5 cursor-pointer transition-all"
+                    >
+                      <User className="mb-2 h-6 w-6" />
+                      <span className="font-semibold">Bệnh nhân</span>
+                      <span className="text-xs text-muted-foreground mt-1 text-center">Tìm kiếm bác sĩ và tư vấn</span>
+                    </Label>
+                  </div>
+                  <div>
+                    <RadioGroupItem value="doctor" id="doctor" className="peer sr-only" />
+                    <Label
+                      htmlFor="doctor"
+                      className="flex flex-col items-center justify-center rounded-lg border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary peer-data-[state=checked]:bg-primary/5 cursor-pointer transition-all"
+                    >
+                      <Stethoscope className="mb-2 h-6 w-6" />
+                      <span className="font-semibold">Bác sĩ</span>
+                      <span className="text-xs text-muted-foreground mt-1 text-center">Tư vấn và chăm sóc bệnh nhân</span>
+                    </Label>
+                  </div>
+                </RadioGroup>
+              </div>
+
               {/* Name Field */}
               <div className="space-y-2">
                 <Label htmlFor="name" className="text-sm font-medium">
@@ -220,7 +287,7 @@ const Register = () => {
                   Xác nhận mật khẩu
                 </Label>
                 <div className="relative group">
-                  <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground group-focus-within:text-primary transition-colors" />
+                  <Shield className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground group-focus-within:text-primary transition-colors" />
                   <Input
                     id="confirmPassword"
                     name="confirmPassword"
@@ -248,6 +315,55 @@ const Register = () => {
                 )}
               </div>
 
+              {/* Doctor-specific fields */}
+              {formData.role === 'doctor' && (
+                <>
+                  {/* License Number */}
+                  <div className="space-y-2">
+                    <Label htmlFor="licenseNumber" className="text-sm font-medium">
+                      Số giấy phép hành nghề <span className="text-red-500">*</span>
+                    </Label>
+                    <div className="relative group">
+                      <IdCard className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground group-focus-within:text-primary transition-colors" />
+                      <Input
+                        id="licenseNumber"
+                        name="licenseNumber"
+                        type="text"
+                        placeholder="VD: BS-12345"
+                        value={formData.licenseNumber}
+                        onChange={handleChange}
+                        className="pl-11 h-12 border-2 focus:border-primary transition-all duration-200"
+                      />
+                    </div>
+                    {errors.licenseNumber && (
+                      <p className="text-xs text-red-600 font-medium animate-shake">{errors.licenseNumber}</p>
+                    )}
+                  </div>
+
+                  {/* Specialization */}
+                  <div className="space-y-2">
+                    <Label htmlFor="specialization" className="text-sm font-medium">
+                      Chuyên khoa <span className="text-red-500">*</span>
+                    </Label>
+                    <div className="relative group">
+                      <Stethoscope className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground group-focus-within:text-primary transition-colors" />
+                      <Input
+                        id="specialization"
+                        name="specialization"
+                        type="text"
+                        placeholder="VD: Tâm lý lâm sàng, Tâm thần học"
+                        value={formData.specialization}
+                        onChange={handleChange}
+                        className="pl-11 h-12 border-2 focus:border-primary transition-all duration-200"
+                      />
+                    </div>
+                    {errors.specialization && (
+                      <p className="text-xs text-red-600 font-medium animate-shake">{errors.specialization}</p>
+                    )}
+                  </div>
+                </>
+              )}
+
               {/* Terms Checkbox */}
               <div className="space-y-2 pt-2">
                 <div className="flex items-start space-x-3">
@@ -268,7 +384,7 @@ const Register = () => {
                   >
                     Tôi đồng ý với{' '}
                     <Link to="/terms" className="text-primary hover:underline font-semibold">
-                      Điều khoản dịch vụ
+                      Terms of Service
                     </Link>{' '}
                     và{' '}
                     <Link to="/privacy" className="text-primary hover:underline font-semibold">
@@ -297,7 +413,7 @@ const Register = () => {
                 {isLoading ? (
                   <span className="flex items-center gap-2">
                     <div className="w-4 h-4 border-2 border-white/20 border-t-white rounded-full animate-spin" />
-                    Đang tạo tài khoản...
+                    Creating account...
                   </span>
                 ) : (
                   'Tạo tài khoản miễn phí'

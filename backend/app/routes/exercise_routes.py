@@ -4,12 +4,14 @@ from app.extensions import db
 from app.models.models import Exercise, UserExerciseProgress, User
 from datetime import datetime, timedelta
 from sqlalchemy import func
+from app.utils.cache import cache_response
 
 exercise_bp = Blueprint('exercise', __name__)
 
 
 @exercise_bp.route('/exercises', methods=['GET'])
 @jwt_required()
+@cache_response(timeout=3600)  # Cache for 1 hour
 def get_exercises():
     """Get list of all active exercises with optional filtering"""
     try:
@@ -66,6 +68,7 @@ def get_exercise(exercise_id):
 
 @exercise_bp.route('/exercises/categories', methods=['GET'])
 @jwt_required()
+@cache_response(timeout=86400)  # Cache for 24 hours
 def get_categories():
     """Get list of all exercise categories"""
     try:
@@ -86,7 +89,7 @@ def get_categories():
 def get_user_progress():
     """Get user's exercise progress for all exercises"""
     try:
-        user_id = get_jwt_identity()
+        user_id = int(get_jwt_identity())
         
         # Get all active exercises
         exercises = Exercise.query.filter_by(is_active=True).all()
@@ -127,7 +130,7 @@ def get_user_progress():
 def start_exercise(exercise_id):
     """Mark an exercise as started"""
     try:
-        user_id = get_jwt_identity()
+        user_id = int(get_jwt_identity())
         
         # Check if exercise exists
         exercise = Exercise.query.get(exercise_id)
@@ -330,6 +333,48 @@ def get_exercise_stats():
         }), 200
         
     except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@exercise_bp.route('/users/exercises/<int:exercise_id>/favorite', methods=['POST'])
+@jwt_required()
+def toggle_favorite(exercise_id):
+    """Toggle exercise as favorite/unfavorite"""
+    try:
+        user_id = get_jwt_identity()
+        
+        # Check if exercise exists
+        exercise = Exercise.query.get(exercise_id)
+        if not exercise or not exercise.is_active:
+            return jsonify({'error': 'Exercise not found'}), 404
+        
+        # Get or create progress record
+        progress = UserExerciseProgress.query.filter_by(
+            user_id=user_id,
+            exercise_id=exercise_id
+        ).first()
+        
+        if not progress:
+            progress = UserExerciseProgress(
+                user_id=user_id,
+                exercise_id=exercise_id,
+                is_favorite=True
+            )
+            db.session.add(progress)
+            message = 'Added to favorites'
+        else:
+            progress.is_favorite = not progress.is_favorite
+            message = 'Added to favorites' if progress.is_favorite else 'Removed from favorites'
+        
+        db.session.commit()
+        
+        return jsonify({
+            'message': message,
+            'is_favorite': progress.is_favorite
+        }), 200
+        
+    except Exception as e:
+        db.session.rollback()
         return jsonify({'error': str(e)}), 500
 
 

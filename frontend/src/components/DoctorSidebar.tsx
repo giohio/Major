@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Button } from './ui/button';
+import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar';
 import { useAuth } from '../hooks/useAuth';
+import { getAvatarUrl } from '../utils/avatar';
 import {
   LayoutDashboard,
   Users,
@@ -19,7 +21,7 @@ const DoctorSidebar = () => {
   const [open, setOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
-  const { logout } = useAuth();
+  const { logout, user } = useAuth();
 
   const menuItems = [
     { path: '/doctor/dashboard', icon: LayoutDashboard, label: 'Dashboard' },
@@ -44,16 +46,34 @@ const DoctorSidebar = () => {
       </button>
 
       <aside
-        className={`fixed top-0 left-0 z-40 h-screen w-64 bg-sidebar border-r border-sidebar-border transform transition-transform lg:translate-x-0 ${
-          open ? 'translate-x-0' : '-translate-x-full'
-        }`}
+        className={`fixed top-0 left-0 z-40 h-screen w-64 bg-sidebar border-r border-sidebar-border transform transition-transform lg:translate-x-0 ${open ? 'translate-x-0' : '-translate-x-full'
+          }`}
       >
         <div className="p-6 border-b border-sidebar-border">
-          <Link to="/doctor/dashboard" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center shadow-lg shadow-purple-500/30">
-              <Brain className="w-6 h-6 text-white" />
+          <Link to="/doctor/dashboard" className="flex items-center gap-3">
+            <Avatar className="w-10 h-10 border-2 border-sidebar-border">
+              <AvatarImage src={getAvatarUrl(user?.avatar_url)} alt={user?.full_name || 'Doctor'} />
+              <AvatarFallback className="bg-gradient-to-br from-purple-600 to-blue-600 text-white font-bold">
+                {user?.full_name?.charAt(0).toUpperCase() || 'D'}
+              </AvatarFallback>
+            </Avatar>
+            <div className="flex-1">
+              <div className="text-sm font-semibold text-sidebar-foreground">
+                {user?.full_name || 'Doctor'}
+              </div>
+              <div className="text-xs text-sidebar-foreground/60">
+                Bác sĩ
+              </div>
             </div>
-            <span className="text-lg font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+          </Link>
+        </div>
+
+        <div className="px-4 py-3 border-b border-sidebar-border">
+          <Link to="/doctor/dashboard" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+            <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center shadow-lg shadow-purple-500/30">
+              <Brain className="w-5 h-5 text-white" />
+            </div>
+            <span className="text-base font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
               MindCare AI
             </span>
           </Link>
@@ -67,11 +87,10 @@ const DoctorSidebar = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`flex items-center gap-3 px-4 py-3 rounded-lg transition-colors ${
-                  isActive
-                    ? 'bg-sidebar-accent text-sidebar-accent-foreground'
-                    : 'text-sidebar-foreground hover:bg-sidebar-accent/50'
-                }`}
+                className={`flex items-center gap-3 px-4 py-3 rounded-lg transition-colors ${isActive
+                  ? 'bg-sidebar-accent text-sidebar-accent-foreground'
+                  : 'text-sidebar-foreground hover:bg-sidebar-accent/50'
+                  }`}
                 onClick={() => setOpen(false)}
               >
                 <Icon size={20} />

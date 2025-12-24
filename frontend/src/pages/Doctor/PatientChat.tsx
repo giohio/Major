@@ -79,7 +79,7 @@ const PatientChat = () => {
     {
       id: 2,
       sender: 'doctor',
-      content: 'Chào em. Bác sĩ hiểu. Em có thể chia sẻ cụ thể hơn được không?',
+      content: 'Hello. Doctor understands. Can you share more specifically?',
       timestamp: '14:22',
       type: 'text'
     },
@@ -93,7 +93,7 @@ const PatientChat = () => {
     {
       id: 4,
       sender: 'doctor',
-      content: 'Em đã làm rất tốt khi chia sẻ điều này. Hãy thử áp dụng bài tập hơi thở mà chúng ta đã học nhé. Sau đó em thử viết ra những điều em lo lắng.',
+      content: 'You did very well sharing this. Try applying the breathing exercise we learned. Then try writing down what you are worried about.',
       timestamp: '14:25',
       type: 'text'
     },
@@ -188,7 +188,7 @@ const PatientChat = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold">{currentSession?.patientName}</h3>
-                  <p className="text-xs text-muted-foreground">Đang hoạt động</p>
+                  <p className="text-xs text-muted-foreground">Online</p>
                 </div>
               </div>
               <div className="flex gap-2">

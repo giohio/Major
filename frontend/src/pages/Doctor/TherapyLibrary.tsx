@@ -178,7 +178,7 @@ const TherapyLibrary = () => {
       <div>
         <h1 className="text-3xl font-bold text-foreground">Thư Viện Liệu Pháp</h1>
         <p className="text-muted-foreground mt-1">
-          Tài nguyên điều trị và bài tập cho bệnh nhân
+          Treatment resources and exercises for patients
         </p>
       </div>
 
@@ -204,7 +204,7 @@ const TherapyLibrary = () => {
         <CardHeader>
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
             <div>
-              <CardTitle>Tài Nguyên Điều Trị</CardTitle>
+              <CardTitle>Treatment Resources</CardTitle>
               <CardDescription>Chọn tài nguyên phù hợp cho bệnh nhân</CardDescription>
             </div>
             <div className="relative w-full md:w-64">

@@ -13,6 +13,7 @@ import Register from './pages/Auth/Register';
 import SubscriptionPlans from './pages/SubscriptionPlans';
 import Contact from './pages/Contact';
 import About from './pages/About';
+import PaymentResult from './pages/PaymentResult';
 
 // User Pages
 import ChatBot from './pages/User/ChatBot';
@@ -25,6 +26,7 @@ import PaymentHistory from './pages/User/PaymentHistory';
 import Settings from './pages/User/Settings';
 import AlertPage from './pages/User/AlertPage';
 import FindDoctor from './pages/User/FindDoctor';
+import DoctorProfile from './pages/User/DoctorProfile';
 import BookAppointment from './pages/User/BookAppointment';
 import UserAppointments from './pages/User/UserAppointments';
 
@@ -36,6 +38,7 @@ import PatientChat from './pages/Doctor/PatientChat';
 import Appointments from './pages/Doctor/Appointments';
 import TherapyLibrary from './pages/Doctor/TherapyLibrary';
 import Alerts from './pages/Doctor/Alerts';
+import DoctorSettings from './pages/Doctor/DoctorSettings';
 
 // Admin Pages
 import AdminDashboard from './pages/Admin/Dashboard';
@@ -50,6 +53,7 @@ import AuditLogs from './pages/Admin/AuditLogs';
 import { AuthProvider } from './contexts/AuthContext';
 import { ThemeProvider } from './contexts/ThemeProvider';
 import { useAuth } from './hooks/useAuth';
+import { PublicRoute } from './components/PublicRoute';
 
 import './App.css';
 
@@ -82,13 +86,14 @@ function App() {
           <Routes>
             {/* Public Routes */}
             <Route element={<MainLayout />}>
-              <Route path="/" element={<LandingPage />} />
+              <Route path="/" element={<PublicRoute><LandingPage /></PublicRoute>} />
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
               <Route path="/plans" element={<SubscriptionPlans />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/chat" element={<ChatBot />} />
+              <Route path="/payment-result" element={<PaymentResult />} />
             </Route>
 
             {/* User Routes */}
@@ -110,6 +115,7 @@ function App() {
               <Route path="alert" element={<AlertPage />} />
               <Route path="alerts" element={<AlertPage />} />
               <Route path="find-doctor" element={<FindDoctor />} />
+              <Route path="doctors/:doctorId" element={<DoctorProfile />} />
               <Route path="appointments" element={<UserAppointments />} />
               <Route path="book-appointment/:doctorId" element={<BookAppointment />} />
             </Route>
@@ -130,6 +136,7 @@ function App() {
               <Route path="appointments" element={<Appointments />} />
               <Route path="library" element={<TherapyLibrary />} />
               <Route path="alerts" element={<Alerts />} />
+              <Route path="settings" element={<DoctorSettings />} />
             </Route>
 
             {/* Admin Routes */}

@@ -1,0 +1,58 @@
+{
+  "analysis_type": "clinical_assessment",
+  "session_id": "TEST_CLINICAL_001",
+  "user_id": 999,
+  "conversation": [
+    {
+      "role": "user",
+      "content": "Chào bác sĩ, dạo này tôi thấy mệt mỏi quá, chẳng muốn làm gì cả",
+      "timestamp": "2025-12-12T10:00:00Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Chào bạn. Bạn có thể chia sẻ thêm về cảm giác mệt mỏi đó được không?",
+      "timestamp": "2025-12-12T10:01:00Z"
+    },
+    {
+      "role": "user",
+      "content": "Công việc áp lực, sếp thì cứ mắng. Tối về nhà tôi chỉ muốn ngủ mãi không dậy nữa cho xong",
+      "timestamp": "2025-12-12T10:03:00Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Tôi hiểu bạn đang trải qua giai đoạn rất khó khăn. Bạn cảm thấy như vậy từ bao giờ?",
+      "timestamp": "2025-12-12T10:04:00Z"
+    },
+    {
+      "role": "user",
+      "content": "Khoảng 2 tuần rồi, từ khi có dự án mới. Giờ tôi thức khuya làm việc nhưng vẫn bị chê không đủ tốt",
+      "timestamp": "2025-12-12T10:05:30Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Điều đó nghe có vẻ rất căng thẳng. Bạn có nghĩ đến việc làm hại bản thân không?",
+      "timestamp": "2025-12-12T10:06:00Z"
+    },
+    {
+      "role": "user",
+      "content": "Không, tôi chỉ muốn nghỉ ngơi thôi. Có lẽ tôi cần một kỳ nghỉ",
+      "timestamp": "2025-12-12T10:06:45Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Tôi hiểu rồi. Việc nhận ra mình cần nghỉ ngơi là rất quan trọng. Hãy cùng tìm cách giúp bạn quản lý stress tốt hơn nhé",
+      "timestamp": "2025-12-12T10:07:30Z"
+    },
+    {
+      "role": "user",
+      "content": "Cảm ơn bác sĩ đã lắng nghe. Nói ra được tôi cũng thấy nhẹ nhõm hơn rồi",
+      "timestamp": "2025-12-12T10:08:15Z"
+    }
+  ],
+  "context": {
+    "duration_minutes": 8,
+    "message_count": 9,
+    "session_date": "2025-12-12"
+  },
+  "include_clinical_details": true
+}

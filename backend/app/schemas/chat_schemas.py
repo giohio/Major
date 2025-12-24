@@ -24,13 +24,14 @@ class CreateSessionSchema(Schema):
 
 
 class ChatFeedbackSchema(Schema):
-    """Schema for chat feedback"""
+    """Schema for chat message feedback (now embedded in ChatMessage)"""
     message_id = fields.Int(required=True)
-    rating = fields.Str(
+    rating = fields.Int(
         required=True,
-        validate=validate.OneOf(['positive', 'negative'])
+        validate=validate.Range(min=-1, max=5)  # -1 for thumbs down, 1 for thumbs up, or 1-5 rating
     )
     feedback_text = fields.Str(
         required=False,
         validate=validate.Length(max=1000)
     )
+

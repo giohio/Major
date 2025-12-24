@@ -3,6 +3,7 @@ import { Badge } from '../../components/ui/badge';
 import { Button } from '../../components/ui/button';
 import { Alert, AlertDescription, AlertTitle } from '../../components/ui/alert';
 import { AlertCircle, AlertTriangle, TrendingDown, Clock, CheckCircle } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 interface DoctorAlert {
   id: number;
@@ -15,59 +16,64 @@ interface DoctorAlert {
   severity: 'high' | 'medium';
 }
 
+import { useState, useEffect, useCallback } from 'react';
+import { apiClient } from '../../services/api.client';
+import { API_ENDPOINTS } from '../../config/api.config';
+import { toast } from 'sonner';
+
+// ... imports
+
 const Alerts = () => {
-  const alerts: DoctorAlert[] = [
-    {
-      id: 1,
-      type: 'critical',
-      patientName: 'Nguyễn Văn A',
-      patientId: 1,
-      message: 'Mức độ lo âu tăng đột ngột trong 2 ngày. Điểm số từ 45 → 78.',
-      timestamp: '2024-01-20 14:30',
-      read: false,
-      severity: 'high'
-    },
-    {
-      id: 2,
-      type: 'critical',
-      patientName: 'Trần Thị B',
-      patientId: 2,
-      message: 'Phát hiện dấu hiệu trầm cảm nghiêm trọng. Cần can thiệp ngay.',
-      timestamp: '2024-01-20 12:00',
-      read: false,
-      severity: 'high'
-    },
-    {
-      id: 3,
-      type: 'warning',
-      patientName: 'Lê Văn C',
-      patientId: 3,
-      message: 'Bệnh nhân bỏ lỡ 2 lịch hẹn liên tiếp. Cần liên hệ.',
-      timestamp: '2024-01-19 18:00',
-      read: false,
-      severity: 'medium'
-    },
-    {
-      id: 4,
-      type: 'warning',
-      patientName: 'Phạm Thị D',
-      patientId: 4,
-      message: 'Chưa hoàn thành bài tập trong 5 ngày. Tiến trình bị gián đoạn.',
-      timestamp: '2024-01-19 15:00',
-      read: true,
-      severity: 'medium'
-    },
-    {
-      id: 5,
-      type: 'info',
-      patientName: 'Hoàng Văn E',
-      patientId: 5,
-      message: 'Điểm số cảm xúc giảm nhẹ. Nên theo dõi trong tuần tới.',
-      timestamp: '2024-01-18 10:00',
-      read: true,
-      severity: 'medium'
+  const [alerts, setAlerts] = useState<DoctorAlert[]>([]);
+  const [loading, setLoading] = useState(true);
+  const navigate = useNavigate();
+
+  const mapAlertType = (type: string): 'critical' | 'warning' | 'info' => {
+    switch (type) {
+      case 'risk_assessment':
+      case 'suicide_risk':
+      case 'self_harm':
+        return 'critical';
+      case 'anxiety_spike':
+      case 'depression_spike':
+      case 'missed_session':
+        return 'warning';
+      default:
+        return 'info';
     }
-  ];
+  };
+
+  const mapSeverity = (severity: string): 'high' | 'medium' => {
+    return severity === 'high' || severity === 'critical' ? 'high' : 'medium';
+  };
+
+  const fetchAlerts = useCallback(async () => {
+    try {
+      const response = await apiClient.get<{ alerts: Record<string, unknown>[] }>(API_ENDPOINTS.DOCTOR.ALERTS);
+
+      const mappedAlerts: DoctorAlert[] = response.alerts.map((alert: Record<string, unknown>) => ({
+        id: Number(alert.id),
+        type: mapAlertType(String(alert.alert_type)),
+        patientName: alert.patient_name ? String(alert.patient_name) : 'Unknown Patient',
+        patientId: Number(alert.user_id),
+        message: String(alert.message),
+        timestamp: String(alert.created_at),
+        read: Boolean(alert.is_resolved),
+        severity: mapSeverity(String(alert.severity))
+      }));
+
+      setAlerts(mappedAlerts);
+    } catch (error) {
+      console.error('Failed to fetch alerts:', error);
+      toast.error('Không thể tải cảnh báo');
+    } finally {
+      setLoading(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    fetchAlerts();
+  }, [fetchAlerts]);
 
   const criticalCount = alerts.filter(a => a.type === 'critical' && !a.read).length;
   const warningCount = alerts.filter(a => a.type === 'warning' && !a.read).length;
@@ -155,54 +161,66 @@ const Alerts = () => {
 
       {/* Alerts List */}
       <div className="space-y-4">
-        {alerts.map((alert) => (
-          <Alert
-            key={alert.id}
-            variant={getAlertVariant(alert.type)}
-            className={`relative ${!alert.read ? 'border-l-4' : 'opacity-60'}`}
-          >
-            <div className="flex items-start gap-4">
-              {getAlertIcon(alert.type)}
-              <div className="flex-1 space-y-2">
-                <div className="flex items-start justify-between gap-4">
-                  <div className="flex-1">
-                    <AlertTitle className="flex items-center gap-2 flex-wrap">
-                      <span className="font-bold">{alert.patientName}</span>
-                      {getSeverityBadge(alert.severity)}
-                      {!alert.read && (
-                        <Badge variant="secondary" className="text-xs">Mới</Badge>
-                      )}
-                    </AlertTitle>
-                    <AlertDescription className="mt-2">
-                      {alert.message}
-                    </AlertDescription>
-                    <div className="flex items-center gap-2 mt-2 text-xs text-muted-foreground">
-                      <Clock className="w-3 h-3" />
-                      {new Date(alert.timestamp).toLocaleString('vi-VN')}
+        {loading ? (
+          <div className="text-center py-12 text-muted-foreground">Loading alerts...</div>
+        ) : (
+          alerts.map((alert) => (
+            <Alert
+              key={alert.id}
+              variant={getAlertVariant(alert.type)}
+              className={`relative ${!alert.read ? 'border-l-4' : 'opacity-60'}`}
+            >
+              <div className="flex items-start gap-4">
+                {getAlertIcon(alert.type)}
+                <div className="flex-1 space-y-2">
+                  <div className="flex items-start justify-between gap-4">
+                    <div className="flex-1">
+                      <AlertTitle className="flex items-center gap-2 flex-wrap">
+                        <span className="font-bold">{alert.patientName}</span>
+                        {getSeverityBadge(alert.severity)}
+                        {!alert.read && (
+                          <Badge variant="secondary" className="text-xs">Mới</Badge>
+                        )}
+                      </AlertTitle>
+                      <AlertDescription className="mt-2">
+                        {alert.message}
+                      </AlertDescription>
+                      <div className="flex items-center gap-2 mt-2 text-xs text-muted-foreground">
+                        <Clock className="w-3 h-3" />
+                        {new Date(alert.timestamp).toLocaleString('vi-VN')}
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div className="flex gap-2 mt-3">
-                  <Button size="sm">
-                    Xem hồ sơ
-                  </Button>
-                  <Button variant="outline" size="sm">
-                    Liên hệ
-                  </Button>
-                  {!alert.read && (
-                    <Button variant="ghost" size="sm">
-                      Đánh dấu đã đọc
+                  <div className="flex gap-2 mt-3">
+                    <Button size="sm" onClick={() => navigate(`/doctor/patients/${alert.patientId}`)}>
+                      Xem hồ sơ
                     </Button>
-                  )}
+                    <Button variant="outline" size="sm" onClick={() => navigate(`/doctor/chat/${alert.patientId}`)}>
+                      Liên hệ
+                    </Button>
+                    {!alert.read && (
+                      <Button variant="ghost" size="sm" onClick={async () => {
+                        try {
+                          await apiClient.post(`${API_ENDPOINTS.DOCTOR.ALERTS}/${alert.id}/resolve`);
+                          toast.success('Đã đánh dấu đã đọc');
+                          fetchAlerts();
+                        } catch (error) {
+                          toast.error('Không thể cập nhật');
+                        }
+                      }}>
+                        Đánh dấu đã đọc
+                      </Button>
+                    )}
+                  </div>
                 </div>
               </div>
-            </div>
-          </Alert>
-        ))}
+            </Alert>
+          ))
+        )}
       </div>
 
-      {alerts.length === 0 && (
+      {!loading && alerts.length === 0 && (
         <Card>
           <CardContent className="py-12 text-center">
             <CheckCircle className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
