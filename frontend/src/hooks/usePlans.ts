@@ -1,5 +1,6 @@
 import { useState, useCallback } from 'react';
-import { planService } from '../services/plan.service';
+import { apiClient } from '../services/api.client';
+import { API_ENDPOINTS } from '../config/api.config';
 import type { Plan, SubscribeRequest } from '../types/api.types';
 
 export const usePlans = () => {
@@ -12,7 +13,8 @@ export const usePlans = () => {
     try {
       setLoading(true);
       setError(null);
-      const response = await planService.getAllPlans(userType);
+      const endpoint = userType ? `${API_ENDPOINTS.PLANS.LIST}?user_type=${userType}` : API_ENDPOINTS.PLANS.LIST;
+      const response = await apiClient.get<{ plans: Plan[] }>(endpoint);
       setPlans(response.plans);
       return response.plans;
     } catch (err) {
@@ -28,7 +30,7 @@ export const usePlans = () => {
     try {
       setLoading(true);
       setError(null);
-      const response = await planService.getCurrentPlan();
+      const response = await apiClient.get<{ plan: Plan }>(API_ENDPOINTS.PLANS.CURRENT);
       setCurrentPlan(response.plan);
       return response;
     } catch (err) {
@@ -44,7 +46,7 @@ export const usePlans = () => {
     try {
       setLoading(true);
       setError(null);
-      const response = await planService.subscribe(data);
+      const response = await apiClient.post<any>(API_ENDPOINTS.PLANS.SUBSCRIBE, data);
       return response;
     } catch (err) {
       const errorMessage = (err as { error?: string }).error || 'Failed to subscribe';

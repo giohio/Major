@@ -10,7 +10,7 @@ class CreatePaymentSchema(Schema):
     amount = fields.Decimal(required=True, places=2, as_string=True)
     payment_method = fields.Str(
         required=True,
-        validate=validate.OneOf(['vnpay', 'stripe', 'bank_transfer'])
+        validate=validate.OneOf(['vnpay', 'momo', 'zalopay', 'stripe', 'bank_transfer'])
     )
     payment_type = fields.Str(
         required=True,

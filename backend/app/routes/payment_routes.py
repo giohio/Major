@@ -72,22 +72,75 @@ def create_payment():
         
         # Generate payment URL based on method
         payment_url = None
-        if data['payment_method'] == 'vnpay':
-            payment_url = payment_service.create_vnpay_payment(
-                payment_id=payment.id,
-                amount=float(data['amount']),
-                description=data.get('description', 'Payment'),
-                return_url=data.get('return_url', f"{current_app.config.get('FRONTEND_URL')}/payment/callback")
-            )
-        elif data['payment_method'] == 'stripe':
-            # TODO: Implement Stripe payment
-            pass
+        qr_code = None
         
-        return jsonify({
+        if data['payment_method'] == 'vnpay':
+            # Generate VNPay payment URL
+            vnpay_url = current_app.config.get('VNPAY_URL', 'https://sandbox.vnpayment.vn/paymentv2/vpcpay.html')
+            vnpay_tmn_code = current_app.config.get('VNPAY_TMN_CODE', '')
+            vnpay_hash_secret = current_app.config.get('VNPAY_HASH_SECRET', '')
+            return_url = data.get('return_url', f"{current_app.config.get('FRONTEND_URL')}/payment/callback")
+            
+            if vnpay_tmn_code and vnpay_hash_secret:
+                payment_url = payment_service.generate_vnpay_payment_url(
+                    payment=payment,
+                    return_url=return_url,
+                    vnp_url=vnpay_url,
+                    vnp_tmn_code=vnpay_tmn_code,
+                    vnp_hash_secret=vnpay_hash_secret
+                )
+            else:
+                # Mock payment URL for testing
+                payment_url = f"{return_url}?payment_id={payment.id}&status=pending"
+                
+        elif data['payment_method'] == 'momo':
+            # Create MoMo QR payment
+            momo_config = {
+                'partner_code': current_app.config.get('MOMO_PARTNER_CODE', ''),
+                'access_key': current_app.config.get('MOMO_ACCESS_KEY', ''),
+                'secret_key': current_app.config.get('MOMO_SECRET_KEY', ''),
+                'endpoint': current_app.config.get('MOMO_ENDPOINT', 'https://test-payment.momo.vn/v2/gateway/api/create')
+            }
+            return_url = data.get('return_url', f"{current_app.config.get('FRONTEND_URL')}/payment/callback")
+            notify_url = f"{current_app.config.get('BACKEND_URL')}/api/webhook/momo"
+            
+            if all(momo_config.values()):
+                result = payment_service.create_momo_qr_payment(payment, return_url, notify_url, momo_config)
+                payment_url = result.get('payment_url')
+                qr_code = result.get('qr_code_url')
+            else:
+                # Mock payment URL for testing
+                payment_url = f"{return_url}?payment_id={payment.id}&status=pending"
+                
+        elif data['payment_method'] == 'zalopay':
+            # Create ZaloPay payment
+            zalopay_config = {
+                'app_id': current_app.config.get('ZALOPAY_APP_ID', ''),
+                'key1': current_app.config.get('ZALOPAY_KEY1', ''),
+                'key2': current_app.config.get('ZALOPAY_KEY2', ''),
+                'endpoint': current_app.config.get('ZALOPAY_ENDPOINT', 'https://sb-openapi.zalopay.vn/v2/create')
+            }
+            notify_url = f"{current_app.config.get('BACKEND_URL')}/api/webhook/zalopay"
+            
+            if all(zalopay_config.values()):
+                result = payment_service.create_zalopay_payment(payment, notify_url, zalopay_config)
+                payment_url = result.get('order_url')
+                qr_code = result.get('qr_code')
+            else:
+                # Mock payment URL for testing
+                return_url = data.get('return_url', f"{current_app.config.get('FRONTEND_URL')}/payment/callback")
+                payment_url = f"{return_url}?payment_id={payment.id}&status=pending"
+        
+        response_data = {
             'message': 'Payment created successfully',
             'payment': payment.to_dict(),
             'payment_url': payment_url
-        }), 201
+        }
+        
+        if qr_code:
+            response_data['qr_code'] = qr_code
+        
+        return jsonify(response_data), 200
         
     except ValidationError as e:
         return jsonify({'error': 'Validation error', 'details': e.messages}), 400
@@ -217,8 +270,8 @@ def get_payment(payment_id):
         if not payment:
             return jsonify({'error': 'Payment not found'}), 404
         
-        # Check permission
-        if payment.user_id != user_id and user.role != 'admin':
+        # Check permission - ensure type comparison
+        if int(payment.user_id) != int(user_id) and user.role != 'admin':
             return jsonify({'error': 'Permission denied'}), 403
         
         return jsonify(payment.to_dict()), 200

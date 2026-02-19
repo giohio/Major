@@ -1,14 +1,15 @@
 import { Outlet } from 'react-router-dom';
 import UserSidebar from '../components/UserSidebar';
-import './DashboardLayout.css';
 
 const DashboardLayout = () => {
   return (
-    <div className="dashboard-layout">
+    <div className="flex h-screen bg-background">
       <UserSidebar />
-      <div className="dashboard-content">
-        <Outlet />
-      </div>
+      <main className="flex-1 overflow-y-auto lg:ml-64">
+        <div className="container mx-auto p-6">
+          <Outlet />
+        </div>
+      </main>
     </div>
   );
 };

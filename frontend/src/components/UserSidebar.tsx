@@ -1,52 +1,138 @@
-import { Link, useLocation } from 'react-router-dom';
-import './Sidebar.css';
+import { useState } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { Button } from './ui/button';
+import { useAuth } from '../hooks/useAuth';
+import {
+  MessageCircle,
+  BarChart3,
+  Users,
+  Calendar,
+  Heart,
+  Settings,
+  LogOut,
+  Menu,
+  X,
+  FileText,
+  AlertCircle,
+  User,
+  CreditCard,
+  Phone,
+  Brain
+} from 'lucide-react';
 
 const UserSidebar = () => {
+  const [open, setOpen] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
+  const { logout } = useAuth();
 
   const menuItems = [
-    { path: '/user/profile', icon: '👤', label: 'Trang cá nhân' },
-    { path: '/user/dashboard', icon: '📈', label: 'Dashboard cảm xúc' },
-    { path: '/chat', icon: '💬', label: 'Chat với AI' },
-    { path: '/user/exercises', icon: '🧘‍♀️', label: 'Bài tập tự chăm sóc' },
-    { path: '/user/history', icon: '📝', label: 'Lịch sử hội thoại' },
-    { path: '/user/payments', icon: '🧾', label: 'Lịch sử thanh toán' },
-    { path: '/user/settings', icon: '⚙️', label: 'Cài đặt' },
+    { path: '/user/profile', icon: User, label: 'Profile' },
+    { path: '/user/dashboard', icon: BarChart3, label: 'Emotion Dashboard' },
+    { path: '/chat', icon: MessageCircle, label: 'Chat with AI' },
+    { path: '/user/find-doctor', icon: Users, label: 'Find Doctors' },
+    { path: '/user/appointments', icon: Calendar, label: 'My Appointments' },
+    { path: '/user/alert', icon: AlertCircle, label: 'Alerts' },
+    { path: '/user/exercises', icon: Heart, label: 'Exercises' },
+    { path: '/user/history', icon: FileText, label: 'History' },
+    { path: '/user/payments', icon: CreditCard, label: 'Payments' },
   ];
 
+  const handleLogout = () => {
+    logout();
+    navigate('/');
+  };
+
   return (
-    <aside className="sidebar">
-      <div className="sidebar-header">
-        <Link to="/" className="sidebar-logo">
-          <span className="logo-icon">🧠</span>
-          <span className="logo-text">Grounded</span>
-        </Link>
-      </div>
+    <>
+      {/* Mobile Toggle */}
+      <button
+        onClick={() => setOpen(!open)}
+        className="fixed top-4 left-4 z-50 lg:hidden p-2 rounded-lg bg-primary text-primary-foreground"
+      >
+        {open ? <X size={24} /> : <Menu size={24} />}
+      </button>
 
-      <nav className="sidebar-nav">
-        {menuItems.map((item) => (
-          <Link
-            key={item.path}
-            to={item.path}
-            className={`sidebar-item ${location.pathname === item.path ? 'active' : ''}`}
-          >
-            <span className="sidebar-icon">{item.icon}</span>
-            <span className="sidebar-label">{item.label}</span>
+      {/* Sidebar */}
+      <aside
+        className={`fixed top-0 left-0 z-40 h-screen w-64 bg-sidebar border-r border-sidebar-border transform transition-transform lg:translate-x-0 flex flex-col ${open ? 'translate-x-0' : '-translate-x-full'
+          }`}
+      >
+        <div className="p-6 border-b border-sidebar-border flex-shrink-0">
+          <Link to="/user/profile" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center shadow-lg shadow-purple-500/30">
+              <Brain className="w-6 h-6 text-white" />
+            </div>
+            <span className="text-lg font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+              MindCare AI
+            </span>
           </Link>
-        ))}
-      </nav>
-
-      <div className="sidebar-footer">
-        <div className="emergency-card">
-          <div className="emergency-icon">🚨</div>
-          <h4>Cần hỗ trợ khẩn cấp?</h4>
-          <p>Hotline 24/7</p>
-          <a href="tel:1900xxxx" className="emergency-btn">
-            1900-xxxx
-          </a>
         </div>
-      </div>
-    </aside>
+
+        <nav className="p-4 space-y-2 flex-1 overflow-y-auto">
+          {menuItems.map((item) => {
+            const Icon = item.icon;
+            const isActive = location.pathname === item.path;
+            return (
+              <Link
+                key={item.path}
+                to={item.path}
+                className={`flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 group ${isActive
+                  ? 'bg-sidebar-accent text-sidebar-accent-foreground shadow-sm'
+                  : 'text-sidebar-foreground hover:bg-sidebar-accent/50 hover:translate-x-1'
+                  }`}
+                onClick={() => setOpen(false)}
+              >
+                <Icon size={20} className={`transition-transform duration-200 ${isActive ? 'scale-110' : 'group-hover:scale-110'}`} />
+                <span className="font-medium">{item.label}</span>
+              </Link>
+            );
+          })}
+        </nav>
+
+        <div className="p-4 border-t border-sidebar-border space-y-2 flex-shrink-0 bg-sidebar">
+          <Link
+            to="/user/settings"
+            className="flex items-center gap-3 px-4 py-3 rounded-lg text-sidebar-foreground hover:bg-sidebar-accent/50 transition-colors"
+          >
+            <Settings size={20} />
+            <span className="font-medium">Settings</span>
+          </Link>
+          <Button
+            variant="outline"
+            className="w-full justify-start gap-3"
+            onClick={handleLogout}
+          >
+            <LogOut size={20} />
+            <span>Logout</span>
+          </Button>
+
+          <div className="mt-4 p-4 rounded-lg bg-destructive/10 border border-destructive/20">
+            <div className="flex items-start gap-2">
+              <Phone size={16} className="text-destructive mt-0.5" />
+              <div>
+                <h4 className="font-semibold text-sm text-foreground">Emergency?</h4>
+                <p className="text-xs text-muted-foreground">24/7 Hotline</p>
+                <a
+                  href="tel:1900xxxx"
+                  className="text-sm font-bold text-destructive hover:underline"
+                >
+                  1900-xxxx
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      {/* Overlay */}
+      {open && (
+        <div
+          className="fixed inset-0 bg-black/50 z-30 lg:hidden"
+          onClick={() => setOpen(false)}
+        />
+      )}
+    </>
   );
 };
 

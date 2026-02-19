@@ -22,9 +22,9 @@ const About = () => {
           <div className="mission-content">
             <h2 className="section-heading">Sứ mệnh của chúng tôi</h2>
             <p className="mission-text">
-              MindCare AI được thành lập với sứ mệnh democratize việc tiếp cận dịch vụ 
+              MindCare AI was founded with the mission to democratize access to mental health services 
               chăm sóc sức khỏe tinh thần chất lượng cao. Chúng tôi tin rằng mọi người 
-              đều xứng đáng được hỗ trợ tâm lý kịp thời và hiệu quả.
+              everyone deserves timely and effective mental health support.
             </p>
           </div>
         </div>
@@ -72,7 +72,7 @@ const About = () => {
         <div className="container">
           <h2 className="section-heading">Đội ngũ chuyên gia</h2>
           <p className="team-description">
-            MindCare AI được xây dựng bởi đội ngũ các chuyên gia tâm lý, 
+            MindCare AI is built by a team of psychologists, 
             kỹ sư AI và các bác sĩ có kinh nghiệm lâu năm trong lĩnh vực sức khỏe tinh thần.
           </p>
         </div>

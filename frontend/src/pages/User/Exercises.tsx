@@ -1,308 +1,377 @@
-import { useState } from 'react';
-import './Exercises.css';
+import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../components/ui/card';
+import { Badge } from '../../components/ui/badge';
+import { Button } from '../../components/ui/button';
+import { Progress } from '../../components/ui/progress';
+import { Input } from '../../components/ui/input';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../../components/ui/select';
+import { Play, Clock, Heart, Brain, Smile, Wind, Search, BookOpen, Activity } from 'lucide-react';
+import { apiClient } from '../../services/api.client';
+import { API_ENDPOINTS } from '../../config/api.config';
+import { toast } from 'sonner';
 
-type ExerciseCategory = 'all' | 'breathing' | 'meditation' | 'cbt' | 'mindfulness' | 'relaxation';
-type DifficultyLevel = 'beginner' | 'intermediate' | 'advanced';
+interface ExerciseProgress {
+  status: string;
+  progress_percentage: number;
+  times_completed: number;
+  total_time_spent_minutes: number;
+  last_practiced_at?: string;
+}
 
 interface Exercise {
-  id: string;
+  id: number;
   title: string;
   description: string;
-  category: ExerciseCategory;
-  duration: number; // minutes
-  difficulty: DifficultyLevel;
-  icon: string;
-  steps?: string[];
-  benefits?: string[];
+  duration_minutes: number;
+  difficulty: string;
+  category: string;
+  instructions: string;
+  benefits?: string;
+  progress?: ExerciseProgress;
+}
+
+interface ExerciseStats {
+  total_exercises: number;
+  completed_exercises: number;
+  in_progress_exercises: number;
+  completion_rate: number;
+  total_completions: number;
+  total_time_minutes: number;
+  total_time_hours: number;
+  streak_days: number;
+  average_progress: number;
 }
 
 const Exercises = () => {
-  const [selectedCategory, setSelectedCategory] = useState<ExerciseCategory>('all');
+  const navigate = useNavigate();
+  const [exercises, setExercises] = useState<Exercise[]>([]);
+  const [stats, setStats] = useState<ExerciseStats | null>(null);
+  const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  const [selectedDifficulty, setSelectedDifficulty] = useState<string>('all');
+  const [sortBy, setSortBy] = useState<string>('category');
 
-  // Mock data - replace with API
-  const exercises: Exercise[] = [
-    {
-      id: '1',
-      title: 'Hít thở 4-7-8',
-      description: 'Kỹ thuật thở giúp giảm căng thẳng và cải thiện giấc ngủ',
-      category: 'breathing',
-      duration: 5,
-      difficulty: 'beginner',
-      icon: '🌬️',
-      steps: [
-        'Ngồi thoải mái, lưng thẳng',
-        'Thở ra hoàn toàn qua miệng',
-        'Hít vào qua mũi đếm đến 4',
-        'Nín thở đếm đến 7',
-        'Thở ra qua miệng đếm đến 8',
-        'Lặp lại 4 chu kỳ'
-      ],
-      benefits: ['Giảm lo âu', 'Cải thiện giấc ngủ', 'Giảm huyết áp']
-    },
-    {
-      id: '2',
-      title: 'Thiền Chánh Niệm',
-      description: 'Tập trung vào hiện tại, quan sát suy nghĩ không phán xét',
-      category: 'meditation',
-      duration: 15,
-      difficulty: 'intermediate',
-      icon: '🧘',
-      steps: [
-        'Tìm nơi yên tĩnh, ngồi thoải mái',
-        'Nhắm mắt, tập trung vào hơi thở',
-        'Quan sát suy nghĩ đến và đi',
-        'Không phán xét, chấp nhận',
-        'Nếu xao lãng, nhẹ nhàng quay về hơi thở'
-      ],
-      benefits: ['Tăng tập trung', 'Giảm stress', 'Cải thiện nhận thức']
-    },
-    {
-      id: '3',
-      title: 'Ghi Nhật Ký Suy Nghĩ',
-      description: 'Kỹ thuật CBT để nhận diện và thay đổi suy nghĩ tiêu cực',
-      category: 'cbt',
-      duration: 10,
-      difficulty: 'beginner',
-      icon: '📝',
-      steps: [
-        'Viết ra tình huống gây lo lắng',
-        'Ghi lại suy nghĩ tự động',
-        'Xác định cảm xúc và mức độ (0-10)',
-        'Tìm bằng chứng ủng hộ và phản bác',
-        'Viết suy nghĩ cân bằng hơn'
-      ],
-      benefits: ['Nhận diện suy nghĩ tiêu cực', 'Tăng tự nhận thức', 'Giảm trầm cảm']
-    },
-    {
-      id: '4',
-      title: 'Quét Cơ Thể',
-      description: 'Mindfulness quét từng phần cơ thể, giải phóng căng thẳng',
-      category: 'mindfulness',
-      duration: 20,
-      difficulty: 'beginner',
-      icon: '🔍',
-      steps: [
-        'Nằm ngửa, mắt nhắm',
-        'Bắt đầu từ ngón chân, chú ý cảm giác',
-        'Di chuyển lên bàn chân, cẳng chân',
-        'Tiếp tục lên đùi, bụng, ngực',
-        'Quét vai, cánh tay, bàn tay',
-        'Kết thúc ở cổ, mặt, đầu'
-      ],
-      benefits: ['Giảm căng thẳng cơ bắp', 'Cải thiện giấc ngủ', 'Tăng nhận thức cơ thể']
-    },
-    {
-      id: '5',
-      title: 'Thư Giãn Cơ Tiến Triển',
-      description: 'Căng và thả lỏng từng nhóm cơ để giảm căng thẳng',
-      category: 'relaxation',
-      duration: 12,
-      difficulty: 'beginner',
-      icon: '💆',
-      steps: [
-        'Ngồi hoặc nằm thoải mái',
-        'Căng cơ bàn chân 5 giây, thả lỏng',
-        'Lặp lại với cẳng chân',
-        'Tiếp tục với đùi, bụng, ngực',
-        'Căng vai, cánh tay, bàn tay',
-        'Kết thúc với mặt và cổ'
-      ],
-      benefits: ['Giảm căng thẳng', 'Cải thiện tuần hoàn', 'Giảm đau đầu']
-    },
-    {
-      id: '6',
-      title: 'Thiền Từ Bi',
-      description: 'Phát triển lòng từ bi với bản thân và người khác',
-      category: 'meditation',
-      duration: 15,
-      difficulty: 'intermediate',
-      icon: '💖',
-      steps: [
-        'Ngồi yên tĩnh, thở sâu',
-        'Nghĩ về bản thân với lòng yêu thương',
-        'Lặp lại: "Mong tôi được bình an và hạnh phúc"',
-        'Mở rộng ra người thân',
-        'Mở rộng ra tất cả chúng sinh'
-      ],
-      benefits: ['Tăng lòng từ bi', 'Giảm tự trách', 'Cải thiện mối quan hệ']
-    },
-    {
-      id: '7',
-      title: 'Kỹ Thuật Nền Tảng 5-4-3-2-1',
-      description: 'Sử dụng 5 giác quan để kết nối với hiện tại',
-      category: 'mindfulness',
-      duration: 5,
-      difficulty: 'beginner',
-      icon: '👁️',
-      steps: [
-        'Quan sát 5 thứ bạn thấy',
-        'Chạm vào 4 thứ bạn cảm nhận',
-        'Lắng nghe 3 âm thanh',
-        'Ngửi 2 mùi hương',
-        'Nếm 1 hương vị'
-      ],
-      benefits: ['Giảm lo âu cấp tính', 'Kết nối hiện tại', 'Ngăn cơn hoảng loạn']
-    },
-    {
-      id: '8',
-      title: 'Thách Thức Suy Nghĩ',
-      description: 'CBT để đặt câu hỏi và thay đổi niềm tin tiêu cực',
-      category: 'cbt',
-      duration: 15,
-      difficulty: 'advanced',
-      icon: '🤔',
-      steps: [
-        'Xác định suy nghĩ tiêu cực cụ thể',
-        'Hỏi: "Bằng chứng gì ủng hộ?"',
-        'Hỏi: "Có góc nhìn khác không?"',
-        'Hỏi: "Tôi sẽ nói gì với bạn?"',
-        'Viết lại suy nghĩ cân bằng hơn'
-      ],
-      benefits: ['Thay đổi tư duy', 'Giảm lo âu', 'Tăng tự tin']
+  useEffect(() => {
+    loadExercises();
+    loadStats();
+  }, []);
+
+  const loadExercises = async () => {
+    try {
+      setLoading(true);
+      const response = await apiClient.get<{ exercises: Exercise[] }>(
+        API_ENDPOINTS.EXERCISE.LIST
+      );
+      setExercises(response.exercises || []);
+    } catch (error: unknown) {
+      console.error('Failed to load exercises:', error);
+      toast.error('Không thể tải danh sách bài tập');
+    } finally {
+      setLoading(false);
     }
-  ];
+  };
 
-  const categories = [
-    { id: 'all', name: 'Tất cả', icon: '📚' },
-    { id: 'breathing', name: 'Hít thở', icon: '🌬️' },
-    { id: 'meditation', name: 'Thiền', icon: '🧘' },
-    { id: 'cbt', name: 'CBT', icon: '📝' },
-    { id: 'mindfulness', name: 'Chánh niệm', icon: '🔍' },
-    { id: 'relaxation', name: 'Thư giãn', icon: '💆' }
-  ];
+  const loadStats = async () => {
+    try {
+      const response = await apiClient.get<{ stats: ExerciseStats }>(
+        API_ENDPOINTS.EXERCISE.STATS
+      );
+      setStats(response.stats);
+    } catch (error: unknown) {
+      console.error('Failed to load stats:', error);
+    }
+  };
 
-  const filteredExercises = exercises.filter(exercise => {
-    const matchesCategory = selectedCategory === 'all' || exercise.category === selectedCategory;
-    const matchesSearch = exercise.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                         exercise.description.toLowerCase().includes(searchQuery.toLowerCase());
-    return matchesCategory && matchesSearch;
-  });
+  const getCategoryIcon = (category: string) => {
+    switch (category) {
+      case 'breathing':
+        return <Wind className="w-6 h-6" />;
+      case 'meditation':
+        return <Brain className="w-6 h-6" />;
+      case 'journaling':
+        return <BookOpen className="w-6 h-6" />;
+      case 'cbt':
+        return <Activity className="w-6 h-6" />;
+      case 'relaxation':
+        return <Heart className="w-6 h-6" />;
+      default:
+        return <Smile className="w-6 h-6" />;
+    }
+  };
 
-  const getDifficultyLabel = (difficulty: DifficultyLevel) => {
-    const labels = {
-      beginner: 'Cơ bản',
+  const getCategoryLabel = (category: string) => {
+    const labels: Record<string, string> = {
+      breathing: 'Thở',
+      meditation: 'Thiền',
+      journaling: 'Viết',
+      cbt: 'CBT',
+      relaxation: 'Thư giãn',
+    };
+    return labels[category] || category;
+  };
+
+  const getDifficultyLabel = (difficulty: string) => {
+    const labels: Record<string, string> = {
+      beginner: 'Dễ',
       intermediate: 'Trung bình',
-      advanced: 'Nâng cao'
+      advanced: 'Khó',
     };
-    return labels[difficulty];
+    return labels[difficulty] || difficulty;
   };
 
-  const getDifficultyColor = (difficulty: DifficultyLevel) => {
-    const colors = {
-      beginner: 'var(--success)',
-      intermediate: 'var(--warning)',
-      advanced: 'var(--danger)'
-    };
-    return colors[difficulty];
+  const getDifficultyColor = (difficulty: string) => {
+    switch (difficulty) {
+      case 'beginner':
+        return 'bg-green-500';
+      case 'intermediate':
+        return 'bg-yellow-500';
+      case 'advanced':
+        return 'bg-red-500';
+      default:
+        return 'bg-gray-500';
+    }
   };
+
+  const filteredAndSortedExercises = exercises
+    .filter((exercise) => {
+      const matchesSearch =
+        exercise.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        exercise.description.toLowerCase().includes(searchQuery.toLowerCase());
+      const matchesCategory = selectedCategory === 'all' || exercise.category === selectedCategory;
+      const matchesDifficulty = selectedDifficulty === 'all' || exercise.difficulty === selectedDifficulty;
+      return matchesSearch && matchesCategory && matchesDifficulty;
+    })
+    .sort((a, b) => {
+      switch (sortBy) {
+        case 'duration-asc':
+          return a.duration_minutes - b.duration_minutes;
+        case 'duration-desc':
+          return b.duration_minutes - a.duration_minutes;
+        case 'difficulty':
+          const difficultyOrder: Record<string, number> = { beginner: 1, intermediate: 2, advanced: 3 };
+          return (difficultyOrder[a.difficulty] || 0) - (difficultyOrder[b.difficulty] || 0);
+        case 'category':
+        default:
+          return a.category.localeCompare(b.category);
+      }
+    });
+
+  const categories = Array.from(new Set(exercises.map((e) => e.category)));
+
+  const handleStartExercise = (exerciseId: number) => {
+    navigate(`/user/exercise/${exerciseId}`);
+  };
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center h-screen">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
+          <p>Loading exercises...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
-    <div className="exercises-page">
+    <div className="p-6 space-y-6 max-w-7xl mx-auto">
       {/* Header */}
-      <div className="exercises-header">
-        <div>
-          <h1 className="exercises-title">Bài Tập Tự Chăm Sóc</h1>
-          <p className="exercises-subtitle">
-            Thư viện bài tập CBT, mindfulness và kỹ thuật thư giãn
-          </p>
-        </div>
-        <div className="exercises-stats">
-          <div className="stat-badge">
-            <span className="stat-icon">✅</span>
-            <span className="stat-text">12 hoàn thành</span>
-          </div>
-          <div className="stat-badge">
-            <span className="stat-icon">🔥</span>
-            <span className="stat-text">7 ngày liên tiếp</span>
-          </div>
-        </div>
+      <div>
+        <h1 className="text-3xl font-bold text-foreground">Bài Tập Tâm Lý</h1>
+        <p className="text-muted-foreground mt-1">
+          Thực hành các kỹ thuật giúp cải thiện sức khỏe tinh thần
+        </p>
       </div>
 
-      {/* Search Bar */}
-      <div className="search-section">
-        <div className="search-input-wrapper">
-          <span className="search-icon">🔍</span>
-          <input
-            type="text"
-            className="search-input"
-            placeholder="Tìm kiếm bài tập..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
-          {searchQuery && (
-            <button
-              className="clear-search"
-              onClick={() => setSearchQuery('')}
-            >
-              ✕
-            </button>
-          )}
-        </div>
-      </div>
-
-      {/* Category Filters */}
-      <div className="category-filters">
-        {categories.map(category => (
-          <button
-            key={category.id}
-            className={`category-btn ${selectedCategory === category.id ? 'active' : ''}`}
-            onClick={() => setSelectedCategory(category.id as ExerciseCategory)}
-          >
-            <span className="category-icon">{category.icon}</span>
-            <span className="category-name">{category.name}</span>
-          </button>
-        ))}
-      </div>
-
-      {/* Exercises Grid */}
-      <div className="exercises-grid">
-        {filteredExercises.map(exercise => (
-          <div key={exercise.id} className="exercise-card">
-            <div className="exercise-icon-wrapper">
-              <span className="exercise-icon">{exercise.icon}</span>
-            </div>
-            <div className="exercise-content">
-              <h3 className="exercise-title">{exercise.title}</h3>
-              <p className="exercise-description">{exercise.description}</p>
-              
-              <div className="exercise-meta">
-                <span className="meta-item">
-                  <span className="meta-icon">⏱️</span>
-                  {exercise.duration} phút
-                </span>
-                <span
-                  className="difficulty-badge"
-                  style={{ background: getDifficultyColor(exercise.difficulty) }}
-                >
-                  {getDifficultyLabel(exercise.difficulty)}
-                </span>
+      {/* Stats */}
+      {stats && (
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <Card>
+            <CardHeader className="pb-3">
+              <CardTitle className="text-sm font-medium text-muted-foreground">
+                Hoàn Thành
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="text-2xl font-bold">
+                {stats.completed_exercises}/{stats.total_exercises}
               </div>
+              <Progress
+                value={stats.completion_rate}
+                className="mt-2 h-2"
+              />
+            </CardContent>
+          </Card>
 
-              {exercise.benefits && (
-                <div className="exercise-benefits">
-                  {exercise.benefits.slice(0, 2).map((benefit, index) => (
-                    <span key={index} className="benefit-tag">
-                      ✓ {benefit}
-                    </span>
-                  ))}
-                </div>
-              )}
+          <Card>
+            <CardHeader className="pb-3">
+              <CardTitle className="text-sm font-medium text-muted-foreground">
+                Tổng Thời Gian
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="text-2xl font-bold">{stats.total_time_hours}h</div>
+              <p className="text-xs text-muted-foreground mt-1">
+                {stats.total_completions} lần hoàn thành
+              </p>
+            </CardContent>
+          </Card>
 
-              <button className="btn btn-primary btn-sm start-btn">
-                Bắt đầu
-              </button>
+          <Card>
+            <CardHeader className="pb-3">
+              <CardTitle className="text-sm font-medium text-muted-foreground">
+                Streak
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="text-2xl font-bold">{stats.streak_days} ngày</div>
+              <p className="text-xs text-muted-foreground mt-1">
+                {stats.streak_days > 0 ? 'Tiếp tục phát huy!' : 'Bắt đầu ngay hôm nay!'}
+              </p>
+            </CardContent>
+          </Card>
+        </div>
+      )}
+
+      {/* Filters */}
+      <Card>
+        <CardContent className="pt-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="relative">
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+              <Input
+                placeholder="Tìm bài tập..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="pl-10"
+              />
             </div>
+            <Select value={selectedCategory} onValueChange={setSelectedCategory}>
+              <SelectTrigger>
+                <SelectValue placeholder="Danh mục" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">Tất cả danh mục</SelectItem>
+                {categories.map((category) => (
+                  <SelectItem key={category} value={category}>
+                    {getCategoryLabel(category)}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+            <Select value={selectedDifficulty} onValueChange={setSelectedDifficulty}>
+              <SelectTrigger>
+                <SelectValue placeholder="Độ khó" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">Tất cả độ khó</SelectItem>
+                <SelectItem value="beginner">Dễ</SelectItem>
+                <SelectItem value="intermediate">Trung bình</SelectItem>
+                <SelectItem value="advanced">Khó</SelectItem>
+              </SelectContent>
+            </Select>
+            <Select value={sortBy} onValueChange={setSortBy}>
+              <SelectTrigger>
+                <SelectValue placeholder="Sắp xếp" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="category">Theo danh mục</SelectItem>
+                <SelectItem value="difficulty">Theo độ khó</SelectItem>
+                <SelectItem value="duration-asc">Thời gian ngắn nhất</SelectItem>
+                <SelectItem value="duration-desc">Thời gian dài nhất</SelectItem>
+              </SelectContent>
+            </Select>
           </div>
-        ))}
+        </CardContent>
+      </Card>
+
+      {/* Results Count */}
+      <div className="text-sm text-muted-foreground">
+        Tìm thấy {filteredAndSortedExercises.length} bài tập
       </div>
 
-      {filteredExercises.length === 0 && (
-        <div className="empty-state">
-          <div className="empty-icon">🔍</div>
-          <h3>Không tìm thấy bài tập</h3>
-          <p>Thử thay đổi từ khóa tìm kiếm hoặc danh mục</p>
-        </div>
+      {/* Exercise Cards */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {filteredAndSortedExercises.map((exercise) => {
+          const progress = exercise.progress;
+          const isCompleted = progress?.status === 'completed';
+          const progressPercentage = progress?.progress_percentage || 0;
+
+          return (
+            <Card key={exercise.id} className="flex flex-col">
+              <CardHeader>
+                <div className="flex items-start justify-between mb-2">
+                  <div className="p-2 rounded-lg bg-primary/10 text-primary">
+                    {getCategoryIcon(exercise.category)}
+                  </div>
+                  <Badge variant="secondary">{getCategoryLabel(exercise.category)}</Badge>
+                </div>
+                <CardTitle className="text-lg">{exercise.title}</CardTitle>
+                <CardDescription>{exercise.description}</CardDescription>
+              </CardHeader>
+
+              <CardContent className="flex-1 space-y-4">
+                <div className="flex items-center justify-between text-sm">
+                  <div className="flex items-center gap-2 text-muted-foreground">
+                    <Clock className="w-4 h-4" />
+                    <span>{exercise.duration_minutes} phút</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div
+                      className={`w-2 h-2 rounded-full ${getDifficultyColor(
+                        exercise.difficulty
+                      )}`}
+                    />
+                    <span className="text-muted-foreground text-sm">
+                      {getDifficultyLabel(exercise.difficulty)}
+                    </span>
+                  </div>
+                </div>
+
+                {progress && progressPercentage > 0 && (
+                  <div className="space-y-1">
+                    <div className="flex items-center justify-between text-xs text-muted-foreground">
+                      <span>Tiến độ</span>
+                      <span>{progressPercentage}%</span>
+                    </div>
+                    <Progress value={progressPercentage} className="h-1.5" />
+                  </div>
+                )}
+
+                {progress && progress.times_completed > 0 && (
+                  <div className="text-xs text-muted-foreground">
+                    Đã hoàn thành {progress.times_completed} lần
+                  </div>
+                )}
+
+                <Button
+                  className="w-full gap-2"
+                  variant={isCompleted ? 'outline' : 'default'}
+                  onClick={() => handleStartExercise(exercise.id)}
+                >
+                  <Play className="w-4 h-4" />
+                  {isCompleted
+                    ? 'Luyện lại'
+                    : progressPercentage > 0
+                      ? 'Tiếp tục'
+                      : 'Bắt đầu'}
+                </Button>
+              </CardContent>
+            </Card>
+          );
+        })}
+      </div>
+
+      {filteredAndSortedExercises.length === 0 && (
+        <Card>
+          <CardContent className="py-12 text-center">
+            <p className="text-muted-foreground">
+              Không tìm thấy bài tập phù hợp với tiêu chí tìm kiếm
+            </p>
+          </CardContent>
+        </Card>
       )}
     </div>
   );

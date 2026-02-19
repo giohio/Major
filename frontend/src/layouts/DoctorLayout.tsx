@@ -1,14 +1,15 @@
 import { Outlet } from 'react-router-dom';
 import DoctorSidebar from '../components/DoctorSidebar';
-import './DoctorLayout.css';
 
 const DoctorLayout = () => {
   return (
-    <div className="doctor-layout">
+    <div className="flex h-screen bg-background">
       <DoctorSidebar />
-      <div className="doctor-content">
-        <Outlet />
-      </div>
+      <main className="flex-1 overflow-y-auto lg:ml-64">
+        <div className="container mx-auto p-6">
+          <Outlet />
+        </div>
+      </main>
     </div>
   );
 };

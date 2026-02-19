@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './Footer.css';
+
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
               <span className="logo-text-mindcare">MindCare AI</span>
             </h3>
             <p className="footer-description">
-              Nền tảng AI tâm lý học hàng đầu Việt Nam, kết hợp công nghệ tiên tiến với chuyên môn y khoa để mang đến giải pháp chăm sóc tâm lý toàn diện cho mọi người.
+              Vietnam's leading AI psychology platform, combining advanced technology with medical expertise to provide comprehensive mental health care solutions for everyone.
             </p>
             <div className="social-links">
               <a href="#" className="social-icon">
@@ -33,12 +33,12 @@ const Footer = () => {
           </div>
 
           <div className="footer-section">
-            <h4 className="footer-heading">Dịch vụ</h4>
+            <h4 className="footer-heading">Services</h4>
             <ul className="footer-links">
-              <li><Link to="/chat">Chat AI</Link></li>
-              <li><Link to="/plans">Kết nối bác sĩ</Link></li>
-              <li><Link to="/plans">Theo dõi sức khỏe</Link></li>
-              <li><Link to="/plans">Hỗ trợ khẩn cấp</Link></li>
+              <li><Link to="/chat">AI Chat</Link></li>
+              <li><Link to="/plans">Connect with Doctors</Link></li>
+              <li><Link to="/plans">Health Monitoring</Link></li>
+              <li><Link to="/plans">Emergency Support</Link></li>
             </ul>
           </div>
 
@@ -55,14 +55,14 @@ const Footer = () => {
               </li>
               <li>
                 <span>�</span>
-                <span>123 Nguyễn Huệ, Q1, TP.HCM</span>
+                <span>123 Nguyen Hue, District 1, HCMC</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2024 MindCare AI. Tất cả quyền được bảo lưu.</p>
+          <p>&copy; 2024 MindCare AI. All rights reserved.</p>
           <p className="footer-powered">Powered by Beaddy</p>
         </div>
       </div>

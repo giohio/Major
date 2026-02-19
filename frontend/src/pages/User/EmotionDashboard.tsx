@@ -1,263 +1,503 @@
-import { useState } from 'react';
-import './EmotionDashboard.css';
+import { useState, useEffect } from 'react';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../components/ui/card';
+import { Button } from '../../components/ui/button';
+import { TrendingUp, TrendingDown, Minus, Brain, Clock, BarChart3, Smile, AlertCircle, Lightbulb, RefreshCw } from 'lucide-react';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
+import { apiClient } from '../../services/api.client';
+import { API_ENDPOINTS } from '../../config/api.config';
+import { toast } from 'sonner';
+import type { EmotionStats, UserStats, EmotionAnalysisResponse } from '../../types/api.types';
 
-type TimeRange = '7d' | '30d' | '90d';
+type TimeRange = 'week' | 'month' | 'year';
 
 const EmotionDashboard = () => {
-  const [timeRange, setTimeRange] = useState<TimeRange>('7d');
+  const [timeRange, setTimeRange] = useState<TimeRange>('week');
+  const [emotionStats, setEmotionStats] = useState<EmotionStats | null>(null);
+  const [userStats, setUserStats] = useState<UserStats | null>(null);
+  const [emotionAnalysisData, setEmotionAnalysisData] = useState<EmotionAnalysisResponse | null>(null);
+  const [analyzing, setAnalyzing] = useState(false);
+  const [loading, setLoading] = useState(true);
 
-  // Mock data - replace with API
-  const moodScore = 7.2;
-  const trend = '+12%';
-  const totalSessions = 24;
-  const averageSessionTime = '32 phút';
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        setLoading(true);
 
-  const emotions = [
-    { name: 'Vui vẻ', value: 35, color: '#10B981', icon: '😊' },
-    { name: 'Bình thường', value: 40, color: '#F59E0B', icon: '😐' },
-    { name: 'Lo lắng', value: 15, color: '#EF4444', icon: '😰' },
-    { name: 'Buồn bã', value: 10, color: '#8B5CF6', icon: '😢' }
-  ];
+        // Load latest saved analysis first
+        try {
+          const latestAnalysis = await apiClient.get<EmotionAnalysisResponse>(API_ENDPOINTS.EMOTION.LATEST_ANALYSIS);
+          if (latestAnalysis) {
+            setEmotionAnalysisData(latestAnalysis);
+          }
+        } catch (err) {
+          console.log('No saved analysis found, will analyze fresh');
+        }
 
-  const weeklyData = [
-    { day: 'T2', joy: 7, sadness: 3, anxiety: 2, neutral: 5 },
-    { day: 'T3', joy: 6, sadness: 4, anxiety: 3, neutral: 4 },
-    { day: 'T4', joy: 8, sadness: 2, anxiety: 1, neutral: 6 },
-    { day: 'T5', joy: 7, sadness: 3, anxiety: 2, neutral: 5 },
-    { day: 'T6', joy: 9, sadness: 1, anxiety: 1, neutral: 7 },
-    { day: 'T7', joy: 8, sadness: 2, anxiety: 2, neutral: 6 },
-    { day: 'CN', joy: 9, sadness: 1, anxiety: 1, neutral: 8 }
-  ];
+        const [emotions, stats] = await Promise.all([
+          apiClient.get<EmotionStats>(`${API_ENDPOINTS.USERS.EMOTIONS}?period=${timeRange}`),
+          apiClient.get<UserStats>(API_ENDPOINTS.USERS.STATS)
+        ]);
+        setEmotionStats(emotions);
+        setUserStats(stats);
+      } catch (error) {
+        console.error('Failed to load emotion data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
 
-  const insights = [
-    {
-      icon: '🎯',
-      title: 'Xu hướng tích cực',
-      description: 'Tâm trạng của bạn đang cải thiện dần trong tuần qua',
-      type: 'success'
-    },
-    {
-      icon: '⚠️',
-      title: 'Cần chú ý',
-      description: 'Mức độ lo lắng tăng nhẹ vào giữa tuần',
-      type: 'warning'
-    },
-    {
-      icon: '💡',
-      title: 'Gợi ý',
-      description: 'Thử bài tập thở sâu vào buổi sáng để bắt đầu ngày tốt hơn',
-      type: 'info'
+    loadData();
+  }, [timeRange]);
+
+  const analyzeRecentChats = async () => {
+    console.log('[EmotionDashboard] analyzeRecentChats started');
+    try {
+      setAnalyzing(true);
+      console.log('[EmotionDashboard] setAnalyzing(true), sending request to', API_ENDPOINTS.EMOTION.ANALYZE_RECENT);
+
+      // Force refresh when user manually clicks button (bypass cache)
+      const response = await apiClient.post<EmotionAnalysisResponse>(API_ENDPOINTS.EMOTION.ANALYZE_RECENT, {
+        limit: 15,
+        force_refresh: true  // Always re-analyze when manually triggered
+      });
+
+      console.log('[EmotionDashboard] API Response received:', response);
+
+      if (response) {
+        setEmotionAnalysisData(response);
+        toast.success('Updated analysis based on recent conversations');
+      } else {
+        console.warn('[EmotionDashboard] Response is empty/null');
+      }
+    } catch (error) {
+      console.error('[EmotionDashboard] Failed to analyze emotions:', error);
+      toast.error('Could not analyze recent sessions. Please try again.');
+    } finally {
+      console.log('[EmotionDashboard] analyzeRecentChats finished, setAnalyzing(false)');
+      setAnalyzing(false);
     }
-  ];
-
-  const triggers = [
-    { name: 'Công việc', count: 12, trend: 'up' },
-    { name: 'Mối quan hệ', count: 8, trend: 'down' },
-    { name: 'Sức khỏe', count: 5, trend: 'stable' },
-    { name: 'Tài chính', count: 3, trend: 'stable' }
-  ];
-
-  const getMaxValue = () => {
-    const allValues = weeklyData.flatMap(d => [d.joy, d.sadness, d.anxiety, d.neutral]);
-    return Math.max(...allValues);
   };
 
+  if (loading) {
+    return <div className="flex items-center justify-center h-screen">Loading...</div>;
+  }
+
+  const moodScore = emotionStats?.average_sentiment || 7.2;
+  const trend = emotionStats?.trend === 'improving' ? '+12%' : emotionStats?.trend === 'declining' ? '-8%' : '0%';
+  const totalSessions = userStats?.total_chat_sessions || 0;
+  const averageSessionTime = '32 phút';
+
+  // Emotion distribution data (currently using hardcoded values for visualization)
+  // const emotions = [
+  //   { name: 'Vui vẻ', value: 35, color: 'bg-green-500', icon: '😊' },
+  //   { name: 'Bình thường', value: 40, color: 'bg-yellow-500', icon: '😐' },
+  //   { name: 'Lo lắng', value: 15, color: 'bg-red-500', icon: '😰' },
+  //   { name: 'Buồn bã', value: 10, color: 'bg-purple-500', icon: '😢' }
+  // ];
+
+
+
+
+
+  const insightList = [
+    ...(emotionAnalysisData?.summary_message ? [{
+      icon: <Brain className="w-5 h-5" />,
+      title: 'AI Summary',
+      description: emotionAnalysisData.summary_message,
+      variant: 'default' as const
+    }] : []),
+    ...(emotionAnalysisData?.trend === 'improving' ? [{
+      icon: <TrendingUp className="w-5 h-5" />,
+      title: 'Positive Trend',
+      description: 'Your emotional state is showing signs of improvement.',
+      variant: 'default' as const
+    }] : []),
+    ...(emotionAnalysisData?.session_analysis?.risk_level === 'high' ? [{
+      icon: <AlertCircle className="w-5 h-5" />,
+      title: 'High Risk Detected',
+      description: 'Please consider reaching out to a professional.',
+      variant: 'destructive' as const
+    }] : [])
+  ];
+
+  if (insightList.length === 0) {
+    insightList.push({
+      icon: <Lightbulb className="w-5 h-5" />,
+      title: 'No Insights Yet',
+      description: 'Start chatting to generate insights about your emotional health.',
+      variant: 'default' as const
+    });
+  }
+
+  // Determine the trend color and icon dynamically
+  const getTrendConfig = (trendValue: string) => {
+    switch (trendValue) {
+      case 'improving': return { color: 'text-emerald-500', icon: TrendingUp, bg: 'bg-emerald-500/10' };
+      case 'declining': return { color: 'text-rose-500', icon: TrendingDown, bg: 'bg-rose-500/10' };
+      default: return { color: 'text-amber-500', icon: Minus, bg: 'bg-amber-500/10' };
+    }
+  };
+
+  const trendConfig = emotionAnalysisData ? getTrendConfig(emotionAnalysisData.trend) : { color: 'text-blue-500', icon: Minus, bg: 'bg-blue-500/10' };
+
   return (
-    <div className="emotion-dashboard">
-      {/* Header */}
-      <div className="dashboard-header">
-        <div className="header-content">
-          <div>
-            <h1 className="dashboard-title">Dashboard Cảm Xúc</h1>
-            <p className="dashboard-subtitle">
-              Theo dõi và phân tích trạng thái tinh thần của bạn
-            </p>
-          </div>
-          <div className="time-range-selector">
-            <button
-              className={`time-btn ${timeRange === '7d' ? 'active' : ''}`}
-              onClick={() => setTimeRange('7d')}
-            >
-              7 ngày
-            </button>
-            <button
-              className={`time-btn ${timeRange === '30d' ? 'active' : ''}`}
-              onClick={() => setTimeRange('30d')}
-            >
-              30 ngày
-            </button>
-            <button
-              className={`time-btn ${timeRange === '90d' ? 'active' : ''}`}
-              onClick={() => setTimeRange('90d')}
-            >
-              90 ngày
-            </button>
-          </div>
-        </div>
-      </div>
+    <div className="min-h-screen bg-slate-50/50 dark:bg-slate-950/50 p-6 space-y-8">
+      <div className="max-w-7xl mx-auto space-y-8">
 
-      {/* Stats Cards */}
-      <div className="stats-grid">
-        <div className="stat-card primary">
-          <div className="stat-icon">😊</div>
-          <div className="stat-content">
-            <div className="stat-label">Điểm Tâm Trạng</div>
-            <div className="stat-value">
-              {moodScore}
-              <span className="stat-trend positive">{trend}</span>
+        {/* Hero Section */}
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-600 via-violet-600 to-purple-600 p-8 md:p-12 text-white shadow-2xl shadow-indigo-500/20 ring-1 ring-white/10">
+          <div className="absolute top-0 right-0 -mt-20 -mr-20 w-96 h-96 bg-white/10 rounded-full blur-3xl animate-pulse" />
+          <div className="absolute bottom-0 left-0 -mb-20 -ml-20 w-72 h-72 bg-purple-500/20 rounded-full blur-3xl animate-pulse delay-700" />
+
+          <div className="relative z-10 flex flex-col md:flex-row justify-between items-start md:items-end gap-8">
+            <div className="space-y-4 max-w-2xl">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/10 backdrop-blur-md text-sm font-medium text-indigo-100">
+                <Brain className="w-4 h-4" />
+                <span>Mental Health AI Assistant</span>
+              </div>
+              <h1 className="text-4xl md:text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-purple-100">
+                Emotion Dashboard
+              </h1>
+              <p className="text-lg text-indigo-100/90 leading-relaxed max-w-xl">
+                Track your emotional journey, gain deep insights, and visualize your mental well-being over time with our advanced AI analysis.
+              </p>
+            </div>
+
+            <div className="flex gap-2 bg-white/5 p-1.5 rounded-xl backdrop-blur-md border border-white/10">
+              {(['week', 'month', 'year'] as const).map((range) => (
+                <Button
+                  key={range}
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => setTimeRange(range)}
+                  className={`capitalize px-4 transition-all duration-300 ${timeRange === range
+                    ? 'bg-white text-indigo-600 shadow-lg shadow-black/5 font-semibold'
+                    : 'text-white/70 hover:text-white hover:bg-white/10'
+                    }`}
+                >
+                  {range === 'week' ? '7 Days' : range === 'month' ? '30 Days' : '1 Year'}
+                </Button>
+              ))}
             </div>
           </div>
-        </div>
 
-        <div className="stat-card">
-          <div className="stat-icon">�</div>
-          <div className="stat-content">
-            <div className="stat-label">Tổng Buổi Tư Vấn</div>
-            <div className="stat-value">{totalSessions}</div>
-          </div>
-        </div>
-
-        <div className="stat-card">
-          <div className="stat-icon">⏱️</div>
-          <div className="stat-content">
-            <div className="stat-label">Thời Gian Trung Bình</div>
-            <div className="stat-value">{averageSessionTime}</div>
-          </div>
-        </div>
-
-        <div className="stat-card">
-          <div className="stat-icon">📊</div>
-          <div className="stat-content">
-            <div className="stat-label">Tiến Triển</div>
-            <div className="stat-value">Tốt</div>
-          </div>
-        </div>
-      </div>
-
-      {/* Main Content Grid */}
-      <div className="dashboard-grid">
-        {/* Weekly Chart */}
-        <div className="dashboard-card chart-card">
-          <div className="card-header">
-            <h3>Biểu Đồ Tuần</h3>
-            <div className="chart-legend">
-              <span className="legend-item">
-                <span className="legend-dot" style={{ background: '#10B981' }}></span>
-                Vui vẻ
-              </span>
-              <span className="legend-item">
-                <span className="legend-dot" style={{ background: '#F59E0B' }}></span>
-                Bình thường
-              </span>
-              <span className="legend-item">
-                <span className="legend-dot" style={{ background: '#EF4444' }}></span>
-                Lo lắng
-              </span>
-              <span className="legend-item">
-                <span className="legend-dot" style={{ background: '#8B5CF6' }}></span>
-                Buồn
-              </span>
-            </div>
-          </div>
-          <div className="bar-chart">
-            {weeklyData.map((day, index) => {
-              const max = getMaxValue();
-              return (
-                <div key={index} className="bar-group">
-                  <div className="bars">
-                    <div
-                      className="bar joy"
-                      style={{ height: `${(day.joy / max) * 100}%` }}
-                      title={`Vui vẻ: ${day.joy}`}
-                    ></div>
-                    <div
-                      className="bar neutral"
-                      style={{ height: `${(day.neutral / max) * 100}%` }}
-                      title={`Bình thường: ${day.neutral}`}
-                    ></div>
-                    <div
-                      className="bar anxiety"
-                      style={{ height: `${(day.anxiety / max) * 100}%` }}
-                      title={`Lo lắng: ${day.anxiety}`}
-                    ></div>
-                    <div
-                      className="bar sadness"
-                      style={{ height: `${(day.sadness / max) * 100}%` }}
-                      title={`Buồn: ${day.sadness}`}
-                    ></div>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
+            {[
+              { icon: Smile, label: "Mood Score", value: moodScore, sub: trend, subIcon: TrendingUp, color: "text-emerald-400" },
+              { icon: Clock, label: "Avg Session", value: averageSessionTime, sub: "Consistent", subIcon: Minus, color: "text-blue-400" },
+              { icon: BarChart3, label: "Total Sessions", value: totalSessions, sub: "All time", subIcon: TrendingUp, color: "text-purple-400" },
+              { icon: Brain, label: "Mental Status", value: "Good", sub: "Stable", subIcon: Smile, color: "text-rose-400" }
+            ].map((stat, i) => (
+              <div key={i} className="group bg-white/10 backdrop-blur-md rounded-2xl p-5 border border-white/10 hover:bg-white/15 transition-all duration-300 hover:scale-[1.02]">
+                <div className="flex justify-between items-start mb-4">
+                  <div className="p-3 bg-white/10 rounded-xl group-hover:bg-white/20 transition-colors">
+                    <stat.icon className="w-6 h-6 text-white" />
                   </div>
-                  <div className="bar-label">{day.day}</div>
+                  <span className={`flex items-center gap-1 text-sm font-medium ${stat.color} bg-white/5 px-2 py-1 rounded-lg`}>
+                    <stat.subIcon className="w-3 h-3" /> {stat.sub}
+                  </span>
                 </div>
-              );
-            })}
-          </div>
-        </div>
-
-        {/* Emotion Distribution */}
-        <div className="dashboard-card">
-          <div className="card-header">
-            <h3>Phân Bố Cảm Xúc</h3>
-          </div>
-          <div className="emotion-list">
-            {emotions.map((emotion, index) => (
-              <div key={index} className="emotion-item">
-                <div className="emotion-info">
-                  <span className="emotion-icon">{emotion.icon}</span>
-                  <span className="emotion-name">{emotion.name}</span>
-                </div>
-                <div className="emotion-progress">
-                  <div
-                    className="emotion-bar"
-                    style={{
-                      width: `${emotion.value}%`,
-                      background: emotion.color
-                    }}
-                  ></div>
-                  <span className="emotion-percentage">{emotion.value}%</span>
+                <div>
+                  <p className="text-sm font-medium text-indigo-100/70">{stat.label}</p>
+                  <p className="text-2xl font-bold text-white mt-1 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-white group-hover:to-indigo-200 transition-all">
+                    {stat.value}
+                  </p>
                 </div>
               </div>
             ))}
           </div>
         </div>
 
-        {/* Insights */}
-        <div className="dashboard-card">
-          <div className="card-header">
-            <h3>Nhận Xét & Gợi Ý</h3>
-          </div>
-          <div className="insights-list">
-            {insights.map((insight, index) => (
-              <div key={index} className={`insight-item ${insight.type}`}>
-                <div className="insight-icon">{insight.icon}</div>
-                <div className="insight-content">
-                  <h4>{insight.title}</h4>
-                  <p>{insight.description}</p>
+        {/* AI Analysis Section */}
+        <div className="grid grid-cols-1 gap-8">
+          <Card className="border-0 shadow-xl bg-white dark:bg-slate-900 overflow-hidden ring-1 ring-slate-900/5">
+            <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-violet-500 via-indigo-500 to-purple-500" />
+            <CardHeader className="border-b border-slate-100 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/50 p-6 md:p-8">
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
+                <div className="flex items-center gap-4">
+                  <div className="p-3.5 rounded-2xl bg-gradient-to-br from-violet-500 to-indigo-600 text-white shadow-lg shadow-indigo-500/20">
+                    <Brain className="w-7 h-7" />
+                  </div>
+                  <div>
+                    <CardTitle className="text-2xl font-bold text-slate-900 dark:text-slate-100">AI Emotion Analysis</CardTitle>
+                    <CardDescription className="text-base text-slate-500 dark:text-slate-400 mt-1">
+                      {analyzing ? (
+                        <span className="flex items-center gap-2 text-indigo-600">
+                          <RefreshCw className="w-4 h-4 animate-spin" /> Analyzing conversations...
+                        </span>
+                      ) : (
+                        "Real-time deep learning insights from latest sessions"
+                      )}
+                    </CardDescription>
+                  </div>
                 </div>
+                <Button
+                  onClick={analyzeRecentChats}
+                  disabled={analyzing}
+                  size="lg"
+                  className="rounded-xl shadow-lg shadow-indigo-500/20 hover:shadow-indigo-500/30 transition-all bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-8"
+                >
+                  <RefreshCw className={`w-5 h-5 mr-2 ${analyzing ? 'animate-spin' : ''}`} />
+                  {analyzing ? 'Processing...' : 'Run New Analysis'}
+                </Button>
               </div>
-            ))}
-          </div>
-        </div>
+            </CardHeader>
 
-        {/* Triggers */}
-        <div className="dashboard-card">
-          <div className="card-header">
-            <h3>Yếu Tố Ảnh Hưởng</h3>
-          </div>
-          <div className="triggers-list">
-            {triggers.map((trigger, index) => (
-              <div key={index} className="trigger-item">
-                <div className="trigger-info">
-                  <span className="trigger-name">{trigger.name}</span>
-                  <span className="trigger-count">{trigger.count} lần</span>
+            <CardContent className="p-6 md:p-8">
+              {!emotionAnalysisData ? (
+                <div className="flex flex-col items-center justify-center py-16 text-center space-y-6">
+                  <div className="relative">
+                    <div className="absolute inset-0 bg-indigo-500/20 blur-xl rounded-full" />
+                    <div className="relative p-6 bg-slate-50 dark:bg-slate-800 rounded-full border-2 border-dashed border-slate-200 dark:border-slate-700">
+                      <Brain className="w-16 h-16 text-slate-400" />
+                    </div>
+                  </div>
+                  <div className="max-w-md space-y-2">
+                    <h3 className="text-xl font-bold text-slate-900 dark:text-white">Analysis Ready to Start</h3>
+                    <p className="text-slate-500 dark:text-slate-400">
+                      Click the button above to let our AI analyze your recent conversation patterns and generate detailed insights.
+                    </p>
+                  </div>
                 </div>
-                <span className={`trigger-trend ${trigger.trend}`}>
-                  {trigger.trend === 'up' && '↗️'}
-                  {trigger.trend === 'down' && '↘️'}
-                  {trigger.trend === 'stable' && '→'}
-                </span>
-              </div>
-            ))}
-          </div>
+              ) : (
+                <div className="space-y-8 animate-in fade-in duration-500 slide-in-from-bottom-4">
+
+                  {/* Summary Box */}
+                  {emotionAnalysisData.summary_message && (
+                    <div className="p-6 rounded-2xl bg-gradient-to-r from-indigo-50 to-violet-50 dark:from-indigo-950/30 dark:to-violet-950/30 border border-indigo-100 dark:border-indigo-900/50 relative overflow-hidden">
+                      <div className="absolute top-0 right-0 p-3 opacity-10">
+                        <Brain className="w-32 h-32 transform rotate-12 -mr-10 -mt-10" />
+                      </div>
+                      <div className="flex gap-4 relative z-10">
+                        <div className="p-2.5 rounded-xl bg-indigo-600/10 text-indigo-600 h-fit">
+                          <Lightbulb className="w-6 h-6" />
+                        </div>
+                        <div className="space-y-2">
+                          <h3 className="font-bold text-lg text-indigo-900 dark:text-indigo-100">Executive Summary</h3>
+                          <p className="text-indigo-800/80 dark:text-indigo-200/80 leading-relaxed text-base">
+                            {emotionAnalysisData.summary_message}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* 3 Key Metrics Cards */}
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    {/* Dominant */}
+                    <div className="group relative overflow-hidden p-6 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:shadow-xl hover:shadow-indigo-500/5 hover:border-indigo-500/30 transition-all duration-300">
+                      <div className="flex items-center gap-3 mb-6">
+                        <div className="p-2 rounded-lg bg-orange-100 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400">
+                          <Smile className="w-5 h-5" />
+                        </div>
+                        <span className="font-semibold text-slate-600 dark:text-slate-300">Dominant Emotion</span>
+                      </div>
+                      <div className="flex items-baseline gap-2">
+                        <h4 className="text-3xl font-bold text-slate-900 dark:text-white capitalize tracking-tight">
+                          {emotionAnalysisData.session_analysis.dominant_emotion}
+                        </h4>
+                      </div>
+                      <div className="mt-4 w-full bg-slate-100 dark:bg-slate-700 h-1.5 rounded-full overflow-hidden">
+                        <div className="h-full bg-orange-500 rounded-full w-3/4 animate-pulse" />
+                      </div>
+                    </div>
+
+                    {/* Sentiment */}
+                    <div className="group relative overflow-hidden p-6 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:shadow-xl hover:shadow-indigo-500/5 hover:border-indigo-500/30 transition-all duration-300">
+                      <div className="flex items-center gap-3 mb-6">
+                        <div className="p-2 rounded-lg bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400">
+                          <BarChart3 className="w-5 h-5" />
+                        </div>
+                        <span className="font-semibold text-slate-600 dark:text-slate-300">Sentiment Score</span>
+                      </div>
+                      <div className="flex items-baseline gap-2">
+                        <h4 className="text-3xl font-bold text-slate-900 dark:text-white tracking-tight">
+                          {Math.round((emotionAnalysisData.session_analysis.overall_sentiment + 1) * 50)}%
+                        </h4>
+                        <span className="text-sm font-medium text-slate-500">positive</span>
+                      </div>
+                      <div className="mt-4 w-full bg-slate-100 dark:bg-slate-700 h-1.5 rounded-full overflow-hidden">
+                        <div
+                          className="h-full bg-blue-500 rounded-full transition-all duration-1000"
+                          style={{ width: `${Math.round((emotionAnalysisData.session_analysis.overall_sentiment + 1) * 50)}%` }}
+                        />
+                      </div>
+                    </div>
+
+                    {/* Trend */}
+                    <div className="group relative overflow-hidden p-6 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:shadow-xl hover:shadow-indigo-500/5 hover:border-indigo-500/30 transition-all duration-300">
+                      <div className="flex items-center gap-3 mb-6">
+                        <div className={`p-2 rounded-lg ${trendConfig.bg} ${trendConfig.color}`}>
+                          <trendConfig.icon className="w-5 h-5" />
+                        </div>
+                        <span className="font-semibold text-slate-600 dark:text-slate-300">Current Trend</span>
+                      </div>
+                      <div className="flex items-baseline gap-2">
+                        <h4 className="text-3xl font-bold text-slate-900 dark:text-white capitalize tracking-tight">
+                          {emotionAnalysisData.trend}
+                        </h4>
+                      </div>
+                      <p className="mt-4 text-sm text-slate-500 dark:text-slate-400 line-clamp-1">
+                        Based on recent 15 sessions
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Charts Row */}
+                  <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    {/* Pie Chart */}
+                    <Card className="shadow-lg border-0 bg-white dark:bg-slate-800 ring-1 ring-slate-200 dark:ring-slate-700">
+                      <CardHeader className="border-b border-slate-100 dark:border-slate-800">
+                        <CardTitle className="flex items-center gap-2 text-lg">
+                          <PieChart className="w-5 h-5 text-indigo-500" /> Emotion Distribution
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent className="p-6">
+                        <div className="h-[250px] w-full flex items-center justify-center">
+                          {Object.keys(emotionAnalysisData.session_analysis.emotional_breakdown).length > 0 ? (
+                            <ResponsiveContainer width="100%" height="100%">
+                              <PieChart>
+                                <Pie
+                                  data={Object.entries(emotionAnalysisData.session_analysis.emotional_breakdown).map(([name, value]) => ({
+                                    name: name.charAt(0).toUpperCase() + name.slice(1),
+                                    value: value * 100
+                                  }))}
+                                  cx="50%"
+                                  cy="50%"
+                                  innerRadius={60}
+                                  outerRadius={80}
+                                  paddingAngle={5}
+                                  dataKey="value"
+                                >
+                                  {Object.entries(emotionAnalysisData.session_analysis.emotional_breakdown).map((_, index) => {
+                                    const COLORS = ['#8b5cf6', '#ec4899', '#3b82f6', '#10b981', '#f59e0b'];
+                                    return <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} stroke="transparent" />;
+                                  })}
+                                </Pie>
+                                <Tooltip
+                                  formatter={(value: number) => [`${value.toFixed(1)}%`]}
+                                  contentStyle={{ backgroundColor: '#fff', borderRadius: '12px', border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }}
+                                  itemStyle={{ color: '#1e293b', fontWeight: 600 }}
+                                />
+                              </PieChart>
+                            </ResponsiveContainer>
+                          ) : (
+                            <div className="text-slate-400 flex flex-col items-center">
+                              <Minus className="w-8 h-8 mb-2 opacity-50" /> No data
+                            </div>
+                          )}
+                        </div>
+                        {/* Custom Legend */}
+                        <div className="grid grid-cols-2 gap-2 mt-4">
+                          {Object.entries(emotionAnalysisData.session_analysis.emotional_breakdown).slice(0, 4).map(([emotion, value], index) => {
+                            const COLORS = ['bg-violet-500', 'bg-pink-500', 'bg-blue-500', 'bg-emerald-500', 'bg-amber-500'];
+                            return (
+                              <div key={emotion} className="flex items-center justify-between text-xs p-2 rounded-lg bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800">
+                                <div className="flex items-center gap-2">
+                                  <div className={`w-2 h-2 rounded-full ${COLORS[index % COLORS.length]}`} />
+                                  <span className="font-medium text-slate-600 capitalize">{emotion}</span>
+                                </div>
+                                <span className="font-bold text-slate-900">{Math.round((value as number) * 100)}%</span>
+                              </div>
+                            )
+                          })}
+                        </div>
+                      </CardContent>
+                    </Card>
+
+                    {/* Timeline Chart */}
+                    <Card className="lg:col-span-2 shadow-lg border-0 bg-white dark:bg-slate-800 ring-1 ring-slate-200 dark:ring-slate-700">
+                      <CardHeader className="border-b border-slate-100 dark:border-slate-800">
+                        <CardTitle className="flex items-center gap-2 text-lg">
+                          <TrendingUp className="w-5 h-5 text-emerald-500" /> Emotional Journey
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent className="p-6">
+                        {emotionAnalysisData.emotional_progression && emotionAnalysisData.emotional_progression.length > 0 ? (
+                          <div className="h-[300px] w-full">
+                            <ResponsiveContainer width="100%" height="100%">
+                              <LineChart data={emotionAnalysisData.emotional_progression}>
+                                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" />
+                                <XAxis
+                                  dataKey="step"
+                                  stroke="#94a3b8"
+                                  tick={{ fontSize: 12 }}
+                                  tickLine={false}
+                                  axisLine={false}
+                                  tickMargin={10}
+                                />
+                                <YAxis
+                                  stroke="#94a3b8"
+                                  tick={{ fontSize: 12 }}
+                                  tickLine={false}
+                                  axisLine={false}
+                                  tickMargin={10}
+                                />
+                                <Tooltip
+                                  contentStyle={{ backgroundColor: '#fff', borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)' }}
+                                  cursor={{ stroke: '#6366f1', strokeWidth: 1, strokeDasharray: '4 4' }}
+                                />
+                                <Line
+                                  type="monotone"
+                                  dataKey="intensity"
+                                  stroke="#8b5cf6"
+                                  strokeWidth={3}
+                                  dot={{ fill: '#8b5cf6', strokeWidth: 2, r: 4, stroke: '#fff' }}
+                                  activeDot={{ r: 6, strokeWidth: 0 }}
+                                  name="Intensity"
+                                />
+                                <Line
+                                  type="monotone"
+                                  dataKey="sentiment"
+                                  stroke="#10b981"
+                                  strokeWidth={3}
+                                  dot={{ fill: '#10b981', strokeWidth: 2, r: 4, stroke: '#fff' }}
+                                  activeDot={{ r: 6, strokeWidth: 0 }}
+                                  name="Sentiment"
+                                />
+                              </LineChart>
+                            </ResponsiveContainer>
+                          </div>
+                        ) : (
+                          <div className="h-[300px] flex items-center justify-center text-slate-400">
+                            No progression data available
+                          </div>
+                        )}
+                      </CardContent>
+                    </Card>
+                  </div>
+
+                  {/* Insights Section */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {insightList.map((insight, index) => {
+                      const isDestructive = insight.variant === 'destructive';
+                      const boxClass = isDestructive
+                        ? "bg-rose-50 dark:bg-rose-900/10 border-rose-100 dark:border-rose-900/30 text-rose-900 dark:text-rose-100"
+                        : "bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-900 dark:text-slate-100";
+                      const iconBg = isDestructive ? "bg-rose-100 text-rose-600" : "bg-indigo-50 text-indigo-600";
+
+                      return (
+                        <div key={index} className={`p-5 rounded-2xl border transition-all duration-300 hover:shadow-lg ${boxClass}`}>
+                          <div className="flex gap-4">
+                            <div className={`shrink-0 w-12 h-12 rounded-xl flex items-center justify-center ${iconBg}`}>
+                              {insight.icon}
+                            </div>
+                            <div className="space-y-1">
+                              <h4 className="font-bold text-base">{insight.title}</h4>
+                              <p className={`text-sm leading-relaxed ${isDestructive ? 'text-rose-700 dark:text-rose-300' : 'text-slate-500 dark:text-slate-400'}`}>
+                                {insight.description}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+
+                </div>
+              )}
+            </CardContent>
+          </Card>
         </div>
       </div>
     </div>

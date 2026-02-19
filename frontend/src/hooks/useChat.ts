@@ -1,5 +1,6 @@
 import { useState, useCallback } from 'react';
-import { chatService } from '../services/chat.service';
+import { apiClient } from '../services/api.client';
+import { API_ENDPOINTS } from '../config/api.config';
 import type {
   ChatMessage,
   ChatSession,
@@ -27,7 +28,7 @@ export const useChat = () => {
           analyze_emotion: analyzeEmotion,
         };
 
-        const response: SendMessageResponse = await chatService.sendMessage(request);
+        const response: SendMessageResponse = await apiClient.post<SendMessageResponse>(API_ENDPOINTS.CHAT.SEND, request);
 
         // Update session ID
         if (!currentSessionId) {
@@ -59,7 +60,7 @@ export const useChat = () => {
       setLoading(true);
       setError(null);
 
-      const response = await chatService.getSessionMessages(sessionId);
+      const response = await apiClient.get<{ messages: ChatMessage[] }>(API_ENDPOINTS.CHAT.SESSION(sessionId));
       setMessages(response.messages);
       setCurrentSessionId(sessionId);
     } catch (err) {
@@ -76,7 +77,7 @@ export const useChat = () => {
       setLoading(true);
       setError(null);
 
-      const response = await chatService.getRecentSessions(limit);
+      const response = await apiClient.get<{ sessions: ChatSession[] }>(`${API_ENDPOINTS.CHAT.RECENT}?limit=${limit}`);
       setSessions(response.sessions);
     } catch (err) {
       const errorMessage = (err as { error?: string }).error || 'Failed to load sessions';
@@ -92,7 +93,7 @@ export const useChat = () => {
       setLoading(true);
       setError(null);
 
-      await chatService.deleteSession(sessionId);
+      await apiClient.delete(API_ENDPOINTS.CHAT.DELETE_SESSION(sessionId));
       
       // Remove from sessions list
       setSessions((prev) => prev.filter((s) => s.id !== sessionId));
@@ -119,7 +120,7 @@ export const useChat = () => {
   const submitFeedback = useCallback(
     async (messageId: number, rating: number, feedbackText?: string) => {
       try {
-        await chatService.submitFeedback({
+        await apiClient.post(API_ENDPOINTS.CHAT.FEEDBACK, {
           message_id: messageId,
           rating,
           feedback_text: feedbackText,

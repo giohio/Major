@@ -12,22 +12,23 @@ import Login from './pages/Auth/Login';
 import Register from './pages/Auth/Register';
 import SubscriptionPlans from './pages/SubscriptionPlans';
 import Contact from './pages/Contact';
-<<<<<<< HEAD
-=======
 import About from './pages/About';
->>>>>>> 89f2b86b3ec12af45c68d1d95aaa12497dd62e81
+import PaymentResult from './pages/PaymentResult';
 
 // User Pages
 import ChatBot from './pages/User/ChatBot';
 import Profile from './pages/User/Profile';
 import EmotionDashboard from './pages/User/EmotionDashboard';
 import Exercises from './pages/User/Exercises';
+import ExerciseDetail from './pages/User/ExerciseDetail';
 import ChatHistory from './pages/User/ChatHistory';
 import PaymentHistory from './pages/User/PaymentHistory';
 import Settings from './pages/User/Settings';
 import AlertPage from './pages/User/AlertPage';
 import FindDoctor from './pages/User/FindDoctor';
+import DoctorProfile from './pages/User/DoctorProfile';
 import BookAppointment from './pages/User/BookAppointment';
+import UserAppointments from './pages/User/UserAppointments';
 
 // Doctor Pages
 import DoctorDashboard from './pages/Doctor/Dashboard';
@@ -37,6 +38,7 @@ import PatientChat from './pages/Doctor/PatientChat';
 import Appointments from './pages/Doctor/Appointments';
 import TherapyLibrary from './pages/Doctor/TherapyLibrary';
 import Alerts from './pages/Doctor/Alerts';
+import DoctorSettings from './pages/Doctor/DoctorSettings';
 
 // Admin Pages
 import AdminDashboard from './pages/Admin/Dashboard';
@@ -49,119 +51,118 @@ import AuditLogs from './pages/Admin/AuditLogs';
 
 // Context & Hooks
 import { AuthProvider } from './contexts/AuthContext';
+import { ThemeProvider } from './contexts/ThemeProvider';
 import { useAuth } from './hooks/useAuth';
+import { PublicRoute } from './components/PublicRoute';
 
-import './styles/design-system.css';
-import './styles/theme.css';
 import './App.css';
 
 // Protected Route Component
-const ProtectedRoute = ({ 
-  children, 
-  allowedRoles 
-}: { 
-  children: React.ReactNode; 
-  allowedRoles: string[] 
+const ProtectedRoute = ({
+  children,
+  allowedRoles
+}: {
+  children: React.ReactNode;
+  allowedRoles: string[]
 }) => {
   const { user } = useAuth();
-  
+
   if (!user) {
     return <Navigate to="/login" replace />;
   }
-  
+
   if (!allowedRoles.includes(user.role)) {
     return <Navigate to="/" replace />;
   }
-  
+
   return <>{children}</>;
 };
 
 function App() {
   return (
-    <AuthProvider>
-      <BrowserRouter>
-        <Routes>
-          {/* Public Routes */}
-          <Route element={<MainLayout />}>
-            <Route path="/" element={<LandingPage />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />
-            <Route path="/plans" element={<SubscriptionPlans />} />
-<<<<<<< HEAD
-            <Route path="/contact" element={<Contact />} />
-          </Route>
+    <ThemeProvider>
+      <AuthProvider>
+        <BrowserRouter>
+          <Routes>
+            {/* Public Routes */}
+            <Route element={<MainLayout />}>
+              <Route path="/" element={<PublicRoute><LandingPage /></PublicRoute>} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/register" element={<Register />} />
+              <Route path="/plans" element={<SubscriptionPlans />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/chat" element={<ChatBot />} />
+              <Route path="/payment-result" element={<PaymentResult />} />
+            </Route>
 
-          {/* User Routes */}
-          <Route path="/chat" element={<ChatBot />} />
-=======
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/chat" element={<ChatBot />} />
-          </Route>
+            {/* User Routes */}
+            <Route
+              path="/user"
+              element={
+                <ProtectedRoute allowedRoles={['user']}>
+                  <DashboardLayout />
+                </ProtectedRoute>
+              }
+            >
+              <Route path="profile" element={<Profile />} />
+              <Route path="dashboard" element={<EmotionDashboard />} />
+              <Route path="exercises" element={<Exercises />} />
+              <Route path="exercise/:id" element={<ExerciseDetail />} />
+              <Route path="history" element={<ChatHistory />} />
+              <Route path="payments" element={<PaymentHistory />} />
+              <Route path="settings" element={<Settings />} />
+              <Route path="alert" element={<AlertPage />} />
+              <Route path="alerts" element={<AlertPage />} />
+              <Route path="find-doctor" element={<FindDoctor />} />
+              <Route path="doctors/:doctorId" element={<DoctorProfile />} />
+              <Route path="appointments" element={<UserAppointments />} />
+              <Route path="book-appointment/:doctorId" element={<BookAppointment />} />
+            </Route>
 
-          {/* User Routes */}
->>>>>>> 89f2b86b3ec12af45c68d1d95aaa12497dd62e81
-          
-          <Route
-            path="/user"
-            element={
-              <ProtectedRoute allowedRoles={['user']}>
-                <DashboardLayout />
-              </ProtectedRoute>
-            }
-          >
-            <Route path="profile" element={<Profile />} />
-            <Route path="dashboard" element={<EmotionDashboard />} />
-            <Route path="exercises" element={<Exercises />} />
-            <Route path="history" element={<ChatHistory />} />
-            <Route path="payments" element={<PaymentHistory />} />
-            <Route path="settings" element={<Settings />} />
-            <Route path="alert" element={<AlertPage />} />
-            <Route path="find-doctor" element={<FindDoctor />} />
-            <Route path="book-appointment/:doctorId" element={<BookAppointment />} />
-          </Route>
+            {/* Doctor Routes */}
+            <Route
+              path="/doctor"
+              element={
+                <ProtectedRoute allowedRoles={['doctor']}>
+                  <DoctorLayout />
+                </ProtectedRoute>
+              }
+            >
+              <Route path="dashboard" element={<DoctorDashboard />} />
+              <Route path="patients" element={<PatientList />} />
+              <Route path="patients/:patientId" element={<PatientProfile />} />
+              <Route path="patients/:patientId/chat" element={<PatientChat />} />
+              <Route path="appointments" element={<Appointments />} />
+              <Route path="library" element={<TherapyLibrary />} />
+              <Route path="alerts" element={<Alerts />} />
+              <Route path="settings" element={<DoctorSettings />} />
+            </Route>
 
-          {/* Doctor Routes */}
-          <Route
-            path="/doctor"
-            element={
-              <ProtectedRoute allowedRoles={['doctor']}>
-                <DoctorLayout />
-              </ProtectedRoute>
-            }
-          >
-            <Route path="dashboard" element={<DoctorDashboard />} />
-            <Route path="patients" element={<PatientList />} />
-            <Route path="patients/:patientId" element={<PatientProfile />} />
-            <Route path="patients/:patientId/chat" element={<PatientChat />} />
-            <Route path="appointments" element={<Appointments />} />
-            <Route path="library" element={<TherapyLibrary />} />
-            <Route path="alerts" element={<Alerts />} />
-          </Route>
+            {/* Admin Routes */}
+            <Route
+              path="/admin"
+              element={
+                <ProtectedRoute allowedRoles={['admin']}>
+                  <AdminLayout />
+                </ProtectedRoute>
+              }
+            >
+              <Route path="dashboard" element={<AdminDashboard />} />
+              <Route path="users" element={<UserManagement />} />
+              <Route path="doctors" element={<DoctorManagement />} />
+              <Route path="subscriptions" element={<SubscriptionManagement />} />
+              <Route path="ai-models" element={<AIModelManagement />} />
+              <Route path="analytics" element={<Analytics />} />
+              <Route path="audit" element={<AuditLogs />} />
+            </Route>
 
-          {/* Admin Routes */}
-          <Route
-            path="/admin"
-            element={
-              <ProtectedRoute allowedRoles={['admin']}>
-                <AdminLayout />
-              </ProtectedRoute>
-            }
-          >
-            <Route path="dashboard" element={<AdminDashboard />} />
-            <Route path="users" element={<UserManagement />} />
-            <Route path="doctors" element={<DoctorManagement />} />
-            <Route path="subscriptions" element={<SubscriptionManagement />} />
-            <Route path="ai-models" element={<AIModelManagement />} />
-            <Route path="analytics" element={<Analytics />} />
-            <Route path="audit" element={<AuditLogs />} />
-          </Route>
-
-          {/* 404 */}
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes>
-      </BrowserRouter>
-    </AuthProvider>
+            {/* 404 */}
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </BrowserRouter>
+      </AuthProvider>
+    </ThemeProvider >
   );
 }
 

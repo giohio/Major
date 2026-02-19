@@ -1,0 +1,89 @@
+{
+  "session_id": "TEST_DASHBOARD_001",
+  "report_type": "emotion_analytics",
+  "timestamp": "2025-12-12T10:08:30Z",
+  
+  "session_analysis": {
+    "duration_minutes": 8,
+    "total_messages": 5,
+    "user_messages": 5,
+    "dominant_emotion": "sadness",
+    "emotional_breakdown": {
+      "sadness": 0.45,
+      "anger": 0.25,
+      "joy": 0.15,
+      "anxiety": 0.10,
+      "neutral": 0.05
+    },
+    "overall_sentiment": -0.25,
+    "intensity_average": 0.625
+  },
+  
+  "emotional_progression": [
+    {
+      "step": 1,
+      "message_snippet": "Chào bác sĩ, dạo này tôi thấy mệt mỏi quá, chẳng muốn làm gì cả",
+      "emotion": "sadness",
+      "intensity": 0.85,
+      "sentiment": -0.7,
+      "timestamp": "2025-12-12T10:00:00Z"
+    },
+    {
+      "step": 2,
+      "message_snippet": "Công việc áp lực, sếp thì cứ mắng. Tối về nhà tôi chỉ muốn ngủ mãi...",
+      "emotion": "anger",
+      "intensity": 0.65,
+      "sentiment": -0.6,
+      "timestamp": "2025-12-12T10:03:00Z"
+    },
+    {
+      "step": 3,
+      "message_snippet": "Khoảng 2 tuần rồi, từ khi có dự án mới. Giờ tôi thức khuya làm việc...",
+      "emotion": "sadness",
+      "intensity": 0.70,
+      "sentiment": -0.5,
+      "timestamp": "2025-12-12T10:05:30Z"
+    },
+    {
+      "step": 4,
+      "message_snippet": "Không, tôi chỉ muốn nghỉ ngơi thôi. Có lẽ tôi cần một kỳ nghỉ",
+      "emotion": "sadness",
+      "intensity": 0.50,
+      "sentiment": -0.3,
+      "timestamp": "2025-12-12T10:06:45Z"
+    },
+    {
+      "step": 5,
+      "message_snippet": "Cảm ơn bác sĩ đã lắng nghe. Nói ra được tôi cũng thấy nhẹ nhõm hơn rồi",
+      "emotion": "joy",
+      "intensity": 0.55,
+      "sentiment": 0.5,
+      "timestamp": "2025-12-12T10:08:15Z"
+    }
+  ],
+  
+  "triggers": {
+    "primary": "Công việc",
+    "secondary": [
+      "Phê bình từ sếp",
+      "Dự án mới",
+      "Áp lực hiệu suất",
+      "Làm việc quá giờ"
+    ],
+    "frequency": "Cao"
+  },
+  
+  "risk_indicators": {
+    "level": "medium",
+    "flags": [
+      "burnout",
+      "fatigue",
+      "avoidance_behavior",
+      "overworking"
+    ]
+  },
+  
+  "trend": "improving",
+  
+  "simple_summary": "Cảm xúc bắt đầu với sự mệt mỏi và buồn bã sâu sắc do áp lực công việc. Trải qua giai đoạn tức giận khi nghĩ về sếp và môi trường làm việc. Cuối cùng, khi được lắng nghe và chia sẻ, cảm xúc chuyển sang tích cực và nhẹ nhõm hơn."
+}

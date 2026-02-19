@@ -1,8 +1,8 @@
 // API Configuration
 export const API_CONFIG = {
-  BASE_URL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000',
+  BASE_URL: import.meta.env.VITE_API_BASE_URL || '',
   API_PREFIX: '/api',
-  TIMEOUT: 30000,
+  TIMEOUT: 120000,
   // Expose endpoints
   API_ENDPOINTS: {} as typeof API_ENDPOINTS,
 };
@@ -17,10 +17,11 @@ export const API_ENDPOINTS = {
     VERIFY_EMAIL: '/auth/verify-email',
     FORGOT_PASSWORD: '/auth/forgot-password',
     RESET_PASSWORD: '/auth/reset-password',
+    CHANGE_PASSWORD: '/auth/change-password',
     REFRESH: '/auth/refresh',
     ME: '/auth/me',
   },
-  
+
   // Users
   USERS: {
     ME: '/users/me',
@@ -28,8 +29,13 @@ export const API_ENDPOINTS = {
     EMOTIONS: '/users/emotions',
     HISTORY: '/users/history',
     STATS: '/users/stats',
+    APPOINTMENTS: '/users/appointments',
+    SETTINGS: '/users/settings',
+    DOWNLOAD_DATA: '/users/download-data',
+    DEACTIVATE: '/users/deactivate',
+    DELETE_ACCOUNT: '/users/account',
   },
-  
+
   // Chat
   CHAT: {
     SEND: '/chat/send',
@@ -37,9 +43,10 @@ export const API_ENDPOINTS = {
     RECENT: '/chat/recent',
     DELETE_SESSION: (id: number) => `/chat/session/${id}`,
     ARCHIVE_SESSION: (id: number) => `/chat/session/${id}/archive`,
+    DELETE_HISTORY: '/chat/history',
     FEEDBACK: '/chat/feedback',
   },
-  
+
   // Plans
   PLANS: {
     LIST: '/plans',
@@ -49,10 +56,13 @@ export const API_ENDPOINTS = {
     CREATE: '/plans',
     UPDATE: (id: number) => `/plans/${id}`,
   },
-  
+
   // Doctor
   DOCTOR: {
     DASHBOARD: '/doctors/dashboard',
+    LIST: '/doctors',
+    SEARCH_USERS: '/doctors/users/search',
+    GET: (id: number) => `/doctors/${id}`,
     PATIENTS: '/doctors/patients',
     ADD_PATIENT: '/doctors/patients/add',
     GET_PATIENT: (id: number) => `/doctors/patients/${id}`,
@@ -64,7 +74,7 @@ export const API_ENDPOINTS = {
     START_SESSION: '/doctors/session/start',
     END_SESSION: (id: number) => `/doctors/session/${id}/end`,
   },
-  
+
   // Admin
   ADMIN: {
     USERS: '/admin/users',
@@ -95,6 +105,16 @@ export const API_ENDPOINTS = {
     STATS: '/emotion/stats',
     TRENDS: '/emotion/trends',
     INSIGHTS: '/emotion/insights',
+    SAVE_ANALYSIS: '/emotion/analysis/save',
+    ANALYSIS_HISTORY: '/emotion/analysis/history',
+    LATEST_ANALYSIS: '/emotion/analysis/latest',
+    ANALYZE_RECENT: '/emotion/analyze-recent',
+  },
+
+  // ML Model - Emotion Analysis (ngrok)
+  ML_MODEL: {
+    BASE_URL: 'https://lissotrichous-irreclaimably-jessenia.ngrok-free.dev',
+    USER_REPORT: '/report/user',
   },
 
   // Alert
@@ -114,6 +134,19 @@ export const API_ENDPOINTS = {
     TESTS: '/patient/tests',
     TEST: (id: number) => `/patient/tests/${id}`,
     SUBMIT_TEST: (id: number) => `/patient/tests/${id}/submit`,
+  },
+
+  // Exercise
+  EXERCISE: {
+    LIST: '/exercises',
+    GET: (id: number) => `/exercises/${id}`,
+    CATEGORIES: '/exercises/categories',
+    USER_PROGRESS: '/users/exercises/progress',
+    START: (id: number) => `/users/exercises/${id}/start`,
+    COMPLETE: (id: number) => `/users/exercises/${id}/complete`,
+    UPDATE_PROGRESS: (id: number) => `/users/exercises/${id}/progress`,
+    FAVORITE: (id: number) => `/users/exercises/${id}/favorite`,
+    STATS: '/users/exercises/stats',
   },
 };
 

@@ -6,6 +6,7 @@ from app.middleware.role_middleware import admin_required
 
 bp = Blueprint('plans', __name__)
 
+@bp.route('', methods=['GET'])
 @bp.route('/', methods=['GET'])
 def get_plans():
     """Get all available plans"""
@@ -89,6 +90,7 @@ def subscribe(current_user):
         
         # Create payment
         from app.services.payment_service import PaymentService
+        from flask import current_app
         
         payment = PaymentService.create_payment(
             user_id=current_user.id,
@@ -98,8 +100,24 @@ def subscribe(current_user):
         )
         
         # Generate payment URL
-        # This would generate actual payment gateway URL in production
-        payment_url = f"/payment/{payment.id}"
+        if payment_method == 'vnpay':
+            return_url = current_app.config.get('FRONTEND_URL', 'http://localhost:5173') + '/payment-result'
+            vnp_url = current_app.config.get('VNPAY_URL', 'https://sandbox.vnpayment.vn/paymentv2/vpcpay.html')
+            vnp_tmn_code = current_app.config.get('VNPAY_TMN_CODE', '')
+            vnp_hash_secret = current_app.config.get('VNPAY_HASH_SECRET', '')
+            
+            # Check if VNPay is configured
+            if not vnp_tmn_code or not vnp_hash_secret:
+                return jsonify({
+                    'error': 'Hệ thống thanh toán chưa được cấu hình. Vui lòng liên hệ quản trị viên.',
+                    'payment': payment.to_dict()
+                }), 503
+            
+            payment_url = PaymentService.generate_vnpay_payment_url(
+                payment, return_url, vnp_url, vnp_tmn_code, vnp_hash_secret
+            )
+        else:
+            payment_url = f"/payment/{payment.id}"
         
         return jsonify({
             'message': 'Payment created',
@@ -194,4 +212,118 @@ def update_plan(current_user, plan_id):
     except Exception as e:
         from app.extensions import db
         db.session.rollback()
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/<int:plan_id>', methods=['DELETE'])
+@admin_required
+def delete_plan(current_user, plan_id):
+    """Delete a plan (Admin only)"""
+    try:
+        from app.extensions import db
+        plan = db.session.get(Plan, plan_id)
+        
+        if not plan:
+            return jsonify({'error': 'Plan not found'}), 404
+        
+        # Soft delete - just mark as inactive
+        plan.is_active = False
+        db.session.commit()
+        
+        return jsonify({'message': 'Plan deleted successfully'}), 200
+        
+    except Exception as e:
+        from app.extensions import db
+        db.session.rollback()
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/history', methods=['GET'])
+@token_required
+def get_subscription_history(current_user):
+    """Get user's subscription history"""
+    try:
+        from app.extensions import db
+        from app.models.models import Payment
+        
+        page = int(request.args.get('page', 1))
+        per_page = int(request.args.get('per_page', 10))
+        
+        pagination = Payment.query.filter_by(user_id=current_user.id).order_by(
+            Payment.created_at.desc()
+        ).paginate(page=page, per_page=per_page, error_out=False)
+        
+        payments = []
+        for payment in pagination.items:
+            payment_data = payment.to_dict()
+            if payment.plan:
+                payment_data['plan_name'] = payment.plan.name
+            payments.append(payment_data)
+        
+        return jsonify({
+            'payments': payments,
+            'total': pagination.total,
+            'page': page,
+            'per_page': per_page,
+            'pages': pagination.pages
+        }), 200
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/cancel', methods=['POST'])
+@token_required
+def cancel_subscription(current_user):
+    """Cancel current subscription"""
+    try:
+        # Check if user has active subscription (plan ID 9 is Free)
+        if not current_user.subscription_plan or current_user.subscription_plan == 9:
+            return jsonify({'error': 'No active subscription to cancel'}), 400
+        
+        from app.services.payment_service import PaymentService
+        success = PaymentService.cancel_subscription(current_user.id)
+        
+        if success:
+            return jsonify({
+                'message': 'Subscription cancelled successfully',
+                'note': 'Your subscription will remain active until the end date'
+            }), 200
+        else:
+            return jsonify({'error': 'Failed to cancel subscription'}), 500
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@bp.route('/compare', methods=['GET'])
+def compare_plans():
+    """Get plan comparison data"""
+    try:
+        user_type = request.args.get('user_type', 'user')
+        
+        plans = Plan.query.filter_by(is_active=True, user_type=user_type).all()
+        
+        comparison = []
+        for plan in plans:
+            comparison.append({
+                'id': plan.id,
+                'name': plan.name,
+                'price_monthly': float(plan.price_monthly),
+                'price_yearly': float(plan.price_yearly),
+                'features': {
+                    'chat_limit': plan.chat_limit,
+                    'voice_enabled': plan.voice_enabled,
+                    'video_enabled': plan.video_enabled,
+                    'empathy_layer': plan.empathy_layer_enabled,
+                    'doctor_access': plan.doctor_access,
+                    'priority_support': plan.priority_support,
+                    'max_patients': plan.max_patients if user_type == 'doctor' else None,
+                    'analytics_access': plan.analytics_access if user_type == 'doctor' else None
+                }
+            })
+        
+        return jsonify({'plans': comparison}), 200
+        
+    except Exception as e:
         return jsonify({'error': str(e)}), 500
